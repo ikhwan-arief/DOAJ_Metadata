@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "defaults": {
+    "journal_page_size": 50,
+    "journal_max_pages": 3,
+    "journal_max_articles": 250,
+    "publisher_page_size": 50,
+    "publisher_max_pages": 3,
+    "publisher_max_journals": 150,
+    "publisher_max_articles": 300,
+    "article_page_size": 25,
+    "article_max_pages": 2
+  },
+  "targets": []
+}
