@@ -602,5 +602,4 @@ Legal code:
 
 `https://creativecommons.org/licenses/by-sa/4.0/legalcode`
 
-See [LICENSE](/Users/ikhwanarief/Documents/VS%20Code%20Projects/DOAJ_Metadata/LICENSE) for the repository license notice.
-
+See [LICENSE](LICENSE) for the repository license notice.
