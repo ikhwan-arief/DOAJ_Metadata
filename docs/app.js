@@ -120,6 +120,19 @@ const dom = {
   backToSearch: document.querySelector("#back-to-search"),
 };
 
+function getChartTheme() {
+  const styles = getComputedStyle(document.documentElement);
+  return {
+    panel: styles.getPropertyValue("--panel-strong").trim() || "#ffffff",
+    muted: styles.getPropertyValue("--muted").trim() || "#5c5956",
+    line: styles.getPropertyValue("--line").trim() || "#d7d2ce",
+    accent: styles.getPropertyValue("--accent").trim() || "#fd5a3b",
+    warm: styles.getPropertyValue("--warm").trim() || "#fa9a87",
+    article: styles.getPropertyValue("--article").trim() || "#47a178",
+    accentStrong: styles.getPropertyValue("--accent-strong").trim() || "#982e0a",
+  };
+}
+
 function normalizeText(value) {
   return (value || "")
     .normalize("NFKD")
@@ -1232,6 +1245,8 @@ function mountCharts(charts) {
   if (!window.echarts) {
     return;
   }
+  const theme = getChartTheme();
+  const palette = [theme.accent, theme.article, theme.warm, theme.accentStrong];
   for (const [chartKey, chart] of Object.entries(charts)) {
     if (!["bar", "pie", "timeline"].includes(chart.kind)) {
       continue;
@@ -1243,6 +1258,7 @@ function mountCharts(charts) {
     const instance = window.echarts.init(node);
     if (chart.kind === "pie") {
       instance.setOption({
+        color: palette,
         tooltip: { trigger: "item" },
         series: [
           {
@@ -1250,10 +1266,10 @@ function mountCharts(charts) {
             radius: ["42%", "72%"],
             center: ["50%", "52%"],
             itemStyle: {
-              borderColor: "#fffdf7",
+              borderColor: theme.panel,
               borderWidth: 3,
             },
-            label: { color: "#516460" },
+            label: { color: theme.muted },
             data: chart.items || [],
           },
         ],
@@ -1263,25 +1279,26 @@ function mountCharts(charts) {
     if (chart.kind === "bar") {
       const items = chart.items || [];
       instance.setOption({
+        color: palette,
         grid: { left: 44, right: 18, top: 22, bottom: 54 },
         tooltip: { trigger: "axis" },
         xAxis: {
           type: "category",
           data: items.map((item) => item.name),
-          axisLabel: { color: "#516460", rotate: items.length > 6 ? 28 : 0 },
-          axisLine: { lineStyle: { color: "rgba(19,33,31,0.16)" } },
+          axisLabel: { color: theme.muted, rotate: items.length > 6 ? 28 : 0 },
+          axisLine: { lineStyle: { color: theme.line } },
         },
         yAxis: {
           type: "value",
-          axisLabel: { color: "#516460" },
-          splitLine: { lineStyle: { color: "rgba(19,33,31,0.08)" } },
+          axisLabel: { color: theme.muted },
+          splitLine: { lineStyle: { color: theme.line } },
         },
         series: [
           {
             type: "bar",
             data: items.map((item) => item.value),
             itemStyle: {
-              color: "#0d7a75",
+              color: theme.accent,
               borderRadius: [10, 10, 2, 2],
             },
           },
@@ -1290,19 +1307,20 @@ function mountCharts(charts) {
       continue;
     }
     instance.setOption({
+      color: palette,
       grid: { left: 44, right: 18, top: 22, bottom: 54 },
       tooltip: { trigger: "axis" },
-      legend: { textStyle: { color: "#516460" } },
+      legend: { textStyle: { color: theme.muted } },
       xAxis: {
         type: "category",
         data: chart.categories || [],
-        axisLabel: { color: "#516460", rotate: (chart.categories || []).length > 8 ? 28 : 0 },
-        axisLine: { lineStyle: { color: "rgba(19,33,31,0.16)" } },
+        axisLabel: { color: theme.muted, rotate: (chart.categories || []).length > 8 ? 28 : 0 },
+        axisLine: { lineStyle: { color: theme.line } },
       },
       yAxis: {
         type: "value",
-        axisLabel: { color: "#516460" },
-        splitLine: { lineStyle: { color: "rgba(19,33,31,0.08)" } },
+        axisLabel: { color: theme.muted },
+        splitLine: { lineStyle: { color: theme.line } },
       },
       series: (chart.series || []).map((serie, index) => ({
         name: serie.name,
@@ -1310,7 +1328,7 @@ function mountCharts(charts) {
         smooth: true,
         symbolSize: 8,
         lineStyle: { width: 3 },
-        itemStyle: { color: index === 0 ? "#0d7a75" : "#c86f3d" },
+        itemStyle: { color: index === 0 ? theme.accent : theme.article },
         areaStyle: { opacity: 0.08 },
         data: serie.data,
       })),
