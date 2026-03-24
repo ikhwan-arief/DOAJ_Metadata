@@ -27,9 +27,9 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    config_path = Path(args.config).resolve()
-    output_dir = Path(args.output_dir).resolve()
-    meta_path = Path(args.meta_path).resolve()
+    config_path = Path(args.config)
+    output_dir = Path(args.output_dir)
+    meta_path = Path(args.meta_path)
 
     result = build_snapshots(config_path=config_path, output_dir=output_dir)
     write_json(meta_path, result["meta"])
