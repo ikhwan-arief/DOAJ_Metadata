@@ -4,6 +4,20 @@ const MAX_LIVE_ARTICLES = 80;
 const JOURNAL_CORPUS_PAGE_SIZE = 50;
 const JOURNAL_CORPUS_MAX_PAGES = 30;
 const JOURNAL_CORPUS_MAX_RECORDS = 1500;
+const MATCHING_RESULT_LIMIT = 20;
+const MATCHING_JOURNAL_QUERY_PAGE_SIZE = 20;
+const MATCHING_ARTICLE_QUERY_PAGE_SIZE = 20;
+const MATCHING_QUERY_COUNT = 6;
+const MATCHING_RESOLUTION_LIMIT = 12;
+const MATCHING_ENRICH_LIMIT = 8;
+const MATCHING_FETCH_CONCURRENCY = 2;
+const MATCHING_ENRICH_PAGE_SIZE = 25;
+const MATCHING_ENRICH_MAX_PAGES = 6;
+const MATCHING_ENRICH_MAX_RECORDS = 150;
+const MATCHING_MIN_ABSTRACT_LENGTH = 240;
+const FETCH_TIMEOUT_MS = 18000;
+const MATCHING_MODEL_URL = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+const MATCHING_MODEL_ID = "Xenova/all-MiniLM-L6-v2";
 
 const STOPWORDS = new Set([
   "abstract",
@@ -263,23 +277,53 @@ const STOPWORDS = new Set([
 ]);
 
 const state = {
+  ui: {
+    mode: "main-search",
+  },
   search: {
     query: "",
     fetchedAt: null,
     groups: null,
+  },
+  matching: {
+    abstract: "",
+    submitted: false,
+    fetchedAt: null,
+    terms: [],
+    phrases: [],
+    queries: [],
+    results: [],
+    status: "idle",
+    rankingLabel: "",
+    modelStatus: "idle",
+    modelError: "",
+    rerankToken: 0,
+    selectedJournalKey: "",
   },
   entities: {
     publisher: new Map(),
     journal: new Map(),
     article: new Map(),
   },
+  standaloneJournal: null,
 };
 
 const dom = {
+  modeMainSearch: document.querySelector("#mode-main-search"),
+  modeJournalMatching: document.querySelector("#mode-journal-matching"),
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
   searchNote: document.querySelector("#search-note"),
+  matchingForm: document.querySelector("#matching-form"),
+  matchingAbstract: document.querySelector("#matching-abstract"),
+  matchingNote: document.querySelector("#matching-note"),
+  matchingMeta: document.querySelector("#matching-meta"),
+  matchingPanel: document.querySelector("#matching-panel"),
+  matchingState: document.querySelector("#matching-state"),
+  matchingResults: document.querySelector("#matching-results"),
   hero: document.querySelector(".hero"),
+  heroMainSearch: document.querySelector("#hero-main-search"),
+  heroJournalMatching: document.querySelector("#hero-journal-matching"),
   detailBreadcrumb: document.querySelector("#detail-breadcrumb"),
   homeView: document.querySelector("#home-view"),
   resultsPanel: document.querySelector("#results-panel"),
@@ -299,6 +343,8 @@ const dom = {
   dashboardContent: document.querySelector("#dashboard-content"),
   backToSearch: document.querySelector("#back-to-search"),
 };
+
+let matchingModelPromise = null;
 
 function getChartTheme() {
   const styles = getComputedStyle(document.documentElement);
@@ -479,6 +525,39 @@ function topTerms(texts, limit = 16) {
     .map(([name, value]) => ({ name, value }));
 }
 
+function tokenList(text, { minLength = 3 } = {}) {
+  return normalizeText(text)
+    .split(/\s+/)
+    .filter((token) => token && token.length >= minLength && !STOPWORDS.has(token) && !/^\d+$/.test(token));
+}
+
+function phraseCounts(text, { minWords = 2, maxWords = 3, limit = 12 } = {}) {
+  const tokens = tokenList(text, { minLength: 4 });
+  const counter = new Map();
+  for (let size = minWords; size <= maxWords; size += 1) {
+    for (let index = 0; index <= tokens.length - size; index += 1) {
+      const phraseTokens = tokens.slice(index, index + size);
+      if (new Set(phraseTokens).size < size) {
+        continue;
+      }
+      const phrase = phraseTokens.join(" ");
+      counter.set(phrase, (counter.get(phrase) || 0) + 1);
+    }
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value }));
+}
+
+function clampText(value, limit = 1400) {
+  const text = `${value || ""}`.trim();
+  if (text.length <= limit) {
+    return text;
+  }
+  return `${text.slice(0, Math.max(limit - 1, 0)).trimEnd()}…`;
+}
+
 function countBy(values, limit = 12) {
   const counter = new Map();
   for (const value of values) {
@@ -556,6 +635,16 @@ function journalKeywords(record) {
 function journalWebsite(record) {
   const refs = journalBib(record).ref || {};
   return refs.journal || refs.oa_statement || refs.aims_scope || null;
+}
+
+function journalAimsScope(record) {
+  const refs = journalBib(record).ref || {};
+  return refs.aims_scope || refs.oa_statement || "";
+}
+
+function journalAuthorGuidelines(record) {
+  const refs = journalBib(record).ref || {};
+  return refs.author_instructions || null;
 }
 
 function journalDisplayDate(record) {
@@ -703,6 +792,39 @@ function sortArticles(records) {
   });
 }
 
+function journalSignature(record) {
+  const issns = journalIssns(record).map(normalizeText).filter(Boolean).sort();
+  return {
+    id: `${record?.id || ""}`.trim(),
+    titleKey: normalizeText(journalTitle(record)),
+    publisherKey: normalizeText(journalPublisher(record)),
+    issns,
+    primaryKey: `${record?.id || ""}`.trim() || `${normalizeText(journalTitle(record))}::${issns.join("|")}`,
+  };
+}
+
+function articleJournalSignature(record) {
+  const issns = articleJournalIssns(record).map(normalizeText).filter(Boolean).sort();
+  return {
+    titleKey: normalizeText(articleJournalTitle(record)),
+    publisherKey: normalizeText(articleJournalPublisher(record)),
+    issns,
+  };
+}
+
+function sameJournalSignature(left, right) {
+  if (!left || !right) {
+    return false;
+  }
+  if (left.id && right.id && left.id === right.id) {
+    return true;
+  }
+  if (left.issns.length && right.issns.length) {
+    return left.issns.some((issn) => right.issns.includes(issn));
+  }
+  return Boolean(left.titleKey) && left.titleKey === right.titleKey && (!left.publisherKey || !right.publisherKey || left.publisherKey === right.publisherKey);
+}
+
 function derivePublishers(journals, articles) {
   const map = new Map();
 
@@ -779,12 +901,26 @@ function derivePublishers(journals, articles) {
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url);
-  if (!response.ok) {
-    const message = await response.text();
-    throw new Error(`Request failed (${response.status}): ${message.slice(0, 180)}`);
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    if (!response.ok) {
+      const message = await response.text();
+      throw new Error(`Request failed (${response.status}): ${message.slice(0, 180)}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error?.name === "AbortError") {
+      throw new Error("Live DOAJ request timed out.");
+    }
+    if (error instanceof TypeError) {
+      throw new Error("Live DOAJ request failed in this browser.");
+    }
+    throw error;
+  } finally {
+    window.clearTimeout(timeoutId);
   }
-  return response.json();
 }
 
 async function fetchPaginated(entity, query, { pageSize = 25, maxPages = 2, maxRecords = 100 } = {}) {
@@ -809,6 +945,40 @@ async function fetchPaginated(entity, query, { pageSize = 25, maxPages = 2, maxR
     capped: total > results.length,
     results: results.slice(0, maxRecords),
   };
+}
+
+async function fetchPaginatedSafe(entity, query, options = {}) {
+  try {
+    const payload = await fetchPaginated(entity, query, options);
+    return { ...payload, ok: true, error: "" };
+  } catch (error) {
+    return {
+      query,
+      entity,
+      total: 0,
+      capped: false,
+      results: [],
+      ok: false,
+      error: error.message || "Live DOAJ request failed.",
+    };
+  }
+}
+
+async function mapWithConcurrency(items, limit, iteratee) {
+  const values = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      values[currentIndex] = await iteratee(items[currentIndex], currentIndex);
+    }
+  }
+
+  const workerCount = Math.max(1, Math.min(limit, items.length || 1));
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return values;
 }
 
 function filterPublisherJournals(records, publisherName) {
@@ -842,15 +1012,22 @@ function buildJournalCorpusQueries(journalRecord) {
   ]).filter(Boolean);
 }
 
-async function fetchJournalCorpusArticles(journalRecord) {
+async function fetchJournalCorpusArticles(
+  journalRecord,
+  {
+    pageSize = JOURNAL_CORPUS_PAGE_SIZE,
+    maxPages = JOURNAL_CORPUS_MAX_PAGES,
+    maxRecords = JOURNAL_CORPUS_MAX_RECORDS,
+  } = {}
+) {
   const queries = buildJournalCorpusQueries(journalRecord);
   const byId = new Map();
 
   for (const query of queries) {
     const payload = await fetchPaginated("articles", query, {
-      pageSize: JOURNAL_CORPUS_PAGE_SIZE,
-      maxPages: JOURNAL_CORPUS_MAX_PAGES,
-      maxRecords: JOURNAL_CORPUS_MAX_RECORDS,
+      pageSize,
+      maxPages,
+      maxRecords,
     });
     for (const article of filterArticlesForJournal(payload.results || [], journalRecord)) {
       byId.set(`${article.id}`, article);
@@ -858,6 +1035,439 @@ async function fetchJournalCorpusArticles(journalRecord) {
   }
 
   return sortArticles([...byId.values()]);
+}
+
+function looksLikeEnglishAbstract(text) {
+  const tokens = normalizeText(text).split(/\s+/).filter(Boolean);
+  if (tokens.length < 40) {
+    return false;
+  }
+  const englishSignals = new Set([
+    "the",
+    "and",
+    "with",
+    "from",
+    "this",
+    "that",
+    "study",
+    "results",
+    "method",
+    "analysis",
+    "journal",
+    "article",
+    "using",
+    "were",
+    "between",
+    "among",
+  ]);
+  const indonesianSignals = new Set([
+    "dan",
+    "yang",
+    "dengan",
+    "untuk",
+    "pada",
+    "dalam",
+    "adalah",
+    "hasil",
+    "penelitian",
+    "terhadap",
+    "dari",
+    "akan",
+  ]);
+  const englishCount = tokens.filter((token) => englishSignals.has(token)).length;
+  const indonesianCount = tokens.filter((token) => indonesianSignals.has(token)).length;
+  return englishCount >= indonesianCount;
+}
+
+function buildAbstractProfile(abstract) {
+  const cleanAbstract = `${abstract || ""}`.trim();
+  const termItems = topTerms([cleanAbstract], 12);
+  const phraseItems = phraseCounts(cleanAbstract, { minWords: 2, maxWords: 3, limit: 8 });
+  const terms = termItems.map((item) => item.name);
+  const phrases = phraseItems.map((item) => item.name);
+  const fallbackTerms = tokenList(cleanAbstract, { minLength: 5 }).slice(0, 6);
+  const queries = unique([
+    ...phrases.slice(0, 3).map(quotedPhrase),
+    ...terms.slice(0, MATCHING_QUERY_COUNT - 3),
+    ...fallbackTerms,
+  ]).slice(0, MATCHING_QUERY_COUNT);
+
+  return {
+    abstract: cleanAbstract,
+    terms,
+    phrases,
+    queries,
+    lexicalText: unique([...phrases, ...terms]).join(" "),
+  };
+}
+
+function matchingSummaryText(result) {
+  return matchingJournalSummary(result.journal, result.matchedTerms, { articleSignals: result.articleCount });
+}
+
+function buildMatchingCandidateText(result) {
+  const journal = result.journal;
+  const seedArticles = result.seedArticles || [];
+  const parts = [
+    journalTitle(journal),
+    journalPublisher(journal),
+    journalCountry(journal),
+    journalLanguages(journal).join(" "),
+    journalSubjects(journal).join(" "),
+    journalKeywords(journal).join(" "),
+    journalReview(journal).join(" "),
+    journalAimsScope(journal),
+    seedArticles.map(articleTitle).join(" "),
+    seedArticles.map(articleAbstract).join(" "),
+    seedArticles.flatMap(articleKeywords).join(" "),
+    seedArticles.flatMap(articleSubjects).join(" "),
+  ];
+  return clampText(parts.filter(Boolean).join(". "), 3200);
+}
+
+function overlapTerms(profile, text, limit = 4) {
+  const haystack = ` ${normalizeText(text)} `;
+  const matched = [];
+  for (const phrase of profile.phrases) {
+    const value = normalizeText(phrase);
+    if (value && haystack.includes(` ${value} `)) {
+      matched.push(phrase);
+    }
+  }
+  for (const term of profile.terms) {
+    const value = normalizeText(term);
+    if (value && haystack.includes(` ${value} `)) {
+      matched.push(term);
+    }
+  }
+  return unique(matched).slice(0, limit);
+}
+
+function lexicalMatchScore(profile, text, { articleBoost = 0 } = {}) {
+  const haystack = ` ${normalizeText(text)} `;
+  let score = 0;
+  const matched = [];
+  profile.phrases.forEach((phrase, index) => {
+    const weight = 6 - Math.min(index, 4);
+    const value = normalizeText(phrase);
+    if (value && haystack.includes(` ${value} `)) {
+      score += weight;
+      matched.push(phrase);
+    }
+  });
+  profile.terms.forEach((term, index) => {
+    const weight = 3 - Math.min(index * 0.15, 1.6);
+    const value = normalizeText(term);
+    if (value && haystack.includes(` ${value} `)) {
+      score += weight;
+      matched.push(term);
+    }
+  });
+  return {
+    score: score + Math.min(articleBoost, 5),
+    matchedTerms: unique(matched).slice(0, 4),
+  };
+}
+
+function cosineSimilarity(left, right) {
+  if (!left?.length || !right?.length || left.length !== right.length) {
+    return 0;
+  }
+  let dot = 0;
+  let leftNorm = 0;
+  let rightNorm = 0;
+  for (let index = 0; index < left.length; index += 1) {
+    dot += left[index] * right[index];
+    leftNorm += left[index] * left[index];
+    rightNorm += right[index] * right[index];
+  }
+  if (!leftNorm || !rightNorm) {
+    return 0;
+  }
+  return dot / (Math.sqrt(leftNorm) * Math.sqrt(rightNorm));
+}
+
+function tensorRows(tensor) {
+  if (!tensor) {
+    return [];
+  }
+  if (typeof tensor.tolist === "function") {
+    const rows = tensor.tolist();
+    return Array.isArray(rows[0]) ? rows : [rows];
+  }
+  if (Array.isArray(tensor)) {
+    return Array.isArray(tensor[0]) ? tensor : [tensor];
+  }
+  return [];
+}
+
+async function loadMatchingModel() {
+  if (state.matching.modelStatus === "ready" && matchingModelPromise) {
+    return matchingModelPromise;
+  }
+  if (matchingModelPromise) {
+    return matchingModelPromise;
+  }
+  state.matching.modelStatus = "loading";
+  state.matching.modelError = "";
+  matchingModelPromise = import(MATCHING_MODEL_URL)
+    .then(async ({ env, pipeline }) => {
+      env.allowLocalModels = false;
+      const extractor = await pipeline("feature-extraction", MATCHING_MODEL_ID);
+      state.matching.modelStatus = "ready";
+      return extractor;
+    })
+    .catch((error) => {
+      state.matching.modelStatus = "failed";
+      state.matching.modelError = error.message || "Semantic reranking is unavailable.";
+      matchingModelPromise = null;
+      throw error;
+    });
+  return matchingModelPromise;
+}
+
+async function embedTexts(texts) {
+  const extractor = await loadMatchingModel();
+  const output = await extractor(texts, { pooling: "mean", normalize: true });
+  return tensorRows(output);
+}
+
+function mergeMatchingCandidate(map, journal, { source = "journal", seedArticles = [] } = {}) {
+  if (!journal?.id) {
+    return null;
+  }
+  const signature = journalSignature(journal);
+  const existing = [...map.values()].find((candidate) => sameJournalSignature(candidate.signature, signature));
+  if (existing) {
+    const currentUpdated = journalSortTimestamp(existing.journal);
+    const nextUpdated = journalSortTimestamp(journal);
+    if (nextUpdated > currentUpdated) {
+      existing.journal = journal;
+      existing.signature = signature;
+    }
+    existing.sources.add(source);
+    seedArticles.forEach((article) => existing.seedArticles.set(`${article.id}`, article));
+    return existing;
+  }
+  const candidate = {
+    entityKey: `${journal.id}`,
+    journal,
+    signature,
+    seedArticles: new Map(seedArticles.map((article) => [`${article.id}`, article])),
+    sources: new Set([source]),
+    articleCount: seedArticles.length,
+    lexicalScore: 0,
+    semanticScore: null,
+    finalScore: 0,
+    matchedTerms: [],
+    summary: "",
+    rationale: "",
+    rankingMode: "lexical",
+    enriched: false,
+    authorGuidelinesUrl: journalAuthorGuidelines(journal),
+  };
+  map.set(candidate.entityKey, candidate);
+  return candidate;
+}
+
+function matchingArticleJournalGroup(articles) {
+  const grouped = new Map();
+  for (const article of articles) {
+    const signature = articleJournalSignature(article);
+    const key = signature.issns.join("|") || `${signature.titleKey}::${signature.publisherKey}`;
+    if (!key.trim()) {
+      continue;
+    }
+    if (!grouped.has(key)) {
+      grouped.set(key, {
+        signature,
+        title: articleJournalTitle(article),
+        publisher: articleJournalPublisher(article),
+        articles: [],
+      });
+    }
+    grouped.get(key).articles.push(article);
+  }
+  return [...grouped.values()]
+    .sort((left, right) => right.articles.length - left.articles.length || left.signature.titleKey.localeCompare(right.signature.titleKey))
+    .slice(0, MATCHING_RESOLUTION_LIMIT);
+}
+
+function resolveJournalFromResults(group, results) {
+  return results.find((record) => sameJournalSignature(journalSignature(record), group.signature)) || null;
+}
+
+async function resolveArticleDerivedJournal(group) {
+  const queries = unique([
+    ...group.signature.issns.map(quotedPhrase),
+    group.title ? quotedPhrase(group.title) : "",
+  ]).filter(Boolean);
+  for (const query of queries) {
+    const payload = await fetchPaginatedSafe("journals", query, {
+      pageSize: 10,
+      maxPages: 1,
+      maxRecords: 10,
+    });
+    if (!payload.ok) {
+      continue;
+    }
+    const resolved = resolveJournalFromResults(group, payload.results || []);
+    if (resolved) {
+      return resolved;
+    }
+  }
+  return null;
+}
+
+async function fetchMatchingCandidates(profile) {
+  const queryList = profile.queries.slice(0, MATCHING_QUERY_COUNT);
+  const journalPayloads = await mapWithConcurrency(
+    queryList,
+    MATCHING_FETCH_CONCURRENCY,
+    (query) =>
+      fetchPaginatedSafe("journals", query, {
+        pageSize: MATCHING_JOURNAL_QUERY_PAGE_SIZE,
+        maxPages: 1,
+        maxRecords: MATCHING_JOURNAL_QUERY_PAGE_SIZE,
+      })
+  );
+  const articlePayloads = await mapWithConcurrency(
+    queryList,
+    MATCHING_FETCH_CONCURRENCY,
+    (query) =>
+      fetchPaginatedSafe("articles", query, {
+        pageSize: MATCHING_ARTICLE_QUERY_PAGE_SIZE,
+        maxPages: 1,
+        maxRecords: MATCHING_ARTICLE_QUERY_PAGE_SIZE,
+      })
+  );
+  const errors = [
+    ...journalPayloads.filter((payload) => !payload.ok).map((payload) => `journals:${payload.query}`),
+    ...articlePayloads.filter((payload) => !payload.ok).map((payload) => `articles:${payload.query}`),
+  ];
+
+  const journalCandidates = new Map();
+  const journalResults = sortJournals(journalPayloads.flatMap((payload) => payload.results || []));
+  const articleResults = sortArticles(articlePayloads.flatMap((payload) => payload.results || []));
+
+  for (const journal of journalResults) {
+    mergeMatchingCandidate(journalCandidates, journal, { source: "journal" });
+  }
+
+  const groups = matchingArticleJournalGroup(articleResults);
+  const resolutionResults = await mapWithConcurrency(
+    groups,
+    MATCHING_FETCH_CONCURRENCY,
+    (group) => resolveArticleDerivedJournal(group)
+  );
+
+  resolutionResults.forEach((resolvedJournal, index) => {
+    if (!resolvedJournal) {
+      return;
+    }
+    mergeMatchingCandidate(journalCandidates, resolvedJournal, {
+      source: "article",
+      seedArticles: groups[index].articles,
+    });
+  });
+
+  for (const candidate of journalCandidates.values()) {
+    candidate.articleCount = candidate.seedArticles.size;
+  }
+
+  return {
+    journals: [...journalCandidates.values()],
+    articleResults,
+    errors,
+  };
+}
+
+function rankMatchingCandidates(profile, candidates, { rankingMode = "lexical" } = {}) {
+  const ranked = candidates.map((candidate) => {
+    const seedArticles = [...candidate.seedArticles.values()];
+    const candidateText = buildMatchingCandidateText({ ...candidate, seedArticles });
+    const lexical = lexicalMatchScore(profile, candidateText, { articleBoost: seedArticles.length * 0.45 });
+    const semantic = candidate.semanticScore ?? null;
+    const finalScore = semantic === null ? lexical.score : semantic * 100 + lexical.score * 0.28;
+    const matchedTerms = lexical.matchedTerms.length ? lexical.matchedTerms : overlapTerms(profile, candidateText, 4);
+    return {
+      ...candidate,
+      seedArticles,
+      lexicalScore: lexical.score,
+      finalScore,
+      semanticScore: semantic,
+      matchedTerms,
+      summary: matchingJournalSummary(candidate.journal, matchedTerms, { articleSignals: seedArticles.length }),
+      rationale: matchedTerms.length
+        ? `This journal aligns with the abstract through ${matchedTerms.slice(0, 3).join(", ")}.`
+        : "This journal overlaps with the abstract through live metadata and article evidence.",
+      rankingMode,
+      authorGuidelinesUrl: journalAuthorGuidelines(candidate.journal),
+    };
+  });
+
+  return ranked
+    .sort((left, right) => right.finalScore - left.finalScore || journalSortTimestamp(right.journal) - journalSortTimestamp(left.journal))
+    .slice(0, MATCHING_RESULT_LIMIT);
+}
+
+async function applySemanticRerank(profile, results, rerankToken) {
+  const candidateTexts = results.map(buildMatchingCandidateText);
+  if (!candidateTexts.length) {
+    return results;
+  }
+  const embeddings = await embedTexts([profile.abstract, ...candidateTexts]);
+  if (state.matching.rerankToken !== rerankToken) {
+    return results;
+  }
+  const [abstractEmbedding, ...candidateEmbeddings] = embeddings;
+  return rankMatchingCandidates(
+    profile,
+    results.map((result, index) => ({
+      ...result,
+      semanticScore: cosineSimilarity(abstractEmbedding, candidateEmbeddings[index] || []),
+    })),
+    { rankingMode: "semantic" }
+  );
+}
+
+async function enrichMatchingResults(profile, results, rerankToken) {
+  const enrichedCandidates = await mapWithConcurrency(
+    results.slice(0, MATCHING_ENRICH_LIMIT),
+    MATCHING_FETCH_CONCURRENCY,
+    async (result) => {
+      try {
+        const articles = await fetchJournalCorpusArticles(result.journal, {
+          pageSize: MATCHING_ENRICH_PAGE_SIZE,
+          maxPages: MATCHING_ENRICH_MAX_PAGES,
+          maxRecords: MATCHING_ENRICH_MAX_RECORDS,
+        });
+        const seedMap = new Map(result.seedArticles.map((article) => [`${article.id}`, article]));
+        articles.forEach((article) => seedMap.set(`${article.id}`, article));
+        return {
+          ...result,
+          seedArticles: [...seedMap.values()],
+          articleCount: seedMap.size,
+          enriched: true,
+        };
+      } catch {
+        return result;
+      }
+    }
+  );
+
+  const passthrough = results.slice(MATCHING_ENRICH_LIMIT);
+  const combined = [...enrichedCandidates, ...passthrough];
+  let reranked = rankMatchingCandidates(profile, combined, { rankingMode: "lexical+articles" });
+  if (state.matching.rerankToken !== rerankToken) {
+    return reranked;
+  }
+  try {
+    reranked = await applySemanticRerank(profile, reranked, rerankToken);
+  } catch {
+    return reranked;
+  }
+  return reranked;
 }
 
 function publisherCardSummary(item) {
@@ -889,6 +1499,28 @@ function journalCardSummary(record) {
     segments.push(`Main subjects: ${subjects.slice(0, 2).join(", ")}.`);
   }
   return segments.join(" ") || "Journal metadata is available in DOAJ.";
+}
+
+function matchingJournalSummary(record, matchedTerms = [], { articleSignals = 0 } = {}) {
+  const subjects = journalSubjects(record);
+  const review = journalReview(record);
+  const segments = [];
+  if (subjects.length) {
+    segments.push(`Focus areas include ${subjects.slice(0, 3).join(", ")}.`);
+  }
+  if (matchedTerms.length) {
+    segments.push(`Matched themes: ${matchedTerms.slice(0, 4).join(", ")}.`);
+  }
+  if (articleSignals) {
+    segments.push(`${articleSignals} live article signal${articleSignals === 1 ? "" : "s"} support this recommendation.`);
+  }
+  if (review.length) {
+    segments.push(`Review model: ${review.slice(0, 2).join(", ")}.`);
+  }
+  if (!segments.length) {
+    return journalCardSummary(record);
+  }
+  return segments.join(" ");
 }
 
 function findJournalForArticle(articleRecord, journals) {
@@ -957,6 +1589,12 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
     title: publisher.title,
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
+    meta_label: searchContext.query
+      ? `Search phrase: "${searchContext.query}" • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
+      : `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`,
+    scope_note: searchContext.query
+      ? `All charts and related lists on this page are restricted to the original search phrase: "${searchContext.query}".`
+      : "This publisher view reflects the currently loaded DOAJ records.",
     summary: `${publisher.title} currently appears with ${journals.length} journals and ${articles.length} query-matched articles across ${unique(countries).length || 0} publisher countr${unique(countries).length === 1 ? "y" : "ies"} and ${languages.length} language${languages.length === 1 ? "" : "s"}.`,
     kpis: [
       { label: "Total journals", value: formatNumber(journals.length), tone: "accent" },
@@ -1005,13 +1643,20 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
       },
       {
         title: "Query scope",
-        text: `All charts and related lists on this page are restricted to the original search phrase: "${searchContext.query}".`,
+        text: searchContext.query
+          ? `All charts and related lists on this page are restricted to the original search phrase: "${searchContext.query}".`
+          : "This publisher view reflects the currently loaded DOAJ records.",
       },
     ],
   };
 }
 
-function buildJournalPayload(journal, allArticles, searchContext, { matchedArticles = [] } = {}) {
+function buildJournalPayload(
+  journal,
+  allArticles,
+  searchContext,
+  { matchedArticles = [], contextType = "search", matchingContext = null } = {}
+) {
   const languages = journalLanguages(journal);
   const licenses = journalLicenses(journal);
   const review = journalReview(journal);
@@ -1036,15 +1681,36 @@ function buildJournalPayload(journal, allArticles, searchContext, { matchedArtic
   ]).sort((left, right) => left.localeCompare(right));
   const publicationMap = new Map(publicationYears.map((item) => [item.name, item.value]));
   const createdMap = new Map(createdYears.map((item) => [item.name, item.value]));
+  const authorGuidelinesUrl = journalAuthorGuidelines(journal);
+  const summary = contextType === "matching"
+    ? `${journalTitle(journal)} aligns with the submitted abstract through ${matchingContext?.matchedTerms?.slice(0, 3).join(", ") || "live metadata and article themes"}. This journal currently exposes ${allArticles.length} retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}.`
+    : searchContext.query
+      ? `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}. The matched list remains restricted to the original search phrase and currently shows ${matchedArticles.length} item${matchedArticles.length === 1 ? "" : "s"}.`
+      : `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"} from live DOAJ journal retrieval.`;
+  const metaLabel = contextType === "matching"
+    ? `Journal Matching • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
+    : searchContext.query
+      ? `Search phrase: "${searchContext.query}" • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
+      : `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`;
+  const scopeNote = contextType === "matching"
+    ? "This journal dashboard was opened from Journal Matching. KPI charts still use live DOAJ article records for this journal only."
+    : searchContext.query
+      ? `The left-side matched list is restricted to "${searchContext.query}", but the charts use all currently retrievable DOAJ articles for this journal.`
+      : "The charts on this page use all currently retrievable DOAJ articles for this journal.";
 
   return {
     entity_type: "journal",
     title: journalTitle(journal),
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
+    context_type: contextType,
+    meta_label: metaLabel,
+    scope_note: scopeNote,
     journalWebsite: journalWebsite(journal),
+    authorGuidelinesUrl,
     issns: journalIssns(journal),
-    summary: `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}. The matched list remains restricted to the original search phrase and currently shows ${matchedArticles.length} item${matchedArticles.length === 1 ? "" : "s"}.`,
+    summary,
+    matchingContext,
     kpis: [
       { label: "Journal title", value: journalTitle(journal), tone: "accent" },
       { label: "Publisher", value: journalPublisher(journal) || "-" },
@@ -1097,7 +1763,7 @@ function buildJournalPayload(journal, allArticles, searchContext, { matchedArtic
       },
       {
         title: "Query scope",
-        text: `The left-side matched list is restricted to "${searchContext.query}", but the charts use all currently retrievable DOAJ articles for this journal.`,
+        text: scopeNote,
       },
     ],
   };
@@ -1126,6 +1792,12 @@ function buildArticlePayload(article, searchContext) {
     title: articleTitle(article),
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
+    meta_label: searchContext.query
+      ? `Search phrase: "${searchContext.query}" • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
+      : `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`,
+    scope_note: searchContext.query
+      ? `This article detail page is tied to the original search phrase "${searchContext.query}".`
+      : "This article detail page reflects the selected DOAJ article record.",
     doi: articleDoi(article),
     doiUrl: articleDoiUrl(article),
     fulltextUrl: articleFulltextUrl(article),
@@ -1171,7 +1843,9 @@ function buildArticlePayload(article, searchContext) {
       },
       {
         title: "Query scope",
-        text: `This article detail page is tied to the original search phrase "${searchContext.query}".`,
+        text: searchContext.query
+          ? `This article detail page is tied to the original search phrase "${searchContext.query}".`
+          : "This article detail page reflects the selected DOAJ article record.",
       },
     ],
   };
@@ -1180,6 +1854,11 @@ function buildArticlePayload(article, searchContext) {
 function setResultsState(message, hidden = false) {
   dom.resultsState.textContent = message;
   dom.resultsState.classList.toggle("hidden", hidden);
+}
+
+function setMatchingState(message, hidden = false) {
+  dom.matchingState.textContent = message;
+  dom.matchingState.classList.toggle("hidden", hidden);
 }
 
 function setDetailResultsState(message, hidden = false) {
@@ -1192,12 +1871,21 @@ function setDashboardState(message, hidden = false) {
   dom.dashboardState.classList.toggle("hidden", hidden);
 }
 
-function syncUrl(query, hash = "", replace = false) {
+function currentModeFromUrl() {
+  return new URL(window.location.href).searchParams.get("mode") === "matching" ? "matching" : "main-search";
+}
+
+function syncUrl(query, hash = "", replace = false, { mode = currentModeFromUrl() } = {}) {
   const url = new URL(window.location.href);
   if (query) {
     url.searchParams.set("q", query);
   } else {
     url.searchParams.delete("q");
+  }
+  if (mode === "matching") {
+    url.searchParams.set("mode", "matching");
+  } else {
+    url.searchParams.delete("mode");
   }
   url.hash = hash;
   const next = `${url.pathname}${url.search}${url.hash}`;
@@ -1232,6 +1920,7 @@ function clearEntityMaps() {
 }
 
 function indexGroups(groups) {
+  state.standaloneJournal = null;
   clearEntityMaps();
   for (const publisher of groups.publishers) {
     state.entities.publisher.set(publisher.entity_key, publisher);
@@ -1244,14 +1933,24 @@ function indexGroups(groups) {
   }
 }
 
-function showHomeView({ showResults = true } = {}) {
+function updateModeButtons(mode) {
+  dom.modeMainSearch.classList.toggle("is-active", mode === "main-search");
+  dom.modeJournalMatching.classList.toggle("is-active", mode === "matching");
+}
+
+function showHomeView({ mode = currentModeFromUrl(), showResults = true, showMatchingResults = false } = {}) {
+  state.ui.mode = mode;
   dom.hero.classList.remove("hidden");
   dom.detailBreadcrumb.classList.add("hidden");
   dom.homeView.classList.remove("hidden");
-  dom.resultsPanel.classList.toggle("hidden", !showResults);
+  dom.heroMainSearch.classList.toggle("hidden", mode !== "main-search");
+  dom.heroJournalMatching.classList.toggle("hidden", mode !== "matching");
+  dom.resultsPanel.classList.toggle("hidden", mode !== "main-search" || !showResults);
+  dom.matchingPanel.classList.toggle("hidden", mode !== "matching" || !showMatchingResults);
   dom.detailView.classList.add("hidden");
   dom.detailView.classList.remove("single-column");
   dom.relatedPanel.classList.remove("hidden");
+  updateModeButtons(mode);
 }
 
 function showDetailView({ singleColumn = false } = {}) {
@@ -1264,10 +1963,16 @@ function showDetailView({ singleColumn = false } = {}) {
 }
 
 function navigateToEntity(entityType, entityKey) {
+  const mode = currentModeFromUrl();
+  if (mode === "matching") {
+    syncUrl("", `${entityType}/${encodeURIComponent(entityKey)}`, false, { mode: "matching" });
+    void renderRoute();
+    return;
+  }
   if (!state.search.query) {
     return;
   }
-  syncUrl(state.search.query, `${entityType}/${encodeURIComponent(entityKey)}`);
+  syncUrl(state.search.query, `${entityType}/${encodeURIComponent(entityKey)}`, false, { mode: "main-search" });
   void renderRoute();
 }
 
@@ -1323,6 +2028,49 @@ function renderJournalCard(record, { showWebsite = false } = {}) {
       <div class="result-actions">
         <div class="muted-line">Sorted by latest journal update</div>
         <button class="result-action" data-entity-type="journal" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
+      </div>
+    </article>
+  `;
+}
+
+function renderMatchingJournalCard(result, { compact = false } = {}) {
+  const journal = result.journal;
+  const score = Number.isFinite(result.finalScore) ? result.finalScore : 0;
+  const scoreLabel = result.semanticScore === null
+    ? `${score.toFixed(1)} lexical`
+    : `${(Math.max(result.semanticScore, 0) * 100).toFixed(1)} semantic`;
+  const themes = result.matchedTerms.length
+    ? `<div class="tags-wrap">${result.matchedTerms.map((item) => `<span class="tag-item">${escapeHtml(item)}</span>`).join("")}</div>`
+    : `<span class="muted-line">No explicit theme overlap was extracted.</span>`;
+  return `
+    <article class="result-card ${compact ? "result-card--compact" : "result-card--matching"}">
+      <div class="result-header">
+        <div>
+          <div class="result-title">${escapeHtml(journalTitle(journal))}</div>
+          <div class="result-meta">${escapeHtml(journalPublisher(journal) || "Publisher unavailable")} • ${escapeHtml(journalCountry(journal) || "Country unavailable")} • ${escapeHtml(journalDisplayDate(journal))}</div>
+        </div>
+        <span class="result-badge" data-kind="journal">Journal</span>
+      </div>
+      <div class="result-body">
+        <p class="result-summary-text">${escapeHtml(result.summary || matchingSummaryText(result))}</p>
+        <div class="mini-grid matching-mini-grid">
+          <div class="mini-stat">
+            <span class="mini-label">Match score</span>
+            <strong class="mini-value">${escapeHtml(scoreLabel)}</strong>
+          </div>
+          <div class="mini-stat">
+            <span class="mini-label">Evidence</span>
+            <strong class="mini-value">${escapeHtml(`${result.articleCount || 0} article signal${result.articleCount === 1 ? "" : "s"}`)}</strong>
+          </div>
+        </div>
+        <div class="matching-theme-block">
+          <span class="mini-label">Matched themes</span>
+          ${themes}
+        </div>
+      </div>
+      <div class="result-actions">
+        <div class="muted-line">${escapeHtml(result.rankingMode === "semantic" ? "Semantic reranking applied" : "Live lexical ranking")}</div>
+        <button class="result-action" data-entity-type="journal" data-entity-key="${escapeHtml(result.entityKey)}">Open</button>
       </div>
     </article>
   `;
@@ -1421,6 +2169,13 @@ function renderHomeGroups(groups) {
     .join("");
 
   attachOpenHandlers(dom.resultsGroups);
+}
+
+function renderMatchingResults(results) {
+  dom.matchingResults.innerHTML = results.length
+    ? results.map((result) => renderMatchingJournalCard(result)).join("")
+    : "";
+  attachOpenHandlers(dom.matchingResults);
 }
 
 function renderLockedResults(title, meta, itemsHtml, { hidden = false } = {}) {
@@ -1544,9 +2299,20 @@ function renderNarratives(narratives) {
 
 function renderDetailMeta(payload) {
   if (payload.entity_type === "journal") {
+    const matchBlock = payload.matchingContext
+      ? `
+        <p><strong>Match score:</strong> ${escapeHtml(
+          payload.matchingContext.semanticScore === null
+            ? `${payload.matchingContext.finalScore.toFixed(1)} lexical`
+            : `${(Math.max(payload.matchingContext.semanticScore, 0) * 100).toFixed(1)} semantic`
+        )}</p>
+        <p><strong>Matched themes:</strong> ${escapeHtml(payload.matchingContext.matchedTerms.join(", ") || "No explicit terms were extracted")}</p>
+      `
+      : "";
     return `
       <div class="detail-meta-block">
         <p><strong>ISSN:</strong> ${renderIssnLinks(payload.issns, { className: "inline-link" })}</p>
+        ${matchBlock}
       </div>
     `;
   }
@@ -1568,8 +2334,15 @@ function renderDetailMeta(payload) {
 }
 
 function renderDetailLinks(payload) {
-  if (payload.entity_type === "journal" && payload.journalWebsite) {
-    return `<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`;
+  if (payload.entity_type === "journal") {
+    const links = [];
+    if (payload.journalWebsite) {
+      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`);
+    }
+    if (payload.authorGuidelinesUrl) {
+      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.authorGuidelinesUrl)}" target="_blank" rel="noopener noreferrer">Author guidelines</a>`);
+    }
+    return links.join("");
   }
   if (payload.entity_type === "article") {
     const links = [];
@@ -1584,12 +2357,44 @@ function renderDetailLinks(payload) {
   return "";
 }
 
+function renderMatchingContext(payload) {
+  if (payload.entity_type !== "journal" || !payload.matchingContext) {
+    return "";
+  }
+  return `
+    <section class="matching-context-card">
+      <div class="card-header">
+        <h3>Journal matching rationale</h3>
+      </div>
+      <p>${escapeHtml(payload.matchingContext.rationale || "This journal was recommended from the submitted abstract.")}</p>
+      <div class="tags-wrap">
+        ${(payload.matchingContext.matchedTerms || []).map((term) => `<span class="tag-item">${escapeHtml(term)}</span>`).join("")}
+      </div>
+      ${payload.authorGuidelinesUrl ? `<p><strong>Author Guidelines:</strong> <a class="inline-link" href="${escapeHtml(payload.authorGuidelinesUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.authorGuidelinesUrl)}</a></p>` : ""}
+    </section>
+  `;
+}
+
 function entityHref(entityType, entityKey) {
-  const query = state.search.query || currentQueryFromUrl() || "";
-  return `?q=${encodeURIComponent(query)}#${entityType}/${encodeURIComponent(entityKey)}`;
+  const url = new URL(window.location.pathname, window.location.origin);
+  const mode = currentModeFromUrl();
+  if (mode === "matching") {
+    url.searchParams.set("mode", "matching");
+  } else {
+    const query = state.search.query || currentQueryFromUrl() || "";
+    if (query) {
+      url.searchParams.set("q", query);
+    }
+  }
+  url.hash = `${entityType}/${encodeURIComponent(entityKey)}`;
+  return `${url.pathname}${url.search}${url.hash}`;
 }
 
 function searchResultsHref() {
+  const mode = currentModeFromUrl();
+  if (mode === "matching") {
+    return "?mode=matching";
+  }
   const query = state.search.query || currentQueryFromUrl() || "";
   return query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
 }
@@ -1681,7 +2486,7 @@ function renderArticleDashboard(payload) {
 
   dom.dashboardHeading.textContent = "Article Detail";
   dom.dashboardKicker.textContent = "Article Detail";
-  dom.dashboardMeta.textContent = `Search phrase: "${payload.query}" • Fetched ${formatDisplayDate(payload.fetched_at)}`;
+  dom.dashboardMeta.textContent = payload.meta_label || `Fetched ${formatDisplayDate(payload.fetched_at)}`;
   setDashboardState("", true);
 
   dom.dashboardContent.innerHTML = `
@@ -1774,7 +2579,7 @@ function renderArticleDashboard(payload) {
         </div>
       </section>
       <div class="warning-strip">
-        This article detail page reflects the selected DOAJ article record within the original search phrase "${escapeHtml(payload.query)}".
+        ${escapeHtml(payload.scope_note || "This article detail page reflects the selected DOAJ article record.")}
       </div>
     </div>
   `;
@@ -1791,7 +2596,7 @@ function renderDashboard(payload) {
   dom.dashboardKicker.textContent = payload.entity_type === "article"
     ? "Article Detail"
     : `${payload.entity_type.charAt(0).toUpperCase()}${payload.entity_type.slice(1)} Dashboard`;
-  dom.dashboardMeta.textContent = `Search phrase: "${payload.query}" • Fetched ${formatDisplayDate(payload.fetched_at)}`;
+  dom.dashboardMeta.textContent = payload.meta_label || `Fetched ${formatDisplayDate(payload.fetched_at)}`;
   setDashboardState("", true);
 
   dom.dashboardContent.innerHTML = `
@@ -1806,6 +2611,7 @@ function renderDashboard(payload) {
           ${renderDetailMeta(payload)}
         </div>
       </section>
+      ${renderMatchingContext(payload)}
       <section>
         <div class="section-heading">
           <div>
@@ -1948,7 +2754,7 @@ function mountCharts(charts) {
 }
 
 async function runSearch(query, { updateUrl = true } = {}) {
-  showHomeView({ showResults: true });
+  showHomeView({ mode: "main-search", showResults: true });
   dom.resultsMeta.textContent = "Searching DOAJ...";
   setResultsState("Searching DOAJ...", false);
   dom.resultsGroups.innerHTML = "";
@@ -1983,8 +2789,105 @@ async function runSearch(query, { updateUrl = true } = {}) {
   renderHomeGroups(groups);
 
   if (updateUrl) {
-    syncUrl(query, "", false);
+    syncUrl(query, "", false, { mode: "main-search" });
   }
+}
+
+async function warmMatchingModel() {
+  if (state.matching.modelStatus === "idle") {
+    try {
+      await loadMatchingModel();
+    } catch {
+      return;
+    }
+  }
+}
+
+async function runMatching(abstract, { updateUrl = true } = {}) {
+  const cleanAbstract = `${abstract || ""}`.trim();
+  if (cleanAbstract.length < MATCHING_MIN_ABSTRACT_LENGTH) {
+    throw new Error(`Provide a fuller English abstract of at least ${MATCHING_MIN_ABSTRACT_LENGTH} characters.`);
+  }
+  if (!looksLikeEnglishAbstract(cleanAbstract)) {
+    throw new Error("Journal Matching v1 currently supports English abstracts only.");
+  }
+
+  const profile = buildAbstractProfile(cleanAbstract);
+  const rerankToken = state.matching.rerankToken + 1;
+  state.matching.abstract = cleanAbstract;
+  state.matching.submitted = true;
+  state.matching.fetchedAt = new Date().toISOString();
+  state.matching.terms = profile.terms;
+  state.matching.phrases = profile.phrases;
+  state.matching.queries = profile.queries;
+  state.matching.results = [];
+  state.matching.status = "loading";
+  state.matching.rankingLabel = "Searching live DOAJ candidates";
+  state.matching.rerankToken = rerankToken;
+  state.matching.selectedJournalKey = "";
+
+  dom.matchingAbstract.value = cleanAbstract;
+  dom.matchingMeta.textContent = "Searching live DOAJ candidates...";
+  setMatchingState("Searching DOAJ journals and article-derived journal signals...", false);
+  dom.matchingResults.innerHTML = "";
+  dom.matchingNote.textContent = "Journal Matching uses live DOAJ API results only. The submitted abstract stays in the browser.";
+  showHomeView({ mode: "matching", showMatchingResults: true });
+
+  if (updateUrl) {
+    syncUrl("", "", false, { mode: "matching" });
+  }
+
+  void warmMatchingModel();
+
+  const { journals, errors } = await fetchMatchingCandidates(profile);
+  if (state.matching.rerankToken !== rerankToken) {
+    return;
+  }
+  if (!journals.length) {
+    if (errors.length) {
+      throw new Error("Live DOAJ requests could not return enough journal candidates. Please retry.");
+    }
+    state.matching.status = "loaded";
+    state.matching.results = [];
+    dom.matchingMeta.textContent = "No journal match found";
+    setMatchingState("No journals could be assembled from the live DOAJ API for this abstract.", false);
+    return;
+  }
+
+  const ranked = rankMatchingCandidates(profile, journals, { rankingMode: "lexical" });
+  state.matching.results = ranked;
+  state.matching.status = "loaded";
+  state.matching.rankingLabel = "Live lexical ranking";
+  dom.matchingMeta.textContent = `${ranked.length} journals • live lexical ranking`;
+  setMatchingState("", true);
+  renderMatchingResults(ranked);
+  dom.matchingNote.textContent = errors.length
+    ? "Initial recommendations are shown. Some live DOAJ requests failed, so this list may be partial. Article-based and semantic reranking will continue in this session."
+    : "Initial recommendations are shown. Article-based and semantic reranking will continue in this session.";
+
+  void (async () => {
+    try {
+      const enriched = await enrichMatchingResults(profile, ranked, rerankToken);
+      if (state.matching.rerankToken !== rerankToken) {
+        return;
+      }
+      state.matching.results = enriched;
+      state.matching.status = "loaded";
+      state.matching.rankingLabel = enriched.some((item) => item.semanticScore !== null)
+        ? "Semantic reranking applied"
+        : "Live article enrichment applied";
+      dom.matchingMeta.textContent = `${enriched.length} journals • ${state.matching.rankingLabel.toLowerCase()}`;
+      renderMatchingResults(enriched);
+      dom.matchingNote.textContent = state.matching.modelStatus === "failed"
+        ? "Semantic reranking is unavailable in this browser. Recommendations are based on live lexical and article evidence only."
+        : "Recommendations were refined with live article evidence and semantic reranking in the browser.";
+    } catch {
+      if (state.matching.rerankToken !== rerankToken) {
+        return;
+      }
+      dom.matchingNote.textContent = "Showing live lexical recommendations. Additional reranking could not be completed in this session.";
+    }
+  })();
 }
 
 async function ensureSearchContext() {
@@ -2005,7 +2908,11 @@ function findPublisher(entityKey) {
 }
 
 function findJournal(entityKey) {
-  return state.entities.journal.get(entityKey) || state.search.groups?.journals.find((item) => `${item.id}` === entityKey) || null;
+  return state.entities.journal.get(entityKey)
+    || state.search.groups?.journals.find((item) => `${item.id}` === entityKey)
+    || state.matching.results.find((item) => item.entityKey === entityKey)?.journal
+    || (state.standaloneJournal && `${state.standaloneJournal.id}` === entityKey ? state.standaloneJournal : null)
+    || null;
 }
 
 function findArticle(entityKey) {
@@ -2035,7 +2942,7 @@ function renderPublisherDetail(entityKey) {
 }
 
 async function renderJournalDetail(entityKey) {
-  const journal = findJournal(entityKey);
+  const journal = state.search.groups?.journals.find((item) => `${item.id}` === entityKey) || null;
   if (!journal) {
     throw new Error("The selected journal is no longer present in the current search result set.");
   }
@@ -2067,6 +2974,83 @@ async function renderJournalDetail(entityKey) {
   renderDashboard(payload);
 }
 
+function findMatchingResult(entityKey) {
+  return state.matching.results.find((item) => item.entityKey === entityKey) || null;
+}
+
+async function fetchJournalByEntityKey(entityKey) {
+  const payload = await fetchPaginated("journals", entityKey, {
+    pageSize: 10,
+    maxPages: 1,
+    maxRecords: 10,
+  });
+  return payload.results.find((item) => `${item.id}` === entityKey) || null;
+}
+
+async function renderMatchingJournalDetail(entityKey) {
+  const result = findMatchingResult(entityKey);
+  if (!result) {
+    throw new Error("The selected journal is no longer present in the current matching result set.");
+  }
+  state.matching.selectedJournalKey = entityKey;
+  renderLockedResults(
+    "Matched journals",
+    `${state.matching.results.length} journals • submitted abstract`,
+    state.matching.results.map((item) => renderMatchingJournalCard(item, { compact: true })).join("")
+  );
+  renderBreadcrumb([
+    { label: "Journal Matching", href: "?mode=matching" },
+    { label: journalTitle(result.journal) },
+  ]);
+  showDetailView();
+  setDashboardState("Loading live journal articles from DOAJ...", false);
+  let allArticles = [];
+  try {
+    allArticles = await fetchJournalCorpusArticles(result.journal);
+  } catch {
+    allArticles = result.seedArticles || [];
+  }
+  const payload = buildJournalPayload(
+    result.journal,
+    allArticles.length ? allArticles : result.seedArticles,
+    { query: "", fetchedAt: state.matching.fetchedAt || new Date().toISOString() },
+    { matchedArticles: [], contextType: "matching", matchingContext: result }
+  );
+  renderDashboard(payload);
+}
+
+async function renderStandaloneJournalDetail(entityKey) {
+  let journal = findJournal(entityKey);
+  if (!journal) {
+    journal = await fetchJournalByEntityKey(entityKey);
+    if (!journal) {
+      throw new Error("The selected journal could not be reloaded from the live DOAJ API.");
+    }
+    state.standaloneJournal = journal;
+    state.entities.journal.set(`${journal.id}`, journal);
+  }
+  renderLockedResults("", "", "", { hidden: true });
+  renderBreadcrumb([
+    { label: currentModeFromUrl() === "matching" ? "Journal Matching" : "Search", href: searchResultsHref() },
+    { label: journalTitle(journal) },
+  ]);
+  showDetailView({ singleColumn: true });
+  setDashboardState("Loading live journal articles from DOAJ...", false);
+  let allArticles = [];
+  try {
+    allArticles = await fetchJournalCorpusArticles(journal);
+  } catch {
+    allArticles = [];
+  }
+  const payload = buildJournalPayload(
+    journal,
+    allArticles,
+    { query: "", fetchedAt: new Date().toISOString() },
+    { matchedArticles: [], contextType: "standalone" }
+  );
+  renderDashboard(payload);
+}
+
 function renderArticleDetail(entityKey) {
   const article = findArticle(entityKey);
   if (!article) {
@@ -2090,9 +3074,39 @@ function renderArticleDetail(entityKey) {
 async function renderRoute() {
   const route = routeFromLocation();
   const query = currentQueryFromUrl();
+  const mode = currentModeFromUrl();
+  state.ui.mode = mode;
+  updateModeButtons(mode);
+  dom.searchInput.value = query;
+  dom.matchingAbstract.value = state.matching.abstract;
 
-  if (!query) {
-    showHomeView({ showResults: false });
+  if (route.view === "home" && mode === "matching") {
+    showHomeView({ mode: "matching", showMatchingResults: state.matching.submitted });
+    if (state.matching.modelStatus === "idle") {
+      void warmMatchingModel();
+    }
+    if (!state.matching.submitted) {
+      dom.matchingMeta.textContent = "No abstract submitted";
+      setMatchingState("Paste an English abstract and use Find journal to generate live DOAJ recommendations.", false);
+      dom.matchingResults.innerHTML = "";
+      dom.dashboardContent.innerHTML = "";
+      return;
+    }
+    dom.matchingMeta.textContent = state.matching.results.length
+      ? `${state.matching.results.length} journals • ${state.matching.rankingLabel.toLowerCase() || "live ranking"}`
+      : "No journal match found";
+    if (state.matching.results.length) {
+      setMatchingState("", true);
+      renderMatchingResults(state.matching.results);
+    } else {
+      setMatchingState("No journals could be assembled from the live DOAJ API for this abstract.", false);
+      dom.matchingResults.innerHTML = "";
+    }
+    return;
+  }
+
+  if (!query && route.view === "home") {
+    showHomeView({ mode: "main-search", showResults: false });
     dom.resultsMeta.textContent = "No query yet";
     setResultsState("Start with a live DOAJ query. This panel will separate matched publishers, journals, and articles.", false);
     dom.resultsGroups.innerHTML = "";
@@ -2100,17 +3114,64 @@ async function renderRoute() {
     return;
   }
 
+  if (mode === "matching" && route.view === "detail") {
+    try {
+      setDashboardState("Loading detail...", false);
+      dom.dashboardContent.innerHTML = "";
+      if (route.entityType !== "journal") {
+        throw new Error("Journal Matching opens journal dashboards only.");
+      }
+      if (state.matching.results.length) {
+        await renderMatchingJournalDetail(route.entityKey);
+      } else {
+        await renderStandaloneJournalDetail(route.entityKey);
+      }
+      return;
+    } catch (error) {
+      showDetailView({ singleColumn: true });
+      renderBreadcrumb([
+        { label: "Journal Matching", href: "?mode=matching" },
+        { label: "Dashboard" },
+      ]);
+      dom.dashboardKicker.textContent = "Load failed";
+      dom.dashboardHeading.textContent = "Dashboard";
+      dom.dashboardMeta.textContent = "Journal Matching";
+      setDashboardState(error.message, false);
+      renderLockedResults("", "", "", { hidden: true });
+      return;
+    }
+  }
+
+  if (!query && route.view === "detail" && route.entityType === "journal") {
+    try {
+      await renderStandaloneJournalDetail(route.entityKey);
+      return;
+    } catch (error) {
+      showDetailView({ singleColumn: true });
+      renderBreadcrumb([
+        { label: "Search", href: window.location.pathname },
+        { label: "Dashboard" },
+      ]);
+      dom.dashboardKicker.textContent = "Load failed";
+      dom.dashboardHeading.textContent = "Dashboard";
+      dom.dashboardMeta.textContent = "Live DOAJ journal detail";
+      setDashboardState(error.message, false);
+      renderLockedResults("", "", "", { hidden: true });
+      return;
+    }
+  }
+
   try {
     await ensureSearchContext();
   } catch (error) {
-    showHomeView({ showResults: true });
+    showHomeView({ mode: "main-search", showResults: true });
     dom.resultsMeta.textContent = "Search failed";
     setResultsState(error.message, false);
     return;
   }
 
   if (route.view === "home") {
-    showHomeView({ showResults: true });
+    showHomeView({ mode: "main-search", showResults: true });
     renderHomeGroups(state.search.groups);
     return;
   }
@@ -2140,7 +3201,7 @@ async function renderRoute() {
     ]);
     dom.dashboardKicker.textContent = "Load failed";
     dom.dashboardHeading.textContent = route.entityType === "article" ? "Article Detail" : "Dashboard";
-    dom.dashboardMeta.textContent = `Search phrase: "${query}"`;
+    dom.dashboardMeta.textContent = query ? `Search phrase: "${query}"` : "Live DOAJ detail";
     setDashboardState(error.message, false);
     renderLockedResults("Grouped Results", "Locked to selected entity", "", { hidden: false });
   }
@@ -2157,20 +3218,51 @@ dom.searchForm.addEventListener("submit", async (event) => {
   try {
     await runSearch(query, { updateUrl: true });
     dom.searchNote.textContent = "Results are grouped into publishers, journals, and articles. Select any result for detail.";
-    showHomeView({ showResults: true });
+    showHomeView({ mode: "main-search", showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;
     dom.resultsMeta.textContent = "Search failed";
-    showHomeView({ showResults: true });
+    showHomeView({ mode: "main-search", showResults: true });
     setResultsState(error.message, false);
   }
 });
 
+dom.matchingForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const abstract = dom.matchingAbstract.value.trim();
+  if (!abstract) {
+    dom.matchingNote.textContent = "Paste an English abstract before running Journal Matching.";
+    return;
+  }
+  dom.matchingNote.textContent = "Searching live DOAJ candidates...";
+  try {
+    await runMatching(abstract, { updateUrl: true });
+  } catch (error) {
+    dom.matchingMeta.textContent = "Matching failed";
+    setMatchingState(error.message, false);
+    dom.matchingResults.innerHTML = "";
+    showHomeView({ mode: "matching", showMatchingResults: true });
+    dom.matchingNote.textContent = error.message;
+  }
+});
+
+dom.modeMainSearch.addEventListener("click", () => {
+  syncUrl(state.search.query || currentQueryFromUrl() || "", "", false, { mode: "main-search" });
+  void renderRoute();
+});
+
+dom.modeJournalMatching.addEventListener("click", () => {
+  syncUrl("", "", false, { mode: "matching" });
+  void renderRoute();
+});
+
 dom.backToSearch.addEventListener("click", () => {
-  if (!state.search.query) {
-    syncUrl("", "", false);
+  if (currentModeFromUrl() === "matching") {
+    syncUrl("", "", false, { mode: "matching" });
+  } else if (!state.search.query) {
+    syncUrl("", "", false, { mode: "main-search" });
   } else {
-    syncUrl(state.search.query, "", false);
+    syncUrl(state.search.query, "", false, { mode: "main-search" });
   }
   void renderRoute();
 });
