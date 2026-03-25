@@ -1,11 +1,32 @@
 const API_BASE = "https://doaj.org/api/search";
 const MAX_LIVE_JOURNALS = 60;
 const MAX_LIVE_ARTICLES = 80;
+const JOURNAL_CORPUS_PAGE_SIZE = 50;
+const JOURNAL_CORPUS_MAX_PAGES = 30;
+const JOURNAL_CORPUS_MAX_RECORDS = 1500;
 
 const STOPWORDS = new Set([
+  "abstract",
+  "above",
+  "across",
   "about",
+  "adalah",
+  "afterwards",
+  "again",
+  "against",
   "after",
   "akan",
+  "also",
+  "almost",
+  "along",
+  "already",
+  "although",
+  "among",
+  "amongst",
+  "another",
+  "anyone",
+  "anything",
+  "anywhere",
   "antara",
   "article",
   "articles",
@@ -15,51 +36,170 @@ const STOPWORDS = new Set([
   "based",
   "bagi",
   "bahwa",
-  "before",
+  "below",
+  "beside",
+  "besides",
   "between",
+  "before",
+  "been",
+  "being",
   "bisa",
+  "both",
+  "bukan",
+  "cause",
   "can",
+  "compared",
+  "concerning",
   "conclusion",
   "conclusions",
+  "consists",
+  "containing",
   "dan",
+  "dapat",
   "dari",
+  "defined",
+  "demikian",
   "dengan",
+  "described",
+  "describes",
+  "description",
+  "descriptive",
+  "detail",
+  "different",
+  "dilakukan",
   "during",
   "dalam",
   "data",
   "dengan",
+  "didapatkan",
   "diperoleh",
+  "discussed",
+  "discussion",
+  "does",
   "doi",
+  "done",
   "each",
+  "either",
+  "elsewhere",
+  "especially",
+  "every",
+  "example",
   "for",
   "from",
+  "further",
+  "furthermore",
+  "given",
+  "greater",
+  "guna",
+  "hanya",
+  "here",
+  "however",
   "hasil",
+  "identifies",
+  "including",
+  "indicated",
+  "intended",
+  "involving",
+  "itself",
   "have",
+  "having",
+  "higher",
+  "indicate",
+  "indicates",
+  "investigate",
+  "investigated",
+  "investigation",
   "into",
+  "keadaan",
+  "kegiatan",
+  "kemudian",
+  "kepada",
+  "kerja",
   "journal",
   "journals",
   "juga",
   "kami",
   "karena",
+  "kata",
   "keywords",
+  "lebih",
+  "less",
+  "maka",
+  "make",
+  "many",
+  "means",
+  "melalui",
+  "menjadi",
+  "menggunakan",
+  "menunjukkan",
+  "merupakan",
   "method",
   "methods",
   "model",
+  "models",
   "more",
+  "moreover",
   "most",
+  "much",
   "mereka",
+  "mostly",
+  "must",
+  "needed",
+  "needs",
+  "neither",
+  "none",
+  "normally",
+  "noted",
+  "obtained",
+  "often",
+  "other",
+  "others",
+  "overall",
   "oleh",
   "pada",
   "para",
+  "particular",
+  "particularly",
   "penelitian",
   "pengaruh",
+  "performed",
+  "perhaps",
+  "possible",
+  "present",
+  "presented",
+  "primarily",
+  "provides",
+  "provide",
   "publisher",
   "publishers",
+  "regarding",
+  "related",
+  "reported",
+  "respectively",
   "results",
   "research",
   "review",
+  "same",
   "scope",
+  "section",
+  "sections",
   "sebagai",
+  "sebuah",
+  "secara",
+  "sehingga",
+  "selain",
+  "selama",
+  "selected",
+  "selection",
+  "several",
+  "shows",
+  "showed",
+  "similar",
+  "since",
+  "sistem",
+  "some",
+  "still",
+  "such",
   "serta",
   "study",
   "studies",
@@ -67,22 +207,59 @@ const STOPWORDS = new Set([
   "subjects",
   "system",
   "systems",
+  "table",
+  "tables",
+  "than",
+  "that",
+  "them",
+  "then",
+  "they",
+  "their",
+  "theirs",
   "tentang",
+  "terjadi",
   "terhadap",
   "tersebut",
+  "terutama",
   "the",
-  "their",
   "these",
   "this",
+  "those",
+  "throughout",
   "through",
+  "thus",
   "title",
+  "toward",
+  "towards",
+  "under",
   "untuk",
+  "upper",
+  "used",
+  "useful",
+  "uses",
   "using",
+  "various",
+  "very",
+  "well",
+  "were",
+  "what",
+  "when",
+  "where",
+  "whereas",
+  "which",
+  "while",
+  "whose",
+  "within",
+  "without",
   "yang",
+  "yakni",
   "yaitu",
+  "yearsold",
   "year",
   "years",
+  "yet",
   "with",
+  "would",
 ]);
 
 const state = {
@@ -102,7 +279,10 @@ const dom = {
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
   searchNote: document.querySelector("#search-note"),
+  hero: document.querySelector(".hero"),
+  detailBreadcrumb: document.querySelector("#detail-breadcrumb"),
   homeView: document.querySelector("#home-view"),
+  resultsPanel: document.querySelector("#results-panel"),
   detailView: document.querySelector("#detail-view"),
   resultsState: document.querySelector("#results-state"),
   resultsGroups: document.querySelector("#results-groups"),
@@ -127,8 +307,13 @@ function getChartTheme() {
     muted: styles.getPropertyValue("--muted").trim() || "#5c5956",
     line: styles.getPropertyValue("--line").trim() || "#d7d2ce",
     accent: styles.getPropertyValue("--accent").trim() || "#fd5a3b",
+    accentSoft: styles.getPropertyValue("--accent-soft").trim() || "rgba(253, 90, 59, 0.14)",
     warm: styles.getPropertyValue("--warm").trim() || "#fa9a87",
+    warmSoft: styles.getPropertyValue("--warm-soft").trim() || "rgba(250, 154, 135, 0.2)",
+    warmStrong: styles.getPropertyValue("--warm-strong").trim() || "#8f311c",
     article: styles.getPropertyValue("--article").trim() || "#47a178",
+    articleSoft: styles.getPropertyValue("--article-soft").trim() || "rgba(71, 161, 120, 0.16)",
+    articleStrong: styles.getPropertyValue("--article-strong").trim() || "#2f6e52",
     accentStrong: styles.getPropertyValue("--accent-strong").trim() || "#982e0a",
   };
 }
@@ -169,6 +354,47 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+const regionNames = (() => {
+  try {
+    return new Intl.DisplayNames(["en"], { type: "region" });
+  } catch {
+    return null;
+  }
+})();
+
+function formatCountryName(value) {
+  const raw = `${value || ""}`.trim();
+  if (!raw) {
+    return "";
+  }
+  if (/^[A-Za-z]{2}$/.test(raw) && regionNames) {
+    return regionNames.of(raw.toUpperCase()) || raw.toUpperCase();
+  }
+  return raw;
+}
+
+function normalizeIssn(value) {
+  return `${value || ""}`.trim().toUpperCase();
+}
+
+function issnPortalUrl(value) {
+  const issn = normalizeIssn(value);
+  return issn ? `https://portal.issn.org/resource/ISSN/${encodeURIComponent(issn)}` : "";
+}
+
+function renderIssnLinks(issns, { emptyText = "Not exposed", className = "inline-link" } = {}) {
+  const values = unique((issns || []).map(normalizeIssn).filter(Boolean));
+  if (!values.length) {
+    return emptyText;
+  }
+  return values
+    .map(
+      (issn) =>
+        `<a class="${className}" href="${escapeHtml(issnPortalUrl(issn))}" target="_blank" rel="noopener noreferrer">${escapeHtml(issn)}</a>`
+    )
+    .join(", ");
 }
 
 function formatNumber(value) {
@@ -292,7 +518,7 @@ function journalPublisher(record) {
 }
 
 function journalCountry(record) {
-  return `${journalBib(record).publisher?.country || ""}`.trim();
+  return formatCountryName(journalBib(record).publisher?.country || "");
 }
 
 function journalLanguages(record) {
@@ -377,7 +603,7 @@ function articleJournalIssns(record) {
 }
 
 function articleJournalCountry(record) {
-  return `${articleBib(record).journal?.country || ""}`.trim();
+  return formatCountryName(articleBib(record).journal?.country || "");
 }
 
 function articleJournalVolume(record) {
@@ -605,6 +831,66 @@ function filterArticlesForJournal(records, journalRecord) {
   });
 }
 
+function quotedPhrase(value) {
+  return `"${`${value || ""}`.replaceAll('"', '\\"').trim()}"`;
+}
+
+function buildJournalCorpusQueries(journalRecord) {
+  return unique([
+    journalTitle(journalRecord) ? quotedPhrase(journalTitle(journalRecord)) : "",
+    ...journalIssns(journalRecord).map((issn) => quotedPhrase(issn)),
+  ]).filter(Boolean);
+}
+
+async function fetchJournalCorpusArticles(journalRecord) {
+  const queries = buildJournalCorpusQueries(journalRecord);
+  const byId = new Map();
+
+  for (const query of queries) {
+    const payload = await fetchPaginated("articles", query, {
+      pageSize: JOURNAL_CORPUS_PAGE_SIZE,
+      maxPages: JOURNAL_CORPUS_MAX_PAGES,
+      maxRecords: JOURNAL_CORPUS_MAX_RECORDS,
+    });
+    for (const article of filterArticlesForJournal(payload.results || [], journalRecord)) {
+      byId.set(`${article.id}`, article);
+    }
+  }
+
+  return sortArticles([...byId.values()]);
+}
+
+function publisherCardSummary(item) {
+  const parts = [
+    `${formatNumber(item.journal_count)} journals`,
+    `${formatNumber(item.article_count)} query-matched articles`,
+  ];
+  if (item.countries.length) {
+    parts.push(`${formatNumber(item.countries.length)} country${item.countries.length === 1 ? "" : "ies"}`);
+  }
+  if (item.languages.length) {
+    parts.push(`${formatNumber(item.languages.length)} language${item.languages.length === 1 ? "" : "s"}`);
+  }
+  return `${parts.join(" • ")}.`;
+}
+
+function journalCardSummary(record) {
+  const publisher = journalPublisher(record);
+  const languages = journalLanguages(record);
+  const subjects = journalSubjects(record);
+  const segments = [];
+  if (publisher) {
+    segments.push(`Published by ${publisher}.`);
+  }
+  if (languages.length) {
+    segments.push(`Languages: ${languages.join(", ")}.`);
+  }
+  if (subjects.length) {
+    segments.push(`Main subjects: ${subjects.slice(0, 2).join(", ")}.`);
+  }
+  return segments.join(" ") || "Journal metadata is available in DOAJ.";
+}
+
 function findJournalForArticle(articleRecord, journals) {
   const articleTitleKey = normalizeText(articleJournalTitle(articleRecord));
   const articleIssns = new Set(articleJournalIssns(articleRecord).map((value) => normalizeText(value)));
@@ -671,7 +957,7 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
     title: publisher.title,
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
-    summary: `${publisher.title} currently appears with ${journals.length} journals and ${articles.length} query-matched articles.`,
+    summary: `${publisher.title} currently appears with ${journals.length} journals and ${articles.length} query-matched articles across ${unique(countries).length || 0} publisher countr${unique(countries).length === 1 ? "y" : "ies"} and ${languages.length} language${languages.length === 1 ? "" : "s"}.`,
     kpis: [
       { label: "Total journals", value: formatNumber(journals.length), tone: "accent" },
       { label: "Total related articles", value: formatNumber(articles.length), tone: "accent" },
@@ -725,23 +1011,23 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
   };
 }
 
-function buildJournalPayload(journal, articles, searchContext) {
+function buildJournalPayload(journal, allArticles, searchContext, { matchedArticles = [] } = {}) {
   const languages = journalLanguages(journal);
   const licenses = journalLicenses(journal);
   const review = journalReview(journal);
   const subjects = journalSubjects(journal);
-  const affiliations = articles.flatMap(articleAffiliations);
-  const articleSubjectTerms = articles.flatMap(articleSubjects);
+  const affiliations = allArticles.flatMap(articleAffiliations);
+  const articleSubjectTerms = allArticles.flatMap(articleSubjects);
   const articleWords = topTerms(
-    articles.flatMap((article) => [
+    allArticles.flatMap((article) => [
       articleTitle(article),
       articleAbstract(article),
       ...articleKeywords(article),
     ]),
     24
   );
-  const publicationYears = timelinePairs(articles.map(articleYear).filter(Boolean));
-  const createdYears = timelinePairs(articles.map((article) => parseIsoYear(article.created_date)).filter(Boolean));
+  const publicationYears = timelinePairs(allArticles.map(articleYear).filter(Boolean));
+  const createdYears = timelinePairs(allArticles.map((article) => parseIsoYear(article.created_date)).filter(Boolean));
   const updateYear = parseIsoYear(journal.last_updated);
   const labels = unique([
     ...publicationYears.map((item) => item.name),
@@ -757,12 +1043,13 @@ function buildJournalPayload(journal, articles, searchContext) {
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
     journalWebsite: journalWebsite(journal),
-    summary: `${journalTitle(journal)} currently has ${articles.length} article records that match the original search phrase.`,
+    issns: journalIssns(journal),
+    summary: `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}. The matched list remains restricted to the original search phrase and currently shows ${matchedArticles.length} item${matchedArticles.length === 1 ? "" : "s"}.`,
     kpis: [
       { label: "Journal title", value: journalTitle(journal), tone: "accent" },
       { label: "Publisher", value: journalPublisher(journal) || "-" },
       { label: "ISSN / EISSN presence", value: boolStatus(journalIssns(journal).length > 0) },
-      { label: "Total related articles", value: formatNumber(articles.length), tone: "accent" },
+      { label: "Total DOAJ articles", value: formatNumber(allArticles.length), tone: "accent", detail: "Used for charts on this page." },
       { label: "Subject count", value: formatNumber(subjects.length) },
       { label: "Language set", value: languages.join(", ") || "-" },
       { label: "License type", value: licenses.join(", ") || "-" },
@@ -776,11 +1063,11 @@ function buildJournalPayload(journal, articles, searchContext) {
       wordcloud: makeWordCloud("Article word cloud", articleWords),
       articles_by_year: makeBarChart("Articles by publication year", publicationYears),
       article_subjects: makeBarChart("Article subjects distribution", countBy(articleSubjectTerms, 12)),
-      article_keywords: makeTagChart("Article keywords", countBy(articles.flatMap(articleKeywords), 18)),
-      article_languages: makePieChart("Article language distribution", countBy(articles.flatMap(articleJournalLanguages), 8)),
+      article_keywords: makeTagChart("Article keywords", countBy(allArticles.flatMap(articleKeywords), 18)),
+      article_languages: makePieChart("Article language distribution", countBy(allArticles.flatMap(articleJournalLanguages), 8)),
       author_count_distribution: makeBarChart(
         "Author count distribution",
-        countBy(articles.map((article) => `${articleAuthors(article).length}`), 8)
+        countBy(allArticles.map((article) => `${articleAuthors(article).length}`), 8)
       ),
       top_affiliations: makeBarChart("Top affiliations", countBy(affiliations, 10)),
       status_panel: makeStatusPanel("License / APC / preservation / PID status", [
@@ -800,7 +1087,7 @@ function buildJournalPayload(journal, articles, searchContext) {
         title: "Theme summary",
         text: articleWords.length
           ? `The journal view is currently anchored by terms such as ${articleWords.slice(0, 6).map((item) => item.name).join(", ")}.`
-          : "Not enough query-matched article text is available to build a stable word cloud.",
+          : "Not enough journal article text is available to build a stable word cloud.",
       },
       {
         title: "Metadata coverage",
@@ -810,7 +1097,7 @@ function buildJournalPayload(journal, articles, searchContext) {
       },
       {
         title: "Query scope",
-        text: `Only articles that matched the search phrase "${searchContext.query}" are included in this journal view.`,
+        text: `The left-side matched list is restricted to "${searchContext.query}", but the charts use all currently retrievable DOAJ articles for this journal.`,
       },
     ],
   };
@@ -824,13 +1111,13 @@ function buildArticlePayload(article, searchContext) {
   const subjects = articleSubjects(article);
   const keywords = articleKeywords(article);
   const abstractTerms = topTerms([articleAbstract(article)], 24);
-  const journalTitle = linkedJournal ? journalTitle(linkedJournal) : articleJournalTitle(article);
-  const journalPublisher = linkedJournal ? journalPublisher(linkedJournal) : articleJournalPublisher(article);
-  const journalIssns = linkedJournal ? journalIssns(linkedJournal) : articleJournalIssns(article);
-  const journalLanguages = linkedJournal ? journalLanguages(linkedJournal) : articleJournalLanguages(article);
-  const journalCountry = linkedJournal ? journalCountry(linkedJournal) : articleJournalCountry(article);
-  const journalSubjects = linkedJournal ? journalSubjects(linkedJournal) : [];
-  const journalWebsite = linkedJournal ? journalWebsite(linkedJournal) : null;
+  const linkedJournalTitle = linkedJournal ? journalTitle(linkedJournal) : articleJournalTitle(article);
+  const linkedJournalPublisher = linkedJournal ? journalPublisher(linkedJournal) : articleJournalPublisher(article);
+  const linkedJournalIssns = linkedJournal ? journalIssns(linkedJournal) : articleJournalIssns(article);
+  const linkedJournalLanguages = linkedJournal ? journalLanguages(linkedJournal) : articleJournalLanguages(article);
+  const linkedJournalCountry = linkedJournal ? journalCountry(linkedJournal) : articleJournalCountry(article);
+  const linkedJournalSubjects = linkedJournal ? journalSubjects(linkedJournal) : [];
+  const linkedJournalWebsite = linkedJournal ? journalWebsite(linkedJournal) : null;
   const volumeIssue = articleVolumeIssue(article);
   const pages = articlePageRange(article);
 
@@ -849,20 +1136,20 @@ function buildArticlePayload(article, searchContext) {
     abstract: articleAbstract(article),
     keywords,
     subjects,
-    journalTitle,
-    journalPublisher,
-    journalIssns,
-    journalLanguages,
-    journalCountry,
-    journalSubjects,
-    journalWebsite,
+    journalTitle: linkedJournalTitle,
+    journalPublisher: linkedJournalPublisher,
+    journalIssns: linkedJournalIssns,
+    journalLanguages: linkedJournalLanguages,
+    journalCountry: linkedJournalCountry,
+    journalSubjects: linkedJournalSubjects,
+    journalWebsite: linkedJournalWebsite,
     journalEntityKey: linkedJournal ? `${linkedJournal.id}` : null,
     article,
     summary: `${articleTitle(article)} is shown as an article detail view restricted to the original search phrase.`,
     kpis: [
       { label: "Article year", value: articleYear(article) || "-" },
-      { label: "Journal", value: journalTitle || "-", tone: "accent" },
-      { label: "Publisher", value: journalPublisher || "-" },
+      { label: "Journal", value: linkedJournalTitle || "-", tone: "accent" },
+      { label: "Publisher", value: linkedJournalPublisher || "-" },
       { label: "Author count", value: formatNumber(authors.length) },
       { label: "Subject count", value: formatNumber(subjects.length) },
       { label: "DOI", value: articleDoi(article) || "-" },
@@ -957,14 +1244,19 @@ function indexGroups(groups) {
   }
 }
 
-function showHomeView() {
+function showHomeView({ showResults = true } = {}) {
+  dom.hero.classList.remove("hidden");
+  dom.detailBreadcrumb.classList.add("hidden");
   dom.homeView.classList.remove("hidden");
+  dom.resultsPanel.classList.toggle("hidden", !showResults);
   dom.detailView.classList.add("hidden");
   dom.detailView.classList.remove("single-column");
   dom.relatedPanel.classList.remove("hidden");
 }
 
 function showDetailView({ singleColumn = false } = {}) {
+  dom.hero.classList.add("hidden");
+  dom.detailBreadcrumb.classList.remove("hidden");
   dom.homeView.classList.add("hidden");
   dom.detailView.classList.remove("hidden");
   dom.detailView.classList.toggle("single-column", singleColumn);
@@ -990,6 +1282,7 @@ function renderPublisherCard(item) {
         <span class="result-badge" data-kind="publisher">Publisher</span>
       </div>
       <div class="result-body">
+        <p class="result-summary-text">${escapeHtml(publisherCardSummary(item))}</p>
         <div class="result-summary">
           <p>Countries: ${escapeHtml(item.countries.join(", ") || "Not exposed")}</p>
           <p>Languages: ${escapeHtml(item.languages.join(", ") || "Not exposed")}</p>
@@ -1015,7 +1308,9 @@ function renderJournalCard(record, { showWebsite = false } = {}) {
         <span class="result-badge" data-kind="journal">Journal</span>
       </div>
       <div class="result-body">
+        <p class="result-summary-text">${escapeHtml(journalCardSummary(record))}</p>
         <div class="result-summary">
+          <p><strong>ISSN:</strong> ${renderIssnLinks(journalIssns(record), { className: "result-link" })}</p>
           <p>Languages: ${escapeHtml(journalLanguages(record).join(", ") || "Not exposed")}</p>
           <p>Subjects: ${escapeHtml(journalSubjects(record).slice(0, 4).join(", ") || "Not exposed")}</p>
         </div>
@@ -1038,6 +1333,23 @@ function articleYearRouteLink(record) {
     <a class="result-link" href="?q=${encodeURIComponent(state.search.query)}#article/${encodeURIComponent(`${record.id}`)}">
       ${escapeHtml(articleYear(record) || articleDisplayDate(record))}
     </a>
+  `;
+}
+
+function renderMatchedArticleTitleCard(record) {
+  return `
+    <article class="result-card result-card--compact">
+      <div class="result-header">
+        <div>
+          <div class="result-title">${escapeHtml(articleTitle(record))}</div>
+        </div>
+        <span class="result-badge" data-kind="article">Article</span>
+      </div>
+      <div class="result-actions">
+        <div class="result-links">${articleYearRouteLink(record)}</div>
+        <button class="result-action" data-entity-type="article" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
+      </div>
+    </article>
   `;
 }
 
@@ -1132,6 +1444,13 @@ function renderWordCloudItems(items) {
   if (!items?.length) {
     return `<span class="muted-line">No word cloud data available.</span>`;
   }
+  const theme = getChartTheme();
+  const palette = [
+    { color: theme.accentStrong, background: theme.accentSoft, border: theme.accent },
+    { color: theme.warmStrong, background: theme.warmSoft, border: theme.warm },
+    { color: theme.articleStrong, background: theme.articleSoft, border: theme.article },
+    { color: theme.accent, background: "rgba(255, 255, 255, 0.86)", border: theme.line },
+  ];
   const max = Math.max(...items.map((item) => item.value));
   const min = Math.min(...items.map((item) => item.value));
   return items
@@ -1140,7 +1459,13 @@ function renderWordCloudItems(items) {
       const size = 1.1 + ratio * 1.8;
       const opacity = 0.6 + ratio * 0.4;
       const rotation = index % 5 === 0 ? "-2deg" : index % 3 === 0 ? "2deg" : "0deg";
-      return `<span class="wordcloud-item" style="font-size:${size}rem;opacity:${opacity};transform:rotate(${rotation});">${escapeHtml(item.name)}</span>`;
+      const tokenTheme = palette[index % palette.length];
+      return `
+        <span
+          class="wordcloud-item"
+          style="font-size:${size}rem;opacity:${opacity};transform:rotate(${rotation});color:${tokenTheme.color};background:${tokenTheme.background};border-color:${tokenTheme.border};"
+        >${escapeHtml(item.name)}</span>
+      `;
     })
     .join("");
 }
@@ -1218,6 +1543,13 @@ function renderNarratives(narratives) {
 }
 
 function renderDetailMeta(payload) {
+  if (payload.entity_type === "journal") {
+    return `
+      <div class="detail-meta-block">
+        <p><strong>ISSN:</strong> ${renderIssnLinks(payload.issns, { className: "inline-link" })}</p>
+      </div>
+    `;
+  }
   if (payload.entity_type === "article") {
     const article = payload.article;
     const authors = articleAuthorNames(article).join(", ") || "Author not exposed";
@@ -1255,6 +1587,23 @@ function renderDetailLinks(payload) {
 function entityHref(entityType, entityKey) {
   const query = state.search.query || currentQueryFromUrl() || "";
   return `?q=${encodeURIComponent(query)}#${entityType}/${encodeURIComponent(entityKey)}`;
+}
+
+function searchResultsHref() {
+  const query = state.search.query || currentQueryFromUrl() || "";
+  return query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
+}
+
+function renderBreadcrumb(items) {
+  dom.detailBreadcrumb.innerHTML = items
+    .map((item, index) => {
+      const node = item.href
+        ? `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`
+        : `<span class="is-current">${escapeHtml(item.label)}</span>`;
+      const separator = index < items.length - 1 ? `<span class="breadcrumb-separator">/</span>` : "";
+      return `${node}${separator}`;
+    })
+    .join("");
 }
 
 function renderArticleDetailAuthors(authors) {
@@ -1398,7 +1747,7 @@ function renderArticleDashboard(payload) {
             { label: "Journal", value: payload.journalEntityKey ? `<a class="inline-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">${escapeHtml(payload.journalTitle || "-")}</a>` : payload.journalTitle || "", html: Boolean(payload.journalEntityKey) },
             { label: "Publisher", value: payload.journalPublisher || "" },
             { label: "Country", value: payload.journalCountry || "" },
-            { label: "ISSN", value: payload.journalIssns.join(", ") || "" },
+            { label: "ISSN", value: renderIssnLinks(payload.journalIssns, { className: "inline-link", emptyText: "" }), html: true },
             { label: "Languages", value: payload.journalLanguages.join(", ") || "" },
             { label: "Journal website", value: payload.journalWebsite ? `<a class="inline-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.journalWebsite)}</a>` : "", html: Boolean(payload.journalWebsite) },
           ])}
@@ -1533,6 +1882,7 @@ function mountCharts(charts) {
           },
         ],
       });
+      requestAnimationFrame(() => instance.resize());
       continue;
     }
     if (chart.kind === "bar") {
@@ -1563,6 +1913,7 @@ function mountCharts(charts) {
           },
         ],
       });
+      requestAnimationFrame(() => instance.resize());
       continue;
     }
     instance.setOption({
@@ -1592,10 +1943,12 @@ function mountCharts(charts) {
         data: serie.data,
       })),
     });
+    requestAnimationFrame(() => instance.resize());
   }
 }
 
 async function runSearch(query, { updateUrl = true } = {}) {
+  showHomeView({ showResults: true });
   dom.resultsMeta.textContent = "Searching DOAJ...";
   setResultsState("Searching DOAJ...", false);
   dom.resultsGroups.innerHTML = "";
@@ -1672,24 +2025,46 @@ function renderPublisherDetail(entityKey) {
     `${journals.length} journals • search phrase "${state.search.query}"`,
     journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
   );
-  renderDashboard(payload);
+  renderBreadcrumb([
+    { label: "Search", href: window.location.pathname },
+    { label: `Results: ${state.search.query}`, href: searchResultsHref() },
+    { label: publisher.title },
+  ]);
   showDetailView();
+  renderDashboard(payload);
 }
 
-function renderJournalDetail(entityKey) {
+async function renderJournalDetail(entityKey) {
   const journal = findJournal(entityKey);
   if (!journal) {
     throw new Error("The selected journal is no longer present in the current search result set.");
   }
-  const articles = sortArticles(filterArticlesForJournal(state.search.groups.articles, journal));
-  const payload = buildJournalPayload(journal, articles, state.search);
+  const matchedArticles = sortArticles(filterArticlesForJournal(state.search.groups.articles, journal));
   renderLockedResults(
     "Matched articles",
-    `${articles.length} articles • search phrase "${state.search.query}"`,
-    articles.map((item) => renderArticleCard(item, { includeRouteYear: true })).join("")
+    `${matchedArticles.length} articles • search phrase "${state.search.query}"`,
+    matchedArticles.map((item) => renderMatchedArticleTitleCard(item)).join("")
+  );
+  renderBreadcrumb([
+    { label: "Search", href: window.location.pathname },
+    { label: `Results: ${state.search.query}`, href: searchResultsHref() },
+    { label: journalTitle(journal) },
+  ]);
+  showDetailView();
+  setDashboardState("Loading full journal article set from DOAJ...", false);
+  let allArticles = [];
+  try {
+    allArticles = await fetchJournalCorpusArticles(journal);
+  } catch {
+    allArticles = [];
+  }
+  const payload = buildJournalPayload(
+    journal,
+    allArticles.length ? allArticles : matchedArticles,
+    state.search,
+    { matchedArticles }
   );
   renderDashboard(payload);
-  showDetailView();
 }
 
 function renderArticleDetail(entityKey) {
@@ -1699,8 +2074,17 @@ function renderArticleDetail(entityKey) {
   }
   const payload = buildArticlePayload(article, state.search);
   renderLockedResults("", "", "", { hidden: true });
-  renderDashboard(payload);
+  const breadcrumbItems = [
+    { label: "Search", href: window.location.pathname },
+    { label: `Results: ${state.search.query}`, href: searchResultsHref() },
+  ];
+  if (payload.journalEntityKey && payload.journalTitle) {
+    breadcrumbItems.push({ label: payload.journalTitle, href: entityHref("journal", payload.journalEntityKey) });
+  }
+  breadcrumbItems.push({ label: payload.title });
+  renderBreadcrumb(breadcrumbItems);
   showDetailView({ singleColumn: true });
+  renderDashboard(payload);
 }
 
 async function renderRoute() {
@@ -1708,7 +2092,7 @@ async function renderRoute() {
   const query = currentQueryFromUrl();
 
   if (!query) {
-    showHomeView();
+    showHomeView({ showResults: false });
     dom.resultsMeta.textContent = "No query yet";
     setResultsState("Start with a live DOAJ query. This panel will separate matched publishers, journals, and articles.", false);
     dom.resultsGroups.innerHTML = "";
@@ -1719,14 +2103,14 @@ async function renderRoute() {
   try {
     await ensureSearchContext();
   } catch (error) {
-    showHomeView();
+    showHomeView({ showResults: true });
     dom.resultsMeta.textContent = "Search failed";
     setResultsState(error.message, false);
     return;
   }
 
   if (route.view === "home") {
-    showHomeView();
+    showHomeView({ showResults: true });
     renderHomeGroups(state.search.groups);
     return;
   }
@@ -1735,20 +2119,25 @@ async function renderRoute() {
     setDashboardState("Loading detail...", false);
     dom.dashboardContent.innerHTML = "";
     if (route.entityType === "publisher") {
-      renderPublisherDetail(route.entityKey);
+      await renderPublisherDetail(route.entityKey);
       return;
     }
     if (route.entityType === "journal") {
-      renderJournalDetail(route.entityKey);
+      await renderJournalDetail(route.entityKey);
       return;
     }
     if (route.entityType === "article") {
-      renderArticleDetail(route.entityKey);
+      await renderArticleDetail(route.entityKey);
       return;
     }
     throw new Error("Unsupported route type.");
   } catch (error) {
     showDetailView();
+    renderBreadcrumb([
+      { label: "Search", href: window.location.pathname },
+      { label: `Results: ${query}`, href: query ? `?q=${encodeURIComponent(query)}` : window.location.pathname },
+      { label: route.entityType === "article" ? "Article Detail" : "Dashboard" },
+    ]);
     dom.dashboardKicker.textContent = "Load failed";
     dom.dashboardHeading.textContent = route.entityType === "article" ? "Article Detail" : "Dashboard";
     dom.dashboardMeta.textContent = `Search phrase: "${query}"`;
@@ -1768,10 +2157,11 @@ dom.searchForm.addEventListener("submit", async (event) => {
   try {
     await runSearch(query, { updateUrl: true });
     dom.searchNote.textContent = "Results are grouped into publishers, journals, and articles. Select any result for detail.";
-    showHomeView();
+    showHomeView({ showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;
     dom.resultsMeta.textContent = "Search failed";
+    showHomeView({ showResults: true });
     setResultsState(error.message, false);
   }
 });

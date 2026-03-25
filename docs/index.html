@@ -14,9 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css?v=20260325d">
     <script defer src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./app.js?v=20260325d"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -51,8 +51,10 @@
         </form>
       </header>
 
+      <nav id="detail-breadcrumb" class="detail-breadcrumb hidden" aria-label="Breadcrumb"></nav>
+
       <main id="home-view" class="home-view">
-        <section class="panel results-panel results-panel--full">
+        <section id="results-panel" class="panel results-panel results-panel--full hidden">
           <div class="section-heading">
             <div>
               <span class="section-kicker">Search</span>
@@ -105,6 +107,7 @@
           <p class="footer-meta">
             Developed by Ikhwan Arief, ikhwan[at]unand.ac.id. Licensed under
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+            Data source: Directory of Open Acess Journals (DOAJ).
           </p>
         </div>
       </footer>

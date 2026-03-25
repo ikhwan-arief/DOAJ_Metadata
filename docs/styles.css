@@ -59,6 +59,34 @@ a:hover {
   padding: 28px 0 48px;
 }
 
+.detail-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 14px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.detail-breadcrumb a,
+.detail-breadcrumb span {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--accent-strong);
+}
+
+.detail-breadcrumb .is-current {
+  color: var(--ink);
+}
+
+.breadcrumb-separator {
+  color: var(--muted) !important;
+}
+
 .hero,
 .panel {
   border: 1px solid var(--line);
@@ -351,6 +379,10 @@ button:active,
   gap: 12px;
 }
 
+.result-card--compact {
+  gap: 10px;
+}
+
 .result-header,
 .dashboard-banner,
 .card-header {
@@ -372,6 +404,12 @@ button:active,
 .chart-caption {
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.result-summary-text {
+  color: var(--ink);
+  font-size: 0.97rem;
+  line-height: 1.55;
 }
 
 .result-body,
