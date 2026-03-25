@@ -6,7 +6,7 @@ import time
 from dataclasses import dataclass
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 
@@ -18,25 +18,61 @@ DEFAULT_HEADERS = {
 }
 
 
-def read_json(url: str, *, headers: dict[str, str] | None = None, retries: int = 3, timeout: int = 45) -> dict[str, Any]:
+def inject_doaj_api_key(url: str, api_key: str | None = None) -> str:
+    token = (api_key or "").strip()
+    if not token:
+        return url
+
+    parsed = urlsplit(url)
+    host = parsed.netloc.lower()
+    if "doaj.org" not in host:
+        return url
+
+    if not (parsed.path.startswith("/api/") or parsed.path == "/csv"):
+        return url
+
+    query_items = parse_qsl(parsed.query, keep_blank_values=True)
+    if any(key == "api_key" for key, _ in query_items):
+        return url
+
+    query_items.append(("api_key", token))
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query_items), parsed.fragment))
+
+
+def sanitize_url(url: str) -> str:
+    parsed = urlsplit(url)
+    query_items = [(key, "***" if key == "api_key" else value) for key, value in parse_qsl(parsed.query, keep_blank_values=True)]
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query_items), parsed.fragment))
+
+
+def read_json(
+    url: str,
+    *,
+    headers: dict[str, str] | None = None,
+    retries: int = 3,
+    timeout: int = 45,
+    api_key: str | None = None,
+) -> dict[str, Any]:
+    resolved_url = inject_doaj_api_key(url, api_key=api_key)
+    safe_url = sanitize_url(resolved_url)
     merged_headers = {**DEFAULT_HEADERS, **(headers or {})}
     last_error: Exception | None = None
     for attempt in range(retries):
-        request = Request(url, headers=merged_headers, method="GET")
+        request = Request(resolved_url, headers=merged_headers, method="GET")
         try:
             with urlopen(request, timeout=timeout) as response:
                 return json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
             last_error = exc
             if exc.code not in {429, 500, 502, 503, 504} or attempt == retries - 1:
-                raise
+                raise RuntimeError(f"Unable to load JSON from {safe_url}: HTTP {exc.code}") from exc
             time.sleep(0.8 * (attempt + 1))
         except URLError as exc:
             last_error = exc
             if attempt == retries - 1:
-                raise
+                raise RuntimeError(f"Unable to load JSON from {safe_url}: {exc.reason}") from exc
             time.sleep(0.8 * (attempt + 1))
-    raise RuntimeError(f"Unable to load JSON from {url}: {last_error}")
+    raise RuntimeError(f"Unable to load JSON from {safe_url}: {last_error}")
 
 
 def fetch_status(url: str, *, headers: dict[str, str] | None = None, timeout: int = 45) -> int:
@@ -56,6 +92,9 @@ class SearchResult:
 
 
 class DoajApiClient:
+    def __init__(self, *, api_key: str | None = None) -> None:
+        self.api_key = api_key or os.environ.get("DOAJ_API_KEY")
+
     def search(
         self,
         entity: str,
@@ -72,7 +111,7 @@ class DoajApiClient:
 
         while page <= max_pages and len(results) < max_records:
             url = f"{API_BASE}/{entity}/{encoded_query}?page={page}&pageSize={page_size}"
-            payload = read_json(url)
+            payload = read_json(url, api_key=self.api_key)
             total = int(payload.get("total", 0) or 0)
             page_results = payload.get("results", [])
             if not isinstance(page_results, list):

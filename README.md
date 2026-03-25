@@ -500,6 +500,24 @@ Example structure:
 }
 ```
 
+## GitHub Secret for DOAJ API Premium Access
+
+If you have a DOAJ premium API key, store it as:
+
+- `DOAJ_API_KEY`
+
+How it is used in this project:
+
+- only in GitHub Actions refresh jobs,
+- only by Python server-side refresh scripts,
+- only for DOAJ machine-to-machine requests,
+- never in `docs/`, browser JavaScript, or published GitHub Pages assets.
+
+This means:
+
+- `Main Search` and `Journal Matching` stay public-browser features,
+- scheduled refresh workflows can use premium metadata access without exposing the key.
+
 ## GitHub Secrets for Optional DOAJ Dump Access
 
 These secrets are optional.
