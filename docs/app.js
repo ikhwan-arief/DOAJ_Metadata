@@ -1005,6 +1005,23 @@ function quotedPhrase(value) {
   return `"${`${value || ""}`.replaceAll('"', '\\"').trim()}"`;
 }
 
+function normalizeSearchQuery(query) {
+  const compact = `${query || ""}`
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!compact) {
+    return "";
+  }
+
+  const parts = compact.match(/"[^"]*"|\S+/g) || [];
+  return parts
+    .map((part) => (/^(and|or|not)$/i.test(part) ? part.toUpperCase() : part))
+    .join(" ");
+}
+
 function buildJournalCorpusQueries(journalRecord) {
   return unique([
     journalTitle(journalRecord) ? quotedPhrase(journalTitle(journalRecord)) : "",
@@ -1910,7 +1927,7 @@ function routeFromLocation() {
 }
 
 function currentQueryFromUrl() {
-  return new URL(window.location.href).searchParams.get("q")?.trim() || "";
+  return normalizeSearchQuery(new URL(window.location.href).searchParams.get("q") || "");
 }
 
 function clearEntityMaps() {
@@ -2754,18 +2771,24 @@ function mountCharts(charts) {
 }
 
 async function runSearch(query, { updateUrl = true } = {}) {
+  const normalizedQuery = normalizeSearchQuery(query);
+  if (!normalizedQuery) {
+    throw new Error("Enter a query before searching.");
+  }
+
   showHomeView({ mode: "main-search", showResults: true });
+  dom.searchInput.value = normalizedQuery;
   dom.resultsMeta.textContent = "Searching DOAJ...";
   setResultsState("Searching DOAJ...", false);
   dom.resultsGroups.innerHTML = "";
 
   const [journalsPayload, articlesPayload] = await Promise.all([
-    fetchPaginated("journals", query, {
+    fetchPaginated("journals", normalizedQuery, {
       pageSize: 25,
       maxPages: 2,
       maxRecords: MAX_LIVE_JOURNALS,
     }),
-    fetchPaginated("articles", query, {
+    fetchPaginated("articles", normalizedQuery, {
       pageSize: 25,
       maxPages: 2,
       maxRecords: MAX_LIVE_ARTICLES,
@@ -2779,17 +2802,17 @@ async function runSearch(query, { updateUrl = true } = {}) {
   const groups = { publishers, journals, articles };
   indexGroups(groups);
   state.search = {
-    query,
+    query: normalizedQuery,
     fetchedAt: new Date().toISOString(),
     groups,
   };
 
-  dom.resultsMeta.textContent = `"${query}" • ${publishers.length} publishers, ${journals.length} journals, ${articles.length} articles shown`;
+  dom.resultsMeta.textContent = `"${normalizedQuery}" • ${publishers.length} publishers, ${journals.length} journals, ${articles.length} articles shown`;
   setResultsState("", true);
   renderHomeGroups(groups);
 
   if (updateUrl) {
-    syncUrl(query, "", false, { mode: "main-search" });
+    syncUrl(normalizedQuery, "", false, { mode: "main-search" });
   }
 }
 
@@ -3217,7 +3240,7 @@ dom.searchForm.addEventListener("submit", async (event) => {
   dom.searchNote.textContent = "Searching DOAJ...";
   try {
     await runSearch(query, { updateUrl: true });
-    dom.searchNote.textContent = "Results are grouped into publishers, journals, and articles. Select any result for detail.";
+    dom.searchNote.textContent = 'Results are grouped into publishers, journals, and articles. Select any result for detail. Boolean search is supported: AND, OR, NOT, parentheses, and "exact phrase".';
     showHomeView({ mode: "main-search", showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;

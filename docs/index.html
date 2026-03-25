@@ -16,9 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./styles.css?v=20260325f">
+    <link rel="stylesheet" href="./styles.css?v=20260325g">
     <script defer src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-    <script type="module" src="./app.js?v=20260325f"></script>
+    <script type="module" src="./app.js?v=20260325g"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -36,8 +36,10 @@
             <div>
               <h1>Publisher, journal, and article search.</h1>
               <p>
-                Search by journal title, publisher name, or article title. The application uses live
-                DOAJ search results in the browser.
+                Search by journal title, publisher name, article title, or topic keywords related to the
+                article you want to find. The application uses live DOAJ search results in the browser and
+                supports Boolean query logic such as AND, OR, NOT, parentheses, and exact phrases in
+                quotation marks.
               </p>
             </div>
           </div>
@@ -57,6 +59,7 @@
             </div>
             <p class="search-note" id="search-note">
               Results are grouped into publishers, journals, and articles. Select any result for detail.
+              Boolean search is supported: AND, OR, NOT, parentheses, and "exact phrase".
             </p>
           </form>
         </section>
