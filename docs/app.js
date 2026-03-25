@@ -3340,7 +3340,7 @@ dom.searchForm.addEventListener("submit", async (event) => {
   dom.searchNote.textContent = "Searching DOAJ...";
   try {
     await runSearch(query, { updateUrl: true });
-    dom.searchNote.textContent = 'Results are grouped into publishers, journals, and articles. Select any result for detail. Boolean search is supported: AND, OR, NOT, parentheses, and "exact phrase".';
+    dom.searchNote.textContent = "Results are grouped into publishers, journals, and articles. Select any result for detail.";
     showHomeView({ mode: "main-search", showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;
