@@ -3401,7 +3401,6 @@ function buildJournalPayload(
     summary,
     matchingContext,
     kpis: [
-      { label: "Journal title", value: journalTitle(journal), tone: "accent" },
       { label: "Publisher", value: journalPublisher(journal) || "-" },
       { label: "ISSN / EISSN presence", value: boolStatus(journalIssns(journal).length > 0) },
       { label: "Total DOAJ articles", value: formatNumber(allArticles.length), tone: "accent", detail: "Used for charts on this page." },
@@ -4456,9 +4455,6 @@ function renderDetailLinks(payload) {
     const links = [];
     if (payload.journalWebsite) {
       links.push(`<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`);
-    }
-    if (payload.authorGuidelinesUrl) {
-      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.authorGuidelinesUrl)}" target="_blank" rel="noopener noreferrer">Author guidelines</a>`);
     }
     return links.join("");
   }
