@@ -13,9 +13,13 @@ Developed by Ikhwan Arief, `ikhwan[at]unand.ac.id`.
 License:
 CC BY-SA 4.0
 
+Disclaimer: This tool is not officially developed or maintained by DOAJ. Any results from this tool do not constitute an official DOAJ evaluation and must not be cited or represented as a DOAJ decision.
+
 ## Overview
 
 This project is a static web application that helps users explore metadata from the Directory of Open Access Journals (DOAJ).
+
+It is an independent application and is not managed by DOAJ. DOAJ remains the sole authority for any inclusion or evaluation decision.
 
 The application is designed for:
 
@@ -25,6 +29,7 @@ The application is designed for:
 - opening KPI-first dashboards for publishers,
 - opening KPI-first dashboards for journals,
 - opening lighter interpretation-focused dashboards for articles.
+- running a manual Inclusion Pre-check against DOAJ-facing website requirements and best practice guidance.
 
 The project does **not** require a live backend server.
 It is designed to run entirely with:
@@ -50,6 +55,7 @@ If the page does not open yet, wait a few minutes after a push to `main` and che
 - KPI-rich publisher dashboard with portfolio-level charts.
 - KPI-rich journal dashboard with metadata and article-profile charts.
 - Lightweight article dashboard with metadata, abstract summary, keywords, subjects, and author context.
+- Manual Inclusion Pre-check with live Yes/No checklist scoring based on DOAJ guidance pages.
 - Published static snapshots for selected entities.
 - Optional DOAJ dump probing in GitHub Actions through repository secrets.
 - Fully public repository and public static application deployment.

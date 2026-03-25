@@ -349,6 +349,216 @@ const MATCHING_NOISE_TERMS = new Set([
   "weekly",
 ]);
 
+const PRECHECK_SOURCES = [
+  {
+    id: "apply",
+    label: "DOAJ apply",
+    url: "https://doaj.org/apply/",
+  },
+  {
+    id: "guide",
+    label: "Guide to applying",
+    url: "https://doaj.org/apply/guide/",
+  },
+  {
+    id: "transparency",
+    label: "Transparency & best practice",
+    url: "https://doaj.org/apply/transparency/",
+  },
+  {
+    id: "licensing",
+    label: "Licensing & copyright",
+    url: "https://doaj.org/apply/copyright-and-licensing/",
+  },
+];
+
+const PRECHECK_SECTIONS = [
+  {
+    id: "open-access-licensing",
+    title: "Open access and licensing",
+    description: "Check whether the website makes the open access model and reuse terms clear to readers and authors.",
+    items: [
+      {
+        id: "oa_statement",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly state that scholarly articles are openly accessible without subscription or paywall barriers?",
+      },
+      {
+        id: "article_license",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly name the reuse license used for articles, such as a specific Creative Commons license?",
+      },
+      {
+        id: "no_all_rights_reserved",
+        level: "must",
+        source: "licensing",
+        text: "Does the journal avoid using 'all rights reserved' or fair-use-only wording for its open access scholarly articles?",
+      },
+      {
+        id: "license_consistency",
+        level: "best",
+        source: "licensing",
+        text: "Are the licensing terms consistent across the journal website, article pages, and author-facing guidance?",
+      },
+    ],
+  },
+  {
+    id: "copyright-author-rights",
+    title: "Copyright and author rights",
+    description: "Check whether the site explains who owns copyright and what rights authors keep or grant.",
+    items: [
+      {
+        id: "copyright_holder",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly identify who holds copyright for published articles?",
+      },
+      {
+        id: "author_rights",
+        level: "must",
+        source: "licensing",
+        text: "Does the website clearly explain whether authors retain copyright or grant rights to the publisher?",
+      },
+      {
+        id: "nonexclusive_rights",
+        level: "best",
+        source: "licensing",
+        text: "If authors grant publishing rights, are those terms presented in a way that preserves open access reuse expectations?",
+      },
+    ],
+  },
+  {
+    id: "editorial-peer-review",
+    title: "Editorial and peer review transparency",
+    description: "Check whether authors and readers can understand editorial responsibility and the peer review model.",
+    items: [
+      {
+        id: "peer_review_declared",
+        level: "must",
+        source: "transparency",
+        text: "Does the website clearly state whether the journal uses peer review for scholarly content?",
+      },
+      {
+        id: "peer_review_process",
+        level: "must",
+        source: "transparency",
+        text: "Does the website describe the peer review process or type used by the journal?",
+      },
+      {
+        id: "editorial_board",
+        level: "must",
+        source: "transparency",
+        text: "Are the editor-in-chief, editors, or editorial board members clearly listed on the website?",
+      },
+      {
+        id: "editorial_board_affiliations",
+        level: "best",
+        source: "transparency",
+        text: "Are editorial board members presented with affiliations or other details that support editorial transparency?",
+      },
+      {
+        id: "publication_dates",
+        level: "best",
+        source: "transparency",
+        text: "Does the journal publish article dates such as publication date, and preferably submission and acceptance dates?",
+      },
+    ],
+  },
+  {
+    id: "fees-waivers",
+    title: "APCs, fees, and waivers",
+    description: "Check whether the site is explicit about article processing charges, submission fees, or the absence of fees.",
+    items: [
+      {
+        id: "fee_transparency",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly state any APCs or submission fees, or clearly state that no such fees are charged?",
+      },
+      {
+        id: "waiver_policy",
+        level: "must",
+        source: "guide",
+        text: "If fees are charged, does the website explain waiver or reduction arrangements? If no fees are charged, answer Yes.",
+      },
+      {
+        id: "fee_currency_scope",
+        level: "best",
+        source: "guide",
+        text: "Are the fee amounts, currency, and any conditions explained in enough detail for authors to understand them before submission?",
+      },
+    ],
+  },
+  {
+    id: "website-transparency-contact",
+    title: "Website transparency and contact information",
+    description: "Check whether the journal website makes the responsible organization and contact path visible.",
+    items: [
+      {
+        id: "contact_information",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly provide contact information for the journal, editorial office, or publisher?",
+      },
+      {
+        id: "aims_scope",
+        level: "must",
+        source: "guide",
+        text: "Does the website clearly describe the journal's aims and scope?",
+      },
+      {
+        id: "owner_publisher_identity",
+        level: "best",
+        source: "transparency",
+        text: "Does the website clearly explain the publisher, owner, or organization responsible for the journal?",
+      },
+    ],
+  },
+  {
+    id: "policies-practice",
+    title: "Policies and publishing practice",
+    description: "Check whether the site exposes author-facing policies that DOAJ and transparency guidance expect to see.",
+    items: [
+      {
+        id: "author_guidelines",
+        level: "must",
+        source: "guide",
+        text: "Are author guidelines or submission instructions clearly available on the website?",
+      },
+      {
+        id: "ethics_policy",
+        level: "best",
+        source: "transparency",
+        text: "Does the website publish ethics, misconduct, or plagiarism-handling policies for authors and editors?",
+      },
+      {
+        id: "preservation_policy",
+        level: "best",
+        source: "guide",
+        text: "Does the website describe any digital preservation, archiving, or long-term access arrangements for journal content?",
+      },
+      {
+        id: "special_content_policy",
+        level: "best",
+        source: "licensing",
+        text: "If the journal includes non-article or non-open-access material, does the website explain that policy clearly?",
+      },
+    ],
+  },
+];
+
+const PRECHECK_SOURCE_MAP = new Map(PRECHECK_SOURCES.map((item) => [item.id, item]));
+const PRECHECK_ITEMS = PRECHECK_SECTIONS.flatMap((section) =>
+  section.items.map((item) => ({
+    ...item,
+    sectionId: section.id,
+    sectionTitle: section.title,
+  }))
+);
+const PRECHECK_ITEM_MAP = new Map(PRECHECK_ITEMS.map((item) => [item.id, item]));
+
 const state = {
   ui: {
     mode: "main-search",
@@ -381,6 +591,9 @@ const state = {
     filters: null,
     tablePage: 1,
   },
+  precheck: {
+    answers: {},
+  },
   entities: {
     publisher: new Map(),
     journal: new Map(),
@@ -393,6 +606,7 @@ const dom = {
   modeMainSearch: document.querySelector("#mode-main-search"),
   modeJournalMatching: document.querySelector("#mode-journal-matching"),
   modeStatistics: document.querySelector("#mode-statistics"),
+  modePrecheck: document.querySelector("#mode-precheck"),
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
   searchNote: document.querySelector("#search-note"),
@@ -407,13 +621,18 @@ const dom = {
   heroMainSearch: document.querySelector("#hero-main-search"),
   heroJournalMatching: document.querySelector("#hero-journal-matching"),
   heroStatistics: document.querySelector("#hero-statistics"),
+  heroPrecheck: document.querySelector("#hero-precheck"),
   detailBreadcrumb: document.querySelector("#detail-breadcrumb"),
   homeView: document.querySelector("#home-view"),
   resultsPanel: document.querySelector("#results-panel"),
   statisticsPanel: document.querySelector("#statistics-panel"),
+  precheckPanel: document.querySelector("#precheck-panel"),
   statisticsMeta: document.querySelector("#statistics-meta"),
   statisticsState: document.querySelector("#statistics-state"),
   statisticsContent: document.querySelector("#statistics-content"),
+  precheckMeta: document.querySelector("#precheck-meta"),
+  precheckState: document.querySelector("#precheck-state"),
+  precheckContent: document.querySelector("#precheck-content"),
   detailView: document.querySelector("#detail-view"),
   resultsState: document.querySelector("#results-state"),
   resultsGroups: document.querySelector("#results-groups"),
@@ -757,6 +976,87 @@ function boolStatus(value) {
     return "Unknown";
   }
   return value ? "Yes" : "No";
+}
+
+function normalizePrecheckAnswer(value) {
+  return value === "yes" || value === "no" ? value : "";
+}
+
+function precheckSource(item) {
+  return PRECHECK_SOURCE_MAP.get(item.source) || null;
+}
+
+function precheckLevelLabel(level) {
+  return level === "must" ? "Must" : "Best practice";
+}
+
+function getPrecheckSummary() {
+  const answers = state.precheck.answers || {};
+  const mustItems = PRECHECK_ITEMS.filter((item) => item.level === "must");
+  const bestItems = PRECHECK_ITEMS.filter((item) => item.level === "best");
+  const summary = {
+    must: { yes: 0, no: 0, unanswered: 0 },
+    best: { yes: 0, no: 0, unanswered: 0 },
+    failedMust: [],
+    pendingMust: [],
+    status: "incomplete",
+  };
+
+  for (const item of mustItems) {
+    const answer = normalizePrecheckAnswer(answers[item.id]);
+    if (answer === "yes") {
+      summary.must.yes += 1;
+    } else if (answer === "no") {
+      summary.must.no += 1;
+      summary.failedMust.push(item);
+    } else {
+      summary.must.unanswered += 1;
+      summary.pendingMust.push(item);
+    }
+  }
+
+  for (const item of bestItems) {
+    const answer = normalizePrecheckAnswer(answers[item.id]);
+    if (answer === "yes") {
+      summary.best.yes += 1;
+    } else if (answer === "no") {
+      summary.best.no += 1;
+    } else {
+      summary.best.unanswered += 1;
+    }
+  }
+
+  if (summary.must.no > 0) {
+    summary.status = "blocked";
+  } else if (summary.must.unanswered > 0) {
+    summary.status = "incomplete";
+  } else {
+    summary.status = "ready";
+  }
+
+  return summary;
+}
+
+function precheckStatusCopy(summary) {
+  if (summary.status === "blocked") {
+    return {
+      title: "Not yet meeting minimum DOAJ threshold",
+      tone: "fail",
+      text: "At least one must item is currently marked No. Those blocking items should be resolved before treating the journal as minimally ready for DOAJ application.",
+    };
+  }
+  if (summary.status === "ready") {
+    return {
+      title: "Minimum threshold likely met so far",
+      tone: "pass",
+      text: "All must items are currently marked Yes. This suggests the website may meet the minimum baseline expected for a DOAJ application, subject to DOAJ's own review.",
+    };
+  }
+  return {
+    title: "Checklist still incomplete",
+    tone: "warn",
+    text: "Some must items have not been answered yet. Complete all required checks before relying on this indicative summary.",
+  };
 }
 
 function journalBib(record) {
@@ -2747,6 +3047,11 @@ function setStatisticsState(message, hidden = false) {
   dom.statisticsState.classList.toggle("hidden", hidden);
 }
 
+function setPrecheckState(message, hidden = false) {
+  dom.precheckState.textContent = message;
+  dom.precheckState.classList.toggle("hidden", hidden);
+}
+
 function setDetailResultsState(message, hidden = false) {
   dom.detailResultsState.textContent = message;
   dom.detailResultsState.classList.toggle("hidden", hidden);
@@ -2765,6 +3070,9 @@ function currentModeFromUrl() {
   if (mode === "statistics") {
     return "statistics";
   }
+  if (mode === "precheck") {
+    return "precheck";
+  }
   return "main-search";
 }
 
@@ -2775,7 +3083,7 @@ function syncUrl(query, hash = "", replace = false, { mode = currentModeFromUrl(
   } else {
     url.searchParams.delete("q");
   }
-  if (mode === "matching" || mode === "statistics") {
+  if (mode === "matching" || mode === "statistics" || mode === "precheck") {
     url.searchParams.set("mode", mode);
   } else {
     url.searchParams.delete("mode");
@@ -2830,6 +3138,7 @@ function updateModeButtons(mode) {
   dom.modeMainSearch.classList.toggle("is-active", mode === "main-search");
   dom.modeJournalMatching.classList.toggle("is-active", mode === "matching");
   dom.modeStatistics.classList.toggle("is-active", mode === "statistics");
+  dom.modePrecheck.classList.toggle("is-active", mode === "precheck");
 }
 
 function showHomeView(
@@ -2838,6 +3147,7 @@ function showHomeView(
     showResults = true,
     showMatchingResults = false,
     showStatistics = false,
+    showPrecheck = false,
   } = {}
 ) {
   state.ui.mode = mode;
@@ -2847,9 +3157,11 @@ function showHomeView(
   dom.heroMainSearch.classList.toggle("hidden", mode !== "main-search");
   dom.heroJournalMatching.classList.toggle("hidden", mode !== "matching");
   dom.heroStatistics.classList.toggle("hidden", mode !== "statistics");
+  dom.heroPrecheck.classList.toggle("hidden", mode !== "precheck");
   dom.resultsPanel.classList.toggle("hidden", mode !== "main-search" || !showResults);
   dom.matchingPanel.classList.toggle("hidden", mode !== "matching" || !showMatchingResults);
   dom.statisticsPanel.classList.toggle("hidden", mode !== "statistics" || !showStatistics);
+  dom.precheckPanel.classList.toggle("hidden", mode !== "precheck" || !showPrecheck);
   dom.detailView.classList.add("hidden");
   dom.detailView.classList.remove("single-column");
   dom.relatedPanel.classList.remove("hidden");
@@ -3086,6 +3398,188 @@ function renderMatchingResults(results) {
   attachOpenHandlers(dom.matchingResults);
 }
 
+function renderPrecheckGuardrailCard() {
+  return `
+    <article class="guardrail-card">
+      <div class="card-header">
+        <div>
+          <span class="section-kicker">Guardrail</span>
+          <h3>Use DOAJ guidance as the reference point</h3>
+        </div>
+      </div>
+      <p>
+        Use this tool to review your journal website before applying to the Directory of Open Access Journals (DOAJ).
+        The result is indicative only: DOAJ will always make its own independent decision.
+      </p>
+      <div class="precheck-source-list">
+        ${PRECHECK_SOURCES.map(
+          (item) => `
+            <a class="precheck-source-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+              ${escapeHtml(item.label)}
+            </a>
+          `
+        ).join("")}
+      </div>
+      <p class="muted-line">
+        Every item tagged <strong>Must</strong> should be present on the journal website to support a minimum DOAJ-ready baseline.
+        Items without Must are treated here as best practice signals.
+      </p>
+    </article>
+  `;
+}
+
+function renderPrecheckQuestion(item) {
+  const source = precheckSource(item);
+  const answer = normalizePrecheckAnswer(state.precheck.answers[item.id]);
+  return `
+    <article class="precheck-question" data-item-id="${escapeHtml(item.id)}" data-level="${escapeHtml(item.level)}">
+      <div class="precheck-question-head">
+        <span class="precheck-level" data-kind="${escapeHtml(item.level)}">${escapeHtml(precheckLevelLabel(item.level))}</span>
+        ${source ? `<a class="precheck-source-link precheck-source-link--inline" href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.label)}</a>` : ""}
+      </div>
+      <p class="precheck-question-text">${escapeHtml(item.text)}</p>
+      <div class="precheck-choice-group" role="radiogroup" aria-label="${escapeHtml(item.text)}">
+        <label class="precheck-choice ${answer === "yes" ? "is-selected" : ""}">
+          <input type="radio" name="precheck-${escapeHtml(item.id)}" value="yes" ${answer === "yes" ? "checked" : ""}>
+          <span>Yes</span>
+        </label>
+        <label class="precheck-choice ${answer === "no" ? "is-selected" : ""}">
+          <input type="radio" name="precheck-${escapeHtml(item.id)}" value="no" ${answer === "no" ? "checked" : ""}>
+          <span>No</span>
+        </label>
+      </div>
+    </article>
+  `;
+}
+
+function renderPrecheckSection(section) {
+  const mustCount = section.items.filter((item) => item.level === "must").length;
+  const bestCount = section.items.filter((item) => item.level === "best").length;
+  return `
+    <section class="precheck-section">
+      <div class="card-header">
+        <div>
+          <span class="section-kicker">Checklist</span>
+          <h3>${escapeHtml(section.title)}</h3>
+        </div>
+        <span class="section-meta">${mustCount} must${bestCount ? ` • ${bestCount} best practice` : ""}</span>
+      </div>
+      <p>${escapeHtml(section.description)}</p>
+      <div class="precheck-question-list">
+        ${section.items.map((item) => renderPrecheckQuestion(item)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderPrecheckSummaryPanel(summary) {
+  const totalMust = PRECHECK_ITEMS.filter((item) => item.level === "must").length;
+  const totalBest = PRECHECK_ITEMS.filter((item) => item.level === "best").length;
+  const status = precheckStatusCopy(summary);
+  const blockingItems = summary.failedMust.length
+    ? `
+      <div class="precheck-summary-block">
+        <h4>Blocking must items</h4>
+        <ul class="precheck-list">
+          ${summary.failedMust.map((item) => `<li>${escapeHtml(item.text)}</li>`).join("")}
+        </ul>
+      </div>
+    `
+    : "";
+  const pendingItems = summary.pendingMust.length
+    ? `
+      <div class="precheck-summary-block">
+        <h4>Must items still unanswered</h4>
+        <ul class="precheck-list">
+          ${summary.pendingMust.map((item) => `<li>${escapeHtml(item.text)}</li>`).join("")}
+        </ul>
+      </div>
+    `
+    : "";
+  return `
+    <article class="precheck-status-card precheck-status-card--${escapeHtml(status.tone)}">
+      <span class="section-kicker">Live result</span>
+      <h3>${escapeHtml(status.title)}</h3>
+      <p>${escapeHtml(status.text)}</p>
+    </article>
+    <div class="precheck-summary-grid">
+      <article class="kpi-card">
+        <span class="mini-label">Must items passed</span>
+        <strong class="mini-value">${summary.must.yes} / ${totalMust}</strong>
+      </article>
+      <article class="kpi-card">
+        <span class="mini-label">Must items failed</span>
+        <strong class="mini-value">${summary.must.no}</strong>
+      </article>
+      <article class="kpi-card">
+        <span class="mini-label">Must items unanswered</span>
+        <strong class="mini-value">${summary.must.unanswered}</strong>
+      </article>
+      <article class="kpi-card">
+        <span class="mini-label">Best practice passed</span>
+        <strong class="mini-value">${summary.best.yes} / ${totalBest}</strong>
+      </article>
+      <article class="kpi-card">
+        <span class="mini-label">Best practice failed</span>
+        <strong class="mini-value">${summary.best.no}</strong>
+      </article>
+      <article class="kpi-card">
+        <span class="mini-label">Best practice unanswered</span>
+        <strong class="mini-value">${summary.best.unanswered}</strong>
+      </article>
+    </div>
+    ${blockingItems}
+    ${pendingItems}
+  `;
+}
+
+function updatePrecheckSummary() {
+  const summary = getPrecheckSummary();
+  const totalMust = PRECHECK_ITEMS.filter((item) => item.level === "must").length;
+  dom.precheckMeta.textContent = `${summary.must.yes}/${totalMust} must Yes • ${summary.must.no} blocked`;
+  const summaryNode = dom.precheckContent.querySelector("#precheck-summary-panel");
+  if (summaryNode) {
+    summaryNode.innerHTML = renderPrecheckSummaryPanel(summary);
+  }
+}
+
+function attachPrecheckHandlers() {
+  dom.precheckContent.querySelectorAll('input[name^="precheck-"]').forEach((input) => {
+    input.addEventListener("change", () => {
+      const itemId = input.name.replace(/^precheck-/, "");
+      if (!PRECHECK_ITEM_MAP.has(itemId)) {
+        return;
+      }
+      state.precheck.answers[itemId] = normalizePrecheckAnswer(input.value);
+      const question = input.closest(".precheck-question");
+      if (question) {
+        question.querySelectorAll(".precheck-choice").forEach((choice) => {
+          const radio = choice.querySelector("input");
+          choice.classList.toggle("is-selected", Boolean(radio?.checked));
+        });
+      }
+      updatePrecheckSummary();
+    });
+  });
+}
+
+function renderPrecheckHome() {
+  setPrecheckState("", true);
+  dom.precheckContent.innerHTML = `
+    <div class="precheck-layout">
+      <section class="precheck-main">
+        ${renderPrecheckGuardrailCard()}
+        ${PRECHECK_SECTIONS.map((section) => renderPrecheckSection(section)).join("")}
+      </section>
+      <aside class="precheck-sidebar">
+        <div id="precheck-summary-panel" class="dashboard-stack"></div>
+      </aside>
+    </div>
+  `;
+  attachPrecheckHandlers();
+  updatePrecheckSummary();
+}
+
 function renderLockedResults(title, meta, itemsHtml, { hidden = false } = {}) {
   dom.detailResultsHeading.textContent = title;
   dom.detailResultsMeta.textContent = meta;
@@ -3305,6 +3799,9 @@ function searchResultsHref() {
   }
   if (mode === "statistics") {
     return "?mode=statistics";
+  }
+  if (mode === "precheck") {
+    return "?mode=precheck";
   }
   const query = state.search.query || currentQueryFromUrl() || "";
   return query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
@@ -4011,6 +4508,8 @@ async function renderStandaloneJournalDetail(entityKey) {
     ? "Journal Matching"
     : currentModeFromUrl() === "statistics"
       ? "Statistics"
+      : currentModeFromUrl() === "precheck"
+        ? "Inclusion Pre-check"
       : "Search";
   renderBreadcrumb([
     { label: modeLabel, href: searchResultsHref() },
@@ -4101,6 +4600,14 @@ async function renderRoute() {
       setStatisticsState(error.message || "Statistics data could not be loaded.", false);
       dom.statisticsContent.innerHTML = "";
     }
+    return;
+  }
+
+  if (route.view === "home" && mode === "precheck") {
+    showHomeView({ mode: "precheck", showPrecheck: true });
+    dom.precheckMeta.textContent = "Manual checklist";
+    setPrecheckState("", true);
+    renderPrecheckHome();
     return;
   }
 
@@ -4284,11 +4791,18 @@ dom.modeStatistics.addEventListener("click", () => {
   void renderRoute();
 });
 
+dom.modePrecheck.addEventListener("click", () => {
+  syncUrl("", "", false, { mode: "precheck" });
+  void renderRoute();
+});
+
 dom.backToSearch.addEventListener("click", () => {
   if (currentModeFromUrl() === "matching") {
     syncUrl("", "", false, { mode: "matching" });
   } else if (currentModeFromUrl() === "statistics") {
     syncUrl("", "", false, { mode: "statistics" });
+  } else if (currentModeFromUrl() === "precheck") {
+    syncUrl("", "", false, { mode: "precheck" });
   } else if (!state.search.query) {
     syncUrl("", "", false, { mode: "main-search" });
   } else {

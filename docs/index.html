@@ -6,7 +6,7 @@
     <title>DOAJ Metadata Intelligence Dashboard</title>
     <meta
       name="description"
-      content="Live DOAJ search, journal matching, and DOAJ-wide statistics from API-built datasets."
+      content="Live DOAJ search, journal matching, inclusion pre-check, and DOAJ-wide statistics from API-built datasets."
     >
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="shortcut icon" href="./favicon.svg">
@@ -16,9 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./styles.css?v=20260325i">
+    <link rel="stylesheet" href="./styles.css?v=20260325j">
     <script defer src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-    <script type="module" src="./app.js?v=20260325i"></script>
+    <script type="module" src="./app.js?v=20260325j"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -29,6 +29,7 @@
             <button id="mode-main-search" type="button" class="ghost-button mode-button is-active">Main Search</button>
             <button id="mode-journal-matching" type="button" class="ghost-button mode-button">Journal Matching</button>
             <button id="mode-statistics" type="button" class="ghost-button mode-button">Statistics</button>
+            <button id="mode-precheck" type="button" class="ghost-button mode-button">Inclusion Pre-check</button>
           </nav>
         </div>
 
@@ -104,6 +105,19 @@
             </div>
           </div>
         </section>
+
+        <section id="hero-precheck" class="hero-mode hidden">
+          <div class="hero-copy">
+            <div>
+              <h1>DOAJ inclusion pre-check.</h1>
+              <p>
+                Use this tool to review your journal website before applying to the Directory of Open
+                Access Journals (DOAJ). The result is indicative only: DOAJ will always make its own
+                independent decision.
+              </p>
+            </div>
+          </div>
+        </section>
       </header>
 
       <nav id="detail-breadcrumb" class="detail-breadcrumb hidden" aria-label="Breadcrumb"></nav>
@@ -149,6 +163,20 @@
             Open Statistics to load DOAJ-wide journal indicators and charts.
           </div>
           <div id="statistics-content"></div>
+        </section>
+
+        <section id="precheck-panel" class="panel results-panel results-panel--full results-panel--precheck hidden">
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Inclusion Pre-check</span>
+              <h2>DOAJ Eligibility Checklist</h2>
+            </div>
+            <span class="section-meta" id="precheck-meta">Manual checklist</span>
+          </div>
+          <div id="precheck-state" class="empty-state">
+            Open Inclusion Pre-check to review a journal website against DOAJ-facing requirements and best practice.
+          </div>
+          <div id="precheck-content"></div>
         </section>
       </main>
 
