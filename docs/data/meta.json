@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T22:58:49.216034+00:00",
+  "generated_at": "2026-03-25T03:18:47.185282+00:00",
   "snapshot_count": 0,
   "targets_path": "config/snapshot_targets.json",
   "source_summary": {
@@ -8,8 +8,8 @@
       "configured": false,
       "journal_status": null,
       "article_status": null,
-      "journal_url": "https://doaj.org/public-data-dump/journal",
-      "article_url": "https://doaj.org/public-data-dump/article",
+      "journal_url": "",
+      "article_url": "",
       "used": false
     }
   },
