@@ -355,19 +355,20 @@ PYTHONPATH=src python3 scripts/refresh_snapshots.py
 From the repository root, run:
 
 ```bash
-python3 -m http.server 8000
+python3 scripts/serve_local.py
 ```
 
 ### 7) Open the local app in the browser
 
 Open:
 
-`http://127.0.0.1:8000/docs/`
+`http://127.0.0.1:8000/`
 
 Important:
 
 - do not open `docs/index.html` by double-clicking it from the file manager,
 - always use a local web server,
+- this local server intentionally disables directory browsing,
 - the browser app expects relative JSON and JavaScript files to be served correctly.
 
 ### 8) Stop the local server
@@ -574,12 +575,12 @@ If it still fails, install Python from:
 Make sure you started a local web server from the repository root:
 
 ```bash
-python3 -m http.server 8000
+python3 scripts/serve_local.py
 ```
 
 Then open:
 
-`http://127.0.0.1:8000/docs/`
+`http://127.0.0.1:8000/`
 
 Do not open the HTML file directly from the file system.
 
@@ -605,7 +606,7 @@ Useful local commands:
 PYTHONPATH=src python3 -m unittest discover -s tests -p "test_*.py" -v
 PYTHONPATH=src python3 scripts/validate_static_data.py
 PYTHONPATH=src python3 scripts/refresh_snapshots.py
-python3 -m http.server 8000
+python3 scripts/serve_local.py
 ```
 
 ## Attribution

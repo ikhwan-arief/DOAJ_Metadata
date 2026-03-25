@@ -720,12 +720,17 @@ const state = {
   precheck: {
     answers: {},
   },
+  detailResults: null,
   entities: {
+    country: new Map(),
     publisher: new Map(),
     journal: new Map(),
     article: new Map(),
   },
+  standaloneCountry: null,
   standaloneJournal: null,
+  standaloneJournalSeed: null,
+  standaloneArticle: null,
 };
 
 const dom = {
@@ -1523,6 +1528,10 @@ function derivePublishers(journals, articles) {
     const entry = take(name);
     entry.articles.push(record);
     entry.latestTs = Math.max(entry.latestTs, articleSortTimestamp(record));
+    const country = articleJournalCountry(record);
+    if (country) {
+      entry.countries.add(country);
+    }
     for (const language of articleJournalLanguages(record)) {
       entry.languages.add(language);
     }
@@ -1536,6 +1545,87 @@ function derivePublishers(journals, articles) {
       journal_count: item.journals.length,
       article_count: item.articles.length,
       countries: [...item.countries],
+      languages: [...item.languages],
+      latestTs: item.latestTs,
+      latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
+    }))
+    .sort((left, right) => {
+      const delta = right.latestTs - left.latestTs;
+      if (delta !== 0) {
+        return delta;
+      }
+      const countDelta = right.journal_count - left.journal_count || right.article_count - left.article_count;
+      if (countDelta !== 0) {
+        return countDelta;
+      }
+      return left.title.localeCompare(right.title);
+    });
+}
+
+function deriveCountries(journals, articles) {
+  const map = new Map();
+
+  const take = (name) => {
+    const key = formatCountryName(name);
+    if (!key) {
+      return null;
+    }
+    if (!map.has(key)) {
+      map.set(key, {
+        entity_type: "country",
+        entity_key: key,
+        title: key,
+        publishers: new Set(),
+        journals: [],
+        articles: [],
+        languages: new Set(),
+        latestTs: 0,
+      });
+    }
+    return map.get(key);
+  };
+
+  for (const record of journals) {
+    const entry = take(journalCountry(record));
+    if (!entry) {
+      continue;
+    }
+    entry.journals.push(record);
+    entry.latestTs = Math.max(entry.latestTs, journalSortTimestamp(record));
+    const publisher = journalPublisher(record);
+    if (publisher) {
+      entry.publishers.add(publisher);
+    }
+    for (const language of journalLanguages(record)) {
+      entry.languages.add(language);
+    }
+  }
+
+  for (const record of articles) {
+    const entry = take(articleJournalCountry(record));
+    if (!entry) {
+      continue;
+    }
+    entry.articles.push(record);
+    entry.latestTs = Math.max(entry.latestTs, articleSortTimestamp(record));
+    const publisher = articleJournalPublisher(record);
+    if (publisher) {
+      entry.publishers.add(publisher);
+    }
+    for (const language of articleJournalLanguages(record)) {
+      entry.languages.add(language);
+    }
+  }
+
+  return [...map.values()]
+    .map((item) => ({
+      entity_type: item.entity_type,
+      entity_key: item.entity_key,
+      title: item.title,
+      publisher_count: item.publishers.size,
+      journal_count: item.journals.length,
+      article_count: item.articles.length,
+      publishers: [...item.publishers].sort((left, right) => left.localeCompare(right)),
       languages: [...item.languages],
       latestTs: item.latestTs,
       latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
@@ -1666,6 +1756,16 @@ function filterPublisherArticles(records, publisherName) {
   return records.filter((record) => normalizeText(articleJournalPublisher(record)) === target);
 }
 
+function filterCountryJournals(records, countryName) {
+  const target = normalizeText(formatCountryName(countryName));
+  return records.filter((record) => normalizeText(journalCountry(record)) === target);
+}
+
+function filterCountryArticles(records, countryName) {
+  const target = normalizeText(formatCountryName(countryName));
+  return records.filter((record) => normalizeText(articleJournalCountry(record)) === target);
+}
+
 function filterArticlesForJournal(records, journalRecord) {
   const titleKey = normalizeText(journalTitle(journalRecord));
   const issns = new Set(journalIssns(journalRecord).map((value) => normalizeText(value)));
@@ -1678,6 +1778,18 @@ function filterArticlesForJournal(records, journalRecord) {
 
 function quotedPhrase(value) {
   return `"${`${value || ""}`.replaceAll('"', '\\"').trim()}"`;
+}
+
+function escapeQueryStringTerm(value) {
+  return `${value || ""}`
+    .trim()
+    .replace(/\\/g, "\\\\")
+    .replace(/([+\-!(){}[\]^"~*?:/])/g, "\\$1");
+}
+
+function issnExactQuery(value) {
+  const escaped = escapeQueryStringTerm(value);
+  return escaped ? `index.issn.exact:${escaped}` : "";
 }
 
 function normalizeSearchQuery(query) {
@@ -1699,7 +1811,10 @@ function normalizeSearchQuery(query) {
 
 function buildJournalCorpusQueries(journalRecord) {
   return unique([
+    journalTitle(journalRecord) || "",
     journalTitle(journalRecord) ? quotedPhrase(journalTitle(journalRecord)) : "",
+    ...journalIssns(journalRecord).map(issnExactQuery),
+    ...journalIssns(journalRecord),
     ...journalIssns(journalRecord).map((issn) => quotedPhrase(issn)),
   ]).filter(Boolean);
 }
@@ -2161,11 +2276,23 @@ async function enrichMatchingResults(profile, results, rerankToken) {
 function publisherCardSummary(item) {
   const parts = [
     `${formatNumber(item.journal_count)} journals`,
-    `${formatNumber(item.article_count)} query-matched articles`,
+    `${formatNumber(item.article_count)} related articles`,
   ];
   if (item.countries.length) {
     parts.push(`${formatNumber(item.countries.length)} country${item.countries.length === 1 ? "" : "ies"}`);
   }
+  if (item.languages.length) {
+    parts.push(`${formatNumber(item.languages.length)} language${item.languages.length === 1 ? "" : "s"}`);
+  }
+  return `${parts.join(" • ")}.`;
+}
+
+function countryCardSummary(item) {
+  const parts = [
+    `${formatNumber(item.publisher_count)} publishers`,
+    `${formatNumber(item.journal_count)} journals`,
+    `${formatNumber(item.article_count)} related articles`,
+  ];
   if (item.languages.length) {
     parts.push(`${formatNumber(item.languages.length)} language${item.languages.length === 1 ? "" : "s"}`);
   }
@@ -3045,6 +3172,90 @@ function timelinePairs(values) {
     .map(([name, value]) => ({ name, value }));
 }
 
+function buildCountryPayload(country, journals, articles, searchContext) {
+  const publishers = derivePublishers(journals, articles);
+  const languages = unique(journals.flatMap(journalLanguages).concat(articles.flatMap(articleJournalLanguages)));
+  const licenses = journals.flatMap(journalLicenses);
+  const subjects = journals.flatMap(journalSubjects);
+  const preservation = journals.flatMap(journalPreservation);
+  const pidSchemes = journals.flatMap(journalPidSchemes);
+  const apcYes = journals.filter((record) => Boolean(journalBib(record).apc?.has_apc)).length;
+  const preservationYes = journals.filter((record) => Boolean(journalBib(record).preservation?.has_preservation)).length;
+  const pidYes = journals.filter((record) => Boolean(journalBib(record).pid_scheme?.has_pid_scheme)).length;
+  const journalMonths = journals.map((record) => parseMonthBucket(record.last_updated)).filter(Boolean);
+  const articleYears = articles.map(articleYear).filter(Boolean);
+  const labels = unique([...journalMonths, ...articleYears]).sort((left, right) => left.localeCompare(right));
+  const journalCounts = new Map(timelinePairs(journalMonths).map((item) => [item.name, item.value]));
+  const articleCounts = new Map(timelinePairs(articleYears).map((item) => [item.name, item.value]));
+  const wordCloud = topTerms(journals.map(journalTitle), 22);
+
+  return {
+    entity_type: "country",
+    title: country.title,
+    fetched_at: searchContext.fetchedAt,
+    query: searchContext.query,
+    meta_label: searchContext.query
+      ? `Search phrase: "${searchContext.query}" • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
+      : `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`,
+    scope_note: searchContext.query
+      ? `This country dashboard is built from the current search path for "${searchContext.query}".`
+      : "This country dashboard reflects the currently loaded DOAJ records.",
+    summary: `${country.title} currently appears with ${publishers.length} related publishers, ${journals.length} related journals, and ${articles.length} related articles in the loaded DOAJ path.`,
+    kpis: [
+      { label: "Total publishers", value: formatNumber(publishers.length), tone: "accent" },
+      { label: "Total journals", value: formatNumber(journals.length), tone: "accent" },
+      { label: "Total related articles", value: formatNumber(articles.length), tone: "accent" },
+      { label: "Languages", value: formatNumber(languages.length) },
+      { label: "Dominant license", value: licenses.length ? countBy(licenses, 1)[0].name : "-" },
+      { label: "APC share", value: percent(apcYes, journals.length) },
+      { label: "Preservation coverage", value: percent(preservationYes, journals.length) },
+      { label: "PID coverage", value: percent(pidYes, journals.length) },
+      { label: "Most recent update", value: journals[0] ? journalDisplayDate(journals[0]) : (articles[0] ? articleDisplayDate(articles[0]) : "-") },
+    ],
+    charts: {
+      wordcloud: makeWordCloud("Journal word cloud", wordCloud),
+      publishers_by_name: makeBarChart("Publishers in this country", countBy(publishers.map((item) => item.title), 12)),
+      journals_by_subject: makeBarChart("Journals by subject", countBy(subjects, 12)),
+      related_articles_by_journal: makeBarChart(
+        "Related articles by journal",
+        countBy(articles.map(articleJournalTitle).filter(Boolean), 12)
+      ),
+      language_distribution: makePieChart("Language distribution", countBy(languages, 12)),
+      license_distribution: makePieChart("License distribution", countBy(licenses, 8)),
+      apc_mix: makePieChart("APC vs no APC", [
+        { name: "APC", value: apcYes },
+        { name: "No APC", value: Math.max(journals.length - apcYes, 0) },
+      ]),
+      preservation_services: makeBarChart("Preservation service distribution", countBy(preservation, 10)),
+      pid_schemes: makeBarChart("PID scheme distribution", countBy(pidSchemes, 10)),
+      recency_timeline: makeTimelineChart("Journal and article recency timeline", labels, [
+        { name: "Journals updated", data: labels.map((label) => journalCounts.get(label) || 0) },
+        { name: "Articles by year", data: labels.map((label) => articleCounts.get(label) || 0) },
+      ]),
+    },
+    narratives: [
+      {
+        title: "Country portfolio summary",
+        text: publishers.length
+          ? `${country.title} is currently represented by ${publishers.length} publisher portfolios in the loaded path.`
+          : `${country.title} is currently represented by journal and article metadata only in the loaded path.`,
+      },
+      {
+        title: "Topic summary",
+        text: wordCloud.length
+          ? `The currently loaded country portfolio is shaped by journal naming patterns around ${wordCloud.slice(0, 6).map((item) => item.name).join(", ")}.`
+          : "Not enough journal titles are available to build a stable word cloud for this country.",
+      },
+      {
+        title: "Query scope",
+        text: searchContext.query
+          ? `This country view is built from records related to the search phrase "${searchContext.query}".`
+          : "This country view reflects the currently loaded DOAJ records.",
+      },
+    ],
+  };
+}
+
 function buildPublisherPayload(publisher, journals, articles, searchContext) {
   const countries = unique(journals.map(journalCountry).concat(articles.map(articleJournalCountry)).filter(Boolean));
   const languages = unique(journals.flatMap(journalLanguages).concat(articles.flatMap(articleJournalLanguages)));
@@ -3133,7 +3344,7 @@ function buildJournalPayload(
   journal,
   allArticles,
   searchContext,
-  { matchedArticles = [], contextType = "search", matchingContext = null } = {}
+  { matchedArticles = [], contextType = "search", matchingContext = null, articleSource = "loaded journal articles" } = {}
 ) {
   const languages = journalLanguages(journal);
   const licenses = journalLicenses(journal);
@@ -3161,10 +3372,10 @@ function buildJournalPayload(
   const createdMap = new Map(createdYears.map((item) => [item.name, item.value]));
   const authorGuidelinesUrl = journalAuthorGuidelines(journal);
   const summary = contextType === "matching"
-    ? `${journalTitle(journal)} aligns with the submitted abstract through ${matchingContext?.matchedTerms?.slice(0, 3).join(", ") || "live metadata and article themes"}. This journal currently exposes ${allArticles.length} retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}.`
+    ? `${journalTitle(journal)} aligns with the submitted abstract through ${matchingContext?.matchedTerms?.slice(0, 3).join(", ") || "live metadata and article themes"}. This journal currently exposes ${allArticles.length} loaded DOAJ article record${allArticles.length === 1 ? "" : "s"}.`
     : searchContext.query
-      ? `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"}. The matched list remains restricted to the original search phrase and currently shows ${matchedArticles.length} item${matchedArticles.length === 1 ? "" : "s"}.`
-      : `${journalTitle(journal)} currently exposes ${allArticles.length} currently retrievable DOAJ article record${allArticles.length === 1 ? "" : "s"} from live DOAJ journal retrieval.`;
+      ? `${journalTitle(journal)} currently exposes ${allArticles.length} loaded DOAJ article record${allArticles.length === 1 ? "" : "s"}. The matched list remains restricted to the original search phrase and currently shows ${matchedArticles.length} item${matchedArticles.length === 1 ? "" : "s"}.`
+      : `${journalTitle(journal)} currently exposes ${allArticles.length} loaded DOAJ article record${allArticles.length === 1 ? "" : "s"} for this journal.`;
   const metaLabel = contextType === "matching"
     ? `Journal Matching • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
     : searchContext.query
@@ -3173,8 +3384,8 @@ function buildJournalPayload(
   const scopeNote = contextType === "matching"
     ? "This journal dashboard was opened from Journal Matching. KPI charts still use live DOAJ article records for this journal only."
     : searchContext.query
-      ? `The left-side matched list is restricted to "${searchContext.query}", but the charts use all currently retrievable DOAJ articles for this journal.`
-      : "The charts on this page use all currently retrievable DOAJ articles for this journal.";
+      ? `The left-side matched list is restricted to "${searchContext.query}", but the charts use the ${articleSource} currently loaded for this journal.`
+      : `The charts on this page use the ${articleSource} currently loaded for this journal.`;
 
   return {
     entity_type: "journal",
@@ -3224,7 +3435,7 @@ function buildJournalPayload(
         { name: "Articles by year", data: labels.map((label) => publicationMap.get(label) || 0) },
         { name: "Articles created", data: labels.map((label) => createdMap.get(label) || 0) },
         { name: "Journal update year", data: labels.map((label) => (updateYear === label ? 1 : 0)) },
-      ]),
+      ], { fullWidth: true }),
     },
     narratives: [
       {
@@ -3247,21 +3458,21 @@ function buildJournalPayload(
   };
 }
 
-function buildArticlePayload(article, searchContext) {
-  const linkedJournal = findJournalForArticle(article, searchContext.groups?.journals || []);
+function buildArticlePayload(article, searchContext, { linkedJournal = null } = {}) {
+  const resolvedJournal = linkedJournal || findJournalForArticle(article, searchContext.groups?.journals || []);
   const authors = articleAuthorNames(article);
   const authorEntries = articleAuthors(article);
   const affiliations = articleAffiliations(article);
   const subjects = articleSubjects(article);
   const keywords = articleKeywords(article);
   const abstractTerms = topTerms([articleAbstract(article)], 24);
-  const linkedJournalTitle = linkedJournal ? journalTitle(linkedJournal) : articleJournalTitle(article);
-  const linkedJournalPublisher = linkedJournal ? journalPublisher(linkedJournal) : articleJournalPublisher(article);
-  const linkedJournalIssns = linkedJournal ? journalIssns(linkedJournal) : articleJournalIssns(article);
-  const linkedJournalLanguages = linkedJournal ? journalLanguages(linkedJournal) : articleJournalLanguages(article);
-  const linkedJournalCountry = linkedJournal ? journalCountry(linkedJournal) : articleJournalCountry(article);
-  const linkedJournalSubjects = linkedJournal ? journalSubjects(linkedJournal) : [];
-  const linkedJournalWebsite = linkedJournal ? journalWebsite(linkedJournal) : null;
+  const linkedJournalTitle = resolvedJournal ? journalTitle(resolvedJournal) : articleJournalTitle(article);
+  const linkedJournalPublisher = resolvedJournal ? journalPublisher(resolvedJournal) : articleJournalPublisher(article);
+  const linkedJournalIssns = resolvedJournal ? journalIssns(resolvedJournal) : articleJournalIssns(article);
+  const linkedJournalLanguages = resolvedJournal ? journalLanguages(resolvedJournal) : articleJournalLanguages(article);
+  const linkedJournalCountry = resolvedJournal ? journalCountry(resolvedJournal) : articleJournalCountry(article);
+  const linkedJournalSubjects = resolvedJournal ? journalSubjects(resolvedJournal) : [];
+  const linkedJournalWebsite = resolvedJournal ? journalWebsite(resolvedJournal) : null;
   const volumeIssue = articleVolumeIssue(article);
   const pages = articlePageRange(article);
 
@@ -3270,12 +3481,8 @@ function buildArticlePayload(article, searchContext) {
     title: articleTitle(article),
     fetched_at: searchContext.fetchedAt,
     query: searchContext.query,
-    meta_label: searchContext.query
-      ? `Search phrase: "${searchContext.query}" • Fetched ${formatDisplayDate(searchContext.fetchedAt)}`
-      : `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`,
-    scope_note: searchContext.query
-      ? `This article detail page is tied to the original search phrase "${searchContext.query}".`
-      : "This article detail page reflects the selected DOAJ article record.",
+    meta_label: `Fetched ${formatDisplayDate(searchContext.fetchedAt)}`,
+    scope_note: "This article detail page reflects the selected DOAJ article record.",
     doi: articleDoi(article),
     doiUrl: articleDoiUrl(article),
     fulltextUrl: articleFulltextUrl(article),
@@ -3293,9 +3500,9 @@ function buildArticlePayload(article, searchContext) {
     journalCountry: linkedJournalCountry,
     journalSubjects: linkedJournalSubjects,
     journalWebsite: linkedJournalWebsite,
-    journalEntityKey: linkedJournal ? `${linkedJournal.id}` : null,
+    journalEntityKey: resolvedJournal ? `${resolvedJournal.id}` : null,
     article,
-    summary: `${articleTitle(article)} is shown as an article detail view restricted to the original search phrase.`,
+    summary: `${articleTitle(article)} is shown as the selected DOAJ article record.`,
     kpis: [
       { label: "Article year", value: articleYear(article) || "-" },
       { label: "Journal", value: linkedJournalTitle || "-", tone: "accent" },
@@ -3320,10 +3527,8 @@ function buildArticlePayload(article, searchContext) {
         text: keywords.join(", ") || "No keywords are available for this article record.",
       },
       {
-        title: "Query scope",
-        text: searchContext.query
-          ? `This article detail page is tied to the original search phrase "${searchContext.query}".`
-          : "This article detail page reflects the selected DOAJ article record.",
+        title: "Record scope",
+        text: "This article detail page reflects the selected DOAJ article record. The original search phrase is used only to discover the record, not to limit its content.",
       },
     ],
   };
@@ -3412,14 +3617,21 @@ function currentQueryFromUrl() {
 }
 
 function clearEntityMaps() {
+  state.entities.country.clear();
   state.entities.publisher.clear();
   state.entities.journal.clear();
   state.entities.article.clear();
 }
 
 function indexGroups(groups) {
+  state.standaloneCountry = null;
   state.standaloneJournal = null;
+  state.standaloneJournalSeed = null;
+  state.standaloneArticle = null;
   clearEntityMaps();
+  for (const country of groups.countries || []) {
+    state.entities.country.set(country.entity_key, country);
+  }
   for (const publisher of groups.publishers) {
     state.entities.publisher.set(publisher.entity_key, publisher);
   }
@@ -3499,7 +3711,7 @@ function renderPublisherCard(item) {
       <div class="result-header">
         <div>
           <div class="result-title">${escapeHtml(item.title)}</div>
-          <div class="result-meta">Latest match: ${escapeHtml(item.latestDate)} • ${item.journal_count} journals • ${item.article_count} articles</div>
+          <div class="result-meta">Latest related record: ${escapeHtml(item.latestDate)} • ${item.journal_count} journals • ${item.article_count} articles</div>
         </div>
         <span class="result-badge" data-kind="publisher">Publisher</span>
       </div>
@@ -3513,6 +3725,31 @@ function renderPublisherCard(item) {
       <div class="result-actions">
         <div class="muted-line">Sorted by latest matched record</div>
         <button class="result-action" data-kind="publisher" data-entity-type="publisher" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
+      </div>
+    </article>
+  `;
+}
+
+function renderCountryCard(item) {
+  return `
+    <article class="result-card">
+      <div class="result-header">
+        <div>
+          <div class="result-title">${escapeHtml(item.title)}</div>
+          <div class="result-meta">Latest related record: ${escapeHtml(item.latestDate)} • ${item.publisher_count} publishers • ${item.journal_count} journals</div>
+        </div>
+        <span class="result-badge" data-kind="country">Country</span>
+      </div>
+      <div class="result-body">
+        <p class="result-summary-text">${escapeHtml(countryCardSummary(item))}</p>
+        <div class="result-summary">
+          <p>Publishers: ${escapeHtml(item.publishers.slice(0, 5).join(", ") || "Not exposed")}</p>
+          <p>Languages: ${escapeHtml(item.languages.map(formatLanguageName).join(", ") || "Not exposed")}</p>
+        </div>
+      </div>
+      <div class="result-actions">
+        <div class="muted-line">Built from related publisher, journal, and article records</div>
+        <button class="result-action" data-kind="country" data-entity-type="country" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
       </div>
     </article>
   `;
@@ -3662,24 +3899,35 @@ function attachOpenHandlers(root) {
 }
 
 function renderHomeGroups(groups) {
+  const compactArticles = !groups.journals.length && groups.articles.length > 0;
   const sections = [
+    { title: "Countries", items: groups.countries, renderer: renderCountryCard },
     { title: "Publishers", items: groups.publishers, renderer: renderPublisherCard },
     { title: "Journals", items: groups.journals, renderer: (item) => renderJournalCard(item) },
-    { title: "Articles", items: groups.articles, renderer: (item) => renderArticleCard(item) },
-  ];
+    {
+      title: "Articles",
+      items: groups.articles,
+      renderer: (item) => (compactArticles ? renderMatchedArticleTitleCard(item) : renderArticleCard(item)),
+    },
+  ].filter((section) => section.items.length > 0);
+
+  if (!sections.length) {
+    setResultsState("No countries, publishers, journals, or articles matched this query.", false);
+    dom.resultsGroups.innerHTML = "";
+    return;
+  }
+
+  setResultsState("", true);
 
   dom.resultsGroups.innerHTML = sections
     .map((section) => {
-      const body = section.items.length
-        ? section.items.map(section.renderer).join("")
-        : `<div class="empty-state">No ${section.title.toLowerCase()} matched this query.</div>`;
       return `
         <section class="result-group">
           <div class="group-head">
             <h3>${section.title}</h3>
             <span class="section-meta">${section.items.length} shown</span>
           </div>
-          <div class="group-list">${body}</div>
+          <div class="group-list">${section.items.map(section.renderer).join("")}</div>
         </section>
       `;
     })
@@ -3879,6 +4127,7 @@ function renderPrecheckHome() {
 }
 
 function renderLockedResults(title, meta, itemsHtml, { hidden = false } = {}) {
+  state.detailResults = null;
   dom.detailResultsHeading.textContent = title;
   dom.detailResultsMeta.textContent = meta;
   dom.relatedPanel.classList.toggle("hidden", hidden);
@@ -3893,6 +4142,139 @@ function renderLockedResults(title, meta, itemsHtml, { hidden = false } = {}) {
   setDetailResultsState("", true);
   dom.detailResultsList.innerHTML = itemsHtml;
   attachOpenHandlers(dom.detailResultsList);
+}
+
+function articlePublicationYearLabel(record) {
+  return articleYear(record) || "Undated";
+}
+
+function sortPublicationYearLabels(labels) {
+  return [...labels].sort((left, right) => {
+    if (left === "Undated") {
+      return 1;
+    }
+    if (right === "Undated") {
+      return -1;
+    }
+    return Number(right) - Number(left) || `${right}`.localeCompare(`${left}`);
+  });
+}
+
+function renderDetailResultsYearPage() {
+  const context = state.detailResults;
+  if (!context || context.kind !== "article-year") {
+    return;
+  }
+  const page = context.pages[context.activeIndex];
+  if (!page) {
+    dom.detailResultsList.innerHTML = "";
+    return;
+  }
+  dom.detailResultsList.innerHTML = `
+    <div class="detail-year-results">
+      <div class="detail-year-results-bar">
+        <div>
+          <span class="mini-label">Publication year</span>
+          <div class="detail-year-results-title">${escapeHtml(page.year)}</div>
+        </div>
+        <div class="detail-year-results-meta">${formatNumber(page.records.length)} articles</div>
+      </div>
+      <div class="detail-year-controls">
+        <button
+          type="button"
+          class="ghost-button"
+          data-detail-year-page="prev"
+          ${context.activeIndex <= 0 ? "disabled" : ""}
+        >Previous year</button>
+        <button
+          type="button"
+          class="ghost-button"
+          data-detail-year-page="next"
+          ${context.activeIndex >= context.pages.length - 1 ? "disabled" : ""}
+        >Next year</button>
+      </div>
+      <div class="detail-year-chip-list">
+        ${context.pages
+          .map(
+            (item, index) => `
+              <button
+                type="button"
+                class="detail-year-chip ${index === context.activeIndex ? "is-active" : ""}"
+                data-detail-year-index="${index}"
+              >${escapeHtml(item.year)}</button>
+            `
+          )
+          .join("")}
+      </div>
+      <div class="group-list">
+        ${page.records.map((item) => renderMatchedArticleTitleCard(item)).join("")}
+      </div>
+    </div>
+  `;
+  attachOpenHandlers(dom.detailResultsList);
+  dom.detailResultsList.querySelector("[data-detail-year-page='prev']")?.addEventListener("click", () => {
+    if (!state.detailResults || state.detailResults.kind !== "article-year") {
+      return;
+    }
+    state.detailResults.activeIndex = Math.max(0, state.detailResults.activeIndex - 1);
+    renderDetailResultsYearPage();
+  });
+  dom.detailResultsList.querySelector("[data-detail-year-page='next']")?.addEventListener("click", () => {
+    if (!state.detailResults || state.detailResults.kind !== "article-year") {
+      return;
+    }
+    state.detailResults.activeIndex = Math.min(state.detailResults.pages.length - 1, state.detailResults.activeIndex + 1);
+    renderDetailResultsYearPage();
+  });
+  dom.detailResultsList.querySelectorAll("[data-detail-year-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (!state.detailResults || state.detailResults.kind !== "article-year") {
+        return;
+      }
+      state.detailResults.activeIndex = Number(button.getAttribute("data-detail-year-index")) || 0;
+      renderDetailResultsYearPage();
+    });
+  });
+}
+
+function renderLockedArticleResults(title, meta, articles, { hidden = false, contextKey = "" } = {}) {
+  dom.detailResultsHeading.textContent = title;
+  dom.detailResultsMeta.textContent = meta;
+  dom.relatedPanel.classList.toggle("hidden", hidden);
+  if (hidden) {
+    state.detailResults = null;
+    return;
+  }
+  if (!articles.length) {
+    state.detailResults = null;
+    setDetailResultsState("No query-matched related results are available for this selection.", false);
+    dom.detailResultsList.innerHTML = "";
+    return;
+  }
+  const grouped = new Map();
+  for (const article of sortArticles(articles)) {
+    const yearLabel = articlePublicationYearLabel(article);
+    if (!grouped.has(yearLabel)) {
+      grouped.set(yearLabel, []);
+    }
+    grouped.get(yearLabel).push(article);
+  }
+  const pages = sortPublicationYearLabels([...grouped.keys()]).map((year) => ({
+    year,
+    records: grouped.get(year) || [],
+  }));
+  const previous = state.detailResults;
+  const activeIndex = previous && previous.kind === "article-year" && previous.contextKey === contextKey
+    ? Math.min(previous.activeIndex, pages.length - 1)
+    : 0;
+  state.detailResults = {
+    kind: "article-year",
+    contextKey,
+    pages,
+    activeIndex,
+  };
+  setDetailResultsState("", true);
+  renderDetailResultsYearPage();
 }
 
 function renderWordCloudItems(items) {
@@ -4141,6 +4523,28 @@ function searchResultsHref() {
   return query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
 }
 
+function mainSearchHref(query, { hash = "" } = {}) {
+  const url = new URL(window.location.pathname, window.location.origin);
+  const normalized = normalizeSearchQuery(query || "");
+  if (normalized) {
+    url.searchParams.set("q", normalized);
+  }
+  url.hash = hash;
+  return `${url.pathname}${url.search}${url.hash}`;
+}
+
+function standaloneEntityHref(entityType, entityKey) {
+  const url = new URL(window.location.pathname, window.location.origin);
+  url.hash = `${entityType}/${encodeURIComponent(entityKey)}`;
+  return `${url.pathname}${url.search}${url.hash}`;
+}
+
+function searchContextForArticleNavigation() {
+  return state.search?.groups
+    ? state.search
+    : { query: "", fetchedAt: new Date().toISOString(), groups: { countries: [], journals: [], articles: [] } };
+}
+
 function renderBreadcrumb(items) {
   dom.detailBreadcrumb.innerHTML = items
     .map((item, index) => {
@@ -4207,9 +4611,20 @@ function renderArticleInfoRows(rows) {
 
 function renderArticleDashboard(payload) {
   const authorNames = payload.authors.map((author) => author.name).filter(Boolean).join(", ");
-  const journalLink = payload.journalEntityKey
-    ? `<a class="inline-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">${escapeHtml(payload.journalTitle || "Journal detail")}</a>`
+  const journalSearchHref = payload.journalTitle ? mainSearchHref(quotedPhrase(payload.journalTitle)) : "";
+  const articleJournalDataAttr = `data-open-article-journal="${escapeHtml(`${payload.article?.id || ""}`)}"`;
+  const unresolvedJournalLink = payload.journalTitle
+    ? `<a class="inline-link" href="${escapeHtml(journalSearchHref)}" ${articleJournalDataAttr}>${escapeHtml(payload.journalTitle)}</a>`
     : escapeHtml(payload.journalTitle || "Journal unavailable");
+  const journalLink = payload.journalEntityKey
+    ? `<a class="inline-link" href="${escapeHtml(standaloneEntityHref("journal", payload.journalEntityKey))}" ${articleJournalDataAttr}>${escapeHtml(payload.journalTitle || "Journal detail")}</a>`
+    : unresolvedJournalLink;
+  const publisherLink = payload.journalPublisher
+    ? `<a class="inline-link" href="${escapeHtml(mainSearchHref(payload.journalPublisher))}">${escapeHtml(payload.journalPublisher)}</a>`
+    : "";
+  const countryLink = payload.journalCountry
+    ? `<a class="inline-link" href="${escapeHtml(entityHref("country", payload.journalCountry))}">${escapeHtml(payload.journalCountry)}</a>`
+    : "";
   const topLine = [payload.year, payload.volumeIssue, payload.pages ? `Pages ${payload.pages}` : ""].filter(Boolean).join(" • ");
   const actionLinks = [
     payload.doiUrl
@@ -4219,7 +4634,12 @@ function renderArticleDashboard(payload) {
       ? `<a class="detail-title-link" href="${escapeHtml(payload.fulltextUrl)}" target="_blank" rel="noopener noreferrer">Read online</a>`
       : "",
     payload.journalEntityKey
-      ? `<a class="detail-title-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">Open journal detail</a>`
+      ? `<a class="detail-title-link" href="${escapeHtml(standaloneEntityHref("journal", payload.journalEntityKey))}" ${articleJournalDataAttr}>Open journal detail</a>`
+      : payload.journalTitle
+        ? `<a class="detail-title-link" href="${escapeHtml(journalSearchHref)}" ${articleJournalDataAttr}>Open journal detail</a>`
+        : "",
+    payload.journalPublisher
+      ? `<a class="detail-title-link" href="${escapeHtml(mainSearchHref(payload.journalPublisher))}">Search publisher</a>`
       : "",
     payload.journalWebsite
       ? `<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`
@@ -4292,9 +4712,15 @@ function renderArticleDashboard(payload) {
             <h3>Published in ${escapeHtml(payload.journalTitle || "journal context")}</h3>
           </div>
           ${renderArticleInfoRows([
-            { label: "Journal", value: payload.journalEntityKey ? `<a class="inline-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">${escapeHtml(payload.journalTitle || "-")}</a>` : payload.journalTitle || "", html: Boolean(payload.journalEntityKey) },
-            { label: "Publisher", value: payload.journalPublisher || "" },
-            { label: "Country", value: payload.journalCountry || "" },
+            {
+              label: "Journal",
+              value: payload.journalEntityKey
+                ? `<a class="inline-link" href="${escapeHtml(standaloneEntityHref("journal", payload.journalEntityKey))}" ${articleJournalDataAttr}>${escapeHtml(payload.journalTitle || "-")}</a>`
+                : unresolvedJournalLink,
+              html: Boolean(payload.journalEntityKey || payload.journalTitle),
+            },
+            { label: "Publisher", value: publisherLink || payload.journalPublisher || "", html: Boolean(publisherLink) },
+            { label: "Country", value: countryLink || payload.journalCountry || "", html: Boolean(countryLink) },
             { label: "ISSN", value: renderIssnLinks(payload.journalIssns, { className: "inline-link", emptyText: "" }), html: true },
             { label: "Languages", value: payload.journalLanguages.join(", ") || "" },
             { label: "Journal website", value: payload.journalWebsite ? `<a class="inline-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.journalWebsite)}</a>` : "", html: Boolean(payload.journalWebsite) },
@@ -4327,6 +4753,7 @@ function renderArticleDashboard(payload) {
     </div>
   `;
 
+  attachArticleDetailHandlers(payload);
   void mountCharts(payload.charts);
 }
 
@@ -4397,6 +4824,58 @@ function renderDashboard(payload) {
   `;
 
   void mountCharts(payload.charts);
+}
+
+async function openJournalFromArticle(articleId) {
+  let article = findArticle(articleId);
+  if (!article) {
+    article = await fetchArticleByEntityKey(articleId);
+    if (article) {
+      state.standaloneArticle = article;
+      state.entities.article.set(`${article.id}`, article);
+    }
+  }
+  if (!article) {
+    throw new Error("The journal could not be resolved because the article record is unavailable.");
+  }
+  const searchContext = searchContextForArticleNavigation();
+  const journal = await resolveJournalForArticle(article, searchContext.groups?.journals || []);
+  if (journal) {
+    state.standaloneJournal = journal;
+    state.standaloneJournalSeed = {
+      journalKey: `${journal.id}`,
+      articles: [article],
+    };
+    state.entities.journal.set(`${journal.id}`, journal);
+    syncUrl("", `journal/${encodeURIComponent(`${journal.id}`)}`, false, { mode: "main-search" });
+    await renderRoute();
+    return;
+  }
+  const fallbackQuery = articleJournalTitle(article);
+  if (!fallbackQuery) {
+    throw new Error("The journal title is unavailable for this article record.");
+  }
+  await runSearch(fallbackQuery, { updateUrl: false });
+  syncUrl(fallbackQuery, "", false, { mode: "main-search" });
+  showHomeView({ mode: "main-search", showResults: true });
+}
+
+function attachArticleDetailHandlers(payload) {
+  dom.dashboardContent.querySelectorAll("[data-open-article-journal]").forEach((link) => {
+    link.addEventListener("click", async (event) => {
+      event.preventDefault();
+      const articleId = link.getAttribute("data-open-article-journal");
+      if (!articleId) {
+        return;
+      }
+      setDashboardState("Loading journal from live DOAJ metadata...", false);
+      try {
+        await openJournalFromArticle(articleId);
+      } catch (error) {
+        setDashboardState(error.message || "The linked journal could not be opened.", false);
+      }
+    });
+  });
 }
 
 async function mountCharts(charts) {
@@ -4729,9 +5208,10 @@ async function runSearch(query, { updateUrl = true } = {}) {
 
   const journals = sortJournals(journalsPayload.results);
   const articles = sortArticles(articlesPayload.results);
+  const countries = deriveCountries(journals, articles);
   const publishers = derivePublishers(journals, articles);
 
-  const groups = { publishers, journals, articles };
+  const groups = { countries, publishers, journals, articles };
   indexGroups(groups);
   state.search = {
     query: normalizedQuery,
@@ -4739,7 +5219,7 @@ async function runSearch(query, { updateUrl = true } = {}) {
     groups,
   };
 
-  dom.resultsMeta.textContent = `"${normalizedQuery}" • ${publishers.length} publishers, ${journals.length} journals, ${articles.length} articles shown`;
+  dom.resultsMeta.textContent = `"${normalizedQuery}" • ${countries.length} countries, ${publishers.length} publishers, ${journals.length} journals, ${articles.length} articles shown`;
   setResultsState("", true);
   renderHomeGroups(groups);
 
@@ -4862,6 +5342,10 @@ function findPublisher(entityKey) {
   return state.entities.publisher.get(entityKey) || state.search.groups?.publishers.find((item) => item.entity_key === entityKey) || null;
 }
 
+function findCountry(entityKey) {
+  return state.entities.country.get(entityKey) || state.search.groups?.countries.find((item) => item.entity_key === entityKey) || null;
+}
+
 function findJournal(entityKey) {
   return state.entities.journal.get(entityKey)
     || state.search.groups?.journals.find((item) => `${item.id}` === entityKey)
@@ -4871,7 +5355,50 @@ function findJournal(entityKey) {
 }
 
 function findArticle(entityKey) {
-  return state.entities.article.get(entityKey) || state.search.groups?.articles.find((item) => `${item.id}` === entityKey) || null;
+  return state.entities.article.get(entityKey)
+    || state.search.groups?.articles.find((item) => `${item.id}` === entityKey)
+    || (state.standaloneArticle && `${state.standaloneArticle.id}` === entityKey ? state.standaloneArticle : null)
+    || null;
+}
+
+function renderCountryDetail(entityKey) {
+  const country = findCountry(entityKey);
+  if (!country) {
+    throw new Error("The selected country is no longer present in the current search result set.");
+  }
+  const journals = sortJournals(filterCountryJournals(state.search.groups.journals, country.title));
+  const articles = sortArticles(filterCountryArticles(state.search.groups.articles, country.title));
+  const publishers = derivePublishers(journals, articles);
+  const payload = buildCountryPayload(country, journals, articles, state.search);
+  if (publishers.length) {
+    renderLockedResults(
+      "Matched publishers",
+      `${publishers.length} publishers • search phrase "${state.search.query}"`,
+      publishers.map((item) => renderPublisherCard(item)).join("")
+    );
+  } else if (journals.length) {
+    renderLockedResults(
+      "Matched journals",
+      `${journals.length} journals • search phrase "${state.search.query}"`,
+      journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
+    );
+  } else if (articles.length) {
+    renderLockedArticleResults(
+      "Matched articles",
+      `${articles.length} articles • search phrase "${state.search.query}"`,
+      articles,
+      { contextKey: `country-articles:${entityKey}:${state.search.query}` }
+    );
+  } else {
+    renderLockedResults("Matched records", `0 records • search phrase "${state.search.query}"`, "");
+  }
+  renderBreadcrumb([
+    { label: "Search", href: window.location.pathname },
+    { label: `Results: ${state.search.query}`, href: searchResultsHref() },
+    { label: country.title },
+  ]);
+  showDetailView();
+  renderDashboard(payload);
 }
 
 function renderPublisherDetail(entityKey) {
@@ -4889,10 +5416,11 @@ function renderPublisherDetail(entityKey) {
       journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
     );
   } else if (articles.length) {
-    renderLockedResults(
+    renderLockedArticleResults(
       "Matched articles",
       `${articles.length} articles • search phrase "${state.search.query}"`,
-      articles.map((item) => renderMatchedArticleTitleCard(item)).join("")
+      articles,
+      { contextKey: `publisher-articles:${entityKey}:${state.search.query}` }
     );
   } else {
     renderLockedResults(
@@ -4910,16 +5438,54 @@ function renderPublisherDetail(entityKey) {
   renderDashboard(payload);
 }
 
+async function fetchCountryContextByName(countryName) {
+  const normalizedCountry = formatCountryName(countryName);
+  const [journalsPayload, articlesPayload] = await Promise.all([
+    fetchPaginated("journals", normalizedCountry, {
+      pageSize: 25,
+      maxPages: 2,
+      maxRecords: MAX_LIVE_JOURNALS,
+    }),
+    fetchPaginated("articles", normalizedCountry, {
+      pageSize: 25,
+      maxPages: 2,
+      maxRecords: MAX_LIVE_ARTICLES,
+    }),
+  ]);
+  const journals = sortJournals(filterCountryJournals(journalsPayload.results || [], normalizedCountry));
+  const articles = sortArticles(filterCountryArticles(articlesPayload.results || [], normalizedCountry));
+  const countries = deriveCountries(journals, articles);
+  const publisherNames = unique(journals.map(journalPublisher).concat(articles.map(articleJournalPublisher)).filter(Boolean));
+  return {
+    country: countries.find((item) => item.title === normalizedCountry) || {
+      entity_type: "country",
+      entity_key: normalizedCountry,
+      title: normalizedCountry,
+      publisher_count: publisherNames.length,
+      journal_count: journals.length,
+      article_count: articles.length,
+      publishers: publisherNames,
+      languages: unique(journals.flatMap(journalLanguages).concat(articles.flatMap(articleJournalLanguages))),
+      latestTs: Math.max(journals[0] ? journals[0].latestTs || journalSortTimestamp(journals[0]) : 0, articles[0] ? articleSortTimestamp(articles[0]) : 0),
+      latestDate: formatDisplayDate(journals[0]?.last_updated || articles[0]?.last_updated || articles[0]?.created_date || null),
+    },
+    journals,
+    articles,
+    fetchedAt: new Date().toISOString(),
+  };
+}
+
 async function renderJournalDetail(entityKey) {
   const journal = state.search.groups?.journals.find((item) => `${item.id}` === entityKey) || null;
   if (!journal) {
     throw new Error("The selected journal is no longer present in the current search result set.");
   }
   const matchedArticles = sortArticles(filterArticlesForJournal(state.search.groups.articles, journal));
-  renderLockedResults(
+  renderLockedArticleResults(
     "Matched articles",
     `${matchedArticles.length} articles • search phrase "${state.search.query}"`,
-    matchedArticles.map((item) => renderMatchedArticleTitleCard(item)).join("")
+    matchedArticles,
+    { contextKey: `journal-matched:${entityKey}:${state.search.query}` }
   );
   renderBreadcrumb([
     { label: "Search", href: window.location.pathname },
@@ -4956,6 +5522,47 @@ async function fetchJournalByEntityKey(entityKey) {
   return payload.results.find((item) => `${item.id}` === entityKey) || null;
 }
 
+async function fetchArticleByEntityKey(entityKey) {
+  const payload = await fetchPaginated("articles", entityKey, {
+    pageSize: 10,
+    maxPages: 1,
+    maxRecords: 10,
+  });
+  return payload.results.find((item) => `${item.id}` === entityKey) || null;
+}
+
+async function resolveJournalForArticle(article, journals = []) {
+  const indexed = findJournalForArticle(article, journals);
+  if (indexed) {
+    return indexed;
+  }
+  const signature = articleJournalSignature(article);
+  const queries = unique([
+    ...articleJournalIssns(article).map(issnExactQuery),
+    ...articleJournalIssns(article),
+    ...articleJournalIssns(article).map(quotedPhrase),
+    articleJournalTitle(article) || "",
+    articleJournalTitle(article) ? quotedPhrase(articleJournalTitle(article)) : "",
+  ]).filter(Boolean);
+  for (const query of queries) {
+    const payload = await fetchPaginatedSafe("journals", query, {
+      pageSize: 10,
+      maxPages: 1,
+      maxRecords: 10,
+    });
+    if (!payload.ok) {
+      continue;
+    }
+    const resolved = (payload.results || []).find((record) =>
+      sameJournalSignature(journalSignature(record), signature)
+    );
+    if (resolved) {
+      return resolved;
+    }
+  }
+  return null;
+}
+
 async function renderMatchingJournalDetail(entityKey) {
   const result = findMatchingResult(entityKey);
   if (!result) {
@@ -4988,6 +5595,52 @@ async function renderMatchingJournalDetail(entityKey) {
   renderDashboard(payload);
 }
 
+async function renderStandaloneCountryDetail(entityKey) {
+  const countryName = formatCountryName(entityKey);
+  const context = await fetchCountryContextByName(countryName);
+  if (!context.journals.length && !context.articles.length) {
+    throw new Error("The selected country could not be assembled from the live DOAJ API.");
+  }
+  const publishers = derivePublishers(context.journals, context.articles);
+  if (publishers.length) {
+    renderLockedResults(
+      "Related publishers",
+      `${publishers.length} publishers • live DOAJ country retrieval`,
+      publishers.map((item) => renderPublisherCard(item)).join("")
+    );
+    showDetailView();
+  } else if (context.journals.length) {
+    renderLockedResults(
+      "Related journals",
+      `${context.journals.length} journals • live DOAJ country retrieval`,
+      context.journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
+    );
+    showDetailView();
+  } else if (context.articles.length) {
+    renderLockedArticleResults(
+      "Related articles",
+      `${context.articles.length} articles • live DOAJ country retrieval`,
+      context.articles,
+      { contextKey: `country-standalone:${countryName}` }
+    );
+    showDetailView();
+  } else {
+    renderLockedResults("", "", "", { hidden: true });
+    showDetailView({ singleColumn: true });
+  }
+  renderBreadcrumb([
+    { label: "Search", href: window.location.pathname },
+    { label: countryName },
+  ]);
+  const payload = buildCountryPayload(
+    context.country,
+    context.journals,
+    context.articles,
+    { query: "", fetchedAt: context.fetchedAt }
+  );
+  renderDashboard(payload);
+}
+
 async function renderStandaloneJournalDetail(entityKey) {
   let journal = findJournal(entityKey);
   if (!journal) {
@@ -5010,7 +5663,6 @@ async function renderStandaloneJournalDetail(entityKey) {
     { label: modeLabel, href: searchResultsHref() },
     { label: journalTitle(journal) },
   ]);
-  showDetailView({ singleColumn: true });
   setDashboardState("Loading live journal articles from DOAJ...", false);
   let allArticles = [];
   try {
@@ -5018,28 +5670,88 @@ async function renderStandaloneJournalDetail(entityKey) {
   } catch {
     allArticles = [];
   }
+  const baseSeedArticles = state.standaloneJournalSeed?.journalKey === entityKey
+    ? sortArticles(state.standaloneJournalSeed.articles || [])
+    : [];
+  const filteredSeedArticles = baseSeedArticles.length ? sortArticles(filterArticlesForJournal(baseSeedArticles, journal)) : [];
+  const seedArticles = filteredSeedArticles.length ? filteredSeedArticles : baseSeedArticles;
+  const articleMap = new Map();
+  for (const article of allArticles) {
+    articleMap.set(`${article.id}`, article);
+  }
+  for (const article of seedArticles) {
+    articleMap.set(`${article.id}`, article);
+  }
+  const displayedArticles = articleMap.size ? sortArticles([...articleMap.values()]) : [];
+  if (displayedArticles.length) {
+    renderLockedArticleResults(
+      "Journal articles",
+      allArticles.length
+        ? `${displayedArticles.length} articles • live DOAJ journal retrieval`
+        : `${displayedArticles.length} article${displayedArticles.length === 1 ? "" : "s"} • fallback from selected article`,
+      displayedArticles,
+      { contextKey: `journal-standalone:${entityKey}` }
+    );
+    showDetailView();
+  } else {
+    renderLockedResults("", "", "", { hidden: true });
+    showDetailView({ singleColumn: true });
+  }
   const payload = buildJournalPayload(
     journal,
-    allArticles,
+    displayedArticles,
     { query: "", fetchedAt: new Date().toISOString() },
-    { matchedArticles: [], contextType: "standalone" }
+    {
+      matchedArticles: [],
+      contextType: "standalone",
+      articleSource: allArticles.length ? "journal article records" : "fallback article records",
+    }
   );
   renderDashboard(payload);
 }
 
-function renderArticleDetail(entityKey) {
-  const article = findArticle(entityKey);
-  if (!article) {
-    throw new Error("The selected article is no longer present in the current search result set.");
+async function renderArticleDetail(entityKey) {
+  let article = findArticle(entityKey);
+  try {
+    const liveArticle = await fetchArticleByEntityKey(entityKey);
+    if (liveArticle) {
+      article = liveArticle;
+      state.standaloneArticle = liveArticle;
+      state.entities.article.set(`${liveArticle.id}`, liveArticle);
+    }
+  } catch {
+    // Fall back to the currently indexed search result if the live reload fails.
   }
-  const payload = buildArticlePayload(article, state.search);
+  if (!article) {
+    throw new Error("The selected article could not be reloaded from the live DOAJ API.");
+  }
+  const searchContext = state.search?.groups
+    ? state.search
+    : { query: "", fetchedAt: new Date().toISOString(), groups: { countries: [], journals: [], articles: [] } };
+  let linkedJournal = findJournalForArticle(article, searchContext.groups?.journals || []);
+  if (!linkedJournal) {
+    try {
+      linkedJournal = await resolveJournalForArticle(article, searchContext.groups?.journals || []);
+      if (linkedJournal) {
+        state.standaloneJournal = linkedJournal;
+        state.entities.journal.set(`${linkedJournal.id}`, linkedJournal);
+      }
+    } catch {
+      linkedJournal = null;
+    }
+  }
+  const payload = buildArticlePayload(article, searchContext, { linkedJournal });
   renderLockedResults("", "", "", { hidden: true });
   const breadcrumbItems = [
     { label: "Search", href: window.location.pathname },
-    { label: `Results: ${state.search.query}`, href: searchResultsHref() },
   ];
+  if (searchContext.query) {
+    breadcrumbItems.push({ label: `Results: ${searchContext.query}`, href: searchResultsHref() });
+  }
   if (payload.journalEntityKey && payload.journalTitle) {
-    breadcrumbItems.push({ label: payload.journalTitle, href: entityHref("journal", payload.journalEntityKey) });
+    breadcrumbItems.push({ label: payload.journalTitle, href: standaloneEntityHref("journal", payload.journalEntityKey) });
+  } else if (payload.journalTitle) {
+    breadcrumbItems.push({ label: payload.journalTitle });
   }
   breadcrumbItems.push({ label: payload.title });
   renderBreadcrumb(breadcrumbItems);
@@ -5109,7 +5821,7 @@ async function renderRoute() {
   if (!query && route.view === "home") {
     showHomeView({ mode: "main-search", showResults: false });
     dom.resultsMeta.textContent = "No query yet";
-    setResultsState("Start with a live DOAJ query. This panel will separate matched publishers, journals, and articles.", false);
+    setResultsState("Start with a live DOAJ query. This panel will separate matched countries, publishers, journals, and articles.", false);
     dom.resultsGroups.innerHTML = "";
     dom.dashboardContent.innerHTML = "";
     return;
@@ -5167,6 +5879,25 @@ async function renderRoute() {
     }
   }
 
+  if (!query && route.view === "detail" && route.entityType === "country") {
+    try {
+      await renderStandaloneCountryDetail(route.entityKey);
+      return;
+    } catch (error) {
+      showDetailView({ singleColumn: true });
+      renderBreadcrumb([
+        { label: "Search", href: window.location.pathname },
+        { label: "Dashboard" },
+      ]);
+      dom.dashboardKicker.textContent = "Load failed";
+      dom.dashboardHeading.textContent = "Dashboard";
+      dom.dashboardMeta.textContent = "Live DOAJ country detail";
+      setDashboardState(error.message, false);
+      renderLockedResults("", "", "", { hidden: true });
+      return;
+    }
+  }
+
   if (!query && route.view === "detail" && route.entityType === "journal") {
     try {
       await renderStandaloneJournalDetail(route.entityKey);
@@ -5204,12 +5935,24 @@ async function renderRoute() {
   try {
     setDashboardState("Loading detail...", false);
     dom.dashboardContent.innerHTML = "";
+    if (route.entityType === "country") {
+      if (state.search.groups?.countries.some((item) => item.entity_key === route.entityKey)) {
+        renderCountryDetail(route.entityKey);
+      } else {
+        await renderStandaloneCountryDetail(route.entityKey);
+      }
+      return;
+    }
     if (route.entityType === "publisher") {
       await renderPublisherDetail(route.entityKey);
       return;
     }
     if (route.entityType === "journal") {
-      await renderJournalDetail(route.entityKey);
+      if (state.search.groups?.journals.some((item) => `${item.id}` === route.entityKey)) {
+        await renderJournalDetail(route.entityKey);
+      } else {
+        await renderStandaloneJournalDetail(route.entityKey);
+      }
       return;
     }
     if (route.entityType === "article") {
@@ -5242,7 +5985,7 @@ dom.searchForm.addEventListener("submit", async (event) => {
   dom.searchNote.textContent = "Searching DOAJ...";
   try {
     await runSearch(query, { updateUrl: true });
-    dom.searchNote.textContent = "Results are grouped into publishers, journals, and articles. Select any result for detail.";
+    dom.searchNote.textContent = "Results are grouped into countries, publishers, journals, and articles. Select any result for detail.";
     showHomeView({ mode: "main-search", showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;
