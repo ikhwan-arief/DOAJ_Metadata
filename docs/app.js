@@ -391,21 +391,113 @@ const PRECHECK_SOURCES = [
 
 const PRECHECK_SECTIONS = [
   {
-    id: "open-access-licensing",
-    title: "Open access and licensing",
-    description: "Check whether the website makes the open access model and reuse terms clear to readers and authors.",
+    id: "open-access-compliance",
+    title: "Open access compliance",
+    description: "Check whether the website reflects DOAJ's definition of open access and makes the journal's open access status clear.",
     items: [
+      {
+        id: "oa_definition",
+        level: "must",
+        source: "apply",
+        text: "Does the website make clear that all scholarly articles are immediately open access under terms compatible with DOAJ's definition of open access?",
+      },
       {
         id: "oa_statement",
         level: "must",
-        source: "guide",
-        text: "Does the website clearly state that scholarly articles are openly accessible without subscription or paywall barriers?",
+        source: "apply",
+        text: "Is there a clear open access statement on the journal website that readers and authors can easily find?",
       },
+      {
+        id: "oa_start_year",
+        level: "best",
+        source: "apply",
+        text: "Can the journal clearly identify the year it started publishing all content as full open access under an open licence?",
+      },
+    ],
+  },
+  {
+    id: "about-the-journal",
+    title: "About the journal",
+    description: "Check whether the core journal and publisher information needed in the DOAJ application is visible and consistent.",
+    items: [
+      {
+        id: "journal_title_consistency",
+        level: "must",
+        source: "apply",
+        text: "Does the journal title shown on the website appear consistently and match the title used in formal registrations where applicable?",
+      },
+      {
+        id: "homepage_availability",
+        level: "must",
+        source: "apply",
+        text: "Does the journal have a clear homepage that acts as the main public entry point for readers and authors?",
+      },
+      {
+        id: "issn_consistency",
+        level: "must",
+        source: "apply",
+        text: "If the journal uses print and/or online ISSNs, are they clearly displayed and consistent with the ISSN Portal and the journal website?",
+      },
+      {
+        id: "subject_keywords_english",
+        level: "best",
+        source: "apply",
+        text: "Can the journal's subject coverage be clearly expressed in short English keywords or phrases suitable for DOAJ application metadata?",
+      },
+      {
+        id: "manuscript_languages",
+        level: "must",
+        source: "apply",
+        text: "Does the website clearly state which languages are accepted for manuscript submission?",
+      },
+      {
+        id: "publisher_identity",
+        level: "must",
+        source: "apply",
+        text: "Does the website clearly state the publisher's name?",
+      },
+      {
+        id: "publisher_country",
+        level: "must",
+        source: "apply",
+        text: "Does the website clearly state the publisher's country or the country where the publisher operates?",
+      },
+      {
+        id: "owner_publisher_identity",
+        level: "must",
+        source: "transparency",
+        text: "Does the website clearly explain the publisher, owner, or organization responsible for the journal?",
+      },
+      {
+        id: "other_organisation_identity",
+        level: "best",
+        source: "apply",
+        text: "If another organisation owns, sponsors, funds, or supports the journal, is that relationship clearly identified on the website?",
+      },
+    ],
+  },
+  {
+    id: "copyright-licensing",
+    title: "Copyright and licensing",
+    description: "Check whether the website and article pages clearly present licensing and copyright terms expected by DOAJ.",
+    items: [
       {
         id: "article_license",
         level: "must",
-        source: "guide",
-        text: "Does the website clearly name the reuse license used for articles, such as a specific Creative Commons license?",
+        source: "apply",
+        text: "Does the website clearly identify the licence or licences permitted by the journal for published articles?",
+      },
+      {
+        id: "license_page",
+        level: "must",
+        source: "apply",
+        text: "Is there a clear page or section where the journal's licensing terms are stated?",
+      },
+      {
+        id: "embedded_license",
+        level: "best",
+        source: "apply",
+        text: "Is licensing information displayed or embedded on article pages and/or in full-text files such as PDF or HTML?",
       },
       {
         id: "no_all_rights_reserved",
@@ -429,13 +521,13 @@ const PRECHECK_SECTIONS = [
       {
         id: "copyright_holder",
         level: "must",
-        source: "guide",
+        source: "apply",
         text: "Does the website clearly identify who holds copyright for published articles?",
       },
       {
         id: "author_rights",
         level: "must",
-        source: "licensing",
+        source: "apply",
         text: "Does the website clearly explain whether authors retain copyright or grant rights to the publisher?",
       },
       {
@@ -447,26 +539,38 @@ const PRECHECK_SECTIONS = [
     ],
   },
   {
-    id: "editorial-peer-review",
-    title: "Editorial and peer review transparency",
-    description: "Check whether authors and readers can understand editorial responsibility and the peer review model.",
+    id: "editorial",
+    title: "Editorial",
+    description: "Check whether the website exposes the editorial, peer review, and author-facing information requested by DOAJ.",
     items: [
       {
         id: "peer_review_declared",
         level: "must",
-        source: "transparency",
-        text: "Does the website clearly state whether the journal uses peer review for scholarly content?",
+        source: "apply",
+        text: "Does the website clearly state that the journal uses peer review for scholarly articles?",
       },
       {
         id: "peer_review_process",
         level: "must",
-        source: "transparency",
+        source: "apply",
         text: "Does the website describe the peer review process or type used by the journal?",
+      },
+      {
+        id: "plagiarism_screening",
+        level: "best",
+        source: "apply",
+        text: "If the journal screens submissions for plagiarism, is that practice and any service used stated on the website?",
+      },
+      {
+        id: "aims_scope",
+        level: "must",
+        source: "apply",
+        text: "Does the website clearly describe the journal's aims and scope?",
       },
       {
         id: "editorial_board",
         level: "must",
-        source: "transparency",
+        source: "apply",
         text: "Are the editor-in-chief, editors, or editorial board members clearly listed on the website?",
       },
       {
@@ -476,73 +580,78 @@ const PRECHECK_SECTIONS = [
         text: "Are editorial board members presented with affiliations or other details that support editorial transparency?",
       },
       {
-        id: "publication_dates",
+        id: "author_guidelines",
+        level: "must",
+        source: "apply",
+        text: "Are instructions for authors or submission guidelines clearly available on the website?",
+      },
+      {
+        id: "submission_publication_timing",
         level: "best",
+        source: "apply",
+        text: "Can the journal identify the average number of weeks between article submission and publication?",
+      },
+      {
+        id: "contact_information",
+        level: "must",
         source: "transparency",
-        text: "Does the journal publish article dates such as publication date, and preferably submission and acceptance dates?",
+        text: "Does the website provide clear editorial office or publisher contact information, preferably including a full mailing address?",
       },
     ],
   },
   {
-    id: "fees-waivers",
-    title: "APCs, fees, and waivers",
-    description: "Check whether the site is explicit about article processing charges, submission fees, or the absence of fees.",
+    id: "business-model",
+    title: "Business model",
+    description: "Check whether author-facing fees and waivers are disclosed in a way that aligns with the DOAJ application.",
     items: [
       {
         id: "fee_transparency",
         level: "must",
-        source: "guide",
-        text: "Does the website clearly state any APCs or submission fees, or clearly state that no such fees are charged?",
+        source: "apply",
+        text: "Does the website clearly state whether the journal charges APCs or no publication fee at all?",
       },
       {
         id: "waiver_policy",
         level: "must",
-        source: "guide",
-        text: "If fees are charged, does the website explain waiver or reduction arrangements? If no fees are charged, answer Yes.",
+        source: "apply",
+        text: "If publication fees are charged, does the website clearly explain waiver or discount arrangements? If no publication fee is charged, answer Yes.",
+      },
+      {
+        id: "other_fees",
+        level: "must",
+        source: "apply",
+        text: "Does the website clearly state whether the journal charges any other author-facing fees, such as submission, editing, page, colour, membership, or supplementary charges?",
       },
       {
         id: "fee_currency_scope",
         level: "best",
-        source: "guide",
-        text: "Are the fee amounts, currency, and any conditions explained in enough detail for authors to understand them before submission?",
+        source: "apply",
+        text: "If fees are charged, are the amount, currency, and conditions explained clearly enough before submission?",
       },
     ],
   },
   {
-    id: "website-transparency-contact",
-    title: "Website transparency and contact information",
-    description: "Check whether the journal website makes the responsible organization and contact path visible.",
+    id: "best-practice",
+    title: "Best practice",
+    description: "Check whether the journal exposes additional preservation, repository, identifier, and ethics practices encouraged by DOAJ.",
     items: [
       {
-        id: "contact_information",
-        level: "must",
-        source: "guide",
-        text: "Does the website clearly provide contact information for the journal, editorial office, or publisher?",
+        id: "preservation_policy",
+        level: "best",
+        source: "apply",
+        text: "Does the website clearly state any active long-term preservation or archiving arrangement for journal content?",
       },
       {
-        id: "aims_scope",
-        level: "must",
-        source: "guide",
-        text: "Does the website clearly describe the journal's aims and scope?",
+        id: "repository_policy",
+        level: "best",
+        source: "apply",
+        text: "Does the journal have a clear policy allowing authors to deposit submitted, accepted, or published versions in repositories, and is that policy recorded on the website?",
       },
       {
-        id: "owner_publisher_identity",
-        level: "must",
-        source: "transparency",
-        text: "Does the website clearly explain the publisher, owner, or organization responsible for the journal?",
-      },
-    ],
-  },
-  {
-    id: "policies-practice",
-    title: "Policies and publishing practice",
-    description: "Check whether the site exposes author-facing policies that DOAJ and transparency guidance expect to see.",
-    items: [
-      {
-        id: "author_guidelines",
-        level: "must",
-        source: "guide",
-        text: "Are author guidelines or submission instructions clearly available on the website?",
+        id: "pid_usage",
+        level: "best",
+        source: "apply",
+        text: "Does the journal use persistent article identifiers such as DOI, ARK, Handle, or PURL, and is that practice clear on the website or article pages?",
       },
       {
         id: "ethics_policy",
@@ -551,10 +660,10 @@ const PRECHECK_SECTIONS = [
         text: "Does the website publish ethics, misconduct, or plagiarism-handling policies for authors and editors?",
       },
       {
-        id: "preservation_policy",
+        id: "publication_dates",
         level: "best",
-        source: "guide",
-        text: "Does the website describe any digital preservation, archiving, or long-term access arrangements for journal content?",
+        source: "transparency",
+        text: "Does the journal publish article dates such as publication date, and preferably submission and acceptance dates?",
       },
       {
         id: "special_content_policy",
@@ -3609,8 +3718,9 @@ function renderPrecheckGuardrailCard() {
         ).join("")}
       </div>
       <p class="muted-line">
-        Every item tagged <strong>Must</strong> should be present on the journal website to support a minimum DOAJ-ready baseline.
-        Items without Must are treated here as best practice signals.
+        This checklist is aligned to the official DOAJ application questions and guidance, but it keeps each prompt in a Yes/No
+        website-review format. Every item tagged <strong>Must</strong> should be present on the journal website to support a
+        minimum DOAJ-ready baseline. Items without Must are treated here as best practice signals.
       </p>
     </article>
   `;
