@@ -20,30 +20,47 @@ const MATCHING_MODEL_URL = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.
 const MATCHING_MODEL_ID = "Xenova/all-MiniLM-L6-v2";
 const STATISTICS_SUMMARY_URL = "./data/statistics/summary.json";
 const STATISTICS_JOURNALS_URL = "./data/statistics/journals.json";
-const STATISTICS_WORLD_GEOJSON_URL = "https://echarts.apache.org/examples/data/asset/geo/world.json";
 const STATISTICS_PAGE_SIZE = 25;
 
-const GEO_COUNTRY_ALIASES = {
-  BO: "Bolivia",
-  CD: "Democratic Republic of the Congo",
-  CG: "Republic of the Congo",
-  CI: "Ivory Coast",
-  CZ: "Czech Republic",
-  GB: "United Kingdom",
-  IR: "Iran",
-  KP: "North Korea",
-  KR: "South Korea",
-  LA: "Laos",
-  LY: "Libya",
-  MD: "Moldova",
-  MK: "North Macedonia",
-  PS: "Palestine",
-  RU: "Russia",
-  SY: "Syria",
-  TZ: "United Republic of Tanzania",
-  US: "United States of America",
-  VE: "Venezuela",
-  VN: "Vietnam",
+const CONTINENT_COLORS = {
+  Africa: "#47A178",
+  Asia: "#FD5A3B",
+  Europe: "#3A5959",
+  "North America": "#A3C386",
+  "South America": "#F9D950",
+  Oceania: "#982E0A",
+  Antarctica: "#5C5956",
+  Unknown: "#5C5956",
+};
+
+const OFFICIAL_SERIES_COLORS = [
+  "#3A5959",
+  "#FD5A3B",
+  "#47A178",
+  "#A3C386",
+  "#FA9A87",
+  "#F9D950",
+  "#982E0A",
+  "#5C5956",
+];
+
+const CONTINENT_ORDER = [
+  "Africa",
+  "Asia",
+  "Europe",
+  "North America",
+  "South America",
+  "Oceania",
+  "Antarctica",
+  "Unknown",
+];
+
+const LANGUAGE_NAME_ALIASES = {
+  AE: "Avestan",
+  CV: "Chuvash",
+  SE: "Northern Sami",
+  SH: "Serbo-Croatian",
+  VE: "Venda",
 };
 
 const STOPWORDS = new Set([
@@ -398,7 +415,7 @@ const PRECHECK_SECTIONS = [
       },
       {
         id: "license_consistency",
-        level: "best",
+        level: "must",
         source: "licensing",
         text: "Are the licensing terms consistent across the journal website, article pages, and author-facing guidance?",
       },
@@ -423,7 +440,7 @@ const PRECHECK_SECTIONS = [
       },
       {
         id: "nonexclusive_rights",
-        level: "best",
+        level: "must",
         source: "licensing",
         text: "If authors grant publishing rights, are those terms presented in a way that preserves open access reuse expectations?",
       },
@@ -510,7 +527,7 @@ const PRECHECK_SECTIONS = [
       },
       {
         id: "owner_publisher_identity",
-        level: "best",
+        level: "must",
         source: "transparency",
         text: "Does the website clearly explain the publisher, owner, or organization responsible for the journal?",
       },
@@ -652,8 +669,9 @@ const dom = {
 
 let matchingModelPromise = null;
 let statisticsDataPromise = null;
-let statisticsWorldMapPromise = null;
 let mountedChartInstances = [];
+let mountedPlotlyNodes = [];
+let statisticsMapFullscreenEventsBound = false;
 
 function getChartTheme() {
   const styles = getComputedStyle(document.documentElement);
@@ -662,11 +680,18 @@ function getChartTheme() {
     ink: styles.getPropertyValue("--ink").trim() || "#1f1c1b",
     muted: styles.getPropertyValue("--muted").trim() || "#5c5956",
     line: styles.getPropertyValue("--line").trim() || "#d7d2ce",
+    teal: styles.getPropertyValue("--teal").trim() || "#3A5959",
+    tealSoft: styles.getPropertyValue("--teal-soft").trim() || "rgba(58, 89, 89, 0.14)",
     accent: styles.getPropertyValue("--accent").trim() || "#fd5a3b",
     accentSoft: styles.getPropertyValue("--accent-soft").trim() || "rgba(253, 90, 59, 0.14)",
     warm: styles.getPropertyValue("--warm").trim() || "#fa9a87",
     warmSoft: styles.getPropertyValue("--warm-soft").trim() || "rgba(250, 154, 135, 0.2)",
     warmStrong: styles.getPropertyValue("--warm-strong").trim() || "#8f311c",
+    leaf: styles.getPropertyValue("--leaf").trim() || "#A3C386",
+    leafSoft: styles.getPropertyValue("--leaf-soft").trim() || "rgba(163, 195, 134, 0.2)",
+    leafStrong: styles.getPropertyValue("--leaf-strong").trim() || "#5F7D42",
+    yellow: styles.getPropertyValue("--yellow").trim() || "#F9D950",
+    yellowStrong: styles.getPropertyValue("--yellow-strong").trim() || "#8C7420",
     article: styles.getPropertyValue("--article").trim() || "#47a178",
     articleSoft: styles.getPropertyValue("--article-soft").trim() || "rgba(71, 161, 120, 0.16)",
     articleStrong: styles.getPropertyValue("--article-strong").trim() || "#2f6e52",
@@ -720,6 +745,14 @@ const regionNames = (() => {
   }
 })();
 
+const languageNames = (() => {
+  try {
+    return new Intl.DisplayNames(["en"], { type: "language" });
+  } catch {
+    return null;
+  }
+})();
+
 function formatCountryName(value) {
   const raw = `${value || ""}`.trim();
   if (!raw) {
@@ -729,6 +762,30 @@ function formatCountryName(value) {
     return regionNames.of(raw.toUpperCase()) || raw.toUpperCase();
   }
   return raw;
+}
+
+function formatLanguageName(value) {
+  const raw = `${value || ""}`.trim();
+  if (!raw) {
+    return "";
+  }
+  const normalized = raw.replaceAll("_", "-");
+  const upper = normalized.toUpperCase();
+  if (LANGUAGE_NAME_ALIASES[upper]) {
+    return LANGUAGE_NAME_ALIASES[upper];
+  }
+  if (!languageNames) {
+    return upper;
+  }
+  try {
+    const resolved = languageNames.of(normalized.toLowerCase());
+    if (!resolved || resolved.toLowerCase() === normalized.toLowerCase()) {
+      return upper;
+    }
+    return resolved;
+  } catch {
+    return upper;
+  }
 }
 
 function normalizeIssn(value) {
@@ -829,10 +886,18 @@ function geoCountryName(value) {
   if (!raw) {
     return "";
   }
-  if (/^[A-Za-z]{2}$/.test(raw)) {
-    return GEO_COUNTRY_ALIASES[raw.toUpperCase()] || formatCountryName(raw.toUpperCase());
+  const cleaned = raw.replaceAll("_", " ");
+  const upper = cleaned.toUpperCase();
+  if (/^[A-Z]{2}$/.test(upper) && regionNames) {
+    const resolved = regionNames.of(upper);
+    if (resolved && resolved !== upper) {
+      return resolved;
+    }
   }
-  return raw;
+  if (/^[A-Z][A-Z\s-]{3,}$/.test(cleaned)) {
+    return cleaned.toLowerCase().replace(/\b([a-z])/g, (match) => match.toUpperCase());
+  }
+  return cleaned;
 }
 
 function parseIsoYear(value) {
@@ -2055,16 +2120,20 @@ function findJournalForArticle(articleRecord, journals) {
   }) || null;
 }
 
-function makePieChart(title, items) {
-  return { title, kind: "pie", items };
+function makePieChart(title, items, options = {}) {
+  return { title, kind: "pie", items, ...options };
 }
 
-function makeBarChart(title, items) {
-  return { title, kind: "bar", items };
+function makeBarChart(title, items, options = {}) {
+  return { title, kind: "bar", items, ...options };
 }
 
-function makeTimelineChart(title, categories, series) {
-  return { title, kind: "timeline", categories, series };
+function makeTimelineChart(title, categories, series, options = {}) {
+  return { title, kind: "timeline", categories, series, ...options };
+}
+
+function makeShareBarChart(title, items, options = {}) {
+  return { title, kind: "share-bar", items, ...options };
 }
 
 function makeWordCloud(title, items) {
@@ -2088,6 +2157,82 @@ function disposeMountedCharts() {
     }
   });
   mountedChartInstances = [];
+  if (window.Plotly) {
+    mountedPlotlyNodes.forEach((node) => {
+      try {
+        window.Plotly.purge(node);
+      } catch {
+        return;
+      }
+    });
+  }
+  mountedPlotlyNodes = [];
+}
+
+function resizeStatisticsMapPlot() {
+  const mapEl = document.getElementById("chart-statistics-country_map");
+  if (!mapEl || !window.Plotly?.Plots?.resize) {
+    return;
+  }
+  window.Plotly.Plots.resize(mapEl);
+}
+
+function statisticsMapShell() {
+  return document.getElementById("chart-statistics-country_map-shell");
+}
+
+function updateStatisticsMapFullscreenButtonLabel() {
+  const mapShell = statisticsMapShell();
+  const button = document.getElementById("statistics-map-fullscreen-btn");
+  if (!mapShell || !button) {
+    return;
+  }
+  const isFullscreen =
+    document.fullscreenElement === mapShell || document.webkitFullscreenElement === mapShell;
+  button.textContent = isFullscreen ? "Back to main page" : "Full page map";
+}
+
+function openStatisticsMapFullscreen() {
+  const mapShell = statisticsMapShell();
+  if (!mapShell) {
+    return;
+  }
+  const isFullscreen =
+    document.fullscreenElement === mapShell || document.webkitFullscreenElement === mapShell;
+  if (isFullscreen) {
+    const exit = document.exitFullscreen || document.webkitExitFullscreen;
+    if (exit) {
+      exit.call(document);
+    }
+    window.setTimeout(updateStatisticsMapFullscreenButtonLabel, 60);
+    return;
+  }
+  const request =
+    mapShell.requestFullscreen
+    || mapShell.webkitRequestFullscreen
+    || mapShell.mozRequestFullScreen
+    || mapShell.msRequestFullscreen;
+  if (request) {
+    request.call(mapShell);
+  }
+  window.setTimeout(updateStatisticsMapFullscreenButtonLabel, 60);
+  window.setTimeout(resizeStatisticsMapPlot, 220);
+}
+
+function bindStatisticsMapFullscreenListeners() {
+  if (statisticsMapFullscreenEventsBound) {
+    return;
+  }
+  document.addEventListener("fullscreenchange", () => {
+    window.setTimeout(resizeStatisticsMapPlot, 60);
+    window.setTimeout(updateStatisticsMapFullscreenButtonLabel, 60);
+  });
+  document.addEventListener("webkitfullscreenchange", () => {
+    window.setTimeout(resizeStatisticsMapPlot, 60);
+    window.setTimeout(updateStatisticsMapFullscreenButtonLabel, 60);
+  });
+  window.addEventListener("resize", () => window.setTimeout(resizeStatisticsMapPlot, 60));
+  statisticsMapFullscreenEventsBound = true;
 }
 
 function statisticsDefaultFilters(summary) {
@@ -2141,22 +2286,23 @@ function statisticsCountItems(values, { limit = 10, formatter = (value) => `${va
     .map(([name, value]) => ({ name, value }));
 }
 
-function statisticsTopSubjectsByCountry(rows, limit = 20) {
-  const counter = new Map();
+function statisticsYesNoCounts(rows, selector, { yesLabel = "Yes", noLabel = "No" } = {}) {
+  let yes = 0;
+  let no = 0;
   for (const row of rows) {
-    const country = formatCountryName(row.country);
-    if (!country) {
+    const value = selector(row);
+    if (value === true || value === "yes") {
+      yes += 1;
       continue;
     }
-    for (const subject of row.subjects || []) {
-      const label = `${country} — ${subject}`;
-      counter.set(label, (counter.get(label) || 0) + 1);
+    if (value === false || value === "no") {
+      no += 1;
     }
   }
-  return [...counter.entries()]
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([name, value]) => ({ name, value }));
+  return [
+    { name: yesLabel, value: yes },
+    { name: noLabel, value: no },
+  ];
 }
 
 function statisticsTimeline(rows) {
@@ -2180,89 +2326,117 @@ function statisticsTimeline(rows) {
   };
 }
 
-function statisticsCountryApcTotals(rows, currency, limit = 20) {
-  const key = currency === "USD" ? "apc_max_usd" : "apc_max_eur";
-  const counter = new Map();
-  for (const row of rows) {
-    const amount = Number(row[key]);
-    if (!Number.isFinite(amount)) {
-      continue;
-    }
-    const country = formatCountryName(row.country);
-    if (!country) {
-      continue;
-    }
-    counter.set(country, (counter.get(country) || 0) + amount);
-  }
-  return [...counter.entries()]
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([name, value]) => ({ name, value: Number(value.toFixed(2)) }));
-}
-
 function statisticsCountryMapItems(rows) {
-  return statisticsCountItems(rows.map((row) => geoCountryName(row.country)), {
-    limit: rows.length || 0,
-  });
+  const byCountry = new Map();
+  const continentCounter = new Map();
+  for (const row of rows) {
+    const name = geoCountryName(row.country);
+    const continent = row.continent || "Unknown";
+    if (!name) {
+      continue;
+    }
+    if (!byCountry.has(name)) {
+      byCountry.set(name, {
+        name,
+        value: 0,
+        continent,
+      });
+    }
+    const entry = byCountry.get(name);
+    entry.value += 1;
+    continentCounter.set(continent, (continentCounter.get(continent) || 0) + 1);
+  }
+
+  return {
+    items: [...byCountry.values()]
+      .sort((left, right) => right.value - left.value || left.name.localeCompare(right.name)),
+    continents: [...continentCounter.entries()]
+      .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+      .map(([name, value]) => ({
+        name,
+        value,
+        color: CONTINENT_COLORS[name] || CONTINENT_COLORS.Unknown,
+      })),
+  };
 }
 
 function statisticsCharts(rows, currency) {
   const timeline = statisticsTimeline(rows);
+  const countryMap = statisticsCountryMapItems(rows);
   return {
-    top_subjects_by_country: makeBarChart("Top subjects by country", statisticsTopSubjectsByCountry(rows, 20)),
-    apc_distribution: makePieChart(
+    apc_distribution: makeShareBarChart(
       "APC distribution",
-      statisticsCountItems(rows.map((row) => (row.apc_has ? "APC" : "No APC")), { limit: 10 })
+      statisticsYesNoCounts(rows, (row) => (row.apc_has ? "yes" : "no"), { yesLabel: "Yes", noLabel: "No" }),
+      { yesColor: "#47A178", noColor: "#FD5A3B" }
     ),
-    author_retains_copyright: makePieChart(
+    author_retains_copyright: makeShareBarChart(
       "Authors retain copyright",
-      statisticsCountItems(
-        rows.map((row) => (statisticsRetainValue(row) === "yes" ? "Yes" : statisticsRetainValue(row) === "no" ? "No" : "Unknown")),
-        { limit: 10 }
-      )
+      statisticsYesNoCounts(rows, (row) => statisticsRetainValue(row), { yesLabel: "Yes", noLabel: "No" }),
+      { yesColor: "#3A5959", noColor: "#FA9A87" }
     ),
     top_countries: makeBarChart(
       "Top countries",
-      statisticsCountItems(rows.map((row) => row.country), { limit: 10, formatter: (value) => formatCountryName(value) })
+      statisticsCountItems(rows.map((row) => row.country), { limit: 10, formatter: (value) => formatCountryName(value) }),
+      { color: "#3A5959", orientation: "horizontal", leftMargin: 180 }
     ),
-    journals_by_continent: makePieChart(
+    journals_by_continent: makeBarChart(
       "Journals by continent",
-      statisticsCountItems(rows.map((row) => row.continent || "Unknown"), { limit: 10 })
+      statisticsCountItems(rows.map((row) => row.continent || "Unknown"), { limit: 10 }),
+      {
+        orientation: "horizontal",
+        leftMargin: 170,
+        colors: statisticsCountItems(rows.map((row) => row.continent || "Unknown"), { limit: 10 }).map(
+          (item) => CONTINENT_COLORS[item.name] || CONTINENT_COLORS.Unknown
+        ),
+      }
     ),
     top_languages: makeBarChart(
       "Top languages",
-      statisticsCountItems(rows.flatMap((row) => row.languages || []), { limit: 10 })
+      statisticsCountItems(rows.flatMap((row) => row.languages || []), { limit: 10, formatter: formatLanguageName }),
+      { color: "#A3C386", orientation: "horizontal", leftMargin: 180 }
     ),
     top_subjects: makeBarChart(
       "Top subjects",
-      statisticsCountItems(rows.flatMap((row) => row.subjects || []), { limit: 10 })
+      statisticsCountItems(rows.flatMap((row) => row.subjects || []), { limit: 10 }),
+      { color: "#3A5959", orientation: "horizontal", leftMargin: 220 }
     ),
-    license_usage: makePieChart(
+    license_usage: makeBarChart(
       "License usage",
-      statisticsCountItems(rows.flatMap((row) => row.license_types || []), { limit: 10 })
+      statisticsCountItems(rows.flatMap((row) => row.license_types || []), { limit: 10 }),
+      { orientation: "horizontal", leftMargin: 220, colors: OFFICIAL_SERIES_COLORS }
     ),
     top_peer_review: makeBarChart(
       "Top peer-review types",
-      statisticsCountItems(rows.flatMap((row) => row.peer_review_types || []), { limit: 5 })
+      statisticsCountItems(rows.flatMap((row) => row.peer_review_types || []), { limit: 5 }),
+      { orientation: "horizontal", leftMargin: 220, colors: ["#47A178", "#A3C386", "#FD5A3B", "#FA9A87", "#982E0A"] }
     ),
     top_pid_schemes: makeBarChart(
       "Top persistent identifiers",
-      statisticsCountItems(rows.flatMap((row) => row.pid_schemes || []), { limit: 5 })
+      statisticsCountItems(rows.flatMap((row) => row.pid_schemes || []), { limit: 5 }),
+      { color: "#3A5959", orientation: "horizontal", leftMargin: 220 }
     ),
     top_preservation_services: makeBarChart(
       "Top preservation services",
-      statisticsCountItems(rows.flatMap((row) => row.preservation_services || []), { limit: 5 })
+      statisticsCountItems(rows.flatMap((row) => row.preservation_services || []), { limit: 5 }),
+      { color: "#FD5A3B", orientation: "horizontal", leftMargin: 220 }
     ),
     top_publishers: makeBarChart(
       "Top publishers",
-      statisticsCountItems(rows.map((row) => row.publisher_name), { limit: 10 })
+      statisticsCountItems(rows.map((row) => row.publisher_name), { limit: 10 }),
+      { color: "#3A5959", orientation: "horizontal", leftMargin: 240 }
     ),
-    journals_added_timeline: makeTimelineChart("Journals added to DOAJ", timeline.categories, timeline.series),
-    top_country_apc: makeBarChart(`Top countries by APC amount (${currency})`, statisticsCountryApcTotals(rows, currency, 20)),
+    journals_added_timeline: makeTimelineChart(
+      "Journals added to DOAJ",
+      timeline.categories,
+      timeline.series,
+      { fullWidth: true, seriesColors: ["#A3C386"] }
+    ),
     country_map: {
-      title: "Country of publishers",
+      title: "Country of Publishers",
       kind: "map",
-      items: statisticsCountryMapItems(rows),
+      fullWidth: true,
+      items: countryMap.items,
+      continents: countryMap.continents,
     },
   };
 }
@@ -2395,6 +2569,9 @@ function statisticsProvidersLabel(fx) {
 function renderStatisticsFiltersCard(summary, filters, filteredRows) {
   const countryOptions = [...(summary.filters?.countries || [])]
     .sort((left, right) => formatCountryName(left).localeCompare(formatCountryName(right)));
+  const languageOptions = [...(summary.filters?.languages || [])]
+    .sort((left, right) => formatLanguageName(left).localeCompare(formatLanguageName(right)));
+  const continentOptions = CONTINENT_ORDER.filter((item) => (summary.filters?.continents || []).includes(item));
 
   return `
     <article class="statistics-filter-card">
@@ -2433,7 +2610,7 @@ function renderStatisticsFiltersCard(summary, filters, filteredRows) {
         <label class="statistics-field">
           <span class="statistics-field-label">Author retains copyright</span>
           <select data-statistics-field="authorRetains">
-            ${renderStatisticsSelectOptions(["yes", "no", "unknown"], filters.authorRetains, (value) => value.charAt(0).toUpperCase() + value.slice(1))}
+            ${renderStatisticsSelectOptions(["yes", "no"], filters.authorRetains, (value) => value.charAt(0).toUpperCase() + value.slice(1))}
           </select>
         </label>
         <label class="statistics-field">
@@ -2445,13 +2622,13 @@ function renderStatisticsFiltersCard(summary, filters, filteredRows) {
         <label class="statistics-field">
           <span class="statistics-field-label">Language</span>
           <select data-statistics-field="language">
-            ${renderStatisticsSelectOptions(summary.filters?.languages || [], filters.language)}
+            ${renderStatisticsSelectOptions(languageOptions, filters.language, formatLanguageName)}
           </select>
         </label>
         <label class="statistics-field">
           <span class="statistics-field-label">Continent</span>
           <select data-statistics-field="continent">
-            ${renderStatisticsSelectOptions(summary.filters?.continents || [], filters.continent)}
+            ${renderStatisticsSelectOptions(continentOptions, filters.continent)}
           </select>
         </label>
         <label class="statistics-field">
@@ -2672,6 +2849,10 @@ function attachStatisticsHandlers() {
     void renderStatisticsHome();
   });
 
+  dom.statisticsContent.querySelector("#statistics-map-fullscreen-btn")?.addEventListener("click", openStatisticsMapFullscreen);
+  bindStatisticsMapFullscreenListeners();
+  updateStatisticsMapFullscreenButtonLabel();
+
   attachOpenHandlers(dom.statisticsContent);
 }
 
@@ -2683,6 +2864,8 @@ async function renderStatisticsHome() {
 
   const filteredRows = statisticsRowsFiltered(state.statistics.journals, filters);
   const charts = statisticsCharts(filteredRows, filters.apcCurrency);
+  const mapChart = charts.country_map || null;
+  const visualCharts = Object.entries(charts).filter(([chartKey]) => chartKey !== "country_map");
   const kpis = statisticsKpis(filteredRows, summary, filters);
   const warnings = unique([...(summary.warnings || []), ...((summary.fx && summary.fx.warnings) || [])]);
 
@@ -2715,6 +2898,11 @@ async function renderStatisticsHome() {
         </div>
       </section>
       ${renderStatisticsFiltersCard(summary, filters, filteredRows)}
+      ${mapChart ? `
+        <section>
+          ${renderChartCard("statistics-country_map", mapChart)}
+        </section>
+      ` : ""}
       <section>
         <div class="section-heading">
           <div>
@@ -2723,8 +2911,8 @@ async function renderStatisticsHome() {
           </div>
           <span class="section-meta">${formatNumber(filteredRows.length)} journals in current view</span>
         </div>
-        <div class="chart-grid">
-          ${Object.entries(charts)
+        <div class="statistics-visual-grid">
+          ${visualCharts
             .map(([chartKey, chart]) => renderChartCard(`statistics-${chartKey}`, chart))
             .join("")}
         </div>
@@ -2749,7 +2937,7 @@ function timelinePairs(values) {
 }
 
 function buildPublisherPayload(publisher, journals, articles, searchContext) {
-  const countries = journals.map(journalCountry).filter(Boolean);
+  const countries = unique(journals.map(journalCountry).concat(articles.map(articleJournalCountry)).filter(Boolean));
   const languages = unique(journals.flatMap(journalLanguages).concat(articles.flatMap(articleJournalLanguages)));
   const licenses = journals.flatMap(journalLicenses);
   const subjects = journals.flatMap(journalSubjects);
@@ -2763,7 +2951,7 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
   const labels = unique([...journalMonths, ...articleYears]).sort((left, right) => left.localeCompare(right));
   const journalCounts = new Map(timelinePairs(journalMonths).map((item) => [item.name, item.value]));
   const articleCounts = new Map(timelinePairs(articleYears).map((item) => [item.name, item.value]));
-  const wordCloud = topTerms(journals.map(journalTitle), 22);
+  const wordCloud = topTerms((journals.length ? journals.map(journalTitle) : articles.map(articleJournalTitle)), 22);
 
   return {
     entity_type: "publisher",
@@ -2776,11 +2964,11 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
     scope_note: searchContext.query
       ? `All charts and related lists on this page are restricted to the original search phrase: "${searchContext.query}".`
       : "This publisher view reflects the currently loaded DOAJ records.",
-    summary: `${publisher.title} currently appears with ${journals.length} journals and ${articles.length} query-matched articles across ${unique(countries).length || 0} publisher countr${unique(countries).length === 1 ? "y" : "ies"} and ${languages.length} language${languages.length === 1 ? "" : "s"}.`,
+    summary: `${publisher.title} currently appears with ${journals.length} query-matched journals and ${articles.length} query-matched articles across ${countries.length || 0} publisher countr${countries.length === 1 ? "y" : "ies"} and ${languages.length} language${languages.length === 1 ? "" : "s"}.`,
     kpis: [
       { label: "Total journals", value: formatNumber(journals.length), tone: "accent" },
       { label: "Total related articles", value: formatNumber(articles.length), tone: "accent" },
-      { label: "Publisher countries", value: formatNumber(unique(countries).length) },
+      { label: "Publisher countries", value: formatNumber(countries.length) },
       { label: "Languages", value: formatNumber(languages.length) },
       { label: "Dominant license", value: licenses.length ? countBy(licenses, 1)[0].name : "-" },
       { label: "APC share", value: percent(apcYes, journals.length) },
@@ -2813,8 +3001,8 @@ function buildPublisherPayload(publisher, journals, articles, searchContext) {
       {
         title: "Topic summary",
         text: wordCloud.length
-          ? `The publisher view is currently shaped by journal naming patterns around ${wordCloud.slice(0, 6).map((item) => item.name).join(", ")}.`
-          : "Not enough query-matched journal titles are available to build a stable word cloud.",
+          ? `The publisher view is currently shaped by matched journal and article signals around ${wordCloud.slice(0, 6).map((item) => item.name).join(", ")}.`
+          : "Not enough matched journal or article titles are available to build a stable word cloud.",
       },
       {
         title: "Metadata coverage",
@@ -3210,12 +3398,12 @@ function renderPublisherCard(item) {
         <p class="result-summary-text">${escapeHtml(publisherCardSummary(item))}</p>
         <div class="result-summary">
           <p>Countries: ${escapeHtml(item.countries.join(", ") || "Not exposed")}</p>
-          <p>Languages: ${escapeHtml(item.languages.join(", ") || "Not exposed")}</p>
+          <p>Languages: ${escapeHtml(item.languages.map(formatLanguageName).join(", ") || "Not exposed")}</p>
         </div>
       </div>
       <div class="result-actions">
         <div class="muted-line">Sorted by latest matched record</div>
-        <button class="result-action" data-entity-type="publisher" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
+        <button class="result-action" data-kind="publisher" data-entity-type="publisher" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
       </div>
     </article>
   `;
@@ -3236,7 +3424,7 @@ function renderJournalCard(record, { showWebsite = false } = {}) {
         <p class="result-summary-text">${escapeHtml(journalCardSummary(record))}</p>
         <div class="result-summary">
           <p><strong>ISSN:</strong> ${renderIssnLinks(journalIssns(record), { className: "result-link" })}</p>
-          <p>Languages: ${escapeHtml(journalLanguages(record).join(", ") || "Not exposed")}</p>
+          <p>Languages: ${escapeHtml(journalLanguages(record).map(formatLanguageName).join(", ") || "Not exposed")}</p>
           <p>Subjects: ${escapeHtml(journalSubjects(record).slice(0, 4).join(", ") || "Not exposed")}</p>
         </div>
         ${
@@ -3247,7 +3435,7 @@ function renderJournalCard(record, { showWebsite = false } = {}) {
       </div>
       <div class="result-actions">
         <div class="muted-line">Sorted by latest journal update</div>
-        <button class="result-action" data-entity-type="journal" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
+        <button class="result-action" data-kind="journal" data-entity-type="journal" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
       </div>
     </article>
   `;
@@ -3290,7 +3478,7 @@ function renderMatchingJournalCard(result, { compact = false } = {}) {
       </div>
       <div class="result-actions">
         <div class="muted-line">${escapeHtml(result.rankingMode === "semantic" ? "Semantic reranking applied" : "Live lexical ranking")}</div>
-        <button class="result-action" data-entity-type="journal" data-entity-key="${escapeHtml(result.entityKey)}">Open</button>
+        <button class="result-action" data-kind="journal" data-entity-type="journal" data-entity-key="${escapeHtml(result.entityKey)}">Open</button>
       </div>
     </article>
   `;
@@ -3315,7 +3503,7 @@ function renderMatchedArticleTitleCard(record) {
       </div>
       <div class="result-actions">
         <div class="result-links">${articleYearRouteLink(record)}</div>
-        <button class="result-action" data-entity-type="article" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
+        <button class="result-action" data-kind="article" data-entity-type="article" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
       </div>
     </article>
   `;
@@ -3350,7 +3538,7 @@ function renderArticleCard(record, { includeRouteYear = false } = {}) {
               : `<span class="muted-line">${escapeHtml(articleYear(record) || articleDisplayDate(record))}</span>`
           }
         </div>
-        <button class="result-action" data-entity-type="article" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
+        <button class="result-action" data-kind="article" data-entity-type="article" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
       </div>
     </article>
   `;
@@ -3603,10 +3791,12 @@ function renderWordCloudItems(items) {
   }
   const theme = getChartTheme();
   const palette = [
+    { color: theme.teal, background: theme.tealSoft || "rgba(58, 89, 89, 0.14)", border: theme.teal },
     { color: theme.accentStrong, background: theme.accentSoft, border: theme.accent },
-    { color: theme.warmStrong, background: theme.warmSoft, border: theme.warm },
     { color: theme.articleStrong, background: theme.articleSoft, border: theme.article },
-    { color: theme.accent, background: "rgba(255, 255, 255, 0.86)", border: theme.line },
+    { color: theme.leafStrong || "#5f7d42", background: theme.leafSoft || "rgba(163, 195, 134, 0.2)", border: theme.leaf },
+    { color: theme.warmStrong, background: theme.warmSoft, border: theme.warm },
+    { color: theme.yellowStrong || "#8c7420", background: "rgba(249, 217, 80, 0.18)", border: theme.yellow || "#F9D950" },
   ];
   const max = Math.max(...items.map((item) => item.value));
   const min = Math.min(...items.map((item) => item.value));
@@ -3629,9 +3819,14 @@ function renderWordCloudItems(items) {
 
 function renderChartCard(chartKey, chart) {
   const title = escapeHtml(chart.title || chartKey);
+  const chartClasses = [
+    "chart-card",
+    chart.fullWidth ? "chart-card--full" : "",
+    chart.kind === "map" ? "chart-card--map" : "",
+  ].filter(Boolean).join(" ");
   if (chart.kind === "wordcloud") {
     return `
-      <article class="chart-card">
+      <article class="${chartClasses}">
         <div class="card-header">
           <h3>${title}</h3>
         </div>
@@ -3641,7 +3836,7 @@ function renderChartCard(chartKey, chart) {
   }
   if (chart.kind === "tags") {
     return `
-      <article class="chart-card">
+      <article class="${chartClasses}">
         <div class="card-header">
           <h3>${title}</h3>
         </div>
@@ -3655,7 +3850,7 @@ function renderChartCard(chartKey, chart) {
   }
   if (chart.kind === "status-panel") {
     return `
-      <article class="chart-card">
+      <article class="${chartClasses}">
         <div class="card-header">
           <h3>${title}</h3>
         </div>
@@ -3674,8 +3869,37 @@ function renderChartCard(chartKey, chart) {
       </article>
     `;
   }
+  if (chart.kind === "map") {
+    return `
+      <article class="${chartClasses} statistics-map-shell" id="chart-${chartKey}-shell">
+        <div class="card-header">
+          <h3>${title}</h3>
+        </div>
+        <div class="statistics-map-stage">
+          <button id="statistics-map-fullscreen-btn" class="statistics-map-fullscreen-btn" type="button">Full page map</button>
+          <div class="statistics-map-legend">
+            <span class="mini-label">Continents</span>
+            <div class="statistics-map-legend-list">
+              ${(chart.continents || [])
+                .map(
+                  (item) => `
+                    <div class="statistics-map-legend-item">
+                      <span class="statistics-map-dot" style="background:${escapeHtml(item.color)};"></span>
+                      <span>${escapeHtml(item.name)} (${escapeHtml(formatNumber(item.value))})</span>
+                    </div>
+                  `
+                )
+                .join("")}
+            </div>
+          </div>
+          <div class="chart-surface statistics-map-surface" id="chart-${chartKey}"></div>
+          <div class="statistics-map-fullscreen-footer">Developed by Ikhwan Arief. Data source: DOAJ.</div>
+        </div>
+      </article>
+    `;
+  }
   return `
-    <article class="chart-card">
+    <article class="${chartClasses}">
       <div class="card-header">
         <h3>${title}</h3>
       </div>
@@ -4065,25 +4289,14 @@ function renderDashboard(payload) {
   void mountCharts(payload.charts);
 }
 
-async function loadStatisticsWorldMap() {
-  if (statisticsWorldMapPromise) {
-    return statisticsWorldMapPromise;
-  }
-  statisticsWorldMapPromise = fetchStaticJson(STATISTICS_WORLD_GEOJSON_URL).catch((error) => {
-    statisticsWorldMapPromise = null;
-    throw error;
-  });
-  return statisticsWorldMapPromise;
-}
-
 async function mountCharts(charts) {
-  if (!window.echarts) {
+  if (!window.echarts && !window.Plotly) {
     return;
   }
   const theme = getChartTheme();
-  const palette = [theme.accent, theme.article, theme.warm, theme.accentStrong];
+  const palette = OFFICIAL_SERIES_COLORS;
   for (const [chartKey, chart] of Object.entries(charts)) {
-    if (!["bar", "pie", "timeline", "map"].includes(chart.kind)) {
+    if (!["bar", "pie", "timeline", "map", "share-bar"].includes(chart.kind)) {
       continue;
     }
     const node = document.getElementById(`chart-${chartKey}`);
@@ -4094,11 +4307,184 @@ async function mountCharts(charts) {
     if (existing) {
       existing.dispose();
     }
+    if (chart.kind === "map") {
+      if (!window.Plotly) {
+        node.innerHTML = `<div class="empty-state">Map rendering is unavailable in this browser session.</div>`;
+        continue;
+      }
+      const maxValue = Math.max(...(chart.items || []).map((item) => Number(item.value) || 0), 1);
+      const continentSeries = (chart.continents || [])
+        .map((continent) => {
+          const entries = (chart.items || []).filter((item) => item.continent === continent.name);
+          if (!entries.length) {
+            return null;
+          }
+          return {
+            type: "scattergeo",
+            mode: "markers",
+            name: continent.name,
+            locationmode: "country names",
+            locations: entries.map((item) => item.name),
+            text: entries.map((item) => `${item.name}<br/>${continent.name}: ${formatNumber(item.value)} journals`),
+            hovertemplate: "%{text}<extra></extra>",
+            marker: {
+              color: continent.color,
+              size: entries.map((item) => 8 + Math.sqrt((Number(item.value) || 0) / maxValue) * 34),
+              opacity: 0.78,
+              line: {
+                color: "#282624",
+                width: 0.5,
+              },
+            },
+          };
+        })
+        .filter(Boolean);
+      await window.Plotly.newPlot(
+        node,
+        continentSeries,
+        {
+          dragmode: false,
+          margin: { l: 10, r: 44, t: 10, b: 10 },
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          showlegend: false,
+          geo: {
+            projection: { type: "natural earth" },
+            showframe: false,
+            showcoastlines: true,
+            coastlinecolor: theme.line,
+            showcountries: true,
+            countrycolor: theme.line,
+            showland: true,
+            landcolor: "#FFFFFF",
+            showocean: true,
+            oceancolor: "rgba(0,0,0,0)",
+            bgcolor: "rgba(0,0,0,0)",
+          },
+        },
+        {
+          displayModeBar: false,
+          responsive: true,
+          scrollZoom: false,
+          doubleClick: false,
+          staticPlot: false,
+          showTips: false,
+        }
+      );
+      mountedPlotlyNodes.push(node);
+      window.setTimeout(resizeStatisticsMapPlot, 50);
+      window.setTimeout(updateStatisticsMapFullscreenButtonLabel, 60);
+      continue;
+    }
+
+    if (!window.echarts) {
+      continue;
+    }
     const instance = window.echarts.init(node);
     mountedChartInstances.push(instance);
+    if (chart.kind === "share-bar") {
+      const yesItem = (chart.items || []).find((item) => item.name === "Yes") || { name: "Yes", value: 0 };
+      const noItem = (chart.items || []).find((item) => item.name === "No") || { name: "No", value: 0 };
+      const total = Number(yesItem.value || 0) + Number(noItem.value || 0);
+      if (!total) {
+        instance.setOption({
+          title: {
+            text: "No data yet",
+            left: "center",
+            top: "center",
+            textStyle: { color: theme.muted, fontWeight: "normal", fontSize: 14 },
+          },
+          xAxis: { show: false },
+          yAxis: { show: false },
+          series: [],
+        });
+        requestAnimationFrame(() => instance.resize());
+        continue;
+      }
+      const yesPct = (Number(yesItem.value || 0) / total) * 100;
+      const noPct = (Number(noItem.value || 0) / total) * 100;
+      instance.setOption({
+        animationDuration: 320,
+        color: [chart.yesColor || "#47A178", chart.noColor || "#FD5A3B"],
+        grid: { left: 20, right: 38, top: 58, bottom: 54 },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: { type: "shadow" },
+          formatter: () =>
+            `Yes: ${formatNumber(yesItem.value)} journals (${yesPct.toFixed(1)}%)<br/>No: ${formatNumber(noItem.value)} journals (${noPct.toFixed(1)}%)`,
+        },
+        legend: {
+          bottom: 0,
+          left: 0,
+          itemWidth: 14,
+          itemHeight: 14,
+          textStyle: { color: theme.muted },
+          data: ["Yes", "No"],
+        },
+        graphic: [
+          {
+            type: "text",
+            right: 20,
+            top: 12,
+            style: {
+              text: `Total journals: ${formatNumber(total)}`,
+              fill: theme.muted,
+              font: '14px "Source Sans 3"',
+            },
+          },
+        ],
+        xAxis: {
+          type: "value",
+          min: 0,
+          max: 100,
+          axisLabel: {
+            color: theme.muted,
+            formatter: (value) => `${value}%`,
+          },
+          splitLine: { lineStyle: { color: theme.line } },
+        },
+        yAxis: {
+          type: "category",
+          data: ["Share"],
+          axisLabel: { show: false },
+          axisTick: { show: false },
+          axisLine: { show: false },
+        },
+        series: [
+          {
+            name: "Yes",
+            type: "bar",
+            stack: "share",
+            barWidth: 106,
+            label: {
+              show: true,
+              position: "insideRight",
+              color: "#ffffff",
+              formatter: `${yesPct.toFixed(1)}%`,
+            },
+            data: [Number(yesPct.toFixed(1))],
+          },
+          {
+            name: "No",
+            type: "bar",
+            stack: "share",
+            barWidth: 106,
+            label: {
+              show: true,
+              position: "insideRight",
+              color: "#ffffff",
+              formatter: `${noPct.toFixed(1)}%`,
+            },
+            data: [Number(noPct.toFixed(1))],
+          },
+        ],
+      });
+      requestAnimationFrame(() => instance.resize());
+      continue;
+    }
     if (chart.kind === "pie") {
       instance.setOption({
-        color: palette,
+        color: chart.colors || palette,
         tooltip: { trigger: "item" },
         series: [
           {
@@ -4117,73 +4503,58 @@ async function mountCharts(charts) {
       requestAnimationFrame(() => instance.resize());
       continue;
     }
-    if (chart.kind === "map") {
-      try {
-        const geoJson = await loadStatisticsWorldMap();
-        window.echarts.registerMap("statistics-world", geoJson);
-        instance.setOption({
-          tooltip: { trigger: "item" },
-          visualMap: {
-            min: 0,
-            max: Math.max(...(chart.items || []).map((item) => item.value), 1),
-            left: 10,
-            bottom: 10,
-            text: ["High", "Low"],
-            calculable: true,
-            textStyle: { color: theme.muted },
-            inRange: {
-              color: [theme.warmSoft, theme.warm, theme.accent],
-            },
-          },
-          series: [
-            {
-              name: chart.title,
-              type: "map",
-              map: "statistics-world",
-              roam: true,
-              emphasis: {
-                label: { color: theme.ink },
-                itemStyle: { areaColor: theme.article },
-              },
-              itemStyle: {
-                borderColor: theme.panel,
-                areaColor: "rgba(253, 90, 59, 0.10)",
-              },
-              data: chart.items || [],
-            },
-          ],
-        });
-      } catch {
-        node.innerHTML = `<div class="empty-state">World map data is unavailable in this session.</div>`;
-      }
-      requestAnimationFrame(() => instance.resize());
-      continue;
-    }
     if (chart.kind === "bar") {
       const items = chart.items || [];
+      const horizontal = chart.orientation === "horizontal";
+      const colors = chart.colors || items.map(() => chart.color || theme.teal);
+      const plotItems = items.slice();
       instance.setOption({
-        color: palette,
-        grid: { left: 44, right: 18, top: 22, bottom: 54 },
+        color: colors,
+        grid: horizontal
+          ? { left: chart.leftMargin || 220, right: 44, top: 22, bottom: 24 }
+          : { left: 44, right: 18, top: 22, bottom: 54 },
         tooltip: { trigger: "axis" },
-        xAxis: {
-          type: "category",
-          data: items.map((item) => item.name),
-          axisLabel: { color: theme.muted, rotate: items.length > 6 ? 28 : 0 },
-          axisLine: { lineStyle: { color: theme.line } },
-        },
-        yAxis: {
-          type: "value",
-          axisLabel: { color: theme.muted },
-          splitLine: { lineStyle: { color: theme.line } },
-        },
+        xAxis: horizontal
+          ? {
+              type: "value",
+              axisLabel: { color: theme.muted },
+              splitLine: { lineStyle: { color: theme.line } },
+            }
+          : {
+              type: "category",
+              data: plotItems.map((item) => item.name),
+              axisLabel: { color: theme.muted, rotate: plotItems.length > 6 ? 28 : 0 },
+              axisLine: { lineStyle: { color: theme.line } },
+            },
+        yAxis: horizontal
+          ? {
+              type: "category",
+              data: plotItems.map((item) => item.name).reverse(),
+              axisLabel: { color: theme.ink },
+              axisLine: { show: false },
+              axisTick: { show: false },
+            }
+          : {
+              type: "value",
+              axisLabel: { color: theme.muted },
+              splitLine: { lineStyle: { color: theme.line } },
+            },
         series: [
           {
             type: "bar",
-            data: items.map((item) => item.value),
+            data: horizontal ? plotItems.map((item) => item.value).reverse() : plotItems.map((item) => item.value),
             itemStyle: {
-              color: theme.accent,
+              color: (params) => colors[horizontal ? plotItems.length - 1 - params.dataIndex : params.dataIndex] || chart.color || theme.teal,
               borderRadius: [10, 10, 2, 2],
             },
+            label: horizontal
+              ? {
+                  show: true,
+                  position: "insideRight",
+                  color: "#ffffff",
+                  formatter: ({ value }) => formatNumber(value),
+                }
+              : undefined,
           },
         ],
       });
@@ -4191,7 +4562,7 @@ async function mountCharts(charts) {
       continue;
     }
     instance.setOption({
-      color: palette,
+      color: chart.seriesColors || palette,
       grid: { left: 44, right: 18, top: 22, bottom: 54 },
       tooltip: { trigger: "axis" },
       legend: { textStyle: { color: theme.muted } },
@@ -4212,7 +4583,7 @@ async function mountCharts(charts) {
         smooth: true,
         symbolSize: 8,
         lineStyle: { width: 3 },
-        itemStyle: { color: index === 0 ? theme.accent : theme.article },
+        itemStyle: { color: (chart.seriesColors || palette)[index % (chart.seriesColors || palette).length] },
         areaStyle: { opacity: 0.08 },
         data: serie.data,
       })),
@@ -4401,11 +4772,25 @@ function renderPublisherDetail(entityKey) {
   const journals = sortJournals(filterPublisherJournals(state.search.groups.journals, publisher.title));
   const articles = sortArticles(filterPublisherArticles(state.search.groups.articles, publisher.title));
   const payload = buildPublisherPayload(publisher, journals, articles, state.search);
-  renderLockedResults(
-    "Matched journals",
-    `${journals.length} journals • search phrase "${state.search.query}"`,
-    journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
-  );
+  if (journals.length) {
+    renderLockedResults(
+      "Matched journals",
+      `${journals.length} journals • search phrase "${state.search.query}"`,
+      journals.map((item) => renderJournalCard(item, { showWebsite: true })).join("")
+    );
+  } else if (articles.length) {
+    renderLockedResults(
+      "Matched articles",
+      `${articles.length} articles • search phrase "${state.search.query}"`,
+      articles.map((item) => renderMatchedArticleTitleCard(item)).join("")
+    );
+  } else {
+    renderLockedResults(
+      "Matched records",
+      `0 records • search phrase "${state.search.query}"`,
+      ""
+    );
+  }
   renderBreadcrumb([
     { label: "Search", href: window.location.pathname },
     { label: `Results: ${state.search.query}`, href: searchResultsHref() },

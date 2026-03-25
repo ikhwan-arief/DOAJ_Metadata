@@ -65,7 +65,6 @@ def validate() -> None:
         raise SystemExit("statistics summary journal_total must match statistics journals item_count")
 
     expected_charts = {
-        "top_subjects_by_country",
         "apc_distribution",
         "author_retains_copyright",
         "top_countries",
@@ -78,7 +77,6 @@ def validate() -> None:
         "top_preservation_services",
         "top_publishers",
         "journals_added_timeline",
-        "top_country_apc_eur",
         "country_map",
     }
     if not expected_charts.issubset(set(statistics_summary["charts"].keys())):

@@ -299,17 +299,6 @@ def journal_rows(records: list[dict[str, Any]], fx_matrix: dict[str, dict[str, f
     )
 
 
-def top_subjects_by_country(rows: list[dict[str, Any]], limit: int = 20) -> list[dict[str, int]]:
-    counter: Counter[str] = Counter()
-    for row in rows:
-        country = row.get("country") or ""
-        if not country:
-            continue
-        for subject in row.get("subjects") or []:
-            counter[f"{country} — {subject}"] += 1
-    return chart_items(counter, limit)
-
-
 def timeline_items(rows: list[dict[str, Any]]) -> list[dict[str, int]]:
     counter: Counter[str] = Counter()
     for row in rows:
@@ -377,7 +366,6 @@ def build_statistics_summary(rows: list[dict[str, Any]], article_total: int, fx_
             "apc_currencies": list(SUPPORTED_APC_CURRENCIES),
         },
         "charts": {
-            "top_subjects_by_country": {"title": "Top subjects by country (top 20)", "kind": "bar", "items": top_subjects_by_country(rows, 20)},
             "apc_distribution": {"title": "Article Processing Charges", "kind": "pie", "items": top_counter_items(apc_counts, 10)},
             "author_retains_copyright": {"title": "Authors retain copyright", "kind": "pie", "items": top_counter_items(authors_retain_counts, 10)},
             "top_countries": {"title": "Top 10 countries", "kind": "bar", "items": chart_items(country_counts, 10)},
@@ -395,13 +383,8 @@ def build_statistics_summary(rows: list[dict[str, Any]], article_total: int, fx_
                 "categories": [item["name"] for item in timeline_items(rows)],
                 "series": [{"name": "Journals added", "data": [item["value"] for item in timeline_items(rows)]}],
             },
-            "top_country_apc_eur": {
-                "title": "Top 20 countries by APC amount (EUR)",
-                "kind": "bar",
-                "items": country_apc_totals(rows, "EUR", 20),
-            },
             "country_map": {
-                "title": "Country of publishers",
+                "title": "Country of Publishers",
                 "kind": "map",
                 "items": [{"name": key, "value": value} for key, value in country_counts.most_common()],
             },
