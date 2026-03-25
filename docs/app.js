@@ -376,6 +376,44 @@ function articleJournalIssns(record) {
   return unique(articleBib(record).journal?.issns || []);
 }
 
+function articleJournalCountry(record) {
+  return `${articleBib(record).journal?.country || ""}`.trim();
+}
+
+function articleJournalVolume(record) {
+  return `${articleBib(record).journal?.volume || ""}`.trim();
+}
+
+function articleJournalIssue(record) {
+  return `${articleBib(record).journal?.number || articleBib(record).journal?.issue || ""}`.trim();
+}
+
+function articlePageRange(record) {
+  const pages = `${articleBib(record).pages || ""}`.trim();
+  if (pages) {
+    return pages;
+  }
+  const start = `${articleBib(record).start_page || ""}`.trim();
+  const end = `${articleBib(record).end_page || ""}`.trim();
+  if (start && end) {
+    return `${start}-${end}`;
+  }
+  return start || end || "";
+}
+
+function articleVolumeIssue(record) {
+  const volume = articleJournalVolume(record);
+  const issue = articleJournalIssue(record);
+  const parts = [];
+  if (volume) {
+    parts.push(`Vol. ${volume}`);
+  }
+  if (issue) {
+    parts.push(`no. ${issue}`);
+  }
+  return parts.join(", ");
+}
+
 function articleAuthors(record) {
   return (articleBib(record).author || []).map((item) => ({
     name: `${item.name || ""}`.trim(),
@@ -565,6 +603,16 @@ function filterArticlesForJournal(records, journalRecord) {
     const sameIssn = articleJournalIssns(article).some((issn) => issns.has(normalizeText(issn)));
     return sameTitle || sameIssn;
   });
+}
+
+function findJournalForArticle(articleRecord, journals) {
+  const articleTitleKey = normalizeText(articleJournalTitle(articleRecord));
+  const articleIssns = new Set(articleJournalIssns(articleRecord).map((value) => normalizeText(value)));
+  return (journals || []).find((journalRecord) => {
+    const sameTitle = articleTitleKey && normalizeText(journalTitle(journalRecord)) === articleTitleKey;
+    const sameIssn = journalIssns(journalRecord).some((issn) => articleIssns.has(normalizeText(issn)));
+    return sameTitle || sameIssn;
+  }) || null;
 }
 
 function makePieChart(title, items) {
@@ -769,11 +817,22 @@ function buildJournalPayload(journal, articles, searchContext) {
 }
 
 function buildArticlePayload(article, searchContext) {
+  const linkedJournal = findJournalForArticle(article, searchContext.groups?.journals || []);
   const authors = articleAuthorNames(article);
+  const authorEntries = articleAuthors(article);
   const affiliations = articleAffiliations(article);
   const subjects = articleSubjects(article);
   const keywords = articleKeywords(article);
   const abstractTerms = topTerms([articleAbstract(article)], 24);
+  const journalTitle = linkedJournal ? journalTitle(linkedJournal) : articleJournalTitle(article);
+  const journalPublisher = linkedJournal ? journalPublisher(linkedJournal) : articleJournalPublisher(article);
+  const journalIssns = linkedJournal ? journalIssns(linkedJournal) : articleJournalIssns(article);
+  const journalLanguages = linkedJournal ? journalLanguages(linkedJournal) : articleJournalLanguages(article);
+  const journalCountry = linkedJournal ? journalCountry(linkedJournal) : articleJournalCountry(article);
+  const journalSubjects = linkedJournal ? journalSubjects(linkedJournal) : [];
+  const journalWebsite = linkedJournal ? journalWebsite(linkedJournal) : null;
+  const volumeIssue = articleVolumeIssue(article);
+  const pages = articlePageRange(article);
 
   return {
     entity_type: "article",
@@ -783,12 +842,27 @@ function buildArticlePayload(article, searchContext) {
     doi: articleDoi(article),
     doiUrl: articleDoiUrl(article),
     fulltextUrl: articleFulltextUrl(article),
+    year: articleYear(article),
+    volumeIssue,
+    pages,
+    authors: authorEntries,
+    abstract: articleAbstract(article),
+    keywords,
+    subjects,
+    journalTitle,
+    journalPublisher,
+    journalIssns,
+    journalLanguages,
+    journalCountry,
+    journalSubjects,
+    journalWebsite,
+    journalEntityKey: linkedJournal ? `${linkedJournal.id}` : null,
     article,
     summary: `${articleTitle(article)} is shown as an article detail view restricted to the original search phrase.`,
     kpis: [
       { label: "Article year", value: articleYear(article) || "-" },
-      { label: "Journal", value: articleJournalTitle(article) || "-", tone: "accent" },
-      { label: "Publisher", value: articleJournalPublisher(article) || "-" },
+      { label: "Journal", value: journalTitle || "-", tone: "accent" },
+      { label: "Publisher", value: journalPublisher || "-" },
       { label: "Author count", value: formatNumber(authors.length) },
       { label: "Subject count", value: formatNumber(subjects.length) },
       { label: "DOI", value: articleDoi(article) || "-" },
@@ -1178,7 +1252,192 @@ function renderDetailLinks(payload) {
   return "";
 }
 
+function entityHref(entityType, entityKey) {
+  const query = state.search.query || currentQueryFromUrl() || "";
+  return `?q=${encodeURIComponent(query)}#${entityType}/${encodeURIComponent(entityKey)}`;
+}
+
+function renderArticleDetailAuthors(authors) {
+  if (!authors?.length) {
+    return `<p class="muted-line">Author information is not exposed in this record.</p>`;
+  }
+  return `
+    <div class="article-author-list">
+      ${authors
+        .map(
+          (author) => `
+            <div class="article-author-item">
+              <strong>${escapeHtml(author.name || "Author not exposed")}</strong>
+              <span>${escapeHtml(author.affiliation || "Affiliation not exposed")}</span>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function renderArticleTags(items, emptyMessage) {
+  if (!items?.length) {
+    return `<p class="muted-line">${escapeHtml(emptyMessage)}</p>`;
+  }
+  return `
+    <div class="tags-wrap">
+      ${items.map((item) => `<span class="tag-item">${escapeHtml(item)}</span>`).join("")}
+    </div>
+  `;
+}
+
+function renderArticleInfoRows(rows) {
+  const visible = rows.filter((row) => row.value);
+  if (!visible.length) {
+    return `<p class="muted-line">No additional publication metadata is available.</p>`;
+  }
+  return `
+    <div class="article-fact-list">
+      ${visible
+        .map(
+          (row) => `
+            <div class="article-fact-row">
+              <span class="article-fact-label">${escapeHtml(row.label)}</span>
+              <span class="article-fact-value">${row.html ? row.value : escapeHtml(row.value)}</span>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function renderArticleDashboard(payload) {
+  const authorNames = payload.authors.map((author) => author.name).filter(Boolean).join(", ");
+  const journalLink = payload.journalEntityKey
+    ? `<a class="inline-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">${escapeHtml(payload.journalTitle || "Journal detail")}</a>`
+    : escapeHtml(payload.journalTitle || "Journal unavailable");
+  const topLine = [payload.year, payload.volumeIssue, payload.pages ? `Pages ${payload.pages}` : ""].filter(Boolean).join(" • ");
+  const actionLinks = [
+    payload.doiUrl
+      ? `<a class="detail-title-link" href="${escapeHtml(payload.doiUrl)}" target="_blank" rel="noopener noreferrer">Open DOI</a>`
+      : "",
+    payload.fulltextUrl
+      ? `<a class="detail-title-link" href="${escapeHtml(payload.fulltextUrl)}" target="_blank" rel="noopener noreferrer">Read online</a>`
+      : "",
+    payload.journalEntityKey
+      ? `<a class="detail-title-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">Open journal detail</a>`
+      : "",
+    payload.journalWebsite
+      ? `<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`
+      : "",
+  ].filter(Boolean).join("");
+
+  dom.dashboardHeading.textContent = "Article Detail";
+  dom.dashboardKicker.textContent = "Article Detail";
+  dom.dashboardMeta.textContent = `Search phrase: "${payload.query}" • Fetched ${formatDisplayDate(payload.fetched_at)}`;
+  setDashboardState("", true);
+
+  dom.dashboardContent.innerHTML = `
+    <div class="dashboard-stack article-dashboard">
+      <section class="dashboard-banner article-banner">
+        <div class="article-hero">
+          <span class="section-kicker">Published in</span>
+          <div class="article-published-in">${journalLink}${payload.year ? ` <span class="muted-line">(${escapeHtml(payload.year)})</span>` : ""}</div>
+          <h3>${escapeHtml(payload.title)}</h3>
+          <p class="article-author-line">${escapeHtml(authorNames || "Author not exposed")}</p>
+          ${topLine ? `<div class="banner-meta">${escapeHtml(topLine)}</div>` : ""}
+          ${actionLinks ? `<div class="result-links">${actionLinks}</div>` : ""}
+        </div>
+      </section>
+
+      <section class="article-detail-grid">
+        <article class="narrative-card article-section-card article-section-card--wide">
+          <div class="card-header">
+            <h3>Abstract</h3>
+          </div>
+          <p class="article-full-abstract">${escapeHtml(payload.abstract || "No abstract is available for this article record.")}</p>
+        </article>
+
+        <article class="narrative-card article-section-card">
+          <div class="card-header">
+            <h3>Authors and affiliations</h3>
+          </div>
+          ${renderArticleDetailAuthors(payload.authors)}
+        </article>
+
+        <article class="narrative-card article-section-card">
+          <div class="card-header">
+            <h3>Article metadata</h3>
+          </div>
+          ${renderArticleInfoRows([
+            { label: "DOI", value: payload.doiUrl ? `<a class="inline-link" href="${escapeHtml(payload.doiUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.doi || payload.doiUrl)}</a>` : payload.doi || "", html: true },
+            { label: "Publication year", value: payload.year || "" },
+            { label: "Volume and issue", value: payload.volumeIssue || "" },
+            { label: "Pages", value: payload.pages || "" },
+            { label: "Fetched", value: formatDisplayDate(payload.fetched_at) },
+          ])}
+        </article>
+
+        <article class="narrative-card article-section-card">
+          <div class="card-header">
+            <h3>Keywords</h3>
+          </div>
+          ${renderArticleTags(payload.keywords, "No keywords are available for this article record.")}
+        </article>
+
+        <article class="narrative-card article-section-card">
+          <div class="card-header">
+            <h3>Subjects</h3>
+          </div>
+          ${renderArticleTags(payload.subjects, "No subject tags are available for this article record.")}
+        </article>
+
+        <article class="narrative-card article-section-card article-section-card--wide">
+          <div class="card-header">
+            <h3>Published in ${escapeHtml(payload.journalTitle || "journal context")}</h3>
+          </div>
+          ${renderArticleInfoRows([
+            { label: "Journal", value: payload.journalEntityKey ? `<a class="inline-link" href="${escapeHtml(entityHref("journal", payload.journalEntityKey))}">${escapeHtml(payload.journalTitle || "-")}</a>` : payload.journalTitle || "", html: Boolean(payload.journalEntityKey) },
+            { label: "Publisher", value: payload.journalPublisher || "" },
+            { label: "Country", value: payload.journalCountry || "" },
+            { label: "ISSN", value: payload.journalIssns.join(", ") || "" },
+            { label: "Languages", value: payload.journalLanguages.join(", ") || "" },
+            { label: "Journal website", value: payload.journalWebsite ? `<a class="inline-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.journalWebsite)}</a>` : "", html: Boolean(payload.journalWebsite) },
+          ])}
+          ${payload.journalSubjects.length ? `
+            <div class="article-subsection">
+              <span class="mini-label">Journal subjects</span>
+              ${renderArticleTags(payload.journalSubjects, "")}
+            </div>
+          ` : ""}
+        </article>
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Visuals</span>
+            <h2>Article insights</h2>
+          </div>
+        </div>
+        <div class="chart-grid">
+          ${Object.entries(payload.charts)
+            .map(([chartKey, chart]) => renderChartCard(chartKey, chart))
+            .join("")}
+        </div>
+      </section>
+      <div class="warning-strip">
+        This article detail page reflects the selected DOAJ article record within the original search phrase "${escapeHtml(payload.query)}".
+      </div>
+    </div>
+  `;
+
+  mountCharts(payload.charts);
+}
+
 function renderDashboard(payload) {
+  if (payload.entity_type === "article") {
+    renderArticleDashboard(payload);
+    return;
+  }
   dom.dashboardHeading.textContent = payload.entity_type === "article" ? "Article Detail" : "Dashboard";
   dom.dashboardKicker.textContent = payload.entity_type === "article"
     ? "Article Detail"

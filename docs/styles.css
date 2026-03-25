@@ -423,6 +423,10 @@ button:active,
   animation: fade-up 240ms ease;
 }
 
+.article-dashboard {
+  gap: 20px;
+}
+
 .dashboard-banner {
   padding: 22px;
   border-radius: var(--radius-lg);
@@ -438,6 +442,26 @@ button:active,
 
 .dashboard-banner p {
   margin-top: 10px;
+}
+
+.article-banner {
+  padding: 24px;
+}
+
+.article-hero {
+  display: grid;
+  gap: 12px;
+}
+
+.article-published-in {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--accent-strong);
+}
+
+.article-author-line {
+  font-size: 1.02rem;
+  color: var(--ink);
 }
 
 .banner-meta {
@@ -487,6 +511,84 @@ button:active,
   background:
     linear-gradient(160deg, rgba(253, 90, 59, 0.12), rgba(253, 90, 59, 0.02)),
     var(--panel-strong);
+}
+
+.article-detail-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.article-section-card {
+  display: grid;
+  gap: 14px;
+}
+
+.article-section-card--wide {
+  grid-column: 1 / -1;
+}
+
+.article-full-abstract {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.article-author-list {
+  display: grid;
+  gap: 12px;
+}
+
+.article-author-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.article-author-item strong {
+  font-family: var(--font-display);
+  color: var(--ink);
+}
+
+.article-author-item span {
+  color: var(--muted);
+}
+
+.article-fact-list {
+  display: grid;
+  gap: 10px;
+}
+
+.article-fact-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 180px) minmax(0, 1fr);
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.article-fact-row:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.article-fact-label {
+  font-family: var(--font-display);
+  color: var(--muted);
+}
+
+.article-fact-value {
+  color: var(--ink);
+  min-width: 0;
+  word-break: break-word;
+}
+
+.article-subsection {
+  display: grid;
+  gap: 10px;
+  margin-top: 6px;
 }
 
 .chart-grid {
@@ -642,6 +744,7 @@ button:active,
 @media (max-width: 1100px) {
   .detail-view,
   .chart-grid,
+  .article-detail-grid,
   .narrative-grid,
   .related-grid {
     grid-template-columns: 1fr;
@@ -684,6 +787,11 @@ button:active,
   .kpi-grid,
   .mini-grid {
     grid-template-columns: 1fr;
+  }
+
+  .article-fact-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .chart-surface {
