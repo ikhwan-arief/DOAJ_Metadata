@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-03-25T00:00:00Z",
+  "source_scope": "doaj_api_statistics",
+  "query": "created_date:[1900-01-01 TO 2100-12-31]",
+  "refresh_interval_hours": 3,
+  "journal_total": 0,
+  "article_total": 0,
+  "kpis": [
+    {
+      "label": "Journals",
+      "value": 0
+    },
+    {
+      "label": "Countries",
+      "value": 0
+    },
+    {
+      "label": "Article records",
+      "value": 0,
+      "detail": "Global DOAJ article total"
+    },
+    {
+      "label": "Languages",
+      "value": 0
+    },
+    {
+      "label": "No APC",
+      "value": 0.0,
+      "detail": "Share of journals"
+    }
+  ],
+  "filters": {
+    "countries": [],
+    "subjects": [],
+    "license_types": [],
+    "peer_review_types": [],
+    "languages": [],
+    "continents": [],
+    "created_year": {
+      "min": null,
+      "max": null
+    },
+    "apc_currencies": [
+      "EUR",
+      "USD"
+    ]
+  },
+  "charts": {
+    "top_subjects_by_country": {
+      "title": "Top subjects by country",
+      "kind": "bar",
+      "items": []
+    },
+    "apc_distribution": {
+      "title": "APC distribution",
+      "kind": "pie",
+      "items": []
+    },
+    "author_retains_copyright": {
+      "title": "Authors retain copyright",
+      "kind": "pie",
+      "items": []
+    },
+    "top_countries": {
+      "title": "Top countries",
+      "kind": "bar",
+      "items": []
+    },
+    "journals_by_continent": {
+      "title": "Journals by continent",
+      "kind": "pie",
+      "items": []
+    },
+    "top_languages": {
+      "title": "Top languages",
+      "kind": "bar",
+      "items": []
+    },
+    "top_subjects": {
+      "title": "Top subjects",
+      "kind": "bar",
+      "items": []
+    },
+    "license_usage": {
+      "title": "License usage",
+      "kind": "pie",
+      "items": []
+    },
+    "top_peer_review": {
+      "title": "Top peer-review types",
+      "kind": "bar",
+      "items": []
+    },
+    "top_pid_schemes": {
+      "title": "Top persistent identifiers",
+      "kind": "bar",
+      "items": []
+    },
+    "top_preservation_services": {
+      "title": "Top preservation services",
+      "kind": "bar",
+      "items": []
+    },
+    "top_publishers": {
+      "title": "Top publishers",
+      "kind": "bar",
+      "items": []
+    },
+    "journals_added_timeline": {
+      "title": "Journals added to DOAJ",
+      "kind": "timeline",
+      "categories": [],
+      "series": [
+        {
+          "name": "Journals added",
+          "data": []
+        }
+      ]
+    },
+    "top_country_apc_eur": {
+      "title": "Top countries by APC amount (EUR)",
+      "kind": "bar",
+      "items": []
+    },
+    "country_map": {
+      "title": "Country of publishers",
+      "kind": "map",
+      "items": []
+    }
+  },
+  "fx": {
+    "fetched_at": "2026-03-25T00:00:00Z",
+    "providers": {},
+    "supported_currencies": [
+      "EUR",
+      "USD"
+    ],
+    "warnings": []
+  },
+  "table_defaults": {
+    "page_size": 25,
+    "sort": "last_updated_desc"
+  },
+  "warnings": [
+    "Statistics refresh is pending. GitHub Actions will replace this placeholder with live DOAJ API data."
+  ]
+}

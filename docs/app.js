@@ -18,6 +18,33 @@ const MATCHING_MIN_ABSTRACT_LENGTH = 240;
 const FETCH_TIMEOUT_MS = 18000;
 const MATCHING_MODEL_URL = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
 const MATCHING_MODEL_ID = "Xenova/all-MiniLM-L6-v2";
+const STATISTICS_SUMMARY_URL = "./data/statistics/summary.json";
+const STATISTICS_JOURNALS_URL = "./data/statistics/journals.json";
+const STATISTICS_WORLD_GEOJSON_URL = "https://echarts.apache.org/examples/data/asset/geo/world.json";
+const STATISTICS_PAGE_SIZE = 25;
+
+const GEO_COUNTRY_ALIASES = {
+  BO: "Bolivia",
+  CD: "Democratic Republic of the Congo",
+  CG: "Republic of the Congo",
+  CI: "Ivory Coast",
+  CZ: "Czech Republic",
+  GB: "United Kingdom",
+  IR: "Iran",
+  KP: "North Korea",
+  KR: "South Korea",
+  LA: "Laos",
+  LY: "Libya",
+  MD: "Moldova",
+  MK: "North Macedonia",
+  PS: "Palestine",
+  RU: "Russia",
+  SY: "Syria",
+  TZ: "United Republic of Tanzania",
+  US: "United States of America",
+  VE: "Venezuela",
+  VN: "Vietnam",
+};
 
 const STOPWORDS = new Set([
   "abstract",
@@ -346,6 +373,14 @@ const state = {
     rerankToken: 0,
     selectedJournalKey: "",
   },
+  statistics: {
+    summary: null,
+    journals: [],
+    status: "idle",
+    error: "",
+    filters: null,
+    tablePage: 1,
+  },
   entities: {
     publisher: new Map(),
     journal: new Map(),
@@ -357,6 +392,7 @@ const state = {
 const dom = {
   modeMainSearch: document.querySelector("#mode-main-search"),
   modeJournalMatching: document.querySelector("#mode-journal-matching"),
+  modeStatistics: document.querySelector("#mode-statistics"),
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
   searchNote: document.querySelector("#search-note"),
@@ -370,9 +406,14 @@ const dom = {
   hero: document.querySelector(".hero"),
   heroMainSearch: document.querySelector("#hero-main-search"),
   heroJournalMatching: document.querySelector("#hero-journal-matching"),
+  heroStatistics: document.querySelector("#hero-statistics"),
   detailBreadcrumb: document.querySelector("#detail-breadcrumb"),
   homeView: document.querySelector("#home-view"),
   resultsPanel: document.querySelector("#results-panel"),
+  statisticsPanel: document.querySelector("#statistics-panel"),
+  statisticsMeta: document.querySelector("#statistics-meta"),
+  statisticsState: document.querySelector("#statistics-state"),
+  statisticsContent: document.querySelector("#statistics-content"),
   detailView: document.querySelector("#detail-view"),
   resultsState: document.querySelector("#results-state"),
   resultsGroups: document.querySelector("#results-groups"),
@@ -391,11 +432,15 @@ const dom = {
 };
 
 let matchingModelPromise = null;
+let statisticsDataPromise = null;
+let statisticsWorldMapPromise = null;
+let mountedChartInstances = [];
 
 function getChartTheme() {
   const styles = getComputedStyle(document.documentElement);
   return {
     panel: styles.getPropertyValue("--panel-strong").trim() || "#ffffff",
+    ink: styles.getPropertyValue("--ink").trim() || "#1f1c1b",
     muted: styles.getPropertyValue("--muted").trim() || "#5c5956",
     line: styles.getPropertyValue("--line").trim() || "#d7d2ce",
     accent: styles.getPropertyValue("--accent").trim() || "#fd5a3b",
@@ -531,6 +576,44 @@ function formatDisplayDate(value) {
     year: "numeric",
     timeZone: "UTC",
   }).format(date);
+}
+
+function formatCompactNumber(value) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) {
+    return "-";
+  }
+  return new Intl.NumberFormat("en-US", {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(Number(value));
+}
+
+function formatDecimal(value, fractionDigits = 1) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) {
+    return "-";
+  }
+  return new Intl.NumberFormat("en-US", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: fractionDigits,
+  }).format(Number(value));
+}
+
+function formatCurrencyAmount(value, currency) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) {
+    return "-";
+  }
+  return `${formatDecimal(value, 2)} ${currency}`;
+}
+
+function geoCountryName(value) {
+  const raw = `${value || ""}`.trim();
+  if (!raw) {
+    return "";
+  }
+  if (/^[A-Za-z]{2}$/.test(raw)) {
+    return GEO_COUNTRY_ALIASES[raw.toUpperCase()] || formatCountryName(raw.toUpperCase());
+  }
+  return raw;
 }
 
 function parseIsoYear(value) {
@@ -1012,6 +1095,28 @@ async function fetchJson(url) {
     }
     if (error instanceof TypeError) {
       throw new Error("Live DOAJ request failed in this browser.");
+    }
+    throw error;
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+}
+
+async function fetchStaticJson(url) {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    if (!response.ok) {
+      throw new Error(`Static data request failed (${response.status}).`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error?.name === "AbortError") {
+      throw new Error("Static statistics data request timed out.");
+    }
+    if (error instanceof TypeError) {
+      throw new Error("Static statistics data could not be loaded in this browser.");
     }
     throw error;
   } finally {
@@ -1674,6 +1779,665 @@ function makeTagChart(title, items) {
   return { title, kind: "tags", items };
 }
 
+function disposeMountedCharts() {
+  mountedChartInstances.forEach((instance) => {
+    try {
+      instance.dispose();
+    } catch {
+      return;
+    }
+  });
+  mountedChartInstances = [];
+}
+
+function statisticsDefaultFilters(summary) {
+  const yearRange = summary?.filters?.created_year || {};
+  return {
+    country: "",
+    subject: "",
+    licenseType: "",
+    apc: "",
+    authorRetains: "",
+    peerReviewType: "",
+    language: "",
+    publisherText: "",
+    continent: "",
+    createdYearMin: yearRange.min ?? "",
+    createdYearMax: yearRange.max ?? "",
+    apcCurrency: summary?.filters?.apc_currencies?.[0] || "EUR",
+    tableSearch: "",
+    tableSort: summary?.table_defaults?.sort || "last_updated_desc",
+  };
+}
+
+function statisticsFiltersAreActive(filters, summary) {
+  const defaults = statisticsDefaultFilters(summary);
+  return ["country", "subject", "licenseType", "apc", "authorRetains", "peerReviewType", "language", "publisherText", "continent", "createdYearMin", "createdYearMax"]
+    .some((key) => `${filters?.[key] ?? ""}` !== `${defaults[key] ?? ""}`);
+}
+
+function statisticsRetainValue(row) {
+  if (row?.author_retains === true) {
+    return "yes";
+  }
+  if (row?.author_retains === false) {
+    return "no";
+  }
+  return "unknown";
+}
+
+function statisticsCountItems(values, { limit = 10, formatter = (value) => `${value || ""}` } = {}) {
+  const counter = new Map();
+  for (const value of values || []) {
+    const label = `${formatter(value) || ""}`.trim();
+    if (!label) {
+      continue;
+    }
+    counter.set(label, (counter.get(label) || 0) + 1);
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value }));
+}
+
+function statisticsTopSubjectsByCountry(rows, limit = 20) {
+  const counter = new Map();
+  for (const row of rows) {
+    const country = formatCountryName(row.country);
+    if (!country) {
+      continue;
+    }
+    for (const subject of row.subjects || []) {
+      const label = `${country} — ${subject}`;
+      counter.set(label, (counter.get(label) || 0) + 1);
+    }
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value }));
+}
+
+function statisticsTimeline(rows) {
+  const counter = new Map();
+  for (const row of rows) {
+    const value = `${row.created_month || ""}`.trim();
+    if (!value) {
+      continue;
+    }
+    counter.set(value, (counter.get(value) || 0) + 1);
+  }
+  const categories = [...counter.keys()].sort((left, right) => left.localeCompare(right));
+  return {
+    categories,
+    series: [
+      {
+        name: "Journals added",
+        data: categories.map((item) => counter.get(item) || 0),
+      },
+    ],
+  };
+}
+
+function statisticsCountryApcTotals(rows, currency, limit = 20) {
+  const key = currency === "USD" ? "apc_max_usd" : "apc_max_eur";
+  const counter = new Map();
+  for (const row of rows) {
+    const amount = Number(row[key]);
+    if (!Number.isFinite(amount)) {
+      continue;
+    }
+    const country = formatCountryName(row.country);
+    if (!country) {
+      continue;
+    }
+    counter.set(country, (counter.get(country) || 0) + amount);
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value: Number(value.toFixed(2)) }));
+}
+
+function statisticsCountryMapItems(rows) {
+  return statisticsCountItems(rows.map((row) => geoCountryName(row.country)), {
+    limit: rows.length || 0,
+  });
+}
+
+function statisticsCharts(rows, currency) {
+  const timeline = statisticsTimeline(rows);
+  return {
+    top_subjects_by_country: makeBarChart("Top subjects by country", statisticsTopSubjectsByCountry(rows, 20)),
+    apc_distribution: makePieChart(
+      "APC distribution",
+      statisticsCountItems(rows.map((row) => (row.apc_has ? "APC" : "No APC")), { limit: 10 })
+    ),
+    author_retains_copyright: makePieChart(
+      "Authors retain copyright",
+      statisticsCountItems(
+        rows.map((row) => (statisticsRetainValue(row) === "yes" ? "Yes" : statisticsRetainValue(row) === "no" ? "No" : "Unknown")),
+        { limit: 10 }
+      )
+    ),
+    top_countries: makeBarChart(
+      "Top countries",
+      statisticsCountItems(rows.map((row) => row.country), { limit: 10, formatter: (value) => formatCountryName(value) })
+    ),
+    journals_by_continent: makePieChart(
+      "Journals by continent",
+      statisticsCountItems(rows.map((row) => row.continent || "Unknown"), { limit: 10 })
+    ),
+    top_languages: makeBarChart(
+      "Top languages",
+      statisticsCountItems(rows.flatMap((row) => row.languages || []), { limit: 10 })
+    ),
+    top_subjects: makeBarChart(
+      "Top subjects",
+      statisticsCountItems(rows.flatMap((row) => row.subjects || []), { limit: 10 })
+    ),
+    license_usage: makePieChart(
+      "License usage",
+      statisticsCountItems(rows.flatMap((row) => row.license_types || []), { limit: 10 })
+    ),
+    top_peer_review: makeBarChart(
+      "Top peer-review types",
+      statisticsCountItems(rows.flatMap((row) => row.peer_review_types || []), { limit: 5 })
+    ),
+    top_pid_schemes: makeBarChart(
+      "Top persistent identifiers",
+      statisticsCountItems(rows.flatMap((row) => row.pid_schemes || []), { limit: 5 })
+    ),
+    top_preservation_services: makeBarChart(
+      "Top preservation services",
+      statisticsCountItems(rows.flatMap((row) => row.preservation_services || []), { limit: 5 })
+    ),
+    top_publishers: makeBarChart(
+      "Top publishers",
+      statisticsCountItems(rows.map((row) => row.publisher_name), { limit: 10 })
+    ),
+    journals_added_timeline: makeTimelineChart("Journals added to DOAJ", timeline.categories, timeline.series),
+    top_country_apc: makeBarChart(`Top countries by APC amount (${currency})`, statisticsCountryApcTotals(rows, currency, 20)),
+    country_map: {
+      title: "Country of publishers",
+      kind: "map",
+      items: statisticsCountryMapItems(rows),
+    },
+  };
+}
+
+function statisticsKpis(rows, summary, filters) {
+  const countryCount = new Set(rows.map((row) => row.country).filter(Boolean)).size;
+  const languageCount = new Set(rows.flatMap((row) => row.languages || []).filter(Boolean)).size;
+  const noApcCount = rows.filter((row) => !row.apc_has).length;
+  const exposedArticleTotal = rows.reduce((total, row) => total + (Number(row.article_records_exposed) || 0), 0);
+  const useGlobalArticleTotal = !statisticsFiltersAreActive(filters, summary);
+  const articleDetail = useGlobalArticleTotal
+    ? "Global DOAJ article total"
+    : exposedArticleTotal
+      ? "Summed from exposed journal metadata"
+      : "No per-journal article counts are exposed in the filtered rows";
+
+  return [
+    { label: "Journals", value: formatNumber(rows.length), tone: "accent" },
+    { label: "Countries", value: formatNumber(countryCount) },
+    { label: "Article records", value: formatNumber(useGlobalArticleTotal ? summary.article_total : exposedArticleTotal), tone: "accent", detail: articleDetail },
+    { label: "Languages", value: formatNumber(languageCount) },
+    { label: "No APC share", value: percent(noApcCount, rows.length), detail: rows.length ? "Share of filtered journals" : "No matching journals" },
+  ];
+}
+
+function statisticsRowsFiltered(rows, filters) {
+  const publisherNeedle = normalizeText(filters.publisherText);
+  const minYear = Number(filters.createdYearMin) || null;
+  const maxYear = Number(filters.createdYearMax) || null;
+
+  return rows.filter((row) => {
+    if (filters.country && row.country !== filters.country) {
+      return false;
+    }
+    if (filters.subject && !(row.subjects || []).includes(filters.subject)) {
+      return false;
+    }
+    if (filters.licenseType && !(row.license_types || []).includes(filters.licenseType)) {
+      return false;
+    }
+    if (filters.apc === "yes" && !row.apc_has) {
+      return false;
+    }
+    if (filters.apc === "no" && row.apc_has) {
+      return false;
+    }
+    if (filters.authorRetains && statisticsRetainValue(row) !== filters.authorRetains) {
+      return false;
+    }
+    if (filters.peerReviewType && !(row.peer_review_types || []).includes(filters.peerReviewType)) {
+      return false;
+    }
+    if (filters.language && !(row.languages || []).includes(filters.language)) {
+      return false;
+    }
+    if (filters.continent && row.continent !== filters.continent) {
+      return false;
+    }
+    if (publisherNeedle && !normalizeText(row.publisher_name).includes(publisherNeedle)) {
+      return false;
+    }
+    if (minYear && (!row.created_year || Number(row.created_year) < minYear)) {
+      return false;
+    }
+    if (maxYear && (!row.created_year || Number(row.created_year) > maxYear)) {
+      return false;
+    }
+    return true;
+  });
+}
+
+function statisticsTableMatches(row, query) {
+  if (!query) {
+    return true;
+  }
+  const haystack = normalizeText(
+    [
+      row.title,
+      formatCountryName(row.country),
+      ...(row.subjects || []),
+    ].join(" ")
+  );
+  return haystack.includes(normalizeText(query));
+}
+
+function statisticsSortRows(rows, sortKey, currency) {
+  const key = currency === "USD" ? "apc_max_usd" : "apc_max_eur";
+  return [...rows].sort((left, right) => {
+    switch (sortKey) {
+      case "title_asc":
+        return left.title.localeCompare(right.title);
+      case "country_asc":
+        return formatCountryName(left.country).localeCompare(formatCountryName(right.country));
+      case "created_date_desc":
+        return toTimestamp(right.created_date) - toTimestamp(left.created_date) || right.title.localeCompare(left.title);
+      case "apc_desc":
+        return (Number(right[key]) || 0) - (Number(left[key]) || 0) || left.title.localeCompare(right.title);
+      case "article_records_desc":
+        return (Number(right.article_records_exposed) || 0) - (Number(left.article_records_exposed) || 0) || left.title.localeCompare(right.title);
+      case "last_updated_desc":
+      default:
+        return toTimestamp(right.last_updated) - toTimestamp(left.last_updated)
+          || toTimestamp(right.created_date) - toTimestamp(left.created_date)
+          || left.title.localeCompare(right.title);
+    }
+  });
+}
+
+function renderStatisticsSelectOptions(items, selected, formatter = (value) => value, { includeAll = true } = {}) {
+  const normalizedItems = [...items];
+  return [
+    ...(includeAll ? [`<option value="">All</option>`] : []),
+    ...normalizedItems.map((value) => {
+      const selectedAttr = `${value}` === `${selected || ""}` ? " selected" : "";
+      return `<option value="${escapeHtml(`${value}`)}"${selectedAttr}>${escapeHtml(formatter(value))}</option>`;
+    }),
+  ].join("");
+}
+
+function statisticsProvidersLabel(fx) {
+  const entries = Object.entries(fx?.providers || {});
+  if (!entries.length) {
+    return "No FX provider metadata";
+  }
+  return entries
+    .map(([name, count]) => `${name}${count > 1 ? ` (${count})` : ""}`)
+    .join(" • ");
+}
+
+function renderStatisticsFiltersCard(summary, filters, filteredRows) {
+  const countryOptions = [...(summary.filters?.countries || [])]
+    .sort((left, right) => formatCountryName(left).localeCompare(formatCountryName(right)));
+
+  return `
+    <article class="statistics-filter-card">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Filters</span>
+          <h2>Refine statistics</h2>
+        </div>
+        <span class="section-meta">${formatNumber(filteredRows.length)} journals after filters</span>
+      </div>
+      <div class="statistics-filter-grid">
+        <label class="statistics-field">
+          <span class="statistics-field-label">Country</span>
+          <select data-statistics-field="country">
+            ${renderStatisticsSelectOptions(countryOptions, filters.country, formatCountryName)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Subject</span>
+          <select data-statistics-field="subject">
+            ${renderStatisticsSelectOptions(summary.filters?.subjects || [], filters.subject)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">License type</span>
+          <select data-statistics-field="licenseType">
+            ${renderStatisticsSelectOptions(summary.filters?.license_types || [], filters.licenseType)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">APC</span>
+          <select data-statistics-field="apc">
+            ${renderStatisticsSelectOptions(["yes", "no"], filters.apc, (value) => (value === "yes" ? "Yes" : "No"))}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Author retains copyright</span>
+          <select data-statistics-field="authorRetains">
+            ${renderStatisticsSelectOptions(["yes", "no", "unknown"], filters.authorRetains, (value) => value.charAt(0).toUpperCase() + value.slice(1))}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Peer-review type</span>
+          <select data-statistics-field="peerReviewType">
+            ${renderStatisticsSelectOptions(summary.filters?.peer_review_types || [], filters.peerReviewType)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Language</span>
+          <select data-statistics-field="language">
+            ${renderStatisticsSelectOptions(summary.filters?.languages || [], filters.language)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Continent</span>
+          <select data-statistics-field="continent">
+            ${renderStatisticsSelectOptions(summary.filters?.continents || [], filters.continent)}
+          </select>
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Publisher text</span>
+          <input data-statistics-field="publisherText" type="text" value="${escapeHtml(filters.publisherText || "")}" placeholder="Filter by publisher name">
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">APC currency</span>
+          <select data-statistics-field="apcCurrency">
+            ${renderStatisticsSelectOptions(summary.filters?.apc_currencies || ["EUR", "USD"], filters.apcCurrency, (value) => value, { includeAll: false })}
+          </select>
+        </label>
+        <div class="statistics-field">
+          <span class="statistics-field-label">Created year range</span>
+          <div class="statistics-range">
+            <input data-statistics-field="createdYearMin" type="number" min="${escapeHtml(String(summary.filters?.created_year?.min ?? ""))}" max="${escapeHtml(String(summary.filters?.created_year?.max ?? ""))}" value="${escapeHtml(String(filters.createdYearMin || ""))}" placeholder="From">
+            <input data-statistics-field="createdYearMax" type="number" min="${escapeHtml(String(summary.filters?.created_year?.min ?? ""))}" max="${escapeHtml(String(summary.filters?.created_year?.max ?? ""))}" value="${escapeHtml(String(filters.createdYearMax || ""))}" placeholder="To">
+          </div>
+        </div>
+      </div>
+      <div class="statistics-filter-actions">
+        <div class="statistics-meta-line">
+          Refreshed ${escapeHtml(formatDisplayDate(summary.generated_at))} • FX source: ${escapeHtml(statisticsProvidersLabel(summary.fx))}
+        </div>
+        <button type="button" class="ghost-button" data-statistics-reset="true">Reset filters</button>
+      </div>
+    </article>
+  `;
+}
+
+function renderStatisticsTable(rows, filters, summary) {
+  const sortedRows = statisticsSortRows(
+    rows.filter((row) => statisticsTableMatches(row, filters.tableSearch)),
+    filters.tableSort,
+    filters.apcCurrency
+  );
+  const pageSize = Number(summary.table_defaults?.page_size) || STATISTICS_PAGE_SIZE;
+  const pageCount = Math.max(1, Math.ceil(sortedRows.length / pageSize));
+  state.statistics.tablePage = Math.max(1, Math.min(state.statistics.tablePage, pageCount));
+  const start = (state.statistics.tablePage - 1) * pageSize;
+  const pageRows = sortedRows.slice(start, start + pageSize);
+  const apcKey = filters.apcCurrency === "USD" ? "apc_max_usd" : "apc_max_eur";
+
+  return `
+    <article class="statistics-table-card">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Journals</span>
+          <h2>Filter-aware table</h2>
+        </div>
+        <span class="section-meta">${formatNumber(sortedRows.length)} journals</span>
+      </div>
+      <div class="statistics-table-tools">
+        <label class="statistics-field">
+          <span class="statistics-field-label">Search title, country, or subject</span>
+          <input data-statistics-field="tableSearch" type="text" value="${escapeHtml(filters.tableSearch || "")}" placeholder="Search within filtered journals">
+        </label>
+        <label class="statistics-field">
+          <span class="statistics-field-label">Sort table</span>
+          <select data-statistics-field="tableSort">
+            ${renderStatisticsSelectOptions(
+              [
+                "last_updated_desc",
+                "created_date_desc",
+                "title_asc",
+                "country_asc",
+                "apc_desc",
+                "article_records_desc",
+              ],
+              filters.tableSort,
+              (value) => ({
+                last_updated_desc: "Last updated",
+                created_date_desc: "Date of inclusion",
+                title_asc: "Title A-Z",
+                country_asc: "Country A-Z",
+                apc_desc: `Highest APC (${filters.apcCurrency})`,
+                article_records_desc: "Most article records",
+              }[value] || value),
+              { includeAll: false }
+            )}
+          </select>
+        </label>
+      </div>
+      <div class="statistics-table-wrap">
+        <table class="statistics-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Country of publisher</th>
+              <th>Subject</th>
+              <th>APC</th>
+              <th>APC max (${escapeHtml(filters.apcCurrency)})</th>
+              <th>Article records</th>
+              <th>Date of inclusion</th>
+              <th>Last updated</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${
+              pageRows.length
+                ? pageRows
+                    .map((row) => `
+                      <tr>
+                        <td>
+                          <div class="statistics-row-title">
+                            <strong>${escapeHtml(row.title)}</strong>
+                            <span class="statistics-inline-note">${escapeHtml(row.publisher_name || "Publisher unavailable")}</span>
+                            <div class="statistics-row-links">
+                              ${row.website ? `<a class="inline-link" href="${escapeHtml(row.website)}" target="_blank" rel="noopener noreferrer">Website</a>` : ""}
+                              ${row.author_guidelines_url ? `<a class="inline-link" href="${escapeHtml(row.author_guidelines_url)}" target="_blank" rel="noopener noreferrer">Author guidelines</a>` : ""}
+                              <button class="ghost-button" type="button" data-entity-type="journal" data-entity-key="${escapeHtml(row.id)}">Open</button>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="statistics-row-title">
+                            <strong>${escapeHtml(formatCountryName(row.country) || "Unknown")}</strong>
+                            <span class="statistics-inline-note">${escapeHtml(row.continent || "Unknown")}</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="statistics-row-subjects">
+                            ${(row.subjects || []).slice(0, 3).map((item) => `<span class="statistics-chip" data-tone="warm">${escapeHtml(item)}</span>`).join("") || `<span class="statistics-inline-note">Not exposed</span>`}
+                          </div>
+                        </td>
+                        <td><span class="statistics-chip" data-tone="${row.apc_has ? "accent" : "article"}">${escapeHtml(row.apc_has ? "Yes" : "No")}</span></td>
+                        <td>${escapeHtml(formatCurrencyAmount(row[apcKey], filters.apcCurrency))}</td>
+                        <td>${row.article_records_exposed ? escapeHtml(formatNumber(row.article_records_exposed)) : `<span class="statistics-inline-note">Not exposed</span>`}</td>
+                        <td>${escapeHtml(formatDisplayDate(row.created_date))}</td>
+                        <td>${escapeHtml(formatDisplayDate(row.last_updated))}</td>
+                      </tr>
+                    `)
+                    .join("")
+                : `
+                  <tr>
+                    <td colspan="8"><div class="empty-state">No journals match the current filters.</div></td>
+                  </tr>
+                `
+            }
+          </tbody>
+        </table>
+      </div>
+      <div class="statistics-pagination">
+        <div class="statistics-pagination-group">
+          <button type="button" class="ghost-button" data-statistics-page="prev" ${state.statistics.tablePage <= 1 ? "disabled" : ""}>Previous</button>
+          <button type="button" class="ghost-button" data-statistics-page="next" ${state.statistics.tablePage >= pageCount ? "disabled" : ""}>Next</button>
+        </div>
+        <div class="statistics-inline-note">
+          Page ${formatNumber(state.statistics.tablePage)} of ${formatNumber(pageCount)} • Showing ${formatNumber(pageRows.length)} of ${formatNumber(sortedRows.length)} filtered journals
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+async function ensureStatisticsData() {
+  if (state.statistics.status === "loaded" && state.statistics.summary && state.statistics.journals.length) {
+    return state.statistics;
+  }
+  if (statisticsDataPromise) {
+    return statisticsDataPromise;
+  }
+
+  state.statistics.status = "loading";
+  state.statistics.error = "";
+  statisticsDataPromise = Promise.all([
+    fetchStaticJson(STATISTICS_SUMMARY_URL),
+    fetchStaticJson(STATISTICS_JOURNALS_URL),
+  ])
+    .then(([summary, journals]) => {
+      state.statistics.summary = summary;
+      state.statistics.journals = journals.items || [];
+      state.statistics.status = "loaded";
+      if (!state.statistics.filters) {
+        state.statistics.filters = statisticsDefaultFilters(summary);
+      }
+      return state.statistics;
+    })
+    .catch((error) => {
+      state.statistics.status = "failed";
+      state.statistics.error = error.message || "Statistics data could not be loaded.";
+      throw error;
+    })
+    .finally(() => {
+      statisticsDataPromise = null;
+    });
+
+  return statisticsDataPromise;
+}
+
+function attachStatisticsHandlers() {
+  dom.statisticsContent.querySelectorAll("[data-statistics-field]").forEach((field) => {
+    const handler = () => {
+      const key = field.dataset.statisticsField;
+      state.statistics.filters[key] = field.value;
+      if (key !== "tableSort") {
+        state.statistics.tablePage = 1;
+      }
+      void renderStatisticsHome();
+    };
+    const eventName = field.tagName === "SELECT" || field.type === "number" ? "change" : "input";
+    field.addEventListener(eventName, handler);
+  });
+
+  dom.statisticsContent.querySelector("[data-statistics-reset='true']")?.addEventListener("click", () => {
+    state.statistics.filters = statisticsDefaultFilters(state.statistics.summary);
+    state.statistics.tablePage = 1;
+    void renderStatisticsHome();
+  });
+
+  dom.statisticsContent.querySelector("[data-statistics-page='prev']")?.addEventListener("click", () => {
+    state.statistics.tablePage = Math.max(1, state.statistics.tablePage - 1);
+    void renderStatisticsHome();
+  });
+
+  dom.statisticsContent.querySelector("[data-statistics-page='next']")?.addEventListener("click", () => {
+    state.statistics.tablePage += 1;
+    void renderStatisticsHome();
+  });
+
+  attachOpenHandlers(dom.statisticsContent);
+}
+
+async function renderStatisticsHome() {
+  await ensureStatisticsData();
+  const summary = state.statistics.summary;
+  const filters = state.statistics.filters || statisticsDefaultFilters(summary);
+  state.statistics.filters = filters;
+
+  const filteredRows = statisticsRowsFiltered(state.statistics.journals, filters);
+  const charts = statisticsCharts(filteredRows, filters.apcCurrency);
+  const kpis = statisticsKpis(filteredRows, summary, filters);
+  const warnings = unique([...(summary.warnings || []), ...((summary.fx && summary.fx.warnings) || [])]);
+
+  dom.statisticsMeta.textContent = `${formatNumber(summary.journal_total)} journals • refreshed ${formatDisplayDate(summary.generated_at)}`;
+  setStatisticsState("", true);
+  disposeMountedCharts();
+  dom.statisticsContent.innerHTML = `
+    <div class="statistics-stack">
+      ${warnings.length ? `<div class="warning-strip">${escapeHtml(warnings.join(" "))}</div>` : ""}
+      <section>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Global overview</span>
+            <h2>Key indicators</h2>
+          </div>
+          <span class="section-meta">DOAJ API • refresh every 3 hours</span>
+        </div>
+        <div class="kpi-grid">
+          ${kpis
+            .map(
+              (item) => `
+                <article class="kpi-card" data-tone="${escapeHtml(item.tone || "neutral")}">
+                  <span class="kpi-label">${escapeHtml(item.label)}</span>
+                  <strong class="kpi-value">${escapeHtml(item.value)}</strong>
+                  <span class="kpi-detail">${escapeHtml(item.detail || "")}</span>
+                </article>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+      ${renderStatisticsFiltersCard(summary, filters, filteredRows)}
+      <section>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Charts</span>
+            <h2>Visuals</h2>
+          </div>
+          <span class="section-meta">${formatNumber(filteredRows.length)} journals in current view</span>
+        </div>
+        <div class="chart-grid">
+          ${Object.entries(charts)
+            .map(([chartKey, chart]) => renderChartCard(`statistics-${chartKey}`, chart))
+            .join("")}
+        </div>
+      </section>
+      ${renderStatisticsTable(filteredRows, filters, summary)}
+    </div>
+  `;
+  attachStatisticsHandlers();
+  void mountCharts(
+    Object.fromEntries(Object.entries(charts).map(([key, value]) => [`statistics-${key}`, value]))
+  );
+}
+
 function timelinePairs(values) {
   const map = new Map();
   for (const value of values.filter(Boolean)) {
@@ -1978,6 +2742,11 @@ function setMatchingState(message, hidden = false) {
   dom.matchingState.classList.toggle("hidden", hidden);
 }
 
+function setStatisticsState(message, hidden = false) {
+  dom.statisticsState.textContent = message;
+  dom.statisticsState.classList.toggle("hidden", hidden);
+}
+
 function setDetailResultsState(message, hidden = false) {
   dom.detailResultsState.textContent = message;
   dom.detailResultsState.classList.toggle("hidden", hidden);
@@ -1989,7 +2758,14 @@ function setDashboardState(message, hidden = false) {
 }
 
 function currentModeFromUrl() {
-  return new URL(window.location.href).searchParams.get("mode") === "matching" ? "matching" : "main-search";
+  const mode = new URL(window.location.href).searchParams.get("mode");
+  if (mode === "matching") {
+    return "matching";
+  }
+  if (mode === "statistics") {
+    return "statistics";
+  }
+  return "main-search";
 }
 
 function syncUrl(query, hash = "", replace = false, { mode = currentModeFromUrl() } = {}) {
@@ -1999,8 +2775,8 @@ function syncUrl(query, hash = "", replace = false, { mode = currentModeFromUrl(
   } else {
     url.searchParams.delete("q");
   }
-  if (mode === "matching") {
-    url.searchParams.set("mode", "matching");
+  if (mode === "matching" || mode === "statistics") {
+    url.searchParams.set("mode", mode);
   } else {
     url.searchParams.delete("mode");
   }
@@ -2053,17 +2829,27 @@ function indexGroups(groups) {
 function updateModeButtons(mode) {
   dom.modeMainSearch.classList.toggle("is-active", mode === "main-search");
   dom.modeJournalMatching.classList.toggle("is-active", mode === "matching");
+  dom.modeStatistics.classList.toggle("is-active", mode === "statistics");
 }
 
-function showHomeView({ mode = currentModeFromUrl(), showResults = true, showMatchingResults = false } = {}) {
+function showHomeView(
+  {
+    mode = currentModeFromUrl(),
+    showResults = true,
+    showMatchingResults = false,
+    showStatistics = false,
+  } = {}
+) {
   state.ui.mode = mode;
   dom.hero.classList.remove("hidden");
   dom.detailBreadcrumb.classList.add("hidden");
   dom.homeView.classList.remove("hidden");
   dom.heroMainSearch.classList.toggle("hidden", mode !== "main-search");
   dom.heroJournalMatching.classList.toggle("hidden", mode !== "matching");
+  dom.heroStatistics.classList.toggle("hidden", mode !== "statistics");
   dom.resultsPanel.classList.toggle("hidden", mode !== "main-search" || !showResults);
   dom.matchingPanel.classList.toggle("hidden", mode !== "matching" || !showMatchingResults);
+  dom.statisticsPanel.classList.toggle("hidden", mode !== "statistics" || !showStatistics);
   dom.detailView.classList.add("hidden");
   dom.detailView.classList.remove("single-column");
   dom.relatedPanel.classList.remove("hidden");
@@ -2083,6 +2869,11 @@ function navigateToEntity(entityType, entityKey) {
   const mode = currentModeFromUrl();
   if (mode === "matching") {
     syncUrl("", `${entityType}/${encodeURIComponent(entityKey)}`, false, { mode: "matching" });
+    void renderRoute();
+    return;
+  }
+  if (mode === "statistics") {
+    syncUrl("", `${entityType}/${encodeURIComponent(entityKey)}`, false, { mode: "statistics" });
     void renderRoute();
     return;
   }
@@ -2495,8 +3286,8 @@ function renderMatchingContext(payload) {
 function entityHref(entityType, entityKey) {
   const url = new URL(window.location.pathname, window.location.origin);
   const mode = currentModeFromUrl();
-  if (mode === "matching") {
-    url.searchParams.set("mode", "matching");
+  if (mode === "matching" || mode === "statistics") {
+    url.searchParams.set("mode", mode);
   } else {
     const query = state.search.query || currentQueryFromUrl() || "";
     if (query) {
@@ -2511,6 +3302,9 @@ function searchResultsHref() {
   const mode = currentModeFromUrl();
   if (mode === "matching") {
     return "?mode=matching";
+  }
+  if (mode === "statistics") {
+    return "?mode=statistics";
   }
   const query = state.search.query || currentQueryFromUrl() || "";
   return query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
@@ -2605,6 +3399,7 @@ function renderArticleDashboard(payload) {
   dom.dashboardKicker.textContent = "Article Detail";
   dom.dashboardMeta.textContent = payload.meta_label || `Fetched ${formatDisplayDate(payload.fetched_at)}`;
   setDashboardState("", true);
+  disposeMountedCharts();
 
   dom.dashboardContent.innerHTML = `
     <div class="dashboard-stack article-dashboard">
@@ -2701,7 +3496,7 @@ function renderArticleDashboard(payload) {
     </div>
   `;
 
-  mountCharts(payload.charts);
+  void mountCharts(payload.charts);
 }
 
 function renderDashboard(payload) {
@@ -2715,6 +3510,7 @@ function renderDashboard(payload) {
     : `${payload.entity_type.charAt(0).toUpperCase()}${payload.entity_type.slice(1)} Dashboard`;
   dom.dashboardMeta.textContent = payload.meta_label || `Fetched ${formatDisplayDate(payload.fetched_at)}`;
   setDashboardState("", true);
+  disposeMountedCharts();
 
   dom.dashboardContent.innerHTML = `
     <div class="dashboard-stack">
@@ -2769,24 +3565,40 @@ function renderDashboard(payload) {
     </div>
   `;
 
-  mountCharts(payload.charts);
+  void mountCharts(payload.charts);
 }
 
-function mountCharts(charts) {
+async function loadStatisticsWorldMap() {
+  if (statisticsWorldMapPromise) {
+    return statisticsWorldMapPromise;
+  }
+  statisticsWorldMapPromise = fetchStaticJson(STATISTICS_WORLD_GEOJSON_URL).catch((error) => {
+    statisticsWorldMapPromise = null;
+    throw error;
+  });
+  return statisticsWorldMapPromise;
+}
+
+async function mountCharts(charts) {
   if (!window.echarts) {
     return;
   }
   const theme = getChartTheme();
   const palette = [theme.accent, theme.article, theme.warm, theme.accentStrong];
   for (const [chartKey, chart] of Object.entries(charts)) {
-    if (!["bar", "pie", "timeline"].includes(chart.kind)) {
+    if (!["bar", "pie", "timeline", "map"].includes(chart.kind)) {
       continue;
     }
     const node = document.getElementById(`chart-${chartKey}`);
     if (!node) {
       continue;
     }
+    const existing = window.echarts.getInstanceByDom(node);
+    if (existing) {
+      existing.dispose();
+    }
     const instance = window.echarts.init(node);
+    mountedChartInstances.push(instance);
     if (chart.kind === "pie") {
       instance.setOption({
         color: palette,
@@ -2805,6 +3617,48 @@ function mountCharts(charts) {
           },
         ],
       });
+      requestAnimationFrame(() => instance.resize());
+      continue;
+    }
+    if (chart.kind === "map") {
+      try {
+        const geoJson = await loadStatisticsWorldMap();
+        window.echarts.registerMap("statistics-world", geoJson);
+        instance.setOption({
+          tooltip: { trigger: "item" },
+          visualMap: {
+            min: 0,
+            max: Math.max(...(chart.items || []).map((item) => item.value), 1),
+            left: 10,
+            bottom: 10,
+            text: ["High", "Low"],
+            calculable: true,
+            textStyle: { color: theme.muted },
+            inRange: {
+              color: [theme.warmSoft, theme.warm, theme.accent],
+            },
+          },
+          series: [
+            {
+              name: chart.title,
+              type: "map",
+              map: "statistics-world",
+              roam: true,
+              emphasis: {
+                label: { color: theme.ink },
+                itemStyle: { areaColor: theme.article },
+              },
+              itemStyle: {
+                borderColor: theme.panel,
+                areaColor: "rgba(253, 90, 59, 0.10)",
+              },
+              data: chart.items || [],
+            },
+          ],
+        });
+      } catch {
+        node.innerHTML = `<div class="empty-state">World map data is unavailable in this session.</div>`;
+      }
       requestAnimationFrame(() => instance.resize());
       continue;
     }
@@ -3153,8 +4007,13 @@ async function renderStandaloneJournalDetail(entityKey) {
     state.entities.journal.set(`${journal.id}`, journal);
   }
   renderLockedResults("", "", "", { hidden: true });
+  const modeLabel = currentModeFromUrl() === "matching"
+    ? "Journal Matching"
+    : currentModeFromUrl() === "statistics"
+      ? "Statistics"
+      : "Search";
   renderBreadcrumb([
-    { label: currentModeFromUrl() === "matching" ? "Journal Matching" : "Search", href: searchResultsHref() },
+    { label: modeLabel, href: searchResultsHref() },
     { label: journalTitle(journal) },
   ]);
   showDetailView({ singleColumn: true });
@@ -3228,6 +4087,23 @@ async function renderRoute() {
     return;
   }
 
+  if (route.view === "home" && mode === "statistics") {
+    showHomeView({ mode: "statistics", showStatistics: true });
+    dom.statisticsMeta.textContent = state.statistics.summary
+      ? `${formatNumber(state.statistics.summary.journal_total)} journals • refreshed ${formatDisplayDate(state.statistics.summary.generated_at)}`
+      : "Loading statistics";
+    setStatisticsState("Loading DOAJ statistics...", false);
+    dom.statisticsContent.innerHTML = "";
+    try {
+      await renderStatisticsHome();
+    } catch (error) {
+      dom.statisticsMeta.textContent = "Statistics unavailable";
+      setStatisticsState(error.message || "Statistics data could not be loaded.", false);
+      dom.statisticsContent.innerHTML = "";
+    }
+    return;
+  }
+
   if (!query && route.view === "home") {
     showHomeView({ mode: "main-search", showResults: false });
     dom.resultsMeta.textContent = "No query yet";
@@ -3259,6 +4135,30 @@ async function renderRoute() {
       dom.dashboardKicker.textContent = "Load failed";
       dom.dashboardHeading.textContent = "Dashboard";
       dom.dashboardMeta.textContent = "Journal Matching";
+      setDashboardState(error.message, false);
+      renderLockedResults("", "", "", { hidden: true });
+      return;
+    }
+  }
+
+  if (mode === "statistics" && route.view === "detail") {
+    try {
+      setDashboardState("Loading detail...", false);
+      dom.dashboardContent.innerHTML = "";
+      if (route.entityType !== "journal") {
+        throw new Error("Statistics currently opens journal detail pages only.");
+      }
+      await renderStandaloneJournalDetail(route.entityKey);
+      return;
+    } catch (error) {
+      showDetailView({ singleColumn: true });
+      renderBreadcrumb([
+        { label: "Statistics", href: "?mode=statistics" },
+        { label: "Dashboard" },
+      ]);
+      dom.dashboardKicker.textContent = "Load failed";
+      dom.dashboardHeading.textContent = "Dashboard";
+      dom.dashboardMeta.textContent = "Statistics";
       setDashboardState(error.message, false);
       renderLockedResults("", "", "", { hidden: true });
       return;
@@ -3379,9 +4279,16 @@ dom.modeJournalMatching.addEventListener("click", () => {
   void renderRoute();
 });
 
+dom.modeStatistics.addEventListener("click", () => {
+  syncUrl("", "", false, { mode: "statistics" });
+  void renderRoute();
+});
+
 dom.backToSearch.addEventListener("click", () => {
   if (currentModeFromUrl() === "matching") {
     syncUrl("", "", false, { mode: "matching" });
+  } else if (currentModeFromUrl() === "statistics") {
+    syncUrl("", "", false, { mode: "statistics" });
   } else if (!state.search.query) {
     syncUrl("", "", false, { mode: "main-search" });
   } else {

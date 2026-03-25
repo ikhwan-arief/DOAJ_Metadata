@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 | DOAJ Metadata Intelligence Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="shortcut icon" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles.css?v=20260325i">
+    <style>
+      body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      .not-found-shell {
+        width: min(720px, calc(100vw - 32px));
+      }
+
+      .not-found-card {
+        padding: 32px;
+        display: grid;
+        gap: 18px;
+      }
+
+      .not-found-card h1 {
+        margin: 0;
+      }
+
+      .not-found-card p {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-found-shell">
+      <section class="panel not-found-card">
+        <span class="eyebrow">404</span>
+        <h1>Sorry, we don't have that.</h1>
+        <p>The page you requested is not available in this repository.</p>
+        <div>
+          <a class="ghost-button" href="./">Back to home</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

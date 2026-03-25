@@ -6,7 +6,7 @@
     <title>DOAJ Metadata Intelligence Dashboard</title>
     <meta
       name="description"
-      content="Live DOAJ search for publishers, journals, and articles, plus journal matching from manuscript abstracts."
+      content="Live DOAJ search, journal matching, and DOAJ-wide statistics from API-built datasets."
     >
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="shortcut icon" href="./favicon.svg">
@@ -16,9 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./styles.css?v=20260325g">
+    <link rel="stylesheet" href="./styles.css?v=20260325i">
     <script defer src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-    <script type="module" src="./app.js?v=20260325g"></script>
+    <script type="module" src="./app.js?v=20260325i"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -28,6 +28,7 @@
           <nav class="mode-switch" aria-label="Application mode">
             <button id="mode-main-search" type="button" class="ghost-button mode-button is-active">Main Search</button>
             <button id="mode-journal-matching" type="button" class="ghost-button mode-button">Journal Matching</button>
+            <button id="mode-statistics" type="button" class="ghost-button mode-button">Statistics</button>
           </nav>
         </div>
 
@@ -91,6 +92,18 @@
             </p>
           </form>
         </section>
+
+        <section id="hero-statistics" class="hero-mode hidden">
+          <div class="hero-copy">
+            <div>
+              <h1>DOAJ journal statistics.</h1>
+              <p>
+                Explore global DOAJ journal indicators, filters, charts, maps, and table views built from
+                the DOAJ API and refreshed every 3 hours by GitHub Actions.
+              </p>
+            </div>
+          </div>
+        </section>
       </header>
 
       <nav id="detail-breadcrumb" class="detail-breadcrumb hidden" aria-label="Breadcrumb"></nav>
@@ -122,6 +135,20 @@
             Paste an English abstract and use Find journal to generate live DOAJ recommendations.
           </div>
           <div id="matching-results" class="matching-results"></div>
+        </section>
+
+        <section id="statistics-panel" class="panel results-panel results-panel--full results-panel--statistics hidden">
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Statistics</span>
+              <h2>Global Journal Overview</h2>
+            </div>
+            <span class="section-meta" id="statistics-meta">Waiting for statistics data</span>
+          </div>
+          <div id="statistics-state" class="empty-state">
+            Open Statistics to load DOAJ-wide journal indicators and charts.
+          </div>
+          <div id="statistics-content"></div>
         </section>
       </main>
 
