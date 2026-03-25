@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-25T03:40:31.245914+00:00",
+  "generated_at": "2026-03-25T07:10:00.428340+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22713,
-  "article_total": 12479843,
+  "article_total": 12481154,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12479843,
+      "value": 12481154,
       "detail": "Global DOAJ article total"
     },
     {
@@ -848,92 +848,6 @@
     ]
   },
   "charts": {
-    "top_subjects_by_country": {
-      "title": "Top subjects by country (top 20)",
-      "kind": "bar",
-      "items": [
-        {
-          "name": "ID — Education",
-          "value": 269
-        },
-        {
-          "name": "ID — Islam",
-          "value": 212
-        },
-        {
-          "name": "ID — Education (General)",
-          "value": 210
-        },
-        {
-          "name": "ID — Social Sciences",
-          "value": 156
-        },
-        {
-          "name": "ID — Business",
-          "value": 111
-        },
-        {
-          "name": "ID — Language and Literature",
-          "value": 108
-        },
-        {
-          "name": "GB — Public aspects of medicine",
-          "value": 104
-        },
-        {
-          "name": "BR — Special aspects of education",
-          "value": 99
-        },
-        {
-          "name": "BR — Social sciences (General)",
-          "value": 99
-        },
-        {
-          "name": "ID — Special aspects of education",
-          "value": 98
-        },
-        {
-          "name": "IR — Medicine",
-          "value": 98
-        },
-        {
-          "name": "GB — Medicine",
-          "value": 97
-        },
-        {
-          "name": "IN — Medicine",
-          "value": 96
-        },
-        {
-          "name": "GB — Medicine (General)",
-          "value": 89
-        },
-        {
-          "name": "BR — Education (General)",
-          "value": 85
-        },
-        {
-          "name": "ID — Law",
-          "value": 82
-        },
-        {
-          "name": "GB — Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
-          "value": 81
-        },
-        {
-          "name": "BR — Social Sciences",
-          "value": 80
-        },
-        {
-          "name": "ID — Mathematics",
-          "value": 79
-        },
-        {
-          "name": "ES — Philology. Linguistics",
-          "value": 75
-        }
-      ]
-    },
     "apc_distribution": {
       "title": "Article Processing Charges",
       "kind": "pie",
@@ -1863,94 +1777,8 @@
         }
       ]
     },
-    "top_country_apc_eur": {
-      "title": "Top 20 countries by APC amount (EUR)",
-      "kind": "bar",
-      "items": [
-        {
-          "name": "GB",
-          "value": 3906593.37
-        },
-        {
-          "name": "CH",
-          "value": 1332468.91
-        },
-        {
-          "name": "US",
-          "value": 1267362.84
-        },
-        {
-          "name": "NL",
-          "value": 616863.52
-        },
-        {
-          "name": "CN",
-          "value": 325113.46
-        },
-        {
-          "name": "DE",
-          "value": 296150.73
-        },
-        {
-          "name": "AU",
-          "value": 147697.94
-        },
-        {
-          "name": "PL",
-          "value": 118266.28
-        },
-        {
-          "name": "ID",
-          "value": 89650.32
-        },
-        {
-          "name": "CA",
-          "value": 68200.25
-        },
-        {
-          "name": "ZA",
-          "value": 65181.53
-        },
-        {
-          "name": "SG",
-          "value": 54924.52
-        },
-        {
-          "name": "EG",
-          "value": 53326.9
-        },
-        {
-          "name": "FR",
-          "value": 52538.99
-        },
-        {
-          "name": "ES",
-          "value": 43929.13
-        },
-        {
-          "name": "IN",
-          "value": 40210.03
-        },
-        {
-          "name": "IT",
-          "value": 39529.79
-        },
-        {
-          "name": "IR",
-          "value": 37073.32
-        },
-        {
-          "name": "JP",
-          "value": 34667.0
-        },
-        {
-          "name": "KR",
-          "value": 30393.21
-        }
-      ]
-    },
     "country_map": {
-      "title": "Country of publishers",
+      "title": "Country of Publishers",
       "kind": "map",
       "items": [
         {
@@ -2517,10 +2345,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-03-25T03:40:29.991519+00:00",
+    "fetched_at": "2026-03-25T07:09:59.147604+00:00",
     "providers": {
-      "open.er-api.com": 51,
-      "Frankfurter API": 1
+      "open.er-api.com": 50,
+      "Frankfurter API": 2
     },
     "supported_currencies": [
       "EUR",
