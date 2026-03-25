@@ -276,6 +276,52 @@ const STOPWORDS = new Set([
   "would",
 ]);
 
+const MATCHING_NOISE_TERMS = new Set([
+  "academy",
+  "annal",
+  "annals",
+  "archive",
+  "archives",
+  "biannual",
+  "bimonthly",
+  "bulletin",
+  "edition",
+  "editions",
+  "issue",
+  "issues",
+  "letter",
+  "letters",
+  "magazine",
+  "magazines",
+  "monthly",
+  "note",
+  "notes",
+  "paper",
+  "papers",
+  "periodical",
+  "periodicals",
+  "proceeding",
+  "proceedings",
+  "publication",
+  "publications",
+  "published",
+  "publishing",
+  "quarterly",
+  "record",
+  "records",
+  "report",
+  "reports",
+  "serial",
+  "serials",
+  "supplement",
+  "supplements",
+  "transaction",
+  "transactions",
+  "volume",
+  "volumes",
+  "weekly",
+]);
+
 const state = {
   ui: {
     mode: "main-search",
@@ -529,6 +575,56 @@ function tokenList(text, { minLength = 3 } = {}) {
   return normalizeText(text)
     .split(/\s+/)
     .filter((token) => token && token.length >= minLength && !STOPWORDS.has(token) && !/^\d+$/.test(token));
+}
+
+function matchingTokenList(text, { minLength = 4 } = {}) {
+  return normalizeText(text)
+    .split(/\s+/)
+    .filter(
+      (token) =>
+        token
+        && token.length >= minLength
+        && !STOPWORDS.has(token)
+        && !MATCHING_NOISE_TERMS.has(token)
+        && !/^\d+$/.test(token)
+    );
+}
+
+function matchingTopTerms(texts, limit = 12) {
+  const counter = new Map();
+  for (const text of texts) {
+    const tokens = matchingTokenList(text, { minLength: 4 });
+    for (const token of tokens) {
+      counter.set(token, (counter.get(token) || 0) + 1);
+    }
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value }));
+}
+
+function matchingPhraseCounts(text, { minWords = 2, maxWords = 3, limit = 8 } = {}) {
+  const tokens = matchingTokenList(text, { minLength: 4 });
+  const counter = new Map();
+  for (let size = minWords; size <= maxWords; size += 1) {
+    for (let index = 0; index <= tokens.length - size; index += 1) {
+      const phraseTokens = tokens.slice(index, index + size);
+      if (new Set(phraseTokens).size < size) {
+        continue;
+      }
+      const phrase = phraseTokens.join(" ");
+      counter.set(phrase, (counter.get(phrase) || 0) + 1);
+    }
+  }
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([name, value]) => ({ name, value }));
+}
+
+function sanitizeMatchingText(text, { minLength = 4, limit = 3200 } = {}) {
+  return clampText(matchingTokenList(text, { minLength }).join(" "), limit);
 }
 
 function phraseCounts(text, { minWords = 2, maxWords = 3, limit = 12 } = {}) {
@@ -1098,11 +1194,11 @@ function looksLikeEnglishAbstract(text) {
 
 function buildAbstractProfile(abstract) {
   const cleanAbstract = `${abstract || ""}`.trim();
-  const termItems = topTerms([cleanAbstract], 12);
-  const phraseItems = phraseCounts(cleanAbstract, { minWords: 2, maxWords: 3, limit: 8 });
+  const termItems = matchingTopTerms([cleanAbstract], 12);
+  const phraseItems = matchingPhraseCounts(cleanAbstract, { minWords: 2, maxWords: 3, limit: 8 });
   const terms = termItems.map((item) => item.name);
   const phrases = phraseItems.map((item) => item.name);
-  const fallbackTerms = tokenList(cleanAbstract, { minLength: 5 }).slice(0, 6);
+  const fallbackTerms = matchingTokenList(cleanAbstract, { minLength: 5 }).slice(0, 6);
   const queries = unique([
     ...phrases.slice(0, 3).map(quotedPhrase),
     ...terms.slice(0, MATCHING_QUERY_COUNT - 3),
@@ -1126,18 +1222,14 @@ function buildMatchingCandidateText(result) {
   const journal = result.journal;
   const seedArticles = result.seedArticles || [];
   const parts = [
-    journalTitle(journal),
-    journalPublisher(journal),
-    journalCountry(journal),
-    journalLanguages(journal).join(" "),
-    journalSubjects(journal).join(" "),
-    journalKeywords(journal).join(" "),
-    journalReview(journal).join(" "),
-    journalAimsScope(journal),
-    seedArticles.map(articleTitle).join(" "),
-    seedArticles.map(articleAbstract).join(" "),
-    seedArticles.flatMap(articleKeywords).join(" "),
-    seedArticles.flatMap(articleSubjects).join(" "),
+    sanitizeMatchingText(journalTitle(journal), { minLength: 4, limit: 260 }),
+    sanitizeMatchingText(journalSubjects(journal).join(" "), { minLength: 4, limit: 420 }),
+    sanitizeMatchingText(journalKeywords(journal).join(" "), { minLength: 4, limit: 420 }),
+    sanitizeMatchingText(journalAimsScope(journal), { minLength: 4, limit: 900 }),
+    sanitizeMatchingText(seedArticles.map(articleTitle).join(" "), { minLength: 4, limit: 520 }),
+    sanitizeMatchingText(seedArticles.map(articleAbstract).join(" "), { minLength: 4, limit: 1600 }),
+    sanitizeMatchingText(seedArticles.flatMap(articleKeywords).join(" "), { minLength: 4, limit: 420 }),
+    sanitizeMatchingText(seedArticles.flatMap(articleSubjects).join(" "), { minLength: 4, limit: 420 }),
   ];
   return clampText(parts.filter(Boolean).join(". "), 3200);
 }
@@ -1538,6 +1630,14 @@ function matchingJournalSummary(record, matchedTerms = [], { articleSignals = 0 
     return journalCardSummary(record);
   }
   return segments.join(" ");
+}
+
+function matchingEvidenceLabel(result) {
+  const articleSignals = Number(result.articleCount || 0);
+  if (articleSignals > 0) {
+    return `${articleSignals} article signal${articleSignals === 1 ? "" : "s"}`;
+  }
+  return "Metadata profile only";
 }
 
 function findJournalForArticle(articleRecord, journals) {
@@ -2077,7 +2177,7 @@ function renderMatchingJournalCard(result, { compact = false } = {}) {
           </div>
           <div class="mini-stat">
             <span class="mini-label">Evidence</span>
-            <strong class="mini-value">${escapeHtml(`${result.articleCount || 0} article signal${result.articleCount === 1 ? "" : "s"}`)}</strong>
+            <strong class="mini-value">${escapeHtml(matchingEvidenceLabel(result))}</strong>
           </div>
         </div>
         <div class="matching-theme-block">
