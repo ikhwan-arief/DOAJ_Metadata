@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-26T10:14:42.659063+00:00",
+  "generated_at": "2026-03-26T13:09:25.534247+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22717,
-  "article_total": 12490968,
+  "article_total": 12491730,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12490968,
+      "value": 12491730,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14358
+          "value": 14357
         },
         {
           "name": "Yes",
-          "value": 8359
+          "value": 8360
         }
       ]
     },
@@ -886,7 +886,7 @@
         },
         {
           "name": "GB",
-          "value": 2270
+          "value": 2271
         },
         {
           "name": "BR",
@@ -928,11 +928,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10307
+          "value": 10308
         },
         {
           "name": "Asia",
-          "value": 6553
+          "value": 6552
         },
         {
           "name": "South America",
@@ -1058,7 +1058,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 4985
+          "value": 4986
         },
         {
           "name": "CC BY-NC-SA",
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14499
+          "value": 14498
         },
         {
           "name": "Anonymous peer review",
-          "value": 6308
+          "value": 6309
         },
         {
           "name": "Peer review",
@@ -1707,7 +1707,7 @@
             188,
             143,
             173,
-            197,
+            196,
             163,
             77,
             175,
@@ -1772,7 +1772,7 @@
             233,
             210,
             169,
-            153
+            154
           ]
         }
       ]
@@ -1787,7 +1787,7 @@
         },
         {
           "name": "GB",
-          "value": 2270
+          "value": 2271
         },
         {
           "name": "BR",
@@ -1883,7 +1883,7 @@
         },
         {
           "name": "PK",
-          "value": 187
+          "value": 186
         },
         {
           "name": "ZA",
@@ -2345,10 +2345,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-03-26T10:14:41.353302+00:00",
+    "fetched_at": "2026-03-26T13:09:24.249728+00:00",
     "providers": {
-      "open.er-api.com": 48,
-      "Frankfurter API": 4
+      "open.er-api.com": 47,
+      "Frankfurter API": 5
     },
     "supported_currencies": [
       "EUR",
