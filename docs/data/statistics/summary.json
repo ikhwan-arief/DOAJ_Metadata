@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-27T12:39:03.311646+00:00",
+  "generated_at": "2026-03-27T15:42:29.563789+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22713,
-  "article_total": 12505736,
+  "journal_total": 22716,
+  "article_total": 12518677,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22713
+      "value": 22716
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12505736,
+      "value": 12518677,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14360
+          "value": 14362
         },
         {
           "name": "Yes",
-          "value": 8353
+          "value": 8354
         }
       ]
     },
@@ -868,7 +868,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14204
+          "value": 14207
         },
         {
           "name": "No",
@@ -932,11 +932,11 @@
         },
         {
           "name": "Asia",
-          "value": 6552
+          "value": 6553
         },
         {
           "name": "South America",
-          "value": 2840
+          "value": 2841
         },
         {
           "name": "North America",
@@ -944,7 +944,7 @@
         },
         {
           "name": "Africa",
-          "value": 826
+          "value": 827
         },
         {
           "name": "Oceania",
@@ -958,19 +958,19 @@
       "items": [
         {
           "name": "EN",
-          "value": 18966
+          "value": 18967
         },
         {
           "name": "ES",
-          "value": 4022
+          "value": 4023
         },
         {
           "name": "PT",
-          "value": 2301
+          "value": 2302
         },
         {
           "name": "FR",
-          "value": 1836
+          "value": 1837
         },
         {
           "name": "ID",
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11710
+          "value": 11711
         },
         {
           "name": "CC BY-NC-ND",
@@ -1062,11 +1062,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2109
+          "value": 2110
         },
         {
           "name": "CC BY-SA",
-          "value": 1962
+          "value": 1963
         },
         {
           "name": "CC BY-ND",
@@ -1092,7 +1092,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14499
+          "value": 14502
         },
         {
           "name": "Anonymous peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 18961
+          "value": 18964
         },
         {
           "name": "Handles",
@@ -1772,7 +1772,7 @@
             233,
             210,
             169,
-            158
+            161
           ]
         }
       ]
@@ -1890,12 +1890,12 @@
           "value": 183
         },
         {
-          "name": "KR",
+          "name": "IQ",
           "value": 179
         },
         {
-          "name": "IQ",
-          "value": 178
+          "name": "KR",
+          "value": 179
         },
         {
           "name": "PT",
@@ -1915,7 +1915,7 @@
         },
         {
           "name": "PE",
-          "value": 149
+          "value": 150
         },
         {
           "name": "NO",
@@ -1998,12 +1998,12 @@
           "value": 51
         },
         {
-          "name": "VE",
+          "name": "MA",
           "value": 49
         },
         {
-          "name": "MA",
-          "value": 48
+          "name": "VE",
+          "value": 49
         },
         {
           "name": "TH",
@@ -2345,7 +2345,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-03-27T12:39:02.100751+00:00",
+    "fetched_at": "2026-03-27T15:42:28.259778+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
