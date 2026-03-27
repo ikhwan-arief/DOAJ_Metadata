@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-27T06:56:53.096848+00:00",
+  "generated_at": "2026-03-27T12:39:03.311646+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22720,
-  "article_total": 12499639,
+  "journal_total": 22713,
+  "article_total": 12505736,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22720
+      "value": 22713
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12499639,
+      "value": 12505736,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14359
+          "value": 14360
         },
         {
           "name": "Yes",
-          "value": 8361
+          "value": 8353
         }
       ]
     },
@@ -868,11 +868,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14203
+          "value": 14204
         },
         {
           "name": "No",
-          "value": 8517
+          "value": 8509
         }
       ]
     },
@@ -886,7 +886,7 @@
         },
         {
           "name": "GB",
-          "value": 2271
+          "value": 2269
         },
         {
           "name": "BR",
@@ -894,7 +894,7 @@
         },
         {
           "name": "US",
-          "value": 1291
+          "value": 1290
         },
         {
           "name": "IR",
@@ -928,7 +928,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10309
+          "value": 10303
         },
         {
           "name": "Asia",
@@ -940,7 +940,7 @@
         },
         {
           "name": "North America",
-          "value": 2014
+          "value": 2013
         },
         {
           "name": "Africa",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 18972
+          "value": 18966
         },
         {
           "name": "ES",
@@ -966,7 +966,7 @@
         },
         {
           "name": "PT",
-          "value": 2300
+          "value": 2301
         },
         {
           "name": "FR",
@@ -982,7 +982,7 @@
         },
         {
           "name": "IT",
-          "value": 891
+          "value": 892
         },
         {
           "name": "DE",
@@ -1004,11 +1004,11 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1119
+          "value": 1118
         },
         {
           "name": "Social Sciences",
-          "value": 940
+          "value": 939
         },
         {
           "name": "Education",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 629
+          "value": 628
         },
         {
           "name": "Language and Literature",
@@ -1050,15 +1050,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11718
+          "value": 11710
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5084
+          "value": 5077
         },
         {
           "name": "CC BY-NC",
-          "value": 4988
+          "value": 4982
         },
         {
           "name": "CC BY-NC-SA",
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14500
+          "value": 14499
         },
         {
           "name": "Anonymous peer review",
-          "value": 6310
+          "value": 6304
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 18968
+          "value": 18961
         },
         {
           "name": "Handles",
@@ -1144,11 +1144,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4538
+          "value": 4530
         },
         {
           "name": "Portico",
-          "value": 4320
+          "value": 4312
         },
         {
           "name": "LOCKSS",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "PMC",
-          "value": 1550
+          "value": 1547
         },
         {
           "name": "PKP PN",
@@ -1170,7 +1170,7 @@
       "items": [
         {
           "name": "Elsevier",
-          "value": 849
+          "value": 841
         },
         {
           "name": "Wiley",
@@ -1692,11 +1692,11 @@
             166,
             182,
             147,
-            129,
+            128,
             95,
             111,
             111,
-            135,
+            134,
             116,
             149,
             95,
@@ -1714,10 +1714,10 @@
             189,
             220,
             162,
-            200,
+            198,
             193,
             167,
-            191,
+            190,
             144,
             158,
             176,
@@ -1741,7 +1741,7 @@
             150,
             165,
             184,
-            149,
+            147,
             144,
             151,
             148,
@@ -1756,7 +1756,7 @@
             192,
             145,
             168,
-            146,
+            145,
             130,
             189,
             170,
@@ -1772,7 +1772,7 @@
             233,
             210,
             169,
-            157
+            158
           ]
         }
       ]
@@ -1787,7 +1787,7 @@
         },
         {
           "name": "GB",
-          "value": 2271
+          "value": 2269
         },
         {
           "name": "BR",
@@ -1795,7 +1795,7 @@
         },
         {
           "name": "US",
-          "value": 1291
+          "value": 1290
         },
         {
           "name": "IR",
@@ -1827,7 +1827,7 @@
         },
         {
           "name": "NL",
-          "value": 515
+          "value": 511
         },
         {
           "name": "CN",
@@ -2345,7 +2345,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-03-27T06:56:51.708872+00:00",
+    "fetched_at": "2026-03-27T12:39:02.100751+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
