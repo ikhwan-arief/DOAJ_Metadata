@@ -17,6 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -28,6 +33,8 @@ jobs:
       - name: Run unit tests
         run: PYTHONPATH=src python -m unittest discover -s tests -p "test_*.py" -v
 
+      - name: Run frontend unit tests
+        run: npm test
+
       - name: Validate static contracts
         run: PYTHONPATH=src python scripts/validate_static_data.py
-

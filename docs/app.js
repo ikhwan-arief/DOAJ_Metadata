@@ -1,3 +1,5 @@
+import * as searchCore from "./search_matching_core.js";
+
 const API_BASE = "https://doaj.org/api/search";
 const MAX_LIVE_JOURNALS = 60;
 const MAX_LIVE_ARTICLES = 80;
@@ -696,6 +698,7 @@ const state = {
   },
   matching: {
     abstract: "",
+    language: "",
     submitted: false,
     fetchedAt: null,
     terms: [],
@@ -814,32 +817,15 @@ function getChartTheme() {
 }
 
 function normalizeText(value) {
-  return (value || "")
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .replace(/\s+/g, " ");
+  return searchCore.normalizeText(value);
 }
 
 function slugify(value) {
-  const normalized = normalizeText(value);
-  return normalized ? normalized.replace(/\s+/g, "-") : "unknown";
+  return searchCore.slugify(value);
 }
 
 function unique(values) {
-  const seen = new Set();
-  const ordered = [];
-  for (const value of values || []) {
-    const cleaned = `${value || ""}`.trim();
-    if (!cleaned || seen.has(cleaned)) {
-      continue;
-    }
-    seen.add(cleaned);
-    ordered.push(cleaned);
-  }
-  return ordered;
+  return searchCore.unique(values);
 }
 
 function escapeHtml(value) {
@@ -849,6 +835,34 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function safeExternalUrl(value) {
+  return searchCore.sanitizeExternalUrl(value);
+}
+
+function externalLinkHtml(
+  url,
+  label,
+  {
+    className = "inline-link",
+    fallbackClassName = className,
+    textIfInvalid = "",
+  } = {}
+) {
+  const raw = `${url || ""}`.trim();
+  const text = `${label || raw || textIfInvalid || ""}`.trim();
+  if (!raw && !text) {
+    return "";
+  }
+  const safeUrl = safeExternalUrl(raw);
+  if (safeUrl) {
+    return `<a class="${className}" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+  }
+  if (!text) {
+    return "";
+  }
+  return `<span class="${fallbackClassName}">${escapeHtml(text)}</span>`;
 }
 
 const regionNames = (() => {
@@ -868,14 +882,7 @@ const languageNames = (() => {
 })();
 
 function formatCountryName(value) {
-  const raw = `${value || ""}`.trim();
-  if (!raw) {
-    return "";
-  }
-  if (/^[A-Za-z]{2}$/.test(raw) && regionNames) {
-    return regionNames.of(raw.toUpperCase()) || raw.toUpperCase();
-  }
-  return raw;
+  return searchCore.formatCountryName(value);
 }
 
 function formatLanguageName(value) {
@@ -1053,59 +1060,23 @@ function topTerms(texts, limit = 16) {
 }
 
 function tokenList(text, { minLength = 3 } = {}) {
-  return normalizeText(text)
-    .split(/\s+/)
-    .filter((token) => token && token.length >= minLength && !STOPWORDS.has(token) && !/^\d+$/.test(token));
+  return searchCore.tokenList(text, { minLength });
 }
 
 function matchingTokenList(text, { minLength = 4 } = {}) {
-  return normalizeText(text)
-    .split(/\s+/)
-    .filter(
-      (token) =>
-        token
-        && token.length >= minLength
-        && !STOPWORDS.has(token)
-        && !MATCHING_NOISE_TERMS.has(token)
-        && !/^\d+$/.test(token)
-    );
+  return searchCore.matchingTokenList(text, { minLength });
 }
 
 function matchingTopTerms(texts, limit = 12) {
-  const counter = new Map();
-  for (const text of texts) {
-    const tokens = matchingTokenList(text, { minLength: 4 });
-    for (const token of tokens) {
-      counter.set(token, (counter.get(token) || 0) + 1);
-    }
-  }
-  return [...counter.entries()]
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([name, value]) => ({ name, value }));
+  return searchCore.matchingTopTerms(texts, limit);
 }
 
 function matchingPhraseCounts(text, { minWords = 2, maxWords = 3, limit = 8 } = {}) {
-  const tokens = matchingTokenList(text, { minLength: 4 });
-  const counter = new Map();
-  for (let size = minWords; size <= maxWords; size += 1) {
-    for (let index = 0; index <= tokens.length - size; index += 1) {
-      const phraseTokens = tokens.slice(index, index + size);
-      if (new Set(phraseTokens).size < size) {
-        continue;
-      }
-      const phrase = phraseTokens.join(" ");
-      counter.set(phrase, (counter.get(phrase) || 0) + 1);
-    }
-  }
-  return [...counter.entries()]
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([name, value]) => ({ name, value }));
+  return searchCore.matchingPhraseCounts(text, { minWords, maxWords, limit });
 }
 
 function sanitizeMatchingText(text, { minLength = 4, limit = 3200 } = {}) {
-  return clampText(matchingTokenList(text, { minLength }).join(" "), limit);
+  return searchCore.sanitizeMatchingText(text, { minLength, limit });
 }
 
 function phraseCounts(text, { minWords = 2, maxWords = 3, limit = 12 } = {}) {
@@ -1128,11 +1099,7 @@ function phraseCounts(text, { minWords = 2, maxWords = 3, limit = 12 } = {}) {
 }
 
 function clampText(value, limit = 1400) {
-  const text = `${value || ""}`.trim();
-  if (text.length <= limit) {
-    return text;
-  }
-  return `${text.slice(0, Math.max(limit - 1, 0)).trimEnd()}…`;
+  return searchCore.clampText(value, limit);
 }
 
 function countBy(values, limit = 12) {
@@ -1432,6 +1399,13 @@ function articleSortTimestamp(record) {
 
 function sortJournals(records) {
   return [...records].sort((left, right) => {
+    const searchDelta = searchCore.compareRankedSearchRecords(left, right, {
+      timestamp: journalSortTimestamp,
+      label: journalTitle,
+    });
+    if (searchDelta !== 0) {
+      return searchDelta;
+    }
     const delta = journalSortTimestamp(right) - journalSortTimestamp(left);
     if (delta !== 0) {
       return delta;
@@ -1442,6 +1416,13 @@ function sortJournals(records) {
 
 function sortArticles(records) {
   return [...records].sort((left, right) => {
+    const searchDelta = searchCore.compareRankedSearchRecords(left, right, {
+      timestamp: articleSortTimestamp,
+      label: articleTitle,
+    });
+    if (searchDelta !== 0) {
+      return searchDelta;
+    }
     const delta = articleSortTimestamp(right) - articleSortTimestamp(left);
     if (delta !== 0) {
       return delta;
@@ -1451,196 +1432,29 @@ function sortArticles(records) {
 }
 
 function journalSignature(record) {
-  const issns = journalIssns(record).map(normalizeText).filter(Boolean).sort();
-  return {
-    id: `${record?.id || ""}`.trim(),
-    titleKey: normalizeText(journalTitle(record)),
-    publisherKey: normalizeText(journalPublisher(record)),
-    issns,
-    primaryKey: `${record?.id || ""}`.trim() || `${normalizeText(journalTitle(record))}::${issns.join("|")}`,
-  };
+  return searchCore.journalSignature(record);
 }
 
 function articleJournalSignature(record) {
-  const issns = articleJournalIssns(record).map(normalizeText).filter(Boolean).sort();
-  return {
-    titleKey: normalizeText(articleJournalTitle(record)),
-    publisherKey: normalizeText(articleJournalPublisher(record)),
-    issns,
-  };
+  return searchCore.articleJournalSignature(record);
 }
 
 function sameJournalSignature(left, right) {
-  if (!left || !right) {
-    return false;
-  }
-  if (left.id && right.id && left.id === right.id) {
-    return true;
-  }
-  if (left.issns.length && right.issns.length) {
-    return left.issns.some((issn) => right.issns.includes(issn));
-  }
-  return Boolean(left.titleKey) && left.titleKey === right.titleKey && (!left.publisherKey || !right.publisherKey || left.publisherKey === right.publisherKey);
+  return searchCore.sameJournalSignature(left, right);
 }
 
 function derivePublishers(journals, articles) {
-  const map = new Map();
-
-  const take = (name) => {
-    const key = slugify(name);
-    if (!map.has(key)) {
-      map.set(key, {
-        entity_type: "publisher",
-        entity_key: key,
-        title: name,
-        journals: [],
-        articles: [],
-        countries: new Set(),
-        languages: new Set(),
-        latestTs: 0,
-      });
-    }
-    return map.get(key);
-  };
-
-  for (const record of journals) {
-    const name = journalPublisher(record);
-    if (!name) {
-      continue;
-    }
-    const entry = take(name);
-    entry.journals.push(record);
-    entry.latestTs = Math.max(entry.latestTs, journalSortTimestamp(record));
-    const country = journalCountry(record);
-    if (country) {
-      entry.countries.add(country);
-    }
-    for (const language of journalLanguages(record)) {
-      entry.languages.add(language);
-    }
-  }
-
-  for (const record of articles) {
-    const name = articleJournalPublisher(record);
-    if (!name) {
-      continue;
-    }
-    const entry = take(name);
-    entry.articles.push(record);
-    entry.latestTs = Math.max(entry.latestTs, articleSortTimestamp(record));
-    const country = articleJournalCountry(record);
-    if (country) {
-      entry.countries.add(country);
-    }
-    for (const language of articleJournalLanguages(record)) {
-      entry.languages.add(language);
-    }
-  }
-
-  return [...map.values()]
-    .map((item) => ({
-      entity_type: item.entity_type,
-      entity_key: item.entity_key,
-      title: item.title,
-      journal_count: item.journals.length,
-      article_count: item.articles.length,
-      countries: [...item.countries],
-      languages: [...item.languages],
-      latestTs: item.latestTs,
-      latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
-    }))
-    .sort((left, right) => {
-      const delta = right.latestTs - left.latestTs;
-      if (delta !== 0) {
-        return delta;
-      }
-      const countDelta = right.journal_count - left.journal_count || right.article_count - left.article_count;
-      if (countDelta !== 0) {
-        return countDelta;
-      }
-      return left.title.localeCompare(right.title);
-    });
+  return searchCore.derivePublisherSearchGroups(journals, articles).map((item) => ({
+    ...item,
+    latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
+  }));
 }
 
 function deriveCountries(journals, articles) {
-  const map = new Map();
-
-  const take = (name) => {
-    const key = formatCountryName(name);
-    if (!key) {
-      return null;
-    }
-    if (!map.has(key)) {
-      map.set(key, {
-        entity_type: "country",
-        entity_key: key,
-        title: key,
-        publishers: new Set(),
-        journals: [],
-        articles: [],
-        languages: new Set(),
-        latestTs: 0,
-      });
-    }
-    return map.get(key);
-  };
-
-  for (const record of journals) {
-    const entry = take(journalCountry(record));
-    if (!entry) {
-      continue;
-    }
-    entry.journals.push(record);
-    entry.latestTs = Math.max(entry.latestTs, journalSortTimestamp(record));
-    const publisher = journalPublisher(record);
-    if (publisher) {
-      entry.publishers.add(publisher);
-    }
-    for (const language of journalLanguages(record)) {
-      entry.languages.add(language);
-    }
-  }
-
-  for (const record of articles) {
-    const entry = take(articleJournalCountry(record));
-    if (!entry) {
-      continue;
-    }
-    entry.articles.push(record);
-    entry.latestTs = Math.max(entry.latestTs, articleSortTimestamp(record));
-    const publisher = articleJournalPublisher(record);
-    if (publisher) {
-      entry.publishers.add(publisher);
-    }
-    for (const language of articleJournalLanguages(record)) {
-      entry.languages.add(language);
-    }
-  }
-
-  return [...map.values()]
-    .map((item) => ({
-      entity_type: item.entity_type,
-      entity_key: item.entity_key,
-      title: item.title,
-      publisher_count: item.publishers.size,
-      journal_count: item.journals.length,
-      article_count: item.articles.length,
-      publishers: [...item.publishers].sort((left, right) => left.localeCompare(right)),
-      languages: [...item.languages],
-      latestTs: item.latestTs,
-      latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
-    }))
-    .sort((left, right) => {
-      const delta = right.latestTs - left.latestTs;
-      if (delta !== 0) {
-        return delta;
-      }
-      const countDelta = right.journal_count - left.journal_count || right.article_count - left.article_count;
-      if (countDelta !== 0) {
-        return countDelta;
-      }
-      return left.title.localeCompare(right.title);
-    });
+  return searchCore.deriveCountrySearchGroups(journals, articles).map((item) => ({
+    ...item,
+    latestDate: formatDisplayDate(item.latestTs ? new Date(item.latestTs).toISOString() : null),
+  }));
 }
 
 async function fetchJson(url) {
@@ -1767,13 +1581,7 @@ function filterCountryArticles(records, countryName) {
 }
 
 function filterArticlesForJournal(records, journalRecord) {
-  const titleKey = normalizeText(journalTitle(journalRecord));
-  const issns = new Set(journalIssns(journalRecord).map((value) => normalizeText(value)));
-  return records.filter((article) => {
-    const sameTitle = normalizeText(articleJournalTitle(article)) === titleKey;
-    const sameIssn = articleJournalIssns(article).some((issn) => issns.has(normalizeText(issn)));
-    return sameTitle || sameIssn;
-  });
+  return searchCore.filterArticlesForJournal(records, journalRecord);
 }
 
 function quotedPhrase(value) {
@@ -1793,30 +1601,11 @@ function issnExactQuery(value) {
 }
 
 function normalizeSearchQuery(query) {
-  const compact = `${query || ""}`
-    .replace(/[“”]/g, '"')
-    .replace(/[‘’]/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  if (!compact) {
-    return "";
-  }
-
-  const parts = compact.match(/"[^"]*"|\S+/g) || [];
-  return parts
-    .map((part) => (/^(and|or|not)$/i.test(part) ? part.toUpperCase() : part))
-    .join(" ");
+  return searchCore.normalizeSearchQuery(query);
 }
 
 function buildJournalCorpusQueries(journalRecord) {
-  return unique([
-    journalTitle(journalRecord) || "",
-    journalTitle(journalRecord) ? quotedPhrase(journalTitle(journalRecord)) : "",
-    ...journalIssns(journalRecord).map(issnExactQuery),
-    ...journalIssns(journalRecord),
-    ...journalIssns(journalRecord).map((issn) => quotedPhrase(issn)),
-  ]).filter(Boolean);
+  return searchCore.buildJournalCorpusQueries(journalRecord);
 }
 
 async function fetchJournalCorpusArticles(
@@ -1845,67 +1634,11 @@ async function fetchJournalCorpusArticles(
 }
 
 function looksLikeEnglishAbstract(text) {
-  const tokens = normalizeText(text).split(/\s+/).filter(Boolean);
-  if (tokens.length < 40) {
-    return false;
-  }
-  const englishSignals = new Set([
-    "the",
-    "and",
-    "with",
-    "from",
-    "this",
-    "that",
-    "study",
-    "results",
-    "method",
-    "analysis",
-    "journal",
-    "article",
-    "using",
-    "were",
-    "between",
-    "among",
-  ]);
-  const indonesianSignals = new Set([
-    "dan",
-    "yang",
-    "dengan",
-    "untuk",
-    "pada",
-    "dalam",
-    "adalah",
-    "hasil",
-    "penelitian",
-    "terhadap",
-    "dari",
-    "akan",
-  ]);
-  const englishCount = tokens.filter((token) => englishSignals.has(token)).length;
-  const indonesianCount = tokens.filter((token) => indonesianSignals.has(token)).length;
-  return englishCount >= indonesianCount;
+  return searchCore.detectAbstractLanguage(text).language === "en";
 }
 
 function buildAbstractProfile(abstract) {
-  const cleanAbstract = `${abstract || ""}`.trim();
-  const termItems = matchingTopTerms([cleanAbstract], 12);
-  const phraseItems = matchingPhraseCounts(cleanAbstract, { minWords: 2, maxWords: 3, limit: 8 });
-  const terms = termItems.map((item) => item.name);
-  const phrases = phraseItems.map((item) => item.name);
-  const fallbackTerms = matchingTokenList(cleanAbstract, { minLength: 5 }).slice(0, 6);
-  const queries = unique([
-    ...phrases.slice(0, 3).map(quotedPhrase),
-    ...terms.slice(0, MATCHING_QUERY_COUNT - 3),
-    ...fallbackTerms,
-  ]).slice(0, MATCHING_QUERY_COUNT);
-
-  return {
-    abstract: cleanAbstract,
-    terms,
-    phrases,
-    queries,
-    lexicalText: unique([...phrases, ...terms]).join(" "),
-  };
+  return searchCore.buildAbstractProfile(abstract, { queryCount: MATCHING_QUERY_COUNT });
 }
 
 function matchingSummaryText(result) {
@@ -1913,63 +1646,15 @@ function matchingSummaryText(result) {
 }
 
 function buildMatchingCandidateText(result) {
-  const journal = result.journal;
-  const seedArticles = result.seedArticles || [];
-  const parts = [
-    sanitizeMatchingText(journalTitle(journal), { minLength: 4, limit: 260 }),
-    sanitizeMatchingText(journalSubjects(journal).join(" "), { minLength: 4, limit: 420 }),
-    sanitizeMatchingText(journalKeywords(journal).join(" "), { minLength: 4, limit: 420 }),
-    sanitizeMatchingText(journalAimsScope(journal), { minLength: 4, limit: 900 }),
-    sanitizeMatchingText(seedArticles.map(articleTitle).join(" "), { minLength: 4, limit: 520 }),
-    sanitizeMatchingText(seedArticles.map(articleAbstract).join(" "), { minLength: 4, limit: 1600 }),
-    sanitizeMatchingText(seedArticles.flatMap(articleKeywords).join(" "), { minLength: 4, limit: 420 }),
-    sanitizeMatchingText(seedArticles.flatMap(articleSubjects).join(" "), { minLength: 4, limit: 420 }),
-  ];
-  return clampText(parts.filter(Boolean).join(". "), 3200);
+  return searchCore.buildMatchingCandidateText(result);
 }
 
 function overlapTerms(profile, text, limit = 4) {
-  const haystack = ` ${normalizeText(text)} `;
-  const matched = [];
-  for (const phrase of profile.phrases) {
-    const value = normalizeText(phrase);
-    if (value && haystack.includes(` ${value} `)) {
-      matched.push(phrase);
-    }
-  }
-  for (const term of profile.terms) {
-    const value = normalizeText(term);
-    if (value && haystack.includes(` ${value} `)) {
-      matched.push(term);
-    }
-  }
-  return unique(matched).slice(0, limit);
+  return searchCore.overlapTerms(profile, text, limit);
 }
 
 function lexicalMatchScore(profile, text, { articleBoost = 0 } = {}) {
-  const haystack = ` ${normalizeText(text)} `;
-  let score = 0;
-  const matched = [];
-  profile.phrases.forEach((phrase, index) => {
-    const weight = 6 - Math.min(index, 4);
-    const value = normalizeText(phrase);
-    if (value && haystack.includes(` ${value} `)) {
-      score += weight;
-      matched.push(phrase);
-    }
-  });
-  profile.terms.forEach((term, index) => {
-    const weight = 3 - Math.min(index * 0.15, 1.6);
-    const value = normalizeText(term);
-    if (value && haystack.includes(` ${value} `)) {
-      score += weight;
-      matched.push(term);
-    }
-  });
-  return {
-    score: score + Math.min(articleBoost, 5),
-    matchedTerms: unique(matched).slice(0, 4),
-  };
+  return searchCore.lexicalMatchScore(profile, text, { articleBoost });
 }
 
 function cosineSimilarity(left, right) {
@@ -2036,64 +1721,11 @@ async function embedTexts(texts) {
 }
 
 function mergeMatchingCandidate(map, journal, { source = "journal", seedArticles = [] } = {}) {
-  if (!journal?.id) {
-    return null;
-  }
-  const signature = journalSignature(journal);
-  const existing = [...map.values()].find((candidate) => sameJournalSignature(candidate.signature, signature));
-  if (existing) {
-    const currentUpdated = journalSortTimestamp(existing.journal);
-    const nextUpdated = journalSortTimestamp(journal);
-    if (nextUpdated > currentUpdated) {
-      existing.journal = journal;
-      existing.signature = signature;
-    }
-    existing.sources.add(source);
-    seedArticles.forEach((article) => existing.seedArticles.set(`${article.id}`, article));
-    return existing;
-  }
-  const candidate = {
-    entityKey: `${journal.id}`,
-    journal,
-    signature,
-    seedArticles: new Map(seedArticles.map((article) => [`${article.id}`, article])),
-    sources: new Set([source]),
-    articleCount: seedArticles.length,
-    lexicalScore: 0,
-    semanticScore: null,
-    finalScore: 0,
-    matchedTerms: [],
-    summary: "",
-    rationale: "",
-    rankingMode: "lexical",
-    enriched: false,
-    authorGuidelinesUrl: journalAuthorGuidelines(journal),
-  };
-  map.set(candidate.entityKey, candidate);
-  return candidate;
+  return searchCore.mergeMatchingCandidate(map, journal, { source, seedArticles });
 }
 
 function matchingArticleJournalGroup(articles) {
-  const grouped = new Map();
-  for (const article of articles) {
-    const signature = articleJournalSignature(article);
-    const key = signature.issns.join("|") || `${signature.titleKey}::${signature.publisherKey}`;
-    if (!key.trim()) {
-      continue;
-    }
-    if (!grouped.has(key)) {
-      grouped.set(key, {
-        signature,
-        title: articleJournalTitle(article),
-        publisher: articleJournalPublisher(article),
-        articles: [],
-      });
-    }
-    grouped.get(key).articles.push(article);
-  }
-  return [...grouped.values()]
-    .sort((left, right) => right.articles.length - left.articles.length || left.signature.titleKey.localeCompare(right.signature.titleKey))
-    .slice(0, MATCHING_RESOLUTION_LIMIT);
+  return searchCore.matchingArticleJournalGroup(articles, MATCHING_RESOLUTION_LIMIT);
 }
 
 function resolveJournalFromResults(group, results) {
@@ -2186,32 +1818,10 @@ async function fetchMatchingCandidates(profile) {
 }
 
 function rankMatchingCandidates(profile, candidates, { rankingMode = "lexical" } = {}) {
-  const ranked = candidates.map((candidate) => {
-    const seedArticles = [...candidate.seedArticles.values()];
-    const candidateText = buildMatchingCandidateText({ ...candidate, seedArticles });
-    const lexical = lexicalMatchScore(profile, candidateText, { articleBoost: seedArticles.length * 0.45 });
-    const semantic = candidate.semanticScore ?? null;
-    const finalScore = semantic === null ? lexical.score : semantic * 100 + lexical.score * 0.28;
-    const matchedTerms = lexical.matchedTerms.length ? lexical.matchedTerms : overlapTerms(profile, candidateText, 4);
-    return {
-      ...candidate,
-      seedArticles,
-      lexicalScore: lexical.score,
-      finalScore,
-      semanticScore: semantic,
-      matchedTerms,
-      summary: matchingJournalSummary(candidate.journal, matchedTerms, { articleSignals: seedArticles.length }),
-      rationale: matchedTerms.length
-        ? `This journal aligns with the abstract through ${matchedTerms.slice(0, 3).join(", ")}.`
-        : "This journal overlaps with the abstract through live metadata and article evidence.",
-      rankingMode,
-      authorGuidelinesUrl: journalAuthorGuidelines(candidate.journal),
-    };
+  return searchCore.rankMatchingCandidates(profile, candidates, {
+    rankingMode,
+    resultLimit: MATCHING_RESULT_LIMIT,
   });
-
-  return ranked
-    .sort((left, right) => right.finalScore - left.finalScore || journalSortTimestamp(right.journal) - journalSortTimestamp(left.journal))
-    .slice(0, MATCHING_RESULT_LIMIT);
 }
 
 async function applySemanticRerank(profile, results, rerankToken) {
@@ -2973,8 +2583,8 @@ function renderStatisticsTable(rows, filters, summary) {
                             <strong>${escapeHtml(row.title)}</strong>
                             <span class="statistics-inline-note">${escapeHtml(row.publisher_name || "Publisher unavailable")}</span>
                             <div class="statistics-row-links">
-                              ${row.website ? `<a class="inline-link" href="${escapeHtml(row.website)}" target="_blank" rel="noopener noreferrer">Website</a>` : ""}
-                              ${row.author_guidelines_url ? `<a class="inline-link" href="${escapeHtml(row.author_guidelines_url)}" target="_blank" rel="noopener noreferrer">Author guidelines</a>` : ""}
+                              ${row.website ? externalLinkHtml(row.website, "Website") : ""}
+                              ${row.author_guidelines_url ? externalLinkHtml(row.author_guidelines_url, "Author guidelines") : ""}
                               <button class="ghost-button" type="button" data-entity-type="journal" data-entity-key="${escapeHtml(row.id)}">Open</button>
                             </div>
                           </div>
@@ -3722,7 +3332,7 @@ function renderPublisherCard(item) {
         </div>
       </div>
       <div class="result-actions">
-        <div class="muted-line">Sorted by latest matched record</div>
+        <div class="muted-line">Ranked by search relevance, with coverage and recency as tie-breakers</div>
         <button class="result-action" data-kind="publisher" data-entity-type="publisher" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
       </div>
     </article>
@@ -3747,7 +3357,7 @@ function renderCountryCard(item) {
         </div>
       </div>
       <div class="result-actions">
-        <div class="muted-line">Built from related publisher, journal, and article records</div>
+        <div class="muted-line">Ranked by search relevance and related coverage</div>
         <button class="result-action" data-kind="country" data-entity-type="country" data-entity-key="${escapeHtml(item.entity_key)}">Open</button>
       </div>
     </article>
@@ -3774,12 +3384,12 @@ function renderJournalCard(record, { showWebsite = false } = {}) {
         </div>
         ${
           showWebsite && website
-            ? `<div class="result-links"><a class="result-link" href="${escapeHtml(website)}" target="_blank" rel="noopener noreferrer">Journal website</a></div>`
+            ? `<div class="result-links">${externalLinkHtml(website, "Journal website", { className: "result-link" })}</div>`
             : ""
         }
       </div>
       <div class="result-actions">
-        <div class="muted-line">Sorted by latest journal update</div>
+        <div class="muted-line">Ranked by search relevance, with recency as a final tie-breaker</div>
         <button class="result-action" data-kind="journal" data-entity-type="journal" data-entity-key="${escapeHtml(`${record.id}`)}">Open</button>
       </div>
     </article>
@@ -4454,17 +4064,17 @@ function renderDetailLinks(payload) {
   if (payload.entity_type === "journal") {
     const links = [];
     if (payload.journalWebsite) {
-      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`);
+      links.push(externalLinkHtml(payload.journalWebsite, "Journal website", { className: "detail-title-link" }));
     }
     return links.join("");
   }
   if (payload.entity_type === "article") {
     const links = [];
     if (payload.doiUrl) {
-      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.doiUrl)}" target="_blank" rel="noopener noreferrer">Open DOI</a>`);
+      links.push(externalLinkHtml(payload.doiUrl, "Open DOI", { className: "detail-title-link" }));
     }
     if (payload.fulltextUrl) {
-      links.push(`<a class="detail-title-link" href="${escapeHtml(payload.fulltextUrl)}" target="_blank" rel="noopener noreferrer">Open full text</a>`);
+      links.push(externalLinkHtml(payload.fulltextUrl, "Open full text", { className: "detail-title-link" }));
     }
     return links.join("");
   }
@@ -4484,7 +4094,7 @@ function renderMatchingContext(payload) {
       <div class="tags-wrap">
         ${(payload.matchingContext.matchedTerms || []).map((term) => `<span class="tag-item">${escapeHtml(term)}</span>`).join("")}
       </div>
-      ${payload.authorGuidelinesUrl ? `<p><strong>Author Guidelines:</strong> <a class="inline-link" href="${escapeHtml(payload.authorGuidelinesUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.authorGuidelinesUrl)}</a></p>` : ""}
+      ${payload.authorGuidelinesUrl ? `<p><strong>Author Guidelines:</strong> ${externalLinkHtml(payload.authorGuidelinesUrl, payload.authorGuidelinesUrl)}</p>` : ""}
     </section>
   `;
 }
@@ -4624,10 +4234,10 @@ function renderArticleDashboard(payload) {
   const topLine = [payload.year, payload.volumeIssue, payload.pages ? `Pages ${payload.pages}` : ""].filter(Boolean).join(" • ");
   const actionLinks = [
     payload.doiUrl
-      ? `<a class="detail-title-link" href="${escapeHtml(payload.doiUrl)}" target="_blank" rel="noopener noreferrer">Open DOI</a>`
+      ? externalLinkHtml(payload.doiUrl, "Open DOI", { className: "detail-title-link" })
       : "",
     payload.fulltextUrl
-      ? `<a class="detail-title-link" href="${escapeHtml(payload.fulltextUrl)}" target="_blank" rel="noopener noreferrer">Read online</a>`
+      ? externalLinkHtml(payload.fulltextUrl, "Read online", { className: "detail-title-link" })
       : "",
     payload.journalEntityKey
       ? `<a class="detail-title-link" href="${escapeHtml(standaloneEntityHref("journal", payload.journalEntityKey))}" ${articleJournalDataAttr}>Open journal detail</a>`
@@ -4638,7 +4248,7 @@ function renderArticleDashboard(payload) {
       ? `<a class="detail-title-link" href="${escapeHtml(mainSearchHref(payload.journalPublisher))}">Search publisher</a>`
       : "",
     payload.journalWebsite
-      ? `<a class="detail-title-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">Journal website</a>`
+      ? externalLinkHtml(payload.journalWebsite, "Journal website", { className: "detail-title-link" })
       : "",
   ].filter(Boolean).join("");
 
@@ -4681,7 +4291,7 @@ function renderArticleDashboard(payload) {
             <h3>Article metadata</h3>
           </div>
           ${renderArticleInfoRows([
-            { label: "DOI", value: payload.doiUrl ? `<a class="inline-link" href="${escapeHtml(payload.doiUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.doi || payload.doiUrl)}</a>` : payload.doi || "", html: true },
+            { label: "DOI", value: payload.doiUrl ? externalLinkHtml(payload.doiUrl, payload.doi || payload.doiUrl) : payload.doi || "", html: true },
             { label: "Publication year", value: payload.year || "" },
             { label: "Volume and issue", value: payload.volumeIssue || "" },
             { label: "Pages", value: payload.pages || "" },
@@ -4719,7 +4329,7 @@ function renderArticleDashboard(payload) {
             { label: "Country", value: countryLink || payload.journalCountry || "", html: Boolean(countryLink) },
             { label: "ISSN", value: renderIssnLinks(payload.journalIssns, { className: "inline-link", emptyText: "" }), html: true },
             { label: "Languages", value: payload.journalLanguages.join(", ") || "" },
-            { label: "Journal website", value: payload.journalWebsite ? `<a class="inline-link" href="${escapeHtml(payload.journalWebsite)}" target="_blank" rel="noopener noreferrer">${escapeHtml(payload.journalWebsite)}</a>` : "", html: Boolean(payload.journalWebsite) },
+            { label: "Journal website", value: payload.journalWebsite ? externalLinkHtml(payload.journalWebsite, payload.journalWebsite) : "", html: Boolean(payload.journalWebsite) },
           ])}
           ${payload.journalSubjects.length ? `
             <div class="article-subsection">
@@ -5202,8 +4812,13 @@ async function runSearch(query, { updateUrl = true } = {}) {
     }),
   ]);
 
-  const journals = sortJournals(journalsPayload.results);
-  const articles = sortArticles(articlesPayload.results);
+  const rankedSearch = searchCore.rankSearchResults(
+    normalizedQuery,
+    journalsPayload.results || [],
+    articlesPayload.results || []
+  );
+  const journals = sortJournals(rankedSearch.journals);
+  const articles = sortArticles(rankedSearch.articles);
   const countries = deriveCountries(journals, articles);
   const publishers = derivePublishers(journals, articles);
 
@@ -5237,10 +4852,11 @@ async function warmMatchingModel() {
 async function runMatching(abstract, { updateUrl = true } = {}) {
   const cleanAbstract = `${abstract || ""}`.trim();
   if (cleanAbstract.length < MATCHING_MIN_ABSTRACT_LENGTH) {
-    throw new Error(`Provide a fuller English abstract of at least ${MATCHING_MIN_ABSTRACT_LENGTH} characters.`);
+    throw new Error(`Provide a fuller English or Indonesian abstract of at least ${MATCHING_MIN_ABSTRACT_LENGTH} characters.`);
   }
-  if (!looksLikeEnglishAbstract(cleanAbstract)) {
-    throw new Error("Journal Matching v1 currently supports English abstracts only.");
+  const detectedLanguage = searchCore.detectAbstractLanguage(cleanAbstract);
+  if (!detectedLanguage.supported) {
+    throw new Error("Journal Matching currently supports English and Indonesian abstracts only.");
   }
 
   const profile = buildAbstractProfile(cleanAbstract);
@@ -5256,12 +4872,13 @@ async function runMatching(abstract, { updateUrl = true } = {}) {
   state.matching.rankingLabel = "Searching live DOAJ candidates";
   state.matching.rerankToken = rerankToken;
   state.matching.selectedJournalKey = "";
+  state.matching.language = detectedLanguage.language;
 
   dom.matchingAbstract.value = cleanAbstract;
   dom.matchingMeta.textContent = "Searching live DOAJ candidates...";
   setMatchingState("Searching DOAJ journals and article-derived journal signals...", false);
   dom.matchingResults.innerHTML = "";
-  dom.matchingNote.textContent = "Journal Matching uses live DOAJ API results only. The submitted abstract stays in the browser.";
+  dom.matchingNote.textContent = `Journal Matching uses live DOAJ API results only. The submitted ${detectedLanguage.language === "id" ? "Indonesian" : "English"} abstract stays in the browser.`;
   showHomeView({ mode: "matching", showMatchingResults: true });
 
   if (updateUrl) {
@@ -5771,7 +5388,7 @@ async function renderRoute() {
     }
     if (!state.matching.submitted) {
       dom.matchingMeta.textContent = "No abstract submitted";
-      setMatchingState("Paste an English abstract and use Find journal to generate live DOAJ recommendations.", false);
+      setMatchingState("Paste an English or Indonesian abstract and use Find journal to generate live DOAJ recommendations.", false);
       dom.matchingResults.innerHTML = "";
       dom.dashboardContent.innerHTML = "";
       return;
@@ -5817,7 +5434,7 @@ async function renderRoute() {
   if (!query && route.view === "home") {
     showHomeView({ mode: "main-search", showResults: false });
     dom.resultsMeta.textContent = "No query yet";
-    setResultsState("Start with a live DOAJ query. This panel will separate matched countries, publishers, journals, and articles.", false);
+    setResultsState("Start with a live DOAJ query. This panel will separate matched countries, publishers, journals, and articles using relevance-first ranking.", false);
     dom.resultsGroups.innerHTML = "";
     dom.dashboardContent.innerHTML = "";
     return;
@@ -5981,7 +5598,7 @@ dom.searchForm.addEventListener("submit", async (event) => {
   dom.searchNote.textContent = "Searching DOAJ...";
   try {
     await runSearch(query, { updateUrl: true });
-    dom.searchNote.textContent = "Results are grouped into countries, publishers, journals, and articles. Select any result for detail.";
+    dom.searchNote.textContent = "Results are grouped into countries, publishers, journals, and articles, then ranked by relevance before recency.";
     showHomeView({ mode: "main-search", showResults: true });
   } catch (error) {
     dom.searchNote.textContent = error.message;
@@ -5995,7 +5612,7 @@ dom.matchingForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const abstract = dom.matchingAbstract.value.trim();
   if (!abstract) {
-    dom.matchingNote.textContent = "Paste an English abstract before running Journal Matching.";
+    dom.matchingNote.textContent = "Paste an English or Indonesian abstract before running Journal Matching.";
     return;
   }
   dom.matchingNote.textContent = "Searching live DOAJ candidates...";

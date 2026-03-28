@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-03-28T11:32:12.765Z",
+  "source": "live_doaj",
+  "semantic_available": false,
+  "semantic_fallback_count": 5,
+  "thresholds": {
+    "hit_at_1": 0.5,
+    "hit_at_3": 0.65,
+    "hit_at_5": 0.8
+  },
+  "overall": {
+    "total_cases": 5,
+    "hit_at_1": 0.8,
+    "hit_at_3": 0.8,
+    "hit_at_5": 0.8,
+    "mrr": 0.8
+  },
+  "english": {
+    "total_cases": 3,
+    "hit_at_1": 0.6667,
+    "hit_at_3": 0.6667,
+    "hit_at_5": 0.6667,
+    "mrr": 0.6667
+  },
+  "indonesian": {
+    "total_cases": 2,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "hit_at_5": 1,
+    "mrr": 1
+  },
+  "failures": [
+    {
+      "id": "matching_en_cash_waqf_sukuk",
+      "language": "en",
+      "rank": null,
+      "top_results": [
+        "1. Journal of Islamic Monetary Economics and Finance | Bank Indonesia | score=23.15 | themes=cash waqf, cash waqf linked, cash, sukuk",
+        "2. Beni-Suef University International Journal of Humanities and Social Sciences | Beni-Suef University | score=17.95 | themes=affecting cash, cash, affecting, analysis",
+        "3. Acta Montanistica Slovaca | Technical University of Kosice | score=17.60 | themes=affecting cash, cash, recovery, affecting",
+        "4. E3S Web of Conferences | EDP Sciences | score=15.40 | themes=affecting cash, cash, affecting, analysis",
+        "5. Al-Intaj | Universitas Islam Negeri Fatmawati Sukarno Bengkulu | score=13.65 | themes=cash waqf, cash, waqf, economic"
+      ]
+    }
+  ]
+}

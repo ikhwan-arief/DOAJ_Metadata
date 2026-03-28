@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-03-28T11:31:44.807Z",
+  "source": "live_doaj",
+  "thresholds": {
+    "exact_journal_top1": 1,
+    "exact_publisher_top1": 1,
+    "topical_hit_at_3": 0.8,
+    "topical_hit_at_5": 0.9
+  },
+  "overall": {
+    "total_cases": 13,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "hit_at_5": 1,
+    "mrr": 1
+  },
+  "exact_journal": {
+    "total_cases": 4,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "hit_at_5": 1,
+    "mrr": 1
+  },
+  "exact_publisher": {
+    "total_cases": 3,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "hit_at_5": 1,
+    "mrr": 1
+  },
+  "topical": {
+    "total_cases": 6,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "hit_at_5": 1,
+    "mrr": 1
+  },
+  "failures": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "doaj-metadata-dashboard-frontend-quality",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests-js/*.test.js",
+    "benchmark:search": "node scripts/run_search_quality_benchmark.mjs",
+    "benchmark:matching": "node scripts/run_matching_quality_benchmark.mjs",
+    "benchmark:quality": "npm run benchmark:search && npm run benchmark:matching"
+  }
+}

@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none'; script-src 'self' 'wasm-unsafe-eval' https://cdn.plot.ly https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self' https://doaj.org https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://hf.co https://*.hf.co; worker-src 'self' blob:; media-src 'self' data: blob:; manifest-src 'self'; upgrade-insecure-requests"
+    >
     <title>DOAJ Metadata Intelligence Dashboard</title>
     <meta
       name="description"
@@ -17,8 +22,18 @@
       rel="stylesheet"
     >
     <link rel="stylesheet" href="./styles.css?v=20260325k">
-    <script defer src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+    <script
+      defer
+      src="https://cdn.plot.ly/plotly-2.26.0.min.js"
+      integrity="sha384-xuh4dD2xC9BZ4qOrUrLt8psbgevXF2v+K+FrXxV4MlJHnWKgnaKoh74vd/6Ik8uF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"
+      integrity="sha384-Mx5lkUEQPM1pOJCwFtUICyX45KNojXbkWdYhkKUKsbv391mavbfoAmONbzkgYPzR"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./app.js?v=20260325k"></script>
   </head>
   <body>
@@ -61,7 +76,7 @@
               <button type="submit">Search</button>
             </div>
             <p class="search-note" id="search-note">
-              Results are grouped into countries, publishers, journals, and articles. Select any result for detail.
+              Results are grouped into countries, publishers, journals, and articles, then ranked by relevance before recency.
             </p>
           </form>
         </section>
@@ -71,13 +86,13 @@
             <div>
               <h1>Journal matching for manuscript abstracts.</h1>
               <p>
-                Paste an English abstract, then find DOAJ journals whose scope, subjects, and article themes
+                Paste an English or Indonesian abstract, then find DOAJ journals whose scope, subjects, and article themes
                 most closely align with the manuscript.
               </p>
             </div>
           </div>
           <form id="matching-form" class="search-form matching-form">
-            <label class="search-label" for="matching-abstract">Paste an English abstract</label>
+            <label class="search-label" for="matching-abstract">Paste an English or Indonesian abstract</label>
             <textarea
               id="matching-abstract"
               name="abstract"
@@ -147,7 +162,7 @@
             <span class="section-meta" id="matching-meta">No abstract submitted</span>
           </div>
           <div id="matching-state" class="empty-state">
-            Paste an English abstract and use Find journal to generate live DOAJ recommendations.
+            Paste an English or Indonesian abstract and use Find journal to generate live DOAJ recommendations.
           </div>
           <div id="matching-results" class="matching-results"></div>
         </section>

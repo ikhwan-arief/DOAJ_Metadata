@@ -1,0 +1,136 @@
+[
+  {
+    "id": "journal_exact_plos_one",
+    "query": "PLOS ONE",
+    "entity_type": "journal",
+    "expected": {
+      "title": "PLoS ONE",
+      "publisher": "Public Library of Science (PLoS)"
+    },
+    "match_mode": "exact",
+    "notes": "Exact journal title query should rank the target journal at top-1."
+  },
+  {
+    "id": "journal_exact_bmj_open_gastroenterology",
+    "query": "BMJ Open Gastroenterology",
+    "entity_type": "journal",
+    "expected": {
+      "title": "BMJ Open Gastroenterology",
+      "publisher": "BMJ Publishing Group"
+    },
+    "match_mode": "exact",
+    "notes": "Exact title should outrank fresher sibling journals from the same publisher."
+  },
+  {
+    "id": "journal_exact_frontiers_soft_matter",
+    "query": "Frontiers in Soft Matter",
+    "entity_type": "journal",
+    "expected": {
+      "title": "Frontiers in Soft Matter",
+      "publisher": "Frontiers Media S.A."
+    },
+    "match_mode": "exact",
+    "notes": "Exact title query against a dense publisher family."
+  },
+  {
+    "id": "journal_exact_gmijb",
+    "query": "Gadjah Mada International Journal of Business",
+    "entity_type": "journal",
+    "expected": {
+      "title": "Gadjah Mada International Journal of Business",
+      "publisher": "Universitas Gadjah Mada"
+    },
+    "match_mode": "exact",
+    "notes": "Exact institutional journal title should stay top-1."
+  },
+  {
+    "id": "publisher_exact_bmc",
+    "query": "BMC",
+    "entity_type": "publisher",
+    "expected": {
+      "title": "BMC"
+    },
+    "match_mode": "exact",
+    "notes": "Publisher grouping should consolidate journal/article evidence for BMC."
+  },
+  {
+    "id": "publisher_exact_bmj",
+    "query": "BMJ Publishing Group",
+    "entity_type": "publisher",
+    "expected": {
+      "title": "BMJ Publishing Group"
+    },
+    "match_mode": "exact",
+    "notes": "Exact publisher query should rank the BMJ group first."
+  },
+  {
+    "id": "publisher_exact_frontiers",
+    "query": "Frontiers Media S.A.",
+    "entity_type": "publisher",
+    "expected": {
+      "title": "Frontiers Media S.A."
+    },
+    "match_mode": "exact",
+    "notes": "Exact publisher query should rank the Frontiers group first."
+  },
+  {
+    "id": "topic_food_safety_indonesia",
+    "query": "food safety Indonesia",
+    "entity_type": "journal",
+    "expected": {
+      "title": "Jurnal Teknologi dan Industri Pertanian Indonesia"
+    },
+    "match_mode": "contains",
+    "notes": "Topic query should return an Indonesia food-safety-related journal in the top results."
+  },
+  {
+    "id": "topic_machine_learning_healthcare",
+    "query": "machine learning healthcare",
+    "entity_type": "journal",
+    "expected": {
+      "title": "Intelligence-Based Medicine"
+    },
+    "match_mode": "contains",
+    "notes": "Topic query should prioritize a healthcare machine-learning journal."
+  },
+  {
+    "id": "article_exact_reaim_food_safety",
+    "query": "Using the RE-AIM framework to evaluate safe food village development programme through the food safety movement in village in the Special Region of Yogyakarta, Indonesia",
+    "entity_type": "article",
+    "expected": {
+      "title": "Using the RE-AIM framework to evaluate safe food village development programme through the food safety movement in village in the Special Region of Yogyakarta, Indonesia"
+    },
+    "match_mode": "exact",
+    "notes": "Exact article title should rank top-1."
+  },
+  {
+    "id": "article_exact_shariah_indices",
+    "query": "GMM dependency model for Shariah and underlying indices of India during Covid-19 period",
+    "entity_type": "article",
+    "expected": {
+      "title": "GMM dependency model for Shariah and underlying indices of India during Covid-19 period"
+    },
+    "match_mode": "exact",
+    "notes": "Exact article title with finance terminology should rank top-1."
+  },
+  {
+    "id": "article_exact_behavior_optogenetic",
+    "query": "Behavior Responses to Chemical and Optogenetic Stimuli in Drosophila Larvae",
+    "entity_type": "article",
+    "expected": {
+      "title": "Behavior Responses to Chemical and Optogenetic Stimuli in Drosophila Larvae"
+    },
+    "match_mode": "exact",
+    "notes": "Exact behavioral neuroscience article title should rank top-1."
+  },
+  {
+    "id": "article_exact_principle_3rs",
+    "query": "The principle of the 3Rs between aspiration and reality",
+    "entity_type": "article",
+    "expected": {
+      "title": "The principle of the 3Rs between aspiration and reality"
+    },
+    "match_mode": "exact",
+    "notes": "Exact Frontiers article title should rank top-1."
+  }
+]
