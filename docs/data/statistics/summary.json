@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-29T12:31:49.081277+00:00",
+  "generated_at": "2026-03-29T18:27:42.992377+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22717,
-  "article_total": 12532949,
+  "journal_total": 22714,
+  "article_total": 12523573,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22717
+      "value": 22714
     },
     {
       "label": "Countries",
-      "value": 140
+      "value": 139
     },
     {
       "label": "Article records",
-      "value": 12532949,
+      "value": 12523573,
       "detail": "Global DOAJ article total"
     },
     {
@@ -164,7 +164,6 @@
       "UG",
       "US",
       "UY",
-      "UZ",
       "VE",
       "VN",
       "XK",
@@ -854,11 +853,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14362
+          "value": 14360
         },
         {
           "name": "Yes",
-          "value": 8355
+          "value": 8354
         }
       ]
     },
@@ -868,7 +867,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14208
+          "value": 14205
         },
         {
           "name": "No",
@@ -882,7 +881,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2651
+          "value": 2650
         },
         {
           "name": "GB",
@@ -906,7 +905,7 @@
         },
         {
           "name": "PL",
-          "value": 968
+          "value": 967
         },
         {
           "name": "CH",
@@ -928,11 +927,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10304
+          "value": 10303
         },
         {
           "name": "Asia",
-          "value": 6553
+          "value": 6551
         },
         {
           "name": "South America",
@@ -958,7 +957,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 18968
+          "value": 18965
         },
         {
           "name": "ES",
@@ -978,7 +977,7 @@
         },
         {
           "name": "RU",
-          "value": 957
+          "value": 956
         },
         {
           "name": "IT",
@@ -1012,11 +1011,11 @@
         },
         {
           "name": "Education",
-          "value": 837
+          "value": 836
         },
         {
           "name": "Social sciences (General)",
-          "value": 689
+          "value": 688
         },
         {
           "name": "Education (General)",
@@ -1050,11 +1049,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11712
+          "value": 11711
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5077
+          "value": 5076
         },
         {
           "name": "CC BY-NC",
@@ -1066,7 +1065,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 1963
+          "value": 1962
         },
         {
           "name": "CC BY-ND",
@@ -1092,7 +1091,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14503
+          "value": 14500
         },
         {
           "name": "Anonymous peer review",
@@ -1104,7 +1103,7 @@
         },
         {
           "name": "Editorial review",
-          "value": 420
+          "value": 419
         },
         {
           "name": "Open peer review",
@@ -1118,7 +1117,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 18965
+          "value": 18962
         },
         {
           "name": "Handles",
@@ -1698,7 +1697,7 @@
             111,
             134,
             116,
-            149,
+            148,
             95,
             186,
             173,
@@ -1724,7 +1723,7 @@
             127,
             148,
             141,
-            149,
+            148,
             146,
             195,
             191,
@@ -1748,7 +1747,7 @@
             125,
             112,
             162,
-            144,
+            143,
             141,
             159,
             168,
@@ -1783,7 +1782,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2651
+          "value": 2650
         },
         {
           "name": "GB",
@@ -1807,7 +1806,7 @@
         },
         {
           "name": "PL",
-          "value": 968
+          "value": 967
         },
         {
           "name": "CH",
@@ -2274,10 +2273,6 @@
           "value": 2
         },
         {
-          "name": "UZ",
-          "value": 1
-        },
-        {
           "name": "XK",
           "value": 1
         },
@@ -2345,7 +2340,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-03-29T12:31:47.721724+00:00",
+    "fetched_at": "2026-03-29T18:27:41.619200+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
