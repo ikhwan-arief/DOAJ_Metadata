@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-03T04:59:18.267535+00:00",
+  "generated_at": "2026-04-03T10:04:03.908645+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22735,
-  "article_total": 12561099,
+  "article_total": 12562011,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12561099,
+      "value": 12562011,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14518
+          "value": 14519
         },
         {
           "name": "Anonymous peer review",
-          "value": 6310
+          "value": 6309
         },
         {
           "name": "Peer review",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1515
+          "value": 1516
         }
       ]
     },
@@ -2347,10 +2347,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-03T04:59:16.962223+00:00",
+    "fetched_at": "2026-04-03T10:04:02.523967+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 35,
+      "Frankfurter API": 17
     },
     "supported_currencies": [
       "EUR",
