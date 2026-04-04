@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-03T21:24:19.409155+00:00",
+  "generated_at": "2026-04-04T01:11:19.003100+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22740,
-  "article_total": 12562546,
+  "journal_total": 22741,
+  "article_total": 12562704,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22740
+      "value": 22741
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12562546,
+      "value": 12562704,
       "detail": "Global DOAJ article total"
     },
     {
@@ -858,7 +858,7 @@
         },
         {
           "name": "Yes",
-          "value": 8371
+          "value": 8372
         }
       ]
     },
@@ -872,7 +872,7 @@
         },
         {
           "name": "No",
-          "value": 8508
+          "value": 8509
         }
       ]
     },
@@ -886,7 +886,7 @@
         },
         {
           "name": "GB",
-          "value": 2273
+          "value": 2274
         },
         {
           "name": "BR",
@@ -928,7 +928,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10320
+          "value": 10321
         },
         {
           "name": "Asia",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 18995
+          "value": 18996
         },
         {
           "name": "ES",
@@ -1004,7 +1004,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1119
+          "value": 1120
         },
         {
           "name": "Social Sciences",
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11728
+          "value": 11729
         },
         {
           "name": "CC BY-NC-ND",
@@ -1058,7 +1058,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 4988
+          "value": 4989
         },
         {
           "name": "CC BY-NC-SA",
@@ -1096,7 +1096,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6308
+          "value": 6309
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 18991
+          "value": 18992
         },
         {
           "name": "Handles",
@@ -1144,11 +1144,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4539
+          "value": 4540
         },
         {
           "name": "Portico",
-          "value": 4318
+          "value": 4319
         },
         {
           "name": "LOCKSS",
@@ -1190,7 +1190,7 @@
         },
         {
           "name": "Taylor & Francis Group",
-          "value": 238
+          "value": 239
         },
         {
           "name": "Frontiers Media S.A.",
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            17
+            18
           ]
         }
       ]
@@ -1789,7 +1789,7 @@
         },
         {
           "name": "GB",
-          "value": 2273
+          "value": 2274
         },
         {
           "name": "BR",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-03T21:24:18.099253+00:00",
+    "fetched_at": "2026-04-04T01:11:17.683042+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
