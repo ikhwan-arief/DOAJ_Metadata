@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-06T15:38:09.702366+00:00",
+  "generated_at": "2026-04-06T18:42:21.785056+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22766,
-  "article_total": 12571422,
+  "journal_total": 22767,
+  "article_total": 12571716,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22766
+      "value": 22767
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12571422,
+      "value": 12571716,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,7 +854,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14381
+          "value": 14382
         },
         {
           "name": "Yes",
@@ -872,7 +872,7 @@
         },
         {
           "name": "No",
-          "value": 8517
+          "value": 8518
         }
       ]
     },
@@ -932,7 +932,7 @@
         },
         {
           "name": "Asia",
-          "value": 6586
+          "value": 6587
         },
         {
           "name": "South America",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19020
+          "value": 19021
         },
         {
           "name": "ES",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 556
+          "value": 557
         },
         {
           "name": "Business",
@@ -1054,7 +1054,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5089
+          "value": 5090
         },
         {
           "name": "CC BY-NC",
@@ -1092,7 +1092,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14546
+          "value": 14547
         },
         {
           "name": "Anonymous peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19017
+          "value": 19018
         },
         {
           "name": "Handles",
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            44
+            45
           ]
         }
       ]
@@ -1888,12 +1888,12 @@
           "value": 186
         },
         {
-          "name": "ZA",
+          "name": "KR",
           "value": 183
         },
         {
-          "name": "KR",
-          "value": 182
+          "name": "ZA",
+          "value": 183
         },
         {
           "name": "IQ",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-06T15:38:08.231391+00:00",
+    "fetched_at": "2026-04-06T18:42:20.567170+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
