@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-07T01:18:46.326184+00:00",
+  "generated_at": "2026-04-07T05:03:43.711922+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22767,
-  "article_total": 12572246,
+  "journal_total": 22773,
+  "article_total": 12572994,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22767
+      "value": 22773
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12572246,
+      "value": 12572994,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14380
+          "value": 14383
         },
         {
           "name": "Yes",
-          "value": 8387
+          "value": 8390
         }
       ]
     },
@@ -868,11 +868,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14249
+          "value": 14254
         },
         {
           "name": "No",
-          "value": 8518
+          "value": 8519
         }
       ]
     },
@@ -882,7 +882,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2659
+          "value": 2665
         },
         {
           "name": "GB",
@@ -932,7 +932,7 @@
         },
         {
           "name": "Asia",
-          "value": 6588
+          "value": 6594
         },
         {
           "name": "South America",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19021
+          "value": 19027
         },
         {
           "name": "ES",
@@ -974,7 +974,7 @@
         },
         {
           "name": "ID",
-          "value": 1796
+          "value": 1799
         },
         {
           "name": "RU",
@@ -1012,7 +1012,7 @@
         },
         {
           "name": "Education",
-          "value": 837
+          "value": 838
         },
         {
           "name": "Social sciences (General)",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 649
+          "value": 650
         },
         {
           "name": "Medicine (General)",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 557
+          "value": 558
         },
         {
           "name": "Business",
@@ -1062,11 +1062,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2113
+          "value": 2114
         },
         {
           "name": "CC BY-SA",
-          "value": 1970
+          "value": 1975
         },
         {
           "name": "CC BY-ND",
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14546
+          "value": 14551
         },
         {
           "name": "Anonymous peer review",
-          "value": 6312
+          "value": 6313
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19018
+          "value": 19024
         },
         {
           "name": "Handles",
@@ -1152,7 +1152,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1858
+          "value": 1860
         },
         {
           "name": "PMC",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1518
+          "value": 1520
         }
       ]
     },
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            47
+            53
           ]
         }
       ]
@@ -1785,7 +1785,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2659
+          "value": 2665
         },
         {
           "name": "GB",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-07T01:18:45.019746+00:00",
+    "fetched_at": "2026-04-07T05:03:42.350350+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
