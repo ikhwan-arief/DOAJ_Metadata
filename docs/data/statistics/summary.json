@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-09T07:10:49.568517+00:00",
+  "generated_at": "2026-04-09T10:03:20.095907+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22784,
-  "article_total": 12581940,
+  "article_total": 12582769,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12581940,
+      "value": 12582769,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1126,7 +1126,7 @@
         },
         {
           "name": "ARK",
-          "value": 61
+          "value": 62
         },
         {
           "name": "URN",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-09T07:10:48.126873+00:00",
+    "fetched_at": "2026-04-09T10:03:18.764260+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
