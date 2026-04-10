@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-10T12:44:22.528790+00:00",
+  "generated_at": "2026-04-10T15:41:48.661452+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22793,
-  "article_total": 12587923,
+  "journal_total": 22794,
+  "article_total": 12588599,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22793
+      "value": 22794
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12587923,
+      "value": 12588599,
       "detail": "Global DOAJ article total"
     },
     {
@@ -858,7 +858,7 @@
         },
         {
           "name": "Yes",
-          "value": 8393
+          "value": 8394
         }
       ]
     },
@@ -868,11 +868,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14274
+          "value": 14277
         },
         {
           "name": "No",
-          "value": 8519
+          "value": 8517
         }
       ]
     },
@@ -890,7 +890,7 @@
         },
         {
           "name": "BR",
-          "value": 1412
+          "value": 1413
         },
         {
           "name": "US",
@@ -936,7 +936,7 @@
         },
         {
           "name": "South America",
-          "value": 2838
+          "value": 2839
         },
         {
           "name": "North America",
@@ -966,7 +966,7 @@
         },
         {
           "name": "PT",
-          "value": 2299
+          "value": 2300
         },
         {
           "name": "FR",
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11754
+          "value": 11755
         },
         {
           "name": "CC BY-NC-ND",
@@ -1092,7 +1092,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14566
+          "value": 14567
         },
         {
           "name": "Anonymous peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19043
+          "value": 19044
         },
         {
           "name": "Handles",
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            76
+            77
           ]
         }
       ]
@@ -1793,7 +1793,7 @@
         },
         {
           "name": "BR",
-          "value": 1412
+          "value": 1413
         },
         {
           "name": "US",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-10T12:44:21.178728+00:00",
+    "fetched_at": "2026-04-10T15:41:47.268907+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
