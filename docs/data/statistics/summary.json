@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-12T07:03:25.339875+00:00",
+  "generated_at": "2026-04-12T09:37:16.778678+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22794,
-  "article_total": 12592895,
+  "journal_total": 22796,
+  "article_total": 12592972,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22794
+      "value": 22796
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12592895,
+      "value": 12592972,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,7 +854,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14400
+          "value": 14402
         },
         {
           "name": "Yes",
@@ -868,7 +868,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14277
+          "value": 14279
         },
         {
           "name": "No",
@@ -944,7 +944,7 @@
         },
         {
           "name": "Africa",
-          "value": 834
+          "value": 836
         },
         {
           "name": "Oceania",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19046
+          "value": 19048
         },
         {
           "name": "ES",
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11755
+          "value": 11756
         },
         {
           "name": "CC BY-NC-ND",
@@ -1058,7 +1058,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 4993
+          "value": 4994
         },
         {
           "name": "CC BY-NC-SA",
@@ -1092,7 +1092,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14567
+          "value": 14569
         },
         {
           "name": "Anonymous peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19044
+          "value": 19046
         },
         {
           "name": "Handles",
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            77
+            79
           ]
         }
       ]
@@ -2077,7 +2077,7 @@
         },
         {
           "name": "ET",
-          "value": 19
+          "value": 20
         },
         {
           "name": "SA",
@@ -2228,6 +2228,10 @@
           "value": 4
         },
         {
+          "name": "RW",
+          "value": 3
+        },
+        {
           "name": "LB",
           "value": 3
         },
@@ -2257,10 +2261,6 @@
         },
         {
           "name": "AZ",
-          "value": 2
-        },
-        {
-          "name": "RW",
           "value": 2
         },
         {
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-12T07:03:23.803221+00:00",
+    "fetched_at": "2026-04-12T09:37:15.582359+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
