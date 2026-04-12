@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-12T15:28:05.396252+00:00",
+  "generated_at": "2026-04-12T18:33:10.387710+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22797,
-  "article_total": 12597081,
+  "journal_total": 22798,
+  "article_total": 12597147,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22797
+      "value": 22798
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12597081,
+      "value": 12597147,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,7 +854,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14403
+          "value": 14404
         },
         {
           "name": "Yes",
@@ -872,7 +872,7 @@
         },
         {
           "name": "No",
-          "value": 8517
+          "value": 8518
         }
       ]
     },
@@ -894,7 +894,7 @@
         },
         {
           "name": "US",
-          "value": 1292
+          "value": 1293
         },
         {
           "name": "IR",
@@ -940,7 +940,7 @@
         },
         {
           "name": "North America",
-          "value": 2014
+          "value": 2015
         },
         {
           "name": "Africa",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19049
+          "value": 19050
         },
         {
           "name": "ES",
@@ -1054,7 +1054,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5091
+          "value": 5092
         },
         {
           "name": "CC BY-NC",
@@ -1096,7 +1096,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6319
+          "value": 6320
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19047
+          "value": 19048
         },
         {
           "name": "Handles",
@@ -1144,11 +1144,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4544
+          "value": 4545
         },
         {
           "name": "Portico",
-          "value": 4327
+          "value": 4328
         },
         {
           "name": "LOCKSS",
@@ -1774,7 +1774,7 @@
             210,
             169,
             174,
-            80
+            81
           ]
         }
       ]
@@ -1797,7 +1797,7 @@
         },
         {
           "name": "US",
-          "value": 1292
+          "value": 1293
         },
         {
           "name": "IR",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-12T15:28:03.936987+00:00",
+    "fetched_at": "2026-04-12T18:33:09.050441+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
