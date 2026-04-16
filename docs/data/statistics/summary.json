@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-15T18:59:53.998276+00:00",
+  "generated_at": "2026-04-16T01:27:49.438933+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22813,
-  "article_total": 12613242,
+  "article_total": 12613682,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12613242,
+      "value": 12613682,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11765
+          "value": 11766
         },
         {
           "name": "CC BY-NC-ND",
@@ -1058,7 +1058,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 4999
+          "value": 4998
         },
         {
           "name": "CC BY-NC-SA",
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14588
+          "value": 14589
         },
         {
           "name": "Anonymous peer review",
-          "value": 6321
+          "value": 6320
         },
         {
           "name": "Peer review",
@@ -1683,7 +1683,7 @@
             140,
             131,
             157,
-            107,
+            106,
             117,
             109,
             94,
@@ -1774,7 +1774,7 @@
             209,
             169,
             174,
-            106
+            107
           ]
         }
       ]
@@ -1933,7 +1933,7 @@
         },
         {
           "name": "HU",
-          "value": 109
+          "value": 108
         },
         {
           "name": "BG",
@@ -1977,7 +1977,7 @@
         },
         {
           "name": "SK",
-          "value": 58
+          "value": 59
         },
         {
           "name": "BA",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-15T18:59:52.589274+00:00",
+    "fetched_at": "2026-04-16T01:27:48.197238+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
