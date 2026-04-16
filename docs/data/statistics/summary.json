@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-16T01:27:49.438933+00:00",
+  "generated_at": "2026-04-16T05:23:14.257685+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22813,
-  "article_total": 12613682,
+  "journal_total": 22814,
+  "article_total": 12614250,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22813
+      "value": 22814
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12613682,
+      "value": 12614250,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,7 +854,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14416
+          "value": 14417
         },
         {
           "name": "Yes",
@@ -868,7 +868,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14295
+          "value": 14296
         },
         {
           "name": "No",
@@ -928,7 +928,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10328
+          "value": 10329
         },
         {
           "name": "Asia",
@@ -958,7 +958,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19064
+          "value": 19065
         },
         {
           "name": "ES",
@@ -1040,7 +1040,7 @@
         },
         {
           "name": "Biology (General)",
-          "value": 469
+          "value": 470
         }
       ]
     },
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11766
+          "value": 11767
         },
         {
           "name": "CC BY-NC-ND",
@@ -1096,7 +1096,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6320
+          "value": 6321
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19065
+          "value": 19066
         },
         {
           "name": "Handles",
@@ -1774,7 +1774,7 @@
             209,
             169,
             174,
-            107
+            108
           ]
         }
       ]
@@ -1837,7 +1837,7 @@
         },
         {
           "name": "UA",
-          "value": 491
+          "value": 492
         },
         {
           "name": "CO",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-16T01:27:48.197238+00:00",
+    "fetched_at": "2026-04-16T05:23:13.018281+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
