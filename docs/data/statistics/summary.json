@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-17T18:43:06.981685+00:00",
+  "generated_at": "2026-04-17T21:33:25.774265+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22822,
-  "article_total": 12624519,
+  "journal_total": 22827,
+  "article_total": 12626881,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22822
+      "value": 22827
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12624519,
+      "value": 12626881,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14421
+          "value": 14425
         },
         {
           "name": "Yes",
-          "value": 8401
+          "value": 8402
         }
       ]
     },
@@ -868,11 +868,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14305
+          "value": 14309
         },
         {
           "name": "No",
-          "value": 8517
+          "value": 8518
         }
       ]
     },
@@ -906,7 +906,7 @@
         },
         {
           "name": "PL",
-          "value": 970
+          "value": 973
         },
         {
           "name": "CH",
@@ -928,11 +928,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10330
+          "value": 10333
         },
         {
           "name": "Asia",
-          "value": 6613
+          "value": 6615
         },
         {
           "name": "South America",
@@ -958,11 +958,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19073
+          "value": 19078
         },
         {
           "name": "ES",
-          "value": 4028
+          "value": 4029
         },
         {
           "name": "PT",
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Business",
-          "value": 498
+          "value": 499
         },
         {
           "name": "Biology (General)",
@@ -1050,11 +1050,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11773
+          "value": 11777
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5095
+          "value": 5096
         },
         {
           "name": "CC BY-NC",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 1976
+          "value": 1977
         },
         {
           "name": "CC BY-ND",
@@ -1092,11 +1092,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14598
+          "value": 14601
         },
         {
           "name": "Anonymous peer review",
-          "value": 6324
+          "value": 6326
         },
         {
           "name": "Peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19076
+          "value": 19081
         },
         {
           "name": "Handles",
@@ -1144,11 +1144,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4552
+          "value": 4553
         },
         {
           "name": "Portico",
-          "value": 4327
+          "value": 4328
         },
         {
           "name": "LOCKSS",
@@ -1774,7 +1774,7 @@
             209,
             169,
             174,
-            117
+            122
           ]
         }
       ]
@@ -1809,7 +1809,7 @@
         },
         {
           "name": "PL",
-          "value": 970
+          "value": 973
         },
         {
           "name": "CH",
@@ -1833,7 +1833,7 @@
         },
         {
           "name": "CN",
-          "value": 501
+          "value": 503
         },
         {
           "name": "UA",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-17T18:43:05.659631+00:00",
+    "fetched_at": "2026-04-17T21:33:24.447223+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
