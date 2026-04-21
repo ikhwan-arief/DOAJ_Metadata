@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-21T16:04:55.137397+00:00",
+  "generated_at": "2026-04-21T21:40:56.278322+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22850,
-  "article_total": 12671554,
+  "article_total": 12675826,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12671554,
+      "value": 12675826,
       "detail": "Global DOAJ article total"
     },
     {
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-21T16:04:53.974953+00:00",
+    "fetched_at": "2026-04-21T21:40:54.889943+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
