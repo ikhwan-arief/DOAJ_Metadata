@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-23T05:23:10.337875+00:00",
+  "generated_at": "2026-04-23T07:21:59.789733+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22857,
-  "article_total": 12687547,
+  "article_total": 12688365,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12687547,
+      "value": 12688365,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 63.2,
+      "value": 63.1,
       "detail": "Share of journals"
     }
   ],
@@ -854,11 +854,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14435
+          "value": 14434
         },
         {
           "name": "Yes",
-          "value": 8422
+          "value": 8423
         }
       ]
     },
@@ -886,7 +886,7 @@
         },
         {
           "name": "GB",
-          "value": 2272
+          "value": 2271
         },
         {
           "name": "BR",
@@ -894,7 +894,7 @@
         },
         {
           "name": "US",
-          "value": 1295
+          "value": 1296
         },
         {
           "name": "IR",
@@ -928,7 +928,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10344
+          "value": 10343
         },
         {
           "name": "Asia",
@@ -940,7 +940,7 @@
         },
         {
           "name": "North America",
-          "value": 2019
+          "value": 2020
         },
         {
           "name": "Africa",
@@ -1054,7 +1054,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5105
+          "value": 5104
         },
         {
           "name": "CC BY-NC",
@@ -1144,11 +1144,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4560
+          "value": 4561
         },
         {
           "name": "Portico",
-          "value": 4331
+          "value": 4332
         },
         {
           "name": "LOCKSS",
@@ -1174,7 +1174,7 @@
         },
         {
           "name": "Wiley",
-          "value": 472
+          "value": 473
         },
         {
           "name": "MDPI AG",
@@ -1789,7 +1789,7 @@
         },
         {
           "name": "GB",
-          "value": 2272
+          "value": 2271
         },
         {
           "name": "BR",
@@ -1797,7 +1797,7 @@
         },
         {
           "name": "US",
-          "value": 1295
+          "value": 1296
         },
         {
           "name": "IR",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-23T05:23:08.948861+00:00",
+    "fetched_at": "2026-04-23T07:21:58.340622+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
