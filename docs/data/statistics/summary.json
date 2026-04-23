@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-23T18:55:06.440020+00:00",
+  "generated_at": "2026-04-23T21:37:52.458854+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22858,
-  "article_total": 12690213,
+  "article_total": 12690335,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12690213,
+      "value": 12690335,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1008,7 +1008,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 941
+          "value": 942
         },
         {
           "name": "Education",
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Business",
-          "value": 499
+          "value": 498
         },
         {
           "name": "Biology (General)",
@@ -1144,7 +1144,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4561
+          "value": 4560
         },
         {
           "name": "Portico",
@@ -1152,7 +1152,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1868
+          "value": 1867
         },
         {
           "name": "PMC",
@@ -1609,7 +1609,7 @@
             11,
             29,
             21,
-            35,
+            34,
             23,
             47,
             25,
@@ -1774,7 +1774,7 @@
             209,
             169,
             174,
-            160
+            161
           ]
         }
       ]
@@ -1845,7 +1845,7 @@
         },
         {
           "name": "DE",
-          "value": 449
+          "value": 450
         },
         {
           "name": "IN",
@@ -1945,7 +1945,7 @@
         },
         {
           "name": "LT",
-          "value": 101
+          "value": 100
         },
         {
           "name": "SG",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-23T18:55:04.970883+00:00",
+    "fetched_at": "2026-04-23T21:37:51.247963+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
