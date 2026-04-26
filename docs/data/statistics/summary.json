@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-26T07:16:32.308123+00:00",
+  "generated_at": "2026-04-26T12:40:21.848079+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22864,
-  "article_total": 12697914,
+  "article_total": 12702074,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12697914,
+      "value": 12702074,
       "detail": "Global DOAJ article total"
     },
     {
@@ -868,11 +868,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14353
+          "value": 14354
         },
         {
           "name": "No",
-          "value": 8511
+          "value": 8510
         }
       ]
     },
@@ -962,7 +962,7 @@
         },
         {
           "name": "ES",
-          "value": 4043
+          "value": 4042
         },
         {
           "name": "PT",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19126
+          "value": 19127
         },
         {
           "name": "Handles",
@@ -1144,7 +1144,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4562
+          "value": 4563
         },
         {
           "name": "Portico",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-26T07:16:30.946786+00:00",
+    "fetched_at": "2026-04-26T12:40:20.548545+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
