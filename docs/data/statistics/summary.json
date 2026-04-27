@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-27T19:04:12.848662+00:00",
+  "generated_at": "2026-04-27T21:45:48.267217+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22864,
-  "article_total": 12716192,
+  "journal_total": 22865,
+  "article_total": 12716318,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22864
+      "value": 22865
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12716192,
+      "value": 12716318,
       "detail": "Global DOAJ article total"
     },
     {
@@ -854,7 +854,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14477
+          "value": 14478
         },
         {
           "name": "Yes",
@@ -868,7 +868,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14360
+          "value": 14361
         },
         {
           "name": "No",
@@ -890,7 +890,7 @@
         },
         {
           "name": "BR",
-          "value": 1411
+          "value": 1412
         },
         {
           "name": "US",
@@ -936,7 +936,7 @@
         },
         {
           "name": "South America",
-          "value": 2843
+          "value": 2844
         },
         {
           "name": "North America",
@@ -966,7 +966,7 @@
         },
         {
           "name": "PT",
-          "value": 2300
+          "value": 2301
         },
         {
           "name": "FR",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 559
+          "value": 560
         },
         {
           "name": "Business",
@@ -1050,7 +1050,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11786
+          "value": 11787
         },
         {
           "name": "CC BY-NC-ND",
@@ -1092,7 +1092,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14672
+          "value": 14673
         },
         {
           "name": "Anonymous peer review",
@@ -1118,7 +1118,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19135
+          "value": 19136
         },
         {
           "name": "Handles",
@@ -1774,7 +1774,7 @@
             209,
             169,
             174,
-            173
+            174
           ]
         }
       ]
@@ -1793,7 +1793,7 @@
         },
         {
           "name": "BR",
-          "value": 1411
+          "value": 1412
         },
         {
           "name": "US",
@@ -2347,7 +2347,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-27T19:04:11.521533+00:00",
+    "fetched_at": "2026-04-27T21:45:46.954794+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
