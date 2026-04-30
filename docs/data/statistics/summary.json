@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-29T19:08:07.671974+00:00",
+  "generated_at": "2026-04-30T01:53:12.600083+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22876,
-  "article_total": 12723127,
+  "article_total": 12724975,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12723127,
+      "value": 12724975,
       "detail": "Global DOAJ article total"
     },
     {
@@ -869,11 +869,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14374
+          "value": 14373
         },
         {
           "name": "No",
-          "value": 8502
+          "value": 8503
         }
       ]
     },
@@ -883,11 +883,11 @@
       "items": [
         {
           "name": "ID",
-          "value": 2679
+          "value": 2678
         },
         {
           "name": "GB",
-          "value": 2272
+          "value": 2273
         },
         {
           "name": "BR",
@@ -929,11 +929,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10352
+          "value": 10353
         },
         {
           "name": "Asia",
-          "value": 6636
+          "value": 6635
         },
         {
           "name": "South America",
@@ -975,7 +975,7 @@
         },
         {
           "name": "ID",
-          "value": 1809
+          "value": 1808
         },
         {
           "name": "RU",
@@ -1009,7 +1009,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 943
+          "value": 942
         },
         {
           "name": "Education",
@@ -1059,7 +1059,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5033
+          "value": 5034
         },
         {
           "name": "CC BY-NC-SA",
@@ -1093,11 +1093,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14681
+          "value": 14682
         },
         {
           "name": "Anonymous peer review",
-          "value": 6337
+          "value": 6336
         },
         {
           "name": "Peer review",
@@ -1145,11 +1145,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4568
+          "value": 4569
         },
         {
           "name": "Portico",
-          "value": 4381
+          "value": 4382
         },
         {
           "name": "LOCKSS",
@@ -1191,7 +1191,7 @@
         },
         {
           "name": "Taylor & Francis Group",
-          "value": 240
+          "value": 241
         },
         {
           "name": "Frontiers Media S.A.",
@@ -1736,7 +1736,7 @@
             143,
             210,
             137,
-            167,
+            166,
             114,
             193,
             138,
@@ -1775,7 +1775,7 @@
             209,
             169,
             174,
-            187
+            188
           ]
         }
       ]
@@ -1786,11 +1786,11 @@
       "items": [
         {
           "name": "ID",
-          "value": 2679
+          "value": 2678
         },
         {
           "name": "GB",
-          "value": 2272
+          "value": 2273
         },
         {
           "name": "BR",
@@ -2348,7 +2348,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-04-29T19:08:06.235758+00:00",
+    "fetched_at": "2026-04-30T01:53:11.170156+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
