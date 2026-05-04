@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-04T13:20:59.060416+00:00",
+  "generated_at": "2026-05-04T16:27:23.203464+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22886,
-  "article_total": 12747544,
+  "journal_total": 22885,
+  "article_total": 12747767,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22886
+      "value": 22885
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12747544,
+      "value": 12747767,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,7 +859,7 @@
         },
         {
           "name": "Yes",
-          "value": 8401
+          "value": 8400
         }
       ]
     },
@@ -869,7 +869,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14389
+          "value": 14388
         },
         {
           "name": "No",
@@ -929,7 +929,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10358
+          "value": 10357
         },
         {
           "name": "Asia",
@@ -959,7 +959,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19143
+          "value": 19142
         },
         {
           "name": "ES",
@@ -1041,7 +1041,7 @@
         },
         {
           "name": "Biology (General)",
-          "value": 472
+          "value": 471
         }
       ]
     },
@@ -1051,7 +1051,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11809
+          "value": 11808
         },
         {
           "name": "CC BY-NC-ND",
@@ -1101,7 +1101,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1859
+          "value": 1858
         },
         {
           "name": "Editorial review",
@@ -1119,7 +1119,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19162
+          "value": 19161
         },
         {
           "name": "Handles",
@@ -1145,11 +1145,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4571
+          "value": 4570
         },
         {
           "name": "Portico",
-          "value": 4385
+          "value": 4384
         },
         {
           "name": "LOCKSS",
@@ -1652,7 +1652,7 @@
             82,
             103,
             96,
-            122,
+            121,
             122,
             166,
             105,
@@ -1848,7 +1848,7 @@
         },
         {
           "name": "DE",
-          "value": 451
+          "value": 450
         },
         {
           "name": "IN",
@@ -2350,7 +2350,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-04T13:20:57.671200+00:00",
+    "fetched_at": "2026-05-04T16:27:21.905151+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
