@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-08T10:17:38.371911+00:00",
+  "generated_at": "2026-05-08T16:09:48.042064+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22890,
-  "article_total": 12762242,
+  "journal_total": 22889,
+  "article_total": 12762053,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22890
+      "value": 22889
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12762242,
+      "value": 12762053,
       "detail": "Global DOAJ article total"
     },
     {
@@ -855,7 +855,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14488
+          "value": 14487
         },
         {
           "name": "Yes",
@@ -869,7 +869,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14395
+          "value": 14394
         },
         {
           "name": "No",
@@ -891,7 +891,7 @@
         },
         {
           "name": "BR",
-          "value": 1410
+          "value": 1409
         },
         {
           "name": "US",
@@ -937,7 +937,7 @@
         },
         {
           "name": "South America",
-          "value": 2843
+          "value": 2842
         },
         {
           "name": "North America",
@@ -967,7 +967,7 @@
         },
         {
           "name": "PT",
-          "value": 2297
+          "value": 2296
         },
         {
           "name": "FR",
@@ -1063,7 +1063,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2125
+          "value": 2124
         },
         {
           "name": "CC BY-SA",
@@ -1101,7 +1101,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1857
+          "value": 1856
         },
         {
           "name": "Editorial review",
@@ -1680,7 +1680,7 @@
             209,
             143,
             159,
-            197,
+            196,
             158,
             140,
             131,
@@ -1796,7 +1796,7 @@
         },
         {
           "name": "BR",
-          "value": 1410
+          "value": 1409
         },
         {
           "name": "US",
@@ -2350,7 +2350,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-08T10:17:36.904497+00:00",
+    "fetched_at": "2026-05-08T16:09:46.703339+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
