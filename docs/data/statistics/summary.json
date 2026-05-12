@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-12T11:12:13.999528+00:00",
+  "generated_at": "2026-05-12T13:51:30.418023+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22904,
-  "article_total": 12771768,
+  "journal_total": 22903,
+  "article_total": 12774784,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22904
+      "value": 22903
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12771768,
+      "value": 12774784,
       "detail": "Global DOAJ article total"
     },
     {
@@ -856,7 +856,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14492
+          "value": 14491
         },
         {
           "name": "Yes",
@@ -870,7 +870,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14410
+          "value": 14409
         },
         {
           "name": "No",
@@ -916,7 +916,7 @@
         },
         {
           "name": "TR",
-          "value": 685
+          "value": 684
         },
         {
           "name": "RU",
@@ -934,7 +934,7 @@
         },
         {
           "name": "Asia",
-          "value": 6643
+          "value": 6642
         },
         {
           "name": "South America",
@@ -960,7 +960,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19162
+          "value": 19161
         },
         {
           "name": "ES",
@@ -972,7 +972,7 @@
         },
         {
           "name": "FR",
-          "value": 1851
+          "value": 1850
         },
         {
           "name": "ID",
@@ -988,7 +988,7 @@
         },
         {
           "name": "DE",
-          "value": 872
+          "value": 871
         },
         {
           "name": "FA",
@@ -1022,7 +1022,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 651
+          "value": 650
         },
         {
           "name": "Medicine (General)",
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5039
+          "value": 5038
         },
         {
           "name": "CC BY-NC-SA",
@@ -1094,7 +1094,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14706
+          "value": 14705
         },
         {
           "name": "Anonymous peer review",
@@ -1120,7 +1120,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19184
+          "value": 19183
         },
         {
           "name": "Handles",
@@ -1698,7 +1698,7 @@
             147,
             128,
             95,
-            110,
+            109,
             111,
             132,
             117,
@@ -1821,7 +1821,7 @@
         },
         {
           "name": "TR",
-          "value": 685
+          "value": 684
         },
         {
           "name": "RU",
@@ -2351,7 +2351,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-12T11:12:12.660421+00:00",
+    "fetched_at": "2026-05-12T13:51:29.033691+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
