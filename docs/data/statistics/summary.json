@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-13T19:30:27.627615+00:00",
+  "generated_at": "2026-05-13T22:04:48.301868+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22899,
-  "article_total": 12780307,
+  "journal_total": 22900,
+  "article_total": 12780374,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22899
+      "value": 22900
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12780307,
+      "value": 12780374,
       "detail": "Global DOAJ article total"
     },
     {
@@ -860,7 +860,7 @@
         },
         {
           "name": "Yes",
-          "value": 8414
+          "value": 8415
         }
       ]
     },
@@ -870,7 +870,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14409
+          "value": 14410
         },
         {
           "name": "No",
@@ -946,7 +946,7 @@
         },
         {
           "name": "Africa",
-          "value": 843
+          "value": 844
         },
         {
           "name": "Oceania",
@@ -960,7 +960,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19157
+          "value": 19158
         },
         {
           "name": "ES",
@@ -996,7 +996,7 @@
         },
         {
           "name": "AR",
-          "value": 604
+          "value": 605
         }
       ]
     },
@@ -1038,7 +1038,7 @@
         },
         {
           "name": "Business",
-          "value": 498
+          "value": 499
         },
         {
           "name": "Biology (General)",
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5039
+          "value": 5040
         },
         {
           "name": "CC BY-NC-SA",
@@ -1098,7 +1098,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6344
+          "value": 6345
         },
         {
           "name": "Peer review",
@@ -1120,7 +1120,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19180
+          "value": 19181
         },
         {
           "name": "Handles",
@@ -1778,7 +1778,7 @@
             169,
             172,
             198,
-            38
+            39
           ]
         }
       ]
@@ -1865,7 +1865,7 @@
         },
         {
           "name": "EG",
-          "value": 363
+          "value": 364
         },
         {
           "name": "RO",
@@ -2351,7 +2351,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-13T19:30:26.308172+00:00",
+    "fetched_at": "2026-05-13T22:04:46.980435+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
