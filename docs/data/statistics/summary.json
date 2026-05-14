@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-13T22:04:48.301868+00:00",
+  "generated_at": "2026-05-14T02:03:11.609180+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22900,
-  "article_total": 12780374,
+  "journal_total": 22904,
+  "article_total": 12780726,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22900
+      "value": 22904
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12780374,
+      "value": 12780726,
       "detail": "Global DOAJ article total"
     },
     {
@@ -856,11 +856,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14485
+          "value": 14487
         },
         {
           "name": "Yes",
-          "value": 8415
+          "value": 8417
         }
       ]
     },
@@ -870,11 +870,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14410
+          "value": 14413
         },
         {
           "name": "No",
-          "value": 8490
+          "value": 8491
         }
       ]
     },
@@ -884,7 +884,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2682
+          "value": 2686
         },
         {
           "name": "GB",
@@ -934,7 +934,7 @@
         },
         {
           "name": "Asia",
-          "value": 6641
+          "value": 6645
         },
         {
           "name": "South America",
@@ -960,7 +960,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19158
+          "value": 19162
         },
         {
           "name": "ES",
@@ -976,7 +976,7 @@
         },
         {
           "name": "ID",
-          "value": 1811
+          "value": 1813
         },
         {
           "name": "RU",
@@ -1052,7 +1052,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11813
+          "value": 11814
         },
         {
           "name": "CC BY-NC-ND",
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5040
+          "value": 5041
         },
         {
           "name": "CC BY-NC-SA",
@@ -1068,7 +1068,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 1995
+          "value": 1997
         },
         {
           "name": "CC BY-ND",
@@ -1094,11 +1094,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14706
+          "value": 14709
         },
         {
           "name": "Anonymous peer review",
-          "value": 6345
+          "value": 6346
         },
         {
           "name": "Peer review",
@@ -1120,7 +1120,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19181
+          "value": 19184
         },
         {
           "name": "Handles",
@@ -1146,7 +1146,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4585
+          "value": 4586
         },
         {
           "name": "Portico",
@@ -1154,11 +1154,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1900
+          "value": 1901
         },
         {
           "name": "PKP PN",
-          "value": 1581
+          "value": 1582
         },
         {
           "name": "PMC",
@@ -1778,7 +1778,7 @@
             169,
             172,
             198,
-            39
+            43
           ]
         }
       ]
@@ -1789,7 +1789,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2682
+          "value": 2686
         },
         {
           "name": "GB",
@@ -2351,7 +2351,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-13T22:04:46.980435+00:00",
+    "fetched_at": "2026-05-14T02:03:10.344845+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
