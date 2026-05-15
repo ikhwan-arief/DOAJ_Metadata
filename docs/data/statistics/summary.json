@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-15T02:01:36.845225+00:00",
+  "generated_at": "2026-05-15T11:13:45.533856+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22908,
-  "article_total": 12784425,
+  "journal_total": 22907,
+  "article_total": 12785746,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22908
+      "value": 22907
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12784425,
+      "value": 12785746,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 63.2,
+      "value": 63.3,
       "detail": "Share of journals"
     }
   ],
@@ -856,11 +856,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14487
+          "value": 14489
         },
         {
           "name": "Yes",
-          "value": 8421
+          "value": 8418
         }
       ]
     },
@@ -870,7 +870,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14414
+          "value": 14413
         },
         {
           "name": "No",
@@ -888,7 +888,7 @@
         },
         {
           "name": "GB",
-          "value": 2276
+          "value": 2277
         },
         {
           "name": "BR",
@@ -930,15 +930,15 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10372
+          "value": 10373
         },
         {
           "name": "Asia",
-          "value": 6646
+          "value": 6645
         },
         {
           "name": "South America",
-          "value": 2844
+          "value": 2843
         },
         {
           "name": "North America",
@@ -960,11 +960,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19165
+          "value": 19164
         },
         {
           "name": "ES",
-          "value": 4050
+          "value": 4049
         },
         {
           "name": "PT",
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5043
+          "value": 5042
         },
         {
           "name": "CC BY-NC-SA",
@@ -1102,7 +1102,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1850
+          "value": 1849
         },
         {
           "name": "Editorial review",
@@ -1188,7 +1188,7 @@
         },
         {
           "name": "Wolters Kluwer Medknow Publications",
-          "value": 249
+          "value": 248
         },
         {
           "name": "Taylor & Francis Group",
@@ -1659,7 +1659,7 @@
             104,
             60,
             79,
-            65,
+            64,
             55,
             45,
             81,
@@ -1793,7 +1793,7 @@
         },
         {
           "name": "GB",
-          "value": 2276
+          "value": 2277
         },
         {
           "name": "BR",
@@ -1853,7 +1853,7 @@
         },
         {
           "name": "IN",
-          "value": 417
+          "value": 416
         },
         {
           "name": "AR",
@@ -1885,7 +1885,7 @@
         },
         {
           "name": "CL",
-          "value": 196
+          "value": 195
         },
         {
           "name": "PK",
@@ -2351,7 +2351,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-15T02:01:35.496081+00:00",
+    "fetched_at": "2026-05-15T11:13:44.205041+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
