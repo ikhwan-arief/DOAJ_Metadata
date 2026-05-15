@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-14T22:00:51.234368+00:00",
+  "generated_at": "2026-05-15T02:01:36.845225+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22908,
-  "article_total": 12785065,
+  "article_total": 12784425,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12785065,
+      "value": 12784425,
       "detail": "Global DOAJ article total"
     },
     {
@@ -856,11 +856,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14485
+          "value": 14487
         },
         {
           "name": "Yes",
-          "value": 8423
+          "value": 8421
         }
       ]
     },
@@ -870,11 +870,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14415
+          "value": 14414
         },
         {
           "name": "No",
-          "value": 8493
+          "value": 8494
         }
       ]
     },
@@ -908,7 +908,7 @@
         },
         {
           "name": "PL",
-          "value": 980
+          "value": 981
         },
         {
           "name": "CH",
@@ -960,7 +960,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19166
+          "value": 19165
         },
         {
           "name": "ES",
@@ -1014,7 +1014,7 @@
         },
         {
           "name": "Education",
-          "value": 841
+          "value": 840
         },
         {
           "name": "Social sciences (General)",
@@ -1064,11 +1064,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2127
+          "value": 2126
         },
         {
           "name": "CC BY-SA",
-          "value": 1997
+          "value": 1998
         },
         {
           "name": "CC BY-ND",
@@ -1683,7 +1683,7 @@
             159,
             195,
             158,
-            140,
+            141,
             131,
             157,
             106,
@@ -1706,13 +1706,13 @@
             95,
             185,
             173,
-            208,
+            207,
             180,
             188,
             143,
             171,
             196,
-            162,
+            161,
             76,
             175,
             189,
@@ -1778,7 +1778,7 @@
             169,
             172,
             198,
-            48
+            49
           ]
         }
       ]
@@ -1813,7 +1813,7 @@
         },
         {
           "name": "PL",
-          "value": 980
+          "value": 981
         },
         {
           "name": "CH",
@@ -1841,7 +1841,7 @@
         },
         {
           "name": "UA",
-          "value": 507
+          "value": 505
         },
         {
           "name": "CO",
@@ -1881,7 +1881,7 @@
         },
         {
           "name": "RS",
-          "value": 202
+          "value": 203
         },
         {
           "name": "CL",
@@ -2351,7 +2351,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-14T22:00:49.892261+00:00",
+    "fetched_at": "2026-05-15T02:01:35.496081+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
