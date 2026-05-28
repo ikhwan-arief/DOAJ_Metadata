@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-28T06:43:44.874705+00:00",
+  "generated_at": "2026-05-28T20:04:33.338034+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22993,
-  "article_total": 12991926,
+  "journal_total": 22999,
+  "article_total": 12995636,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22993
+      "value": 22999
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12991926,
+      "value": 12995636,
       "detail": "Global DOAJ article total"
     },
     {
@@ -858,11 +858,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14517
+          "value": 14522
         },
         {
           "name": "Yes",
-          "value": 8476
+          "value": 8477
         }
       ]
     },
@@ -872,7 +872,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14535
+          "value": 14541
         },
         {
           "name": "No",
@@ -902,7 +902,7 @@
         },
         {
           "name": "IR",
-          "value": 1073
+          "value": 1074
         },
         {
           "name": "ES",
@@ -910,7 +910,7 @@
         },
         {
           "name": "PL",
-          "value": 984
+          "value": 985
         },
         {
           "name": "CH",
@@ -932,15 +932,15 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10390
+          "value": 10393
         },
         {
           "name": "Asia",
-          "value": 6700
+          "value": 6702
         },
         {
           "name": "South America",
-          "value": 2848
+          "value": 2849
         },
         {
           "name": "North America",
@@ -962,11 +962,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19255
+          "value": 19260
         },
         {
           "name": "ES",
-          "value": 4059
+          "value": 4060
         },
         {
           "name": "PT",
@@ -998,7 +998,7 @@
         },
         {
           "name": "AR",
-          "value": 612
+          "value": 613
         }
       ]
     },
@@ -1008,11 +1008,11 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1132
+          "value": 1133
         },
         {
           "name": "Social Sciences",
-          "value": 953
+          "value": 954
         },
         {
           "name": "Education",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Language and Literature",
-          "value": 621
+          "value": 622
         },
         {
           "name": "Special aspects of education",
@@ -1054,15 +1054,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11859
+          "value": 11862
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5119
+          "value": 5121
         },
         {
           "name": "CC BY-NC",
-          "value": 5048
+          "value": 5049
         },
         {
           "name": "CC BY-NC-SA",
@@ -1096,15 +1096,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14809
+          "value": 14813
         },
         {
           "name": "Anonymous peer review",
-          "value": 6365
+          "value": 6366
         },
         {
           "name": "Peer review",
-          "value": 1831
+          "value": 1832
         },
         {
           "name": "Editorial review",
@@ -1112,7 +1112,7 @@
         },
         {
           "name": "Open peer review",
-          "value": 386
+          "value": 387
         }
       ]
     },
@@ -1122,7 +1122,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19296
+          "value": 19301
         },
         {
           "name": "Handles",
@@ -1152,7 +1152,7 @@
         },
         {
           "name": "Portico",
-          "value": 4396
+          "value": 4397
         },
         {
           "name": "LOCKSS",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1615
+          "value": 1617
         },
         {
           "name": "PMC",
@@ -1780,7 +1780,7 @@
             169,
             172,
             198,
-            173
+            179
           ]
         }
       ]
@@ -1807,7 +1807,7 @@
         },
         {
           "name": "IR",
-          "value": 1073
+          "value": 1074
         },
         {
           "name": "ES",
@@ -1815,7 +1815,7 @@
         },
         {
           "name": "PL",
-          "value": 984
+          "value": 985
         },
         {
           "name": "CH",
@@ -1831,7 +1831,7 @@
         },
         {
           "name": "IT",
-          "value": 540
+          "value": 541
         },
         {
           "name": "CN",
@@ -1839,7 +1839,7 @@
         },
         {
           "name": "UA",
-          "value": 515
+          "value": 516
         },
         {
           "name": "NL",
@@ -1859,7 +1859,7 @@
         },
         {
           "name": "AR",
-          "value": 409
+          "value": 410
         },
         {
           "name": "FR",
@@ -1894,12 +1894,12 @@
           "value": 188
         },
         {
-          "name": "KR",
+          "name": "IQ",
           "value": 185
         },
         {
-          "name": "IQ",
-          "value": 184
+          "name": "KR",
+          "value": 185
         },
         {
           "name": "ZA",
@@ -1930,11 +1930,11 @@
           "value": 139
         },
         {
-          "name": "MY",
+          "name": "CU",
           "value": 119
         },
         {
-          "name": "CU",
+          "name": "MY",
           "value": 119
         },
         {
@@ -2353,9 +2353,9 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-28T06:43:43.600017+00:00",
+    "fetched_at": "2026-05-28T20:04:31.976417+00:00",
     "providers": {
-      "open.er-api.com": 29,
+      "open.er-api.com": 28,
       "Frankfurter API": 24
     },
     "supported_currencies": [
