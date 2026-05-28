@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-28T20:04:33.338034+00:00",
+  "generated_at": "2026-05-28T22:26:32.949990+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 22999,
-  "article_total": 12995636,
+  "article_total": 12995782,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12995636,
+      "value": 12995782,
       "detail": "Global DOAJ article total"
     },
     {
@@ -858,11 +858,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14522
+          "value": 14523
         },
         {
           "name": "Yes",
-          "value": 8477
+          "value": 8476
         }
       ]
     },
@@ -872,11 +872,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14541
+          "value": 14542
         },
         {
           "name": "No",
-          "value": 8458
+          "value": 8457
         }
       ]
     },
@@ -1054,7 +1054,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11862
+          "value": 11864
         },
         {
           "name": "CC BY-NC-ND",
@@ -1062,7 +1062,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5049
+          "value": 5047
         },
         {
           "name": "CC BY-NC-SA",
@@ -1152,7 +1152,7 @@
         },
         {
           "name": "Portico",
-          "value": 4397
+          "value": 4398
         },
         {
           "name": "LOCKSS",
@@ -2353,7 +2353,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-28T20:04:31.976417+00:00",
+    "fetched_at": "2026-05-28T22:26:31.574675+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
