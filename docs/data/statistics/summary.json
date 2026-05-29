@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-29T02:03:41.102690+00:00",
+  "generated_at": "2026-05-29T22:25:02.226789+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 22995,
-  "article_total": 12995203,
+  "journal_total": 23009,
+  "article_total": 12998828,
   "kpis": [
     {
       "label": "Journals",
-      "value": 22995
+      "value": 23009
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 12995203,
+      "value": 12998828,
       "detail": "Global DOAJ article total"
     },
     {
@@ -858,11 +858,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14520
+          "value": 14528
         },
         {
           "name": "Yes",
-          "value": 8475
+          "value": 8481
         }
       ]
     },
@@ -872,11 +872,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14540
+          "value": 14553
         },
         {
           "name": "No",
-          "value": 8455
+          "value": 8456
         }
       ]
     },
@@ -886,7 +886,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2702
+          "value": 2710
         },
         {
           "name": "GB",
@@ -898,11 +898,11 @@
         },
         {
           "name": "US",
-          "value": 1298
+          "value": 1299
         },
         {
           "name": "IR",
-          "value": 1074
+          "value": 1075
         },
         {
           "name": "ES",
@@ -932,11 +932,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10393
+          "value": 10395
         },
         {
           "name": "Asia",
-          "value": 6698
+          "value": 6709
         },
         {
           "name": "South America",
@@ -944,7 +944,7 @@
         },
         {
           "name": "North America",
-          "value": 2024
+          "value": 2025
         },
         {
           "name": "Africa",
@@ -962,7 +962,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19256
+          "value": 19268
         },
         {
           "name": "ES",
@@ -978,7 +978,7 @@
         },
         {
           "name": "ID",
-          "value": 1810
+          "value": 1815
         },
         {
           "name": "RU",
@@ -994,7 +994,7 @@
         },
         {
           "name": "FA",
-          "value": 641
+          "value": 642
         },
         {
           "name": "AR",
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 562
+          "value": 563
         },
         {
           "name": "Business",
@@ -1054,7 +1054,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11862
+          "value": 11868
         },
         {
           "name": "CC BY-NC-ND",
@@ -1062,19 +1062,19 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5046
+          "value": 5047
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2135
+          "value": 2136
         },
         {
           "name": "CC BY-SA",
-          "value": 2011
+          "value": 2016
         },
         {
           "name": "CC BY-ND",
-          "value": 425
+          "value": 426
         },
         {
           "name": "Publisher's own license",
@@ -1096,15 +1096,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14811
+          "value": 14820
         },
         {
           "name": "Anonymous peer review",
-          "value": 6365
+          "value": 6369
         },
         {
           "name": "Peer review",
-          "value": 1831
+          "value": 1832
         },
         {
           "name": "Editorial review",
@@ -1122,7 +1122,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19300
+          "value": 19314
         },
         {
           "name": "Handles",
@@ -1130,7 +1130,7 @@
         },
         {
           "name": "ARK",
-          "value": 65
+          "value": 66
         },
         {
           "name": "URN",
@@ -1152,15 +1152,15 @@
         },
         {
           "name": "Portico",
-          "value": 4398
+          "value": 4400
         },
         {
           "name": "LOCKSS",
-          "value": 1920
+          "value": 1921
         },
         {
           "name": "PKP PN",
-          "value": 1616
+          "value": 1617
         },
         {
           "name": "PMC",
@@ -1780,7 +1780,7 @@
             169,
             172,
             198,
-            179
+            193
           ]
         }
       ]
@@ -1791,7 +1791,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2702
+          "value": 2710
         },
         {
           "name": "GB",
@@ -1803,11 +1803,11 @@
         },
         {
           "name": "US",
-          "value": 1298
+          "value": 1299
         },
         {
           "name": "IR",
-          "value": 1074
+          "value": 1075
         },
         {
           "name": "ES",
@@ -1839,7 +1839,7 @@
         },
         {
           "name": "UA",
-          "value": 516
+          "value": 517
         },
         {
           "name": "NL",
@@ -1935,7 +1935,7 @@
         },
         {
           "name": "MY",
-          "value": 117
+          "value": 118
         },
         {
           "name": "HU",
@@ -1975,7 +1975,7 @@
         },
         {
           "name": "AT",
-          "value": 70
+          "value": 71
         },
         {
           "name": "FI",
@@ -2019,7 +2019,7 @@
         },
         {
           "name": "PH",
-          "value": 41
+          "value": 42
         },
         {
           "name": "MD",
@@ -2353,7 +2353,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-05-29T02:03:39.758728+00:00",
+    "fetched_at": "2026-05-29T22:25:01.094372+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
