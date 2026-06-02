@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-02T12:34:40.635924+00:00",
+  "generated_at": "2026-06-02T18:31:08.726159+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23028,
-  "article_total": 13011410,
+  "article_total": 13012866,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13011410,
+      "value": 13012866,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,11 +859,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14537
+          "value": 14536
         },
         {
           "name": "Yes",
-          "value": 8491
+          "value": 8492
         }
       ]
     },
@@ -1067,11 +1067,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2135
+          "value": 2136
         },
         {
           "name": "CC BY-SA",
-          "value": 2018
+          "value": 2017
         },
         {
           "name": "CC BY-ND",
@@ -1097,11 +1097,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14840
+          "value": 14841
         },
         {
           "name": "Anonymous peer review",
-          "value": 6373
+          "value": 6372
         },
         {
           "name": "Peer review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19339
+          "value": 19340
         },
         {
           "name": "Handles",
@@ -1153,7 +1153,7 @@
         },
         {
           "name": "Portico",
-          "value": 4403
+          "value": 4404
         },
         {
           "name": "LOCKSS",
@@ -2356,10 +2356,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-02T12:34:39.273996+00:00",
+    "fetched_at": "2026-06-02T18:31:07.349584+00:00",
     "providers": {
-      "open.er-api.com": 30,
-      "Frankfurter API": 22
+      "open.er-api.com": 28,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
