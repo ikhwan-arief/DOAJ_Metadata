@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-04T07:14:25.733254+00:00",
+  "generated_at": "2026-06-04T11:44:43.716851+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23031,
-  "article_total": 13018241,
+  "journal_total": 23035,
+  "article_total": 13019225,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23031
+      "value": 23035
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13018241,
+      "value": 13019225,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,11 +859,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14542
+          "value": 14543
         },
         {
           "name": "Yes",
-          "value": 8489
+          "value": 8492
         }
       ]
     },
@@ -877,7 +877,7 @@
         },
         {
           "name": "No",
-          "value": 8455
+          "value": 8459
         }
       ]
     },
@@ -891,7 +891,7 @@
         },
         {
           "name": "GB",
-          "value": 2280
+          "value": 2282
         },
         {
           "name": "BR",
@@ -899,7 +899,7 @@
         },
         {
           "name": "US",
-          "value": 1302
+          "value": 1303
         },
         {
           "name": "IR",
@@ -933,7 +933,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10405
+          "value": 10408
         },
         {
           "name": "Asia",
@@ -945,7 +945,7 @@
         },
         {
           "name": "North America",
-          "value": 2027
+          "value": 2028
         },
         {
           "name": "Africa",
@@ -963,7 +963,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19291
+          "value": 19295
         },
         {
           "name": "ES",
@@ -1055,15 +1055,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11886
+          "value": 11890
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5127
+          "value": 5131
         },
         {
           "name": "CC BY-NC",
-          "value": 5049
+          "value": 5051
         },
         {
           "name": "CC BY-NC-SA",
@@ -1097,11 +1097,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14848
+          "value": 14850
         },
         {
           "name": "Anonymous peer review",
-          "value": 6367
+          "value": 6369
         },
         {
           "name": "Peer review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19347
+          "value": 19352
         },
         {
           "name": "Handles",
@@ -1149,11 +1149,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4620
+          "value": 4624
         },
         {
           "name": "Portico",
-          "value": 4405
+          "value": 4409
         },
         {
           "name": "LOCKSS",
@@ -1175,7 +1175,7 @@
       "items": [
         {
           "name": "Elsevier",
-          "value": 839
+          "value": 843
         },
         {
           "name": "Wiley",
@@ -1783,7 +1783,7 @@
             172,
             198,
             197,
-            27
+            31
           ]
         }
       ]
@@ -1798,7 +1798,7 @@
         },
         {
           "name": "GB",
-          "value": 2280
+          "value": 2282
         },
         {
           "name": "BR",
@@ -1806,7 +1806,7 @@
         },
         {
           "name": "US",
-          "value": 1302
+          "value": 1303
         },
         {
           "name": "IR",
@@ -1846,7 +1846,7 @@
         },
         {
           "name": "NL",
-          "value": 506
+          "value": 507
         },
         {
           "name": "CO",
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-04T07:14:24.305697+00:00",
+    "fetched_at": "2026-06-04T11:44:42.320792+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
