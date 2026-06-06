@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-05T22:20:45.185612+00:00",
+  "generated_at": "2026-06-06T02:02:52.896036+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23042,
-  "article_total": 13030716,
+  "journal_total": 23041,
+  "article_total": 13030941,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23042
+      "value": 23041
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13030716,
+      "value": 13030941,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,7 +859,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14548
+          "value": 14547
         },
         {
           "name": "Yes",
@@ -877,7 +877,7 @@
         },
         {
           "name": "No",
-          "value": 8459
+          "value": 8458
         }
       ]
     },
@@ -911,7 +911,7 @@
         },
         {
           "name": "PL",
-          "value": 983
+          "value": 982
         },
         {
           "name": "CH",
@@ -933,7 +933,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10413
+          "value": 10412
         },
         {
           "name": "Asia",
@@ -1075,7 +1075,7 @@
         },
         {
           "name": "CC BY-ND",
-          "value": 423
+          "value": 422
         },
         {
           "name": "Publisher's own license",
@@ -1097,7 +1097,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14853
+          "value": 14852
         },
         {
           "name": "Anonymous peer review",
@@ -1699,7 +1699,7 @@
             172,
             166,
             181,
-            147,
+            146,
             127,
             94,
             109,
@@ -1818,7 +1818,7 @@
         },
         {
           "name": "PL",
-          "value": 983
+          "value": 982
         },
         {
           "name": "CH",
@@ -2065,11 +2065,11 @@
           "value": 26
         },
         {
-          "name": "IE",
+          "name": "NZ",
           "value": 24
         },
         {
-          "name": "NZ",
+          "name": "IE",
           "value": 24
         },
         {
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-05T22:20:43.801878+00:00",
+    "fetched_at": "2026-06-06T02:02:51.645978+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
