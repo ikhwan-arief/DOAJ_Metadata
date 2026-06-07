@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-07T06:58:33.603641+00:00",
+  "generated_at": "2026-06-07T16:06:05.733677+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23041,
-  "article_total": 13041048,
+  "journal_total": 23042,
+  "article_total": 13045783,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23041
+      "value": 23042
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13041048,
+      "value": 13045783,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,7 +859,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14547
+          "value": 14548
         },
         {
           "name": "Yes",
@@ -873,7 +873,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14583
+          "value": 14584
         },
         {
           "name": "No",
@@ -941,7 +941,7 @@
         },
         {
           "name": "South America",
-          "value": 2852
+          "value": 2853
         },
         {
           "name": "North America",
@@ -963,11 +963,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19301
+          "value": 19302
         },
         {
           "name": "ES",
-          "value": 4070
+          "value": 4071
         },
         {
           "name": "PT",
@@ -1025,7 +1025,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 653
+          "value": 654
         },
         {
           "name": "Medicine (General)",
@@ -1055,7 +1055,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11896
+          "value": 11897
         },
         {
           "name": "CC BY-NC-ND",
@@ -1097,7 +1097,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14852
+          "value": 14853
         },
         {
           "name": "Anonymous peer review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19358
+          "value": 19359
         },
         {
           "name": "Handles",
@@ -1783,7 +1783,7 @@
             172,
             198,
             197,
-            39
+            40
           ]
         }
       ]
@@ -1850,7 +1850,7 @@
         },
         {
           "name": "CO",
-          "value": 459
+          "value": 460
         },
         {
           "name": "DE",
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-07T06:58:32.224176+00:00",
+    "fetched_at": "2026-06-07T16:06:04.250706+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
