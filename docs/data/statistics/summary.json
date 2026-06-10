@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-09T14:19:40.815251+00:00",
+  "generated_at": "2026-06-10T02:10:44.832014+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23055,
-  "article_total": 13054921,
+  "journal_total": 23052,
+  "article_total": 13055968,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23055
+      "value": 23052
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13054921,
+      "value": 13055968,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,11 +859,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14557
+          "value": 14555
         },
         {
           "name": "Yes",
-          "value": 8498
+          "value": 8497
         }
       ]
     },
@@ -873,11 +873,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14602
+          "value": 14600
         },
         {
           "name": "No",
-          "value": 8453
+          "value": 8452
         }
       ]
     },
@@ -937,11 +937,11 @@
         },
         {
           "name": "Asia",
-          "value": 6727
+          "value": 6726
         },
         {
           "name": "South America",
-          "value": 2851
+          "value": 2850
         },
         {
           "name": "North America",
@@ -949,7 +949,7 @@
         },
         {
           "name": "Africa",
-          "value": 852
+          "value": 851
         },
         {
           "name": "Oceania",
@@ -963,7 +963,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19317
+          "value": 19316
         },
         {
           "name": "ES",
@@ -1009,7 +1009,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1135
+          "value": 1134
         },
         {
           "name": "Social Sciences",
@@ -1029,7 +1029,7 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 633
+          "value": 632
         },
         {
           "name": "Language and Literature",
@@ -1055,11 +1055,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11908
+          "value": 11907
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5135
+          "value": 5134
         },
         {
           "name": "CC BY-NC",
@@ -1067,11 +1067,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2135
+          "value": 2134
         },
         {
           "name": "CC BY-SA",
-          "value": 2018
+          "value": 2019
         },
         {
           "name": "CC BY-ND",
@@ -1079,7 +1079,7 @@
         },
         {
           "name": "Publisher's own license",
-          "value": 166
+          "value": 165
         },
         {
           "name": "CC0",
@@ -1101,11 +1101,11 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6375
+          "value": 6374
         },
         {
           "name": "Peer review",
-          "value": 1828
+          "value": 1827
         },
         {
           "name": "Editorial review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19373
+          "value": 19374
         },
         {
           "name": "Handles",
@@ -1648,7 +1648,7 @@
             51,
             43,
             53,
-            62,
+            61,
             70,
             80,
             62,
@@ -1678,7 +1678,7 @@
             141,
             187,
             222,
-            146,
+            145,
             184,
             161,
             123,
@@ -1698,7 +1698,7 @@
             195,
             172,
             166,
-            181,
+            180,
             146,
             127,
             94,
@@ -1850,7 +1850,7 @@
         },
         {
           "name": "CO",
-          "value": 460
+          "value": 459
         },
         {
           "name": "DE",
@@ -1858,7 +1858,7 @@
         },
         {
           "name": "IN",
-          "value": 416
+          "value": 415
         },
         {
           "name": "AR",
@@ -2009,11 +2009,11 @@
           "value": 54
         },
         {
-          "name": "MA",
-          "value": 50
+          "name": "VE",
+          "value": 49
         },
         {
-          "name": "VE",
+          "name": "MA",
           "value": 49
         },
         {
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-09T14:19:39.430529+00:00",
+    "fetched_at": "2026-06-10T02:10:43.461799+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
