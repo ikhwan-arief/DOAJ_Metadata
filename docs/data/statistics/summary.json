@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-11T02:34:27.194135+00:00",
+  "generated_at": "2026-06-11T07:21:36.829114+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23058,
-  "article_total": 13058607,
+  "journal_total": 23059,
+  "article_total": 13060567,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23058
+      "value": 23059
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13058607,
+      "value": 13060567,
       "detail": "Global DOAJ article total"
     },
     {
@@ -863,7 +863,7 @@
         },
         {
           "name": "Yes",
-          "value": 8507
+          "value": 8508
         }
       ]
     },
@@ -873,7 +873,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14613
+          "value": 14614
         },
         {
           "name": "No",
@@ -933,11 +933,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10429
+          "value": 10431
         },
         {
           "name": "Asia",
-          "value": 6724
+          "value": 6723
         },
         {
           "name": "South America",
@@ -963,7 +963,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19325
+          "value": 19326
         },
         {
           "name": "ES",
@@ -1037,7 +1037,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 564
+          "value": 565
         },
         {
           "name": "Business",
@@ -1055,11 +1055,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11907
+          "value": 11910
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5137
+          "value": 5136
         },
         {
           "name": "CC BY-NC",
@@ -1071,11 +1071,11 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2019
+          "value": 2018
         },
         {
           "name": "CC BY-ND",
-          "value": 422
+          "value": 421
         },
         {
           "name": "Publisher's own license",
@@ -1097,7 +1097,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14873
+          "value": 14874
         },
         {
           "name": "Anonymous peer review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19384
+          "value": 19385
         },
         {
           "name": "Handles",
@@ -1778,12 +1778,12 @@
             149,
             200,
             232,
-            208,
+            207,
             169,
             172,
             198,
             197,
-            69
+            71
           ]
         }
       ]
@@ -1842,7 +1842,7 @@
         },
         {
           "name": "UA",
-          "value": 525
+          "value": 527
         },
         {
           "name": "NL",
@@ -1858,7 +1858,7 @@
         },
         {
           "name": "IN",
-          "value": 415
+          "value": 414
         },
         {
           "name": "AR",
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-11T02:34:25.871749+00:00",
+    "fetched_at": "2026-06-11T07:21:35.438915+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
