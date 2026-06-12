@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-12T17:30:59.336493+00:00",
+  "generated_at": "2026-06-12T19:51:09.352764+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23060,
-  "article_total": 13072182,
+  "journal_total": 23055,
+  "article_total": 13070886,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23060
+      "value": 23055
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13072182,
+      "value": 13070886,
       "detail": "Global DOAJ article total"
     },
     {
@@ -859,11 +859,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14553
+          "value": 14549
         },
         {
           "name": "Yes",
-          "value": 8507
+          "value": 8506
         }
       ]
     },
@@ -873,11 +873,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14617
+          "value": 14618
         },
         {
           "name": "No",
-          "value": 8443
+          "value": 8437
         }
       ]
     },
@@ -911,7 +911,7 @@
         },
         {
           "name": "PL",
-          "value": 982
+          "value": 977
         },
         {
           "name": "CH",
@@ -933,7 +933,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10429
+          "value": 10424
         },
         {
           "name": "Asia",
@@ -963,7 +963,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19327
+          "value": 19322
         },
         {
           "name": "ES",
@@ -1013,7 +1013,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 958
+          "value": 957
         },
         {
           "name": "Education",
@@ -1033,7 +1033,7 @@
         },
         {
           "name": "Language and Literature",
-          "value": 624
+          "value": 623
         },
         {
           "name": "Special aspects of education",
@@ -1055,15 +1055,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11913
+          "value": 11911
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5133
+          "value": 5131
         },
         {
           "name": "CC BY-NC",
-          "value": 5054
+          "value": 5053
         },
         {
           "name": "CC BY-NC-SA",
@@ -1097,7 +1097,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14874
+          "value": 14871
         },
         {
           "name": "Anonymous peer review",
@@ -1105,11 +1105,11 @@
         },
         {
           "name": "Peer review",
-          "value": 1820
+          "value": 1818
         },
         {
           "name": "Editorial review",
-          "value": 430
+          "value": 431
         },
         {
           "name": "Open peer review",
@@ -1123,7 +1123,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19387
+          "value": 19382
         },
         {
           "name": "Handles",
@@ -1153,7 +1153,7 @@
         },
         {
           "name": "Portico",
-          "value": 4412
+          "value": 4409
         },
         {
           "name": "LOCKSS",
@@ -1207,7 +1207,7 @@
         },
         {
           "name": "Sciendo",
-          "value": 169
+          "value": 163
         },
         {
           "name": "SpringerOpen",
@@ -1649,13 +1649,13 @@
             43,
             53,
             61,
-            70,
+            69,
             80,
             61,
             76,
             63,
-            80,
-            102,
+            78,
+            101,
             96,
             121,
             121,
@@ -1732,11 +1732,11 @@
             127,
             148,
             141,
-            147,
+            146,
             146,
             194,
             191,
-            160,
+            159,
             146,
             129,
             143,
@@ -1783,7 +1783,7 @@
             172,
             198,
             197,
-            76
+            77
           ]
         }
       ]
@@ -1818,7 +1818,7 @@
         },
         {
           "name": "PL",
-          "value": 982
+          "value": 977
         },
         {
           "name": "CH",
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-12T17:30:57.883517+00:00",
+    "fetched_at": "2026-06-12T19:51:07.981567+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
