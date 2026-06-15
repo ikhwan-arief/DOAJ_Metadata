@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T02:34:23.016359+00:00",
+  "generated_at": "2026-06-15T02:38:40.721834+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23054,
-  "article_total": 13077253,
+  "article_total": 13084713,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13077253,
+      "value": 13084713,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1097,11 +1097,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14870
+          "value": 14869
         },
         {
           "name": "Anonymous peer review",
-          "value": 6379
+          "value": 6380
         },
         {
           "name": "Peer review",
@@ -1149,7 +1149,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4630
+          "value": 4631
         },
         {
           "name": "Portico",
@@ -1157,7 +1157,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1928
+          "value": 1929
         },
         {
           "name": "PKP PN",
@@ -2356,7 +2356,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-14T02:34:21.542887+00:00",
+    "fetched_at": "2026-06-15T02:38:39.461428+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
