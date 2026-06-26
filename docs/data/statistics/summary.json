@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-26T06:42:45.412193+00:00",
+  "generated_at": "2026-06-26T11:38:59.218235+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23111,
-  "article_total": 13175787,
+  "journal_total": 23119,
+  "article_total": 13177022,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23111
+      "value": 23119
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13175787,
+      "value": 13177022,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14563
+          "value": 14570
         },
         {
           "name": "Yes",
-          "value": 8548
+          "value": 8549
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14692
+          "value": 14699
         },
         {
           "name": "No",
-          "value": 8419
+          "value": 8420
         }
       ]
     },
@@ -894,7 +894,7 @@
         },
         {
           "name": "GB",
-          "value": 2288
+          "value": 2290
         },
         {
           "name": "BR",
@@ -902,7 +902,7 @@
         },
         {
           "name": "US",
-          "value": 1303
+          "value": 1305
         },
         {
           "name": "IR",
@@ -922,7 +922,7 @@
         },
         {
           "name": "TR",
-          "value": 705
+          "value": 706
         },
         {
           "name": "RU",
@@ -936,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10440
+          "value": 10442
         },
         {
           "name": "Asia",
-          "value": 6772
+          "value": 6774
         },
         {
           "name": "South America",
@@ -948,11 +948,11 @@
         },
         {
           "name": "North America",
-          "value": 2030
+          "value": 2032
         },
         {
           "name": "Africa",
-          "value": 855
+          "value": 857
         },
         {
           "name": "Oceania",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19389
+          "value": 19397
         },
         {
           "name": "ES",
@@ -1012,11 +1012,11 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1138
+          "value": 1139
         },
         {
           "name": "Social Sciences",
-          "value": 959
+          "value": 960
         },
         {
           "name": "Education",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "Social sciences (General)",
-          "value": 694
+          "value": 695
         },
         {
           "name": "Education (General)",
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Language and Literature",
-          "value": 627
+          "value": 628
         },
         {
           "name": "Special aspects of education",
@@ -1048,7 +1048,7 @@
         },
         {
           "name": "Biology (General)",
-          "value": 475
+          "value": 476
         }
       ]
     },
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11941
+          "value": 11948
         },
         {
           "name": "CC BY-NC-ND",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5054
+          "value": 5056
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14938
+          "value": 14945
         },
         {
           "name": "Anonymous peer review",
@@ -1108,11 +1108,11 @@
         },
         {
           "name": "Peer review",
-          "value": 1817
+          "value": 1818
         },
         {
           "name": "Editorial review",
-          "value": 436
+          "value": 437
         },
         {
           "name": "Open peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19462
+          "value": 19470
         },
         {
           "name": "Handles",
@@ -1152,15 +1152,15 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4644
+          "value": 4645
         },
         {
           "name": "Portico",
-          "value": 4418
+          "value": 4419
         },
         {
           "name": "LOCKSS",
-          "value": 1940
+          "value": 1941
         },
         {
           "name": "PKP PN",
@@ -1168,7 +1168,7 @@
         },
         {
           "name": "PMC",
-          "value": 1543
+          "value": 1544
         }
       ]
     },
@@ -1786,7 +1786,7 @@
             172,
             198,
             193,
-            166
+            174
           ]
         }
       ]
@@ -1801,7 +1801,7 @@
         },
         {
           "name": "GB",
-          "value": 2288
+          "value": 2290
         },
         {
           "name": "BR",
@@ -1809,7 +1809,7 @@
         },
         {
           "name": "US",
-          "value": 1303
+          "value": 1305
         },
         {
           "name": "IR",
@@ -1829,7 +1829,7 @@
         },
         {
           "name": "TR",
-          "value": 705
+          "value": 706
         },
         {
           "name": "RU",
@@ -1897,19 +1897,19 @@
         },
         {
           "name": "PK",
-          "value": 190
+          "value": 191
         },
         {
           "name": "IQ",
           "value": 187
         },
         {
-          "name": "KR",
+          "name": "ZA",
           "value": 184
         },
         {
-          "name": "ZA",
-          "value": 183
+          "name": "KR",
+          "value": 184
         },
         {
           "name": "HR",
@@ -2192,16 +2192,16 @@
           "value": 8
         },
         {
+          "name": "TZ",
+          "value": 7
+        },
+        {
           "name": "OM",
           "value": 7
         },
         {
           "name": "IS",
           "value": 7
-        },
-        {
-          "name": "TZ",
-          "value": 6
         },
         {
           "name": "PR",
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-26T06:42:44.040470+00:00",
+    "fetched_at": "2026-06-26T11:38:57.709569+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
