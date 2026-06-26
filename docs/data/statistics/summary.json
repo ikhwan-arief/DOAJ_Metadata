@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-26T14:00:46.762247+00:00",
+  "generated_at": "2026-06-26T19:27:53.958326+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23119,
-  "article_total": 13177724,
+  "journal_total": 23116,
+  "article_total": 13178350,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23119
+      "value": 23116
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13177724,
+      "value": 13178350,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14570
+          "value": 14567
         },
         {
           "name": "Yes",
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8420
+          "value": 8417
         }
       ]
     },
@@ -898,7 +898,7 @@
         },
         {
           "name": "BR",
-          "value": 1394
+          "value": 1391
         },
         {
           "name": "US",
@@ -944,7 +944,7 @@
         },
         {
           "name": "South America",
-          "value": 2836
+          "value": 2833
         },
         {
           "name": "North America",
@@ -966,15 +966,15 @@
       "items": [
         {
           "name": "EN",
-          "value": 19397
+          "value": 19395
         },
         {
           "name": "ES",
-          "value": 4074
+          "value": 4073
         },
         {
           "name": "PT",
-          "value": 2281
+          "value": 2278
         },
         {
           "name": "FR",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 633
+          "value": 632
         },
         {
           "name": "Language and Literature",
@@ -1044,7 +1044,7 @@
         },
         {
           "name": "Business",
-          "value": 492
+          "value": 491
         },
         {
           "name": "Biology (General)",
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11948
+          "value": 11946
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5148
+          "value": 5147
         },
         {
           "name": "CC BY-NC",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14945
+          "value": 14944
         },
         {
           "name": "Anonymous peer review",
-          "value": 6377
+          "value": 6375
         },
         {
           "name": "Peer review",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1659
+          "value": 1660
         },
         {
           "name": "PMC",
@@ -1687,10 +1687,10 @@
             123,
             208,
             143,
-            152,
+            150,
             192,
             155,
-            137,
+            136,
             129,
             154,
             104,
@@ -1805,7 +1805,7 @@
         },
         {
           "name": "BR",
-          "value": 1394
+          "value": 1391
         },
         {
           "name": "US",
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-26T14:00:45.385005+00:00",
+    "fetched_at": "2026-06-26T19:27:52.815808+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
