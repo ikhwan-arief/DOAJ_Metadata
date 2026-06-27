@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-27T06:20:52.547779+00:00",
+  "generated_at": "2026-06-27T10:53:28.849308+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23116,
-  "article_total": 13180217,
+  "journal_total": 23117,
+  "article_total": 13180611,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23116
+      "value": 23117
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13180217,
+      "value": 13180611,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8549
+          "value": 8550
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14699
+          "value": 14700
         },
         {
           "name": "No",
@@ -952,7 +952,7 @@
         },
         {
           "name": "Africa",
-          "value": 857
+          "value": 858
         },
         {
           "name": "Oceania",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19396
+          "value": 19397
         },
         {
           "name": "ES",
@@ -1002,7 +1002,7 @@
         },
         {
           "name": "AR",
-          "value": 618
+          "value": 619
         }
       ]
     },
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 960
+          "value": 961
         },
         {
           "name": "Education",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11946
+          "value": 11947
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14944
+          "value": 14945
         },
         {
           "name": "Anonymous peer review",
@@ -1786,7 +1786,7 @@
             172,
             198,
             193,
-            174
+            175
           ]
         }
       ]
@@ -2100,16 +2100,16 @@
           "value": 19
         },
         {
+          "name": "LY",
+          "value": 18
+        },
+        {
           "name": "SA",
           "value": 18
         },
         {
           "name": "LV",
           "value": 18
-        },
-        {
-          "name": "LY",
-          "value": 17
         },
         {
           "name": "QA",
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-27T06:20:51.280477+00:00",
+    "fetched_at": "2026-06-27T10:53:27.523887+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
