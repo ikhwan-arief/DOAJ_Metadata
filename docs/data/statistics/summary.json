@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T19:27:53.958326+00:00",
+  "generated_at": "2026-06-27T02:04:23.698451+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23116,
-  "article_total": 13178350,
+  "article_total": 13179697,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13178350,
+      "value": 13179697,
       "detail": "Global DOAJ article total"
     },
     {
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19395
+          "value": 19396
         },
         {
           "name": "ES",
@@ -1062,11 +1062,11 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5147
+          "value": 5148
         },
         {
           "name": "CC BY-NC",
-          "value": 5056
+          "value": 5055
         },
         {
           "name": "CC BY-NC-SA",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19470
+          "value": 19472
         },
         {
           "name": "Handles",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1660
+          "value": 1662
         },
         {
           "name": "PMC",
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-26T19:27:52.815808+00:00",
+    "fetched_at": "2026-06-27T02:04:22.647474+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
