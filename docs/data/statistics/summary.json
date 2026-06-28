@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-28T02:14:57.838669+00:00",
+  "generated_at": "2026-06-28T13:12:37.206979+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23117,
-  "article_total": 13181676,
+  "journal_total": 23120,
+  "article_total": 13185758,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23117
+      "value": 23120
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13181676,
+      "value": 13185758,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14567
+          "value": 14569
         },
         {
           "name": "Yes",
-          "value": 8550
+          "value": 8551
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14700
+          "value": 14703
         },
         {
           "name": "No",
@@ -952,7 +952,7 @@
         },
         {
           "name": "Africa",
-          "value": 858
+          "value": 861
         },
         {
           "name": "Oceania",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19397
+          "value": 19400
         },
         {
           "name": "ES",
@@ -978,7 +978,7 @@
         },
         {
           "name": "FR",
-          "value": 1877
+          "value": 1878
         },
         {
           "name": "ID",
@@ -1002,7 +1002,7 @@
         },
         {
           "name": "AR",
-          "value": 619
+          "value": 620
         }
       ]
     },
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 961
+          "value": 962
         },
         {
           "name": "Education",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "Social sciences (General)",
-          "value": 695
+          "value": 696
         },
         {
           "name": "Education (General)",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11947
+          "value": 11950
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,15 +1100,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14945
+          "value": 14948
         },
         {
           "name": "Anonymous peer review",
-          "value": 6375
+          "value": 6376
         },
         {
           "name": "Peer review",
-          "value": 1818
+          "value": 1819
         },
         {
           "name": "Editorial review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19473
+          "value": 19474
         },
         {
           "name": "Handles",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1662
+          "value": 1663
         },
         {
           "name": "PMC",
@@ -1786,7 +1786,7 @@
             172,
             198,
             193,
-            175
+            178
           ]
         }
       ]
@@ -2096,12 +2096,12 @@
           "value": 20
         },
         {
-          "name": "BY",
+          "name": "LY",
           "value": 19
         },
         {
-          "name": "LY",
-          "value": 18
+          "name": "BY",
+          "value": 19
         },
         {
           "name": "SA",
@@ -2136,6 +2136,10 @@
           "value": 11
         },
         {
+          "name": "CD",
+          "value": 10
+        },
+        {
           "name": "SV",
           "value": 10
         },
@@ -2152,10 +2156,6 @@
           "value": 10
         },
         {
-          "name": "CD",
-          "value": 9
-        },
-        {
           "name": "AE",
           "value": 9
         },
@@ -2166,6 +2166,10 @@
         {
           "name": "GH",
           "value": 9
+        },
+        {
+          "name": "TZ",
+          "value": 8
         },
         {
           "name": "ME",
@@ -2190,10 +2194,6 @@
         {
           "name": "PA",
           "value": 8
-        },
-        {
-          "name": "TZ",
-          "value": 7
         },
         {
           "name": "OM",
@@ -2260,19 +2260,19 @@
           "value": 3
         },
         {
-          "name": "MT",
-          "value": 2
-        },
-        {
-          "name": "BT",
-          "value": 2
-        },
-        {
           "name": "NA",
           "value": 2
         },
         {
           "name": "TG",
+          "value": 2
+        },
+        {
+          "name": "MT",
+          "value": 2
+        },
+        {
+          "name": "BT",
           "value": 2
         },
         {
@@ -2304,11 +2304,11 @@
           "value": 2
         },
         {
-          "name": "MZ",
+          "name": "GM",
           "value": 1
         },
         {
-          "name": "GM",
+          "name": "MZ",
           "value": 1
         },
         {
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-28T02:14:56.825548+00:00",
+    "fetched_at": "2026-06-28T13:12:35.814873+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
