@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T12:57:09.484821+00:00",
+  "generated_at": "2026-06-29T17:27:53.045829+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23118,
-  "article_total": 13182635,
+  "article_total": 13183037,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13182635,
+      "value": 13183037,
       "detail": "Global DOAJ article total"
     },
     {
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14708
+          "value": 14709
         },
         {
           "name": "No",
-          "value": 8410
+          "value": 8409
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2723
         },
         {
           "name": "GB",
@@ -936,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10443
+          "value": 10444
         },
         {
           "name": "Asia",
-          "value": 6772
+          "value": 6771
         },
         {
           "name": "South America",
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1819
+          "value": 1818
         },
         {
           "name": "RU",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14950
+          "value": 14951
         },
         {
           "name": "Anonymous peer review",
-          "value": 6374
+          "value": 6373
         },
         {
           "name": "Peer review",
@@ -1658,7 +1658,7 @@
             76,
             63,
             78,
-            100,
+            99,
             96,
             121,
             120,
@@ -1786,7 +1786,7 @@
             172,
             198,
             193,
-            182
+            183
           ]
         }
       ]
@@ -1797,7 +1797,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2723
         },
         {
           "name": "GB",
@@ -1845,7 +1845,7 @@
         },
         {
           "name": "UA",
-          "value": 534
+          "value": 535
         },
         {
           "name": "NL",
@@ -2363,7 +2363,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-06-29T12:57:08.130439+00:00",
+    "fetched_at": "2026-06-29T17:27:51.743325+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
