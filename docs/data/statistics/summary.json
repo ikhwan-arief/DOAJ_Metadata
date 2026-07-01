@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-01T14:05:34.345258+00:00",
+  "generated_at": "2026-07-01T19:29:39.548207+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23123,
-  "article_total": 13198889,
+  "journal_total": 23124,
+  "article_total": 13200963,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23123
+      "value": 23124
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13198889,
+      "value": 13200963,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14569
+          "value": 14570
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14715
+          "value": 14716
         },
         {
           "name": "No",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10448
+          "value": 10449
         },
         {
           "name": "Asia",
@@ -1074,7 +1074,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2026
+          "value": 2027
         },
         {
           "name": "CC BY-ND",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14954
+          "value": 14955
         },
         {
           "name": "Anonymous peer review",
-          "value": 6378
+          "value": 6379
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19481
+          "value": 19482
         },
         {
           "name": "Handles",
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            2
+            3
           ]
         }
       ]
@@ -1971,7 +1971,7 @@
         },
         {
           "name": "SI",
-          "value": 93
+          "value": 94
         },
         {
           "name": "CR",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-01T14:05:32.965189+00:00",
+    "fetched_at": "2026-07-01T19:29:38.284037+00:00",
     "providers": {
-      "open.er-api.com": 31,
-      "Frankfurter API": 21
+      "open.er-api.com": 28,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
