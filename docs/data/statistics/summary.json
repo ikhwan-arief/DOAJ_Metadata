@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-01T02:14:24.414144+00:00",
+  "generated_at": "2026-07-01T07:03:41.020391+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23121,
-  "article_total": 13193920,
+  "journal_total": 23122,
+  "article_total": 13196580,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23121
+      "value": 23122
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13193920,
+      "value": 13196580,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14569
+          "value": 14570
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14712
+          "value": 14713
         },
         {
           "name": "No",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6771
+          "value": 6772
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19401
+          "value": 19402
         },
         {
           "name": "ES",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11953
+          "value": 11954
         },
         {
           "name": "CC BY-NC-ND",
@@ -1104,7 +1104,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6374
+          "value": 6375
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19478
+          "value": 19479
         },
         {
           "name": "Handles",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4420
+          "value": 4421
         },
         {
           "name": "LOCKSS",
@@ -1501,7 +1501,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "series": [
         {
@@ -1786,7 +1787,8 @@
             172,
             198,
             193,
-            188
+            188,
+            1
           ]
         }
       ]
@@ -2136,6 +2138,10 @@
           "value": 11
         },
         {
+          "name": "AE",
+          "value": 10
+        },
+        {
           "name": "CD",
           "value": 10
         },
@@ -2154,10 +2160,6 @@
         {
           "name": "SY",
           "value": 10
-        },
-        {
-          "name": "AE",
-          "value": 9
         },
         {
           "name": "JO",
@@ -2363,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-01T02:14:23.090734+00:00",
+    "fetched_at": "2026-07-01T07:03:39.540980+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
