@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-02T02:06:46.458363+00:00",
+  "generated_at": "2026-07-02T06:30:27.343042+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23124,
-  "article_total": 13202396,
+  "journal_total": 23125,
+  "article_total": 13204253,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23124
+      "value": 23125
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13202396,
+      "value": 13204253,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14570
+          "value": 14571
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14716
+          "value": 14717
         },
         {
           "name": "No",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6773
+          "value": 6774
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19403
+          "value": 19404
         },
         {
           "name": "ES",
@@ -1032,7 +1032,7 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 631
+          "value": 632
         },
         {
           "name": "Language and Literature",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11955
+          "value": 11956
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14955
+          "value": 14956
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19482
+          "value": 19483
         },
         {
           "name": "Handles",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1943
+          "value": 1944
         },
         {
           "name": "PKP PN",
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            3
+            4
           ]
         }
       ]
@@ -2034,16 +2034,16 @@
           "value": 35
         },
         {
+          "name": "LK",
+          "value": 33
+        },
+        {
           "name": "BD",
           "value": 33
         },
         {
           "name": "NP",
           "value": 33
-        },
-        {
-          "name": "LK",
-          "value": 32
         },
         {
           "name": "UY",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-02T02:06:45.105487+00:00",
+    "fetched_at": "2026-07-02T06:30:25.882895+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
