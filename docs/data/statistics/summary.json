@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-02T21:58:55.722015+00:00",
+  "generated_at": "2026-07-03T01:51:01.614866+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23128,
-  "article_total": 13207595,
+  "journal_total": 23129,
+  "article_total": 13208268,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23128
+      "value": 23129
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13207595,
+      "value": 13208268,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14574
+          "value": 14575
         },
         {
           "name": "Yes",
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8406
+          "value": 8407
         }
       ]
     },
@@ -914,7 +914,7 @@
         },
         {
           "name": "PL",
-          "value": 984
+          "value": 985
         },
         {
           "name": "CH",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10450
+          "value": 10451
         },
         {
           "name": "Asia",
@@ -966,11 +966,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19407
+          "value": 19408
         },
         {
           "name": "ES",
-          "value": 4077
+          "value": 4078
         },
         {
           "name": "PT",
@@ -994,7 +994,7 @@
         },
         {
           "name": "DE",
-          "value": 882
+          "value": 883
         },
         {
           "name": "FA",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5056
+          "value": 5057
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14959
+          "value": 14960
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19488
+          "value": 19489
         },
         {
           "name": "Handles",
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            7
+            8
           ]
         }
       ]
@@ -1823,7 +1823,7 @@
         },
         {
           "name": "PL",
-          "value": 984
+          "value": 985
         },
         {
           "name": "CH",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-02T21:58:54.370019+00:00",
+    "fetched_at": "2026-07-03T01:51:00.277507+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
