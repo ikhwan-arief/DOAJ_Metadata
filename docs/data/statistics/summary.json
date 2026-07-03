@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-03T06:21:28.165581+00:00",
+  "generated_at": "2026-07-03T11:25:28.371664+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23129,
-  "article_total": 13210195,
+  "journal_total": 23130,
+  "article_total": 13210833,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23129
+      "value": 23130
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13210195,
+      "value": 13210833,
       "detail": "Global DOAJ article total"
     },
     {
@@ -563,7 +563,6 @@
       "Orthopedic surgery",
       "Osteopathy",
       "Other Finnic languages and dialects",
-      "Other beliefs and movements",
       "Other systems of medicine",
       "Otorhinolaryngology",
       "Packaging",
@@ -862,7 +861,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14575
+          "value": 14576
         },
         {
           "name": "Yes",
@@ -876,7 +875,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14722
+          "value": 14723
         },
         {
           "name": "No",
@@ -922,7 +921,7 @@
         },
         {
           "name": "TR",
-          "value": 706
+          "value": 707
         },
         {
           "name": "RU",
@@ -940,7 +939,7 @@
         },
         {
           "name": "Asia",
-          "value": 6774
+          "value": 6775
         },
         {
           "name": "South America",
@@ -966,7 +965,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19408
+          "value": 19410
         },
         {
           "name": "ES",
@@ -1016,7 +1015,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 962
+          "value": 963
         },
         {
           "name": "Education",
@@ -1062,7 +1061,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5147
+          "value": 5148
         },
         {
           "name": "CC BY-NC",
@@ -1100,7 +1099,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14960
+          "value": 14961
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1125,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19489
+          "value": 19490
         },
         {
           "name": "Handles",
@@ -1788,7 +1787,7 @@
             198,
             193,
             188,
-            8
+            9
           ]
         }
       ]
@@ -1831,7 +1830,7 @@
         },
         {
           "name": "TR",
-          "value": 706
+          "value": 707
         },
         {
           "name": "RU",
@@ -2206,15 +2205,15 @@
           "value": 7
         },
         {
+          "name": "CM",
+          "value": 5
+        },
+        {
           "name": "PR",
           "value": 5
         },
         {
           "name": "AF",
-          "value": 5
-        },
-        {
-          "name": "CM",
           "value": 5
         },
         {
@@ -2262,6 +2261,10 @@
           "value": 3
         },
         {
+          "name": "SN",
+          "value": 2
+        },
+        {
           "name": "NA",
           "value": 2
         },
@@ -2279,10 +2282,6 @@
         },
         {
           "name": "KW",
-          "value": 2
-        },
-        {
-          "name": "SN",
           "value": 2
         },
         {
@@ -2365,7 +2364,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-03T06:21:26.815591+00:00",
+    "fetched_at": "2026-07-03T11:25:26.987147+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
