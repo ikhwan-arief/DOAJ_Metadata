@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-08T13:27:55.753840+00:00",
+  "generated_at": "2026-07-08T16:25:57.091884+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23168,
-  "article_total": 13227747,
+  "journal_total": 23169,
+  "article_total": 13227164,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23168
+      "value": 23169
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13227747,
+      "value": 13227164,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14602
+          "value": 14603
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14759
+          "value": 14760
         },
         {
           "name": "No",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10473
+          "value": 10474
         },
         {
           "name": "Asia",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19439
+          "value": 19440
         },
         {
           "name": "ES",
@@ -1062,7 +1062,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5155
+          "value": 5156
         },
         {
           "name": "CC BY-NC",
@@ -1104,7 +1104,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6384
+          "value": 6385
         },
         {
           "name": "Peer review",
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            51
+            52
           ]
         }
       ]
@@ -1947,7 +1947,7 @@
         },
         {
           "name": "HU",
-          "value": 111
+          "value": 112
         },
         {
           "name": "EC",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-08T13:27:54.273741+00:00",
+    "fetched_at": "2026-07-08T16:25:55.693253+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 31,
+      "Frankfurter API": 21
     },
     "supported_currencies": [
       "EUR",
