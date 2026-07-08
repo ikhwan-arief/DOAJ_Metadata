@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-07T19:39:36.990723+00:00",
+  "generated_at": "2026-07-08T05:41:36.046087+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23156,
-  "article_total": 13229711,
+  "journal_total": 23159,
+  "article_total": 13230830,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23156
+      "value": 23159
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13229711,
+      "value": 13230830,
       "detail": "Global DOAJ article total"
     },
     {
@@ -279,6 +279,7 @@
       "Crystallography",
       "Cybernetics",
       "Cytology",
+      "Czechoslovakia",
       "Dairy processing. Dairy products",
       "Dairying",
       "Dancing",
@@ -861,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14595
+          "value": 14597
         },
         {
           "name": "Yes",
-          "value": 8561
+          "value": 8562
         }
       ]
     },
@@ -875,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14749
+          "value": 14752
         },
         {
           "name": "No",
@@ -935,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10467
+          "value": 10469
         },
         {
           "name": "Asia",
-          "value": 6783
+          "value": 6784
         },
         {
           "name": "South America",
@@ -965,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19430
+          "value": 19432
         },
         {
           "name": "ES",
@@ -1047,7 +1048,7 @@
         },
         {
           "name": "Biology (General)",
-          "value": 476
+          "value": 477
         }
       ]
     },
@@ -1057,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 11978
+          "value": 11980
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5150
+          "value": 5151
         },
         {
           "name": "CC BY-NC",
@@ -1099,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 14989
+          "value": 14992
         },
         {
           "name": "Anonymous peer review",
@@ -1125,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19518
+          "value": 19521
         },
         {
           "name": "Handles",
@@ -1163,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1674
+          "value": 1675
         },
         {
           "name": "PMC",
@@ -1787,7 +1788,7 @@
             198,
             193,
             188,
-            38
+            41
           ]
         }
       ]
@@ -1918,7 +1919,7 @@
         },
         {
           "name": "CZ",
-          "value": 166
+          "value": 167
         },
         {
           "name": "PT",
@@ -1946,7 +1947,7 @@
         },
         {
           "name": "HU",
-          "value": 110
+          "value": 111
         },
         {
           "name": "EC",
@@ -2033,15 +2034,15 @@
           "value": 35
         },
         {
+          "name": "NP",
+          "value": 34
+        },
+        {
           "name": "LK",
           "value": 33
         },
         {
           "name": "BD",
-          "value": 33
-        },
-        {
-          "name": "NP",
           "value": 33
         },
         {
@@ -2364,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-07T19:39:35.609959+00:00",
+    "fetched_at": "2026-07-08T05:41:34.622628+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
