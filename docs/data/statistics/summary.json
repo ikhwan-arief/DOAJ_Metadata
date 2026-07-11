@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-11T15:44:20.057836+00:00",
+  "generated_at": "2026-07-11T18:43:58.347513+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23184,
-  "article_total": 13238590,
+  "journal_total": 23183,
+  "article_total": 13239202,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23184
+      "value": 23183
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13238590,
+      "value": 13239202,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14610
+          "value": 14609
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14772
+          "value": 14771
         },
         {
           "name": "No",
@@ -944,7 +944,7 @@
         },
         {
           "name": "South America",
-          "value": 2839
+          "value": 2838
         },
         {
           "name": "North America",
@@ -970,7 +970,7 @@
         },
         {
           "name": "ES",
-          "value": 4087
+          "value": 4086
         },
         {
           "name": "PT",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 966
+          "value": 965
         },
         {
           "name": "Education",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "Social sciences (General)",
-          "value": 696
+          "value": 695
         },
         {
           "name": "Education (General)",
@@ -1074,7 +1074,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2032
+          "value": 2031
         },
         {
           "name": "CC BY-ND",
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1813
+          "value": 1812
         },
         {
           "name": "Editorial review",
@@ -1624,7 +1624,7 @@
             23,
             47,
             24,
-            29,
+            28,
             31,
             49,
             17,
@@ -1855,7 +1855,7 @@
         },
         {
           "name": "CO",
-          "value": 461
+          "value": 460
         },
         {
           "name": "DE",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-11T15:44:18.713643+00:00",
+    "fetched_at": "2026-07-11T18:43:56.849859+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
