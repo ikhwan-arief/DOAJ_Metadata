@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-13T14:02:06.447032+00:00",
+  "generated_at": "2026-07-13T17:05:07.457530+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23189,
-  "article_total": 13254556,
+  "article_total": 13254793,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13254556,
+      "value": 13254793,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14611
+          "value": 14612
         },
         {
           "name": "Yes",
-          "value": 8578
+          "value": 8577
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14775
+          "value": 14776
         },
         {
           "name": "No",
-          "value": 8414
+          "value": 8413
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2727
+          "value": 2726
         },
         {
           "name": "GB",
@@ -926,7 +926,7 @@
         },
         {
           "name": "RU",
-          "value": 648
+          "value": 649
         }
       ]
     },
@@ -936,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10483
+          "value": 10484
         },
         {
           "name": "Asia",
-          "value": 6794
+          "value": 6793
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19460
+          "value": 19461
         },
         {
           "name": "ES",
@@ -982,11 +982,11 @@
         },
         {
           "name": "ID",
-          "value": 1818
+          "value": 1817
         },
         {
           "name": "RU",
-          "value": 956
+          "value": 957
         },
         {
           "name": "IT",
@@ -1040,7 +1040,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 565
+          "value": 564
         },
         {
           "name": "Business",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19554
+          "value": 19555
         },
         {
           "name": "Handles",
@@ -1677,7 +1677,7 @@
             127,
             58,
             69,
-            146,
+            145,
             124,
             141,
             187,
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            77
+            78
           ]
         }
       ]
@@ -1799,7 +1799,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2727
+          "value": 2726
         },
         {
           "name": "GB",
@@ -1835,7 +1835,7 @@
         },
         {
           "name": "RU",
-          "value": 648
+          "value": 649
         },
         {
           "name": "CN",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-13T14:02:04.961530+00:00",
+    "fetched_at": "2026-07-13T17:05:05.993363+00:00",
     "providers": {
-      "open.er-api.com": 30,
-      "Frankfurter API": 22
+      "open.er-api.com": 28,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
