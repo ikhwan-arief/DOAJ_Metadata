@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-15T13:08:12.255200+00:00",
+  "generated_at": "2026-07-15T16:15:12.955798+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23206,
-  "article_total": 13267441,
+  "journal_total": 23204,
+  "article_total": 13266848,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23206
+      "value": 23204
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13267441,
+      "value": 13266848,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14622
+          "value": 14618
         },
         {
           "name": "Yes",
-          "value": 8584
+          "value": 8586
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14793
+          "value": 14790
         },
         {
           "name": "No",
-          "value": 8413
+          "value": 8414
         }
       ]
     },
@@ -944,7 +944,7 @@
         },
         {
           "name": "South America",
-          "value": 2839
+          "value": 2837
         },
         {
           "name": "North America",
@@ -966,15 +966,15 @@
       "items": [
         {
           "name": "EN",
-          "value": 19480
+          "value": 19478
         },
         {
           "name": "ES",
-          "value": 4091
+          "value": 4089
         },
         {
           "name": "PT",
-          "value": 2287
+          "value": 2285
         },
         {
           "name": "FR",
@@ -1058,15 +1058,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12008
+          "value": 12006
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5168
+          "value": 5169
         },
         {
           "name": "CC BY-NC",
-          "value": 5065
+          "value": 5066
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15023
+          "value": 15021
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19575
+          "value": 19573
         },
         {
           "name": "Handles",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4437
+          "value": 4438
         },
         {
           "name": "LOCKSS",
@@ -1178,7 +1178,7 @@
       "items": [
         {
           "name": "Elsevier",
-          "value": 845
+          "value": 846
         },
         {
           "name": "Wiley",
@@ -1575,7 +1575,7 @@
             12,
             22,
             12,
-            20,
+            19,
             11,
             16,
             30,
@@ -1647,7 +1647,7 @@
             35,
             21,
             26,
-            28,
+            27,
             30,
             51,
             43,
@@ -1724,7 +1724,7 @@
             75,
             175,
             188,
-            218,
+            217,
             162,
             197,
             192,
@@ -1788,7 +1788,7 @@
             198,
             193,
             188,
-            96
+            97
           ]
         }
       ]
@@ -1851,15 +1851,15 @@
         },
         {
           "name": "NL",
-          "value": 508
+          "value": 509
         },
         {
           "name": "CO",
-          "value": 461
+          "value": 459
         },
         {
           "name": "DE",
-          "value": 458
+          "value": 457
         },
         {
           "name": "IN",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-15T13:08:10.824495+00:00",
+    "fetched_at": "2026-07-15T16:15:11.620006+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 37,
+      "Frankfurter API": 15
     },
     "supported_currencies": [
       "EUR",
