@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T10:42:04.417312+00:00",
+  "generated_at": "2026-07-15T13:08:12.255200+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23206,
-  "article_total": 13266778,
+  "article_total": 13267441,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13266778,
+      "value": 13267441,
       "detail": "Global DOAJ article total"
     },
     {
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14792
+          "value": 14793
         },
         {
           "name": "No",
-          "value": 8414
+          "value": 8413
         }
       ]
     },
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15022
+          "value": 15023
         },
         {
           "name": "Anonymous peer review",
@@ -1108,15 +1108,15 @@
         },
         {
           "name": "Peer review",
-          "value": 1815
+          "value": 1814
         },
         {
           "name": "Editorial review",
-          "value": 447
+          "value": 448
         },
         {
           "name": "Open peer review",
-          "value": 403
+          "value": 404
         }
       ]
     },
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19573
+          "value": 19575
         },
         {
           "name": "Handles",
@@ -1152,7 +1152,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4675
+          "value": 4676
         },
         {
           "name": "Portico",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1949
+          "value": 1948
         },
         {
           "name": "PKP PN",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-15T10:42:03.043884+00:00",
+    "fetched_at": "2026-07-15T13:08:10.824495+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
