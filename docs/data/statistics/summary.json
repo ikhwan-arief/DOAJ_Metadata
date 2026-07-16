@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-16T05:31:11.700490+00:00",
+  "generated_at": "2026-07-16T07:54:00.708544+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23202,
-  "article_total": 13270491,
+  "journal_total": 23204,
+  "article_total": 13271083,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23202
+      "value": 23204
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13270491,
+      "value": 13271083,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14618
+          "value": 14620
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14788
+          "value": 14790
         },
         {
           "name": "No",
@@ -910,7 +910,7 @@
         },
         {
           "name": "ES",
-          "value": 1022
+          "value": 1023
         },
         {
           "name": "PL",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10495
+          "value": 10496
         },
         {
           "name": "Asia",
@@ -948,7 +948,7 @@
         },
         {
           "name": "North America",
-          "value": 2039
+          "value": 2040
         },
         {
           "name": "Africa",
@@ -966,19 +966,19 @@
       "items": [
         {
           "name": "EN",
-          "value": 19478
+          "value": 19480
         },
         {
           "name": "ES",
-          "value": 4087
+          "value": 4089
         },
         {
           "name": "PT",
-          "value": 2286
+          "value": 2287
         },
         {
           "name": "FR",
-          "value": 1889
+          "value": 1890
         },
         {
           "name": "ID",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 966
+          "value": 967
         },
         {
           "name": "Education",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12005
+          "value": 12006
         },
         {
           "name": "CC BY-NC-ND",
@@ -1070,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2154
+          "value": 2155
         },
         {
           "name": "CC BY-SA",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15020
+          "value": 15021
         },
         {
           "name": "Anonymous peer review",
-          "value": 6397
+          "value": 6398
         },
         {
           "name": "Peer review",
@@ -1112,7 +1112,7 @@
         },
         {
           "name": "Editorial review",
-          "value": 448
+          "value": 449
         },
         {
           "name": "Open peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19573
+          "value": 19575
         },
         {
           "name": "Handles",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1685
+          "value": 1686
         },
         {
           "name": "PMC",
@@ -1788,7 +1788,7 @@
             197,
             193,
             188,
-            99
+            101
           ]
         }
       ]
@@ -1819,7 +1819,7 @@
         },
         {
           "name": "ES",
-          "value": 1022
+          "value": 1023
         },
         {
           "name": "PL",
@@ -1975,7 +1975,7 @@
         },
         {
           "name": "CR",
-          "value": 78
+          "value": 79
         },
         {
           "name": "SE",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-16T05:31:10.334340+00:00",
+    "fetched_at": "2026-07-16T07:53:59.473759+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
