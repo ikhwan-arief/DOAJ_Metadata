@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-17T13:02:08.900596+00:00",
+  "generated_at": "2026-07-17T16:08:22.976683+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23204,
-  "article_total": 13276538,
+  "journal_total": 23205,
+  "article_total": 13278093,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23204
+      "value": 23205
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13276538,
+      "value": 13278093,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14621
+          "value": 14622
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14793
+          "value": 14794
         },
         {
           "name": "No",
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2725
         },
         {
           "name": "GB",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6794
+          "value": 6795
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19481
+          "value": 19482
         },
         {
           "name": "ES",
@@ -1002,7 +1002,7 @@
         },
         {
           "name": "AR",
-          "value": 619
+          "value": 620
         }
       ]
     },
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Language and Literature",
-          "value": 633
+          "value": 634
         },
         {
           "name": "Special aspects of education",
@@ -1074,7 +1074,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2028
+          "value": 2029
         },
         {
           "name": "CC BY-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15019
+          "value": 15020
         },
         {
           "name": "Anonymous peer review",
@@ -1788,7 +1788,7 @@
             197,
             193,
             188,
-            107
+            108
           ]
         }
       ]
@@ -1799,7 +1799,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2725
         },
         {
           "name": "GB",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-17T13:02:07.332859+00:00",
+    "fetched_at": "2026-07-17T16:08:21.634070+00:00",
     "providers": {
-      "open.er-api.com": 34,
-      "Frankfurter API": 18
+      "open.er-api.com": 28,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
