@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T15:44:22.382814+00:00",
+  "generated_at": "2026-07-18T21:40:27.707967+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23215,
-  "article_total": 13281203,
+  "journal_total": 23216,
+  "article_total": 13281584,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23215
+      "value": 23216
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13281203,
+      "value": 13281584,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14628
+          "value": 14629
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14804
+          "value": 14805
         },
         {
           "name": "No",
@@ -926,7 +926,7 @@
         },
         {
           "name": "RU",
-          "value": 650
+          "value": 651
         }
       ]
     },
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10501
+          "value": 10502
         },
         {
           "name": "Asia",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19493
+          "value": 19494
         },
         {
           "name": "ES",
@@ -986,7 +986,7 @@
         },
         {
           "name": "RU",
-          "value": 957
+          "value": 958
         },
         {
           "name": "IT",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12013
+          "value": 12014
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15027
+          "value": 15028
         },
         {
           "name": "Anonymous peer review",
@@ -1160,11 +1160,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1950
+          "value": 1951
         },
         {
           "name": "PKP PN",
-          "value": 1689
+          "value": 1690
         },
         {
           "name": "PMC",
@@ -1788,7 +1788,7 @@
             197,
             193,
             188,
-            118
+            119
           ]
         }
       ]
@@ -1835,7 +1835,7 @@
         },
         {
           "name": "RU",
-          "value": 650
+          "value": 651
         },
         {
           "name": "CN",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-18T15:44:20.890383+00:00",
+    "fetched_at": "2026-07-18T21:40:26.258353+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
