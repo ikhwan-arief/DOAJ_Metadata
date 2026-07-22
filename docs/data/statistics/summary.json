@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T19:04:20.908231+00:00",
+  "generated_at": "2026-07-22T01:26:14.100364+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23236,
-  "article_total": 13291580,
+  "article_total": 13292989,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13291580,
+      "value": 13292989,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1854,11 +1854,11 @@
           "value": 507
         },
         {
-          "name": "DE",
+          "name": "CO",
           "value": 458
         },
         {
-          "name": "CO",
+          "name": "DE",
           "value": 458
         },
         {
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-21T19:04:19.774290+00:00",
+    "fetched_at": "2026-07-22T01:26:12.726995+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
