@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T01:26:14.100364+00:00",
+  "generated_at": "2026-07-22T05:39:51.566537+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23236,
-  "article_total": 13292989,
+  "article_total": 13293835,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13292989,
+      "value": 13293835,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14633
+          "value": 14632
         },
         {
           "name": "Yes",
-          "value": 8603
+          "value": 8604
         }
       ]
     },
@@ -1914,11 +1914,11 @@
           "value": 184
         },
         {
-          "name": "CZ",
+          "name": "HR",
           "value": 169
         },
         {
-          "name": "HR",
+          "name": "CZ",
           "value": 169
         },
         {
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-22T01:26:12.726995+00:00",
+    "fetched_at": "2026-07-22T05:39:50.132587+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
