@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T18:58:05.990376+00:00",
+  "generated_at": "2026-07-24T01:30:20.766318+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23246,
-  "article_total": 13303497,
+  "article_total": 13304135,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13303497,
+      "value": 13304135,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 63.0,
+      "value": 62.9,
       "detail": "Share of journals"
     }
   ],
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14636
+          "value": 14633
         },
         {
           "name": "Yes",
-          "value": 8610
+          "value": 8613
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14825
+          "value": 14826
         },
         {
           "name": "No",
-          "value": 8421
+          "value": 8420
         }
       ]
     },
@@ -1012,7 +1012,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1142
+          "value": 1141
         },
         {
           "name": "Social Sciences",
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12035
+          "value": 12039
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5182
+          "value": 5179
         },
         {
           "name": "CC BY-NC",
@@ -1078,7 +1078,7 @@
         },
         {
           "name": "CC BY-ND",
-          "value": 422
+          "value": 421
         },
         {
           "name": "Publisher's own license",
@@ -1160,11 +1160,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1963
+          "value": 1962
         },
         {
           "name": "PKP PN",
-          "value": 1694
+          "value": 1695
         },
         {
           "name": "PMC",
@@ -2030,11 +2030,11 @@
           "value": 42
         },
         {
-          "name": "NP",
+          "name": "MD",
           "value": 35
         },
         {
-          "name": "MD",
+          "name": "NP",
           "value": 35
         },
         {
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-23T18:58:04.575529+00:00",
+    "fetched_at": "2026-07-24T01:30:19.435330+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
