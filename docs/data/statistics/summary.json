@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T11:14:25.571647+00:00",
+  "generated_at": "2026-07-29T16:16:11.520874+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23261,
-  "article_total": 13345869,
+  "journal_total": 23263,
+  "article_total": 13347234,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23261
+      "value": 23263
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13345869,
+      "value": 13347234,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8623
+          "value": 8625
         }
       ]
     },
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8403
+          "value": 8405
         }
       ]
     },
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6811
+          "value": 6813
         },
         {
           "name": "South America",
@@ -1062,7 +1062,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5168
+          "value": 5170
         },
         {
           "name": "CC BY-NC",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15082
+          "value": 15083
         },
         {
           "name": "Anonymous peer review",
-          "value": 6423
+          "value": 6424
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19717
+          "value": 19719
         },
         {
           "name": "Handles",
@@ -1788,7 +1788,7 @@
             197,
             193,
             188,
-            188
+            190
           ]
         }
       ]
@@ -1839,7 +1839,7 @@
         },
         {
           "name": "CN",
-          "value": 552
+          "value": 554
         },
         {
           "name": "IT",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-29T11:14:24.191717+00:00",
+    "fetched_at": "2026-07-29T16:16:10.097488+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
