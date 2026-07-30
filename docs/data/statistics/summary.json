@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T05:31:05.678370+00:00",
+  "generated_at": "2026-07-30T08:13:01.584831+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23263,
-  "article_total": 13350560,
+  "journal_total": 23261,
+  "article_total": 13352203,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23263
+      "value": 23261
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13350560,
+      "value": 13352203,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14638
+          "value": 14637
         },
         {
           "name": "Yes",
-          "value": 8625
+          "value": 8624
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14858
+          "value": 14857
         },
         {
           "name": "No",
-          "value": 8405
+          "value": 8404
         }
       ]
     },
@@ -894,7 +894,7 @@
         },
         {
           "name": "GB",
-          "value": 2306
+          "value": 2305
         },
         {
           "name": "BR",
@@ -902,7 +902,7 @@
         },
         {
           "name": "US",
-          "value": 1316
+          "value": 1315
         },
         {
           "name": "IR",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10511
+          "value": 10510
         },
         {
           "name": "Asia",
@@ -948,7 +948,7 @@
         },
         {
           "name": "North America",
-          "value": 2048
+          "value": 2047
         },
         {
           "name": "Africa",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19546
+          "value": 19544
         },
         {
           "name": "ES",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12057
+          "value": 12055
         },
         {
           "name": "CC BY-NC-ND",
@@ -1070,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2169
+          "value": 2168
         },
         {
           "name": "CC BY-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15083
+          "value": 15082
         },
         {
           "name": "Anonymous peer review",
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1805
+          "value": 1804
         },
         {
           "name": "Editorial review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19719
+          "value": 19717
         },
         {
           "name": "Handles",
@@ -1152,7 +1152,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4693
+          "value": 4692
         },
         {
           "name": "Portico",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1976
+          "value": 1975
         },
         {
           "name": "PKP PN",
@@ -1206,7 +1206,7 @@
         },
         {
           "name": "SAGE Publishing",
-          "value": 211
+          "value": 210
         },
         {
           "name": "Sciendo",
@@ -1707,7 +1707,7 @@
             124,
             94,
             109,
-            111,
+            110,
             132,
             116,
             146,
@@ -1753,7 +1753,7 @@
             150,
             165,
             184,
-            146,
+            145,
             143,
             151,
             148,
@@ -1803,7 +1803,7 @@
         },
         {
           "name": "GB",
-          "value": 2306
+          "value": 2305
         },
         {
           "name": "BR",
@@ -1811,7 +1811,7 @@
         },
         {
           "name": "US",
-          "value": 1316
+          "value": 1315
         },
         {
           "name": "IR",
@@ -2365,10 +2365,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-30T05:31:04.264817+00:00",
+    "fetched_at": "2026-07-30T08:13:00.170327+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 34,
+      "Frankfurter API": 18
     },
     "supported_currencies": [
       "EUR",
