@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T19:06:56.221169+00:00",
+  "generated_at": "2026-07-31T21:57:04.533572+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23271,
-  "article_total": 13359497,
+  "journal_total": 23270,
+  "article_total": 13359821,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23271
+      "value": 23270
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13359497,
+      "value": 13359821,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14642
+          "value": 14641
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14867
+          "value": 14866
         },
         {
           "name": "No",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10512
+          "value": 10511
         },
         {
           "name": "Asia",
@@ -966,11 +966,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19550
+          "value": 19549
         },
         {
           "name": "ES",
-          "value": 4103
+          "value": 4102
         },
         {
           "name": "PT",
@@ -978,7 +978,7 @@
         },
         {
           "name": "FR",
-          "value": 1904
+          "value": 1903
         },
         {
           "name": "ID",
@@ -990,7 +990,7 @@
         },
         {
           "name": "IT",
-          "value": 911
+          "value": 910
         },
         {
           "name": "DE",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12059
+          "value": 12058
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15092
+          "value": 15091
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19727
+          "value": 19726
         },
         {
           "name": "Handles",
@@ -1787,7 +1787,7 @@
             172,
             197,
             193,
-            188,
+            187,
             200
           ]
         }
@@ -1843,7 +1843,7 @@
         },
         {
           "name": "IT",
-          "value": 548
+          "value": 547
         },
         {
           "name": "UA",
@@ -2365,7 +2365,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-07-31T19:06:54.861328+00:00",
+    "fetched_at": "2026-07-31T21:57:03.193879+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
