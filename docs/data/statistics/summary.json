@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02T15:52:44.269198+00:00",
+  "generated_at": "2026-08-02T18:53:43.375679+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23273,
-  "article_total": 13365709,
+  "article_total": 13364139,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13365709,
+      "value": 13364139,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1803
+          "value": 1804
         },
         {
           "name": "Editorial review",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1977
+          "value": 1978
         },
         {
           "name": "PKP PN",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-02T15:52:42.899302+00:00",
+    "fetched_at": "2026-08-02T18:53:41.927377+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
