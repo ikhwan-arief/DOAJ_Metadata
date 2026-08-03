@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-03T17:06:28.260575+00:00",
+  "generated_at": "2026-08-03T19:17:55.069190+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23276,
-  "article_total": 13365907,
+  "article_total": 13365975,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13365907,
+      "value": 13365975,
       "detail": "Global DOAJ article total"
     },
     {
@@ -922,11 +922,11 @@
         },
         {
           "name": "TR",
-          "value": 714
+          "value": 713
         },
         {
           "name": "RU",
-          "value": 648
+          "value": 649
         }
       ]
     },
@@ -936,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10513
+          "value": 10514
         },
         {
           "name": "Asia",
-          "value": 6819
+          "value": 6818
         },
         {
           "name": "South America",
@@ -986,7 +986,7 @@
         },
         {
           "name": "RU",
-          "value": 946
+          "value": 947
         },
         {
           "name": "IT",
@@ -1002,7 +1002,7 @@
         },
         {
           "name": "AR",
-          "value": 623
+          "value": 622
         }
       ]
     },
@@ -1062,11 +1062,11 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5177
+          "value": 5178
         },
         {
           "name": "CC BY-NC",
-          "value": 5084
+          "value": 5083
         },
         {
           "name": "CC BY-NC-SA",
@@ -1769,7 +1769,7 @@
             192,
             144,
             167,
-            144,
+            143,
             130,
             189,
             169,
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            7
+            8
           ]
         }
       ]
@@ -1833,11 +1833,11 @@
         },
         {
           "name": "TR",
-          "value": 714
+          "value": 713
         },
         {
           "name": "RU",
-          "value": 648
+          "value": 649
         },
         {
           "name": "CN",
@@ -2367,10 +2367,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-03T17:06:26.878257+00:00",
+    "fetched_at": "2026-08-03T19:17:53.709243+00:00",
     "providers": {
-      "open.er-api.com": 29,
-      "Frankfurter API": 23
+      "open.er-api.com": 28,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
