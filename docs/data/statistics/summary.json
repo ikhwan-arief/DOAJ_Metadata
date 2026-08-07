@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T18:38:46.662780+00:00",
+  "generated_at": "2026-08-07T21:28:12.623019+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23293,
-  "article_total": 13381724,
+  "journal_total": 23294,
+  "article_total": 13381883,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23293
+      "value": 23294
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13381724,
+      "value": 13381883,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8639
+          "value": 8640
         }
       ]
     },
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8406
+          "value": 8407
         }
       ]
     },
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6823
+          "value": 6824
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19573
+          "value": 19574
         },
         {
           "name": "ES",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5090
+          "value": 5091
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15108
+          "value": 15109
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19753
+          "value": 19754
         },
         {
           "name": "Handles",
@@ -1152,11 +1152,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4699
+          "value": 4700
         },
         {
           "name": "Portico",
-          "value": 4560
+          "value": 4561
         },
         {
           "name": "LOCKSS",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1719
+          "value": 1720
         },
         {
           "name": "PMC",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            29
+            30
           ]
         }
       ]
@@ -1901,7 +1901,7 @@
         },
         {
           "name": "PK",
-          "value": 192
+          "value": 193
         },
         {
           "name": "IQ",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-07T18:38:45.272051+00:00",
+    "fetched_at": "2026-08-07T21:28:11.238538+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
