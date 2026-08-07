@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-06T13:39:31.396059+00:00",
+  "generated_at": "2026-08-07T02:03:31.589738+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23288,
-  "article_total": 13376629,
+  "journal_total": 23289,
+  "article_total": 13378336,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23288
+      "value": 23289
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13376629,
+      "value": 13378336,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8638
+          "value": 8639
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14884
+          "value": 14885
         },
         {
           "name": "No",
@@ -914,7 +914,7 @@
         },
         {
           "name": "PL",
-          "value": 996
+          "value": 995
         },
         {
           "name": "CH",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10520
+          "value": 10521
         },
         {
           "name": "Asia",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19568
+          "value": 19569
         },
         {
           "name": "ES",
@@ -986,7 +986,7 @@
         },
         {
           "name": "RU",
-          "value": 946
+          "value": 947
         },
         {
           "name": "IT",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 975
+          "value": 976
         },
         {
           "name": "Education",
@@ -1040,11 +1040,11 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 570
+          "value": 569
         },
         {
           "name": "Business",
-          "value": 493
+          "value": 494
         },
         {
           "name": "Biology (General)",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5088
+          "value": 5089
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15105
+          "value": 15106
         },
         {
           "name": "Anonymous peer review",
@@ -1116,7 +1116,7 @@
         },
         {
           "name": "Open peer review",
-          "value": 406
+          "value": 407
         }
       ]
     },
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19746
+          "value": 19747
         },
         {
           "name": "Handles",
@@ -1751,7 +1751,7 @@
             114,
             193,
             138,
-            150,
+            149,
             165,
             184,
             145,
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            23
+            25
           ]
         }
       ]
@@ -1825,7 +1825,7 @@
         },
         {
           "name": "PL",
-          "value": 996
+          "value": 995
         },
         {
           "name": "CH",
@@ -1944,12 +1944,12 @@
           "value": 119
         },
         {
-          "name": "MY",
+          "name": "HU",
           "value": 115
         },
         {
-          "name": "HU",
-          "value": 114
+          "name": "MY",
+          "value": 115
         },
         {
           "name": "EC",
@@ -1989,7 +1989,7 @@
         },
         {
           "name": "SK",
-          "value": 69
+          "value": 70
         },
         {
           "name": "FI",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-06T13:39:29.973432+00:00",
+    "fetched_at": "2026-08-07T02:03:30.226037+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
