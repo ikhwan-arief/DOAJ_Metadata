@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T06:45:45.836158+00:00",
+  "generated_at": "2026-08-11T09:50:30.534990+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23301,
-  "article_total": 13397578,
+  "journal_total": 23303,
+  "article_total": 13398372,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23301
+      "value": 23303
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13397578,
+      "value": 13398372,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14641
+          "value": 14642
         },
         {
           "name": "Yes",
-          "value": 8660
+          "value": 8661
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14905
+          "value": 14907
         },
         {
           "name": "No",
@@ -910,7 +910,7 @@
         },
         {
           "name": "ES",
-          "value": 1025
+          "value": 1026
         },
         {
           "name": "PL",
@@ -918,7 +918,7 @@
         },
         {
           "name": "CH",
-          "value": 820
+          "value": 821
         },
         {
           "name": "TR",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10526
+          "value": 10528
         },
         {
           "name": "Asia",
@@ -966,23 +966,23 @@
       "items": [
         {
           "name": "EN",
-          "value": 19591
+          "value": 19593
         },
         {
           "name": "ES",
-          "value": 4101
+          "value": 4102
         },
         {
           "name": "PT",
-          "value": 2296
+          "value": 2297
         },
         {
           "name": "FR",
-          "value": 1904
+          "value": 1906
         },
         {
           "name": "ID",
-          "value": 1823
+          "value": 1821
         },
         {
           "name": "RU",
@@ -990,11 +990,11 @@
         },
         {
           "name": "IT",
-          "value": 909
+          "value": 911
         },
         {
           "name": "DE",
-          "value": 896
+          "value": 897
         },
         {
           "name": "FA",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 974
+          "value": 975
         },
         {
           "name": "Education",
@@ -1062,11 +1062,11 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5176
+          "value": 5177
         },
         {
           "name": "CC BY-NC",
-          "value": 5092
+          "value": 5093
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15123
+          "value": 15126
         },
         {
           "name": "Anonymous peer review",
-          "value": 6429
+          "value": 6428
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19779
+          "value": 19781
         },
         {
           "name": "Handles",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            48
+            50
           ]
         }
       ]
@@ -1821,7 +1821,7 @@
         },
         {
           "name": "ES",
-          "value": 1025
+          "value": 1026
         },
         {
           "name": "PL",
@@ -1829,7 +1829,7 @@
         },
         {
           "name": "CH",
-          "value": 820
+          "value": 821
         },
         {
           "name": "TR",
@@ -1904,11 +1904,11 @@
           "value": 193
         },
         {
-          "name": "IQ",
+          "name": "ZA",
           "value": 189
         },
         {
-          "name": "ZA",
+          "name": "IQ",
           "value": 189
         },
         {
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-11T06:45:44.658699+00:00",
+    "fetched_at": "2026-08-11T09:50:29.126519+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
