@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-11T09:50:30.534990+00:00",
+  "generated_at": "2026-08-11T12:39:08.032468+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23303,
-  "article_total": 13398372,
+  "article_total": 13398771,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13398372,
+      "value": 13398771,
       "detail": "Global DOAJ article total"
     },
     {
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14907
+          "value": 14909
         },
         {
           "name": "No",
-          "value": 8396
+          "value": 8394
         }
       ]
     },
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1821
+          "value": 1819
         },
         {
           "name": "RU",
@@ -1058,15 +1058,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12078
+          "value": 12077
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5177
+          "value": 5176
         },
         {
           "name": "CC BY-NC",
-          "value": 5093
+          "value": 5094
         },
         {
           "name": "CC BY-NC-SA",
@@ -1074,7 +1074,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2044
+          "value": 2045
         },
         {
           "name": "CC BY-ND",
@@ -1152,7 +1152,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4704
+          "value": 4705
         },
         {
           "name": "Portico",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1983
+          "value": 1985
         },
         {
           "name": "PKP PN",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-11T09:50:29.126519+00:00",
+    "fetched_at": "2026-08-11T12:39:06.645990+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
