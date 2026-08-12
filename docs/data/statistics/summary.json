@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T09:53:23.351758+00:00",
+  "generated_at": "2026-08-12T12:42:16.721790+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23306,
-  "article_total": 13402182,
+  "article_total": 13402600,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13402182,
+      "value": 13402600,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14644
+          "value": 14643
         },
         {
           "name": "Yes",
-          "value": 8662
+          "value": 8663
         }
       ]
     },
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1729
+          "value": 1730
         },
         {
           "name": "PMC",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-12T09:53:22.015256+00:00",
+    "fetched_at": "2026-08-12T12:42:15.325667+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
