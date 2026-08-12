@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T12:42:16.721790+00:00",
+  "generated_at": "2026-08-12T15:49:31.596104+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23306,
-  "article_total": 13402600,
+  "article_total": 13406381,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13402600,
+      "value": 13406381,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14643
+          "value": 14644
         },
         {
           "name": "Yes",
-          "value": 8663
+          "value": 8662
         }
       ]
     },
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10530
+          "value": 10529
         },
         {
           "name": "Asia",
@@ -944,7 +944,7 @@
         },
         {
           "name": "South America",
-          "value": 2846
+          "value": 2847
         },
         {
           "name": "North America",
@@ -970,7 +970,7 @@
         },
         {
           "name": "ES",
-          "value": 4102
+          "value": 4103
         },
         {
           "name": "PT",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 843
+          "value": 842
         },
         {
           "name": "Social sciences (General)",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4563
+          "value": 4562
         },
         {
           "name": "LOCKSS",
@@ -1724,7 +1724,7 @@
             161,
             75,
             175,
-            188,
+            187,
             218,
             162,
             197,
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            53
+            54
           ]
         }
       ]
@@ -1853,11 +1853,11 @@
         },
         {
           "name": "NL",
-          "value": 508
+          "value": 507
         },
         {
           "name": "CO",
-          "value": 466
+          "value": 467
         },
         {
           "name": "DE",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-12T12:42:15.325667+00:00",
+    "fetched_at": "2026-08-12T15:49:30.163948+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
