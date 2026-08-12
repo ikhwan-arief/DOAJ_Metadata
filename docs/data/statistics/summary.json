@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T04:41:12.280771+00:00",
+  "generated_at": "2026-08-12T09:53:23.351758+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23306,
-  "article_total": 13401025,
+  "article_total": 13402182,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13401025,
+      "value": 13402182,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14645
+          "value": 14644
         },
         {
           "name": "Yes",
-          "value": 8661
+          "value": 8662
         }
       ]
     },
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15129
+          "value": 15130
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19786
+          "value": 19788
         },
         {
           "name": "Handles",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1728
+          "value": 1729
         },
         {
           "name": "PMC",
@@ -1904,11 +1904,11 @@
           "value": 193
         },
         {
-          "name": "ZA",
+          "name": "IQ",
           "value": 189
         },
         {
-          "name": "IQ",
+          "name": "ZA",
           "value": 189
         },
         {
@@ -1980,11 +1980,11 @@
           "value": 79
         },
         {
-          "name": "AT",
+          "name": "SE",
           "value": 72
         },
         {
-          "name": "SE",
+          "name": "AT",
           "value": 72
         },
         {
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-12T04:41:10.770935+00:00",
+    "fetched_at": "2026-08-12T09:53:22.015256+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
