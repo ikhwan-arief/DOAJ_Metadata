@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T21:34:52.676724+00:00",
+  "generated_at": "2026-08-13T01:04:25.290120+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23305,
-  "article_total": 13406941,
+  "article_total": 13407470,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13406941,
+      "value": 13407470,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1904,11 +1904,11 @@
           "value": 193
         },
         {
-          "name": "IQ",
+          "name": "ZA",
           "value": 189
         },
         {
-          "name": "ZA",
+          "name": "IQ",
           "value": 189
         },
         {
@@ -2248,6 +2248,10 @@
           "value": 4
         },
         {
+          "name": "ZW",
+          "value": 3
+        },
+        {
           "name": "LB",
           "value": 3
         },
@@ -2257,10 +2261,6 @@
         },
         {
           "name": "RW",
-          "value": 3
-        },
-        {
-          "name": "ZW",
           "value": 3
         },
         {
@@ -2367,10 +2367,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-12T21:34:51.540924+00:00",
+    "fetched_at": "2026-08-13T01:04:24.353096+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 30,
+      "Frankfurter API": 22
     },
     "supported_currencies": [
       "EUR",
