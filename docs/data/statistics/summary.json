@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T12:43:30.304431+00:00",
+  "generated_at": "2026-08-13T15:48:47.159892+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23311,
-  "article_total": 13411769,
+  "article_total": 13412091,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13411769,
+      "value": 13412091,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14648
+          "value": 14649
         },
         {
           "name": "Yes",
-          "value": 8663
+          "value": 8662
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14918
+          "value": 14919
         },
         {
           "name": "No",
-          "value": 8393
+          "value": 8392
         }
       ]
     },
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19602
+          "value": 19603
         },
         {
           "name": "ES",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12079
+          "value": 12078
         },
         {
           "name": "CC BY-NC-ND",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5097
+          "value": 5098
         },
         {
           "name": "CC BY-NC-SA",
@@ -1690,7 +1690,7 @@
             202,
             142,
             148,
-            189,
+            188,
             153,
             134,
             129,
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            61
+            62
           ]
         }
       ]
@@ -1853,7 +1853,7 @@
         },
         {
           "name": "NL",
-          "value": 507
+          "value": 506
         },
         {
           "name": "CO",
@@ -2104,12 +2104,12 @@
           "value": 20
         },
         {
-          "name": "BY",
+          "name": "LV",
           "value": 19
         },
         {
-          "name": "LV",
-          "value": 18
+          "name": "BY",
+          "value": 19
         },
         {
           "name": "SA",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-13T12:43:29.037310+00:00",
+    "fetched_at": "2026-08-13T15:48:45.781879+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
