@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T04:42:21.860744+00:00",
+  "generated_at": "2026-08-14T07:09:15.688981+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23312,
-  "article_total": 13417690,
+  "article_total": 13418409,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13417690,
+      "value": 13418409,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1062,7 +1062,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5176
+          "value": 5177
         },
         {
           "name": "CC BY-NC",
@@ -1078,7 +1078,7 @@
         },
         {
           "name": "CC BY-ND",
-          "value": 422
+          "value": 421
         },
         {
           "name": "Publisher's own license",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15140
+          "value": 15141
         },
         {
           "name": "Anonymous peer review",
-          "value": 6428
+          "value": 6427
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19797
+          "value": 19798
         },
         {
           "name": "Handles",
@@ -2367,10 +2367,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-14T04:42:20.472040+00:00",
+    "fetched_at": "2026-08-14T07:09:14.354119+00:00",
     "providers": {
-      "open.er-api.com": 28,
-      "Frankfurter API": 24
+      "open.er-api.com": 29,
+      "Frankfurter API": 23
     },
     "supported_currencies": [
       "EUR",
