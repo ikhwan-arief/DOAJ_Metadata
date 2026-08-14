@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-14T18:40:54.319639+00:00",
+  "generated_at": "2026-08-14T21:15:34.813629+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23314,
-  "article_total": 13420451,
+  "journal_total": 23318,
+  "article_total": 13421749,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23314
+      "value": 23318
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13420451,
+      "value": 13421749,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8669
+          "value": 8673
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14925
+          "value": 14929
         },
         {
           "name": "No",
@@ -936,11 +936,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10534
+          "value": 10535
         },
         {
           "name": "Asia",
-          "value": 6829
+          "value": 6831
         },
         {
           "name": "South America",
@@ -956,7 +956,7 @@
         },
         {
           "name": "Oceania",
-          "value": 179
+          "value": 180
         }
       ]
     },
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19606
+          "value": 19610
         },
         {
           "name": "ES",
@@ -1012,7 +1012,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1142
+          "value": 1143
         },
         {
           "name": "Social Sciences",
@@ -1024,7 +1024,7 @@
         },
         {
           "name": "Social sciences (General)",
-          "value": 700
+          "value": 701
         },
         {
           "name": "Education (General)",
@@ -1048,7 +1048,7 @@
         },
         {
           "name": "Biology (General)",
-          "value": 479
+          "value": 480
         }
       ]
     },
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12083
+          "value": 12087
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15142
+          "value": 15143
         },
         {
           "name": "Anonymous peer review",
-          "value": 6428
+          "value": 6431
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19801
+          "value": 19804
         },
         {
           "name": "Handles",
@@ -1152,19 +1152,19 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4713
+          "value": 4714
         },
         {
           "name": "Portico",
-          "value": 4569
+          "value": 4570
         },
         {
           "name": "LOCKSS",
-          "value": 1991
+          "value": 1992
         },
         {
           "name": "PKP PN",
-          "value": 1732
+          "value": 1734
         },
         {
           "name": "PMC",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            64
+            68
           ]
         }
       ]
@@ -1897,7 +1897,7 @@
         },
         {
           "name": "PK",
-          "value": 193
+          "value": 195
         },
         {
           "name": "CL",
@@ -1928,12 +1928,12 @@
           "value": 165
         },
         {
-          "name": "PE",
+          "name": "AU",
           "value": 153
         },
         {
-          "name": "AU",
-          "value": 152
+          "name": "PE",
+          "value": 153
         },
         {
           "name": "NO",
@@ -1957,7 +1957,7 @@
         },
         {
           "name": "BG",
-          "value": 105
+          "value": 106
         },
         {
           "name": "SG",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-14T18:40:53.091352+00:00",
+    "fetched_at": "2026-08-14T21:15:33.446452+00:00",
     "providers": {
       "open.er-api.com": 28,
       "Frankfurter API": 24
