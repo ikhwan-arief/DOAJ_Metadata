@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-18T12:22:39.687143+00:00",
+  "generated_at": "2026-08-18T15:21:35.883079+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23330,
-  "article_total": 13452163,
+  "journal_total": 23331,
+  "article_total": 13453298,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23330
+      "value": 23331
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13452163,
+      "value": 13453298,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8686
+          "value": 8687
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14941
+          "value": 14942
         },
         {
           "name": "No",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10537
+          "value": 10538
         },
         {
           "name": "Asia",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19622
+          "value": 19623
         },
         {
           "name": "ES",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 979
+          "value": 980
         },
         {
           "name": "Education",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12091
+          "value": 12092
         },
         {
           "name": "CC BY-NC-ND",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15155
+          "value": 15156
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19815
+          "value": 19816
         },
         {
           "name": "Handles",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 1996
+          "value": 1997
         },
         {
           "name": "PKP PN",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            82
+            83
           ]
         }
       ]
@@ -1861,7 +1861,7 @@
         },
         {
           "name": "DE",
-          "value": 462
+          "value": 463
         },
         {
           "name": "IN",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-18T12:22:38.659232+00:00",
+    "fetched_at": "2026-08-18T15:21:34.560075+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
