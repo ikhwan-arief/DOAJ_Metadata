@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-19T06:24:31.720871+00:00",
+  "generated_at": "2026-08-19T12:21:53.653158+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23338,
-  "article_total": 13458870,
+  "journal_total": 23336,
+  "article_total": 13458848,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23338
+      "value": 23336
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13458870,
+      "value": 13458848,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14644
+          "value": 14643
         },
         {
           "name": "Yes",
-          "value": 8694
+          "value": 8693
         }
       ]
     },
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14947
+          "value": 14945
         },
         {
           "name": "No",
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10538
+          "value": 10537
         },
         {
           "name": "Asia",
@@ -952,7 +952,7 @@
         },
         {
           "name": "Africa",
-          "value": 875
+          "value": 874
         },
         {
           "name": "Oceania",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19630
+          "value": 19628
         },
         {
           "name": "ES",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 844
+          "value": 843
         },
         {
           "name": "Social sciences (General)",
@@ -1031,11 +1031,11 @@
           "value": 657
         },
         {
-          "name": "Medicine (General)",
+          "name": "Language and Literature",
           "value": 636
         },
         {
-          "name": "Language and Literature",
+          "name": "Medicine (General)",
           "value": 636
         },
         {
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12099
+          "value": 12098
         },
         {
           "name": "CC BY-NC-ND",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5101
+          "value": 5100
         },
         {
           "name": "CC BY-NC-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15163
+          "value": 15161
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19824
+          "value": 19823
         },
         {
           "name": "Handles",
@@ -1152,11 +1152,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4718
+          "value": 4720
         },
         {
           "name": "Portico",
-          "value": 4572
+          "value": 4571
         },
         {
           "name": "LOCKSS",
@@ -1741,7 +1741,7 @@
             146,
             193,
             191,
-            159,
+            158,
             145,
             129,
             143,
@@ -1759,7 +1759,7 @@
             151,
             148,
             124,
-            112,
+            111,
             162,
             143,
             141,
@@ -1853,7 +1853,7 @@
         },
         {
           "name": "NL",
-          "value": 506
+          "value": 505
         },
         {
           "name": "CO",
@@ -1997,7 +1997,7 @@
         },
         {
           "name": "NG",
-          "value": 61
+          "value": 60
         },
         {
           "name": "DZ",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-19T06:24:30.278993+00:00",
+    "fetched_at": "2026-08-19T12:21:52.710328+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
