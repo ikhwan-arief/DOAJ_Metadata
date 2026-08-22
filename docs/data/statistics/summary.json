@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T21:14:10.792979+00:00",
+  "generated_at": "2026-08-22T00:35:13.568215+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23358,
-  "article_total": 13471418,
+  "journal_total": 23352,
+  "article_total": 13471270,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23358
+      "value": 23352
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13471418,
+      "value": 13471270,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14654
+          "value": 14649
         },
         {
           "name": "Yes",
-          "value": 8704
+          "value": 8703
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14963
+          "value": 14960
         },
         {
           "name": "No",
-          "value": 8395
+          "value": 8392
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2747
+          "value": 2741
         },
         {
           "name": "GB",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6845
+          "value": 6839
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19647
+          "value": 19646
         },
         {
           "name": "ES",
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1821
+          "value": 1815
         },
         {
           "name": "RU",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 843
+          "value": 842
         },
         {
           "name": "Social sciences (General)",
@@ -1040,15 +1040,15 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 572
+          "value": 571
         },
         {
           "name": "Business",
-          "value": 493
+          "value": 492
         },
         {
           "name": "Biology (General)",
-          "value": 480
+          "value": 479
         }
       ]
     },
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12112
+          "value": 12111
         },
         {
           "name": "CC BY-NC-ND",
@@ -1066,15 +1066,15 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5105
+          "value": 5104
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2167
+          "value": 2166
         },
         {
           "name": "CC BY-SA",
-          "value": 2054
+          "value": 2051
         },
         {
           "name": "CC BY-ND",
@@ -1100,15 +1100,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15182
+          "value": 15180
         },
         {
           "name": "Anonymous peer review",
-          "value": 6433
+          "value": 6431
         },
         {
           "name": "Peer review",
-          "value": 1799
+          "value": 1797
         },
         {
           "name": "Editorial review",
@@ -1687,7 +1687,7 @@
             184,
             160,
             123,
-            202,
+            196,
             142,
             148,
             188,
@@ -1801,7 +1801,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2747
+          "value": 2741
         },
         {
           "name": "GB",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-21T21:14:09.292627+00:00",
+    "fetched_at": "2026-08-22T00:35:12.366381+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
