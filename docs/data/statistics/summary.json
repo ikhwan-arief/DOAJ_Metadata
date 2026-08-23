@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T18:14:01.369279+00:00",
+  "generated_at": "2026-08-23T21:12:19.917071+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23341,
-  "article_total": 13480511,
+  "journal_total": 23340,
+  "article_total": 13480324,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23341
+      "value": 23340
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13480511,
+      "value": 13480324,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14642
+          "value": 14641
         },
         {
           "name": "Yes",
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8381
+          "value": 8380
         }
       ]
     },
@@ -926,7 +926,7 @@
         },
         {
           "name": "RU",
-          "value": 649
+          "value": 648
         }
       ]
     },
@@ -936,7 +936,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10549
+          "value": 10548
         },
         {
           "name": "Asia",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19644
+          "value": 19643
         },
         {
           "name": "ES",
@@ -986,7 +986,7 @@
         },
         {
           "name": "RU",
-          "value": 945
+          "value": 944
         },
         {
           "name": "IT",
@@ -1066,7 +1066,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5103
+          "value": 5102
         },
         {
           "name": "CC BY-NC-SA",
@@ -1104,7 +1104,7 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6433
+          "value": 6432
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19842
+          "value": 19841
         },
         {
           "name": "Handles",
@@ -1730,7 +1730,7 @@
             197,
             192,
             166,
-            190,
+            189,
             144,
             157,
             175,
@@ -1837,7 +1837,7 @@
         },
         {
           "name": "RU",
-          "value": 649
+          "value": 648
         },
         {
           "name": "CN",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-23T18:13:59.954787+00:00",
+    "fetched_at": "2026-08-23T21:12:18.468729+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
