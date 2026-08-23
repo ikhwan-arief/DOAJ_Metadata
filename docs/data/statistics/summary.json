@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T06:22:19.984738+00:00",
+  "generated_at": "2026-08-23T12:18:00.618348+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23342,
-  "article_total": 13471430,
+  "journal_total": 23341,
+  "article_total": 13480296,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23342
+      "value": 23341
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13471430,
+      "value": 13480296,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14643
+          "value": 14642
         },
         {
           "name": "Yes",
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8382
+          "value": 8381
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2726
+          "value": 2725
         },
         {
           "name": "GB",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6826
+          "value": 6825
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19645
+          "value": 19644
         },
         {
           "name": "ES",
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1802
+          "value": 1801
         },
         {
           "name": "RU",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12106
+          "value": 12105
         },
         {
           "name": "CC BY-NC-ND",
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1791
+          "value": 1790
         },
         {
           "name": "Editorial review",
@@ -1160,7 +1160,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2003
+          "value": 2004
         },
         {
           "name": "PKP PN",
@@ -1689,7 +1689,7 @@
             122,
             195,
             140,
-            143,
+            142,
             182,
             153,
             134,
@@ -1801,7 +1801,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2726
+          "value": 2725
         },
         {
           "name": "GB",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-23T06:22:18.518972+00:00",
+    "fetched_at": "2026-08-23T12:17:59.241008+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
