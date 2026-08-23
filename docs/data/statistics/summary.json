@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T21:12:18.674678+00:00",
+  "generated_at": "2026-08-23T03:41:40.676701+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23353,
-  "article_total": 13472455,
+  "journal_total": 23342,
+  "article_total": 13471245,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23353
+      "value": 23342
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13472455,
+      "value": 13471245,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14649
+          "value": 14643
         },
         {
           "name": "Yes",
-          "value": 8704
+          "value": 8699
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14963
+          "value": 14960
         },
         {
           "name": "No",
-          "value": 8390
+          "value": 8382
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2737
+          "value": 2726
         },
         {
           "name": "GB",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6837
+          "value": 6826
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19649
+          "value": 19645
         },
         {
           "name": "ES",
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1811
+          "value": 1802
         },
         {
           "name": "RU",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 843
+          "value": 842
         },
         {
           "name": "Social sciences (General)",
@@ -1028,15 +1028,15 @@
         },
         {
           "name": "Education (General)",
-          "value": 656
-        },
-        {
-          "name": "Language and Literature",
-          "value": 636
+          "value": 653
         },
         {
           "name": "Medicine (General)",
           "value": 635
+        },
+        {
+          "name": "Language and Literature",
+          "value": 633
         },
         {
           "name": "Special aspects of education",
@@ -1044,7 +1044,7 @@
         },
         {
           "name": "Business",
-          "value": 491
+          "value": 489
         },
         {
           "name": "Biology (General)",
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12113
+          "value": 12106
         },
         {
           "name": "CC BY-NC-ND",
@@ -1066,15 +1066,15 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5104
+          "value": 5103
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2166
+          "value": 2165
         },
         {
           "name": "CC BY-SA",
-          "value": 2049
+          "value": 2047
         },
         {
           "name": "CC BY-ND",
@@ -1100,15 +1100,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15180
+          "value": 15174
         },
         {
           "name": "Anonymous peer review",
-          "value": 6434
+          "value": 6433
         },
         {
           "name": "Peer review",
-          "value": 1795
+          "value": 1791
         },
         {
           "name": "Editorial review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19847
+          "value": 19842
         },
         {
           "name": "Handles",
@@ -1686,11 +1686,11 @@
             144,
             184,
             160,
-            123,
+            122,
             195,
             140,
-            147,
-            188,
+            143,
+            182,
             153,
             134,
             129,
@@ -1801,7 +1801,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2737
+          "value": 2726
         },
         {
           "name": "GB",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-22T21:12:17.324451+00:00",
+    "fetched_at": "2026-08-23T03:41:39.308209+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
