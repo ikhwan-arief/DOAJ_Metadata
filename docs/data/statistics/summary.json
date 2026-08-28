@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T13:17:37.906052+00:00",
+  "generated_at": "2026-08-28T00:09:54.723215+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23372,
-  "article_total": 13510671,
+  "journal_total": 23371,
+  "article_total": 13511818,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23372
+      "value": 23371
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13510671,
+      "value": 13511818,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8714
+          "value": 8713
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14987
+          "value": 14990
         },
         {
           "name": "No",
-          "value": 8385
+          "value": 8381
         }
       ]
     },
@@ -894,7 +894,7 @@
         },
         {
           "name": "GB",
-          "value": 2314
+          "value": 2313
         },
         {
           "name": "BR",
@@ -902,7 +902,7 @@
         },
         {
           "name": "US",
-          "value": 1322
+          "value": 1321
         },
         {
           "name": "IR",
@@ -948,7 +948,7 @@
         },
         {
           "name": "North America",
-          "value": 2056
+          "value": 2055
         },
         {
           "name": "Africa",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19673
+          "value": 19671
         },
         {
           "name": "ES",
@@ -1012,7 +1012,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1146
+          "value": 1145
         },
         {
           "name": "Social Sciences",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 843
+          "value": 844
         },
         {
           "name": "Social sciences (General)",
@@ -1028,7 +1028,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 653
+          "value": 654
         },
         {
           "name": "Language and Literature",
@@ -1062,23 +1062,23 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5189
+          "value": 5187
         },
         {
           "name": "CC BY-NC",
-          "value": 5114
+          "value": 5113
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2165
+          "value": 2164
         },
         {
           "name": "CC BY-SA",
-          "value": 2047
+          "value": 2045
         },
         {
           "name": "CC BY-ND",
-          "value": 421
+          "value": 420
         },
         {
           "name": "Publisher's own license",
@@ -1104,15 +1104,15 @@
         },
         {
           "name": "Anonymous peer review",
-          "value": 6441
+          "value": 6439
         },
         {
           "name": "Peer review",
-          "value": 1790
+          "value": 1791
         },
         {
           "name": "Editorial review",
-          "value": 458
+          "value": 460
         },
         {
           "name": "Open peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19876
+          "value": 19875
         },
         {
           "name": "Handles",
@@ -1152,11 +1152,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4728
+          "value": 4727
         },
         {
           "name": "Portico",
-          "value": 4580
+          "value": 4581
         },
         {
           "name": "LOCKSS",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1762
+          "value": 1763
         },
         {
           "name": "PMC",
@@ -1198,7 +1198,7 @@
         },
         {
           "name": "Taylor & Francis Group",
-          "value": 243
+          "value": 242
         },
         {
           "name": "Frontiers Media S.A.",
@@ -1673,7 +1673,7 @@
             45,
             80,
             83,
-            165,
+            164,
             109,
             127,
             59,
@@ -1697,8 +1697,8 @@
             151,
             104,
             117,
-            104,
-            93,
+            103,
+            92,
             102,
             191,
             171,
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            153
+            155
           ]
         }
       ]
@@ -1805,7 +1805,7 @@
         },
         {
           "name": "GB",
-          "value": 2314
+          "value": 2313
         },
         {
           "name": "BR",
@@ -1813,7 +1813,7 @@
         },
         {
           "name": "US",
-          "value": 1322
+          "value": 1321
         },
         {
           "name": "IR",
@@ -1853,7 +1853,7 @@
         },
         {
           "name": "NL",
-          "value": 505
+          "value": 506
         },
         {
           "name": "CO",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-27T13:17:36.426497+00:00",
+    "fetched_at": "2026-08-28T00:09:53.500804+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
