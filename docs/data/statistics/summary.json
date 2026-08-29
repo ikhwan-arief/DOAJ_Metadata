@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T14:42:07.123513+00:00",
+  "generated_at": "2026-08-29T04:39:38.219210+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23372,
-  "article_total": 13514535,
+  "journal_total": 23373,
+  "article_total": 13515789,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23372
+      "value": 23373
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13514535,
+      "value": 13515789,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14657
+          "value": 14658
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 14992
+          "value": 14993
         },
         {
           "name": "No",
@@ -952,7 +952,7 @@
         },
         {
           "name": "Africa",
-          "value": 895
+          "value": 896
         },
         {
           "name": "Oceania",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19671
+          "value": 19672
         },
         {
           "name": "ES",
@@ -978,7 +978,7 @@
         },
         {
           "name": "FR",
-          "value": 1921
+          "value": 1922
         },
         {
           "name": "ID",
@@ -1016,7 +1016,7 @@
         },
         {
           "name": "Social Sciences",
-          "value": 981
+          "value": 982
         },
         {
           "name": "Education",
@@ -1070,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2166
+          "value": 2167
         },
         {
           "name": "CC BY-SA",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15200
+          "value": 15202
         },
         {
           "name": "Anonymous peer review",
-          "value": 6438
+          "value": 6437
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19879
+          "value": 19881
         },
         {
           "name": "Handles",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4581
+          "value": 4582
         },
         {
           "name": "LOCKSS",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            158
+            159
           ]
         }
       ]
@@ -2132,16 +2132,16 @@
           "value": 13
         },
         {
+          "name": "CD",
+          "value": 12
+        },
+        {
           "name": "GE",
           "value": 12
         },
         {
           "name": "BO",
           "value": 12
-        },
-        {
-          "name": "CD",
-          "value": 11
         },
         {
           "name": "SV",
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-28T14:42:05.681663+00:00",
+    "fetched_at": "2026-08-29T04:39:36.785366+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
