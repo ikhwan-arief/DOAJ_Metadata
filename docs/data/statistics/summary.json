@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T18:22:18.272098+00:00",
+  "generated_at": "2026-09-01T00:11:33.289328+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23385,
-  "article_total": 13529912,
+  "journal_total": 23386,
+  "article_total": 13530736,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23385
+      "value": 23386
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13529912,
+      "value": 13530736,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,7 +862,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14662
+          "value": 14663
         },
         {
           "name": "Yes",
@@ -876,7 +876,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15007
+          "value": 15008
         },
         {
           "name": "No",
@@ -944,7 +944,7 @@
         },
         {
           "name": "South America",
-          "value": 2846
+          "value": 2847
         },
         {
           "name": "North America",
@@ -970,7 +970,7 @@
         },
         {
           "name": "ES",
-          "value": 4106
+          "value": 4107
         },
         {
           "name": "PT",
@@ -1020,7 +1020,7 @@
         },
         {
           "name": "Education",
-          "value": 844
+          "value": 845
         },
         {
           "name": "Social sciences (General)",
@@ -1070,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2168
+          "value": 2169
         },
         {
           "name": "CC BY-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15210
+          "value": 15211
         },
         {
           "name": "Anonymous peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19893
+          "value": 19894
         },
         {
           "name": "Handles",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1767
+          "value": 1768
         },
         {
           "name": "PMC",
@@ -1790,7 +1790,7 @@
             193,
             187,
             200,
-            171
+            172
           ]
         }
       ]
@@ -2124,6 +2124,10 @@
           "value": 15
         },
         {
+          "name": "BO",
+          "value": 13
+        },
+        {
           "name": "AM",
           "value": 13
         },
@@ -2137,10 +2141,6 @@
         },
         {
           "name": "GE",
-          "value": 12
-        },
-        {
-          "name": "BO",
           "value": 12
         },
         {
@@ -2367,7 +2367,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-08-31T18:22:16.938422+00:00",
+    "fetched_at": "2026-09-01T00:11:32.094087+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
