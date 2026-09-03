@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-02T22:55:05.159567+00:00",
+  "generated_at": "2026-09-03T07:28:42.077063+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23392,
-  "article_total": 13541855,
+  "article_total": 13542988,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13541855,
+      "value": 13542988,
       "detail": "Global DOAJ article total"
     },
     {
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15012
+          "value": 15011
         },
         {
           "name": "No",
-          "value": 8380
+          "value": 8381
         }
       ]
     },
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12128
+          "value": 12129
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5188
+          "value": 5189
         },
         {
           "name": "CC BY-NC",
@@ -1074,7 +1074,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2048
+          "value": 2047
         },
         {
           "name": "CC BY-ND",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15214
+          "value": 15215
         },
         {
           "name": "Anonymous peer review",
-          "value": 6442
+          "value": 6441
         },
         {
           "name": "Peer review",
@@ -1152,7 +1152,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4733
+          "value": 4734
         },
         {
           "name": "Portico",
@@ -1178,7 +1178,7 @@
       "items": [
         {
           "name": "Elsevier",
-          "value": 846
+          "value": 847
         },
         {
           "name": "Wiley",
@@ -1687,7 +1687,7 @@
             144,
             184,
             160,
-            122,
+            121,
             195,
             140,
             142,
@@ -1792,7 +1792,7 @@
             187,
             200,
             172,
-            13
+            14
           ]
         }
       ]
@@ -1851,11 +1851,11 @@
         },
         {
           "name": "UA",
-          "value": 538
+          "value": 537
         },
         {
           "name": "NL",
-          "value": 504
+          "value": 505
         },
         {
           "name": "CO",
@@ -1867,7 +1867,7 @@
         },
         {
           "name": "IN",
-          "value": 422
+          "value": 423
         },
         {
           "name": "AR",
@@ -1971,7 +1971,7 @@
         },
         {
           "name": "JP",
-          "value": 96
+          "value": 95
         },
         {
           "name": "SI",
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-02T22:55:03.890552+00:00",
+    "fetched_at": "2026-09-03T07:28:40.686252+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
