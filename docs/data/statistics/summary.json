@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-06T01:49:54.868532+00:00",
+  "generated_at": "2026-09-06T17:25:19.737615+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23402,
-  "article_total": 13557822,
+  "journal_total": 23406,
+  "article_total": 13563216,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23402
+      "value": 23406
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13557822,
+      "value": 13563216,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14670
+          "value": 14671
         },
         {
           "name": "Yes",
-          "value": 8732
+          "value": 8735
         }
       ]
     },
@@ -880,7 +880,7 @@
         },
         {
           "name": "No",
-          "value": 8377
+          "value": 8381
         }
       ]
     },
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6859
+          "value": 6863
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19704
+          "value": 19705
         },
         {
           "name": "ES",
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 636
+          "value": 637
         },
         {
           "name": "Special aspects of education",
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12137
+          "value": 12138
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5190
+          "value": 5193
         },
         {
           "name": "CC BY-NC",
@@ -1100,11 +1100,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15224
+          "value": 15226
         },
         {
           "name": "Anonymous peer review",
-          "value": 6443
+          "value": 6445
         },
         {
           "name": "Peer review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19922
+          "value": 19926
         },
         {
           "name": "Handles",
@@ -1160,11 +1160,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2019
+          "value": 2020
         },
         {
           "name": "PKP PN",
-          "value": 1777
+          "value": 1778
         },
         {
           "name": "PMC",
@@ -1792,7 +1792,7 @@
             187,
             200,
             172,
-            27
+            31
           ]
         }
       ]
@@ -1843,7 +1843,7 @@
         },
         {
           "name": "CN",
-          "value": 564
+          "value": 568
         },
         {
           "name": "IT",
@@ -1918,11 +1918,11 @@
           "value": 184
         },
         {
-          "name": "CZ",
+          "name": "HR",
           "value": 169
         },
         {
-          "name": "HR",
+          "name": "CZ",
           "value": 169
         },
         {
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-06T01:49:53.684536+00:00",
+    "fetched_at": "2026-09-06T17:25:18.694573+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
