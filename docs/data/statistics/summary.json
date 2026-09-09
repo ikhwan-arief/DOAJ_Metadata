@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T13:15:03.190565+00:00",
+  "generated_at": "2026-09-09T18:08:41.219857+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23430,
-  "article_total": 13578045,
+  "article_total": 13580123,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13578045,
+      "value": 13580123,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1058,7 +1058,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12151
+          "value": 12150
         },
         {
           "name": "CC BY-NC-ND",
@@ -1070,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2169
+          "value": 2170
         },
         {
           "name": "CC BY-SA",
@@ -1100,7 +1100,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15249
+          "value": 15250
         },
         {
           "name": "Anonymous peer review",
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Peer review",
-          "value": 1790
+          "value": 1789
         },
         {
           "name": "Editorial review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19959
+          "value": 19960
         },
         {
           "name": "Handles",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4598
+          "value": 4599
         },
         {
           "name": "LOCKSS",
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-09T13:15:01.726159+00:00",
+    "fetched_at": "2026-09-09T18:08:39.814865+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
