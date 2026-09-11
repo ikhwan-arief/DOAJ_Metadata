@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T07:35:50.452525+00:00",
+  "generated_at": "2026-09-11T18:00:35.186357+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23437,
-  "article_total": 13584030,
+  "journal_total": 23439,
+  "article_total": 13590972,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23437
+      "value": 23439
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13584030,
+      "value": 13590972,
       "detail": "Global DOAJ article total"
     },
     {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Yes",
-          "value": 8755
+          "value": 8757
         }
       ]
     },
@@ -876,11 +876,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15048
+          "value": 15046
         },
         {
           "name": "No",
-          "value": 8389
+          "value": 8393
         }
       ]
     },
@@ -890,7 +890,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2729
+          "value": 2730
         },
         {
           "name": "GB",
@@ -940,7 +940,7 @@
         },
         {
           "name": "Asia",
-          "value": 6875
+          "value": 6877
         },
         {
           "name": "South America",
@@ -966,7 +966,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19738
+          "value": 19740
         },
         {
           "name": "ES",
@@ -982,7 +982,7 @@
         },
         {
           "name": "ID",
-          "value": 1804
+          "value": 1805
         },
         {
           "name": "RU",
@@ -1012,15 +1012,15 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1149
+          "value": 1150
         },
         {
           "name": "Social Sciences",
-          "value": 991
+          "value": 992
         },
         {
           "name": "Education",
-          "value": 846
+          "value": 845
         },
         {
           "name": "Social sciences (General)",
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12155
+          "value": 12154
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5207
+          "value": 5210
         },
         {
           "name": "CC BY-NC",
@@ -1100,15 +1100,15 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15257
+          "value": 15259
         },
         {
           "name": "Anonymous peer review",
-          "value": 6451
+          "value": 6452
         },
         {
           "name": "Peer review",
-          "value": 1790
+          "value": 1789
         },
         {
           "name": "Editorial review",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19970
+          "value": 19972
         },
         {
           "name": "Handles",
@@ -1152,11 +1152,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4746
+          "value": 4747
         },
         {
           "name": "Portico",
-          "value": 4608
+          "value": 4609
         },
         {
           "name": "LOCKSS",
@@ -1164,7 +1164,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1784
+          "value": 1785
         },
         {
           "name": "PMC",
@@ -1194,7 +1194,7 @@
         },
         {
           "name": "Wolters Kluwer Medknow Publications",
-          "value": 253
+          "value": 254
         },
         {
           "name": "Taylor & Francis Group",
@@ -1792,7 +1792,7 @@
             187,
             200,
             172,
-            75
+            77
           ]
         }
       ]
@@ -1803,7 +1803,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2729
+          "value": 2730
         },
         {
           "name": "GB",
@@ -1867,7 +1867,7 @@
         },
         {
           "name": "IN",
-          "value": 431
+          "value": 432
         },
         {
           "name": "AR",
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-11T07:35:49.064260+00:00",
+    "fetched_at": "2026-09-11T18:00:33.754648+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
