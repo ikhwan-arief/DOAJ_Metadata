@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T01:54:00.311508+00:00",
+  "generated_at": "2026-09-11T07:35:50.452525+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23437,
-  "article_total": 13582523,
+  "article_total": 13584030,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13582523,
+      "value": 13584030,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 62.7,
+      "value": 62.6,
       "detail": "Share of journals"
     }
   ],
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14684
+          "value": 14682
         },
         {
           "name": "Yes",
-          "value": 8753
+          "value": 8755
         }
       ]
     },
@@ -1090,7 +1090,7 @@
         },
         {
           "name": "Public domain",
-          "value": 13
+          "value": 14
         }
       ]
     },
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4606
+          "value": 4608
         },
         {
           "name": "LOCKSS",
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-11T01:53:58.907056+00:00",
+    "fetched_at": "2026-09-11T07:35:49.064260+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
