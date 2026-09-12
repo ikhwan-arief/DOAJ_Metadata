@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T01:59:17.984985+00:00",
+  "generated_at": "2026-09-12T07:26:20.305715+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23439,
-  "article_total": 13591589,
+  "article_total": 13592694,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13591589,
+      "value": 13592694,
       "detail": "Global DOAJ article total"
     },
     {
@@ -862,11 +862,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14682
+          "value": 14681
         },
         {
           "name": "Yes",
-          "value": 8757
+          "value": 8758
         }
       ]
     },
@@ -1058,11 +1058,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12154
+          "value": 12155
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5210
+          "value": 5209
         },
         {
           "name": "CC BY-NC",
@@ -1126,7 +1126,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19972
+          "value": 19973
         },
         {
           "name": "Handles",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Portico",
-          "value": 4609
+          "value": 4610
         },
         {
           "name": "LOCKSS",
@@ -1855,7 +1855,7 @@
         },
         {
           "name": "NL",
-          "value": 504
+          "value": 505
         },
         {
           "name": "CO",
@@ -1863,7 +1863,7 @@
         },
         {
           "name": "DE",
-          "value": 464
+          "value": 463
         },
         {
           "name": "IN",
@@ -2369,7 +2369,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-12T01:59:16.851229+00:00",
+    "fetched_at": "2026-09-12T07:26:18.904925+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
