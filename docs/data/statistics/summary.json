@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T08:07:36.286130+00:00",
+  "generated_at": "2026-09-15T13:57:45.770066+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23452,
-  "article_total": 13610591,
+  "article_total": 13611757,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13610591,
+      "value": 13611757,
       "detail": "Global DOAJ article total"
     },
     {
@@ -877,11 +877,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15059
+          "value": 15060
         },
         {
           "name": "No",
-          "value": 8393
+          "value": 8392
         }
       ]
     },
@@ -1059,7 +1059,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12164
+          "value": 12165
         },
         {
           "name": "CC BY-NC-ND",
@@ -1067,7 +1067,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5118
+          "value": 5117
         },
         {
           "name": "CC BY-NC-SA",
@@ -1169,7 +1169,7 @@
         },
         {
           "name": "PMC",
-          "value": 1568
+          "value": 1569
         }
       ]
     },
@@ -2075,15 +2075,15 @@
           "value": 26
         },
         {
+          "name": "IE",
+          "value": 25
+        },
+        {
           "name": "HK",
           "value": 25
         },
         {
           "name": "NZ",
-          "value": 25
-        },
-        {
-          "name": "IE",
           "value": 25
         },
         {
@@ -2370,7 +2370,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-15T08:07:34.924062+00:00",
+    "fetched_at": "2026-09-15T13:57:44.349992+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
