@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T08:07:25.920514+00:00",
+  "generated_at": "2026-09-17T13:54:19.372207+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23464,
-  "article_total": 13621252,
+  "journal_total": 23468,
+  "article_total": 13622519,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23464
+      "value": 23468
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13621252,
+      "value": 13622519,
       "detail": "Global DOAJ article total"
     },
     {
@@ -725,7 +725,6 @@
       "Publisher's own license"
     ],
     "peer_review_types": [
-      "Anonymous peer review",
       "Anonymous reviews are published together with articles.",
       "Blind peer review Double blind peer review",
       "Collaborative editorial and peer review",
@@ -736,13 +735,14 @@
       "Open peer commentary",
       "Open peer review",
       "Partial double-anonymous peer review",
-      "Peer review",
       "Post-publication peer review",
       "Select Crowd Review",
+      "Single anonymous peer review",
       "Single blinded peer review",
       "Single-Blind",
       "Triple-Anonymous Peer Review",
       "Triple-anonymous peer review",
+      "Unspecified peer review",
       "single-anonymous peer review"
     ],
     "languages": [
@@ -867,7 +867,7 @@
         },
         {
           "name": "Yes",
-          "value": 8766
+          "value": 8770
         }
       ]
     },
@@ -881,7 +881,7 @@
         },
         {
           "name": "No",
-          "value": 8393
+          "value": 8397
         }
       ]
     },
@@ -895,7 +895,7 @@
         },
         {
           "name": "GB",
-          "value": 2321
+          "value": 2323
         },
         {
           "name": "BR",
@@ -903,7 +903,7 @@
         },
         {
           "name": "US",
-          "value": 1332
+          "value": 1333
         },
         {
           "name": "IR",
@@ -937,7 +937,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10574
+          "value": 10577
         },
         {
           "name": "Asia",
@@ -949,7 +949,7 @@
         },
         {
           "name": "North America",
-          "value": 2070
+          "value": 2071
         },
         {
           "name": "Africa",
@@ -967,7 +967,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19764
+          "value": 19768
         },
         {
           "name": "ES",
@@ -1013,7 +1013,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1152
+          "value": 1154
         },
         {
           "name": "Social Sciences",
@@ -1059,15 +1059,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12173
+          "value": 12177
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5211
+          "value": 5215
         },
         {
           "name": "CC BY-NC",
-          "value": 5121
+          "value": 5124
         },
         {
           "name": "CC BY-NC-SA",
@@ -1104,11 +1104,11 @@
           "value": 15282
         },
         {
-          "name": "Anonymous peer review",
-          "value": 6454
+          "name": "Single anonymous peer review",
+          "value": 6458
         },
         {
-          "name": "Peer review",
+          "name": "Unspecified peer review",
           "value": 1791
         },
         {
@@ -1127,7 +1127,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19998
+          "value": 20002
         },
         {
           "name": "Handles",
@@ -1153,11 +1153,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4754
+          "value": 4758
         },
         {
           "name": "Portico",
-          "value": 4615
+          "value": 4619
         },
         {
           "name": "LOCKSS",
@@ -1179,7 +1179,7 @@
       "items": [
         {
           "name": "Elsevier",
-          "value": 848
+          "value": 852
         },
         {
           "name": "Wiley",
@@ -1793,7 +1793,7 @@
             187,
             200,
             172,
-            105
+            109
           ]
         }
       ]
@@ -1808,7 +1808,7 @@
         },
         {
           "name": "GB",
-          "value": 2321
+          "value": 2323
         },
         {
           "name": "BR",
@@ -1816,7 +1816,7 @@
         },
         {
           "name": "US",
-          "value": 1332
+          "value": 1333
         },
         {
           "name": "IR",
@@ -1856,7 +1856,7 @@
         },
         {
           "name": "NL",
-          "value": 506
+          "value": 507
         },
         {
           "name": "CO",
@@ -1895,11 +1895,11 @@
           "value": 236
         },
         {
-          "name": "RS",
+          "name": "PK",
           "value": 204
         },
         {
-          "name": "PK",
+          "name": "RS",
           "value": 204
         },
         {
@@ -1955,11 +1955,11 @@
           "value": 116
         },
         {
-          "name": "BG",
+          "name": "EC",
           "value": 107
         },
         {
-          "name": "EC",
+          "name": "BG",
           "value": 107
         },
         {
@@ -2007,19 +2007,19 @@
           "value": 62
         },
         {
-          "name": "DK",
-          "value": 55
-        },
-        {
           "name": "BA",
           "value": 55
         },
         {
-          "name": "VE",
-          "value": 50
+          "name": "DK",
+          "value": 55
         },
         {
           "name": "MA",
+          "value": 50
+        },
+        {
+          "name": "VE",
           "value": 50
         },
         {
@@ -2047,19 +2047,19 @@
           "value": 34
         },
         {
-          "name": "LK",
-          "value": 33
-        },
-        {
           "name": "NP",
           "value": 33
         },
         {
-          "name": "GR",
-          "value": 31
+          "name": "LK",
+          "value": 33
         },
         {
           "name": "UY",
+          "value": 31
+        },
+        {
+          "name": "GR",
           "value": 31
         },
         {
@@ -2067,19 +2067,19 @@
           "value": 30
         },
         {
-          "name": "PY",
-          "value": 26
-        },
-        {
           "name": "VN",
           "value": 26
         },
         {
-          "name": "IE",
-          "value": 25
+          "name": "PY",
+          "value": 26
         },
         {
           "name": "HK",
+          "value": 25
+        },
+        {
+          "name": "IE",
           "value": 25
         },
         {
@@ -2131,11 +2131,11 @@
           "value": 14
         },
         {
-          "name": "NI",
+          "name": "AM",
           "value": 13
         },
         {
-          "name": "AM",
+          "name": "NI",
           "value": 13
         },
         {
@@ -2151,11 +2151,11 @@
           "value": 11
         },
         {
-          "name": "UG",
+          "name": "AE",
           "value": 10
         },
         {
-          "name": "AE",
+          "name": "UG",
           "value": 10
         },
         {
@@ -2167,11 +2167,15 @@
           "value": 10
         },
         {
+          "name": "TZ",
+          "value": 9
+        },
+        {
           "name": "PA",
           "value": 9
         },
         {
-          "name": "GH",
+          "name": "JO",
           "value": 9
         },
         {
@@ -2179,11 +2183,7 @@
           "value": 9
         },
         {
-          "name": "TZ",
-          "value": 9
-        },
-        {
-          "name": "JO",
+          "name": "GH",
           "value": 9
         },
         {
@@ -2211,6 +2211,10 @@
           "value": 7
         },
         {
+          "name": "IL",
+          "value": 5
+        },
+        {
           "name": "CM",
           "value": 5
         },
@@ -2219,11 +2223,11 @@
           "value": 5
         },
         {
-          "name": "IL",
+          "name": "PR",
           "value": 5
         },
         {
-          "name": "PR",
+          "name": "GT",
           "value": 5
         },
         {
@@ -2235,20 +2239,20 @@
           "value": 5
         },
         {
-          "name": "GT",
-          "value": 5
+          "name": "AO",
+          "value": 4
         },
         {
           "name": "BN",
           "value": 4
         },
         {
-          "name": "AO",
+          "name": "KG",
           "value": 4
         },
         {
-          "name": "KG",
-          "value": 4
+          "name": "BT",
+          "value": 3
         },
         {
           "name": "ZW",
@@ -2259,15 +2263,7 @@
           "value": 3
         },
         {
-          "name": "TG",
-          "value": 3
-        },
-        {
           "name": "LB",
-          "value": 3
-        },
-        {
-          "name": "BT",
           "value": 3
         },
         {
@@ -2275,11 +2271,15 @@
           "value": 3
         },
         {
-          "name": "MT",
+          "name": "TG",
+          "value": 3
+        },
+        {
+          "name": "LU",
           "value": 2
         },
         {
-          "name": "SN",
+          "name": "MT",
           "value": 2
         },
         {
@@ -2291,11 +2291,11 @@
           "value": 2
         },
         {
-          "name": "LU",
+          "name": "KW",
           "value": 2
         },
         {
-          "name": "KW",
+          "name": "SN",
           "value": 2
         },
         {
@@ -2315,19 +2315,15 @@
           "value": 1
         },
         {
-          "name": "GM",
-          "value": 1
-        },
-        {
           "name": "ML",
           "value": 1
         },
         {
-          "name": "SS",
+          "name": "GM",
           "value": 1
         },
         {
-          "name": "XK",
+          "name": "SS",
           "value": 1
         },
         {
@@ -2339,7 +2335,7 @@
           "value": 1
         },
         {
-          "name": "NE",
+          "name": "XK",
           "value": 1
         },
         {
@@ -2347,15 +2343,7 @@
           "value": 1
         },
         {
-          "name": "AX",
-          "value": 1
-        },
-        {
-          "name": "MW",
-          "value": 1
-        },
-        {
-          "name": "TL",
+          "name": "NE",
           "value": 1
         },
         {
@@ -2365,12 +2353,24 @@
         {
           "name": "GA",
           "value": 1
+        },
+        {
+          "name": "TL",
+          "value": 1
+        },
+        {
+          "name": "AX",
+          "value": 1
+        },
+        {
+          "name": "MW",
+          "value": 1
         }
       ]
     }
   },
   "fx": {
-    "fetched_at": "2026-09-17T08:07:24.389800+00:00",
+    "fetched_at": "2026-09-17T13:54:17.853168+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
