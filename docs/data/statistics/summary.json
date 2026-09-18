@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T17:58:06.546191+00:00",
+  "generated_at": "2026-09-18T22:58:36.864099+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23478,
-  "article_total": 13634777,
+  "article_total": 13635120,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13634777,
+      "value": 13635120,
       "detail": "Global DOAJ article total"
     },
     {
@@ -863,11 +863,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14697
+          "value": 14698
         },
         {
           "name": "Yes",
-          "value": 8781
+          "value": 8780
         }
       ]
     },
@@ -891,7 +891,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2732
+          "value": 2731
         },
         {
           "name": "GB",
@@ -899,7 +899,7 @@
         },
         {
           "name": "BR",
-          "value": 1392
+          "value": 1393
         },
         {
           "name": "US",
@@ -941,11 +941,11 @@
         },
         {
           "name": "Asia",
-          "value": 6884
+          "value": 6883
         },
         {
           "name": "South America",
-          "value": 2852
+          "value": 2853
         },
         {
           "name": "North America",
@@ -971,15 +971,15 @@
         },
         {
           "name": "ES",
-          "value": 4121
+          "value": 4122
         },
         {
           "name": "PT",
-          "value": 2301
+          "value": 2302
         },
         {
           "name": "FR",
-          "value": 1930
+          "value": 1931
         },
         {
           "name": "ID",
@@ -1071,11 +1071,11 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2175
+          "value": 2176
         },
         {
           "name": "CC BY-SA",
-          "value": 2051
+          "value": 2050
         },
         {
           "name": "CC BY-ND",
@@ -1789,11 +1789,11 @@
             169,
             172,
             197,
-            193,
+            192,
             187,
             200,
             172,
-            121
+            122
           ]
         }
       ]
@@ -1804,7 +1804,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2732
+          "value": 2731
         },
         {
           "name": "GB",
@@ -1812,7 +1812,7 @@
         },
         {
           "name": "BR",
-          "value": 1392
+          "value": 1393
         },
         {
           "name": "US",
@@ -2370,7 +2370,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-18T17:58:05.435384+00:00",
+    "fetched_at": "2026-09-18T22:58:35.523863+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
