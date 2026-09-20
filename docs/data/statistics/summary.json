@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-20T08:01:59.960993+00:00",
+  "generated_at": "2026-09-20T13:17:46.846856+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23489,
-  "article_total": 13640099,
+  "journal_total": 23490,
+  "article_total": 13644290,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23489
+      "value": 23490
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13640099,
+      "value": 13644290,
       "detail": "Global DOAJ article total"
     },
     {
@@ -863,11 +863,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14702
+          "value": 14704
         },
         {
           "name": "Yes",
-          "value": 8787
+          "value": 8786
         }
       ]
     },
@@ -877,11 +877,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15093
+          "value": 15095
         },
         {
           "name": "No",
-          "value": 8396
+          "value": 8395
         }
       ]
     },
@@ -891,7 +891,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2736
+          "value": 2735
         },
         {
           "name": "GB",
@@ -937,15 +937,15 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10580
+          "value": 10581
         },
         {
           "name": "Asia",
-          "value": 6892
+          "value": 6891
         },
         {
           "name": "South America",
-          "value": 2853
+          "value": 2854
         },
         {
           "name": "North America",
@@ -967,11 +967,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19789
+          "value": 19790
         },
         {
           "name": "ES",
-          "value": 4122
+          "value": 4123
         },
         {
           "name": "PT",
@@ -979,7 +979,7 @@
         },
         {
           "name": "FR",
-          "value": 1932
+          "value": 1933
         },
         {
           "name": "ID",
@@ -1013,7 +1013,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1155
+          "value": 1156
         },
         {
           "name": "Social Sciences",
@@ -1033,11 +1033,11 @@
         },
         {
           "name": "Language and Literature",
-          "value": 639
+          "value": 640
         },
         {
           "name": "Medicine (General)",
-          "value": 636
+          "value": 635
         },
         {
           "name": "Special aspects of education",
@@ -1059,15 +1059,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12187
+          "value": 12188
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5216
+          "value": 5217
         },
         {
           "name": "CC BY-NC",
-          "value": 5133
+          "value": 5132
         },
         {
           "name": "CC BY-NC-SA",
@@ -1101,11 +1101,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15298
+          "value": 15300
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6463
+          "value": 6462
         },
         {
           "name": "Unspecified peer review",
@@ -1127,7 +1127,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20023
+          "value": 20024
         },
         {
           "name": "Handles",
@@ -1664,7 +1664,7 @@
             77,
             98,
             96,
-            121,
+            120,
             120,
             161,
             101,
@@ -1793,7 +1793,7 @@
             187,
             200,
             172,
-            133
+            135
           ]
         }
       ]
@@ -1804,7 +1804,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2736
+          "value": 2735
         },
         {
           "name": "GB",
@@ -1876,7 +1876,7 @@
         },
         {
           "name": "FR",
-          "value": 413
+          "value": 414
         },
         {
           "name": "EG",
@@ -2123,12 +2123,12 @@
           "value": 16
         },
         {
-          "name": "YE",
+          "name": "BO",
           "value": 15
         },
         {
-          "name": "BO",
-          "value": 14
+          "name": "YE",
+          "value": 15
         },
         {
           "name": "AM",
@@ -2370,7 +2370,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-20T08:01:58.529978+00:00",
+    "fetched_at": "2026-09-20T13:17:45.390552+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
