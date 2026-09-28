@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T09:05:43.290834+00:00",
+  "generated_at": "2026-09-28T18:54:50.929889+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23555,
-  "article_total": 13711189,
+  "journal_total": 23554,
+  "article_total": 13714371,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23555
+      "value": 23554
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13711189,
+      "value": 13714371,
       "detail": "Global DOAJ article total"
     },
     {
@@ -863,7 +863,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14724
+          "value": 14723
         },
         {
           "name": "Yes",
@@ -877,11 +877,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15153
+          "value": 15151
         },
         {
           "name": "No",
-          "value": 8402
+          "value": 8403
         }
       ]
     },
@@ -927,7 +927,7 @@
         },
         {
           "name": "RU",
-          "value": 654
+          "value": 653
         }
       ]
     },
@@ -937,7 +937,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10610
+          "value": 10609
         },
         {
           "name": "Asia",
@@ -967,7 +967,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19852
+          "value": 19851
         },
         {
           "name": "ES",
@@ -987,7 +987,7 @@
         },
         {
           "name": "RU",
-          "value": 949
+          "value": 948
         },
         {
           "name": "IT",
@@ -995,7 +995,7 @@
         },
         {
           "name": "DE",
-          "value": 909
+          "value": 908
         },
         {
           "name": "FA",
@@ -1059,15 +1059,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12241
+          "value": 12240
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5232
+          "value": 5233
         },
         {
           "name": "CC BY-NC",
-          "value": 5151
+          "value": 5150
         },
         {
           "name": "CC BY-NC-SA",
@@ -1101,19 +1101,19 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15352
+          "value": 15351
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6485
+          "value": 6484
         },
         {
           "name": "Unspecified peer review",
-          "value": 1784
+          "value": 1783
         },
         {
           "name": "Editorial review",
-          "value": 473
+          "value": 474
         },
         {
           "name": "Open peer review",
@@ -1127,7 +1127,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20106
+          "value": 20107
         },
         {
           "name": "Handles",
@@ -1165,7 +1165,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1818
+          "value": 1819
         },
         {
           "name": "PMC",
@@ -1606,7 +1606,7 @@
             26,
             29,
             43,
-            39,
+            38,
             69,
             48,
             35,
@@ -1840,7 +1840,7 @@
         },
         {
           "name": "RU",
-          "value": 654
+          "value": 653
         },
         {
           "name": "CN",
@@ -1859,11 +1859,11 @@
           "value": 512
         },
         {
-          "name": "CO",
+          "name": "DE",
           "value": 464
         },
         {
-          "name": "DE",
+          "name": "CO",
           "value": 464
         },
         {
@@ -2370,7 +2370,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-28T09:05:42.184195+00:00",
+    "fetched_at": "2026-09-28T18:54:49.450826+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
