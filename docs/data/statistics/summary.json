@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T17:10:51.205196+00:00",
+  "generated_at": "2026-09-30T21:38:40.834028+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23567,
-  "article_total": 13726703,
+  "journal_total": 23569,
+  "article_total": 13727011,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23567
+      "value": 23569
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13726703,
+      "value": 13727011,
       "detail": "Global DOAJ article total"
     },
     {
@@ -867,7 +867,7 @@
         },
         {
           "name": "Yes",
-          "value": 8843
+          "value": 8845
         }
       ]
     },
@@ -877,7 +877,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15162
+          "value": 15164
         },
         {
           "name": "No",
@@ -895,7 +895,7 @@
         },
         {
           "name": "GB",
-          "value": 2331
+          "value": 2332
         },
         {
           "name": "BR",
@@ -937,7 +937,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10615
+          "value": 10616
         },
         {
           "name": "Asia",
@@ -953,7 +953,7 @@
         },
         {
           "name": "Africa",
-          "value": 925
+          "value": 926
         },
         {
           "name": "Oceania",
@@ -967,7 +967,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19863
+          "value": 19865
         },
         {
           "name": "ES",
@@ -979,7 +979,7 @@
         },
         {
           "name": "FR",
-          "value": 1944
+          "value": 1945
         },
         {
           "name": "ID",
@@ -1003,7 +1003,7 @@
         },
         {
           "name": "AR",
-          "value": 650
+          "value": 651
         }
       ]
     },
@@ -1059,7 +1059,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12247
+          "value": 12248
         },
         {
           "name": "CC BY-NC-ND",
@@ -1067,7 +1067,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5151
+          "value": 5153
         },
         {
           "name": "CC BY-NC-SA",
@@ -1101,7 +1101,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15364
+          "value": 15366
         },
         {
           "name": "Single anonymous peer review",
@@ -1127,7 +1127,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20120
+          "value": 20122
         },
         {
           "name": "Handles",
@@ -1153,15 +1153,15 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4783
+          "value": 4784
         },
         {
           "name": "Portico",
-          "value": 4645
+          "value": 4646
         },
         {
           "name": "LOCKSS",
-          "value": 2049
+          "value": 2050
         },
         {
           "name": "PKP PN",
@@ -1199,7 +1199,7 @@
         },
         {
           "name": "Taylor & Francis Group",
-          "value": 245
+          "value": 246
         },
         {
           "name": "Frontiers Media S.A.",
@@ -1793,7 +1793,7 @@
             187,
             200,
             172,
-            242
+            244
           ]
         }
       ]
@@ -1808,7 +1808,7 @@
         },
         {
           "name": "GB",
-          "value": 2331
+          "value": 2332
         },
         {
           "name": "BR",
@@ -1880,7 +1880,7 @@
         },
         {
           "name": "EG",
-          "value": 389
+          "value": 390
         },
         {
           "name": "RO",
@@ -2370,7 +2370,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-09-30T17:10:49.741454+00:00",
+    "fetched_at": "2026-09-30T21:38:39.742910+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
