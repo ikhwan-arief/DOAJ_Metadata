@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T09:13:48.384814+00:00",
+  "generated_at": "2026-10-02T16:59:39.242291+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23576,
-  "article_total": 13734872,
+  "journal_total": 23577,
+  "article_total": 13737973,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23576
+      "value": 23577
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13734872,
+      "value": 13737973,
       "detail": "Global DOAJ article total"
     },
     {
@@ -868,7 +868,7 @@
         },
         {
           "name": "Yes",
-          "value": 8848
+          "value": 8849
         }
       ]
     },
@@ -882,7 +882,7 @@
         },
         {
           "name": "No",
-          "value": 8407
+          "value": 8408
         }
       ]
     },
@@ -938,7 +938,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10616
+          "value": 10617
         },
         {
           "name": "Asia",
@@ -968,7 +968,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19871
+          "value": 19872
         },
         {
           "name": "ES",
@@ -1060,11 +1060,11 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12250
+          "value": 12251
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5235
+          "value": 5236
         },
         {
           "name": "CC BY-NC",
@@ -1102,7 +1102,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15373
+          "value": 15374
         },
         {
           "name": "Single anonymous peer review",
@@ -1128,7 +1128,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20130
+          "value": 20131
         },
         {
           "name": "Handles",
@@ -1154,11 +1154,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4789
+          "value": 4790
         },
         {
           "name": "Portico",
-          "value": 4648
+          "value": 4649
         },
         {
           "name": "LOCKSS",
@@ -1796,7 +1796,7 @@
             200,
             172,
             245,
-            6
+            7
           ]
         }
       ]
@@ -1859,7 +1859,7 @@
         },
         {
           "name": "NL",
-          "value": 512
+          "value": 513
         },
         {
           "name": "CO",
@@ -2373,7 +2373,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-02T09:13:47.397235+00:00",
+    "fetched_at": "2026-10-02T16:59:37.855549+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
