@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T22:06:57.093119+00:00",
+  "generated_at": "2026-10-02T09:13:48.384814+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23575,
-  "article_total": 13730661,
+  "journal_total": 23576,
+  "article_total": 13734872,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23575
+      "value": 23576
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13730661,
+      "value": 13734872,
       "detail": "Global DOAJ article total"
     },
     {
@@ -864,7 +864,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14727
+          "value": 14728
         },
         {
           "name": "Yes",
@@ -878,7 +878,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15168
+          "value": 15169
         },
         {
           "name": "No",
@@ -892,7 +892,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2729
+          "value": 2730
         },
         {
           "name": "GB",
@@ -942,7 +942,7 @@
         },
         {
           "name": "Asia",
-          "value": 6906
+          "value": 6907
         },
         {
           "name": "South America",
@@ -984,7 +984,7 @@
         },
         {
           "name": "ID",
-          "value": 1798
+          "value": 1799
         },
         {
           "name": "RU",
@@ -1030,7 +1030,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 655
+          "value": 656
         },
         {
           "name": "Language and Literature",
@@ -1076,7 +1076,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2053
+          "value": 2054
         },
         {
           "name": "CC BY-ND",
@@ -1102,7 +1102,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15372
+          "value": 15373
         },
         {
           "name": "Single anonymous peer review",
@@ -1128,7 +1128,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20129
+          "value": 20130
         },
         {
           "name": "Handles",
@@ -1162,11 +1162,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2056
+          "value": 2057
         },
         {
           "name": "PKP PN",
-          "value": 1865
+          "value": 1866
         },
         {
           "name": "PMC",
@@ -1796,7 +1796,7 @@
             200,
             172,
             245,
-            5
+            6
           ]
         }
       ]
@@ -1807,7 +1807,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2729
+          "value": 2730
         },
         {
           "name": "GB",
@@ -2373,7 +2373,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-01T22:06:55.666693+00:00",
+    "fetched_at": "2026-10-02T09:13:47.397235+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
