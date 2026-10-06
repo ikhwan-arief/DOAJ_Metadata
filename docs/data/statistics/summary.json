@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T17:40:50.767603+00:00",
+  "generated_at": "2026-10-06T21:59:49.831541+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23579,
-  "article_total": 13759515,
+  "journal_total": 23578,
+  "article_total": 13758437,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23579
+      "value": 23578
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13759515,
+      "value": 13758437,
       "detail": "Global DOAJ article total"
     },
     {
@@ -868,7 +868,7 @@
         },
         {
           "name": "Yes",
-          "value": 8848
+          "value": 8847
         }
       ]
     },
@@ -878,7 +878,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15172
+          "value": 15171
         },
         {
           "name": "No",
@@ -938,7 +938,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10619
+          "value": 10618
         },
         {
           "name": "Asia",
@@ -968,7 +968,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19874
+          "value": 19873
         },
         {
           "name": "ES",
@@ -1068,7 +1068,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5154
+          "value": 5153
         },
         {
           "name": "CC BY-NC-SA",
@@ -1102,7 +1102,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15376
+          "value": 15375
         },
         {
           "name": "Single anonymous peer review",
@@ -1128,7 +1128,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20133
+          "value": 20132
         },
         {
           "name": "Handles",
@@ -1671,7 +1671,7 @@
             161,
             101,
             57,
-            78,
+            77,
             64,
             55,
             44,
@@ -1923,7 +1923,7 @@
         },
         {
           "name": "CZ",
-          "value": 169
+          "value": 168
         },
         {
           "name": "HR",
@@ -2373,10 +2373,10 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-06T17:40:49.353195+00:00",
+    "fetched_at": "2026-10-06T21:59:48.325713+00:00",
     "providers": {
-      "open.er-api.com": 34,
-      "Frankfurter API": 19
+      "open.er-api.com": 29,
+      "Frankfurter API": 24
     },
     "supported_currencies": [
       "EUR",
