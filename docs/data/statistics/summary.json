@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-06T01:36:51.499712+00:00",
+  "generated_at": "2026-10-06T09:34:06.751201+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23579,
-  "article_total": 13755936,
+  "article_total": 13757958,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13755936,
+      "value": 13757958,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1114,7 +1114,7 @@
         },
         {
           "name": "Editorial review",
-          "value": 475
+          "value": 474
         },
         {
           "name": "Open peer review",
@@ -1998,11 +1998,11 @@
           "value": 71
         },
         {
-          "name": "NG",
+          "name": "FI",
           "value": 65
         },
         {
-          "name": "FI",
+          "name": "NG",
           "value": 65
         },
         {
@@ -2373,7 +2373,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-06T01:36:50.072172+00:00",
+    "fetched_at": "2026-10-06T09:34:05.637425+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
