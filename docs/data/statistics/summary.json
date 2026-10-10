@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T03:09:49.016295+00:00",
+  "generated_at": "2026-10-10T11:32:40.544674+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23584,
-  "article_total": 13770921,
+  "journal_total": 23585,
+  "article_total": 13772115,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23584
+      "value": 23585
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13770921,
+      "value": 13772115,
       "detail": "Global DOAJ article total"
     },
     {
@@ -864,7 +864,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14738
+          "value": 14739
         },
         {
           "name": "Yes",
@@ -882,7 +882,7 @@
         },
         {
           "name": "No",
-          "value": 8408
+          "value": 8409
         }
       ]
     },
@@ -946,7 +946,7 @@
         },
         {
           "name": "South America",
-          "value": 2860
+          "value": 2861
         },
         {
           "name": "North America",
@@ -968,11 +968,11 @@
       "items": [
         {
           "name": "EN",
-          "value": 19879
+          "value": 19880
         },
         {
           "name": "ES",
-          "value": 4138
+          "value": 4139
         },
         {
           "name": "PT",
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2190
+          "value": 2191
         },
         {
           "name": "CC BY-SA",
@@ -1102,7 +1102,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15381
+          "value": 15382
         },
         {
           "name": "Single anonymous peer review",
@@ -1128,7 +1128,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20140
+          "value": 20141
         },
         {
           "name": "Handles",
@@ -1162,11 +1162,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2055
+          "value": 2057
         },
         {
           "name": "PKP PN",
-          "value": 1875
+          "value": 1876
         },
         {
           "name": "PMC",
@@ -1796,7 +1796,7 @@
             200,
             172,
             245,
-            21
+            22
           ]
         }
       ]
@@ -1959,7 +1959,7 @@
         },
         {
           "name": "EC",
-          "value": 107
+          "value": 108
         },
         {
           "name": "BG",
@@ -2373,7 +2373,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-10T03:09:47.518344+00:00",
+    "fetched_at": "2026-10-10T11:32:39.073863+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
