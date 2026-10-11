@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-10-11T03:09:52.623770+00:00",
+  "generated_at": "2026-10-11T11:46:17.450822+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23585,
   "items": [
+    {
+      "id": "586d5aeb83b54b3b8e8f7423f29935d6",
+      "title": "Al-Azhar International Medical Journal",
+      "publisher_name": "Al-Azhar University, Faculty of Medicine",
+      "country": "EG",
+      "continent": "Africa",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": true,
+      "apc_native_display": "2500 EGP",
+      "apc_max_eur": 42.62,
+      "apc_max_usd": 47.73,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-12-20T08:06:12Z",
+      "created_year": 2023,
+      "created_month": "2023-12",
+      "last_updated": "2026-10-11T06:31:40Z",
+      "website": "https://aimj.researchcommons.org/",
+      "author_guidelines_url": "https://aimj.researchcommons.org/journal/author_guidelines.html",
+      "article_records_exposed": null,
+      "search_text": "al azhar international medical journal al azhar university faculty of medicine eg africa medicine en cc by sa"
+    },
+    {
+      "id": "95ce4debd3b7488697ac1bb87b9ab569",
+      "title": "Advances in Civil Engineering and Environmental Science",
+      "publisher_name": "Water Scarcity and Drought Adaptation Association",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-03-28T10:30:42Z",
+      "created_year": 2025,
+      "created_month": "2025-03",
+      "last_updated": "2026-10-11T05:56:28Z",
+      "website": "https://www.aceesjr.com/",
+      "author_guidelines_url": "https://www.aceesjr.com/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "advances in civil engineering and environmental science water scarcity and drought adaptation association ir asia engineering general civil engineering general en cc by"
+    },
     {
       "id": "f2c3592b369041559aef40e6420414f6",
       "title": "EntomoBrasilis",
@@ -343860,46 +343940,6 @@
       "author_guidelines_url": "https://www.jospa.spdfharmony.com/index.php/jospa/AuthorGuidelines",
       "article_records_exposed": null,
       "search_text": "journal of sports and physical activity cv spdf harmony id asia sports en cc by sa"
-    },
-    {
-      "id": "95ce4debd3b7488697ac1bb87b9ab569",
-      "title": "Advances in Civil Engineering and Environmental Science",
-      "publisher_name": "Water Scarcity and Drought Adaptation Association",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Engineering (General). Civil engineering (General)"
-      ],
-      "subject_display": "Engineering (General). Civil engineering (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-03-28T10:30:42Z",
-      "created_year": 2025,
-      "created_month": "2025-03",
-      "last_updated": "2026-09-17T10:51:04Z",
-      "website": "https://www.aceesjr.com/",
-      "author_guidelines_url": "https://www.aceesjr.com/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "advances in civil engineering and environmental science water scarcity and drought adaptation association ir asia engineering general civil engineering general en cc by"
     },
     {
       "id": "33fcc99441c74dbd8a658934b3f2a28e",
@@ -934442,46 +934482,6 @@
       "author_guidelines_url": "https://hms.mediastudies.press/author-guidelines",
       "article_records_exposed": null,
       "search_text": "history of media studies mediastudies press us north america communication mass media es en cc by nc"
-    },
-    {
-      "id": "586d5aeb83b54b3b8e8f7423f29935d6",
-      "title": "Al-Azhar International Medical Journal",
-      "publisher_name": "Al-Azhar University, Faculty of Medicine",
-      "country": "EG",
-      "continent": "Africa",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.62,
-      "apc_max_usd": 47.73,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-12-20T08:06:12Z",
-      "created_year": 2023,
-      "created_month": "2023-12",
-      "last_updated": "2026-09-17T10:39:36Z",
-      "website": "https://aimj.researchcommons.org/",
-      "author_guidelines_url": "https://aimj.researchcommons.org/journal/author_guidelines.html",
-      "article_records_exposed": null,
-      "search_text": "al azhar international medical journal al azhar university faculty of medicine eg africa medicine en cc by sa"
     },
     {
       "id": "2f6f16881f2a4345a48cb6fb38af910b",
