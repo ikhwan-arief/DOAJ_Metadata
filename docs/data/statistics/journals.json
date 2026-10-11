@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-10-11T11:46:17.450822+00:00",
+  "generated_at": "2026-10-11T16:57:22.222122+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23585,
   "items": [
+    {
+      "id": "65c31019b3cc497c96e8d0a0f5faca67",
+      "title": "Journal of Educational Technology Development and Exchange",
+      "publisher_name": "The University of Southern Mississippi",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Theory and practice of education"
+      ],
+      "subject_display": "Theory and practice of education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-08-31T17:41:39Z",
+      "created_year": 2023,
+      "created_month": "2023-08",
+      "last_updated": "2026-10-11T16:12:24Z",
+      "website": "https://aquila.usm.edu/jetde/",
+      "author_guidelines_url": "https://aquila.usm.edu/jetde/policies.html",
+      "article_records_exposed": null,
+      "search_text": "journal of educational technology development and exchange the university of southern mississippi us north america theory and practice of education en cc by nc nd"
+    },
     {
       "id": "586d5aeb83b54b3b8e8f7423f29935d6",
       "title": "Al-Azhar International Medical Journal",
@@ -17553,46 +17593,6 @@
       "author_guidelines_url": "http://www.marineornithology.org/page?p=submission",
       "article_records_exposed": null,
       "search_text": "marine ornithology pacific seabird group us north america general including nature conservation geographical distribution zoology en cc by"
-    },
-    {
-      "id": "65c31019b3cc497c96e8d0a0f5faca67",
-      "title": "Journal of Educational Technology Development and Exchange",
-      "publisher_name": "The University of Southern Mississippi",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Theory and practice of education"
-      ],
-      "subject_display": "Theory and practice of education",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-08-31T17:41:39Z",
-      "created_year": 2023,
-      "created_month": "2023-08",
-      "last_updated": "2026-09-22T06:23:06Z",
-      "website": "https://aquila.usm.edu/jetde/",
-      "author_guidelines_url": "https://aquila.usm.edu/jetde/policies.html",
-      "article_records_exposed": null,
-      "search_text": "journal of educational technology development and exchange the university of southern mississippi us north america theory and practice of education en cc by nc nd"
     },
     {
       "id": "7edb4c939dfa4704b33099bd4235a544",
