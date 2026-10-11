@@ -1,8 +1,51 @@
 {
-  "generated_at": "2026-10-11T16:57:22.222122+00:00",
+  "generated_at": "2026-10-11T21:11:54.328827+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23585,
   "items": [
+    {
+      "id": "869816a3506c4c4091ed0dbe8cc20fdf",
+      "title": "Revista SOBECC",
+      "publisher_name": "Zeppelini Publishers",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Nursing",
+        "Surgery"
+      ],
+      "subject_display": "Nursing · Surgery",
+      "languages": [
+        "PT"
+      ],
+      "language_display": "PT",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1927 BRL",
+      "apc_max_eur": 343.58,
+      "apc_max_usd": 385.01,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-07-18T15:31:08Z",
+      "created_year": 2025,
+      "created_month": "2025-07",
+      "last_updated": "2026-10-11T19:13:10Z",
+      "website": "https://revista.sobecc.org.br/sobecc/index",
+      "author_guidelines_url": "https://revista.sobecc.org.br/sobecc/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "revista sobecc zeppelini publishers br south america nursing surgery pt cc by"
+    },
     {
       "id": "65c31019b3cc497c96e8d0a0f5faca67",
       "title": "Journal of Educational Technology Development and Exchange",
@@ -183104,49 +183147,6 @@
       "author_guidelines_url": "https://zn-ppb.pl/cms/mymanuscripts",
       "article_records_exposed": null,
       "search_text": "zeszyty naukowe pro publico bono fire university pl europe crisis management emergency management inflation en pl cc by"
-    },
-    {
-      "id": "869816a3506c4c4091ed0dbe8cc20fdf",
-      "title": "Revista SOBECC",
-      "publisher_name": "Zeppelini Publishers",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Nursing",
-        "Surgery"
-      ],
-      "subject_display": "Nursing · Surgery",
-      "languages": [
-        "PT"
-      ],
-      "language_display": "PT",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1927 BRL",
-      "apc_max_eur": 343.58,
-      "apc_max_usd": 385.01,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-07-18T15:31:08Z",
-      "created_year": 2025,
-      "created_month": "2025-07",
-      "last_updated": "2026-09-17T10:53:26Z",
-      "website": "https://revista.sobecc.org.br/sobecc/index",
-      "author_guidelines_url": "https://revista.sobecc.org.br/sobecc/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "revista sobecc zeppelini publishers br south america nursing surgery pt cc by"
     },
     {
       "id": "d136f1c124e54d0e93a0d9ae3cca91a8",
