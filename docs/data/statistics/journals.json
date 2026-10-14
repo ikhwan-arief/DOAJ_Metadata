@@ -1,8 +1,132 @@
 {
-  "generated_at": "2026-10-13T20:26:27.190837+00:00",
+  "generated_at": "2026-10-14T00:03:13.771067+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23591,
+  "item_count": 23592,
   "items": [
+    {
+      "id": "cf94af11be1a46938215d183a12ac081",
+      "title": "Studia Pelplińskie",
+      "publisher_name": "Wydawnictwo Bernardinum",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Philosophy (General)",
+        "Doctrinal Theology",
+        "History (General)"
+      ],
+      "subject_display": "Philosophy (General) · Doctrinal Theology",
+      "languages": [
+        "PL",
+        "EN"
+      ],
+      "language_display": "PL, EN",
+      "license_types": [
+        "CC BY-ND"
+      ],
+      "license_display": "CC BY-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-13T23:57:15Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-13T23:57:15Z",
+      "website": "https://apcz.umk.pl/SPLP",
+      "author_guidelines_url": "https://apcz.umk.pl/SPLP/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "studia pelplinskie wydawnictwo bernardinum pl europe philosophy general doctrinal theology history general pl en cc by nd"
+    },
+    {
+      "id": "203cf8120fad407498a2a723a5b86e7c",
+      "title": "Dinamika Kerajinan dan Batik: Majalah Ilmiah",
+      "publisher_name": "Center For Handicraft And Batik, Ministry of Industry Republic of Indonesia",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Handicrafts. Arts and crafts"
+      ],
+      "subject_display": "Handicrafts. Arts and crafts",
+      "languages": [
+        "ID"
+      ],
+      "language_display": "ID",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-08-03T13:39:16Z",
+      "created_year": 2017,
+      "created_month": "2017-08",
+      "last_updated": "2026-10-13T21:17:51Z",
+      "website": "http://ejournal.kemenperin.go.id/dkb",
+      "author_guidelines_url": "http://ejournal.kemenperin.go.id/dkb/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "dinamika kerajinan dan batik majalah ilmiah center for handicraft and batik ministry of industry republic of indonesia id asia handicrafts arts and crafts id cc by"
+    },
+    {
+      "id": "e28d786da2bd46cb82b33e5669ce1e67",
+      "title": "Sustainable Engineering and Innovation",
+      "publisher_name": "Research and Development Academy",
+      "country": "BA",
+      "continent": "Europe",
+      "subjects": [
+        "Engineering design",
+        "Computer engineering. Computer hardware"
+      ],
+      "subject_display": "Engineering design · Computer engineering. Computer hardware",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1200 EUR",
+      "apc_max_eur": 1200.0,
+      "apc_max_usd": 1342.56,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-03-29T10:03:11Z",
+      "created_year": 2021,
+      "created_month": "2021-03",
+      "last_updated": "2026-10-13T20:27:27Z",
+      "website": "https://sei.ardascience.com/",
+      "author_guidelines_url": "https://sei.ardascience.com/index.php/journal/information/authors",
+      "article_records_exposed": null,
+      "search_text": "sustainable engineering and innovation research and development academy ba europe engineering design computer engineering computer hardware en cc by"
+    },
     {
       "id": "5259ae77393c4871bbd616b77ad4cc2c",
       "title": "Laboratorio de Arte",
@@ -112695,47 +112819,6 @@
       "author_guidelines_url": "https://www.mdpi.com/journal/suschem/instructions",
       "article_records_exposed": null,
       "search_text": "sustainable chemistry mdpi ag ch europe environmental technology sanitary engineering chemical technology en cc by"
-    },
-    {
-      "id": "e28d786da2bd46cb82b33e5669ce1e67",
-      "title": "Sustainable Engineering and Innovation",
-      "publisher_name": "Research and Development Academy",
-      "country": "BA",
-      "continent": "Europe",
-      "subjects": [
-        "Engineering design",
-        "Computer engineering. Computer hardware"
-      ],
-      "subject_display": "Engineering design · Computer engineering. Computer hardware",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-03-29T10:03:11Z",
-      "created_year": 2021,
-      "created_month": "2021-03",
-      "last_updated": "2026-09-17T10:54:24Z",
-      "website": "https://sei.ardascience.com/",
-      "author_guidelines_url": "https://sei.ardascience.com/index.php/journal/information/authors",
-      "article_records_exposed": null,
-      "search_text": "sustainable engineering and innovation research and development academy ba europe engineering design computer engineering computer hardware en cc by"
     },
     {
       "id": "83f9f4e7d23d45469214ee63201343b1",
@@ -512039,46 +512122,6 @@
       "author_guidelines_url": "http://lekovitesirovine.rs/ojs/index.php/lekovite/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "lekovite sirovine institute for medicinal plants research dr josif pancic rs europe plant culture sr en cc by"
-    },
-    {
-      "id": "203cf8120fad407498a2a723a5b86e7c",
-      "title": "Dinamika Kerajinan dan Batik: Majalah Ilmiah",
-      "publisher_name": "Center For Handicraft And Batik, Ministry of Industry Republic of Indonesia",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Handicrafts. Arts and crafts"
-      ],
-      "subject_display": "Handicrafts. Arts and crafts",
-      "languages": [
-        "ID"
-      ],
-      "language_display": "ID",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-08-03T13:39:16Z",
-      "created_year": 2017,
-      "created_month": "2017-08",
-      "last_updated": "2026-09-17T10:48:12Z",
-      "website": "http://ejournal.kemenperin.go.id/dkb",
-      "author_guidelines_url": "http://ejournal.kemenperin.go.id/dkb/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "dinamika kerajinan dan batik majalah ilmiah center for handicraft and batik ministry of industry republic of indonesia id asia handicrafts arts and crafts id cc by"
     },
     {
       "id": "d9fa8a53a47247c1bf14b4aa10349080",
