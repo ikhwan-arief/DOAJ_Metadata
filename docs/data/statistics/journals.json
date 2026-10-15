@@ -1,8 +1,862 @@
 {
-  "generated_at": "2026-10-15T07:49:50.657570+00:00",
+  "generated_at": "2026-10-15T13:47:15.282893+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23611,
+  "item_count": 23620,
   "items": [
+    {
+      "id": "7228c192d34241b2837dccfe3d5aad09",
+      "title": "Pamukkale Üniversitesi İşletme Araştırmaları Dergisi",
+      "publisher_name": "Pamukkale University",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Business"
+      ],
+      "subject_display": "Business",
+      "languages": [
+        "EN",
+        "TR"
+      ],
+      "language_display": "EN, TR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-07-15T11:45:15Z",
+      "created_year": 2023,
+      "created_month": "2023-07",
+      "last_updated": "2026-10-15T13:37:27Z",
+      "website": "https://dergipark.org.tr/en/pub/piar",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/piar/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "pamukkale universitesi isletme arast rmalar dergisi pamukkale university tr asia business en tr cc by nc nd"
+    },
+    {
+      "id": "b39882f81c6e48e2a51009fe080b74b1",
+      "title": "The Journal of Oromo Studies",
+      "publisher_name": "Oromo Studies Association",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "History of Africa",
+        "Anthropology",
+        "Language and Literature"
+      ],
+      "subject_display": "History of Africa · Anthropology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Peer review"
+      ],
+      "peer_review_display": "Peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-15T12:48:47Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T12:48:47Z",
+      "website": "https://jros.scholasticahq.com/",
+      "author_guidelines_url": "https://jros.scholasticahq.com/for-authors",
+      "article_records_exposed": null,
+      "search_text": "the journal of oromo studies oromo studies association us north america history of africa anthropology language and literature en cc by"
+    },
+    {
+      "id": "211bce60933f45ea805cf4bed0ab36fc",
+      "title": "Acta Scientiarum: Animal Sciences",
+      "publisher_name": "Editora da Universidade Estadual de Maringá (Eduem)",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Animal culture"
+      ],
+      "subject_display": "Animal culture",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS",
+        "Cariniana Network"
+      ],
+      "created_date": "2008-09-08T10:54:04Z",
+      "created_year": 2008,
+      "created_month": "2008-09",
+      "last_updated": "2026-10-15T12:46:52Z",
+      "website": "https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/index",
+      "author_guidelines_url": "https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "acta scientiarum animal sciences editora da universidade estadual de maringa eduem br south america animal culture en cc by"
+    },
+    {
+      "id": "c9f8d2ec669248f08c17e575a094a265",
+      "title": "Journal of Education Experiences",
+      "publisher_name": "OICC Press",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "300 GBP",
+      "apc_max_eur": 355.5,
+      "apc_max_usd": 398.01,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-10-15T12:41:56Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T12:41:56Z",
+      "website": "https://oiccpress.com/jee",
+      "author_guidelines_url": "https://oiccpress.com/jee/guide-for-authors",
+      "article_records_exposed": null,
+      "search_text": "journal of education experiences oicc press gb europe education en cc by"
+    },
+    {
+      "id": "ca750d28a5fa4e41abc806b822b57061",
+      "title": "ReConnectEd",
+      "publisher_name": "Australian Council for Student Voice Ltd.",
+      "country": "AU",
+      "continent": "Oceania",
+      "subjects": [
+        "Education (General)"
+      ],
+      "subject_display": "Education (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Editorial review",
+        "Double anonymous peer review",
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Editorial review, Double anonymous peer review, Unspecified peer review",
+      "pid_schemes": [
+        "Handles"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-15T12:40:06Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T12:40:06Z",
+      "website": "https://www.studentvoice.org.au/reconnected/",
+      "author_guidelines_url": "https://www.studentvoice.org.au/learn/resources/contribute/",
+      "article_records_exposed": null,
+      "search_text": "reconnected australian council for student voice ltd au oceania education general en cc by nc sa"
+    },
+    {
+      "id": "9b8d660b96384239b1b7b1f1bf52b318",
+      "title": "Trends in Phytochemical Research",
+      "publisher_name": "OICC Press",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Botany"
+      ],
+      "subject_display": "Botany",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "450 GBP",
+      "apc_max_eur": 533.25,
+      "apc_max_usd": 597.01,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-10-15T12:33:10Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T12:33:10Z",
+      "website": "https://oiccpress.com/tpr",
+      "author_guidelines_url": "https://oiccpress.com/tpr/guide-for-authors",
+      "article_records_exposed": null,
+      "search_text": "trends in phytochemical research oicc press gb europe botany en cc by"
+    },
+    {
+      "id": "fb0e4fcecef3448b81b53aad771afd8e",
+      "title": "Journal of Endovascular Resuscitation and Trauma Management",
+      "publisher_name": "The Division of Cardiothoracic and Vascular Surgery and General Surgery, Örebro University Hospital",
+      "country": "SE",
+      "continent": "Europe",
+      "subjects": [
+        "Diseases of the circulatory (Cardiovascular) system",
+        "Surgery"
+      ],
+      "subject_display": "Diseases of the circulatory (Cardiovascular) system · Surgery",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2024-04-17T09:35:08Z",
+      "created_year": 2024,
+      "created_month": "2024-04",
+      "last_updated": "2026-10-15T12:19:16Z",
+      "website": "https://publicera.kb.se/jevtm",
+      "author_guidelines_url": "https://publicera.kb.se/jevtm/instructions",
+      "article_records_exposed": null,
+      "search_text": "journal of endovascular resuscitation and trauma management the division of cardiothoracic and vascular surgery and general surgery orebro university hospital se europe diseases of the circulatory cardiovascular system surgery en cc by"
+    },
+    {
+      "id": "2aff7b09d24e40e28df87250f2478019",
+      "title": "Theory and Social Inquiry",
+      "publisher_name": "The Open Library of Humanities",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Social sciences (General)"
+      ],
+      "subject_display": "Social sciences (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "Portico"
+      ],
+      "created_date": "2026-10-15T11:45:26Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T11:45:26Z",
+      "website": "https://www.theoryandsocialinquiry.org/",
+      "author_guidelines_url": "https://www.theoryandsocialinquiry.org/site/author-guidelines/",
+      "article_records_exposed": null,
+      "search_text": "theory and social inquiry the open library of humanities gb europe social sciences general en cc by"
+    },
+    {
+      "id": "d0bbc1a728e440e8a26b60ab23cc393d",
+      "title": "پژوهش های حسابداری و راهبری شرکتی",
+      "publisher_name": "Islamic Azad University-Tabriz Branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Accounting. Bookkeeping"
+      ],
+      "subject_display": "Accounting. Bookkeeping",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "15000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 15.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-15T11:39:25Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T11:39:25Z",
+      "website": "https://sanad.iau.ir/en/Journal/jacgr",
+      "author_guidelines_url": "https://sanad.iau.ir/en/Journal/jacgr/Page/authors",
+      "article_records_exposed": null,
+      "search_text": "islamic azad university tabriz branch ir asia accounting bookkeeping fa cc by nc"
+    },
+    {
+      "id": "9170772ae1b0478d95f7fb161f148281",
+      "title": "مدلسازی اقتصادی",
+      "publisher_name": "Islamic Azad University, Firuzkuh Branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Economics as a science"
+      ],
+      "subject_display": "Economics as a science",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "12000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 12.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "google scholar, magiran, archive in website Journal of  Economic Modeling, national library of iran"
+      ],
+      "created_date": "2026-10-15T11:26:48Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T11:26:48Z",
+      "website": "https://sanad.iau.ir/en/Journal/eco",
+      "author_guidelines_url": "https://sanad.iau.ir/en/Journal/eco/Page/authors",
+      "article_records_exposed": null,
+      "search_text": "islamic azad university firuzkuh branch ir asia economics as a science fa cc by nc"
+    },
+    {
+      "id": "986bf84ddb72447dabb71c9f19f8052c",
+      "title": "معماری منظر و طراحی باغ",
+      "publisher_name": "University College of Omram and Toseeh(UCOT)",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Architecture"
+      ],
+      "subject_display": "Architecture",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-15T11:22:02Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T11:22:02Z",
+      "website": "https://lagdj.com/index.php/lagdj/index",
+      "author_guidelines_url": "https://lagdj.com/index.php/lagdj/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "university college of omram and toseeh ucot ir asia architecture fa cc by nc"
+    },
+    {
+      "id": "515fd6234fa74166ae0ec2d711773fe2",
+      "title": "ADBA Computer Science",
+      "publisher_name": "ADBA Bilisim ve Yayincilik Ltd Sti",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Electronic computers. Computer science"
+      ],
+      "subject_display": "Electronic computers. Computer science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2026-10-15T11:13:33Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T11:13:33Z",
+      "website": "https://journals.adbascientific.com/acs",
+      "author_guidelines_url": "https://journals.adbascientific.com/acs/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "adba computer science adba bilisim ve yayincilik ltd sti tr asia electronic computers computer science en cc by nc"
+    },
+    {
+      "id": "02771a50fe4f480dbbfdd468bf3ff85b",
+      "title": "Milky Way Scientific Journal",
+      "publisher_name": "Milky Way Open Science Foundation",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Information technology",
+        "Electronic computers. Computer science"
+      ],
+      "subject_display": "Information technology · Electronic computers. Computer science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS"
+      ],
+      "created_date": "2026-10-15T06:50:41Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T10:59:23Z",
+      "website": "https://mwsjournal.com",
+      "author_guidelines_url": "https://mwsjournal.com/index.php/mws/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "milky way scientific journal milky way open science foundation us north america information technology electronic computers computer science en cc by"
+    },
+    {
+      "id": "05c66f3e09534056a94841d82f702eb5",
+      "title": "Gerontologia",
+      "publisher_name": "Kasvun ja vanhenemisen tutkijat ry",
+      "country": "FI",
+      "continent": "Europe",
+      "subjects": [
+        "Sociology (General)",
+        "Geriatrics"
+      ],
+      "subject_display": "Sociology (General) · Geriatrics",
+      "languages": [
+        "FI",
+        "SV"
+      ],
+      "language_display": "FI, SV",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-09-22T11:15:11Z",
+      "created_year": 2021,
+      "created_month": "2021-09",
+      "last_updated": "2026-10-15T10:33:50Z",
+      "website": "https://journal.fi/gerontologia/index",
+      "author_guidelines_url": "https://journal.fi/gerontologia/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "gerontologia kasvun ja vanhenemisen tutkijat ry fi europe sociology general geriatrics fi sv cc by nc nd"
+    },
+    {
+      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
+      "title": "Облік і фінанси",
+      "publisher_name": "Institute of Accounting and Finance",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Finance"
+      ],
+      "subject_display": "Finance",
+      "languages": [
+        "EN",
+        "UK"
+      ],
+      "language_display": "EN, UK",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "50 USD / 1500 UAH",
+      "apc_max_eur": 44.66,
+      "apc_max_usd": 50.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-03-24T08:28:07Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-15T10:03:20Z",
+      "website": "https://afj.org.ua/en/",
+      "author_guidelines_url": "https://afj.org.ua/en/instructions",
+      "article_records_exposed": null,
+      "search_text": "institute of accounting and finance ua europe finance en uk cc by nc"
+    },
+    {
+      "id": "ee4466711f7b4e8e9ad539f15c02ce6b",
+      "title": "Kriminologie - Das Online-Journal",
+      "publisher_name": "Dr. Mario Bachmann, Dr. Nicole Boegelein",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "Law",
+        "Criminal law and procedure"
+      ],
+      "subject_display": "Law · Criminal law and procedure",
+      "languages": [
+        "EN",
+        "DE"
+      ],
+      "language_display": "EN, DE",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2020-11-09T17:58:14Z",
+      "created_year": 2020,
+      "created_month": "2020-11",
+      "last_updated": "2026-10-15T08:54:53Z",
+      "website": "https://www.kriminologie.de",
+      "author_guidelines_url": "https://www.kriminologie.de/index.php/krimoj/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "kriminologie das online journal dr mario bachmann dr nicole boegelein de europe law criminal law and procedure en de cc by"
+    },
+    {
+      "id": "e28f879ad17348838e4a1289f63fdf1c",
+      "title": "Pharmaceutical Technology in Hospital Pharmacy",
+      "publisher_name": "De Gruyter",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "Therapeutics. Pharmacology",
+        "Pharmaceutical industry"
+      ],
+      "subject_display": "Therapeutics. Pharmacology · Pharmaceutical industry",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1650 EUR",
+      "apc_max_eur": 1650.0,
+      "apc_max_usd": 1847.17,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2020-10-29T14:21:13Z",
+      "created_year": 2020,
+      "created_month": "2020-10",
+      "last_updated": "2026-10-15T08:47:16Z",
+      "website": "https://www.degruyter.com/view/journals/pthp/pthp-overview.xml",
+      "author_guidelines_url": "https://www.degruyter.com/publication/journal_key/PTHP/downloadAsset/PTHP_Instructions%20for%20Authors.pdf",
+      "article_records_exposed": null,
+      "search_text": "pharmaceutical technology in hospital pharmacy de gruyter de europe therapeutics pharmacology pharmaceutical industry en cc by"
+    },
+    {
+      "id": "dfb66292b5f3445fb14da38d5f4607b8",
+      "title": "Heidelberger Jahrbücher Online",
+      "publisher_name": "Heidelberg University Publishing",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "General Works"
+      ],
+      "subject_display": "General Works",
+      "languages": [
+        "DE",
+        "EN"
+      ],
+      "language_display": "DE, EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review"
+      ],
+      "peer_review_display": "Editorial review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2020-10-21T20:09:15Z",
+      "created_year": 2020,
+      "created_month": "2020-10",
+      "last_updated": "2026-10-15T08:13:42Z",
+      "website": "https://heiup.uni-heidelberg.de/journals/hdjbo/index",
+      "author_guidelines_url": "https://heiup.uni-heidelberg.de/journals/index.php/hdjbo/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "heidelberger jahrbucher online heidelberg university publishing de europe general works de en cc by sa"
+    },
+    {
+      "id": "cacf1947e27a46d088250ec30556fbf6",
+      "title": "Medien im Deutschunterricht",
+      "publisher_name": "USB Publications",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "Education",
+        "Communication. Mass media",
+        "Germanic languages. Scandinavian languages"
+      ],
+      "subject_display": "Education · Communication. Mass media",
+      "languages": [
+        "DE"
+      ],
+      "language_display": "DE",
+      "license_types": [
+        "CC BY-ND"
+      ],
+      "license_display": "CC BY-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2020-11-24T10:25:02Z",
+      "created_year": 2020,
+      "created_month": "2020-11",
+      "last_updated": "2026-10-15T08:00:51Z",
+      "website": "https://journals.ub.uni-koeln.de/index.php/midu",
+      "author_guidelines_url": "https://journals.ub.uni-koeln.de/index.php/midu/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "medien im deutschunterricht usb publications de europe education communication mass media germanic languages scandinavian languages de cc by nd"
+    },
+    {
+      "id": "bff075de51d54c8c9b39ed3797709029",
+      "title": "Aethiopica",
+      "publisher_name": "Universität Hamburg Hiob Ludolf Centre for Ethiopian and Eritrean Studies Asien-Afrika-Institut",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "Ethnology. Social and cultural anthropology",
+        "Philology. Linguistics"
+      ],
+      "subject_display": "Ethnology. Social and cultural anthropology · Philology. Linguistics",
+      "languages": [
+        "IT",
+        "DE",
+        "FR",
+        "EN"
+      ],
+      "language_display": "IT, DE, FR, EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "URN"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2020-11-09T17:37:51Z",
+      "created_year": 2020,
+      "created_month": "2020-11",
+      "last_updated": "2026-10-15T07:52:30Z",
+      "website": "https://journals.sub.uni-hamburg.de/aethiopica/about",
+      "author_guidelines_url": "https://journals.sub.uni-hamburg.de/aethiopica/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "aethiopica universitat hamburg hiob ludolf centre for ethiopian and eritrean studies asien afrika institut de europe ethnology social and cultural anthropology philology linguistics it de fr en cc by sa"
+    },
     {
       "id": "173b21f2638d43038ef6378bc2ea4c73",
       "title": "Journal of Cognitive Human-Computer Interaction",
@@ -173,50 +1027,6 @@
       "author_guidelines_url": "https://careered.libguides.com/aiusjournal/submissions",
       "article_records_exposed": null,
       "search_text": "the aius journal of research scholarship american intercontinental university system us north america education social sciences en cc by nd"
-    },
-    {
-      "id": "02771a50fe4f480dbbfdd468bf3ff85b",
-      "title": "Milky Way Scientific Journal",
-      "publisher_name": "Milky Way Open Science Foundation",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Information technology",
-        "Electronic computers. Computer science"
-      ],
-      "subject_display": "Information technology · Electronic computers. Computer science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS"
-      ],
-      "created_date": "2026-10-15T06:50:41Z",
-      "created_year": 2026,
-      "created_month": "2026-10",
-      "last_updated": "2026-10-15T06:50:41Z",
-      "website": "https://mwsjournal.com",
-      "author_guidelines_url": "https://mwsjournal.com/index.php/mws/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "milky way scientific journal milky way open science foundation us north america information technology electronic computers computer science en cc by"
     },
     {
       "id": "1147cf1b487c4ebdb83e7fee2ba7a502",
@@ -31495,49 +32305,6 @@
       "search_text": "tap chi phat trien va hoi nhap ho chi minh city university of economics and finance vn asia finance commerce en vi cc by nc"
     },
     {
-      "id": "fb0e4fcecef3448b81b53aad771afd8e",
-      "title": "Journal of Endovascular Resuscitation and Trauma Management",
-      "publisher_name": "Örebro University",
-      "country": "SE",
-      "continent": "Europe",
-      "subjects": [
-        "Diseases of the circulatory (Cardiovascular) system",
-        "Surgery"
-      ],
-      "subject_display": "Diseases of the circulatory (Cardiovascular) system · Surgery",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2024-04-17T09:35:08Z",
-      "created_year": 2024,
-      "created_month": "2024-04",
-      "last_updated": "2026-09-17T10:55:33Z",
-      "website": "https://publicera.kb.se/jevtm",
-      "author_guidelines_url": "https://publicera.kb.se/jevtm/instructions",
-      "article_records_exposed": null,
-      "search_text": "journal of endovascular resuscitation and trauma management orebro university se europe diseases of the circulatory cardiovascular system surgery en cc by"
-    },
-    {
       "id": "b9364ea2c40d4958b63fbcbb6e69a5f0",
       "title": "Ukrainian Neurosurgical Journal",
       "publisher_name": "Romodanov Neurosurgery Institute",
@@ -31581,48 +32348,6 @@
       "author_guidelines_url": "https://theunj.org/about/submissions",
       "article_records_exposed": null,
       "search_text": "ukrainian neurosurgical journal romodanov neurosurgery institute ua europe orthopedic surgery neurology diseases of the nervous system uk en cc by"
-    },
-    {
-      "id": "05c66f3e09534056a94841d82f702eb5",
-      "title": "Gerontologia",
-      "publisher_name": "Kasvun ja vanhenemisen tutkijat ry",
-      "country": "FI",
-      "continent": "Europe",
-      "subjects": [
-        "Sociology (General)",
-        "Geriatrics"
-      ],
-      "subject_display": "Sociology (General) · Geriatrics",
-      "languages": [
-        "SV",
-        "FI"
-      ],
-      "language_display": "SV, FI",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-09-22T11:15:11Z",
-      "created_year": 2021,
-      "created_month": "2021-09",
-      "last_updated": "2026-09-17T10:55:33Z",
-      "website": "https://journal.fi/gerontologia/index",
-      "author_guidelines_url": "https://journal.fi/gerontologia/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "gerontologia kasvun ja vanhenemisen tutkijat ry fi europe sociology general geriatrics sv fi cc by nc nd"
     },
     {
       "id": "c3fe963865264dcdafe55a322fa4b119",
@@ -168176,49 +168901,6 @@
       "author_guidelines_url": "https://www.triple-c.at/index.php/tripleC/about/submissions",
       "article_records_exposed": null,
       "search_text": "triplec communication capitalism critique paderborn university media systems and media organisation research group de europe communication mass media communities classes races en cc by nc nd"
-    },
-    {
-      "id": "211bce60933f45ea805cf4bed0ab36fc",
-      "title": "Acta Scientiarum: Animal Sciences",
-      "publisher_name": "Editora da Universidade Estadual de Maringá (Eduem)",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Animal culture"
-      ],
-      "subject_display": "Animal culture",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS",
-        "Cariniana Network"
-      ],
-      "created_date": "2008-09-08T10:54:04Z",
-      "created_year": 2008,
-      "created_month": "2008-09",
-      "last_updated": "2026-09-17T10:53:42Z",
-      "website": "https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/index",
-      "author_guidelines_url": "https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "acta scientiarum animal sciences editora da universidade estadual de maringa eduem br south america animal culture en cc by"
     },
     {
       "id": "1f74ad5abf504857bd76b372b398b8af",
@@ -385988,48 +386670,6 @@
       "search_text": "college of fine arts university of baghdad iq asia fine arts en ar cc by"
     },
     {
-      "id": "cacf1947e27a46d088250ec30556fbf6",
-      "title": "Medien im Deutschunterricht",
-      "publisher_name": "USB Publications",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Education",
-        "Communication. Mass media",
-        "Germanic languages. Scandinavian languages"
-      ],
-      "subject_display": "Education · Communication. Mass media",
-      "languages": [
-        "DE"
-      ],
-      "language_display": "DE",
-      "license_types": [
-        "CC BY-ND"
-      ],
-      "license_display": "CC BY-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2020-11-24T10:25:02Z",
-      "created_year": 2020,
-      "created_month": "2020-11",
-      "last_updated": "2026-09-17T10:50:23Z",
-      "website": "https://journals.ub.uni-koeln.de/index.php/midu",
-      "author_guidelines_url": "https://journals.ub.uni-koeln.de/index.php/midu/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "medien im deutschunterricht usb publications de europe education communication mass media germanic languages scandinavian languages de cc by nd"
-    },
-    {
       "id": "0a0093b109a74860b5590c17bad80cda",
       "title": "Ekonomia Społeczna",
       "publisher_name": "Cracow University of Economics",
@@ -457675,49 +458315,6 @@
       "author_guidelines_url": "https://perlit.tabrizu.ac.ir/journal/authors.note",
       "article_records_exposed": null,
       "search_text": "university of tabriz ir asia indo iranian languages and literature languages and literature of eastern asia africa oceania ar ae fa cc by nc"
-    },
-    {
-      "id": "e28f879ad17348838e4a1289f63fdf1c",
-      "title": "Pharmaceutical Technology in Hospital Pharmacy",
-      "publisher_name": "De Gruyter",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Therapeutics. Pharmacology",
-        "Pharmaceutical industry"
-      ],
-      "subject_display": "Therapeutics. Pharmacology · Pharmaceutical industry",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1650 EUR",
-      "apc_max_eur": 1650.0,
-      "apc_max_usd": 1847.17,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2020-10-29T14:21:13Z",
-      "created_year": 2020,
-      "created_month": "2020-10",
-      "last_updated": "2026-09-17T10:49:07Z",
-      "website": "https://www.degruyter.com/view/journals/pthp/pthp-overview.xml",
-      "author_guidelines_url": "https://www.degruyter.com/publication/journal_key/PTHP/downloadAsset/PTHP_Instructions%20for%20Authors.pdf",
-      "article_records_exposed": null,
-      "search_text": "pharmaceutical technology in hospital pharmacy de gruyter de europe therapeutics pharmacology pharmaceutical industry en cc by"
     },
     {
       "id": "d24b03340f544af2a1e730969613849d",
@@ -559310,53 +559907,6 @@
       "search_text": "archivos de prevencion de riesgos laborales associacio catalana de salut laboral es europe industrial medicine industrial hygiene es ca cc by nc nd"
     },
     {
-      "id": "bff075de51d54c8c9b39ed3797709029",
-      "title": "Aethiopica",
-      "publisher_name": "Universität Hamburg Hiob Ludolf Centre for Ethiopian and Eritrean Studies Asien-Afrika-Institut",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Ethnology. Social and cultural anthropology",
-        "Philology. Linguistics"
-      ],
-      "subject_display": "Ethnology. Social and cultural anthropology · Philology. Linguistics",
-      "languages": [
-        "IT",
-        "DE",
-        "FR",
-        "EN"
-      ],
-      "language_display": "IT, DE, FR, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "URN"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2020-11-09T17:37:51Z",
-      "created_year": 2020,
-      "created_month": "2020-11",
-      "last_updated": "2026-09-17T10:47:13Z",
-      "website": "https://journals.sub.uni-hamburg.de/aethiopica/about",
-      "author_guidelines_url": "https://journals.sub.uni-hamburg.de/aethiopica/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "aethiopica universitat hamburg hiob ludolf centre for ethiopian and eritrean studies asien afrika institut de europe ethnology social and cultural anthropology philology linguistics it de fr en cc by sa"
-    },
-    {
       "id": "09fb5546c4b34d8d9279c49037d7d462",
       "title": "مجله دانشگاه علوم پزشکی جیرفت",
       "publisher_name": "Jiroft University of Medical Sciences",
@@ -567714,47 +568264,6 @@
       "author_guidelines_url": "https://popups.uliege.be/1780-4507/index.php?page=instructions",
       "article_records_exposed": null,
       "search_text": "biotechnologie agronomie societe et environnement presses agronomiques de gembloux be europe biotechnology environmental sciences fr en cc by"
-    },
-    {
-      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
-      "title": "Облік і фінанси",
-      "publisher_name": "Institute of Accounting and Finance",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Finance"
-      ],
-      "subject_display": "Finance",
-      "languages": [
-        "EN",
-        "UK"
-      ],
-      "language_display": "EN, UK",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "50 USD / 1500 UAH",
-      "apc_max_eur": 44.66,
-      "apc_max_usd": 50.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-03-24T08:28:07Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-09-17T10:47:00Z",
-      "website": "https://afj.org.ua/en/",
-      "author_guidelines_url": "https://afj.org.ua/en/instructions",
-      "article_records_exposed": null,
-      "search_text": "institute of accounting and finance ua europe finance en uk cc by nc"
     },
     {
       "id": "d3f08d3e831d490faa2ee5d6a84e4c6f",
@@ -680775,49 +681284,6 @@
       "search_text": "kanem journal of medical sciences ntec specialist ng africa medicine general dentistry en cc by"
     },
     {
-      "id": "dfb66292b5f3445fb14da38d5f4607b8",
-      "title": "Heidelberger Jahrbücher Online",
-      "publisher_name": "Heidelberg University Publishing",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "General Works"
-      ],
-      "subject_display": "General Works",
-      "languages": [
-        "DE",
-        "EN"
-      ],
-      "language_display": "DE, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Editorial review"
-      ],
-      "peer_review_display": "Editorial review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2020-10-21T20:09:15Z",
-      "created_year": 2020,
-      "created_month": "2020-10",
-      "last_updated": "2026-09-17T10:44:42Z",
-      "website": "https://heiup.uni-heidelberg.de/journals/hdjbo/index",
-      "author_guidelines_url": "https://heiup.uni-heidelberg.de/journals/index.php/hdjbo/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "heidelberger jahrbucher online heidelberg university publishing de europe general works de en cc by sa"
-    },
-    {
       "id": "fb9061a9cf464f6bb8bf01bf8abdc305",
       "title": "Slovenika",
       "publisher_name": "University of Belgrade, Faculty of Philology; National Council of the Slovenian National Minority",
@@ -737443,50 +737909,6 @@
       "author_guidelines_url": "https://www.journal-vniizht.ru/jour/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "joint stock company railway scientific and research institute ru europe railroad engineering and operation ru cc by"
-    },
-    {
-      "id": "ee4466711f7b4e8e9ad539f15c02ce6b",
-      "title": "Kriminologie - Das Online-Journal",
-      "publisher_name": "Dr. Mario Bachmann, Dr. Nicole Boegelein",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Law",
-        "Criminal law and procedure"
-      ],
-      "subject_display": "Law · Criminal law and procedure",
-      "languages": [
-        "EN",
-        "DE"
-      ],
-      "language_display": "EN, DE",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2020-11-09T17:58:14Z",
-      "created_year": 2020,
-      "created_month": "2020-11",
-      "last_updated": "2026-09-17T10:43:41Z",
-      "website": "https://www.kriminologie.de",
-      "author_guidelines_url": "https://www.kriminologie.de/index.php/krimoj/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "kriminologie das online journal dr mario bachmann dr nicole boegelein de europe law criminal law and procedure en de cc by"
     },
     {
       "id": "0b906e338a7d458dbcd1a11ec0840243",
@@ -880368,47 +880790,6 @@
       "author_guidelines_url": "http://www.americanstudies.history.knu.ua/en/instructions_for_authors/",
       "article_records_exposed": null,
       "search_text": "taras shevchenko national university of kyiv ua europe history general latin america spanish america international relations law social sciences uk en cc by nc"
-    },
-    {
-      "id": "7228c192d34241b2837dccfe3d5aad09",
-      "title": "Pamukkale Üniversitesi İşletme Araştırmaları Dergisi",
-      "publisher_name": "Pamukkale University",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Business"
-      ],
-      "subject_display": "Business",
-      "languages": [
-        "EN",
-        "TR"
-      ],
-      "language_display": "EN, TR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-07-15T11:45:15Z",
-      "created_year": 2023,
-      "created_month": "2023-07",
-      "last_updated": "2026-09-17T10:40:43Z",
-      "website": "https://dergipark.org.tr/en/pub/piar",
-      "author_guidelines_url": "https://dergipark.org.tr/en/pub/piar/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "pamukkale universitesi isletme arast rmalar dergisi pamukkale university tr asia business en tr cc by nc nd"
     },
     {
       "id": "92f6cbc50f35488482a3b73dbf06523a",
