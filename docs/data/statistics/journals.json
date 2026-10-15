@@ -1,8 +1,308 @@
 {
-  "generated_at": "2026-10-15T02:12:59.418111+00:00",
+  "generated_at": "2026-10-15T07:49:50.657570+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23607,
+  "item_count": 23611,
   "items": [
+    {
+      "id": "173b21f2638d43038ef6378bc2ea4c73",
+      "title": "Journal of Cognitive Human-Computer Interaction",
+      "publisher_name": "American Scientific Publishing Group (ASPG)",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Electronic computers. Computer science"
+      ],
+      "subject_display": "Electronic computers. Computer science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-15T07:44:07Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T07:44:07Z",
+      "website": "https://www.americaspg.com/journal/25",
+      "author_guidelines_url": "https://www.americaspg.com/page/Author%20Guidelines?journal=25",
+      "article_records_exposed": null,
+      "search_text": "journal of cognitive human computer interaction american scientific publishing group aspg us north america electronic computers computer science en cc by"
+    },
+    {
+      "id": "7d8e795b8484487aa2e8fdb151fbc3be",
+      "title": "South Asian Journal of Cancer",
+      "publisher_name": "Thieme Medical and Scientific Publishers Pvt. Ltd.",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
+      ],
+      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "PMC",
+        "Portico"
+      ],
+      "created_date": "2013-05-24T14:39:43Z",
+      "created_year": 2013,
+      "created_month": "2013-05",
+      "last_updated": "2026-10-15T07:40:23Z",
+      "website": "https://lp.thieme.de/journals/south-asian-journal-of-cancer/2278-4306",
+      "author_guidelines_url": "https://lp.thieme.de/open-access-files/246/author_instructions.pdf",
+      "article_records_exposed": null,
+      "search_text": "south asian journal of cancer thieme medical and scientific publishers pvt ltd in asia neoplasms tumors oncology including cancer and carcinogens en cc by nc nd"
+    },
+    {
+      "id": "edd7860ea4c547deaa9e0e854399f641",
+      "title": "Asian Journal of Oncology",
+      "publisher_name": "Thieme Medical Publishers, Inc.",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
+      ],
+      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY",
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY, CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2017-01-30T08:46:56Z",
+      "created_year": 2017,
+      "created_month": "2017-01",
+      "last_updated": "2026-10-15T07:40:17Z",
+      "website": "https://doi.org/10.1055/s-00042137",
+      "author_guidelines_url": "https://www.thieme.com/media/ita/ASJO_instructions_to_authors.pdf",
+      "article_records_exposed": null,
+      "search_text": "asian journal of oncology thieme medical publishers inc us north america neoplasms tumors oncology including cancer and carcinogens en cc by cc by nc nd"
+    },
+    {
+      "id": "db89f7b8c6eb4461b905116eaa844c3f",
+      "title": "The AIUS Journal of Research & Scholarship",
+      "publisher_name": "American InterContinental University System",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Education",
+        "Social Sciences"
+      ],
+      "subject_display": "Education · Social Sciences",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-ND"
+      ],
+      "license_display": "CC BY-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-15T07:21:02Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T07:21:02Z",
+      "website": "https://careered.libguides.com/aiusjournal/home",
+      "author_guidelines_url": "https://careered.libguides.com/aiusjournal/submissions",
+      "article_records_exposed": null,
+      "search_text": "the aius journal of research scholarship american intercontinental university system us north america education social sciences en cc by nd"
+    },
+    {
+      "id": "02771a50fe4f480dbbfdd468bf3ff85b",
+      "title": "Milky Way Scientific Journal",
+      "publisher_name": "Milky Way Open Science Foundation",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Information technology",
+        "Electronic computers. Computer science"
+      ],
+      "subject_display": "Information technology · Electronic computers. Computer science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS"
+      ],
+      "created_date": "2026-10-15T06:50:41Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T06:50:41Z",
+      "website": "https://mwsjournal.com",
+      "author_guidelines_url": "https://mwsjournal.com/index.php/mws/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "milky way scientific journal milky way open science foundation us north america information technology electronic computers computer science en cc by"
+    },
+    {
+      "id": "1147cf1b487c4ebdb83e7fee2ba7a502",
+      "title": "International Journal of Energy and Environmental Engineering",
+      "publisher_name": "OICC Press",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Production of electric energy or power. Powerplants. Central stations"
+      ],
+      "subject_display": "Production of electric energy or power. Powerplants. Central stations",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1090 GBP",
+      "apc_max_eur": 1291.65,
+      "apc_max_usd": 1446.1,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2026-10-15T06:16:43Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T06:16:43Z",
+      "website": "https://oiccpress.com/ijeee/index",
+      "author_guidelines_url": "https://oiccpress.com/ijeee/guide-for-authors",
+      "article_records_exposed": null,
+      "search_text": "international journal of energy and environmental engineering oicc press gb europe production of electric energy or power powerplants central stations en cc by"
+    },
+    {
+      "id": "b035f723686042a5a496672effd81634",
+      "title": "Compiler",
+      "publisher_name": "Institut Teknologi Dirgantara Adisutjipto",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Technology (General)",
+        "Mathematics"
+      ],
+      "subject_display": "Technology (General) · Mathematics",
+      "languages": [
+        "EN",
+        "ID"
+      ],
+      "language_display": "EN, ID",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "300000 IDR",
+      "apc_max_eur": 15.0,
+      "apc_max_usd": 16.8,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-04-27T07:28:59Z",
+      "created_year": 2023,
+      "created_month": "2023-04",
+      "last_updated": "2026-10-15T03:12:38Z",
+      "website": "https://ejournals.itda.ac.id/index.php/compiler/index",
+      "author_guidelines_url": "https://ejournals.itda.ac.id/index.php/compiler/pages/view/penulisan",
+      "article_records_exposed": null,
+      "search_text": "compiler institut teknologi dirgantara adisutjipto id asia technology general mathematics en id cc by"
+    },
     {
       "id": "8591fcd1b79149459b63ef8082cad72f",
       "title": "RAN",
@@ -642,94 +942,6 @@
       "author_guidelines_url": "https://www.nomos.de/en/journals/zeus/#author-guidelines",
       "article_records_exposed": null,
       "search_text": "zeitschrift fur europarechtliche studien nomos verlagsgesellschaft mbh co kg de europe law of europe en fr de cc by cc by sa cc by nd cc by nc cc by nc sa cc by nc nd cc0"
-    },
-    {
-      "id": "edd7860ea4c547deaa9e0e854399f641",
-      "title": "Asian Journal of Oncology",
-      "publisher_name": "Thieme Medical Publishers, Inc.",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
-      ],
-      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY",
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY, CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "Portico"
-      ],
-      "created_date": "2017-01-30T08:46:56Z",
-      "created_year": 2017,
-      "created_month": "2017-01",
-      "last_updated": "2026-10-14T10:24:33Z",
-      "website": "https://doi.org/10.1055/s-00042137",
-      "author_guidelines_url": "https://www.thieme.com/media/ita/ASJO_instructions_to_authors.pdf",
-      "article_records_exposed": null,
-      "search_text": "asian journal of oncology thieme medical publishers inc us north america neoplasms tumors oncology including cancer and carcinogens en cc by cc by nc nd"
-    },
-    {
-      "id": "7d8e795b8484487aa2e8fdb151fbc3be",
-      "title": "South Asian Journal of Cancer",
-      "publisher_name": "Thieme Medical and Scientific Publishers Pvt. Ltd.",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
-      ],
-      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "PMC",
-        "Portico"
-      ],
-      "created_date": "2013-05-24T14:39:43Z",
-      "created_year": 2013,
-      "created_month": "2013-05",
-      "last_updated": "2026-10-14T10:15:09Z",
-      "website": "https://lp.thieme.de/journals/south-asian-journal-of-cancer/2278-4306",
-      "author_guidelines_url": "https://lp.thieme.de/open-access-files/246/author_instructions.pdf",
-      "article_records_exposed": null,
-      "search_text": "south asian journal of cancer thieme medical and scientific publishers pvt ltd in asia neoplasms tumors oncology including cancer and carcinogens en cc by nc nd"
     },
     {
       "id": "70779a001df143c686c3238f1a5c4d59",
@@ -31369,48 +31581,6 @@
       "author_guidelines_url": "https://theunj.org/about/submissions",
       "article_records_exposed": null,
       "search_text": "ukrainian neurosurgical journal romodanov neurosurgery institute ua europe orthopedic surgery neurology diseases of the nervous system uk en cc by"
-    },
-    {
-      "id": "b035f723686042a5a496672effd81634",
-      "title": "Compiler",
-      "publisher_name": "Institut Teknologi Dirgantara Adisutjipto",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Technology (General)",
-        "Mathematics"
-      ],
-      "subject_display": "Technology (General) · Mathematics",
-      "languages": [
-        "EN",
-        "ID"
-      ],
-      "language_display": "EN, ID",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "300000 IDR",
-      "apc_max_eur": 15.0,
-      "apc_max_usd": 16.8,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-04-27T07:28:59Z",
-      "created_year": 2023,
-      "created_month": "2023-04",
-      "last_updated": "2026-09-17T10:55:33Z",
-      "website": "https://ejournals.itda.ac.id/index.php/compiler/index",
-      "author_guidelines_url": "https://ejournals.itda.ac.id/index.php/compiler/pages/view/penulisan",
-      "article_records_exposed": null,
-      "search_text": "compiler institut teknologi dirgantara adisutjipto id asia technology general mathematics en id cc by"
     },
     {
       "id": "05c66f3e09534056a94841d82f702eb5",
