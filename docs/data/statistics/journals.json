@@ -1,8 +1,215 @@
 {
-  "generated_at": "2026-10-15T18:46:39.080172+00:00",
+  "generated_at": "2026-10-15T23:24:44.427914+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23620,
+  "item_count": 23619,
   "items": [
+    {
+      "id": "1a3810608cf44d0c9f51e0e097fc00d3",
+      "title": "Edupedia: Jurnal Studi Pendidikan dan Pedagogi Islam",
+      "publisher_name": "Fakultas Tarbiyah Universitas Ibrahimy",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Special aspects of education"
+      ],
+      "subject_display": "Special aspects of education",
+      "languages": [
+        "EN",
+        "ID"
+      ],
+      "language_display": "EN, ID",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": true,
+      "apc_native_display": "750000 IDR",
+      "apc_max_eur": 37.5,
+      "apc_max_usd": 42.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2026-08-02T14:48:33Z",
+      "created_year": 2026,
+      "created_month": "2026-08",
+      "last_updated": "2026-10-15T22:01:57Z",
+      "website": "https://journal.ibrahimy.ac.id/index.php/edupedia",
+      "author_guidelines_url": "https://journal.ibrahimy.ac.id/index.php/edupedia/Author-Guidelines",
+      "article_records_exposed": null,
+      "search_text": "edupedia jurnal studi pendidikan dan pedagogi islam fakultas tarbiyah universitas ibrahimy id asia special aspects of education en id cc by sa"
+    },
+    {
+      "id": "b20dbad6a72f4ae0bd3753a57deb4b6b",
+      "title": "Brno Studies in English",
+      "publisher_name": "Masaryk University",
+      "country": "CZ",
+      "continent": "Europe",
+      "subjects": [
+        "Translating and interpreting"
+      ],
+      "subject_display": "Translating and interpreting",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "Handles"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-15T21:27:20Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T21:27:20Z",
+      "website": "https://journals.phil.muni.cz/bse",
+      "author_guidelines_url": "https://journals.phil.muni.cz/bse/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "brno studies in english masaryk university cz europe translating and interpreting en cc by nc nd"
+    },
+    {
+      "id": "d2ed7e75579044b28ed14c649cce8272",
+      "title": "Актуальні питання масової комунікації",
+      "publisher_name": "Taras Shevchenko National University of Kyiv",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Communication. Mass media"
+      ],
+      "subject_display": "Communication. Mass media",
+      "languages": [
+        "UK",
+        "EN"
+      ],
+      "language_display": "UK, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "50 USD",
+      "apc_max_eur": 44.61,
+      "apc_max_usd": 50.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-06-01T12:06:57Z",
+      "created_year": 2021,
+      "created_month": "2021-06",
+      "last_updated": "2026-10-15T21:19:19Z",
+      "website": "https://cimc.knu.ua",
+      "author_guidelines_url": "https://cimc.knu.ua/author_guidelines",
+      "article_records_exposed": null,
+      "search_text": "taras shevchenko national university of kyiv ua europe communication mass media uk en cc by"
+    },
+    {
+      "id": "cba99dc9ceb5469b98cfa2f299c16dc2",
+      "title": "Focus",
+      "publisher_name": "University of Pécs, Department of English Literatures and Cultures",
+      "country": "HU",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-15T20:35:33Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-15T20:35:33Z",
+      "website": "https://journals.lib.pte.hu/index.php/focus/index",
+      "author_guidelines_url": "https://journals.lib.pte.hu/index.php/focus/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "focus university of pecs department of english literatures and cultures hu europe language and literature en cc by"
+    },
+    {
+      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
+      "title": "Облік і фінанси",
+      "publisher_name": "Institute of Accounting and Finance",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Finance"
+      ],
+      "subject_display": "Finance",
+      "languages": [
+        "UK",
+        "EN"
+      ],
+      "language_display": "UK, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "1800 UAH / 50 USD",
+      "apc_max_eur": 44.61,
+      "apc_max_usd": 50.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-03-24T08:28:07Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-15T19:14:35Z",
+      "website": "https://afj.org.ua/en/",
+      "author_guidelines_url": "https://afj.org.ua/en/instructions",
+      "article_records_exposed": null,
+      "search_text": "institute of accounting and finance ua europe finance uk en cc by nc"
+    },
     {
       "id": "36b2c1b945e649ccb06a64e2f155f799",
       "title": "Diségno",
@@ -846,47 +1053,6 @@
       "search_text": "gerontologia kasvun ja vanhenemisen tutkijat ry fi europe sociology general geriatrics fi sv cc by nc nd"
     },
     {
-      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
-      "title": "Облік і фінанси",
-      "publisher_name": "Institute of Accounting and Finance",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Finance"
-      ],
-      "subject_display": "Finance",
-      "languages": [
-        "EN",
-        "UK"
-      ],
-      "language_display": "EN, UK",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "50 USD / 1500 UAH",
-      "apc_max_eur": 44.61,
-      "apc_max_usd": 50.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-03-24T08:28:07Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-10-15T10:03:20Z",
-      "website": "https://afj.org.ua/en/",
-      "author_guidelines_url": "https://afj.org.ua/en/instructions",
-      "article_records_exposed": null,
-      "search_text": "institute of accounting and finance ua europe finance en uk cc by nc"
-    },
-    {
       "id": "ee4466711f7b4e8e9ad539f15c02ce6b",
       "title": "Kriminologie - Das Online-Journal",
       "publisher_name": "Dr. Mario Bachmann, Dr. Nicole Boegelein",
@@ -929,49 +1095,6 @@
       "author_guidelines_url": "https://www.kriminologie.de/index.php/krimoj/about/submissions",
       "article_records_exposed": null,
       "search_text": "kriminologie das online journal dr mario bachmann dr nicole boegelein de europe law criminal law and procedure en de cc by"
-    },
-    {
-      "id": "e28f879ad17348838e4a1289f63fdf1c",
-      "title": "Pharmaceutical Technology in Hospital Pharmacy",
-      "publisher_name": "De Gruyter",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Therapeutics. Pharmacology",
-        "Pharmaceutical industry"
-      ],
-      "subject_display": "Therapeutics. Pharmacology · Pharmaceutical industry",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1650 EUR",
-      "apc_max_eur": 1650.0,
-      "apc_max_usd": 1849.32,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2020-10-29T14:21:13Z",
-      "created_year": 2020,
-      "created_month": "2020-10",
-      "last_updated": "2026-10-15T08:47:16Z",
-      "website": "https://www.degruyter.com/view/journals/pthp/pthp-overview.xml",
-      "author_guidelines_url": "https://www.degruyter.com/publication/journal_key/PTHP/downloadAsset/PTHP_Instructions%20for%20Authors.pdf",
-      "article_records_exposed": null,
-      "search_text": "pharmaceutical technology in hospital pharmacy de gruyter de europe therapeutics pharmacology pharmaceutical industry en cc by"
     },
     {
       "id": "dfb66292b5f3445fb14da38d5f4607b8",
@@ -1146,94 +1269,6 @@
       "author_guidelines_url": "https://www.americaspg.com/page/Author%20Guidelines?journal=25",
       "article_records_exposed": null,
       "search_text": "journal of cognitive human computer interaction american scientific publishing group aspg us north america electronic computers computer science en cc by"
-    },
-    {
-      "id": "7d8e795b8484487aa2e8fdb151fbc3be",
-      "title": "South Asian Journal of Cancer",
-      "publisher_name": "Thieme Medical and Scientific Publishers Pvt. Ltd.",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
-      ],
-      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "PMC",
-        "Portico"
-      ],
-      "created_date": "2013-05-24T14:39:43Z",
-      "created_year": 2013,
-      "created_month": "2013-05",
-      "last_updated": "2026-10-15T07:40:23Z",
-      "website": "https://lp.thieme.de/journals/south-asian-journal-of-cancer/2278-4306",
-      "author_guidelines_url": "https://lp.thieme.de/open-access-files/246/author_instructions.pdf",
-      "article_records_exposed": null,
-      "search_text": "south asian journal of cancer thieme medical and scientific publishers pvt ltd in asia neoplasms tumors oncology including cancer and carcinogens en cc by nc nd"
-    },
-    {
-      "id": "edd7860ea4c547deaa9e0e854399f641",
-      "title": "Asian Journal of Oncology",
-      "publisher_name": "Thieme Medical Publishers, Inc.",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
-      ],
-      "subject_display": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY",
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY, CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "Portico"
-      ],
-      "created_date": "2017-01-30T08:46:56Z",
-      "created_year": 2017,
-      "created_month": "2017-01",
-      "last_updated": "2026-10-15T07:40:17Z",
-      "website": "https://doi.org/10.1055/s-00042137",
-      "author_guidelines_url": "https://www.thieme.com/media/ita/ASJO_instructions_to_authors.pdf",
-      "article_records_exposed": null,
-      "search_text": "asian journal of oncology thieme medical publishers inc us north america neoplasms tumors oncology including cancer and carcinogens en cc by cc by nc nd"
     },
     {
       "id": "db89f7b8c6eb4461b905116eaa844c3f",
@@ -35497,49 +35532,6 @@
       "author_guidelines_url": "https://advanced.onlinelibrary.wiley.com/hub/journal/29439981/author-guidelines",
       "article_records_exposed": null,
       "search_text": "advanced intelligent discovery wiley vch de europe electronic computers computer science technology en cc by cc by nc cc by nc nd"
-    },
-    {
-      "id": "1a3810608cf44d0c9f51e0e097fc00d3",
-      "title": "Edupedia: Jurnal Studi Pendidikan dan Pedagogi Islam",
-      "publisher_name": "Fakultas Tarbiyah Universitas Ibrahimy",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Special aspects of education"
-      ],
-      "subject_display": "Special aspects of education",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "750000 IDR",
-      "apc_max_eur": 37.5,
-      "apc_max_usd": 42.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS"
-      ],
-      "created_date": "2026-08-02T14:48:33Z",
-      "created_year": 2026,
-      "created_month": "2026-08",
-      "last_updated": "2026-09-17T10:55:30Z",
-      "website": "https://journal.ibrahimy.ac.id/index.php/edupedia",
-      "author_guidelines_url": "https://journal.ibrahimy.ac.id/index.php/edupedia/Author-Guidelines",
-      "article_records_exposed": null,
-      "search_text": "edupedia jurnal studi pendidikan dan pedagogi islam fakultas tarbiyah universitas ibrahimy id asia special aspects of education id en cc by sa"
     },
     {
       "id": "c54baa018ef948c8bfd439ee4255caa4",
@@ -688038,47 +688030,6 @@
       "author_guidelines_url": "https://www.jpcmed.com/page_1052.html",
       "article_records_exposed": null,
       "search_text": "novelty in clinical medicine sadra danesh negar ir asia medicine en cc by nc"
-    },
-    {
-      "id": "d2ed7e75579044b28ed14c649cce8272",
-      "title": "Актуальні питання масової комунікації",
-      "publisher_name": "Taras Shevchenko National University of Kyiv",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Communication. Mass media"
-      ],
-      "subject_display": "Communication. Mass media",
-      "languages": [
-        "UK",
-        "EN"
-      ],
-      "language_display": "UK, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "50 USD",
-      "apc_max_eur": 44.61,
-      "apc_max_usd": 50.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-06-01T12:06:57Z",
-      "created_year": 2021,
-      "created_month": "2021-06",
-      "last_updated": "2026-09-17T10:44:33Z",
-      "website": "https://cimc.knu.ua",
-      "author_guidelines_url": "https://cimc.knu.ua/author_guidelines",
-      "article_records_exposed": null,
-      "search_text": "taras shevchenko national university of kyiv ua europe communication mass media uk en cc by"
     },
     {
       "id": "3d75a1400cd34a439383c0a283cd1632",
