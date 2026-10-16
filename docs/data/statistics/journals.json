@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:24:44.427914+00:00",
+  "generated_at": "2026-10-16T02:03:59.508867+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23619,
   "items": [
@@ -14,10 +14,10 @@
       ],
       "subject_display": "Special aspects of education",
       "languages": [
-        "EN",
-        "ID"
+        "ID",
+        "EN"
       ],
-      "language_display": "EN, ID",
+      "language_display": "ID, EN",
       "license_types": [
         "CC BY-SA"
       ],
@@ -40,11 +40,11 @@
       "created_date": "2026-08-02T14:48:33Z",
       "created_year": 2026,
       "created_month": "2026-08",
-      "last_updated": "2026-10-15T22:01:57Z",
+      "last_updated": "2026-10-16T00:18:30Z",
       "website": "https://journal.ibrahimy.ac.id/index.php/edupedia",
       "author_guidelines_url": "https://journal.ibrahimy.ac.id/index.php/edupedia/Author-Guidelines",
       "article_records_exposed": null,
-      "search_text": "edupedia jurnal studi pendidikan dan pedagogi islam fakultas tarbiyah universitas ibrahimy id asia special aspects of education en id cc by sa"
+      "search_text": "edupedia jurnal studi pendidikan dan pedagogi islam fakultas tarbiyah universitas ibrahimy id asia special aspects of education id en cc by sa"
     },
     {
       "id": "b20dbad6a72f4ae0bd3753a57deb4b6b",
@@ -1926,7 +1926,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "60000 NGN",
-      "apc_max_eur": 40.32,
+      "apc_max_eur": 40.26,
       "apc_max_usd": 45.06,
       "author_retains": true,
       "peer_review_types": [
@@ -3156,7 +3156,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -3241,8 +3241,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1600 UAH",
-      "apc_max_eur": 31.74,
-      "apc_max_usd": 35.53,
+      "apc_max_eur": 31.76,
+      "apc_max_usd": 35.61,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -3283,8 +3283,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1100 UAH",
-      "apc_max_eur": 21.82,
-      "apc_max_usd": 24.43,
+      "apc_max_eur": 21.83,
+      "apc_max_usd": 24.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -4507,8 +4507,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.24,
-      "apc_max_usd": 47.09,
+      "apc_max_eur": 41.72,
+      "apc_max_usd": 46.76,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -5553,7 +5553,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "200000 IQD",
-      "apc_max_eur": 117.6,
+      "apc_max_eur": 117.4,
       "apc_max_usd": 131.8,
       "author_retains": false,
       "peer_review_types": [
@@ -8289,8 +8289,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -11464,8 +11464,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -11549,8 +11549,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1600 EGP",
-      "apc_max_eur": 27.03,
-      "apc_max_usd": 30.13,
+      "apc_max_eur": 26.7,
+      "apc_max_usd": 29.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -12392,8 +12392,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -13020,8 +13020,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "22500 ARS",
-      "apc_max_eur": 13.3,
-      "apc_max_usd": 14.85,
+      "apc_max_eur": 13.25,
+      "apc_max_usd": 14.87,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -15332,8 +15332,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.98,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 118.14,
+      "apc_max_usd": 132.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -16292,8 +16292,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -16728,8 +16728,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "30000 KZT",
-      "apc_max_eur": 59.49,
-      "apc_max_usd": 66.57,
+      "apc_max_eur": 59.07,
+      "apc_max_usd": 66.24,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -17878,8 +17878,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15300 RUB",
-      "apc_max_eur": 163.21,
-      "apc_max_usd": 182.3,
+      "apc_max_eur": 162.73,
+      "apc_max_usd": 182.42,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -18682,8 +18682,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "13000 PKR",
-      "apc_max_eur": 41.92,
-      "apc_max_usd": 46.96,
+      "apc_max_eur": 41.86,
+      "apc_max_usd": 46.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -18849,8 +18849,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -18892,8 +18892,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -18975,8 +18975,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "13000 PKR",
-      "apc_max_eur": 41.92,
-      "apc_max_usd": 46.96,
+      "apc_max_eur": 41.86,
+      "apc_max_usd": 46.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -20577,8 +20577,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "230000 KZT",
-      "apc_max_eur": 456.09,
-      "apc_max_usd": 510.37,
+      "apc_max_eur": 452.87,
+      "apc_max_usd": 507.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -21762,7 +21762,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "400000 IQD",
-      "apc_max_eur": 235.2,
+      "apc_max_eur": 234.8,
       "apc_max_usd": 263.6,
       "author_retains": true,
       "peer_review_types": [
@@ -24104,8 +24104,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "3000 EGP",
-      "apc_max_eur": 50.69,
-      "apc_max_usd": 56.5,
+      "apc_max_eur": 50.06,
+      "apc_max_usd": 56.11,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -27144,8 +27144,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "9000 PKR",
-      "apc_max_eur": 29.02,
-      "apc_max_usd": 32.51,
+      "apc_max_eur": 28.98,
+      "apc_max_usd": 32.49,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -27267,8 +27267,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "298 EGP",
-      "apc_max_eur": 5.04,
-      "apc_max_usd": 5.61,
+      "apc_max_eur": 4.97,
+      "apc_max_usd": 5.57,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -27352,8 +27352,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "3500 EGP",
-      "apc_max_eur": 59.14,
-      "apc_max_usd": 65.92,
+      "apc_max_eur": 58.4,
+      "apc_max_usd": 65.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -29436,8 +29436,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "7000 RUB",
-      "apc_max_eur": 74.67,
-      "apc_max_usd": 83.41,
+      "apc_max_eur": 74.45,
+      "apc_max_usd": 83.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -30028,8 +30028,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -37027,8 +37027,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -37108,8 +37108,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -37152,8 +37152,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -37193,8 +37193,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -46876,7 +46876,7 @@
       "apc_has": true,
       "apc_native_display": "12000 RSD",
       "apc_max_eur": 102.18,
-      "apc_max_usd": 114.38,
+      "apc_max_usd": 114.46,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -47468,8 +47468,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1700 UAH",
-      "apc_max_eur": 33.72,
-      "apc_max_usd": 37.76,
+      "apc_max_eur": 33.74,
+      "apc_max_usd": 37.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -49160,8 +49160,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -50521,8 +50521,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 EGP / 300 USD",
-      "apc_max_eur": 337.92,
-      "apc_max_usd": 376.68,
+      "apc_max_eur": 333.74,
+      "apc_max_usd": 374.08,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -51534,7 +51534,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -52474,8 +52474,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "65000 KZT",
-      "apc_max_eur": 128.9,
-      "apc_max_usd": 144.24,
+      "apc_max_eur": 127.98,
+      "apc_max_usd": 143.52,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -52638,7 +52638,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -52721,7 +52721,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "85000 NGN",
-      "apc_max_eur": 57.12,
+      "apc_max_eur": 57.04,
       "apc_max_usd": 63.84,
       "author_retains": true,
       "peer_review_types": [
@@ -53224,8 +53224,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30000 RUB",
-      "apc_max_eur": 320.01,
-      "apc_max_usd": 357.45,
+      "apc_max_eur": 319.08,
+      "apc_max_usd": 357.69,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -54088,8 +54088,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "15000 PKR",
-      "apc_max_eur": 48.38,
-      "apc_max_usd": 54.18,
+      "apc_max_eur": 48.3,
+      "apc_max_usd": 54.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -55513,8 +55513,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "13850 RUB",
-      "apc_max_eur": 147.74,
-      "apc_max_usd": 165.02,
+      "apc_max_eur": 147.31,
+      "apc_max_usd": 165.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -55553,8 +55553,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6000 RUB",
-      "apc_max_eur": 64.0,
-      "apc_max_usd": 71.49,
+      "apc_max_eur": 63.82,
+      "apc_max_usd": 71.54,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -55591,8 +55591,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "9900 RUB",
-      "apc_max_eur": 105.6,
-      "apc_max_usd": 117.96,
+      "apc_max_eur": 105.3,
+      "apc_max_usd": 118.04,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -59201,8 +59201,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "12900 RUB",
-      "apc_max_eur": 137.6,
-      "apc_max_usd": 153.7,
+      "apc_max_eur": 137.2,
+      "apc_max_usd": 153.81,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -60662,8 +60662,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "1800 UAH",
-      "apc_max_eur": 35.7,
-      "apc_max_usd": 39.98,
+      "apc_max_eur": 35.73,
+      "apc_max_usd": 40.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -61730,8 +61730,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -62660,7 +62660,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "200000 IQD",
-      "apc_max_eur": 117.6,
+      "apc_max_eur": 117.4,
       "apc_max_usd": 131.8,
       "author_retains": true,
       "peer_review_types": [
@@ -62784,8 +62784,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -64925,8 +64925,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100 USD / 28000 PKR",
-      "apc_max_eur": 90.3,
-      "apc_max_usd": 101.14,
+      "apc_max_eur": 90.16,
+      "apc_max_usd": 101.08,
       "author_retains": true,
       "peer_review_types": [
         "Triple-Anonymous Peer Review"
@@ -66748,7 +66748,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -67093,8 +67093,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "7000 RUB",
-      "apc_max_eur": 74.67,
-      "apc_max_usd": 83.41,
+      "apc_max_eur": 74.45,
+      "apc_max_usd": 83.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -69387,8 +69387,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -73540,8 +73540,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1000 MAD",
-      "apc_max_eur": 90.93,
-      "apc_max_usd": 101.52,
+      "apc_max_eur": 91.14,
+      "apc_max_usd": 101.88,
       "author_retains": false,
       "peer_review_types": [
         "Unspecified peer review"
@@ -76068,8 +76068,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "6400 RUB",
-      "apc_max_eur": 68.27,
-      "apc_max_usd": 76.26,
+      "apc_max_eur": 68.07,
+      "apc_max_usd": 76.31,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -80680,8 +80680,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.98,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 118.14,
+      "apc_max_usd": 132.48,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -80770,8 +80770,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "3000 EGP",
-      "apc_max_eur": 50.69,
-      "apc_max_usd": 56.5,
+      "apc_max_eur": 50.06,
+      "apc_max_usd": 56.11,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -82781,8 +82781,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.98,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 118.14,
+      "apc_max_usd": 132.48,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -83247,8 +83247,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -84507,8 +84507,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -87332,8 +87332,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "70000 KZT",
-      "apc_max_eur": 138.81,
-      "apc_max_usd": 155.33,
+      "apc_max_eur": 137.83,
+      "apc_max_usd": 154.56,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -98775,7 +98775,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": true,
       "peer_review_types": [
@@ -104055,8 +104055,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -107044,7 +107044,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "160000 IQD",
-      "apc_max_eur": 94.08,
+      "apc_max_eur": 93.92,
       "apc_max_usd": 105.44,
       "author_retains": false,
       "peer_review_types": [
@@ -108993,8 +108993,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -109209,7 +109209,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "300000 IQD",
-      "apc_max_eur": 176.4,
+      "apc_max_eur": 176.1,
       "apc_max_usd": 197.7,
       "author_retains": true,
       "peer_review_types": [
@@ -110504,7 +110504,7 @@
       "apc_has": true,
       "apc_native_display": "71000 XOF",
       "apc_max_eur": 108.2,
-      "apc_max_usd": 120.98,
+      "apc_max_usd": 121.41,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -111280,8 +111280,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "64000 KZT",
-      "apc_max_eur": 126.91,
-      "apc_max_usd": 142.02,
+      "apc_max_eur": 126.02,
+      "apc_max_usd": 141.31,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -120248,8 +120248,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -120811,8 +120811,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -121374,8 +121374,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 UAH",
-      "apc_max_eur": 39.67,
-      "apc_max_usd": 44.42,
+      "apc_max_eur": 39.7,
+      "apc_max_usd": 44.51,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -123953,7 +123953,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -123995,8 +123995,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -124038,8 +124038,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -125815,8 +125815,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -127866,7 +127866,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -130784,7 +130784,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -134508,7 +134508,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "500000 IQD",
-      "apc_max_eur": 294.0,
+      "apc_max_eur": 293.5,
       "apc_max_usd": 329.5,
       "author_retains": true,
       "peer_review_types": [
@@ -147261,7 +147261,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -148633,8 +148633,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.62,
-      "apc_max_usd": 90.3,
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -148714,7 +148714,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": true,
       "peer_review_types": [
@@ -158974,8 +158974,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "7000 RUB",
-      "apc_max_eur": 74.67,
-      "apc_max_usd": 83.41,
+      "apc_max_eur": 74.45,
+      "apc_max_usd": 83.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -161880,7 +161880,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "45000 NGN",
-      "apc_max_eur": 30.24,
+      "apc_max_eur": 30.2,
       "apc_max_usd": 33.8,
       "author_retains": true,
       "peer_review_types": [
@@ -164940,8 +164940,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 KZT",
-      "apc_max_eur": 9.91,
-      "apc_max_usd": 11.1,
+      "apc_max_eur": 9.84,
+      "apc_max_usd": 11.04,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -169122,8 +169122,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "5000 EGP",
-      "apc_max_eur": 84.48,
-      "apc_max_usd": 94.17,
+      "apc_max_eur": 83.44,
+      "apc_max_usd": 93.52,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -170151,8 +170151,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 RUB",
-      "apc_max_eur": 106.67,
-      "apc_max_usd": 119.15,
+      "apc_max_eur": 106.36,
+      "apc_max_usd": 119.23,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -175146,7 +175146,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "110000 IQD",
-      "apc_max_eur": 64.68,
+      "apc_max_eur": 64.57,
       "apc_max_usd": 72.49,
       "author_retains": false,
       "peer_review_types": [
@@ -182902,8 +182902,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "950 UAH",
-      "apc_max_eur": 18.84,
-      "apc_max_usd": 21.1,
+      "apc_max_eur": 18.86,
+      "apc_max_usd": 21.14,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -187943,8 +187943,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -189413,8 +189413,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1200 MAD",
-      "apc_max_eur": 109.11,
-      "apc_max_usd": 121.82,
+      "apc_max_eur": 109.37,
+      "apc_max_usd": 122.26,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -194539,8 +194539,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1800 UAH",
-      "apc_max_eur": 35.7,
-      "apc_max_usd": 39.98,
+      "apc_max_eur": 35.73,
+      "apc_max_usd": 40.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -195046,7 +195046,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -195170,8 +195170,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6250 RUB",
-      "apc_max_eur": 66.67,
-      "apc_max_usd": 74.47,
+      "apc_max_eur": 66.47,
+      "apc_max_usd": 74.52,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -198771,8 +198771,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 99.15,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 98.45,
+      "apc_max_usd": 110.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -199483,8 +199483,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -200025,7 +200025,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "225000 IQD",
-      "apc_max_eur": 132.3,
+      "apc_max_eur": 132.07,
       "apc_max_usd": 148.28,
       "author_retains": true,
       "peer_review_types": [
@@ -200369,8 +200369,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -200838,8 +200838,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "450 EGP",
-      "apc_max_eur": 7.6,
-      "apc_max_usd": 8.48,
+      "apc_max_eur": 7.51,
+      "apc_max_usd": 8.42,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -203639,7 +203639,7 @@
       "apc_has": true,
       "apc_native_display": "10000 RSD",
       "apc_max_eur": 85.15,
-      "apc_max_usd": 95.32,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -204342,8 +204342,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 EGP",
-      "apc_max_eur": 20.28,
-      "apc_max_usd": 22.6,
+      "apc_max_eur": 20.02,
+      "apc_max_usd": 22.44,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -204552,8 +204552,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1750 EGP",
-      "apc_max_eur": 29.57,
-      "apc_max_usd": 32.96,
+      "apc_max_eur": 29.2,
+      "apc_max_usd": 32.73,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -207447,8 +207447,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "47500 RUB",
-      "apc_max_eur": 506.68,
-      "apc_max_usd": 565.96,
+      "apc_max_eur": 505.21,
+      "apc_max_usd": 566.34,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -216560,8 +216560,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "9900 RUB",
-      "apc_max_eur": 105.6,
-      "apc_max_usd": 117.96,
+      "apc_max_eur": 105.3,
+      "apc_max_usd": 118.04,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -219160,7 +219160,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -221377,8 +221377,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2500 UAH",
-      "apc_max_eur": 49.59,
-      "apc_max_usd": 55.52,
+      "apc_max_eur": 49.62,
+      "apc_max_usd": 55.64,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -224207,7 +224207,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -225647,8 +225647,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10500 UAH",
-      "apc_max_eur": 208.27,
-      "apc_max_usd": 233.19,
+      "apc_max_eur": 208.41,
+      "apc_max_usd": 233.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -227108,8 +227108,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "700 UAH",
-      "apc_max_eur": 13.88,
-      "apc_max_usd": 15.55,
+      "apc_max_eur": 13.89,
+      "apc_max_usd": 15.58,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -227730,7 +227730,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "40000 IQD",
-      "apc_max_eur": 23.52,
+      "apc_max_eur": 23.48,
       "apc_max_usd": 26.36,
       "author_retains": false,
       "peer_review_types": [
@@ -229753,8 +229753,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2450 EGP",
-      "apc_max_eur": 41.4,
-      "apc_max_usd": 46.14,
+      "apc_max_eur": 40.88,
+      "apc_max_usd": 45.82,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -233466,8 +233466,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -233752,8 +233752,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -235653,7 +235653,7 @@
       "apc_has": true,
       "apc_native_display": "200 UAH",
       "apc_max_eur": 3.97,
-      "apc_max_usd": 4.44,
+      "apc_max_usd": 4.45,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -238350,8 +238350,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "8000 PKR",
-      "apc_max_eur": 25.8,
-      "apc_max_usd": 28.9,
+      "apc_max_eur": 25.76,
+      "apc_max_usd": 28.88,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -239724,8 +239724,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "1500 NPR",
-      "apc_max_eur": 8.82,
-      "apc_max_usd": 9.84,
+      "apc_max_eur": 8.8,
+      "apc_max_usd": 9.86,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -241597,8 +241597,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -244166,8 +244166,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -248581,8 +248581,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 RUB",
-      "apc_max_eur": 106.67,
-      "apc_max_usd": 119.15,
+      "apc_max_eur": 106.36,
+      "apc_max_usd": 119.23,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -248707,7 +248707,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "300000 IQD / 100 USD",
-      "apc_max_eur": 176.4,
+      "apc_max_eur": 176.1,
       "apc_max_usd": 197.7,
       "author_retains": true,
       "peer_review_types": [
@@ -269613,8 +269613,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "8000 PKR",
-      "apc_max_eur": 25.8,
-      "apc_max_usd": 28.9,
+      "apc_max_eur": 25.76,
+      "apc_max_usd": 28.88,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -276181,8 +276181,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1600 UAH",
-      "apc_max_eur": 31.74,
-      "apc_max_usd": 35.53,
+      "apc_max_eur": 31.76,
+      "apc_max_usd": 35.61,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -281372,8 +281372,8 @@
       "license_display": "Publisher's own license",
       "apc_has": true,
       "apc_native_display": "800 RUB",
-      "apc_max_eur": 8.53,
-      "apc_max_usd": 9.53,
+      "apc_max_eur": 8.51,
+      "apc_max_usd": 9.54,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -284207,7 +284207,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "115000 IQD",
-      "apc_max_eur": 67.62,
+      "apc_max_eur": 67.5,
       "apc_max_usd": 75.78,
       "author_retains": true,
       "peer_review_types": [
@@ -286539,8 +286539,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "600 UAH",
-      "apc_max_eur": 11.9,
-      "apc_max_usd": 13.33,
+      "apc_max_eur": 11.91,
+      "apc_max_usd": 13.35,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -290247,8 +290247,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6000 UAH",
-      "apc_max_eur": 119.01,
-      "apc_max_usd": 133.25,
+      "apc_max_eur": 119.09,
+      "apc_max_usd": 133.54,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -290335,8 +290335,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "42000 RUB",
-      "apc_max_eur": 448.01,
-      "apc_max_usd": 500.43,
+      "apc_max_eur": 446.71,
+      "apc_max_usd": 500.77,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -307184,8 +307184,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "100 USD / 20000 YER / 25000 YER",
-      "apc_max_eur": 94.53,
-      "apc_max_usd": 105.85,
+      "apc_max_eur": 94.45,
+      "apc_max_usd": 105.88,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -307664,8 +307664,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "1275 UAH",
-      "apc_max_eur": 25.29,
-      "apc_max_usd": 28.32,
+      "apc_max_eur": 25.31,
+      "apc_max_usd": 28.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -309833,8 +309833,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -310256,8 +310256,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 RUB",
-      "apc_max_eur": 533.35,
-      "apc_max_usd": 595.75,
+      "apc_max_eur": 531.8,
+      "apc_max_usd": 596.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -311432,8 +311432,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "550 UAH",
-      "apc_max_eur": 10.91,
-      "apc_max_usd": 12.21,
+      "apc_max_eur": 10.92,
+      "apc_max_usd": 12.24,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -312756,7 +312756,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30000 NGN",
-      "apc_max_eur": 20.16,
+      "apc_max_eur": 20.13,
       "apc_max_usd": 22.53,
       "author_retains": true,
       "peer_review_types": [
@@ -315828,8 +315828,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -321472,7 +321472,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -322899,8 +322899,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 PKR",
-      "apc_max_eur": 48.38,
-      "apc_max_usd": 54.18,
+      "apc_max_eur": 48.3,
+      "apc_max_usd": 54.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -323881,8 +323881,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.62,
-      "apc_max_usd": 90.3,
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -323965,8 +323965,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "750 MAD",
-      "apc_max_eur": 68.19,
-      "apc_max_usd": 76.14,
+      "apc_max_eur": 68.35,
+      "apc_max_usd": 76.41,
       "author_retains": false,
       "peer_review_types": [
         "Unspecified peer review"
@@ -324335,7 +324335,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -324978,8 +324978,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1800 UAH",
-      "apc_max_eur": 35.7,
-      "apc_max_usd": 39.98,
+      "apc_max_eur": 35.73,
+      "apc_max_usd": 40.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -325021,8 +325021,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -326270,8 +326270,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -326311,7 +326311,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 NGN",
-      "apc_max_eur": 16.8,
+      "apc_max_eur": 16.78,
       "apc_max_usd": 18.78,
       "author_retains": true,
       "peer_review_types": [
@@ -332840,8 +332840,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "13000 PKR",
-      "apc_max_eur": 41.92,
-      "apc_max_usd": 46.96,
+      "apc_max_eur": 41.86,
+      "apc_max_usd": 46.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -347348,7 +347348,7 @@
       "apc_has": true,
       "apc_native_display": "100000 XOF",
       "apc_max_eur": 152.4,
-      "apc_max_usd": 170.4,
+      "apc_max_usd": 171.0,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -349172,8 +349172,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.98,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 118.14,
+      "apc_max_usd": 132.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -350692,7 +350692,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 IQD",
-      "apc_max_eur": 29.4,
+      "apc_max_eur": 29.35,
       "apc_max_usd": 32.95,
       "author_retains": true,
       "peer_review_types": [
@@ -350901,8 +350901,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "6400 RUB",
-      "apc_max_eur": 68.27,
-      "apc_max_usd": 76.26,
+      "apc_max_eur": 68.07,
+      "apc_max_usd": 76.31,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -351190,8 +351190,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50 USD / 25000 YER",
-      "apc_max_eur": 94.53,
-      "apc_max_usd": 105.85,
+      "apc_max_eur": 94.45,
+      "apc_max_usd": 105.88,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -358968,8 +358968,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -359953,7 +359953,7 @@
       "apc_has": true,
       "apc_native_display": "450 UAH",
       "apc_max_eur": 8.93,
-      "apc_max_usd": 9.99,
+      "apc_max_usd": 10.02,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -362771,8 +362771,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1300 UAH",
-      "apc_max_eur": 25.79,
-      "apc_max_usd": 28.87,
+      "apc_max_eur": 25.8,
+      "apc_max_usd": 28.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -369483,7 +369483,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -371342,8 +371342,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -371807,8 +371807,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "7000 PKR",
-      "apc_max_eur": 22.57,
-      "apc_max_usd": 25.28,
+      "apc_max_eur": 22.54,
+      "apc_max_usd": 25.27,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -373235,8 +373235,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -374479,8 +374479,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "400 UAH",
-      "apc_max_eur": 7.93,
-      "apc_max_usd": 8.88,
+      "apc_max_eur": 7.94,
+      "apc_max_usd": 8.9,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -375894,8 +375894,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30 USD / 300 LYD",
-      "apc_max_eur": 41.62,
-      "apc_max_usd": 46.67,
+      "apc_max_eur": 41.64,
+      "apc_max_usd": 46.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -377354,7 +377354,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -377517,8 +377517,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "15000 PKR",
-      "apc_max_eur": 48.38,
-      "apc_max_usd": 54.18,
+      "apc_max_eur": 48.3,
+      "apc_max_usd": 54.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -378059,8 +378059,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 RUB",
-      "apc_max_eur": 106.67,
-      "apc_max_usd": 119.15,
+      "apc_max_eur": 106.36,
+      "apc_max_usd": 119.23,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -379911,8 +379911,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "49000 RUB",
-      "apc_max_eur": 522.68,
-      "apc_max_usd": 583.84,
+      "apc_max_eur": 521.16,
+      "apc_max_usd": 584.23,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -381319,8 +381319,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -381741,8 +381741,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "900 UAH",
-      "apc_max_eur": 17.85,
-      "apc_max_usd": 19.99,
+      "apc_max_eur": 17.86,
+      "apc_max_usd": 20.03,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -383408,8 +383408,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1100 EGP",
-      "apc_max_eur": 18.59,
-      "apc_max_usd": 20.72,
+      "apc_max_eur": 18.36,
+      "apc_max_usd": 20.57,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -385141,8 +385141,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -386385,7 +386385,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -386598,8 +386598,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -388114,7 +388114,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -389288,7 +389288,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": false,
       "peer_review_types": [
@@ -389944,8 +389944,8 @@
       "license_display": "CC BY, CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1250 EGP",
-      "apc_max_eur": 21.12,
-      "apc_max_usd": 23.54,
+      "apc_max_eur": 20.86,
+      "apc_max_usd": 23.38,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -390445,8 +390445,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "3940 RUB",
-      "apc_max_eur": 42.03,
-      "apc_max_usd": 46.95,
+      "apc_max_eur": 41.91,
+      "apc_max_usd": 46.98,
       "author_retains": false,
       "peer_review_types": [
         "Unspecified peer review"
@@ -391017,8 +391017,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "3000 EGP",
-      "apc_max_eur": 50.69,
-      "apc_max_usd": 56.5,
+      "apc_max_eur": 50.06,
+      "apc_max_usd": 56.11,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -391105,8 +391105,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -391187,8 +391187,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -394093,8 +394093,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.24,
-      "apc_max_usd": 47.09,
+      "apc_max_eur": 41.72,
+      "apc_max_usd": 46.76,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -397182,7 +397182,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "75000 IQD",
-      "apc_max_eur": 44.1,
+      "apc_max_eur": 44.02,
       "apc_max_usd": 49.42,
       "author_retains": false,
       "peer_review_types": [
@@ -401301,8 +401301,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "700 UAH",
-      "apc_max_eur": 13.88,
-      "apc_max_usd": 15.55,
+      "apc_max_eur": 13.89,
+      "apc_max_usd": 15.58,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -403244,8 +403244,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "350 UAH",
-      "apc_max_eur": 6.94,
-      "apc_max_usd": 7.77,
+      "apc_max_eur": 6.95,
+      "apc_max_usd": 7.79,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -403530,8 +403530,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -405223,8 +405223,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -406303,8 +406303,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -406507,7 +406507,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": false,
       "peer_review_types": [
@@ -406550,8 +406550,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -407454,7 +407454,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -408235,8 +408235,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1700 UAH",
-      "apc_max_eur": 33.72,
-      "apc_max_usd": 37.76,
+      "apc_max_eur": 33.74,
+      "apc_max_usd": 37.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -408360,8 +408360,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "850 EGP",
-      "apc_max_eur": 14.36,
-      "apc_max_usd": 16.01,
+      "apc_max_eur": 14.18,
+      "apc_max_usd": 15.9,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -410901,8 +410901,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.24,
-      "apc_max_usd": 47.09,
+      "apc_max_eur": 41.72,
+      "apc_max_usd": 46.76,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -414363,7 +414363,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -417368,8 +417368,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 RUB",
-      "apc_max_eur": 266.68,
-      "apc_max_usd": 297.88,
+      "apc_max_eur": 265.9,
+      "apc_max_usd": 298.07,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -420459,7 +420459,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "75000 IQD",
-      "apc_max_eur": 44.1,
+      "apc_max_eur": 44.02,
       "apc_max_usd": 49.42,
       "author_retains": false,
       "peer_review_types": [
@@ -421955,7 +421955,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -422681,8 +422681,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "600 UAH",
-      "apc_max_eur": 11.9,
-      "apc_max_usd": 13.33,
+      "apc_max_eur": 11.91,
+      "apc_max_usd": 13.35,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -429415,8 +429415,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -431240,8 +431240,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1600 EGP",
-      "apc_max_eur": 27.03,
-      "apc_max_usd": 30.13,
+      "apc_max_eur": 26.7,
+      "apc_max_usd": 29.93,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -437016,8 +437016,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "550 GHS / 40 USD",
-      "apc_max_eur": 42.22,
-      "apc_max_usd": 47.06,
+      "apc_max_eur": 42.08,
+      "apc_max_usd": 47.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -452613,8 +452613,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -452699,8 +452699,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "490 UAH",
-      "apc_max_eur": 9.72,
-      "apc_max_usd": 10.88,
+      "apc_max_eur": 9.73,
+      "apc_max_usd": 10.91,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -454927,7 +454927,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -456846,8 +456846,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2000 UAH",
-      "apc_max_eur": 39.67,
-      "apc_max_usd": 44.42,
+      "apc_max_eur": 39.7,
+      "apc_max_usd": 44.51,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -457611,8 +457611,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 99.15,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 98.45,
+      "apc_max_usd": 110.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -458758,8 +458758,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "3500 EGP",
-      "apc_max_eur": 59.14,
-      "apc_max_usd": 65.92,
+      "apc_max_eur": 58.4,
+      "apc_max_usd": 65.46,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -461405,8 +461405,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 99.15,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 98.45,
+      "apc_max_usd": 110.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -463824,7 +463824,7 @@
       "apc_has": true,
       "apc_native_display": "120000 XAF",
       "apc_max_eur": 182.88,
-      "apc_max_usd": 204.48,
+      "apc_max_usd": 205.2,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -465314,7 +465314,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -466318,7 +466318,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "110000 IQD",
-      "apc_max_eur": 64.68,
+      "apc_max_eur": 64.57,
       "apc_max_usd": 72.49,
       "author_retains": true,
       "peer_review_types": [
@@ -466362,7 +466362,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -467295,8 +467295,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1400 EGP",
-      "apc_max_eur": 23.65,
-      "apc_max_usd": 26.37,
+      "apc_max_eur": 23.36,
+      "apc_max_usd": 26.19,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -467336,7 +467336,7 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": false,
       "peer_review_types": [
@@ -469462,7 +469462,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": false,
       "peer_review_types": [
@@ -470147,7 +470147,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": false,
       "peer_review_types": [
@@ -475956,8 +475956,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "850000 CLP",
-      "apc_max_eur": 773.5,
-      "apc_max_usd": 866.15,
+      "apc_max_eur": 769.25,
+      "apc_max_usd": 862.75,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -476130,8 +476130,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -478398,8 +478398,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "700 RUB",
-      "apc_max_eur": 7.47,
-      "apc_max_usd": 8.34,
+      "apc_max_eur": 7.45,
+      "apc_max_usd": 8.35,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -482025,7 +482025,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -490238,8 +490238,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1625 UAH",
-      "apc_max_eur": 32.23,
-      "apc_max_usd": 36.09,
+      "apc_max_eur": 32.25,
+      "apc_max_usd": 36.17,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -494022,8 +494022,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -495396,8 +495396,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 YER / 50 USD",
-      "apc_max_eur": 75.62,
-      "apc_max_usd": 84.68,
+      "apc_max_eur": 75.56,
+      "apc_max_usd": 84.7,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -496485,7 +496485,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "120000 IQD",
-      "apc_max_eur": 70.56,
+      "apc_max_eur": 70.44,
       "apc_max_usd": 79.08,
       "author_retains": true,
       "peer_review_types": [
@@ -497698,7 +497698,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "300000 IQD",
-      "apc_max_eur": 176.4,
+      "apc_max_eur": 176.1,
       "apc_max_usd": 197.7,
       "author_retains": true,
       "peer_review_types": [
@@ -497738,7 +497738,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -501442,8 +501442,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -501483,8 +501483,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -501566,8 +501566,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "18000 RUB",
-      "apc_max_eur": 192.01,
-      "apc_max_usd": 214.47,
+      "apc_max_eur": 191.45,
+      "apc_max_usd": 214.61,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -502068,8 +502068,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -503060,8 +503060,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "43750 RUB",
-      "apc_max_eur": 466.68,
-      "apc_max_usd": 521.28,
+      "apc_max_eur": 465.32,
+      "apc_max_usd": 521.63,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -503936,8 +503936,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "43750 RUB",
-      "apc_max_eur": 466.68,
-      "apc_max_usd": 521.28,
+      "apc_max_eur": 465.32,
+      "apc_max_usd": 521.63,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -506393,7 +506393,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -510825,8 +510825,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1200 EGP",
-      "apc_max_eur": 20.28,
-      "apc_max_usd": 22.6,
+      "apc_max_eur": 20.02,
+      "apc_max_usd": 22.44,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -514988,7 +514988,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": false,
       "peer_review_types": [
@@ -519212,8 +519212,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "8000 PKR",
-      "apc_max_eur": 25.8,
-      "apc_max_usd": 28.9,
+      "apc_max_eur": 25.76,
+      "apc_max_usd": 28.88,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -522196,8 +522196,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -529736,8 +529736,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "3800 RUB",
-      "apc_max_eur": 40.53,
-      "apc_max_usd": 45.28,
+      "apc_max_eur": 40.42,
+      "apc_max_usd": 45.31,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -537337,8 +537337,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -537667,8 +537667,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -539643,8 +539643,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -540191,7 +540191,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -540681,8 +540681,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1800 EGP",
-      "apc_max_eur": 30.41,
-      "apc_max_usd": 33.9,
+      "apc_max_eur": 30.04,
+      "apc_max_usd": 33.67,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -541479,8 +541479,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2700 EGP",
-      "apc_max_eur": 45.62,
-      "apc_max_usd": 50.85,
+      "apc_max_eur": 45.05,
+      "apc_max_usd": 50.5,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -541898,8 +541898,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "4000 BDT",
-      "apc_max_eur": 28.96,
-      "apc_max_usd": 32.4,
+      "apc_max_eur": 28.98,
+      "apc_max_usd": 32.48,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -542156,8 +542156,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1300 UAH",
-      "apc_max_eur": 25.79,
-      "apc_max_usd": 28.87,
+      "apc_max_eur": 25.8,
+      "apc_max_usd": 28.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -547941,8 +547941,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.62,
-      "apc_max_usd": 90.3,
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -548026,8 +548026,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
-      "apc_max_usd": 1.11,
+      "apc_max_eur": 0.98,
+      "apc_max_usd": 1.1,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -548518,8 +548518,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -548558,8 +548558,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2300 EGP",
-      "apc_max_eur": 38.86,
-      "apc_max_usd": 43.32,
+      "apc_max_eur": 38.38,
+      "apc_max_usd": 43.02,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -549050,8 +549050,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "26000 RUB",
-      "apc_max_eur": 277.34,
-      "apc_max_usd": 309.79,
+      "apc_max_eur": 276.54,
+      "apc_max_usd": 310.0,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -550494,8 +550494,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "300 EGP",
-      "apc_max_eur": 5.07,
-      "apc_max_usd": 5.65,
+      "apc_max_eur": 5.01,
+      "apc_max_usd": 5.61,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -550537,8 +550537,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1500 EGP",
-      "apc_max_eur": 25.34,
-      "apc_max_usd": 28.25,
+      "apc_max_eur": 25.03,
+      "apc_max_usd": 28.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -550749,8 +550749,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
-      "apc_max_usd": 1.11,
+      "apc_max_eur": 0.98,
+      "apc_max_usd": 1.1,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -552104,7 +552104,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": true,
       "peer_review_types": [
@@ -558908,8 +558908,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "45500 RUB",
-      "apc_max_eur": 485.35,
-      "apc_max_usd": 542.13,
+      "apc_max_eur": 483.94,
+      "apc_max_usd": 542.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -560869,7 +560869,7 @@
       "apc_has": true,
       "apc_native_display": "300 UAH",
       "apc_max_eur": 5.95,
-      "apc_max_usd": 6.66,
+      "apc_max_usd": 6.68,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -561450,8 +561450,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 YER",
-      "apc_max_eur": 75.62,
-      "apc_max_usd": 84.68,
+      "apc_max_eur": 75.56,
+      "apc_max_usd": 84.7,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -562076,8 +562076,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -562118,8 +562118,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "80000 ARS",
-      "apc_max_eur": 47.28,
-      "apc_max_usd": 52.8,
+      "apc_max_eur": 47.12,
+      "apc_max_usd": 52.88,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -563032,7 +563032,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "990 RUB",
-      "apc_max_eur": 10.56,
+      "apc_max_eur": 10.53,
       "apc_max_usd": 11.8,
       "author_retains": true,
       "peer_review_types": [
@@ -564677,8 +564677,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "900 UAH",
-      "apc_max_eur": 17.85,
-      "apc_max_usd": 19.99,
+      "apc_max_eur": 17.86,
+      "apc_max_usd": 20.03,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -568767,7 +568767,7 @@
       "apc_has": true,
       "apc_native_display": "350 EUR / 700 BAM",
       "apc_max_eur": 357.9,
-      "apc_max_usd": 400.13,
+      "apc_max_usd": 401.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -569696,7 +569696,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "250000 IQD",
-      "apc_max_eur": 147.0,
+      "apc_max_eur": 146.75,
       "apc_max_usd": 164.75,
       "author_retains": true,
       "peer_review_types": [
@@ -569866,7 +569866,7 @@
       "apc_has": true,
       "apc_native_display": "100 UAH",
       "apc_max_eur": 1.98,
-      "apc_max_usd": 2.22,
+      "apc_max_usd": 2.23,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -570873,8 +570873,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -571472,7 +571472,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -572064,8 +572064,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -575453,8 +575453,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "250000 KZT",
-      "apc_max_eur": 495.75,
-      "apc_max_usd": 554.75,
+      "apc_max_eur": 492.25,
+      "apc_max_usd": 552.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -576118,8 +576118,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 UAH",
-      "apc_max_eur": 39.67,
-      "apc_max_usd": 44.42,
+      "apc_max_eur": 39.7,
+      "apc_max_usd": 44.51,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -576373,7 +576373,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "350000 IQD",
-      "apc_max_eur": 205.8,
+      "apc_max_eur": 205.45,
       "apc_max_usd": 230.65,
       "author_retains": false,
       "peer_review_types": [
@@ -577616,8 +577616,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "53000 RUB",
-      "apc_max_eur": 565.35,
-      "apc_max_usd": 631.5,
+      "apc_max_eur": 563.71,
+      "apc_max_usd": 631.92,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -579932,7 +579932,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -581483,7 +581483,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -583282,7 +583282,7 @@
       "apc_has": true,
       "apc_native_display": "25000 RSD",
       "apc_max_eur": 212.88,
-      "apc_max_usd": 238.3,
+      "apc_max_usd": 238.45,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -587627,8 +587627,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "500 PEN / 145 USD",
-      "apc_max_eur": 130.3,
-      "apc_max_usd": 145.35,
+      "apc_max_eur": 129.87,
+      "apc_max_usd": 145.55,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -590733,8 +590733,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.98,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 118.14,
+      "apc_max_usd": 132.48,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -591189,8 +591189,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2175 EGP",
-      "apc_max_eur": 36.75,
-      "apc_max_usd": 40.96,
+      "apc_max_eur": 36.29,
+      "apc_max_usd": 40.68,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -591230,8 +591230,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "599 EGP",
-      "apc_max_eur": 10.12,
-      "apc_max_usd": 11.28,
+      "apc_max_eur": 10.0,
+      "apc_max_usd": 11.2,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -593270,7 +593270,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "650000 IQD",
-      "apc_max_eur": 382.2,
+      "apc_max_eur": 381.55,
       "apc_max_usd": 428.35,
       "author_retains": true,
       "peer_review_types": [
@@ -595267,8 +595267,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2200 UAH",
-      "apc_max_eur": 43.64,
-      "apc_max_usd": 48.86,
+      "apc_max_eur": 43.67,
+      "apc_max_usd": 48.97,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -595513,8 +595513,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 KZT",
-      "apc_max_eur": 9.91,
-      "apc_max_usd": 11.1,
+      "apc_max_eur": 9.84,
+      "apc_max_usd": 11.04,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -596572,8 +596572,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10 EUR / 800 UAH",
-      "apc_max_eur": 15.87,
-      "apc_max_usd": 17.77,
+      "apc_max_eur": 15.88,
+      "apc_max_usd": 17.81,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -599687,8 +599687,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "200 PEN",
-      "apc_max_eur": 52.12,
-      "apc_max_usd": 58.14,
+      "apc_max_eur": 51.95,
+      "apc_max_usd": 58.22,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -600024,8 +600024,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1300 EGP",
-      "apc_max_eur": 21.96,
-      "apc_max_usd": 24.48,
+      "apc_max_eur": 21.69,
+      "apc_max_usd": 24.32,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -604705,8 +604705,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -613034,7 +613034,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "40000 NGN",
-      "apc_max_eur": 26.88,
+      "apc_max_eur": 26.84,
       "apc_max_usd": 30.04,
       "author_retains": true,
       "peer_review_types": [
@@ -618538,7 +618538,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -620877,8 +620877,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 EGP",
-      "apc_max_eur": 84.48,
-      "apc_max_usd": 94.17,
+      "apc_max_eur": 83.44,
+      "apc_max_usd": 93.52,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -633006,7 +633006,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -635762,8 +635762,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2200 EGP",
-      "apc_max_eur": 37.17,
-      "apc_max_usd": 41.43,
+      "apc_max_eur": 36.71,
+      "apc_max_usd": 41.15,
       "author_retains": false,
       "peer_review_types": [
         "Unspecified peer review"
@@ -635887,8 +635887,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "750 EGP",
-      "apc_max_eur": 12.67,
-      "apc_max_usd": 14.13,
+      "apc_max_eur": 12.52,
+      "apc_max_usd": 14.03,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -638777,7 +638777,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -641911,8 +641911,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "40000 RUB",
-      "apc_max_eur": 426.68,
-      "apc_max_usd": 476.6,
+      "apc_max_eur": 425.44,
+      "apc_max_usd": 476.92,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -643223,8 +643223,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.25,
-      "apc_max_usd": 36.12,
+      "apc_max_eur": 32.2,
+      "apc_max_usd": 36.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -659444,8 +659444,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.62,
-      "apc_max_usd": 90.3,
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -660868,8 +660868,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -662411,7 +662411,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -664742,8 +664742,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1200 UAH",
-      "apc_max_eur": 23.8,
-      "apc_max_usd": 26.65,
+      "apc_max_eur": 23.82,
+      "apc_max_usd": 26.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -672192,8 +672192,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "960 UAH",
-      "apc_max_eur": 19.04,
-      "apc_max_usd": 21.32,
+      "apc_max_eur": 19.06,
+      "apc_max_usd": 21.37,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -673040,8 +673040,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "3000 TWD",
-      "apc_max_eur": 83.44,
-      "apc_max_usd": 93.14,
+      "apc_max_eur": 82.65,
+      "apc_max_usd": 92.71,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -674533,8 +674533,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "100 EGP",
-      "apc_max_eur": 1.69,
-      "apc_max_usd": 1.88,
+      "apc_max_eur": 1.67,
+      "apc_max_usd": 1.87,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -677116,8 +677116,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1100 UAH",
-      "apc_max_eur": 21.82,
-      "apc_max_usd": 24.43,
+      "apc_max_eur": 21.83,
+      "apc_max_usd": 24.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -677200,7 +677200,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "85000 IQD",
-      "apc_max_eur": 49.98,
+      "apc_max_eur": 49.89,
       "apc_max_usd": 56.02,
       "author_retains": true,
       "peer_review_types": [
@@ -678903,8 +678903,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "3000 EGP",
-      "apc_max_eur": 50.69,
-      "apc_max_usd": 56.5,
+      "apc_max_eur": 50.06,
+      "apc_max_usd": 56.11,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -679275,8 +679275,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "400 EGP",
-      "apc_max_eur": 6.76,
-      "apc_max_usd": 7.53,
+      "apc_max_eur": 6.67,
+      "apc_max_usd": 7.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -679480,7 +679480,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -681293,7 +681293,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -681938,8 +681938,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 RUB",
-      "apc_max_eur": 533.35,
-      "apc_max_usd": 595.75,
+      "apc_max_eur": 531.8,
+      "apc_max_usd": 596.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -682107,7 +682107,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "150000 IQD / 200 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -684974,8 +684974,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 RUB",
-      "apc_max_eur": 1066.7,
-      "apc_max_usd": 1191.5,
+      "apc_max_eur": 1063.6,
+      "apc_max_usd": 1192.3,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -690713,8 +690713,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 SYP",
-      "apc_max_eur": 366.7,
-      "apc_max_usd": 410.25,
+      "apc_max_eur": 366.4,
+      "apc_max_usd": 410.55,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -691958,8 +691958,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 EGP",
-      "apc_max_eur": 33.79,
-      "apc_max_usd": 37.67,
+      "apc_max_eur": 33.37,
+      "apc_max_usd": 37.41,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -692174,7 +692174,7 @@
       "apc_has": true,
       "apc_native_display": "100 UAH",
       "apc_max_eur": 1.98,
-      "apc_max_usd": 2.22,
+      "apc_max_usd": 2.23,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -695385,7 +695385,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -695427,7 +695427,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -697740,7 +697740,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -697948,7 +697948,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -697988,7 +697988,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "400000 IQD",
-      "apc_max_eur": 235.2,
+      "apc_max_eur": 234.8,
       "apc_max_usd": 263.6,
       "author_retains": true,
       "peer_review_types": [
@@ -702729,8 +702729,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "2000 UAH",
-      "apc_max_eur": 39.67,
-      "apc_max_usd": 44.42,
+      "apc_max_eur": 39.7,
+      "apc_max_usd": 44.51,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -703057,7 +703057,7 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": false,
       "peer_review_types": [
@@ -703882,8 +703882,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -704290,8 +704290,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "5000 NPR",
-      "apc_max_eur": 29.41,
-      "apc_max_usd": 32.81,
+      "apc_max_eur": 29.33,
+      "apc_max_usd": 32.86,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -704415,7 +704415,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "300000 IQD",
-      "apc_max_eur": 176.4,
+      "apc_max_eur": 176.1,
       "apc_max_usd": 197.7,
       "author_retains": false,
       "peer_review_types": [
@@ -705626,8 +705626,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "6000 PKR",
-      "apc_max_eur": 19.35,
-      "apc_max_usd": 21.67,
+      "apc_max_eur": 19.32,
+      "apc_max_usd": 21.66,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -706908,8 +706908,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "35000 RUB",
-      "apc_max_eur": 373.34,
-      "apc_max_usd": 417.03,
+      "apc_max_eur": 372.26,
+      "apc_max_usd": 417.31,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -708830,8 +708830,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "1500 MAD",
-      "apc_max_eur": 136.39,
-      "apc_max_usd": 152.28,
+      "apc_max_eur": 136.71,
+      "apc_max_usd": 152.82,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -712266,8 +712266,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6000 RUB",
-      "apc_max_eur": 64.0,
-      "apc_max_usd": 71.49,
+      "apc_max_eur": 63.82,
+      "apc_max_usd": 71.54,
       "author_retains": true,
       "peer_review_types": [
         "Open peer review"
@@ -714407,8 +714407,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -714447,8 +714447,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -717598,8 +717598,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -717885,8 +717885,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "10000 RUB",
-      "apc_max_eur": 106.67,
-      "apc_max_usd": 119.15,
+      "apc_max_eur": 106.36,
+      "apc_max_usd": 119.23,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -718514,7 +718514,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -729151,8 +729151,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -729236,8 +729236,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6000 RUB",
-      "apc_max_eur": 64.0,
-      "apc_max_usd": 71.49,
+      "apc_max_eur": 63.82,
+      "apc_max_usd": 71.54,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -735311,8 +735311,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -737667,8 +737667,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -739032,7 +739032,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -741403,7 +741403,7 @@
       "apc_has": true,
       "apc_native_display": "200 UAH",
       "apc_max_eur": 3.97,
-      "apc_max_usd": 4.44,
+      "apc_max_usd": 4.45,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -744620,8 +744620,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "525 UAH",
-      "apc_max_eur": 10.41,
-      "apc_max_usd": 11.66,
+      "apc_max_eur": 10.42,
+      "apc_max_usd": 11.68,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -746034,8 +746034,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "28000 RUB",
-      "apc_max_eur": 298.68,
-      "apc_max_usd": 333.62,
+      "apc_max_eur": 297.81,
+      "apc_max_usd": 333.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -747205,7 +747205,7 @@
       "apc_has": true,
       "apc_native_display": "30000 XOF",
       "apc_max_eur": 45.72,
-      "apc_max_usd": 51.12,
+      "apc_max_usd": 51.3,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -747754,8 +747754,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "750 UAH",
-      "apc_max_eur": 14.88,
-      "apc_max_usd": 16.66,
+      "apc_max_eur": 14.89,
+      "apc_max_usd": 16.69,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -747923,8 +747923,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "4000 EGP",
-      "apc_max_eur": 67.58,
-      "apc_max_usd": 75.34,
+      "apc_max_eur": 66.75,
+      "apc_max_usd": 74.82,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -750586,8 +750586,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -751113,8 +751113,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -758092,8 +758092,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "22000 RUB",
-      "apc_max_eur": 234.67,
-      "apc_max_usd": 262.13,
+      "apc_max_eur": 233.99,
+      "apc_max_usd": 262.31,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -761545,8 +761545,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -761626,8 +761626,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "7000 PKR",
-      "apc_max_eur": 22.57,
-      "apc_max_usd": 25.28,
+      "apc_max_eur": 22.54,
+      "apc_max_usd": 25.27,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -766374,7 +766374,7 @@
       "apc_has": true,
       "apc_native_display": "65 UAH",
       "apc_max_eur": 1.29,
-      "apc_max_usd": 1.44,
+      "apc_max_usd": 1.45,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -767589,8 +767589,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 EGP",
-      "apc_max_eur": 25.34,
-      "apc_max_usd": 28.25,
+      "apc_max_eur": 25.03,
+      "apc_max_usd": 28.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -772711,8 +772711,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "800 UAH",
-      "apc_max_eur": 15.87,
-      "apc_max_usd": 17.77,
+      "apc_max_eur": 15.88,
+      "apc_max_usd": 17.81,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -781946,7 +781946,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "500000 IQD",
-      "apc_max_eur": 294.0,
+      "apc_max_eur": 293.5,
       "apc_max_usd": 329.5,
       "author_retains": true,
       "peer_review_types": [
@@ -782116,7 +782116,7 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -785984,8 +785984,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -789769,8 +789769,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "6600 RUB",
-      "apc_max_eur": 70.4,
-      "apc_max_usd": 78.64,
+      "apc_max_eur": 70.2,
+      "apc_max_usd": 78.69,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -790022,8 +790022,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.66,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.38,
+      "apc_max_usd": 44.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -796039,8 +796039,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6500 KZT",
-      "apc_max_eur": 12.89,
-      "apc_max_usd": 14.42,
+      "apc_max_eur": 12.8,
+      "apc_max_usd": 14.35,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -797384,7 +797384,7 @@
       "apc_has": true,
       "apc_native_display": "30000 XOF",
       "apc_max_eur": 45.72,
-      "apc_max_usd": 51.12,
+      "apc_max_usd": 51.3,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -797422,7 +797422,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -804085,8 +804085,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "975 UAH",
-      "apc_max_eur": 19.34,
-      "apc_max_usd": 21.65,
+      "apc_max_eur": 19.35,
+      "apc_max_usd": 21.7,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -812307,7 +812307,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -812887,7 +812887,7 @@
       "license_display": "CC BY, CC BY-NC",
       "apc_has": true,
       "apc_native_display": "75000 IQD",
-      "apc_max_eur": 44.1,
+      "apc_max_eur": 44.02,
       "apc_max_usd": 49.42,
       "author_retains": false,
       "peer_review_types": [
@@ -813913,8 +813913,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "500 EGP",
-      "apc_max_eur": 8.45,
-      "apc_max_usd": 9.42,
+      "apc_max_eur": 8.34,
+      "apc_max_usd": 9.35,
       "author_retains": true,
       "peer_review_types": [
         "Editorial review",
@@ -814581,8 +814581,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -815677,8 +815677,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 PKR",
-      "apc_max_eur": 48.38,
-      "apc_max_usd": 54.18,
+      "apc_max_eur": 48.3,
+      "apc_max_usd": 54.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -815841,8 +815841,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 EGP",
-      "apc_max_eur": 33.79,
-      "apc_max_usd": 37.67,
+      "apc_max_eur": 33.37,
+      "apc_max_usd": 37.41,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -817206,7 +817206,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -824439,8 +824439,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "3940 RUB",
-      "apc_max_eur": 42.03,
-      "apc_max_usd": 46.95,
+      "apc_max_eur": 41.91,
+      "apc_max_usd": 46.98,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -825216,8 +825216,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.24,
-      "apc_max_usd": 47.09,
+      "apc_max_eur": 41.72,
+      "apc_max_usd": 46.76,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -825257,7 +825257,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "75000 IQD",
-      "apc_max_eur": 44.1,
+      "apc_max_eur": 44.02,
       "apc_max_usd": 49.42,
       "author_retains": true,
       "peer_review_types": [
@@ -825472,8 +825472,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "800 UAH",
-      "apc_max_eur": 15.87,
-      "apc_max_usd": 17.77,
+      "apc_max_eur": 15.88,
+      "apc_max_usd": 17.81,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -831898,7 +831898,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50 USD / 125000 IQD",
-      "apc_max_eur": 73.5,
+      "apc_max_eur": 73.38,
       "apc_max_usd": 82.38,
       "author_retains": true,
       "peer_review_types": [
@@ -832513,8 +832513,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6500 EGP",
-      "apc_max_eur": 109.82,
-      "apc_max_usd": 122.42,
+      "apc_max_eur": 108.47,
+      "apc_max_usd": 121.58,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -836927,8 +836927,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "800 EGP",
-      "apc_max_eur": 13.52,
-      "apc_max_usd": 15.07,
+      "apc_max_eur": 13.35,
+      "apc_max_usd": 14.96,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -838680,7 +838680,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -839709,8 +839709,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1125 UAH",
-      "apc_max_eur": 22.31,
-      "apc_max_usd": 24.99,
+      "apc_max_eur": 22.33,
+      "apc_max_usd": 25.04,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -845679,8 +845679,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2700 EGP",
-      "apc_max_eur": 45.62,
-      "apc_max_usd": 50.85,
+      "apc_max_eur": 45.05,
+      "apc_max_usd": 50.5,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -847110,8 +847110,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -848009,8 +848009,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1500 UAH",
-      "apc_max_eur": 29.75,
-      "apc_max_usd": 33.31,
+      "apc_max_eur": 29.77,
+      "apc_max_usd": 33.39,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -856434,8 +856434,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1120 UAH",
-      "apc_max_eur": 22.22,
-      "apc_max_usd": 24.87,
+      "apc_max_eur": 22.23,
+      "apc_max_usd": 24.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -856475,8 +856475,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1120 UAH",
-      "apc_max_eur": 22.22,
-      "apc_max_usd": 24.87,
+      "apc_max_eur": 22.23,
+      "apc_max_usd": 24.93,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -856848,8 +856848,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 UAH",
-      "apc_max_eur": 39.67,
-      "apc_max_usd": 44.42,
+      "apc_max_eur": 39.7,
+      "apc_max_usd": 44.51,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -857760,8 +857760,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "1200 EGP",
-      "apc_max_eur": 20.28,
-      "apc_max_usd": 22.6,
+      "apc_max_eur": 20.02,
+      "apc_max_usd": 22.44,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -862908,8 +862908,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "600 UAH",
-      "apc_max_eur": 11.9,
-      "apc_max_usd": 13.33,
+      "apc_max_eur": 11.91,
+      "apc_max_usd": 13.35,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -863362,8 +863362,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.24,
-      "apc_max_usd": 47.09,
+      "apc_max_eur": 41.72,
+      "apc_max_usd": 46.76,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -865063,8 +865063,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "70500 RUB",
-      "apc_max_eur": 752.02,
-      "apc_max_usd": 840.01,
+      "apc_max_eur": 749.84,
+      "apc_max_usd": 840.57,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -868597,7 +868597,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "150000 IQD",
-      "apc_max_eur": 88.2,
+      "apc_max_eur": 88.05,
       "apc_max_usd": 98.85,
       "author_retains": true,
       "peer_review_types": [
@@ -869925,7 +869925,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XAF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -876587,8 +876587,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.5,
-      "apc_max_usd": 72.24,
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -876756,7 +876756,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "100000 IQD",
-      "apc_max_eur": 58.8,
+      "apc_max_eur": 58.7,
       "apc_max_usd": 65.9,
       "author_retains": true,
       "peer_review_types": [
@@ -888523,7 +888523,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": true,
       "peer_review_types": [
@@ -897038,7 +897038,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "625 RUB",
-      "apc_max_eur": 6.67,
+      "apc_max_eur": 6.65,
       "apc_max_usd": 7.45,
       "author_retains": true,
       "peer_review_types": [
@@ -902294,7 +902294,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.44,
+      "apc_max_eur": 13.42,
       "apc_max_usd": 15.02,
       "author_retains": false,
       "peer_review_types": [
@@ -909441,8 +909441,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "800 UAH",
-      "apc_max_eur": 15.87,
-      "apc_max_usd": 17.77,
+      "apc_max_eur": 15.88,
+      "apc_max_usd": 17.81,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -911124,8 +911124,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 PKR",
-      "apc_max_eur": 48.38,
-      "apc_max_usd": 54.18,
+      "apc_max_eur": 48.3,
+      "apc_max_usd": 54.15,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -911744,7 +911744,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "40 EGP",
-      "apc_max_eur": 0.68,
+      "apc_max_eur": 0.67,
       "apc_max_usd": 0.75,
       "author_retains": true,
       "peer_review_types": [
@@ -916186,8 +916186,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "1500 EGP",
-      "apc_max_eur": 25.34,
-      "apc_max_usd": 28.25,
+      "apc_max_eur": 25.03,
+      "apc_max_usd": 28.06,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -920903,8 +920903,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "600 UAH",
-      "apc_max_eur": 11.9,
-      "apc_max_usd": 13.33,
+      "apc_max_eur": 11.91,
+      "apc_max_usd": 13.35,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -923458,8 +923458,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -927470,7 +927470,7 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "35000 NGN",
-      "apc_max_eur": 23.52,
+      "apc_max_eur": 23.49,
       "apc_max_usd": 26.29,
       "author_retains": false,
       "peer_review_types": [
@@ -929538,8 +929538,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 EGP",
-      "apc_max_eur": 84.48,
-      "apc_max_usd": 94.17,
+      "apc_max_eur": 83.44,
+      "apc_max_usd": 93.52,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -930710,8 +930710,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "400 EGP",
-      "apc_max_eur": 6.76,
-      "apc_max_usd": 7.53,
+      "apc_max_eur": 6.67,
+      "apc_max_usd": 7.48,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -930795,8 +930795,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -932800,8 +932800,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "12000 RUB",
-      "apc_max_eur": 128.0,
-      "apc_max_usd": 142.98,
+      "apc_max_eur": 127.63,
+      "apc_max_usd": 143.08,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -934321,8 +934321,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "15000 RUB",
-      "apc_max_eur": 160.0,
-      "apc_max_usd": 178.72,
+      "apc_max_eur": 159.54,
+      "apc_max_usd": 178.84,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -936588,8 +936588,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1600 UAH",
-      "apc_max_eur": 31.74,
-      "apc_max_usd": 35.53,
+      "apc_max_eur": 31.76,
+      "apc_max_usd": 35.61,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -936628,8 +936628,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "8000 RUB",
-      "apc_max_eur": 85.34,
-      "apc_max_usd": 95.32,
+      "apc_max_eur": 85.09,
+      "apc_max_usd": 95.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -938023,8 +938023,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 ARS",
-      "apc_max_eur": 11.82,
-      "apc_max_usd": 13.2,
+      "apc_max_eur": 11.78,
+      "apc_max_usd": 13.22,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -938576,8 +938576,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.66,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.38,
+      "apc_max_usd": 44.16,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -939706,8 +939706,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1680 UAH",
-      "apc_max_eur": 33.32,
-      "apc_max_usd": 37.31,
+      "apc_max_eur": 33.35,
+      "apc_max_usd": 37.39,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -941728,7 +941728,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30000 NGN",
-      "apc_max_eur": 20.16,
+      "apc_max_eur": 20.13,
       "apc_max_usd": 22.53,
       "author_retains": false,
       "peer_review_types": [
@@ -942812,7 +942812,7 @@
       "apc_has": true,
       "apc_native_display": "40000 XOF",
       "apc_max_eur": 60.96,
-      "apc_max_usd": 68.16,
+      "apc_max_usd": 68.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -946400,8 +946400,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -947907,7 +947907,7 @@
       "apc_has": true,
       "apc_native_display": "500 UAH",
       "apc_max_eur": 9.92,
-      "apc_max_usd": 11.1,
+      "apc_max_usd": 11.13,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -948325,8 +948325,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "350 UAH",
-      "apc_max_eur": 6.94,
-      "apc_max_usd": 7.77,
+      "apc_max_eur": 6.95,
+      "apc_max_usd": 7.79,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -949952,8 +949952,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
-      "apc_max_usd": 1.11,
+      "apc_max_eur": 0.98,
+      "apc_max_usd": 1.1,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -949997,8 +949997,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
-      "apc_max_usd": 1.11,
+      "apc_max_eur": 0.98,
+      "apc_max_usd": 1.1,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -954854,8 +954854,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1600 UAH",
-      "apc_max_eur": 31.74,
-      "apc_max_usd": 35.53,
+      "apc_max_eur": 31.76,
+      "apc_max_usd": 35.61,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -959085,8 +959085,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "3000 RUB",
-      "apc_max_eur": 32.0,
-      "apc_max_usd": 35.74,
+      "apc_max_eur": 31.91,
+      "apc_max_usd": 35.77,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -961711,8 +961711,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "2000 RUB",
-      "apc_max_eur": 21.33,
-      "apc_max_usd": 23.83,
+      "apc_max_eur": 21.27,
+      "apc_max_usd": 23.85,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -962547,8 +962547,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -964301,8 +964301,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1000 UAH",
-      "apc_max_eur": 19.83,
-      "apc_max_usd": 22.21,
+      "apc_max_eur": 19.85,
+      "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -967806,8 +967806,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1850 EGP",
-      "apc_max_eur": 31.26,
-      "apc_max_usd": 34.84,
+      "apc_max_eur": 30.87,
+      "apc_max_usd": 34.6,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -971342,7 +971342,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.2,
+      "apc_max_usd": 85.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -973336,8 +973336,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "2000 EGP",
-      "apc_max_eur": 33.79,
-      "apc_max_usd": 37.67,
+      "apc_max_eur": 33.37,
+      "apc_max_usd": 37.41,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -980338,8 +980338,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "1000 EGP",
-      "apc_max_eur": 16.9,
-      "apc_max_usd": 18.83,
+      "apc_max_eur": 16.69,
+      "apc_max_usd": 18.7,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -980805,8 +980805,8 @@
       "license_display": "CC BY, CC BY-NC",
       "apc_has": true,
       "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.62,
-      "apc_max_usd": 90.3,
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -980886,8 +980886,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.66,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.38,
+      "apc_max_usd": 44.16,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -982212,8 +982212,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "750 UAH",
-      "apc_max_eur": 14.88,
-      "apc_max_usd": 16.66,
+      "apc_max_eur": 14.89,
+      "apc_max_usd": 16.69,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -982585,8 +982585,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "100 EGP",
-      "apc_max_eur": 1.69,
-      "apc_max_usd": 1.88,
+      "apc_max_eur": 1.67,
+      "apc_max_usd": 1.87,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -984652,7 +984652,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 IQD",
-      "apc_max_eur": 29.4,
+      "apc_max_eur": 29.35,
       "apc_max_usd": 32.95,
       "author_retains": true,
       "peer_review_types": [
@@ -986720,8 +986720,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.77,
-      "apc_max_usd": 31.09,
+      "apc_max_eur": 27.79,
+      "apc_max_usd": 31.16,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -987086,8 +987086,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "3751 UAH",
-      "apc_max_eur": 74.4,
-      "apc_max_usd": 83.31,
+      "apc_max_eur": 74.45,
+      "apc_max_usd": 83.49,
       "author_retains": true,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -988169,8 +988169,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -988209,8 +988209,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -988248,8 +988248,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -988287,8 +988287,8 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
-      "apc_max_eur": 440.04,
-      "apc_max_usd": 492.3,
+      "apc_max_eur": 439.68,
+      "apc_max_usd": 492.66,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -988618,7 +988618,7 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "25000 NGN",
-      "apc_max_eur": 16.8,
+      "apc_max_eur": 16.78,
       "apc_max_usd": 18.78,
       "author_retains": true,
       "peer_review_types": [
@@ -991418,7 +991418,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "750000 IQD / 100 USD",
-      "apc_max_eur": 441.0,
+      "apc_max_eur": 440.25,
       "apc_max_usd": 494.25,
       "author_retains": true,
       "peer_review_types": [
@@ -991631,8 +991631,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1047 UAH",
-      "apc_max_eur": 20.77,
-      "apc_max_usd": 23.25,
+      "apc_max_eur": 20.78,
+      "apc_max_usd": 23.3,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -992206,7 +992206,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 NGN",
-      "apc_max_eur": 33.6,
+      "apc_max_eur": 33.55,
       "apc_max_usd": 37.55,
       "author_retains": true,
       "peer_review_types": [
@@ -994728,8 +994728,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "1440 UAH",
-      "apc_max_eur": 28.56,
-      "apc_max_usd": 31.98,
+      "apc_max_eur": 28.58,
+      "apc_max_usd": 32.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
