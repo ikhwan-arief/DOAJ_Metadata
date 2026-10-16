@@ -1,8 +1,93 @@
 {
-  "generated_at": "2026-10-16T18:31:53.278786+00:00",
+  "generated_at": "2026-10-16T23:07:08.822819+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23624,
+  "item_count": 23625,
   "items": [
+    {
+      "id": "1bbb5e75e01b4feca773826801e4c16e",
+      "title": "Вопросы курортологии, физиотерапии и лечебной физической культуры",
+      "publisher_name": "Practical Medicine Publishing House",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Sports medicine"
+      ],
+      "subject_display": "Sports medicine",
+      "languages": [
+        "EN",
+        "RU"
+      ],
+      "language_display": "EN, RU",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": true,
+      "apc_native_display": "40000 RUB",
+      "apc_max_eur": 425.44,
+      "apc_max_usd": 476.92,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "www.elibrary.ru"
+      ],
+      "created_date": "2026-10-16T19:59:55Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-16T19:59:55Z",
+      "website": "https://kurortologi.ru/index.php/kurort/en",
+      "author_guidelines_url": "https://kurortologi.ru/index.php/kurort/en/manuscript-preparation-guidelines",
+      "article_records_exposed": null,
+      "search_text": "practical medicine publishing house ru europe sports medicine en ru cc by nc sa"
+    },
+    {
+      "id": "fd2c23a6d7034e3582d9142d883997ad",
+      "title": "Link Medical Journal of Health and Community Research",
+      "publisher_name": "Link Medical Interface",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "25000 PKR",
+      "apc_max_eur": 80.5,
+      "apc_max_usd": 90.25,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-03-10T07:33:39Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-16T19:02:50Z",
+      "website": "https://linkmjhcr.com/index.php/lmj/index",
+      "author_guidelines_url": "https://linkmjhcr.com/index.php/lmj/information/authors",
+      "article_records_exposed": null,
+      "search_text": "link medical journal of health and community research link medical interface pk asia medicine en cc by"
+    },
     {
       "id": "293e5baa58f84d71a5a4c8ae9be39ba8",
       "title": "Bezpieczeństwo",
@@ -324531,48 +324616,6 @@
       "author_guidelines_url": "http://www.btbuspxb.com/spkxjsxb/site/menus/20200605181327001",
       "article_records_exposed": null,
       "search_text": "shipin kexue jishu xuebao beijing technology and business university cn asia technology zh cc by nc nd"
-    },
-    {
-      "id": "fd2c23a6d7034e3582d9142d883997ad",
-      "title": "Link Medical Journal of Health and Community Research",
-      "publisher_name": "Link Medical Interface",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "25000 PKR",
-      "apc_max_eur": 80.5,
-      "apc_max_usd": 90.25,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2026-03-10T07:33:39Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-09-17T10:51:23Z",
-      "website": "https://linkmjhcr.com/index.php/lmj/index",
-      "author_guidelines_url": "https://linkmjhcr.com/index.php/lmj/information/authors",
-      "article_records_exposed": null,
-      "search_text": "link medical journal of health and community research link medical interface pk asia medicine en cc by"
     },
     {
       "id": "ef0e5e07994349a095af1ec394a3b7d2",
