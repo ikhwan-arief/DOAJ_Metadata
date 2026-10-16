@@ -1,8 +1,553 @@
 {
-  "generated_at": "2026-10-16T07:38:30.518705+00:00",
+  "generated_at": "2026-10-16T13:37:20.087301+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23620,
   "items": [
+    {
+      "id": "8f4edfbada61400e9ac77eaf7109fc03",
+      "title": "The Sedimentary Record",
+      "publisher_name": "Society for Sedimentary Geology (SEPM)",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Geology"
+      ],
+      "subject_display": "Geology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-02-28T10:10:13Z",
+      "created_year": 2024,
+      "created_month": "2024-02",
+      "last_updated": "2026-10-16T12:12:26Z",
+      "website": "https://thesedimentaryrecord.scholasticahq.com/",
+      "author_guidelines_url": "https://thesedimentaryrecord.scholasticahq.com/for-authors",
+      "article_records_exposed": null,
+      "search_text": "the sedimentary record society for sedimentary geology sepm us north america geology en cc by"
+    },
+    {
+      "id": "47b3af51c8ef4a3c9106d61f639bfca6",
+      "title": "New Zealand Medical Student Journal",
+      "publisher_name": "New Zealand Medical Student Journal Society",
+      "country": "NZ",
+      "continent": "Oceania",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-07-11T09:02:43Z",
+      "created_year": 2023,
+      "created_month": "2023-07",
+      "last_updated": "2026-10-16T11:44:09Z",
+      "website": "http://www.nzmsj.com/",
+      "author_guidelines_url": "http://www.nzmsj.com/for-authors.html",
+      "article_records_exposed": null,
+      "search_text": "new zealand medical student journal new zealand medical student journal society nz oceania medicine general en cc by nc"
+    },
+    {
+      "id": "512e70a3ab92489ea0af8b0af9be0801",
+      "title": "International Journal of School Social Work",
+      "publisher_name": "New Prairie Press at Kansas State University",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Social pathology. Social and public welfare. Criminology",
+        "Education (General)"
+      ],
+      "subject_display": "Social pathology. Social and public welfare. Criminology · Education (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY",
+        "CC BY-SA",
+        "CC BY-ND",
+        "CC BY-NC",
+        "CC BY-NC-SA",
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY, CC BY-SA, CC BY-ND, CC BY-NC, CC BY-NC-SA, CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS"
+      ],
+      "created_date": "2024-01-11T11:11:45Z",
+      "created_year": 2024,
+      "created_month": "2024-01",
+      "last_updated": "2026-10-16T11:43:10Z",
+      "website": "https://journals.newprairiepress.org/ijssw/",
+      "author_guidelines_url": "https://journals.newprairiepress.org/ijssw/site/policies/",
+      "article_records_exposed": null,
+      "search_text": "international journal of school social work new prairie press at kansas state university us north america social pathology social and public welfare criminology education general en cc by cc by sa cc by nd cc by nc cc by nc sa cc by nc nd"
+    },
+    {
+      "id": "f7a4ef15704f4ad4921c66043a07d85b",
+      "title": "Ceshi Jishu Xuebao",
+      "publisher_name": "Editorial Office of Journal of Test and Measurement Technology",
+      "country": "CN",
+      "continent": "Asia",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General)",
+      "languages": [
+        "ZH"
+      ],
+      "language_display": "ZH",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1200 CNY",
+      "apc_max_eur": 160.02,
+      "apc_max_usd": 179.34,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-16T11:39:59Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-16T11:39:59Z",
+      "website": "https://csjs.publish.founderss.cn/homeNav?lang=en",
+      "author_guidelines_url": "https://csjs.publish.founderss.cn/info/8344?lang=en",
+      "article_records_exposed": null,
+      "search_text": "ceshi jishu xuebao editorial office of journal of test and measurement technology cn asia engineering general civil engineering general zh cc by"
+    },
+    {
+      "id": "6a6e3f451f4d4831b77409e042cefe6f",
+      "title": "Xiandai dianli",
+      "publisher_name": "North China Electric Power University",
+      "country": "CN",
+      "continent": "Asia",
+      "subjects": [
+        "Electrical engineering. Electronics. Nuclear engineering"
+      ],
+      "subject_display": "Electrical engineering. Electronics. Nuclear engineering",
+      "languages": [
+        "ZH"
+      ],
+      "language_display": "ZH",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "4400 CNY",
+      "apc_max_eur": 586.74,
+      "apc_max_usd": 657.58,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-16T11:18:13Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-16T11:18:13Z",
+      "website": "http://xddl.ncepujournal.com/indexen.htm",
+      "author_guidelines_url": "http://xddl.ncepujournal.com/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "xiandai dianli north china electric power university cn asia electrical engineering electronics nuclear engineering zh cc by nc nd"
+    },
+    {
+      "id": "ab8fd418fec545c0b16c8c077dc264f5",
+      "title": "Agricultural Science and Technology",
+      "publisher_name": "Trakia University. Faculty of Agriculture, Stara Zagora",
+      "country": "BG",
+      "continent": "Europe",
+      "subjects": [
+        "Agriculture"
+      ],
+      "subject_display": "Agriculture",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-08-25T12:03:46Z",
+      "created_year": 2017,
+      "created_month": "2017-08",
+      "last_updated": "2026-10-16T10:53:21Z",
+      "website": "http://agriscitech.eu/",
+      "author_guidelines_url": "http://agriscitech.eu/instruction-to-autors/",
+      "article_records_exposed": null,
+      "search_text": "agricultural science and technology trakia university faculty of agriculture stara zagora bg europe agriculture en cc by nc nd"
+    },
+    {
+      "id": "cd2f12e103514e439e1fa506f72efe2d",
+      "title": "International Journal of Sports Physical Therapy",
+      "publisher_name": "North American Sports Medicine Institute",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Sports medicine"
+      ],
+      "subject_display": "Sports medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "1250 USD",
+      "apc_max_eur": 1115.28,
+      "apc_max_usd": 1250.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PMC",
+        "Portico"
+      ],
+      "created_date": "2021-06-15T15:01:07Z",
+      "created_year": 2021,
+      "created_month": "2021-06",
+      "last_updated": "2026-10-16T10:48:35Z",
+      "website": "https://ijspt.org/",
+      "author_guidelines_url": "https://ijspt.scholasticahq.com/for-authors",
+      "article_records_exposed": null,
+      "search_text": "international journal of sports physical therapy north american sports medicine institute us north america sports medicine en cc by nc"
+    },
+    {
+      "id": "b47c8f6fa1604f0cba2427b8bc596d76",
+      "title": "Texas Water Journal",
+      "publisher_name": "Texas Water Journal",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Water supply for domestic and industrial purposes"
+      ],
+      "subject_display": "Water supply for domestic and industrial purposes",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2021-08-05T10:19:27Z",
+      "created_year": 2021,
+      "created_month": "2021-08",
+      "last_updated": "2026-10-16T10:44:02Z",
+      "website": "https://twj-ojs-tdl.tdl.org/twj/index.php/twj/index",
+      "author_guidelines_url": "https://twj-ojs-tdl.tdl.org/twj/index.php/twj/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "texas water journal texas water journal us north america water supply for domestic and industrial purposes en cc by"
+    },
+    {
+      "id": "a9229adea3d84cc2a5b7be1819f6b801",
+      "title": "Advanced Spine Journal",
+      "publisher_name": "Egyptian Spine Association",
+      "country": "EG",
+      "continent": "Africa",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": true,
+      "apc_native_display": "300 USD",
+      "apc_max_eur": 267.67,
+      "apc_max_usd": 300.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2024-06-25T15:19:59Z",
+      "created_year": 2024,
+      "created_month": "2024-06",
+      "last_updated": "2026-10-16T10:42:28Z",
+      "website": "https://asj.journals.ekb.eg/",
+      "author_guidelines_url": "https://asj.journals.ekb.eg/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "advanced spine journal egyptian spine association eg africa medicine en cc by nc sa"
+    },
+    {
+      "id": "67acc46d532e41d890f738fa4e800111",
+      "title": "Islamic Banking and Finance Review",
+      "publisher_name": "University of Management and Technology",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Finance"
+      ],
+      "subject_display": "Finance",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "20000 PKR",
+      "apc_max_eur": 64.4,
+      "apc_max_usd": 72.2,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2026-01-22T14:01:43Z",
+      "created_year": 2026,
+      "created_month": "2026-01",
+      "last_updated": "2026-10-16T10:32:38Z",
+      "website": "https://journals.umt.edu.pk/index.php/IBFR/index",
+      "author_guidelines_url": "https://journals.umt.edu.pk/index.php/IBFR/Submissio-Guidelines",
+      "article_records_exposed": null,
+      "search_text": "islamic banking and finance review university of management and technology pk asia finance en cc by"
+    },
+    {
+      "id": "d2ed7e75579044b28ed14c649cce8272",
+      "title": "Актуальні питання масової комунікації",
+      "publisher_name": "Taras Shevchenko National University of Kyiv",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Communication. Mass media"
+      ],
+      "subject_display": "Communication. Mass media",
+      "languages": [
+        "EN",
+        "UK"
+      ],
+      "language_display": "EN, UK",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-06-01T12:06:57Z",
+      "created_year": 2021,
+      "created_month": "2021-06",
+      "last_updated": "2026-10-16T10:04:05Z",
+      "website": "https://cimc.knu.ua",
+      "author_guidelines_url": "https://cimc.knu.ua/author_guidelines",
+      "article_records_exposed": null,
+      "search_text": "taras shevchenko national university of kyiv ua europe communication mass media en uk cc by"
+    },
+    {
+      "id": "4a2dc30655e84cdda1775c1799daba30",
+      "title": "Health and Population: Perspectives and Issues",
+      "publisher_name": "National Institute of Health and Family Welfare",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "www.hppi.in"
+      ],
+      "created_date": "2026-10-16T09:35:11Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-16T09:35:11Z",
+      "website": "https://www.hppi.in",
+      "author_guidelines_url": "https://www.hppi.in/journal/HPPI/page/author_instructions",
+      "article_records_exposed": null,
+      "search_text": "health and population perspectives and issues national institute of health and family welfare in asia medicine en cc by nc"
+    },
+    {
+      "id": "a9d3753e44ae472f9c929f82c15f8331",
+      "title": "NUST Journal of Social Sciences and Humanities",
+      "publisher_name": "National University of Sciences and Technology",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Social Sciences"
+      ],
+      "subject_display": "Social Sciences",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-05-13T19:41:32Z",
+      "created_year": 2023,
+      "created_month": "2023-05",
+      "last_updated": "2026-10-16T08:05:30Z",
+      "website": "https://njssh.nust.edu.pk/index.php/njssh/home",
+      "author_guidelines_url": "https://njssh.nust.edu.pk/index.php/njssh/GuidelinesforthesubmissionofManuscripts",
+      "article_records_exposed": null,
+      "search_text": "nust journal of social sciences and humanities national university of sciences and technology pk asia social sciences en cc by"
+    },
     {
       "id": "43f23e3b1cfa45879fe61f187c6b3fb1",
       "title": "ARSNET",
@@ -252,47 +797,6 @@
       "author_guidelines_url": "https://journals.phil.muni.cz/bse/about/submissions",
       "article_records_exposed": null,
       "search_text": "brno studies in english masaryk university cz europe translating and interpreting en cc by nc nd"
-    },
-    {
-      "id": "d2ed7e75579044b28ed14c649cce8272",
-      "title": "Актуальні питання масової комунікації",
-      "publisher_name": "Taras Shevchenko National University of Kyiv",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Communication. Mass media"
-      ],
-      "subject_display": "Communication. Mass media",
-      "languages": [
-        "UK",
-        "EN"
-      ],
-      "language_display": "UK, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "50 USD",
-      "apc_max_eur": 44.61,
-      "apc_max_usd": 50.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-06-01T12:06:57Z",
-      "created_year": 2021,
-      "created_month": "2021-06",
-      "last_updated": "2026-10-15T21:19:19Z",
-      "website": "https://cimc.knu.ua",
-      "author_guidelines_url": "https://cimc.knu.ua/author_guidelines",
-      "article_records_exposed": null,
-      "search_text": "taras shevchenko national university of kyiv ua europe communication mass media uk en cc by"
     },
     {
       "id": "cba99dc9ceb5469b98cfa2f299c16dc2",
@@ -13205,46 +13709,6 @@
       "author_guidelines_url": "https://anales.fisica.org.ar/journal/index.php/analesafa/about/submissions",
       "article_records_exposed": null,
       "search_text": "anales asociacion fisica argentina ceilap unidef conicet citedef ar south america physics es cc by nc"
-    },
-    {
-      "id": "8f4edfbada61400e9ac77eaf7109fc03",
-      "title": "The Sedimentary Record",
-      "publisher_name": "Society for Sedimentary Geology (SEPM)",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Geology"
-      ],
-      "subject_display": "Geology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-02-28T10:10:13Z",
-      "created_year": 2024,
-      "created_month": "2024-02",
-      "last_updated": "2026-09-29T19:54:08Z",
-      "website": "https://thesedimentaryrecord.scholasticahq.com/",
-      "author_guidelines_url": "https://thesedimentaryrecord.scholasticahq.com/for-authors",
-      "article_records_exposed": null,
-      "search_text": "the sedimentary record society for sedimentary geology sepm us north america geology en cc by"
     },
     {
       "id": "3d97a0988362489283b977a70315fb33",
@@ -109525,48 +109989,6 @@
       "search_text": "current research in neurobiology elsevier nl europe neurosciences biological psychiatry neuropsychiatry en cc by cc by nc cc by nc nd"
     },
     {
-      "id": "cd2f12e103514e439e1fa506f72efe2d",
-      "title": "International Journal of Sports Physical Therapy",
-      "publisher_name": "North American Sports Medicine Institute",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Sports medicine"
-      ],
-      "subject_display": "Sports medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PMC"
-      ],
-      "created_date": "2021-06-15T15:01:07Z",
-      "created_year": 2021,
-      "created_month": "2021-06",
-      "last_updated": "2026-09-17T10:54:28Z",
-      "website": "https://ijspt.org/",
-      "author_guidelines_url": "https://ijspt.scholasticahq.com/for-authors",
-      "article_records_exposed": null,
-      "search_text": "international journal of sports physical therapy north american sports medicine institute us north america sports medicine en cc by nc"
-    },
-    {
       "id": "c489a824950b42139af4518cad74e95c",
       "title": "Ciencias Sociales y Religión",
       "publisher_name": "Universidade Estadual de Campinas",
@@ -138594,46 +139016,6 @@
       "search_text": "university of kashan ir asia environmental engineering fa cc by"
     },
     {
-      "id": "bfed163d571f4803940f9fabe95ad0eb",
-      "title": "The European Educational Researcher",
-      "publisher_name": "Foxton Books",
-      "country": "GB",
-      "continent": "Europe",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "200 EUR",
-      "apc_max_eur": 200.0,
-      "apc_max_usd": 224.16,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2018-09-12T08:35:21Z",
-      "created_year": 2018,
-      "created_month": "2018-09",
-      "last_updated": "2026-09-17T10:54:05Z",
-      "website": "https://eu-er.com/",
-      "author_guidelines_url": "https://eu-er.com/instructions/",
-      "article_records_exposed": null,
-      "search_text": "the european educational researcher foxton books gb europe education en cc by"
-    },
-    {
       "id": "b8e48286a34541929a34b4500964a4c5",
       "title": "Medisan",
       "publisher_name": "Centro Provincial de Información de Ciencias Médicas",
@@ -142505,49 +142887,6 @@
       "author_guidelines_url": "https://ejournal.imbima.org/index.php/champions/AuthorGuidelines",
       "article_records_exposed": null,
       "search_text": "champions yayasan insan mulia bima id asia sports id cc by"
-    },
-    {
-      "id": "a9229adea3d84cc2a5b7be1819f6b801",
-      "title": "Advanced Spine Journal",
-      "publisher_name": "Egyptian Spine Association",
-      "country": "EG",
-      "continent": "Africa",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": true,
-      "apc_native_display": "150 USD",
-      "apc_max_eur": 133.83,
-      "apc_max_usd": 150.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "Portico"
-      ],
-      "created_date": "2024-06-25T15:19:59Z",
-      "created_year": 2024,
-      "created_month": "2024-06",
-      "last_updated": "2026-09-17T10:54:01Z",
-      "website": "https://www.advancedspinej.org/",
-      "author_guidelines_url": "https://www.advancedspinej.org/journal/author_guidelines.html",
-      "article_records_exposed": null,
-      "search_text": "advanced spine journal egyptian spine association eg africa medicine en cc by nc sa"
     },
     {
       "id": "96757e5ecd934d40935f40ff7514a219",
@@ -163689,46 +164028,6 @@
       "author_guidelines_url": "https://www.rsc.org/publishing/publish-with-us/publish-a-journal-article/sustainable-food-technology",
       "article_records_exposed": null,
       "search_text": "sustainable food technology the royal society of chemistry gb europe food processing and manufacture en cc by cc by nc"
-    },
-    {
-      "id": "c1e660374b1549b3a3a9924cc0d16f4f",
-      "title": "Rehman Journal of Health Sciences",
-      "publisher_name": "Rehman Medical Institute",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-05-26T08:53:27Z",
-      "created_year": 2023,
-      "created_month": "2023-05",
-      "last_updated": "2026-09-17T10:53:46Z",
-      "website": "http://rjhs.pk/index.php/rehman-journal-of-health-science/index",
-      "author_guidelines_url": "http://rjhs.pk/index.php/rehman-journal-of-health-science/information/authors",
-      "article_records_exposed": null,
-      "search_text": "rehman journal of health sciences rehman medical institute pk asia medicine en cc by nc"
     },
     {
       "id": "7a0889a89de64979a3d5e26aace31db7",
@@ -309980,50 +310279,6 @@
       "search_text": "social policy review porcelain publishing international limited gb europe the family marriage woman communities classes races social history and conditions social problems social reform en cc by"
     },
     {
-      "id": "67acc46d532e41d890f738fa4e800111",
-      "title": "Islamic Banking and Finance Review",
-      "publisher_name": "University of Management and Technology",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Finance"
-      ],
-      "subject_display": "Finance",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "20000 PKR",
-      "apc_max_eur": 64.4,
-      "apc_max_usd": 72.2,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2026-01-22T14:01:43Z",
-      "created_year": 2026,
-      "created_month": "2026-01",
-      "last_updated": "2026-09-17T10:51:35Z",
-      "website": "https://journals.umt.edu.pk/index.php/IBFR/index",
-      "author_guidelines_url": "https://journals.umt.edu.pk/index.php/IBFR/Submissio-Guidelines",
-      "article_records_exposed": null,
-      "search_text": "islamic banking and finance review university of management and technology pk asia finance en cc by"
-    },
-    {
       "id": "ff41b70954e746e78d7f201782ed9f29",
       "title": "Astronomy & Astrophysics",
       "publisher_name": "EDP Sciences",
@@ -449558,46 +449813,6 @@
       "search_text": "the review of international affairs institute of international politics and economics belgrade rs europe international relations political science general en cc by sa"
     },
     {
-      "id": "47b3af51c8ef4a3c9106d61f639bfca6",
-      "title": "New Zealand Medical Student Journal",
-      "publisher_name": "New Zealand Medical Student Journal Society",
-      "country": "NZ",
-      "continent": "Oceania",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-07-11T09:02:43Z",
-      "created_year": 2023,
-      "created_month": "2023-07",
-      "last_updated": "2026-09-17T10:49:16Z",
-      "website": "http://www.nzmsj.com/",
-      "author_guidelines_url": "http://www.nzmsj.com/for-authors.html",
-      "article_records_exposed": null,
-      "search_text": "new zealand medical student journal new zealand medical student journal society nz oceania medicine general en cc by nc"
-    },
-    {
       "id": "014a53d8f8ef46df8a014e00aaeed0fb",
       "title": "Journal of Current Oncology and Medical Sciences",
       "publisher_name": "Zabansaraye Parsian Novin Mehr Institute",
@@ -459190,47 +459405,6 @@
       "search_text": "eirene estudios de paz y conflictos eirene estudios de paz y conflictos a c mx north america social history and conditions social problems social reform en es cc by nc"
     },
     {
-      "id": "84af4193b889467da5b9a9dc2d7e35d8",
-      "title": "International Journal of TESOL Studies",
-      "publisher_name": "Cranmore Publishing",
-      "country": "GB",
-      "continent": "Europe",
-      "subjects": [
-        "Education",
-        "English language"
-      ],
-      "subject_display": "Education · English language",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-02-10T10:05:22Z",
-      "created_year": 2021,
-      "created_month": "2021-02",
-      "last_updated": "2026-09-17T10:49:06Z",
-      "website": "https://www.tesolunion.org/home/",
-      "author_guidelines_url": "https://www.tesolunion.org/style_guide/",
-      "article_records_exposed": null,
-      "search_text": "international journal of tesol studies cranmore publishing gb europe education english language en cc by"
-    },
-    {
       "id": "98255b68823e46fe96599b351740bcec",
       "title": "Annales Universitatis Apulensis. Series Economica",
       "publisher_name": "Aeternitas Publishing House",
@@ -461641,50 +461815,6 @@
       "author_guidelines_url": "https://link.springer.com/journal/726/submission-guidelines",
       "article_records_exposed": null,
       "search_text": "amino acids springer at europe biochemistry biology general en cc by cc by nc nd"
-    },
-    {
-      "id": "60cffe14ac424fe9a3dfa772fb62136c",
-      "title": "Circus: Arts, Life & Sciences",
-      "publisher_name": "Michigan Publishing",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "The performing arts. Show business",
-        "Visual arts"
-      ],
-      "subject_display": "The performing arts. Show business · Visual arts",
-      "languages": [
-        "EN",
-        "FR"
-      ],
-      "language_display": "EN, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Editorial review",
-        "Double anonymous peer review",
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Editorial review, Double anonymous peer review, Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-12-07T10:12:35Z",
-      "created_year": 2023,
-      "created_month": "2023-12",
-      "last_updated": "2026-09-17T10:49:03Z",
-      "website": "https://journals.publishing.umich.edu/circus/",
-      "author_guidelines_url": "https://journals.publishing.umich.edu/circus/submissions/",
-      "article_records_exposed": null,
-      "search_text": "circus arts life sciences michigan publishing us north america the performing arts show business visual arts en fr cc by nc nd"
     },
     {
       "id": "b6eb3968fae645548231c7ab0ec4eae2",
@@ -582952,48 +583082,6 @@
       "search_text": "dawuh guru mafapress id asia education general en id cc by sa"
     },
     {
-      "id": "b47c8f6fa1604f0cba2427b8bc596d76",
-      "title": "Texas Water Journal",
-      "publisher_name": "Texas Water Journal",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Water supply for domestic and industrial purposes"
-      ],
-      "subject_display": "Water supply for domestic and industrial purposes",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2021-08-05T10:19:27Z",
-      "created_year": 2021,
-      "created_month": "2021-08",
-      "last_updated": "2026-09-17T10:46:41Z",
-      "website": "https://twj-ojs-tdl.tdl.org/twj/index.php/twj/index",
-      "author_guidelines_url": "https://twj-ojs-tdl.tdl.org/twj/index.php/twj/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "texas water journal texas water journal us north america water supply for domestic and industrial purposes en cc by"
-    },
-    {
       "id": "13ed2a4577ed4a2b84ffda27f029340f",
       "title": "Phainomena",
       "publisher_name": "Institute Nova Revija for the Humanities",
@@ -587861,55 +587949,6 @@
       "author_guidelines_url": "https://e-journal.unair.ac.id/OVZ/Submissionprocess#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "ovozoa journal of animal reproduction universitas airlangga id asia veterinary medicine animal biochemistry en cc by sa"
-    },
-    {
-      "id": "512e70a3ab92489ea0af8b0af9be0801",
-      "title": "International Journal of School Social Work",
-      "publisher_name": "New Prairie Press at Kansas State University",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Social pathology. Social and public welfare. Criminology",
-        "Education (General)"
-      ],
-      "subject_display": "Social pathology. Social and public welfare. Criminology · Education (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY",
-        "CC BY-SA",
-        "CC BY-ND",
-        "CC BY-NC",
-        "CC BY-NC-SA",
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY, CC BY-SA, CC BY-ND, CC BY-NC, CC BY-NC-SA, CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS"
-      ],
-      "created_date": "2024-01-11T11:11:45Z",
-      "created_year": 2024,
-      "created_month": "2024-01",
-      "last_updated": "2026-09-17T10:46:35Z",
-      "website": "https://newprairiepress.org/ijssw/",
-      "author_guidelines_url": "https://newprairiepress.org/ijssw/policies.html",
-      "article_records_exposed": null,
-      "search_text": "international journal of school social work new prairie press at kansas state university us north america social pathology social and public welfare criminology education general en cc by cc by sa cc by nd cc by nc cc by nc sa cc by nc nd"
     },
     {
       "id": "acab976986c44989bb31585a789d45b1",
@@ -826887,47 +826926,6 @@
       "author_guidelines_url": "http://grd.yazd.ac.ir/journal/authors.note?lang=en",
       "article_records_exposed": null,
       "search_text": "yazd university ir asia commerce human ecology anthropogeography fa cc by"
-    },
-    {
-      "id": "a9d3753e44ae472f9c929f82c15f8331",
-      "title": "NUST Journal of Social Sciences and Humanities",
-      "publisher_name": "National University of Sciences and Technology",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Social Sciences"
-      ],
-      "subject_display": "Social Sciences",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Editorial review",
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Editorial review, Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-05-13T19:41:32Z",
-      "created_year": 2023,
-      "created_month": "2023-05",
-      "last_updated": "2026-09-17T10:41:47Z",
-      "website": "https://njssh.nust.edu.pk/index.php/njssh/home",
-      "author_guidelines_url": "https://njssh.nust.edu.pk/index.php/njssh/GuidelinesforthesubmissionofManuscripts",
-      "article_records_exposed": null,
-      "search_text": "nust journal of social sciences and humanities national university of sciences and technology pk asia social sciences en cc by"
     },
     {
       "id": "82cba011bff744daaafc3092a515ec00",
