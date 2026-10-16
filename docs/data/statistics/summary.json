@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T02:03:59.508867+00:00",
+  "generated_at": "2026-10-16T07:38:30.518705+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23619,
-  "article_total": 13798150,
+  "journal_total": 23620,
+  "article_total": 13800226,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23619
+      "value": 23620
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13798150,
+      "value": 13800226,
       "detail": "Global DOAJ article total"
     },
     {
@@ -869,7 +869,7 @@
         },
         {
           "name": "Yes",
-          "value": 8864
+          "value": 8865
         }
       ]
     },
@@ -879,7 +879,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15207
+          "value": 15208
         },
         {
           "name": "No",
@@ -909,7 +909,7 @@
         },
         {
           "name": "IR",
-          "value": 1099
+          "value": 1100
         },
         {
           "name": "ES",
@@ -943,7 +943,7 @@
         },
         {
           "name": "Asia",
-          "value": 6910
+          "value": 6911
         },
         {
           "name": "South America",
@@ -1001,7 +1001,7 @@
         },
         {
           "name": "FA",
-          "value": 658
+          "value": 659
         },
         {
           "name": "AR",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5164
+          "value": 5165
         },
         {
           "name": "CC BY-NC-SA",
@@ -1103,7 +1103,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15404
+          "value": 15405
         },
         {
           "name": "Single anonymous peer review",
@@ -1129,7 +1129,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20174
+          "value": 20175
         },
         {
           "name": "Handles",
@@ -1797,7 +1797,7 @@
             200,
             172,
             245,
-            62
+            63
           ]
         }
       ]
@@ -1824,7 +1824,7 @@
         },
         {
           "name": "IR",
-          "value": 1099
+          "value": 1100
         },
         {
           "name": "ES",
@@ -1863,11 +1863,11 @@
           "value": 514
         },
         {
-          "name": "CO",
+          "name": "DE",
           "value": 464
         },
         {
-          "name": "DE",
+          "name": "CO",
           "value": 464
         },
         {
@@ -2374,7 +2374,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-16T02:03:58.284746+00:00",
+    "fetched_at": "2026-10-16T07:38:29.091471+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24

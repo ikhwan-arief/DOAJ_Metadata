@@ -1,8 +1,174 @@
 {
-  "generated_at": "2026-10-16T02:03:59.508867+00:00",
+  "generated_at": "2026-10-16T07:38:30.518705+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23619,
+  "item_count": 23620,
   "items": [
+    {
+      "id": "43f23e3b1cfa45879fe61f187c6b3fb1",
+      "title": "ARSNET",
+      "publisher_name": "Department of Architecture Universitas Indonesia",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Architecture"
+      ],
+      "subject_display": "Architecture",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2024-08-28T06:21:52Z",
+      "created_year": 2024,
+      "created_month": "2024-08",
+      "last_updated": "2026-10-16T07:24:30Z",
+      "website": "https://arsnet.architecture.ui.ac.id/index.php/ojs/index",
+      "author_guidelines_url": "https://arsnet.architecture.ui.ac.id/index.php/ojs/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "arsnet department of architecture universitas indonesia id asia architecture id en cc by nc"
+    },
+    {
+      "id": "02cee15e1e6a48a79f9414f9793c5fbf",
+      "title": "ALTEX: Alternatives to Animal Experimentation",
+      "publisher_name": "Springer-Verlag",
+      "country": "DE",
+      "continent": "Europe",
+      "subjects": [
+        "Medical philosophy. Medical ethics"
+      ],
+      "subject_display": "Medical philosophy. Medical ethics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "2500 EUR",
+      "apc_max_eur": 2500.0,
+      "apc_max_usd": 2802.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review",
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review, Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2013-06-11T14:41:50Z",
+      "created_year": 2013,
+      "created_month": "2013-06",
+      "last_updated": "2026-10-16T07:17:41Z",
+      "website": "https://www.altex.org",
+      "author_guidelines_url": "https://www.altex.org/index.php/altex/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "altex alternatives to animal experimentation springer verlag de europe medical philosophy medical ethics en cc by"
+    },
+    {
+      "id": "324560e8c1d84986bc02ba323154b1dc",
+      "title": "ادبیات پایداری",
+      "publisher_name": "Shahid Bahonar University of Kerman",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Literature (General)"
+      ],
+      "subject_display": "Literature (General)",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "10000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 10.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-16T07:11:12Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-16T07:11:12Z",
+      "website": "https://jrl.uk.ac.ir/?lang=en",
+      "author_guidelines_url": "https://jrl.uk.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "shahid bahonar university of kerman ir asia literature general fa cc by nc"
+    },
+    {
+      "id": "d41a545fda1042b0a7c6dad0e2b8d1c0",
+      "title": "Tokyo Women's Medical University Journal",
+      "publisher_name": "Society of Tokyo Women's Medical University",
+      "country": "JP",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "50 USD / 5000 JPY",
+      "apc_max_eur": 44.61,
+      "apc_max_usd": 50.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2021-03-02T11:30:47Z",
+      "created_year": 2021,
+      "created_month": "2021-03",
+      "last_updated": "2026-10-16T04:42:34Z",
+      "website": "https://www.jstage.jst.go.jp/browse/twmuj/-char/en",
+      "author_guidelines_url": "http://www.twmu.ac.jp/gakkai/twmuj/instructions.html",
+      "article_records_exposed": null,
+      "search_text": "tokyo women s medical university journal society of tokyo women s medical university jp asia medicine en cc by"
+    },
     {
       "id": "1a3810608cf44d0c9f51e0e097fc00d3",
       "title": "Edupedia: Jurnal Studi Pendidikan dan Pedagogi Islam",
@@ -359851,47 +360017,6 @@
       "search_text": "journal of applied botany and food quality julius kuhn institut de europe plant culture botany en cc by"
     },
     {
-      "id": "02cee15e1e6a48a79f9414f9793c5fbf",
-      "title": "ALTEX: Alternatives to Animal Experimentation",
-      "publisher_name": "Springer-Verlag",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Medical philosophy. Medical ethics"
-      ],
-      "subject_display": "Medical philosophy. Medical ethics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "2500 EUR",
-      "apc_max_eur": 2500.0,
-      "apc_max_usd": 2802.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review",
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review, Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2013-06-11T14:41:50Z",
-      "created_year": 2013,
-      "created_month": "2013-06",
-      "last_updated": "2026-09-17T10:50:50Z",
-      "website": "https://www.altex.org",
-      "author_guidelines_url": "https://www.altex.org/index.php/altex/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "altex alternatives to animal experimentation springer verlag de europe medical philosophy medical ethics en cc by"
-    },
-    {
       "id": "1da17676632c4428a5447f7f8e5e4cb6",
       "title": "Turkish Journal of Earth Sciences",
       "publisher_name": "The Scientific and Technological Research Council of Türkiye (TÜBİTAK)",
@@ -411344,48 +411469,6 @@
       "author_guidelines_url": "https://akjournals.com/fileasset/author-guidelines/irase-ifa.pdf",
       "article_records_exposed": null,
       "search_text": "international review of applied sciences and engineering akademiai kiado hu europe engineering general civil engineering general en cc by cc by nc"
-    },
-    {
-      "id": "d41a545fda1042b0a7c6dad0e2b8d1c0",
-      "title": "Tokyo Women's Medical University Journal",
-      "publisher_name": "Society of Tokyo Women's Medical University",
-      "country": "JP",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "50 USD / 5000 JPY",
-      "apc_max_eur": 44.61,
-      "apc_max_usd": 50.0,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2021-03-02T11:30:47Z",
-      "created_year": 2021,
-      "created_month": "2021-03",
-      "last_updated": "2026-09-17T10:49:53Z",
-      "website": "https://www.jstage.jst.go.jp/browse/twmuj/-char/en",
-      "author_guidelines_url": "http://www.twmu.ac.jp/gakkai/twmuj/instructions.html",
-      "article_records_exposed": null,
-      "search_text": "tokyo women s medical university journal society of tokyo women s medical university jp asia medicine en cc by"
     },
     {
       "id": "0d9ecf1cf0ed46978029578ac311c149",
@@ -914720,49 +914803,6 @@
       "author_guidelines_url": "https://journals.mmupress.com/index.php/ijcm/about/submissions",
       "article_records_exposed": null,
       "search_text": "international journal of creative multimedia mmu press my asia visual arts communication mass media en cc by nc nd"
-    },
-    {
-      "id": "43f23e3b1cfa45879fe61f187c6b3fb1",
-      "title": "ARSNET",
-      "publisher_name": "Department of Architecture Universitas Indonesia",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Architecture"
-      ],
-      "subject_display": "Architecture",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2024-08-28T06:21:52Z",
-      "created_year": 2024,
-      "created_month": "2024-08",
-      "last_updated": "2026-09-17T10:39:58Z",
-      "website": "https://arsnet.architecture.ui.ac.id/index.php/ojs/index",
-      "author_guidelines_url": "https://arsnet.architecture.ui.ac.id/index.php/ojs/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "arsnet department of architecture universitas indonesia id asia architecture id en cc by nc"
     },
     {
       "id": "fde52c92b249454b938b7bf39b448edb",
