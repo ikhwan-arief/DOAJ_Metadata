@@ -1,8 +1,141 @@
 {
-  "generated_at": "2026-10-17T17:37:09.193373+00:00",
+  "generated_at": "2026-10-17T19:49:05.145915+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23627,
+  "item_count": 23628,
   "items": [
+    {
+      "id": "a19c23993cea46eb9772eb8b420b42fb",
+      "title": "Anales del Instituto de Arte Americano e Investigaciones Estéticas \"Mario J. Buschiazzo\"",
+      "publisher_name": "Universidad de Buenos Aires",
+      "country": "AR",
+      "continent": "South America",
+      "subjects": [
+        "Drawing. Design. Illustration",
+        "Architecture",
+        "Cities. Urban geography"
+      ],
+      "subject_display": "Drawing. Design. Illustration · Architecture",
+      "languages": [
+        "EN",
+        "ES",
+        "PT"
+      ],
+      "language_display": "EN, ES, PT",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "ARK"
+      ],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2019-12-03T14:19:08Z",
+      "created_year": 2019,
+      "created_month": "2019-12",
+      "last_updated": "2026-10-17T19:19:45Z",
+      "website": "http://www.iaa.fadu.uba.ar/ojs/index.php/anales/index",
+      "author_guidelines_url": "https://www.iaa.fadu.uba.ar/ojs/index.php/anales/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "anales del instituto de arte americano e investigaciones esteticas mario j buschiazzo universidad de buenos aires ar south america drawing design illustration architecture cities urban geography en es pt cc by nc sa"
+    },
+    {
+      "id": "acab976986c44989bb31585a789d45b1",
+      "title": "Българска неврология",
+      "publisher_name": "Bulgarian Society of Neurology",
+      "country": "BG",
+      "continent": "Europe",
+      "subjects": [
+        "Neurology. Diseases of the nervous system"
+      ],
+      "subject_display": "Neurology. Diseases of the nervous system",
+      "languages": [
+        "EN",
+        "BG"
+      ],
+      "language_display": "EN, BG",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Open peer review"
+      ],
+      "peer_review_display": "Open peer review",
+      "pid_schemes": [
+        "DOI",
+        "ARK"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2023-10-29T09:28:34Z",
+      "created_year": 2023,
+      "created_month": "2023-10",
+      "last_updated": "2026-10-17T18:25:17Z",
+      "website": "https://www.nevrologiabg.com/journal/",
+      "author_guidelines_url": "https://www.nevrologiabg.com/journal/index.php/neurology/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "bulgarian society of neurology bg europe neurology diseases of the nervous system en bg cc by"
+    },
+    {
+      "id": "21dca1c8f3ec42f8b6f1c51f86459624",
+      "title": "Cadernos de Segurança Pública",
+      "publisher_name": "Instituto de Segurança Pública",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Social pathology. Social and public welfare. Criminology"
+      ],
+      "subject_display": "Social pathology. Social and public welfare. Criminology",
+      "languages": [
+        "PT",
+        "EN",
+        "ES"
+      ],
+      "language_display": "PT, EN, ES",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2026-10-17T18:06:33Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-17T18:06:33Z",
+      "website": "https://www.isprevista.rj.gov.br/isprevista/index",
+      "author_guidelines_url": "https://www.isprevista.rj.gov.br/isprevista/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "cadernos de seguranca publica instituto de seguranca publica br south america social pathology social and public welfare criminology pt en es cc by nc"
+    },
     {
       "id": "176ce50766a54907a8aed07ce538ce9c",
       "title": "Unnes Science Education Journal",
@@ -36987,51 +37120,6 @@
       "author_guidelines_url": "http://revistaseletronicas.pucrs.br/ojs/index.php/conversasecontroversias/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "conversas controversias pontificia universidade catolica do rio grande do sul edipucrs br south america political science general social sciences general pt cc by"
-    },
-    {
-      "id": "a19c23993cea46eb9772eb8b420b42fb",
-      "title": "Anales del Instituto de Arte Americano e Investigaciones Estéticas \"Mario J. Buschiazzo\"",
-      "publisher_name": "Universidad de Buenos Aires",
-      "country": "AR",
-      "continent": "South America",
-      "subjects": [
-        "Drawing. Design. Illustration",
-        "Architecture",
-        "Cities. Urban geography"
-      ],
-      "subject_display": "Drawing. Design. Illustration · Architecture",
-      "languages": [
-        "PT",
-        "ES",
-        "EN"
-      ],
-      "language_display": "PT, ES, EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "ARK"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-12-03T14:19:08Z",
-      "created_year": 2019,
-      "created_month": "2019-12",
-      "last_updated": "2026-09-17T10:55:30Z",
-      "website": "http://www.iaa.fadu.uba.ar/ojs/index.php/anales/index",
-      "author_guidelines_url": "https://www.iaa.fadu.uba.ar/ojs/index.php/anales/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "anales del instituto de arte americano e investigaciones esteticas mario j buschiazzo universidad de buenos aires ar south america drawing design illustration architecture cities urban geography pt es en cc by nc sa"
     },
     {
       "id": "f5a4c5f449ee485dac2077ac2226482e",
@@ -588278,51 +588366,6 @@
       "author_guidelines_url": "https://e-journal.unair.ac.id/OVZ/Submissionprocess#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "ovozoa journal of animal reproduction universitas airlangga id asia veterinary medicine animal biochemistry en cc by sa"
-    },
-    {
-      "id": "acab976986c44989bb31585a789d45b1",
-      "title": "Българска неврология",
-      "publisher_name": "Bulgarian Society of Neurology",
-      "country": "BG",
-      "continent": "Europe",
-      "subjects": [
-        "Neurology. Diseases of the nervous system"
-      ],
-      "subject_display": "Neurology. Diseases of the nervous system",
-      "languages": [
-        "EN",
-        "BG"
-      ],
-      "language_display": "EN, BG",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Open peer review"
-      ],
-      "peer_review_display": "Open peer review",
-      "pid_schemes": [
-        "ARK"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2023-10-29T09:28:34Z",
-      "created_year": 2023,
-      "created_month": "2023-10",
-      "last_updated": "2026-09-17T10:46:35Z",
-      "website": "https://www.nevrologiabg.com/journal/",
-      "author_guidelines_url": "https://www.nevrologiabg.com/journal/index.php/neurology/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "bulgarian society of neurology bg europe neurology diseases of the nervous system en bg cc by"
     },
     {
       "id": "71647f4ced1142ba9fa3b7b5a0831664",

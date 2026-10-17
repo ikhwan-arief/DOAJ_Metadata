@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T17:37:09.193373+00:00",
+  "generated_at": "2026-10-17T19:49:05.145915+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23627,
-  "article_total": 13805804,
+  "journal_total": 23628,
+  "article_total": 13806050,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23627
+      "value": 23628
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13805804,
+      "value": 13806050,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 62.4,
+      "value": 62.5,
       "detail": "Share of journals"
     }
   ],
@@ -865,7 +865,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14755
+          "value": 14756
         },
         {
           "name": "Yes",
@@ -879,11 +879,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15210
+          "value": 15213
         },
         {
           "name": "No",
-          "value": 8417
+          "value": 8415
         }
       ]
     },
@@ -901,7 +901,7 @@
         },
         {
           "name": "BR",
-          "value": 1395
+          "value": 1396
         },
         {
           "name": "US",
@@ -947,7 +947,7 @@
         },
         {
           "name": "South America",
-          "value": 2861
+          "value": 2862
         },
         {
           "name": "North America",
@@ -969,15 +969,15 @@
       "items": [
         {
           "name": "EN",
-          "value": 19915
+          "value": 19916
         },
         {
           "name": "ES",
-          "value": 4139
+          "value": 4140
         },
         {
           "name": "PT",
-          "value": 2308
+          "value": 2309
         },
         {
           "name": "FR",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5165
+          "value": 5166
         },
         {
           "name": "CC BY-NC-SA",
@@ -1103,7 +1103,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15411
+          "value": 15412
         },
         {
           "name": "Single anonymous peer review",
@@ -1129,7 +1129,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20180
+          "value": 20181
         },
         {
           "name": "Handles",
@@ -1155,7 +1155,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4795
+          "value": 4796
         },
         {
           "name": "Portico",
@@ -1797,7 +1797,7 @@
             200,
             172,
             245,
-            73
+            74
           ]
         }
       ]
@@ -1816,7 +1816,7 @@
         },
         {
           "name": "BR",
-          "value": 1395
+          "value": 1396
         },
         {
           "name": "US",
@@ -2374,7 +2374,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-17T17:37:08.203914+00:00",
+    "fetched_at": "2026-10-17T19:49:03.645813+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
