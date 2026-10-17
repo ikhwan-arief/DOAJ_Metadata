@@ -1,8 +1,95 @@
 {
-  "generated_at": "2026-10-17T19:49:05.145915+00:00",
+  "generated_at": "2026-10-17T22:46:40.400203+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23628,
   "items": [
+    {
+      "id": "d5681a5fc240496bbebab885343004bc",
+      "title": "Revista Española de Quimioterapia",
+      "publisher_name": "Sociedad Española de Quimioterapia",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Medicine",
+        "Specialties of internal medicine",
+        "Microbiology"
+      ],
+      "subject_display": "Medicine · Specialties of internal medicine",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-08-04T11:02:43Z",
+      "created_year": 2023,
+      "created_month": "2023-08",
+      "last_updated": "2026-10-17T22:39:12Z",
+      "website": "https://revespquimioterapia.com/",
+      "author_guidelines_url": "https://revespquimioterapia.com/authorsrules",
+      "article_records_exposed": null,
+      "search_text": "revista espanola de quimioterapia sociedad espanola de quimioterapia es europe medicine specialties of internal medicine microbiology es en cc by nc"
+    },
+    {
+      "id": "90d9299de9b7471e834f4ee0d7114576",
+      "title": "Compàs d'Amalgama",
+      "publisher_name": "Edicions de la Universitat de Barcelona",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Social Sciences"
+      ],
+      "subject_display": "Social Sciences",
+      "languages": [
+        "FR",
+        "IT",
+        "ES",
+        "CA",
+        "EN"
+      ],
+      "language_display": "FR, IT, ES, CA, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2022-07-19T10:55:58Z",
+      "created_year": 2022,
+      "created_month": "2022-07",
+      "last_updated": "2026-10-17T22:14:11Z",
+      "website": "https://revistes.ub.edu/index.php/compas-amalgama/index",
+      "author_guidelines_url": "https://revistes.ub.edu/index.php/compas-amalgama/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "compas d amalgama edicions de la universitat de barcelona es europe social sciences fr it es ca en cc by nc nd"
+    },
     {
       "id": "a19c23993cea46eb9772eb8b420b42fb",
       "title": "Anales del Instituto de Arte Americano e Investigaciones Estéticas \"Mario J. Buschiazzo\"",
@@ -472402,49 +472489,6 @@
       "search_text": "art time ataturk university tr asia arts in general en cc by nc"
     },
     {
-      "id": "d5681a5fc240496bbebab885343004bc",
-      "title": "Revista Española de Quimioterapia",
-      "publisher_name": "Sociedad Española de Quimioterapia",
-      "country": "ES",
-      "continent": "Europe",
-      "subjects": [
-        "Medicine",
-        "Specialties of internal medicine",
-        "Microbiology"
-      ],
-      "subject_display": "Medicine · Specialties of internal medicine",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-08-04T11:02:43Z",
-      "created_year": 2023,
-      "created_month": "2023-08",
-      "last_updated": "2026-09-17T10:48:53Z",
-      "website": "https://seq.es/revista-de-la-seq-pag/",
-      "author_guidelines_url": "https://seq.es/submission-guidelines/#ProcessingPapers",
-      "article_records_exposed": null,
-      "search_text": "revista espanola de quimioterapia sociedad espanola de quimioterapia es europe medicine specialties of internal medicine microbiology en es cc by nc"
-    },
-    {
       "id": "1fc0e229930945d3beaa56619c7bec5d",
       "title": "Advanced Gut & Microbiome Research",
       "publisher_name": "Wiley",
@@ -600700,50 +600744,6 @@
       "author_guidelines_url": "https://journal.ascarya.or.id/index.php/iscs/author-guidelines",
       "article_records_exposed": null,
       "search_text": "ascarya perkumpulan alumni dan santri mahyajatul qurro id asia islam social sciences en id cc by nc"
-    },
-    {
-      "id": "90d9299de9b7471e834f4ee0d7114576",
-      "title": "Compàs d'Amalgama",
-      "publisher_name": "Edicions de la Universitat de Barcelona",
-      "country": "ES",
-      "continent": "Europe",
-      "subjects": [
-        "Social Sciences"
-      ],
-      "subject_display": "Social Sciences",
-      "languages": [
-        "EN",
-        "CA",
-        "ES",
-        "IT",
-        "FR"
-      ],
-      "language_display": "EN, CA, ES, IT, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2022-07-19T10:55:58Z",
-      "created_year": 2022,
-      "created_month": "2022-07",
-      "last_updated": "2026-09-17T10:46:19Z",
-      "website": "https://revistes.ub.edu/index.php/compas-amalgama/index",
-      "author_guidelines_url": "https://revistes.ub.edu/index.php/compas-amalgama/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "compas d amalgama edicions de la universitat de barcelona es europe social sciences en ca es it fr cc by nc nd"
     },
     {
       "id": "27f92864c1cd4fbd8f3d788b21a73e96",
