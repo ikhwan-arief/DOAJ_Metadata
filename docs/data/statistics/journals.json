@@ -1,8 +1,125 @@
 {
-  "generated_at": "2026-10-17T12:33:55.448916+00:00",
+  "generated_at": "2026-10-17T17:37:09.193373+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23625,
+  "item_count": 23627,
   "items": [
+    {
+      "id": "176ce50766a54907a8aed07ce538ce9c",
+      "title": "Unnes Science Education Journal",
+      "publisher_name": "Universitas Negeri Semarang",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Education (General)"
+      ],
+      "subject_display": "Education (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "125 USD",
+      "apc_max_eur": 111.08,
+      "apc_max_usd": 125.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2026-10-17T16:24:17Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-17T16:24:17Z",
+      "website": "https://journal.unnes.ac.id/journals/usej",
+      "author_guidelines_url": "https://journal.unnes.ac.id/journals/usej/about#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "unnes science education journal universitas negeri semarang id asia education general en cc by"
+    },
+    {
+      "id": "f9a3711c6df341a4a65d50a007fc5ed3",
+      "title": "Unnes Science Education Journal",
+      "publisher_name": "Universitas Negeri Semarang",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Education (General)"
+      ],
+      "subject_display": "Education (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "125 USD",
+      "apc_max_eur": 111.08,
+      "apc_max_usd": 125.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2026-10-17T16:24:17Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-17T16:24:17Z",
+      "website": "https://journal.unnes.ac.id/journals/usej",
+      "author_guidelines_url": "https://journal.unnes.ac.id/journals/usej/about#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "unnes science education journal universitas negeri semarang id asia education general en cc by"
+    },
+    {
+      "id": "0b1dffb6cb9042b5892e98f5fe342b78",
+      "title": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+      "publisher_name": "Ikatan Ahli Informatika Indonesia",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Systems engineering",
+        "Information technology"
+      ],
+      "subject_display": "Systems engineering · Information technology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "200 USD / 2500000 IDR",
+      "apc_max_eur": 177.73,
+      "apc_max_usd": 200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-11-17T11:37:05Z",
+      "created_year": 2017,
+      "created_month": "2017-11",
+      "last_updated": "2026-10-17T16:12:09Z",
+      "website": "http://jurnal.iaii.or.id/index.php/RESTI",
+      "author_guidelines_url": "http://jurnal.iaii.or.id/index.php/RESTI/authorguide",
+      "article_records_exposed": null,
+      "search_text": "jurnal resti rekayasa sistem dan teknologi informasi ikatan ahli informatika indonesia id asia systems engineering information technology en cc by"
+    },
     {
       "id": "1bbb5e75e01b4feca773826801e4c16e",
       "title": "Вопросы курортологии, физиотерапии и лечебной физической культуры",
@@ -401372,47 +401489,6 @@
       "author_guidelines_url": "https://revistas.utadeo.edu.co/index.php/razoncritica/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "razon critica universidad jorge tadeo lozano co south america law in general comparative and uniform law jurisprudence social sciences general es pt en cc by nc sa"
-    },
-    {
-      "id": "0b1dffb6cb9042b5892e98f5fe342b78",
-      "title": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
-      "publisher_name": "Ikatan Ahli Informatika Indonesia",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Systems engineering",
-        "Information technology"
-      ],
-      "subject_display": "Systems engineering · Information technology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "200 USD / 2500000 IDR",
-      "apc_max_eur": 177.73,
-      "apc_max_usd": 200.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-11-17T11:37:05Z",
-      "created_year": 2017,
-      "created_month": "2017-11",
-      "last_updated": "2026-09-17T10:50:06Z",
-      "website": "http://jurnal.iaii.or.id/index.php/RESTI",
-      "author_guidelines_url": "http://jurnal.iaii.or.id/index.php/RESTI/authorguide",
-      "article_records_exposed": null,
-      "search_text": "jurnal resti rekayasa sistem dan teknologi informasi ikatan ahli informatika indonesia id asia systems engineering information technology en cc by"
     },
     {
       "id": "cc505aaca2904d2ba6a060e6183453c1",

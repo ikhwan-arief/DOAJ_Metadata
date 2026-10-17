@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T12:33:55.448916+00:00",
+  "generated_at": "2026-10-17T17:37:09.193373+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23625,
-  "article_total": 13805740,
+  "journal_total": 23627,
+  "article_total": 13805804,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23625
+      "value": 23627
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13805740,
+      "value": 13805804,
       "detail": "Global DOAJ article total"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "No APC",
-      "value": 62.5,
+      "value": 62.4,
       "detail": "Share of journals"
     }
   ],
@@ -869,7 +869,7 @@
         },
         {
           "name": "Yes",
-          "value": 8870
+          "value": 8872
         }
       ]
     },
@@ -883,7 +883,7 @@
         },
         {
           "name": "No",
-          "value": 8415
+          "value": 8417
         }
       ]
     },
@@ -893,7 +893,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2726
         },
         {
           "name": "GB",
@@ -943,7 +943,7 @@
         },
         {
           "name": "Asia",
-          "value": 6916
+          "value": 6918
         },
         {
           "name": "South America",
@@ -969,7 +969,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19913
+          "value": 19915
         },
         {
           "name": "ES",
@@ -1031,7 +1031,7 @@
         },
         {
           "name": "Education (General)",
-          "value": 656
+          "value": 658
         },
         {
           "name": "Language and Literature",
@@ -1061,7 +1061,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12283
+          "value": 12285
         },
         {
           "name": "CC BY-NC-ND",
@@ -1103,7 +1103,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15409
+          "value": 15411
         },
         {
           "name": "Single anonymous peer review",
@@ -1797,7 +1797,7 @@
             200,
             172,
             245,
-            71
+            73
           ]
         }
       ]
@@ -1808,7 +1808,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2724
+          "value": 2726
         },
         {
           "name": "GB",
@@ -2374,7 +2374,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-17T12:33:54.088772+00:00",
+    "fetched_at": "2026-10-17T17:37:08.203914+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
