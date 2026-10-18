@@ -1,8 +1,259 @@
 {
-  "generated_at": "2026-10-18T12:52:16.166278+00:00",
+  "generated_at": "2026-10-18T19:49:54.840319+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23630,
   "items": [
+    {
+      "id": "13695ea1a94743f295d345c422d98caf",
+      "title": "مطالعات نوین در مدیریت و سازمان",
+      "publisher_name": "Research center for resource management studies and knowledge-based business",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Personnel management. Employment management"
+      ],
+      "subject_display": "Personnel management. Employment management",
+      "languages": [
+        "FA",
+        "EN"
+      ],
+      "language_display": "FA, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "15000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 15.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "In-house Archiving  (Additionally, correspondence has been established with the National Library of Iran, and soon, all articles from this publication will be archived in the \"National Library and Archives of I.R. IRAN\")."
+      ],
+      "created_date": "2025-09-24T07:53:16Z",
+      "created_year": 2025,
+      "created_month": "2025-09",
+      "last_updated": "2026-10-18T19:41:27Z",
+      "website": "https://www.jmsmo.ir",
+      "author_guidelines_url": "https://www.jmsmo.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "research center for resource management studies and knowledge based business ir asia personnel management employment management fa en cc by"
+    },
+    {
+      "id": "9201860221a84f7eb68f2dd0cd1826be",
+      "title": "Investigación e Innovación Clínica y Quirúrgica Pediátrica",
+      "publisher_name": "Instituto Nacional de Salud del Niño San Borja",
+      "country": "PE",
+      "continent": "South America",
+      "subjects": [
+        "Pediatrics"
+      ],
+      "subject_display": "Pediatrics",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2026-06-03T10:24:17Z",
+      "created_year": 2026,
+      "created_month": "2026-06",
+      "last_updated": "2026-10-18T18:33:28Z",
+      "website": "https://investigacionpediatrica.insnsb.gob.pe/index.php/iicqp",
+      "author_guidelines_url": "https://investigacionpediatrica.insnsb.gob.pe/index.php/iicqp/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "investigacion e innovacion clinica y quirurgica pediatrica instituto nacional de salud del nino san borja pe south america pediatrics es en cc by"
+    },
+    {
+      "id": "6ccb5c4e79d04adc856ac43452988b5b",
+      "title": "Acta Scientiarum. Agronomy",
+      "publisher_name": "Universidade Estadual de Maringá",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Agriculture (General)",
+        "Plant culture"
+      ],
+      "subject_display": "Agriculture (General) · Plant culture",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS",
+        "Cariniana Network"
+      ],
+      "created_date": "2026-06-05T16:26:28Z",
+      "created_year": 2026,
+      "created_month": "2026-06",
+      "last_updated": "2026-10-18T18:31:40Z",
+      "website": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/index",
+      "author_guidelines_url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "acta scientiarum agronomy universidade estadual de maringa br south america agriculture general plant culture en cc by"
+    },
+    {
+      "id": "36363de37a99469ca854e7c213445b06",
+      "title": "Journal of Daylighting",
+      "publisher_name": "Solarlits",
+      "country": "HK",
+      "continent": "Asia",
+      "subjects": [
+        "Details in building design and construction. Including walls, roofs"
+      ],
+      "subject_display": "Details in building design and construction. Including walls, roofs",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1000 USD",
+      "apc_max_eur": 888.65,
+      "apc_max_usd": 1000.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2015-07-02T14:38:20Z",
+      "created_year": 2015,
+      "created_month": "2015-07",
+      "last_updated": "2026-10-18T18:23:34Z",
+      "website": "https://solarlits.com/jd",
+      "author_guidelines_url": "https://solarlits.com/authors",
+      "article_records_exposed": null,
+      "search_text": "journal of daylighting solarlits hk asia details in building design and construction including walls roofs en cc by"
+    },
+    {
+      "id": "a4a8b82dbfdf4476852b0d96cee2ba52",
+      "title": "Journal of Rehabilitation Sciences and Research",
+      "publisher_name": "Shiraz University of Medical Sciences",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Therapeutics. Pharmacology"
+      ],
+      "subject_display": "Therapeutics. Pharmacology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "900 USD / 60000000 IRR",
+      "apc_max_eur": 799.79,
+      "apc_max_usd": 900.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2015-10-14T12:17:38Z",
+      "created_year": 2015,
+      "created_month": "2015-10",
+      "last_updated": "2026-10-18T16:38:07Z",
+      "website": "http://jrsr.sums.ac.ir/",
+      "author_guidelines_url": "http://jrsr.sums.ac.ir/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "journal of rehabilitation sciences and research shiraz university of medical sciences ir asia therapeutics pharmacology en cc by"
+    },
+    {
+      "id": "0329ffa3cd5947879571902ac7808688",
+      "title": "Daluang",
+      "publisher_name": "Universitas Islam Negeri Walisongo, Unit Pelaksana Teknis Perpustakaan",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Bibliography. Library science. Information resources"
+      ],
+      "subject_display": "Bibliography. Library science. Information resources",
+      "languages": [
+        "EN",
+        "ID"
+      ],
+      "language_display": "EN, ID",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-01-10T13:46:05Z",
+      "created_year": 2023,
+      "created_month": "2023-01",
+      "last_updated": "2026-10-18T14:12:26Z",
+      "website": "https://journal.walisongo.ac.id/index.php/daluang",
+      "author_guidelines_url": "https://journal.walisongo.ac.id/index.php/daluang/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "daluang universitas islam negeri walisongo unit pelaksana teknis perpustakaan id asia bibliography library science information resources en id cc by nc nd"
+    },
     {
       "id": "427baa56a9e845b1a86b6c42fdbb4577",
       "title": "Expertise Engineering Measurements and Applications",
@@ -930,46 +1181,6 @@
       "author_guidelines_url": "https://admt.isfahan.iau.ir/journal/authors.note",
       "article_records_exposed": null,
       "search_text": "international journal of advanced design and manufacturing technology islamic azad university isfahan khorasgan branch ir asia technology en cc by"
-    },
-    {
-      "id": "a4a8b82dbfdf4476852b0d96cee2ba52",
-      "title": "Journal of Rehabilitation Sciences and Research",
-      "publisher_name": "Shiraz University of Medical Sciences",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Therapeutics. Pharmacology"
-      ],
-      "subject_display": "Therapeutics. Pharmacology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "60000000 IRR / 900 USD",
-      "apc_max_eur": 799.79,
-      "apc_max_usd": 900.0,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2015-10-14T12:17:38Z",
-      "created_year": 2015,
-      "created_month": "2015-10",
-      "last_updated": "2026-10-16T15:27:56Z",
-      "website": "http://jrsr.sums.ac.ir/",
-      "author_guidelines_url": "http://jrsr.sums.ac.ir/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "journal of rehabilitation sciences and research shiraz university of medical sciences ir asia therapeutics pharmacology en cc by"
     },
     {
       "id": "65c31019b3cc497c96e8d0a0f5faca67",
@@ -14975,46 +15186,6 @@
       "author_guidelines_url": "https://jkes.eu/resources/html/cms/MYMANUSCRIPTS",
       "article_records_exposed": null,
       "search_text": "journal of kinesiology and exercise sciences akademia wychowania fizycznego im bronis awa czecha w krakowie pl europe sports medicine en cc by sa"
-    },
-    {
-      "id": "36363de37a99469ca854e7c213445b06",
-      "title": "Journal of Daylighting",
-      "publisher_name": "Solarlits",
-      "country": "HK",
-      "continent": "Asia",
-      "subjects": [
-        "Details in building design and construction. Including walls, roofs"
-      ],
-      "subject_display": "Details in building design and construction. Including walls, roofs",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1000 USD",
-      "apc_max_eur": 888.65,
-      "apc_max_usd": 1000.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2015-07-02T14:38:20Z",
-      "created_year": 2015,
-      "created_month": "2015-07",
-      "last_updated": "2026-09-29T16:02:03Z",
-      "website": "https://solarlits.com/jd",
-      "author_guidelines_url": "https://solarlits.com/authors",
-      "article_records_exposed": null,
-      "search_text": "journal of daylighting solarlits hk asia details in building design and construction including walls roofs en cc by"
     },
     {
       "id": "63a88e98db9b4f498a4879c49351977f",
@@ -31471,49 +31642,6 @@
       "author_guidelines_url": "https://societyfia.org/journal/JFPNR/AuthorGuidelines",
       "article_records_exposed": null,
       "search_text": "journal of food processing and nutrition research society for innovative agriculture pk asia nutrition foods and food supply food processing and manufacture en cc by"
-    },
-    {
-      "id": "13695ea1a94743f295d345c422d98caf",
-      "title": "مطالعات نوین در مدیریت و سازمان",
-      "publisher_name": "Research center for resource management studies and knowledge-based business",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Personnel management. Employment management"
-      ],
-      "subject_display": "Personnel management. Employment management",
-      "languages": [
-        "FA",
-        "EN"
-      ],
-      "language_display": "FA, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "15000000 IRR",
-      "apc_max_eur": null,
-      "apc_max_usd": 15.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "In-house Archiving  (Additionally, correspondence has been established with the National Library of Iran, and soon, all articles from this publication will be archived in the \"National Library and Archives of I.R. IRAN\")."
-      ],
-      "created_date": "2025-09-24T07:53:16Z",
-      "created_year": 2025,
-      "created_month": "2025-09",
-      "last_updated": "2026-09-17T10:55:36Z",
-      "website": "https://www.jmsmo.ir",
-      "author_guidelines_url": "https://www.jmsmo.ir/journal/authors.note?lang=en",
-      "article_records_exposed": null,
-      "search_text": "research center for resource management studies and knowledge based business ir asia personnel management employment management fa en cc by"
     },
     {
       "id": "9d3f0433376a4903b6c2481e2bbbf60b",
@@ -57902,49 +58030,6 @@
       "author_guidelines_url": "https://dergipark.org.tr/tr/pub/jhscr/writing-rules",
       "article_records_exposed": null,
       "search_text": "journal of health sciences and clinical research gaziantep university tr asia nursing en tr cc by nc"
-    },
-    {
-      "id": "9201860221a84f7eb68f2dd0cd1826be",
-      "title": "Investigación e Innovación Clínica y Quirúrgica Pediátrica",
-      "publisher_name": "Instituto Nacional de Salud del Niño San Borja",
-      "country": "PE",
-      "continent": "South America",
-      "subjects": [
-        "Pediatrics"
-      ],
-      "subject_display": "Pediatrics",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS"
-      ],
-      "created_date": "2026-06-03T10:24:17Z",
-      "created_year": 2026,
-      "created_month": "2026-06",
-      "last_updated": "2026-09-17T10:55:12Z",
-      "website": "https://investigacionpediatrica.insnsb.gob.pe/index.php/iicqp",
-      "author_guidelines_url": "https://investigacionpediatrica.insnsb.gob.pe/index.php/iicqp/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "investigacion e innovacion clinica y quirurgica pediatrica instituto nacional de salud del nino san borja pe south america pediatrics en es cc by"
     },
     {
       "id": "6ac4529b42324f40a3b29c658a1d1a4a",
@@ -169130,50 +169215,6 @@
       "author_guidelines_url": "https://www.scifiniti.com/journals/computingai-connect/authors-instructions",
       "article_records_exposed": null,
       "search_text": "computing ai connect scifiniti publishing ae asia science technology en cc by"
-    },
-    {
-      "id": "6ccb5c4e79d04adc856ac43452988b5b",
-      "title": "Acta Scientiarum. Agronomy",
-      "publisher_name": "Universidade Estadual de Maringá",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Agriculture (General)",
-        "Plant culture"
-      ],
-      "subject_display": "Agriculture (General) · Plant culture",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS",
-        "Cariniana Network"
-      ],
-      "created_date": "2026-06-05T16:26:28Z",
-      "created_year": 2026,
-      "created_month": "2026-06",
-      "last_updated": "2026-09-17T10:53:42Z",
-      "website": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/index",
-      "author_guidelines_url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "acta scientiarum agronomy universidade estadual de maringa br south america agriculture general plant culture en cc by"
     },
     {
       "id": "1a1cfc60a2694606bcc7bf7b62c1e70b",
@@ -641523,47 +641564,6 @@
       "author_guidelines_url": "https://revistabioagro.mx/index.php/revista/about/submissions",
       "article_records_exposed": null,
       "search_text": "revista biologico agropecuaria tuxpan editorial agricola tuxpan mx north america veterinary medicine agriculture es cc by"
-    },
-    {
-      "id": "0329ffa3cd5947879571902ac7808688",
-      "title": "Daluang",
-      "publisher_name": "Universitas Islam Negeri Walisongo, Unit Pelaksana Teknis Perpustakaan",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Bibliography. Library science. Information resources"
-      ],
-      "subject_display": "Bibliography. Library science. Information resources",
-      "languages": [
-        "EN",
-        "ID"
-      ],
-      "language_display": "EN, ID",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-01-10T13:46:05Z",
-      "created_year": 2023,
-      "created_month": "2023-01",
-      "last_updated": "2026-09-17T10:45:32Z",
-      "website": "https://journal.walisongo.ac.id/index.php/daluang",
-      "author_guidelines_url": "https://journal.walisongo.ac.id/index.php/daluang/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "daluang universitas islam negeri walisongo unit pelaksana teknis perpustakaan id asia bibliography library science information resources en id cc by nc nd"
     },
     {
       "id": "3091456fd4494f81b0706300098e76c4",
