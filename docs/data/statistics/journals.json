@@ -1,8 +1,346 @@
 {
-  "generated_at": "2026-10-18T07:32:03.425690+00:00",
+  "generated_at": "2026-10-18T12:52:16.166278+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23628,
+  "item_count": 23630,
   "items": [
+    {
+      "id": "427baa56a9e845b1a86b6c42fdbb4577",
+      "title": "Expertise Engineering Measurements and Applications",
+      "publisher_name": "Bilijipub Publisher",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Building construction"
+      ],
+      "subject_display": "Building construction",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-10-18T10:45:03Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-18T10:45:03Z",
+      "website": "https://eema.bilijipub.com/",
+      "author_guidelines_url": "https://eema.bilijipub.com/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "expertise engineering measurements and applications bilijipub publisher ir asia building construction en cc by"
+    },
+    {
+      "id": "ef0e02d1a28b4f69bba42a7a4ae480be",
+      "title": "International Journal of Molecular and Cellular Medicine",
+      "publisher_name": "Babol University of Medical Sciences",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Genetics",
+        "Chemistry"
+      ],
+      "subject_display": "Genetics · Chemistry",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "40000000 IRR / 1200 USD",
+      "apc_max_eur": 1066.38,
+      "apc_max_usd": 1200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-18T10:41:52Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-18T10:41:52Z",
+      "website": "https://ijmcmed.org",
+      "author_guidelines_url": "https://ijmcmed.org/page/21/Submission-Instruction",
+      "article_records_exposed": null,
+      "search_text": "international journal of molecular and cellular medicine babol university of medical sciences ir asia genetics chemistry en cc by nc"
+    },
+    {
+      "id": "dba694acfcd8497bbc23840d642847f7",
+      "title": "East African Journal of Biophysical and Computational Sciences",
+      "publisher_name": "Hawassa University",
+      "country": "ET",
+      "continent": "Africa",
+      "subjects": [
+        "Veterinary medicine",
+        "Science"
+      ],
+      "subject_display": "Veterinary medicine · Science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2021-10-24T19:35:43Z",
+      "created_year": 2021,
+      "created_month": "2021-10",
+      "last_updated": "2026-10-18T09:49:44Z",
+      "website": "https://journals.hu.edu.et/hu-journals/index.php/eajbcs",
+      "author_guidelines_url": "https://journals.hu.edu.et/hu-journals/index.php/eajbcs/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "east african journal of biophysical and computational sciences hawassa university et africa veterinary medicine science en cc by nc"
+    },
+    {
+      "id": "9655a58b03b54bccb04a3ac2734bca6b",
+      "title": "مجلة بغداد للعلوم",
+      "publisher_name": "University of Baghdad, College of Science for Women",
+      "country": "IQ",
+      "continent": "Asia",
+      "subjects": [
+        "Science"
+      ],
+      "subject_display": "Science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "450 USD / 600000 IQD",
+      "apc_max_eur": 399.89,
+      "apc_max_usd": 450.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2025-07-24T17:30:22Z",
+      "created_year": 2025,
+      "created_month": "2025-07",
+      "last_updated": "2026-10-18T09:40:08Z",
+      "website": "https://bsj.uobaghdad.edu.iq/home/",
+      "author_guidelines_url": "https://bsj.uobaghdad.edu.iq/home/authorsguidelines.html",
+      "article_records_exposed": null,
+      "search_text": "university of baghdad college of science for women iq asia science en cc by"
+    },
+    {
+      "id": "d707537e58a5432b9c691152453c0447",
+      "title": "Journal of Engineering",
+      "publisher_name": "University of Baghdad",
+      "country": "IQ",
+      "continent": "Asia",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "120 USD / 175000 IQD",
+      "apc_max_eur": 106.64,
+      "apc_max_usd": 120.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2023-03-26T14:48:04Z",
+      "created_year": 2023,
+      "created_month": "2023-03",
+      "last_updated": "2026-10-18T09:36:59Z",
+      "website": "https://joe.uobaghdad.edu.iq/index.php/main",
+      "author_guidelines_url": "https://joe.uobaghdad.edu.iq/index.php/main/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of engineering university of baghdad iq asia engineering general civil engineering general en cc by"
+    },
+    {
+      "id": "8a61e698d2274c5a9af6710962a7ecfe",
+      "title": "Monstrum",
+      "publisher_name": "Montreal Monstrum Society",
+      "country": "CA",
+      "continent": "North America",
+      "subjects": [
+        "Arts in general",
+        "Literature (General)"
+      ],
+      "subject_display": "Arts in general · Literature (General)",
+      "languages": [
+        "EN",
+        "FR"
+      ],
+      "language_display": "EN, FR",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2019-07-10T20:38:14Z",
+      "created_year": 2019,
+      "created_month": "2019-07",
+      "last_updated": "2026-10-18T09:29:59Z",
+      "website": "https://www.monstrum-society.ca/journal--revue.html",
+      "author_guidelines_url": "https://www.monstrum-society.ca/submissions--soumissions.html",
+      "article_records_exposed": null,
+      "search_text": "monstrum montreal monstrum society ca north america arts in general literature general en fr cc by"
+    },
+    {
+      "id": "ff4c9a601fc8488baac44a7ae4686d19",
+      "title": "Saudi Journal of Emergency Medicine",
+      "publisher_name": "Discover STM Publishing Ltd",
+      "country": "IE",
+      "continent": "Europe",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "260 USD / 920 SAR",
+      "apc_max_eur": 231.05,
+      "apc_max_usd": 260.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2023-07-03T06:16:14Z",
+      "created_year": 2023,
+      "created_month": "2023-07",
+      "last_updated": "2026-10-18T07:38:28Z",
+      "website": "https://sjemed.com/",
+      "author_guidelines_url": "https://sjemed.com/index.php?sec=gfa",
+      "article_records_exposed": null,
+      "search_text": "saudi journal of emergency medicine discover stm publishing ltd ie europe medicine en cc by"
+    },
+    {
+      "id": "4ff253656e184bdd8137a85ec6df6914",
+      "title": "Almana: Jurnal Manajemen dan Bisnis",
+      "publisher_name": "Bandung: Prodi Manajemen FE Universitas Langlangbuana",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Business"
+      ],
+      "subject_display": "Business",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "1500000 IDR",
+      "apc_max_eur": 73.5,
+      "apc_max_usd": 82.5,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2022-08-02T14:22:42Z",
+      "created_year": 2022,
+      "created_month": "2022-08",
+      "last_updated": "2026-10-18T07:32:59Z",
+      "website": "http://journalfeb.unla.ac.id/index.php/almana",
+      "author_guidelines_url": "http://journalfeb.unla.ac.id/index.php/almana/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "almana jurnal manajemen dan bisnis bandung prodi manajemen fe universitas langlangbuana id asia business id en cc by nc nd"
+    },
     {
       "id": "10dd2b6de9ac411ea5f7b7880f901eb5",
       "title": "Aviation Electronics, Information Technology, Telecommunications, Electricals, Controls",
@@ -32455,48 +32793,6 @@
       "author_guidelines_url": "https://jes.ut.ac.ir/journal/authors.note?lang=en",
       "article_records_exposed": null,
       "search_text": "university of tehran ir asia environmental sciences environmental engineering en fa cc by"
-    },
-    {
-      "id": "9655a58b03b54bccb04a3ac2734bca6b",
-      "title": "مجلة بغداد للعلوم",
-      "publisher_name": "University of Baghdad, College of Science for Women",
-      "country": "IQ",
-      "continent": "Asia",
-      "subjects": [
-        "Science"
-      ],
-      "subject_display": "Science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "350000 IQD / 250 USD",
-      "apc_max_eur": 222.16,
-      "apc_max_usd": 250.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS"
-      ],
-      "created_date": "2025-07-24T17:30:22Z",
-      "created_year": 2025,
-      "created_month": "2025-07",
-      "last_updated": "2026-09-17T10:55:35Z",
-      "website": "https://bsj.uobaghdad.edu.iq/home/",
-      "author_guidelines_url": "https://bsj.uobaghdad.edu.iq/home/authorsguidelines.html",
-      "article_records_exposed": null,
-      "search_text": "university of baghdad college of science for women iq asia science en cc by"
     },
     {
       "id": "a167dc06c7f04b348cd8c55b63e0ed5f",
@@ -67059,47 +67355,6 @@
       "author_guidelines_url": "https://ajc.maths.uq.edu.au/?page=author_guidelines",
       "article_records_exposed": null,
       "search_text": "the australasian journal of combinatorics university of queensland au oceania mathematics en cc by cc by nd"
-    },
-    {
-      "id": "4ff253656e184bdd8137a85ec6df6914",
-      "title": "Almana: Jurnal Manajemen dan Bisnis",
-      "publisher_name": "Bandung: Prodi Manajemen FE Universitas Langlangbuana",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Business"
-      ],
-      "subject_display": "Business",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "1500000 IDR",
-      "apc_max_eur": 73.5,
-      "apc_max_usd": 82.5,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2022-08-02T14:22:42Z",
-      "created_year": 2022,
-      "created_month": "2022-08",
-      "last_updated": "2026-09-17T10:55:02Z",
-      "website": "http://journalfeb.unla.ac.id/index.php/almana",
-      "author_guidelines_url": "http://journalfeb.unla.ac.id/index.php/almana/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "almana jurnal manajemen dan bisnis bandung prodi manajemen fe universitas langlangbuana id asia business id en cc by nc nd"
     },
     {
       "id": "669a2a6c3dcb4504b746c53737136f8e",
@@ -108925,47 +109180,6 @@
       "author_guidelines_url": "https://satellite-navigation.springeropen.com/submission-guidelines",
       "article_records_exposed": null,
       "search_text": "satellite navigation springeropen gb europe technology general en cc by cc by nc nd"
-    },
-    {
-      "id": "8a61e698d2274c5a9af6710962a7ecfe",
-      "title": "Monstrum",
-      "publisher_name": "Montreal Monstrum Society",
-      "country": "CA",
-      "continent": "North America",
-      "subjects": [
-        "Arts in general",
-        "Literature (General)"
-      ],
-      "subject_display": "Arts in general · Literature (General)",
-      "languages": [
-        "IT",
-        "FR",
-        "EN"
-      ],
-      "language_display": "IT, FR, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2019-07-10T20:38:14Z",
-      "created_year": 2019,
-      "created_month": "2019-07",
-      "last_updated": "2026-09-17T10:54:30Z",
-      "website": "https://www.monstrum-society.ca/journal--revue.html",
-      "author_guidelines_url": "https://www.monstrum-society.ca/call-for-submissions.html",
-      "article_records_exposed": null,
-      "search_text": "monstrum montreal monstrum society ca north america arts in general literature general it fr en cc by"
     },
     {
       "id": "3100043a40414c9a8dec7310ac0b94a1",
@@ -166870,45 +167084,6 @@
       "search_text": "frontiers in space technologies frontiers media s a ch europe electrical engineering electronics nuclear engineering en cc by"
     },
     {
-      "id": "dba694acfcd8497bbc23840d642847f7",
-      "title": "East African Journal of Biophysical and Computational Sciences",
-      "publisher_name": "Hawassa University",
-      "country": "ET",
-      "continent": "Africa",
-      "subjects": [
-        "Veterinary medicine",
-        "Science"
-      ],
-      "subject_display": "Veterinary medicine · Science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2021-10-24T19:35:43Z",
-      "created_year": 2021,
-      "created_month": "2021-10",
-      "last_updated": "2026-09-17T10:53:44Z",
-      "website": "https://journals.hu.edu.et/hu-journals/index.php/eajbcs",
-      "author_guidelines_url": "https://journals.hu.edu.et/hu-journals/index.php/eajbcs/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "east african journal of biophysical and computational sciences hawassa university et africa veterinary medicine science en cc by nc nd"
-    },
-    {
       "id": "63b67a265b244bc1990db383562b72b1",
       "title": "Frontiers in Reproductive Health",
       "publisher_name": "Frontiers Media S.A.",
@@ -168024,48 +168199,6 @@
       "author_guidelines_url": "https://www.frontiersin.org/journals/microbiomes/for-authors/author-guidelines",
       "article_records_exposed": null,
       "search_text": "frontiers in microbiomes frontiers media s a ch europe microbial ecology en cc by"
-    },
-    {
-      "id": "d707537e58a5432b9c691152453c0447",
-      "title": "Journal of Engineering",
-      "publisher_name": "University of Baghdad",
-      "country": "IQ",
-      "continent": "Asia",
-      "subjects": [
-        "Engineering (General). Civil engineering (General)"
-      ],
-      "subject_display": "Engineering (General). Civil engineering (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "75000 IQD / 60 USD",
-      "apc_max_eur": 53.32,
-      "apc_max_usd": 60.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS"
-      ],
-      "created_date": "2023-03-26T14:48:04Z",
-      "created_year": 2023,
-      "created_month": "2023-03",
-      "last_updated": "2026-09-17T10:53:43Z",
-      "website": "https://joe.uobaghdad.edu.iq/index.php/main",
-      "author_guidelines_url": "https://joe.uobaghdad.edu.iq/index.php/main/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of engineering university of baghdad iq asia engineering general civil engineering general en cc by"
     },
     {
       "id": "62edff820f2f4eeeb792c95da4120cca",
@@ -543095,48 +543228,6 @@
       "author_guidelines_url": "http://irigs.iiu.edu.pk:64447/ojs/index.php/jcp/submitManuscript",
       "article_records_exposed": null,
       "search_text": "journal of contemporary poetics international islamic university islamabad pk asia language and literature en cc by nc"
-    },
-    {
-      "id": "ff4c9a601fc8488baac44a7ae4686d19",
-      "title": "Saudi Journal of Emergency Medicine",
-      "publisher_name": "Discover STM Publishing Ltd",
-      "country": "IE",
-      "continent": "Europe",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "260 USD / 920 SAR",
-      "apc_max_eur": 231.05,
-      "apc_max_usd": 260.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2023-07-03T06:16:14Z",
-      "created_year": 2023,
-      "created_month": "2023-07",
-      "last_updated": "2026-09-17T10:47:35Z",
-      "website": "https://sjemed.com/",
-      "author_guidelines_url": "https://sjemed.com/index.php?sec=gfa",
-      "article_records_exposed": null,
-      "search_text": "saudi journal of emergency medicine discover stm publishing ltd ie europe medicine en cc by"
     },
     {
       "id": "a22a8e947da949b89a717838c60e93cf",
