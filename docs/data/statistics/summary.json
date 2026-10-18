@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-18T01:57:24.914682+00:00",
+  "generated_at": "2026-10-18T07:32:03.425690+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23628,
-  "article_total": 13806809,
+  "article_total": 13808353,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13806809,
+      "value": 13808353,
       "detail": "Global DOAJ article total"
     },
     {
@@ -2087,11 +2087,11 @@
           "value": 26
         },
         {
-          "name": "NZ",
+          "name": "IE",
           "value": 25
         },
         {
-          "name": "IE",
+          "name": "NZ",
           "value": 25
         },
         {
@@ -2374,7 +2374,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-18T01:57:23.788030+00:00",
+    "fetched_at": "2026-10-18T07:32:02.014382+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24

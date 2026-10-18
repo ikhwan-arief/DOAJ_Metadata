@@ -1,8 +1,94 @@
 {
-  "generated_at": "2026-10-18T01:57:24.914682+00:00",
+  "generated_at": "2026-10-18T07:32:03.425690+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23628,
   "items": [
+    {
+      "id": "10dd2b6de9ac411ea5f7b7880f901eb5",
+      "title": "Aviation Electronics, Information Technology, Telecommunications, Electricals, Controls",
+      "publisher_name": "Institut Teknologi Dirgantara Adisutjipto",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Information technology",
+        "Telecommunication",
+        "Electronics"
+      ],
+      "subject_display": "Information technology · Telecommunication",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "600000 IDR / 40 USD",
+      "apc_max_eur": 35.55,
+      "apc_max_usd": 40.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review",
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review, Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-05-23T12:32:23Z",
+      "created_year": 2024,
+      "created_month": "2024-05",
+      "last_updated": "2026-10-18T05:43:19Z",
+      "website": "https://ejournals.itda.ac.id/index.php/avitec/index",
+      "author_guidelines_url": "https://ejournals.itda.ac.id/index.php/avitec/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "aviation electronics information technology telecommunications electricals controls institut teknologi dirgantara adisutjipto id asia information technology telecommunication electronics en cc by"
+    },
+    {
+      "id": "2316086116d04fab86a15c3cd358e121",
+      "title": "European Journal of Medical Case Reports",
+      "publisher_name": "Discover STM Publishing Ltd",
+      "country": "IE",
+      "continent": "Europe",
+      "subjects": [
+        "Medicine (General)",
+        "Surgery"
+      ],
+      "subject_display": "Medicine (General) · Surgery",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "200 GBP",
+      "apc_max_eur": 237.0,
+      "apc_max_usd": 266.7,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-02-24T09:47:13Z",
+      "created_year": 2026,
+      "created_month": "2026-02",
+      "last_updated": "2026-10-18T05:33:35Z",
+      "website": "https://ejmcr.com/",
+      "author_guidelines_url": "https://ejmcr.com/pages/guide_for_authors",
+      "article_records_exposed": null,
+      "search_text": "european journal of medical case reports discover stm publishing ltd ie europe medicine general surgery en cc by"
+    },
     {
       "id": "d5681a5fc240496bbebab885343004bc",
       "title": "Revista Española de Quimioterapia",
@@ -457373,49 +457459,6 @@
       "search_text": "museum materials and discussions alma diamond university of bologna it europe museums collectors and collecting it en fr cc by"
     },
     {
-      "id": "10dd2b6de9ac411ea5f7b7880f901eb5",
-      "title": "Aviation Electronics, Information Technology, Telecommunications, Electricals, Controls",
-      "publisher_name": "Institut Teknologi Dirgantara Adisutjipto",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Information technology",
-        "Telecommunication",
-        "Electronics"
-      ],
-      "subject_display": "Information technology · Telecommunication",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "600000 IDR / 40 USD",
-      "apc_max_eur": 35.55,
-      "apc_max_usd": 40.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review",
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review, Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-05-23T12:32:23Z",
-      "created_year": 2024,
-      "created_month": "2024-05",
-      "last_updated": "2026-09-17T10:49:08Z",
-      "website": "https://ejournals.itda.ac.id/index.php/avitec/index",
-      "author_guidelines_url": "https://ejournals.itda.ac.id/index.php/avitec/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "aviation electronics information technology telecommunications electricals controls institut teknologi dirgantara adisutjipto id asia information technology telecommunication electronics en cc by"
-    },
-    {
       "id": "ff6ac0094ba048588e47994bfb45282f",
       "title": "Journal of Sustainable Real Estate",
       "publisher_name": "Taylor & Francis Group",
@@ -555827,49 +555870,6 @@
       "author_guidelines_url": "http://journal.info.unlp.edu.ar/JCST/about/submissions",
       "article_records_exposed": null,
       "search_text": "journal of computer science and technology postgraduate office school of computer science universidad nacional de la plata ar south america computer engineering computer hardware electronic computers computer science en cc by nc"
-    },
-    {
-      "id": "2316086116d04fab86a15c3cd358e121",
-      "title": "European Journal of Medical Case Reports",
-      "publisher_name": "Discover STM Publishing Ltd",
-      "country": "IE",
-      "continent": "Europe",
-      "subjects": [
-        "Medicine (General)",
-        "Surgery"
-      ],
-      "subject_display": "Medicine (General) · Surgery",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "200 GBP",
-      "apc_max_eur": 237.0,
-      "apc_max_usd": 266.7,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2026-02-24T09:47:13Z",
-      "created_year": 2026,
-      "created_month": "2026-02",
-      "last_updated": "2026-09-17T10:47:20Z",
-      "website": "https://ejmcr.com/",
-      "author_guidelines_url": "https://ejmcr.com/pages/guide_for_authors",
-      "article_records_exposed": null,
-      "search_text": "european journal of medical case reports discover stm publishing ltd ie europe medicine general surgery en cc by"
     },
     {
       "id": "92fbb8edf76c4cd7aaf129c72273bbd2",
