@@ -1,8 +1,1188 @@
 {
-  "generated_at": "2026-10-19T16:04:49.185335+00:00",
+  "generated_at": "2026-10-19T21:51:03.866462+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23640,
+  "item_count": 23643,
   "items": [
+    {
+      "id": "b8288ece7523465c99e4fce4c7c84c7d",
+      "title": "International Journal of Narrative Therapy and Community Work",
+      "publisher_name": "Dulwich Centre Foundation",
+      "country": "AU",
+      "continent": "Oceania",
+      "subjects": [
+        "Communities. Classes. Races"
+      ],
+      "subject_display": "Communities. Classes. Races",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review",
+        "Post-publication peer review",
+        "Open peer review",
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Editorial review, Post-publication peer review, Open peer review, Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "ProQuest; EBSCO; Informit; Internationale Bibliographie der geistes- und sozialwissenschaftlichen Zeitschriftenliteratur"
+      ],
+      "created_date": "2025-03-16T17:32:51Z",
+      "created_year": 2025,
+      "created_month": "2025-03",
+      "last_updated": "2026-10-19T21:20:11Z",
+      "website": "https://dulwichcentre.com.au/international-journal-of-narrative-therapy-and-community-work/",
+      "author_guidelines_url": "https://dulwichcentre.com.au/information-for-authors/",
+      "article_records_exposed": null,
+      "search_text": "international journal of narrative therapy and community work dulwich centre foundation au oceania communities classes races en cc by nc nd"
+    },
+    {
+      "id": "591a5bb70a194f97a8ba5016bc9050f5",
+      "title": "Journal of Pacific Archaeology",
+      "publisher_name": "New Zealand Archaeology Association",
+      "country": "NZ",
+      "continent": "Oceania",
+      "subjects": [
+        "Archaeology"
+      ],
+      "subject_display": "Archaeology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review",
+        "Single anonymous peer review",
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review, Single anonymous peer review, Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-01-13T13:53:14Z",
+      "created_year": 2025,
+      "created_month": "2025-01",
+      "last_updated": "2026-10-19T20:57:09Z",
+      "website": "https://pacificarchaeology.org/",
+      "author_guidelines_url": "https://pacificarchaeology.org/index.php/journal/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of pacific archaeology new zealand archaeology association nz oceania archaeology en cc by"
+    },
+    {
+      "id": "f4e29cfd96234cd7923e7e9be881eac2",
+      "title": "National Journal of Physiology, Pharmacy and Pharmacology",
+      "publisher_name": "Eldaghayes Publisher",
+      "country": "LY",
+      "continent": "Africa",
+      "subjects": [
+        "Therapeutics. Pharmacology",
+        "Pharmacy and materia medica"
+      ],
+      "subject_display": "Therapeutics. Pharmacology · Pharmacy and materia medica",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "150 USD",
+      "apc_max_eur": 133.63,
+      "apc_max_usd": 150.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-03-26T13:43:16Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-19T20:41:46Z",
+      "website": "https://www.njppp.com/",
+      "author_guidelines_url": "https://www.njppp.com/index.php?sec=gfa",
+      "article_records_exposed": null,
+      "search_text": "national journal of physiology pharmacy and pharmacology eldaghayes publisher ly africa therapeutics pharmacology pharmacy and materia medica en cc by nc"
+    },
+    {
+      "id": "3fbb6568707b4718bbed3f7f21d56e97",
+      "title": "Universitas",
+      "publisher_name": "Universidad Carlos III de Madrid",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Public law",
+        "Philosophy (General)"
+      ],
+      "subject_display": "Public law · Philosophy (General)",
+      "languages": [
+        "ES"
+      ],
+      "language_display": "ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-11-12T13:49:28Z",
+      "created_year": 2025,
+      "created_month": "2025-11",
+      "last_updated": "2026-10-19T20:24:26Z",
+      "website": "https://e-revistas.uc3m.es/index.php/UNIV",
+      "author_guidelines_url": "https://e-revistas.uc3m.es/index.php/UNIV/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "universitas universidad carlos iii de madrid es europe public law philosophy general es cc by"
+    },
+    {
+      "id": "440216d107e0457d988f2c8360c3457b",
+      "title": "Revista Jurídica da Presidência",
+      "publisher_name": "Secretaria Especial para Assuntos Jurídicos da Casa Civil da Presidência da República",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Public law",
+        "Jurisprudence. Philosophy and theory of law"
+      ],
+      "subject_display": "Public law · Jurisprudence. Philosophy and theory of law",
+      "languages": [
+        "EN",
+        "ES",
+        "PT",
+        "FR"
+      ],
+      "language_display": "EN, ES, PT, FR",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Editorial review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2025-05-15T09:11:28Z",
+      "created_year": 2025,
+      "created_month": "2025-05",
+      "last_updated": "2026-10-19T18:35:12Z",
+      "website": "https://revistajuridica.presidencia.gov.br/",
+      "author_guidelines_url": "https://revistajuridica.presidencia.gov.br/index.php/saj/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista juridica da presidencia secretaria especial para assuntos juridicos da casa civil da presidencia da republica br south america public law jurisprudence philosophy and theory of law en es pt fr cc by sa"
+    },
+    {
+      "id": "3f8d94f16bd544adbee4522153267440",
+      "title": "Journal of Central and Eastern European African Studies",
+      "publisher_name": "Óbuda University",
+      "country": "HU",
+      "continent": "Europe",
+      "subjects": [
+        "Military Science",
+        "History of Africa"
+      ],
+      "subject_display": "Military Science · History of Africa",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "ÓDA - Repository of the Óbuda University"
+      ],
+      "created_date": "2025-12-18T14:36:18Z",
+      "created_year": 2025,
+      "created_month": "2025-12",
+      "last_updated": "2026-10-19T18:07:55Z",
+      "website": "https://jceeas.bdi.uni-obuda.hu/",
+      "author_guidelines_url": "https://jceeas.bdi.uni-obuda.hu/index.php/jceeas/instructions",
+      "article_records_exposed": null,
+      "search_text": "journal of central and eastern european african studies obuda university hu europe military science history of africa en cc by"
+    },
+    {
+      "id": "337ce7a534424bcaa31328ba03552dea",
+      "title": "Revista Estudios",
+      "publisher_name": "Universidad de Costa Rica",
+      "country": "CR",
+      "continent": "North America",
+      "subjects": [
+        "Social Sciences"
+      ],
+      "subject_display": "Social Sciences",
+      "languages": [
+        "ES",
+        "IT",
+        "FR",
+        "EN"
+      ],
+      "language_display": "ES, IT, FR, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2017-05-02T18:20:18Z",
+      "created_year": 2017,
+      "created_month": "2017-05",
+      "last_updated": "2026-10-19T18:06:27Z",
+      "website": "https://revistas.ucr.ac.cr/index.php/restudios/index",
+      "author_guidelines_url": "https://revistas.ucr.ac.cr/index.php/restudios/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista estudios universidad de costa rica cr north america social sciences es it fr en cc by nc nd"
+    },
+    {
+      "id": "9715e54be3a24223ad5caa7db6067317",
+      "title": "GRALIFAH",
+      "publisher_name": "ENS",
+      "country": "GA",
+      "continent": "Africa",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "DE",
+        "ES",
+        "EN",
+        "FR"
+      ],
+      "language_display": "DE, ES, EN, FR",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "50000 XAF",
+      "apc_max_eur": 76.2,
+      "apc_max_usd": 85.55,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-04-06T07:03:39Z",
+      "created_year": 2025,
+      "created_month": "2025-04",
+      "last_updated": "2026-10-19T17:46:38Z",
+      "website": "https://www.revuedugralifah.com/",
+      "author_guidelines_url": "https://www.revuedugralifah.com/normes-editoriales/",
+      "article_records_exposed": null,
+      "search_text": "gralifah ens ga africa language and literature de es en fr cc by"
+    },
+    {
+      "id": "9ee524c7bc9a4248bdaa6d616d638c53",
+      "title": "Sillogés",
+      "publisher_name": "Associação Nacional de História - Seção Rio Grande do Sul - GT Acervos",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Museums. Collectors and collecting",
+        "Diplomatics. Archives. Seals"
+      ],
+      "subject_display": "Museums. Collectors and collecting · Diplomatics. Archives. Seals",
+      "languages": [
+        "ES",
+        "PT",
+        "FR",
+        "EN"
+      ],
+      "language_display": "ES, PT, FR, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2018-09-29T19:34:12Z",
+      "created_year": 2018,
+      "created_month": "2018-09",
+      "last_updated": "2026-10-19T17:22:16Z",
+      "website": "http://historiasocialecomparada.org/revistas/index.php/silloges",
+      "author_guidelines_url": "http://historiasocialecomparada.org/revistas/index.php/silloges/about/submissions#onlineSubmissions",
+      "article_records_exposed": null,
+      "search_text": "silloges associacao nacional de historia secao rio grande do sul gt acervos br south america museums collectors and collecting diplomatics archives seals es pt fr en cc by"
+    },
+    {
+      "id": "c0074fa1bd104d72bf03dfbc8dab50e0",
+      "title": "Production",
+      "publisher_name": "Associação Brasileira de Engenharia de Produção (ABEPRO)",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Industrial productivity",
+        "Industrial engineering. Management engineering"
+      ],
+      "subject_display": "Industrial productivity · Industrial engineering. Management engineering",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-05-16T12:40:28Z",
+      "created_year": 2025,
+      "created_month": "2025-05",
+      "last_updated": "2026-10-19T17:18:11Z",
+      "website": "https://prod.org.br/",
+      "author_guidelines_url": "https://prod.org.br/instructions#instructions-to-authors",
+      "article_records_exposed": null,
+      "search_text": "production associacao brasileira de engenharia de producao abepro br south america industrial productivity industrial engineering management engineering en cc by"
+    },
+    {
+      "id": "d3d12cfff64a49388132663f90b99914",
+      "title": "مجلة جامعة المهرة للعلوم الإنسانية",
+      "publisher_name": "University of Mahra",
+      "country": "YE",
+      "continent": "Asia",
+      "subjects": [
+        "History of scholarship and learning. The humanities"
+      ],
+      "subject_display": "History of scholarship and learning. The humanities",
+      "languages": [
+        "AR",
+        "EN"
+      ],
+      "language_display": "AR, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "25000 YER / 50 USD",
+      "apc_max_eur": 94.17,
+      "apc_max_usd": 105.93,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2025-04-11T10:28:42Z",
+      "created_year": 2025,
+      "created_month": "2025-04",
+      "last_updated": "2026-10-19T17:15:42Z",
+      "website": "https://mhru.edu.ye/mujounrals/index.php/mjh/index",
+      "author_guidelines_url": "https://mhru.edu.ye/mujounrals/index.php/mjh/TermsofPublication",
+      "article_records_exposed": null,
+      "search_text": "university of mahra ye asia history of scholarship and learning the humanities ar en cc by"
+    },
+    {
+      "id": "604546ce76384eceba30415f5ffc5a19",
+      "title": "Access to Justice in Eastern Europe",
+      "publisher_name": "VD Dakor",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Law of Europe"
+      ],
+      "subject_display": "Law of Europe",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "2015 EUR",
+      "apc_max_eur": 2015.0,
+      "apc_max_usd": 2261.84,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Zenodo"
+      ],
+      "created_date": "2019-02-23T15:24:12Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-10-19T17:11:00Z",
+      "website": "https://ajee-journal.com",
+      "author_guidelines_url": "https://ajee-journal.com/ajee-instructions-for-authors",
+      "article_records_exposed": null,
+      "search_text": "access to justice in eastern europe vd dakor ua europe law of europe en cc by"
+    },
+    {
+      "id": "0696e077e6d04b868052f097bef8bdd0",
+      "title": "Euchembioj Reviews",
+      "publisher_name": "Nuray Çatal",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Chemistry"
+      ],
+      "subject_display": "Chemistry",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-12-17T08:38:09Z",
+      "created_year": 2025,
+      "created_month": "2025-12",
+      "last_updated": "2026-10-19T17:06:14Z",
+      "website": "https://euchembiojreviews.com/index.php/pub",
+      "author_guidelines_url": "https://euchembiojreviews.com/index.php/pub/authorguideline",
+      "article_records_exposed": null,
+      "search_text": "euchembioj reviews nuray catal tr asia chemistry en cc by nc"
+    },
+    {
+      "id": "5b692c3fb4ac450bad6c1be98551d43d",
+      "title": "Microbial Cell",
+      "publisher_name": "Shared Science Publishers OG",
+      "country": "AT",
+      "continent": "Europe",
+      "subjects": [
+        "Biology (General)"
+      ],
+      "subject_display": "Biology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1190 EUR",
+      "apc_max_eur": 1190.0,
+      "apc_max_usd": 1335.78,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2015-07-21T17:01:02Z",
+      "created_year": 2015,
+      "created_month": "2015-07",
+      "last_updated": "2026-10-19T16:57:54Z",
+      "website": "http://microbialcell.com/",
+      "author_guidelines_url": "http://microbialcell.com/for-authors-2/manuscript-preparation/",
+      "article_records_exposed": null,
+      "search_text": "microbial cell shared science publishers og at europe biology general en cc by"
+    },
+    {
+      "id": "2db09bedcb7b46c0accb163fa1ac90ce",
+      "title": "Dynamics of Rural Society Journal",
+      "publisher_name": "Department of Sociology, State University of Gorontalo.",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Societies: secret, benevolent, etc.",
+        "Sociology (General)"
+      ],
+      "subject_display": "Societies: secret, benevolent, etc. · Sociology (General)",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-10-29T15:46:50Z",
+      "created_year": 2024,
+      "created_month": "2024-10",
+      "last_updated": "2026-10-19T16:56:47Z",
+      "website": "https://drsj.fis.ung.ac.id/index.php/DRSJ/home",
+      "author_guidelines_url": "https://drsj.fis.ung.ac.id/index.php/DRSJ/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "dynamics of rural society journal department of sociology state university of gorontalo id asia societies secret benevolent etc sociology general id en cc by nc"
+    },
+    {
+      "id": "76dd7a6e760749358dfc775bed67116f",
+      "title": "Legal Bulletin",
+      "publisher_name": "LLC «MIAS Expert»",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Law"
+      ],
+      "subject_display": "Law",
+      "languages": [
+        "EN",
+        "RU"
+      ],
+      "language_display": "EN, RU",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "10000 RUB",
+      "apc_max_eur": 106.52,
+      "apc_max_usd": 120.13,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-03-31T10:08:35Z",
+      "created_year": 2025,
+      "created_month": "2025-03",
+      "last_updated": "2026-10-19T16:50:55Z",
+      "website": "https://en.legalbulletin.ru",
+      "author_guidelines_url": "https://en.legalbulletin.ru/author-guidelines/rules-requirements/",
+      "article_records_exposed": null,
+      "search_text": "legal bulletin llc mias expert ru europe law en ru cc by"
+    },
+    {
+      "id": "43762e7ff12a430ba3a1c4c0fe174c55",
+      "title": "Revista Colombiana de Tecnologías de Avanzada",
+      "publisher_name": "Universidad de Pamplona",
+      "country": "CO",
+      "continent": "South America",
+      "subjects": [
+        "Technology (General)"
+      ],
+      "subject_display": "Technology (General)",
+      "languages": [
+        "EN",
+        "ES"
+      ],
+      "language_display": "EN, ES",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Repositorio Institucional DSpace Hulago"
+      ],
+      "created_date": "2025-10-28T14:55:39Z",
+      "created_year": 2025,
+      "created_month": "2025-10",
+      "last_updated": "2026-10-19T16:48:22Z",
+      "website": "https://ojs.unipamplona.edu.co/index.php/rcta/es",
+      "author_guidelines_url": "https://ojs.unipamplona.edu.co/index.php/rcta/es/directricesautor",
+      "article_records_exposed": null,
+      "search_text": "revista colombiana de tecnologias de avanzada universidad de pamplona co south america technology general en es cc by nc"
+    },
+    {
+      "id": "51e1f429181d4c22a6c148271a7317bb",
+      "title": "Journal of Student Success and Retention",
+      "publisher_name": "Tennessee Association for Student Success and Retention",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2024-11-06T14:10:01Z",
+      "created_year": 2024,
+      "created_month": "2024-11",
+      "last_updated": "2026-10-19T16:47:07Z",
+      "website": "https://www.jossr.org/",
+      "author_guidelines_url": "https://www.jossr.org/?page_id=12",
+      "article_records_exposed": null,
+      "search_text": "journal of student success and retention tennessee association for student success and retention us north america education en cc by"
+    },
+    {
+      "id": "9987be8343444cdc902bdb23c3f2a04d",
+      "title": "Jurídica Ibero",
+      "publisher_name": "Universidad Iberoamericana",
+      "country": "MX",
+      "continent": "North America",
+      "subjects": [
+        "Law in general. Comparative and uniform law. Jurisprudence"
+      ],
+      "subject_display": "Law in general. Comparative and uniform law. Jurisprudence",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-07-11T10:42:12Z",
+      "created_year": 2025,
+      "created_month": "2025-07",
+      "last_updated": "2026-10-19T16:42:15Z",
+      "website": "https://juridica.ibero.mx/index.php/juridi",
+      "author_guidelines_url": "https://juridica.ibero.mx/index.php/juridi/secciones",
+      "article_records_exposed": null,
+      "search_text": "juridica ibero universidad iberoamericana mx north america law in general comparative and uniform law jurisprudence es en cc by nc nd"
+    },
+    {
+      "id": "99dff8510e3d47c0911adc108d9f7dc2",
+      "title": "Urban Development Issues",
+      "publisher_name": "Institute of Urban and Regional Development",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Urban renewal. Urban redevelopment",
+        "Building construction"
+      ],
+      "subject_display": "Urban renewal. Urban redevelopment · Building construction",
+      "languages": [
+        "PL",
+        "EN"
+      ],
+      "language_display": "PL, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-19T16:33:23Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T16:33:23Z",
+      "website": "https://www.prm-irm.com/",
+      "author_guidelines_url": "https://www.prm-irm.com/guidelines-for-authors.html",
+      "article_records_exposed": null,
+      "search_text": "urban development issues institute of urban and regional development pl europe urban renewal urban redevelopment building construction pl en cc by"
+    },
+    {
+      "id": "b040da75bdc441139a58e62f5cbb71a1",
+      "title": "Administración & Desarrollo",
+      "publisher_name": "Escuela Superior de Administración Pública - ESAP",
+      "country": "CO",
+      "continent": "South America",
+      "subjects": [
+        "Political institutions and public administration (General)"
+      ],
+      "subject_display": "Political institutions and public administration (General)",
+      "languages": [
+        "PT",
+        "EN",
+        "ES"
+      ],
+      "language_display": "PT, EN, ES",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-12-01T07:56:51Z",
+      "created_year": 2025,
+      "created_month": "2025-12",
+      "last_updated": "2026-10-19T16:26:58Z",
+      "website": "https://revistas.esap.edu.co/index.php/admindesarro",
+      "author_guidelines_url": "https://revistas.esap.edu.co/index.php/admindesarro/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "administracion desarrollo escuela superior de administracion publica esap co south america political institutions and public administration general pt en es cc by nc sa"
+    },
+    {
+      "id": "22cfde542428453abc93047d06509bc2",
+      "title": "Odrodzenie i Reformacja w Polsce",
+      "publisher_name": "Tadeusz Manteuffel Institute of History of the Polish Academy of Sciences",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Modern history, 1453-",
+        "History of the arts"
+      ],
+      "subject_display": "Modern history, 1453- · History of the arts",
+      "languages": [
+        "IT",
+        "DE",
+        "EN",
+        "PL"
+      ],
+      "language_display": "IT, DE, EN, PL",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-09-23T22:06:28Z",
+      "created_year": 2025,
+      "created_month": "2025-09",
+      "last_updated": "2026-10-19T16:25:49Z",
+      "website": "https://oir-ihpan.edu.pl/en/",
+      "author_guidelines_url": "https://oir-ihpan.edu.pl/en/for-authors/submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "odrodzenie i reformacja w polsce tadeusz manteuffel institute of history of the polish academy of sciences pl europe modern history 1453 history of the arts it de en pl cc by"
+    },
+    {
+      "id": "816413cf19f54b9e8ac484c675e1a5d4",
+      "title": "Journal of Microbiological Sciences",
+      "publisher_name": "Innovative Science and Technology Publishers",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Microbial ecology",
+        "Immunologic diseases. Allergy"
+      ],
+      "subject_display": "Microbial ecology · Immunologic diseases. Allergy",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "40000 PKR / 200 USD",
+      "apc_max_eur": 178.17,
+      "apc_max_usd": 200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "ARK",
+        "PURL"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-07-22T15:47:00Z",
+      "created_year": 2025,
+      "created_month": "2025-07",
+      "last_updated": "2026-10-19T16:23:10Z",
+      "website": "https://isciencepress.com/journals/index.php/jms/index",
+      "author_guidelines_url": "https://isciencepress.com/journals/index.php/jms/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of microbiological sciences innovative science and technology publishers pk asia microbial ecology immunologic diseases allergy en cc by"
+    },
+    {
+      "id": "569e1b31db504191af51f16aa22594c4",
+      "title": "Journal of Applied Research in Plant Sciences",
+      "publisher_name": "Innovative Science and Technology Publishers",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Plant culture",
+        "Plant ecology"
+      ],
+      "subject_display": "Plant culture · Plant ecology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "40000 PKR / 200 USD",
+      "apc_max_eur": 178.17,
+      "apc_max_usd": 200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "ARK",
+        "PURL"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-02-13T06:32:07Z",
+      "created_year": 2026,
+      "created_month": "2026-02",
+      "last_updated": "2026-10-19T16:17:47Z",
+      "website": "https://joarps.org/index.php/ojs",
+      "author_guidelines_url": "https://joarps.org/index.php/ojs/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of applied research in plant sciences innovative science and technology publishers pk asia plant culture plant ecology en cc by"
+    },
+    {
+      "id": "3bb97e6fcfd947e5ae2f6b40222a49b4",
+      "title": "LEARN Journal: Language Education and Acquisition Research Network",
+      "publisher_name": "Language Institute Thammasat University",
+      "country": "TH",
+      "continent": "Asia",
+      "subjects": [
+        "English language",
+        "Education"
+      ],
+      "subject_display": "English language · Education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2024-05-03T11:28:13Z",
+      "created_year": 2024,
+      "created_month": "2024-05",
+      "last_updated": "2026-10-19T16:16:58Z",
+      "website": "https://so04.tci-thaijo.org/index.php/LEARN",
+      "author_guidelines_url": "https://so04.tci-thaijo.org/index.php/LEARN/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "learn journal language education and acquisition research network language institute thammasat university th asia english language education en cc by"
+    },
+    {
+      "id": "a31aeb2c1b8d47f9bf882a67f80a1d1a",
+      "title": "Journal of Digital Social Research",
+      "publisher_name": "DIGSUM",
+      "country": "SE",
+      "continent": "Europe",
+      "subjects": [
+        "Social sciences (General)"
+      ],
+      "subject_display": "Social sciences (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2021-04-15T06:51:57Z",
+      "created_year": 2021,
+      "created_month": "2021-04",
+      "last_updated": "2026-10-19T16:09:57Z",
+      "website": "https://www.jdsr.io",
+      "author_guidelines_url": "https://publicera.kb.se/jdsr/instructions",
+      "article_records_exposed": null,
+      "search_text": "journal of digital social research digsum se europe social sciences general en cc by sa"
+    },
+    {
+      "id": "0f1a04fcf57542fca25bbab9edcbec2a",
+      "title": "Monitor ISH",
+      "publisher_name": "Alma Mater Press, Alma Mater Europaea University, Maribor",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "History of scholarship and learning. The humanities",
+        "Social Sciences"
+      ],
+      "subject_display": "History of scholarship and learning. The humanities · Social Sciences",
+      "languages": [
+        "SL",
+        "EN"
+      ],
+      "language_display": "SL, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-19T16:01:53Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T16:01:53Z",
+      "website": "https://journal.almamater.si/index.php/monitorish/",
+      "author_guidelines_url": "https://journal.almamater.si/index.php/monitorish/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "monitor ish alma mater press alma mater europaea university maribor si europe history of scholarship and learning the humanities social sciences sl en cc by"
+    },
+    {
+      "id": "893089ee0dbf4b7eb24482c543f54069",
+      "title": "Journal of Cardio-Oncology",
+      "publisher_name": "Wolters Kluwer Health - Lippincott Williams Wilkins",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Diseases of the circulatory (Cardiovascular) system"
+      ],
+      "subject_display": "Diseases of the circulatory (Cardiovascular) system",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-19T16:00:58Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T16:00:58Z",
+      "website": "https://www.ovid.com/jnls/jcardiooncol",
+      "author_guidelines_url": "https://www.ovid.com/jnls/jcardiooncol/pages/instructions-for-authors",
+      "article_records_exposed": null,
+      "search_text": "journal of cardio oncology wolters kluwer health lippincott williams wilkins us north america diseases of the circulatory cardiovascular system en cc by nc nd"
+    },
     {
       "id": "7a4f1d04b8214fdab4db22c4f760d480",
       "title": "Cuadernos.info",
@@ -677,46 +1857,6 @@
       "author_guidelines_url": "https://www.cadernosdeterapiaocupacional.ufscar.br/index.php/cadernos/about/submissions",
       "article_records_exposed": null,
       "search_text": "cadernos brasileiros de terapia ocupacional universidade federal de sao carlos departamento de terapia ocupacional br south america medicine social sciences pt es en cc by"
-    },
-    {
-      "id": "604546ce76384eceba30415f5ffc5a19",
-      "title": "Access to Justice in Eastern Europe",
-      "publisher_name": "VD Dakor",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Law of Europe"
-      ],
-      "subject_display": "Law of Europe",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "1050 EUR",
-      "apc_max_eur": 1050.0,
-      "apc_max_usd": 1178.62,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-02-23T15:24:12Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-10-19T14:44:37Z",
-      "website": "https://ajee-journal.com",
-      "author_guidelines_url": "https://ajee-journal.com/ajee-instructions-for-authors",
-      "article_records_exposed": null,
-      "search_text": "access to justice in eastern europe vd dakor ua europe law of europe en cc by nc"
     },
     {
       "id": "a07130a861a9473f9c77c23c80ef0bb4",
@@ -36755,48 +37895,6 @@
       "search_text": "ethnologia polona institute of archaeology and ethnology polish academy of sciences pl europe ethnology social and cultural anthropology en cc by nc nd"
     },
     {
-      "id": "a31aeb2c1b8d47f9bf882a67f80a1d1a",
-      "title": "Journal of Digital Social Research",
-      "publisher_name": "DIGSUM",
-      "country": "SE",
-      "continent": "Europe",
-      "subjects": [
-        "Social sciences (General)"
-      ],
-      "subject_display": "Social sciences (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2021-04-15T06:51:57Z",
-      "created_year": 2021,
-      "created_month": "2021-04",
-      "last_updated": "2026-09-17T10:55:33Z",
-      "website": "https://www.jdsr.io",
-      "author_guidelines_url": "https://publicera.kb.se/jdsr/instructions",
-      "article_records_exposed": null,
-      "search_text": "journal of digital social research digsum se europe social sciences general en cc by sa"
-    },
-    {
       "id": "60608249c60648c3831f3afd4cfd81e3",
       "title": "Archaeologia Polona",
       "publisher_name": "Institute of Archaeology and Ethnology Polish Academy of Sciences",
@@ -52877,49 +53975,6 @@
       "author_guidelines_url": "https://ejournals.eu/en/journal/cjl/page/information-for-authors",
       "article_records_exposed": null,
       "search_text": "copernican journal of law nicolaus copernicus superior school pl europe law en cc by nd"
-    },
-    {
-      "id": "f4e29cfd96234cd7923e7e9be881eac2",
-      "title": "National Journal of Physiology, Pharmacy and Pharmacology",
-      "publisher_name": "Eldaghayes Publisher",
-      "country": "LY",
-      "continent": "Africa",
-      "subjects": [
-        "Therapeutics. Pharmacology",
-        "Pharmacy and materia medica"
-      ],
-      "subject_display": "Therapeutics. Pharmacology · Pharmacy and materia medica",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "150 USD",
-      "apc_max_eur": 133.63,
-      "apc_max_usd": 150.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2026-03-26T13:43:16Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-09-17T10:55:19Z",
-      "website": "https://www.njppp.com/",
-      "author_guidelines_url": "https://www.njppp.com/index.php?sec=gfa",
-      "article_records_exposed": null,
-      "search_text": "national journal of physiology pharmacy and pharmacology eldaghayes publisher ly africa therapeutics pharmacology pharmacy and materia medica en cc by nc"
     },
     {
       "id": "541de97187564742b1604d17d0758a01",
@@ -176387,51 +177442,6 @@
       "search_text": "qualitative research in educational sciences islamic azad university sari branch ir asia education fa cc by"
     },
     {
-      "id": "816413cf19f54b9e8ac484c675e1a5d4",
-      "title": "Journal of Microbiological Sciences",
-      "publisher_name": "Innovative Science and Technology Publishers",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Microbial ecology",
-        "Immunologic diseases. Allergy"
-      ],
-      "subject_display": "Microbial ecology · Immunologic diseases. Allergy",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "40000 PKR / 200 USD",
-      "apc_max_eur": 178.17,
-      "apc_max_usd": 200.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "ARK",
-        "PURL"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-07-22T15:47:00Z",
-      "created_year": 2025,
-      "created_month": "2025-07",
-      "last_updated": "2026-09-17T10:53:38Z",
-      "website": "https://isciencepress.com/journals/index.php/jms/index",
-      "author_guidelines_url": "https://isciencepress.com/journals/index.php/jms/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of microbiological sciences innovative science and technology publishers pk asia microbial ecology immunologic diseases allergy en cc by"
-    },
-    {
       "id": "6d4e7485800e48c9b8dbe4c2955de1af",
       "title": "Exploration of Drug Science",
       "publisher_name": "Open Exploration",
@@ -178485,47 +179495,6 @@
       "author_guidelines_url": "https://articulations.numerev.com/normes-de-redaction",
       "article_records_exposed": null,
       "search_text": "articulation s articulation s fr europe cooperation cooperative societies fr cc by nc nd"
-    },
-    {
-      "id": "3fbb6568707b4718bbed3f7f21d56e97",
-      "title": "Universitas",
-      "publisher_name": "Universidad Carlos III de Madrid",
-      "country": "ES",
-      "continent": "Europe",
-      "subjects": [
-        "Public law",
-        "Philosophy (General)"
-      ],
-      "subject_display": "Public law · Philosophy (General)",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-11-12T13:49:28Z",
-      "created_year": 2025,
-      "created_month": "2025-11",
-      "last_updated": "2026-09-17T10:53:36Z",
-      "website": "https://e-revistas.uc3m.es/index.php/UNIV",
-      "author_guidelines_url": "https://e-revistas.uc3m.es/index.php/UNIV/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "universitas universidad carlos iii de madrid es europe public law philosophy general es cc by"
     },
     {
       "id": "560fee162c5e4ec8950b3cd4a79954d6",
@@ -212249,54 +213218,6 @@
       "author_guidelines_url": "https://www.academia.edu/journals/academia-mental-health-and-well-being/about/author-guidelines",
       "article_records_exposed": null,
       "search_text": "academia mental health well being academia edu journals us north america neurosciences biological psychiatry neuropsychiatry en cc by"
-    },
-    {
-      "id": "440216d107e0457d988f2c8360c3457b",
-      "title": "Revista Jurídica da Presidência",
-      "publisher_name": "Secretaria Especial para Assuntos Jurídicos da Casa Civil da Presidência da República",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Public law",
-        "Jurisprudence. Philosophy and theory of law"
-      ],
-      "subject_display": "Public law · Jurisprudence. Philosophy and theory of law",
-      "languages": [
-        "EN",
-        "ES",
-        "PT",
-        "FR"
-      ],
-      "language_display": "EN, ES, PT, FR",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Editorial review",
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Editorial review, Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2025-05-15T09:11:28Z",
-      "created_year": 2025,
-      "created_month": "2025-05",
-      "last_updated": "2026-09-17T10:53:05Z",
-      "website": "https://revistajuridica.presidencia.gov.br/",
-      "author_guidelines_url": "https://revistajuridica.presidencia.gov.br/index.php/saj/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista juridica da presidencia secretaria especial para assuntos juridicos da casa civil da presidencia da republica br south america public law jurisprudence philosophy and theory of law en es pt fr cc by sa"
     },
     {
       "id": "9719d83afd1242f6866adab8b5164316",
@@ -332908,51 +333829,6 @@
       "search_text": "forum theologicum sardicense sofia university st kliment ohridski faculty of theology bg europe doctrinal theology el ro de en bg cc by nc"
     },
     {
-      "id": "569e1b31db504191af51f16aa22594c4",
-      "title": "Journal of Applied Research in Plant Sciences",
-      "publisher_name": "Innovative Science and Technology Publishers",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Plant culture",
-        "Plant ecology"
-      ],
-      "subject_display": "Plant culture · Plant ecology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "40000 PKR / 200 USD",
-      "apc_max_eur": 178.17,
-      "apc_max_usd": 200.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "ARK",
-        "PURL"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2026-02-13T06:32:07Z",
-      "created_year": 2026,
-      "created_month": "2026-02",
-      "last_updated": "2026-09-17T10:51:18Z",
-      "website": "https://joarps.org/index.php/ojs",
-      "author_guidelines_url": "https://joarps.org/index.php/ojs/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of applied research in plant sciences innovative science and technology publishers pk asia plant culture plant ecology en cc by"
-    },
-    {
       "id": "8a17563ec1054d6fb7293e4a9fe43a1a",
       "title": "Revue Internationale des Économistes de Langue Française",
       "publisher_name": "Poznań University of Economics and Business Press",
@@ -354142,45 +355018,6 @@
       "author_guidelines_url": "https://revistes.ub.edu/index.php/tempseducacio/about/submissions",
       "article_records_exposed": null,
       "search_text": "temps d educacio edicions ub es europe education ca es en it fr cc by nc"
-    },
-    {
-      "id": "d3d12cfff64a49388132663f90b99914",
-      "title": "مجلة المهرة للعلوم الإنسانية",
-      "publisher_name": "University of Mahra",
-      "country": "YE",
-      "continent": "Asia",
-      "subjects": [
-        "History of scholarship and learning. The humanities"
-      ],
-      "subject_display": "History of scholarship and learning. The humanities",
-      "languages": [
-        "EN",
-        "AR"
-      ],
-      "language_display": "EN, AR",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "50 USD / 25000 YER",
-      "apc_max_eur": 94.17,
-      "apc_max_usd": 105.93,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2025-04-11T10:28:42Z",
-      "created_year": 2025,
-      "created_month": "2025-04",
-      "last_updated": "2026-09-17T10:50:58Z",
-      "website": "https://mhru.edu.ye/mujounrals/index.php/mjh/index",
-      "author_guidelines_url": "https://mhru.edu.ye/mujounrals/index.php/mjh/TermsofPublication",
-      "article_records_exposed": null,
-      "search_text": "university of mahra ye asia history of scholarship and learning the humanities en ar cc by"
     },
     {
       "id": "fd2052402d684f76914c625bd52ef784",
@@ -417887,50 +418724,6 @@
       "author_guidelines_url": "https://www.sciencedirect.com/journal/operations-research-perspectives/publish/guide-for-authors",
       "article_records_exposed": null,
       "search_text": "operations research perspectives elsevier gb europe mathematics en cc by cc by nc cc by nc nd"
-    },
-    {
-      "id": "591a5bb70a194f97a8ba5016bc9050f5",
-      "title": "Journal of Pacific Archaeology",
-      "publisher_name": "New Zealand Archaeology Association",
-      "country": "NZ",
-      "continent": "Oceania",
-      "subjects": [
-        "Archaeology"
-      ],
-      "subject_display": "Archaeology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review",
-        "Single anonymous peer review",
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review, Single anonymous peer review, Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-01-13T13:53:14Z",
-      "created_year": 2025,
-      "created_month": "2025-01",
-      "last_updated": "2026-09-17T10:49:48Z",
-      "website": "https://pacificarchaeology.org/",
-      "author_guidelines_url": "https://pacificarchaeology.org/index.php/journal/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of pacific archaeology new zealand archaeology association nz oceania archaeology en cc by"
     },
     {
       "id": "af91948030884d10abc368ef221114d1",
@@ -499269,47 +500062,6 @@
       "search_text": "journal of information technology management university of tehran ir asia information resources general en cc by nc"
     },
     {
-      "id": "337ce7a534424bcaa31328ba03552dea",
-      "title": "Revista Estudios",
-      "publisher_name": "Universidad de Costa Rica",
-      "country": "CR",
-      "continent": "North America",
-      "subjects": [
-        "Social Sciences"
-      ],
-      "subject_display": "Social Sciences",
-      "languages": [
-        "ES",
-        "IT",
-        "FR",
-        "EN"
-      ],
-      "language_display": "ES, IT, FR, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2017-05-02T18:20:18Z",
-      "created_year": 2017,
-      "created_month": "2017-05",
-      "last_updated": "2026-09-17T10:48:30Z",
-      "website": "https://revistas.ucr.ac.cr/index.php/restudios/index",
-      "author_guidelines_url": "https://revistas.ucr.ac.cr/index.php/restudios/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista estudios universidad de costa rica cr north america social sciences es it fr en cc by nc nd"
-    },
-    {
       "id": "db3312a83b454688ae46e64d508126af",
       "title": "Belitung Nursing Journal",
       "publisher_name": "Belitung Raya Foundation",
@@ -553410,45 +554162,6 @@
       "author_guidelines_url": "https://pressto.amu.edu.pl/index.php/pspsj/about/submissions",
       "article_records_exposed": null,
       "search_text": "poznanskie studia polonistyczne seria jezykoznawcza adam mickiewicz university in poznan pl europe philology linguistics slavic languages baltic languages albanian languages pl en cc by nd"
-    },
-    {
-      "id": "3bb97e6fcfd947e5ae2f6b40222a49b4",
-      "title": "LEARN Journal: Language Education and Acquisition Research Network",
-      "publisher_name": "Language Institute Thammasat University",
-      "country": "TH",
-      "continent": "Asia",
-      "subjects": [
-        "English language",
-        "Education"
-      ],
-      "subject_display": "English language · Education",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2024-05-03T11:28:13Z",
-      "created_year": 2024,
-      "created_month": "2024-05",
-      "last_updated": "2026-09-17T10:47:25Z",
-      "website": "https://so04.tci-thaijo.org/index.php/LEARN",
-      "author_guidelines_url": "https://so04.tci-thaijo.org/index.php/LEARN/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "learn journal language education and acquisition research network language institute thammasat university th asia english language education en cc by"
     },
     {
       "id": "a0760aade2b747bc892f7541cd031861",
@@ -641480,49 +642193,6 @@
       "search_text": "folia histochemica et cytobiologica via medica pl europe cytology en cc by nc nd"
     },
     {
-      "id": "3f8d94f16bd544adbee4522153267440",
-      "title": "Journal of Central and Eastern European African Studies",
-      "publisher_name": "Óbuda University",
-      "country": "HU",
-      "continent": "Europe",
-      "subjects": [
-        "Military Science",
-        "History of Africa"
-      ],
-      "subject_display": "Military Science · History of Africa",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "ÓDA - Repository of the Óbuda University"
-      ],
-      "created_date": "2025-12-18T14:36:18Z",
-      "created_year": 2025,
-      "created_month": "2025-12",
-      "last_updated": "2026-09-17T10:45:33Z",
-      "website": "https://jceeas.bdi.uni-obuda.hu/",
-      "author_guidelines_url": "https://jceeas.bdi.uni-obuda.hu/index.php/jceeas/instructions",
-      "article_records_exposed": null,
-      "search_text": "journal of central and eastern european african studies obuda university hu europe military science history of africa en cc by"
-    },
-    {
       "id": "b4793160dc62456789233db31834a920",
       "title": "Academia Engineering",
       "publisher_name": "Academia.edu Journals",
@@ -681300,50 +681970,6 @@
       "search_text": "blood research springer nature sg asia internal medicine en cc by cc by nc nd"
     },
     {
-      "id": "b040da75bdc441139a58e62f5cbb71a1",
-      "title": "Administración & Desarrollo",
-      "publisher_name": "Escuela Superior de Administración Pública - ESAP",
-      "country": "CO",
-      "continent": "South America",
-      "subjects": [
-        "Political institutions and public administration (General)"
-      ],
-      "subject_display": "Political institutions and public administration (General)",
-      "languages": [
-        "PT",
-        "EN",
-        "ES"
-      ],
-      "language_display": "PT, EN, ES",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-12-01T07:56:51Z",
-      "created_year": 2025,
-      "created_month": "2025-12",
-      "last_updated": "2026-09-17T10:44:43Z",
-      "website": "https://revistas.esap.edu.co/index.php/admindesarro",
-      "author_guidelines_url": "https://revistas.esap.edu.co/index.php/admindesarro/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "administracion desarrollo escuela superior de administracion publica esap co south america political institutions and public administration general pt en es cc by nc sa"
-    },
-    {
       "id": "22d49d0080ed4ad3a8133f9c5f80cabb",
       "title": "Turf Law Journal",
       "publisher_name": "School of Law, University of Limpopo",
@@ -688087,49 +688713,6 @@
       "author_guidelines_url": "https://periodicos.uffs.edu.br/index.php/RGES/about/submissions",
       "article_records_exposed": null,
       "search_text": "revista gestao sustentabilidade universidade federal da fronteira sul br south america environmental sciences environmental pollution environmental effects of industries and plants environmental protection pt en es cc by"
-    },
-    {
-      "id": "43762e7ff12a430ba3a1c4c0fe174c55",
-      "title": "Revista Colombiana de Tecnologías de Avanzada",
-      "publisher_name": "Universidad de Pamplona",
-      "country": "CO",
-      "continent": "South America",
-      "subjects": [
-        "Technology (General)"
-      ],
-      "subject_display": "Technology (General)",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Repositorio Institucional DSpace Hulago"
-      ],
-      "created_date": "2025-10-28T14:55:39Z",
-      "created_year": 2025,
-      "created_month": "2025-10",
-      "last_updated": "2026-09-17T10:44:34Z",
-      "website": "https://ojs.unipamplona.edu.co/index.php/rcta/es",
-      "author_guidelines_url": "https://ojs.unipamplona.edu.co/index.php/rcta/es/directricesautor",
-      "article_records_exposed": null,
-      "search_text": "revista colombiana de tecnologias de avanzada universidad de pamplona co south america technology general en es cc by nc"
     },
     {
       "id": "70e9e79c6d504df980fad40b685c57f0",
@@ -702465,50 +703048,6 @@
       "author_guidelines_url": "https://liabjournal.com/index.php/liab/information/authors",
       "article_records_exposed": null,
       "search_text": "letters in animal biology dr nasir akbar mir in asia animal culture animal biochemistry en cc by"
-    },
-    {
-      "id": "22cfde542428453abc93047d06509bc2",
-      "title": "Odrodzenie i Reformacja w Polsce",
-      "publisher_name": "Tadeusz Manteuffel Institute of History of the Polish Academy of Sciences",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Modern history, 1453-",
-        "History of the arts"
-      ],
-      "subject_display": "Modern history, 1453- · History of the arts",
-      "languages": [
-        "IT",
-        "DE",
-        "EN",
-        "PL"
-      ],
-      "language_display": "IT, DE, EN, PL",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-09-23T22:06:28Z",
-      "created_year": 2025,
-      "created_month": "2025-09",
-      "last_updated": "2026-09-17T10:44:20Z",
-      "website": "https://oir-ihpan.edu.pl/en/",
-      "author_guidelines_url": "https://oir-ihpan.edu.pl/en/for-authors/submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "odrodzenie i reformacja w polsce tadeusz manteuffel institute of history of the polish academy of sciences pl europe modern history 1453 history of the arts it de en pl cc by"
     },
     {
       "id": "2ccf9314461d4c178bb92953641bd1a8",
@@ -719330,47 +719869,6 @@
       "author_guidelines_url": "https://prensipjournals.com/ojs/index.php/actanatsci/author-guidelines",
       "article_records_exposed": null,
       "search_text": "acta natura et scientia prensip publishing tr asia agriculture general tr en cc by"
-    },
-    {
-      "id": "76dd7a6e760749358dfc775bed67116f",
-      "title": "Legal Bulletin",
-      "publisher_name": "LLC «MIAS Expert»",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "Law"
-      ],
-      "subject_display": "Law",
-      "languages": [
-        "EN",
-        "RU"
-      ],
-      "language_display": "EN, RU",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "10000 RUB",
-      "apc_max_eur": 106.52,
-      "apc_max_usd": 120.13,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-03-31T10:08:35Z",
-      "created_year": 2025,
-      "created_month": "2025-03",
-      "last_updated": "2026-09-17T10:44:01Z",
-      "website": "https://en.legalbulletin.ru",
-      "author_guidelines_url": "https://en.legalbulletin.ru/author-guidelines/rules-requirements/",
-      "article_records_exposed": null,
-      "search_text": "legal bulletin llc mias expert ru europe law en ru cc by"
     },
     {
       "id": "08ed4396ec7d453aacc86b05f4c20052",
@@ -816632,48 +817130,6 @@
       "search_text": "the ochsner journal ochsner clinic foundation us north america medicine en cc by"
     },
     {
-      "id": "9ee524c7bc9a4248bdaa6d616d638c53",
-      "title": "Sillogés",
-      "publisher_name": "Associação Nacional de História - Seção Rio Grande do Sul - GT Acervos",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Museums. Collectors and collecting",
-        "Diplomatics. Archives. Seals"
-      ],
-      "subject_display": "Museums. Collectors and collecting · Diplomatics. Archives. Seals",
-      "languages": [
-        "EN",
-        "FR",
-        "PT",
-        "ES"
-      ],
-      "language_display": "EN, FR, PT, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-09-29T19:34:12Z",
-      "created_year": 2018,
-      "created_month": "2018-09",
-      "last_updated": "2026-09-17T10:42:00Z",
-      "website": "http://historiasocialecomparada.org/revistas/index.php/silloges",
-      "author_guidelines_url": "http://historiasocialecomparada.org/revistas/index.php/silloges/about/submissions#onlineSubmissions",
-      "article_records_exposed": null,
-      "search_text": "silloges associacao nacional de historia secao rio grande do sul gt acervos br south america museums collectors and collecting diplomatics archives seals en fr pt es cc by"
-    },
-    {
       "id": "867a0ae70a284c3ea5470938291676ec",
       "title": "Revista de Ciencias Médicas de Pinar del Río",
       "publisher_name": "ECIMED",
@@ -821946,44 +822402,6 @@
       "author_guidelines_url": "https://www.ebhsoc.org/journal/index.php/ebhs/about/submissions",
       "article_records_exposed": null,
       "search_text": "essays in economic and business history economic business history society us north america business economic history and conditions en cc by"
-    },
-    {
-      "id": "51e1f429181d4c22a6c148271a7317bb",
-      "title": "Journal of Student Success and Retention",
-      "publisher_name": "Tennessee Association for Student Success and Retention",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2024-11-06T14:10:01Z",
-      "created_year": 2024,
-      "created_month": "2024-11",
-      "last_updated": "2026-09-17T10:41:54Z",
-      "website": "https://www.jossr.org/",
-      "author_guidelines_url": "https://www.jossr.org/?page_id=12",
-      "article_records_exposed": null,
-      "search_text": "journal of student success and retention tennessee association for student success and retention us north america education en cc by"
     },
     {
       "id": "2ce4f1eb065f455c8eb52d73bd7f4248",
@@ -837751,46 +838169,6 @@
       "author_guidelines_url": "http://seer.ufs.br/index.php/prometeus/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "prometeus filosofia em revista universidade federal de sergipe br south america philosophy psychology religion philosophy general en fr pt es cc by nc nd"
-    },
-    {
-      "id": "0696e077e6d04b868052f097bef8bdd0",
-      "title": "Euchembioj Reviews",
-      "publisher_name": "Nuray Çatal",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Chemistry"
-      ],
-      "subject_display": "Chemistry",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-12-17T08:38:09Z",
-      "created_year": 2025,
-      "created_month": "2025-12",
-      "last_updated": "2026-09-17T10:41:36Z",
-      "website": "https://euchembiojreviews.com/index.php/pub",
-      "author_guidelines_url": "https://euchembiojreviews.com/index.php/pub/authorguideline",
-      "article_records_exposed": null,
-      "search_text": "euchembioj reviews nuray catal tr asia chemistry en cc by nc"
     },
     {
       "id": "c8c8641fd7044f8383fd1e03f6e0c909",
@@ -858087,47 +858465,6 @@
       "search_text": "trends in surgical sciences ataturk university tr asia surgery tr en cc by nc"
     },
     {
-      "id": "9987be8343444cdc902bdb23c3f2a04d",
-      "title": "Jurídica Ibero",
-      "publisher_name": "Universidad Iberoamericana",
-      "country": "MX",
-      "continent": "North America",
-      "subjects": [
-        "Law in general. Comparative and uniform law. Jurisprudence"
-      ],
-      "subject_display": "Law in general. Comparative and uniform law. Jurisprudence",
-      "languages": [
-        "ES",
-        "EN"
-      ],
-      "language_display": "ES, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-07-11T10:42:12Z",
-      "created_year": 2025,
-      "created_month": "2025-07",
-      "last_updated": "2026-09-17T10:41:12Z",
-      "website": "https://juridica.ibero.mx/index.php/juridi",
-      "author_guidelines_url": "https://juridica.ibero.mx/index.php/juridi/secciones",
-      "article_records_exposed": null,
-      "search_text": "juridica ibero universidad iberoamericana mx north america law in general comparative and uniform law jurisprudence es en cc by nc nd"
-    },
-    {
       "id": "9fc64081c9014a0c814f6b581abbb4ab",
       "title": "Art of Medicine",
       "publisher_name": "Ivano-Frankivsk National Medical University",
@@ -863595,47 +863932,6 @@
       "author_guidelines_url": "http://cmhp.lenterakaji.org/index.php/cmhp/guideforauthors",
       "article_records_exposed": null,
       "search_text": "journal of community mental health and public policy lentera kaji id asia psychiatry id en cc by"
-    },
-    {
-      "id": "c0074fa1bd104d72bf03dfbc8dab50e0",
-      "title": "Production",
-      "publisher_name": "Associação Brasileira de Engenharia de Produção (ABEPRO)",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Industrial productivity",
-        "Industrial engineering. Management engineering"
-      ],
-      "subject_display": "Industrial productivity · Industrial engineering. Management engineering",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-05-16T12:40:28Z",
-      "created_year": 2025,
-      "created_month": "2025-05",
-      "last_updated": "2026-09-17T10:41:04Z",
-      "website": "https://prod.org.br/",
-      "author_guidelines_url": "https://prod.org.br/instructions#instructions-to-authors",
-      "article_records_exposed": null,
-      "search_text": "production associacao brasileira de engenharia de producao abepro br south america industrial productivity industrial engineering management engineering en cc by"
     },
     {
       "id": "7957db6a5ac0467c8d027757d0190766",
@@ -869258,51 +869554,6 @@
       "search_text": "south african journal of arts therapies uj press za africa visual arts en cc by nc"
     },
     {
-      "id": "b8288ece7523465c99e4fce4c7c84c7d",
-      "title": "International Journal of Narrative Therapy and Community Work",
-      "publisher_name": "Dulwich Centre Foundation",
-      "country": "AU",
-      "continent": "Oceania",
-      "subjects": [
-        "Communities. Classes. Races"
-      ],
-      "subject_display": "Communities. Classes. Races",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Editorial review",
-        "Post-publication peer review",
-        "Open peer review",
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Editorial review, Post-publication peer review, Open peer review, Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "ProQuest; EBSCO; Informit; Internationale Bibliographie der geistes- und sozialwissenschaftlichen Zeitschriftenliteratur"
-      ],
-      "created_date": "2025-03-16T17:32:51Z",
-      "created_year": 2025,
-      "created_month": "2025-03",
-      "last_updated": "2026-09-17T10:40:57Z",
-      "website": "https://dulwichcentre.com.au/international-journal-of-narrative-therapy-and-community-work/",
-      "author_guidelines_url": "https://dulwichcentre.com.au/information-for-authors/",
-      "article_records_exposed": null,
-      "search_text": "international journal of narrative therapy and community work dulwich centre foundation au oceania communities classes races en cc by nc nd"
-    },
-    {
       "id": "57c7e01820cb497fbba179ac79ffb91b",
       "title": "Chaos Theory and Applications",
       "publisher_name": "Akif AKGUL",
@@ -871036,49 +871287,6 @@
       "author_guidelines_url": "https://hitelintezetiszemle.mnb.hu/en/authors-guide",
       "article_records_exposed": null,
       "search_text": "financial and economic review magyar nemzeti bank central bank of hungary hu europe commerce banking en hu cc by nc"
-    },
-    {
-      "id": "9715e54be3a24223ad5caa7db6067317",
-      "title": "GRALIFAH",
-      "publisher_name": "ENS",
-      "country": "GA",
-      "continent": "Africa",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "DE",
-        "ES",
-        "EN",
-        "FR"
-      ],
-      "language_display": "DE, ES, EN, FR",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "50000 XAF",
-      "apc_max_eur": 76.2,
-      "apc_max_usd": 85.55,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-04-06T07:03:39Z",
-      "created_year": 2025,
-      "created_month": "2025-04",
-      "last_updated": "2026-09-17T10:40:54Z",
-      "website": "https://www.revuedugralifah.com/",
-      "author_guidelines_url": "https://www.revuedugralifah.com/normes-editoriales/",
-      "article_records_exposed": null,
-      "search_text": "gralifah ens ga africa language and literature de es en fr cc by"
     },
     {
       "id": "a3620f49afdb4062b5d17b765bd08331",
@@ -880258,46 +880466,6 @@
       "author_guidelines_url": "http://revistas.pucsp.br/index.php/rad/about/submissions#onlineSubmissions",
       "article_records_exposed": null,
       "search_text": "revista administracao em dialogo pontificia universidade catolica de sao paulo br south america business pt cc by"
-    },
-    {
-      "id": "5b692c3fb4ac450bad6c1be98551d43d",
-      "title": "Microbial Cell",
-      "publisher_name": "Shared Science Publishers OG",
-      "country": "AT",
-      "continent": "Europe",
-      "subjects": [
-        "Biology (General)"
-      ],
-      "subject_display": "Biology (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1190 EUR",
-      "apc_max_eur": 1190.0,
-      "apc_max_usd": 1335.78,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2015-07-21T17:01:02Z",
-      "created_year": 2015,
-      "created_month": "2015-07",
-      "last_updated": "2026-09-17T10:40:45Z",
-      "website": "http://microbialcell.com/",
-      "author_guidelines_url": "http://microbialcell.com/for-authors-2/manuscript-preparation/",
-      "article_records_exposed": null,
-      "search_text": "microbial cell shared science publishers og at europe biology general en cc by"
     },
     {
       "id": "c7744d47d6204cccafb98d1a4049899d",
@@ -917041,48 +917209,6 @@
       "author_guidelines_url": "http://jas.fib.unand.ac.id/index.php/JAS/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "analisis sejarah laboratorium sejarah department of history universitas andalas id asia history general en id cc by"
-    },
-    {
-      "id": "2db09bedcb7b46c0accb163fa1ac90ce",
-      "title": "Dynamics of Rural Society Journal",
-      "publisher_name": "Department of Sociology, State University of Gorontalo.",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Societies: secret, benevolent, etc.",
-        "Sociology (General)"
-      ],
-      "subject_display": "Societies: secret, benevolent, etc. · Sociology (General)",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-10-29T15:46:50Z",
-      "created_year": 2024,
-      "created_month": "2024-10",
-      "last_updated": "2026-09-17T10:39:56Z",
-      "website": "https://drsj.fis.ung.ac.id/index.php/DRSJ/home",
-      "author_guidelines_url": "https://drsj.fis.ung.ac.id/index.php/DRSJ/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "dynamics of rural society journal department of sociology state university of gorontalo id asia societies secret benevolent etc sociology general id en cc by nc"
     },
     {
       "id": "e86ac84163c7476da0aca3c52790c168",
