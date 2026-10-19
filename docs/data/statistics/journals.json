@@ -1,8 +1,222 @@
 {
-  "generated_at": "2026-10-19T02:14:27.073760+00:00",
+  "generated_at": "2026-10-19T08:14:28.322877+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23630,
+  "item_count": 23633,
   "items": [
+    {
+      "id": "b526154975a94070842caa44454b6c69",
+      "title": "Revista Brasileira de Pesquisa em Educação em Ciências",
+      "publisher_name": "Associação Brasileira de Pesquisa em Educação em Ciências (ABRAPEC)",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Special aspects of education",
+        "Theory and practice of education"
+      ],
+      "subject_display": "Special aspects of education · Theory and practice of education",
+      "languages": [
+        "ES",
+        "EN",
+        "PT"
+      ],
+      "language_display": "ES, EN, PT",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2018-04-09T15:30:29Z",
+      "created_year": 2018,
+      "created_month": "2018-04",
+      "last_updated": "2026-10-19T08:00:00Z",
+      "website": "https://periodicos.ufmg.br/index.php/rbpec",
+      "author_guidelines_url": "https://periodicos.ufmg.br/index.php/rbpec/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista brasileira de pesquisa em educacao em ciencias associacao brasileira de pesquisa em educacao em ciencias abrapec br south america special aspects of education theory and practice of education es en pt cc by"
+    },
+    {
+      "id": "1a1a53d253544e4f8c8e01052acd049d",
+      "title": "Bangladesh Journal of Dental Research & Education",
+      "publisher_name": "Bangladesh Academy of Dentistry International (BADI)",
+      "country": "BD",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Zenodo (https://zenodo.org/records/14575150)"
+      ],
+      "created_date": "2026-10-19T06:16:12Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T06:16:12Z",
+      "website": "https://bjdre.org/index.php/journal/index",
+      "author_guidelines_url": "https://bjdre.org/index.php/journal/instruction-for-author",
+      "article_records_exposed": null,
+      "search_text": "bangladesh journal of dental research education bangladesh academy of dentistry international badi bd asia medicine en cc by"
+    },
+    {
+      "id": "4b77c7029a434c6993f4d1ccca9f98d2",
+      "title": "Annals of Interventional Pulmonology",
+      "publisher_name": "Jaypee Brothers Medical Publisher",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-10-19T05:49:40Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T05:49:40Z",
+      "website": "https://www.annalsofip.com/journalDetails/ANNALSOFIP",
+      "author_guidelines_url": "https://www.annalsofip.com/journal/ANNALSOFIP/page/author_instructions",
+      "article_records_exposed": null,
+      "search_text": "annals of interventional pulmonology jaypee brothers medical publisher in asia medicine en cc by nc"
+    },
+    {
+      "id": "6fcbe1b2c0484d6198c3d65791357b71",
+      "title": "Journal of Oleo Science",
+      "publisher_name": "Japan Oil Chemists' Society",
+      "country": "JP",
+      "continent": "Asia",
+      "subjects": [
+        "Oils, fats, and waxes",
+        "Nutrition. Foods and food supply"
+      ],
+      "subject_display": "Oils, fats, and waxes · Nutrition. Foods and food supply",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY",
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY, CC BY-SA",
+      "apc_has": true,
+      "apc_native_display": "100000 JPY",
+      "apc_max_eur": 562.0,
+      "apc_max_usd": 633.0,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2021-04-06T13:36:33Z",
+      "created_year": 2021,
+      "created_month": "2021-04",
+      "last_updated": "2026-10-19T05:21:25Z",
+      "website": "https://jocs.jp/en/jos/",
+      "author_guidelines_url": "https://jocs.jp/en/wp-content/uploads/2026/03/ITA202603.pdf",
+      "article_records_exposed": null,
+      "search_text": "journal of oleo science japan oil chemists society jp asia oils fats and waxes nutrition foods and food supply en cc by cc by sa"
+    },
+    {
+      "id": "43b738bafc2e4a3085c3c697b791f816",
+      "title": "Masyarakat",
+      "publisher_name": "Yayasan Pendidikan dan Pengembangan Harapan Ananda",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "General Works"
+      ],
+      "subject_display": "General Works",
+      "languages": [
+        "EN",
+        "ID"
+      ],
+      "language_display": "EN, ID",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "150000 IDR",
+      "apc_max_eur": 7.35,
+      "apc_max_usd": 8.25,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2026-10-19T04:03:17Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-19T04:03:17Z",
+      "website": "https://jurnal.smpharapanananda.sch.id/index.php/m-jp/",
+      "author_guidelines_url": "https://jurnal.smpharapanananda.sch.id/index.php/m-jp/pedomanpenulisan",
+      "article_records_exposed": null,
+      "search_text": "masyarakat yayasan pendidikan dan pengembangan harapan ananda id asia general works en id cc by"
+    },
     {
       "id": "13695ea1a94743f295d345c422d98caf",
       "title": "مطالعات نوین در مدیریت و سازمان",
@@ -28441,47 +28655,6 @@
       "author_guidelines_url": "https://journals.udsm.ac.tz/index.php/jicts/about/submissions",
       "article_records_exposed": null,
       "search_text": "journal of ict systems udsm journals platform tz africa electronic computers computer science en cc by nc"
-    },
-    {
-      "id": "b526154975a94070842caa44454b6c69",
-      "title": "Revista Brasileira de Pesquisa em Educação em Ciências",
-      "publisher_name": "Associação Brasileira de Pesquisa em Educação em Ciências (ABRAPEC)",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Special aspects of education",
-        "Theory and practice of education"
-      ],
-      "subject_display": "Special aspects of education · Theory and practice of education",
-      "languages": [
-        "ES",
-        "EN",
-        "PT"
-      ],
-      "language_display": "ES, EN, PT",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-04-09T15:30:29Z",
-      "created_year": 2018,
-      "created_month": "2018-04",
-      "last_updated": "2026-09-19T16:46:18Z",
-      "website": "https://periodicos.ufmg.br/index.php/rbpec/index",
-      "author_guidelines_url": "https://periodicos.ufmg.br/index.php/rbpec/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista brasileira de pesquisa em educacao em ciencias associacao brasileira de pesquisa em educacao em ciencias abrapec br south america special aspects of education theory and practice of education es en pt cc by"
     },
     {
       "id": "dd4570d9e6fd403683081060e76387cc",
@@ -234178,50 +234351,6 @@
       "author_guidelines_url": "https://revistas.ucm.es/index.php/DICE/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "dicenda ediciones complutense es europe french literature italian literature spanish literature portuguese literature eu gl ca es cc by"
-    },
-    {
-      "id": "6fcbe1b2c0484d6198c3d65791357b71",
-      "title": "Journal of Oleo Science",
-      "publisher_name": "Japan Oil Chemists' Society",
-      "country": "JP",
-      "continent": "Asia",
-      "subjects": [
-        "Oils, fats, and waxes",
-        "Nutrition. Foods and food supply"
-      ],
-      "subject_display": "Oils, fats, and waxes · Nutrition. Foods and food supply",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY",
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY, CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "100000 JPY",
-      "apc_max_eur": 562.0,
-      "apc_max_usd": 633.0,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2021-04-06T13:36:33Z",
-      "created_year": 2021,
-      "created_month": "2021-04",
-      "last_updated": "2026-09-17T10:52:42Z",
-      "website": "https://jocs.jp/en/jos/",
-      "author_guidelines_url": "https://jocs.jp/en/wp-content/uploads/2026/03/ITA202603.pdf",
-      "article_records_exposed": null,
-      "search_text": "journal of oleo science japan oil chemists society jp asia oils fats and waxes nutrition foods and food supply en cc by cc by sa"
     },
     {
       "id": "1fd11e37ace84be69442c2eb75820592",
