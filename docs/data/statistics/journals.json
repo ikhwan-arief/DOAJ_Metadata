@@ -1,8 +1,87 @@
 {
-  "generated_at": "2026-10-20T18:50:08.317754+00:00",
+  "generated_at": "2026-10-20T23:33:02.192346+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23645,
   "items": [
+    {
+      "id": "7fb9ee2299c84c3fb1d82f7c40dd61d7",
+      "title": "International Journal of Body, Mind and Culture",
+      "publisher_name": "Vesnu Publications",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2015-12-21T12:08:43Z",
+      "created_year": 2015,
+      "created_month": "2015-12",
+      "last_updated": "2026-10-20T19:54:27Z",
+      "website": "http://ijbmc.org",
+      "author_guidelines_url": "http://ijbmc.org/index.php/ijbmc/information/authors",
+      "article_records_exposed": null,
+      "search_text": "international journal of body mind and culture vesnu publications ir asia medicine general en cc by nc"
+    },
+    {
+      "id": "2440c8e082c9497c8b78790d1ffaf78a",
+      "title": "Cuadernos CANELA",
+      "publisher_name": "CANELA (Confederación Académica Nipona, Española y Latinoamericana)",
+      "country": "JP",
+      "continent": "Asia",
+      "subjects": [
+        "Japanese language and literature",
+        "American literature"
+      ],
+      "subject_display": "Japanese language and literature · American literature",
+      "languages": [
+        "ES"
+      ],
+      "language_display": "ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2024-04-29T07:47:40Z",
+      "created_year": 2024,
+      "created_month": "2024-04",
+      "last_updated": "2026-10-20T19:51:59Z",
+      "website": "https://cuadernoscanela.org/index.php/cuadernos/index",
+      "author_guidelines_url": "https://cuadernoscanela.org/index.php/cuadernos/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "cuadernos canela canela confederacion academica nipona espanola y latinoamericana jp asia japanese language and literature american literature es cc by"
+    },
     {
       "id": "bc16a456e90443289d85a8368378c5aa",
       "title": "Vocational",
@@ -356055,44 +356134,6 @@
       "search_text": "espacio tiempo y forma serie i prehistoria y arqueologia universidad nacional de educacion a distancia uned es europe prehistoric archaeology auxiliary sciences of history archaeology es fr en cc by nc nd"
     },
     {
-      "id": "7fb9ee2299c84c3fb1d82f7c40dd61d7",
-      "title": "International Journal of Body, Mind and Culture",
-      "publisher_name": "Vesnu Publications",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2015-12-21T12:08:43Z",
-      "created_year": 2015,
-      "created_month": "2015-12",
-      "last_updated": "2026-09-17T10:50:59Z",
-      "website": "http://ijbmc.org",
-      "author_guidelines_url": "http://ijbmc.org/index.php/ijbmc/information/authors",
-      "article_records_exposed": null,
-      "search_text": "international journal of body mind and culture vesnu publications ir asia medicine general en cc by nc"
-    },
-    {
       "id": "6108f16ef9534d1e97e488948c703fb9",
       "title": "Journal of Health Management & Informatics",
       "publisher_name": "Shiraz University of Medical Sciences",
@@ -626484,47 +626525,6 @@
       "author_guidelines_url": "https://www.keaipublishing.com/en/journals/journal-of-economy-and-technology/guide-for-authors/",
       "article_records_exposed": null,
       "search_text": "journal of economy and technology keai communications co ltd cn asia electronic computers computer science economics as a science social sciences en cc by cc by nc nd"
-    },
-    {
-      "id": "2440c8e082c9497c8b78790d1ffaf78a",
-      "title": "Cuadernos CANELA",
-      "publisher_name": "CANELA (Confederación Académica Nipona, Española y Latinoamericana)",
-      "country": "JP",
-      "continent": "Asia",
-      "subjects": [
-        "Japanese language and literature",
-        "American literature"
-      ],
-      "subject_display": "Japanese language and literature · American literature",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2024-04-29T07:47:40Z",
-      "created_year": 2024,
-      "created_month": "2024-04",
-      "last_updated": "2026-09-17T10:45:52Z",
-      "website": "https://cuadernoscanela.org/index.php/cuadernos/index",
-      "author_guidelines_url": "https://cuadernoscanela.org/index.php/cuadernos/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "cuadernos canela canela confederacion academica nipona espanola y latinoamericana jp asia japanese language and literature american literature es cc by"
     },
     {
       "id": "e991215f8e2c42feadda58672df7a951",
