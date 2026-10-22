@@ -1,8 +1,265 @@
 {
-  "generated_at": "2026-10-22T18:57:27.223579+00:00",
+  "generated_at": "2026-10-22T23:47:02.461050+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23667,
   "items": [
+    {
+      "id": "d628d7b992264917b07caf195fa0f184",
+      "title": "Psicología Iberoamericana",
+      "publisher_name": "Universidad Iberoamericana",
+      "country": "MX",
+      "continent": "North America",
+      "subjects": [
+        "Psychology"
+      ],
+      "subject_display": "Psychology",
+      "languages": [
+        "EN",
+        "ES"
+      ],
+      "language_display": "EN, ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-01-06T08:51:51Z",
+      "created_year": 2026,
+      "created_month": "2026-01",
+      "last_updated": "2026-10-22T23:10:11Z",
+      "website": "https://psicologiaiberoamericana.ibero.mx/index.php/psicologia/index",
+      "author_guidelines_url": "https://psicologiaiberoamericana.ibero.mx/index.php/psicologia/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "psicologia iberoamericana universidad iberoamericana mx north america psychology en es cc by"
+    },
+    {
+      "id": "1b82a3d76065404fb9953a67739f174c",
+      "title": "Natural Sciences and Applied Technology",
+      "publisher_name": "Institute of Natural Sciences and Applied Technology",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Technology",
+        "Science"
+      ],
+      "subject_display": "Technology · Science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "1000 INR",
+      "apc_max_eur": 9.41,
+      "apc_max_usd": 10.55,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "https://about.zenodo.org/policies/"
+      ],
+      "created_date": "2026-01-29T07:47:40Z",
+      "created_year": 2026,
+      "created_month": "2026-01",
+      "last_updated": "2026-10-22T20:34:15Z",
+      "website": "https://www.insat-res.in/journal-nsat",
+      "author_guidelines_url": "https://insat-res.in/journal-nsat#author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "natural sciences and applied technology institute of natural sciences and applied technology in asia technology science en cc by nc"
+    },
+    {
+      "id": "31e421e379234c8194cc54cf7cda04d8",
+      "title": "Muṭāli’āt-i tarjumah",
+      "publisher_name": "Hussein Mollanazar",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Translating and interpreting"
+      ],
+      "subject_display": "Translating and interpreting",
+      "languages": [
+        "FA",
+        "EN"
+      ],
+      "language_display": "FA, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "72000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 72.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOR"
+      ],
+      "preservation_services": [
+        "Noormags"
+      ],
+      "created_date": "2025-06-22T20:15:50Z",
+      "created_year": 2025,
+      "created_month": "2025-06",
+      "last_updated": "2026-10-22T20:06:36Z",
+      "website": "https://journal.translationstudies.ir/",
+      "author_guidelines_url": "https://journal.translationstudies.ir/ts/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "mutali at i tarjumah hussein mollanazar ir asia translating and interpreting fa en cc by nc"
+    },
+    {
+      "id": "e96e3ea429d7412788b8ba19c38da7ff",
+      "title": "Duazary",
+      "publisher_name": "Universidad del Magdalena",
+      "country": "CO",
+      "continent": "South America",
+      "subjects": [
+        "Medicine (General)",
+        "Public aspects of medicine"
+      ],
+      "subject_display": "Medicine (General) · Public aspects of medicine",
+      "languages": [
+        "EN",
+        "ES"
+      ],
+      "language_display": "EN, ES",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2015-06-01T16:13:12Z",
+      "created_year": 2015,
+      "created_month": "2015-06",
+      "last_updated": "2026-10-22T19:28:34Z",
+      "website": "https://revistas.unimagdalena.edu.co/index.php/duazary/index",
+      "author_guidelines_url": "https://revistas.unimagdalena.edu.co/index.php/duazary/g_autores",
+      "article_records_exposed": null,
+      "search_text": "duazary universidad del magdalena co south america medicine general public aspects of medicine en es cc by nc sa"
+    },
+    {
+      "id": "dc2912a31364436d8c80160685afa6b8",
+      "title": "Brazilian Journal of Motor Behavior",
+      "publisher_name": "Brazilian Society of Motor Behavior - SOCIBRACOM",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Medical physics. Medical radiology. Nuclear medicine",
+        "Other systems of medicine",
+        "General works"
+      ],
+      "subject_display": "Medical physics. Medical radiology. Nuclear medicine · Other systems of medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2025-09-24T08:38:58Z",
+      "created_year": 2025,
+      "created_month": "2025-09",
+      "last_updated": "2026-10-22T19:21:46Z",
+      "website": "https://socibracom.com/bjmb/index.php/bjmb/index",
+      "author_guidelines_url": "https://socibracom.com/bjmb/index.php/bjmb/about/submissions#journaldescription",
+      "article_records_exposed": null,
+      "search_text": "brazilian journal of motor behavior brazilian society of motor behavior socibracom br south america medical physics medical radiology nuclear medicine other systems of medicine general works en cc by nc nd"
+    },
+    {
+      "id": "ad52eb09137d4aa5ac5a3668582058e0",
+      "title": "Quintú Quimün",
+      "publisher_name": "Universidad Nacional del Comahue",
+      "country": "AR",
+      "continent": "South America",
+      "subjects": [
+        "Romanic languages",
+        "Language. Linguistic theory. Comparative grammar"
+      ],
+      "subject_display": "Romanic languages · Language. Linguistic theory. Comparative grammar",
+      "languages": [
+        "ES",
+        "PT"
+      ],
+      "language_display": "ES, PT",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2019-02-13T15:44:52Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-10-22T19:17:41Z",
+      "website": "https://revele.uncoma.edu.ar/index.php/lingustica/es/",
+      "author_guidelines_url": "https://revele.uncoma.edu.ar/index.php/lingustica/es/instructivo",
+      "article_records_exposed": null,
+      "search_text": "quintu quimun universidad nacional del comahue ar south america romanic languages language linguistic theory comparative grammar es pt cc by nc sa"
+    },
     {
       "id": "ad7e8cde7c6f45db93e8ac8de34d53ac",
       "title": "Патология кровообращения и кардиохирургия",
@@ -98065,47 +98322,6 @@
       "search_text": "family medicine and community health bmj publishing group gb europe medicine general en cc by nc cc by cc by nc nd"
     },
     {
-      "id": "e96e3ea429d7412788b8ba19c38da7ff",
-      "title": "Duazary",
-      "publisher_name": "Universidad del Magdalena",
-      "country": "CO",
-      "continent": "South America",
-      "subjects": [
-        "Medicine",
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine · Medicine (General)",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2015-06-01T16:13:12Z",
-      "created_year": 2015,
-      "created_month": "2015-06",
-      "last_updated": "2026-09-17T10:54:45Z",
-      "website": "http://revistas.unimagdalena.edu.co/index.php/duazary/about",
-      "author_guidelines_url": "http://revistas.unimagdalena.edu.co/index.php/duazary/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "duazary universidad del magdalena co south america medicine medicine general es cc by nc sa"
-    },
-    {
       "id": "881d5df8b0ab44ed89f5ebb8f49ccaec",
       "title": "Open Heart",
       "publisher_name": "BMJ Publishing Group",
@@ -132337,45 +132553,6 @@
       "author_guidelines_url": "http://journal-isi.org/index.php/isi/about/submissions",
       "article_records_exposed": null,
       "search_text": "journal of information systems and informatics asosiasi doktor sistem informasi indonesia id asia mathematics electronic computers computer science en cc by"
-    },
-    {
-      "id": "ad52eb09137d4aa5ac5a3668582058e0",
-      "title": "Quintú Quimün",
-      "publisher_name": "Universidad Nacional del Comahue",
-      "country": "AR",
-      "continent": "South America",
-      "subjects": [
-        "Romanic languages",
-        "Language. Linguistic theory. Comparative grammar"
-      ],
-      "subject_display": "Romanic languages · Language. Linguistic theory. Comparative grammar",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2019-02-13T15:44:52Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-09-17T10:54:18Z",
-      "website": "http://revele.uncoma.edu.ar/htdoc/revele/index.php/lingustica/index",
-      "author_guidelines_url": "http://revele.uncoma.edu.ar/htdoc/revele/index.php/lingustica/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "quintu quimun universidad nacional del comahue ar south america romanic languages language linguistic theory comparative grammar es cc by nc sa"
     },
     {
       "id": "104461a7c5cf477dac2112678ed7aa79",
@@ -349301,49 +349478,6 @@
       "author_guidelines_url": "https://www.apecv.pt/envio-de-trabalhos-revista-invisibilidades/",
       "article_records_exposed": null,
       "search_text": "invisibilidades associacao de professores de expressao e comunicacao visual apecv pt europe visual arts education en es pt cc by nc nd"
-    },
-    {
-      "id": "1b82a3d76065404fb9953a67739f174c",
-      "title": "Natural Sciences and Applied Technology",
-      "publisher_name": "Institute of Natural Sciences and Applied Technology",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Technology",
-        "Science"
-      ],
-      "subject_display": "Technology · Science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "1000 INR",
-      "apc_max_eur": 9.41,
-      "apc_max_usd": 10.55,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "https://about.zenodo.org/policies/"
-      ],
-      "created_date": "2026-01-29T07:47:40Z",
-      "created_year": 2026,
-      "created_month": "2026-01",
-      "last_updated": "2026-09-17T10:51:08Z",
-      "website": "https://www.insat-res.in/journal-nsat",
-      "author_guidelines_url": "https://insat-res.in/journal-nsat#author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "natural sciences and applied technology institute of natural sciences and applied technology in asia technology science en cc by nc"
     },
     {
       "id": "ad0898ff712c45a58bfe76d9689028ec",
@@ -661762,49 +661896,6 @@
       "search_text": "blood red cells iron elsevier us north america diseases of the blood and blood forming organs en cc by cc by nc nd"
     },
     {
-      "id": "d628d7b992264917b07caf195fa0f184",
-      "title": "Psicología Iberoamericana",
-      "publisher_name": "Universidad Iberoamericana",
-      "country": "MX",
-      "continent": "North America",
-      "subjects": [
-        "Psychology"
-      ],
-      "subject_display": "Psychology",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2026-01-06T08:51:51Z",
-      "created_year": 2026,
-      "created_month": "2026-01",
-      "last_updated": "2026-09-17T10:45:10Z",
-      "website": "https://psicologiaiberoamericana.ibero.mx/index.php/psicologia/index",
-      "author_guidelines_url": "https://psicologiaiberoamericana.ibero.mx/index.php/psicologia/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "psicologia iberoamericana universidad iberoamericana mx north america psychology en es cc by"
-    },
-    {
       "id": "bc849208a5e34d71a537906f87e61d91",
       "title": "npj Artificial Intelligence",
       "publisher_name": "Nature Portfolio",
@@ -766565,49 +766656,6 @@
       "author_guidelines_url": "https://grfs.urmia.ac.ir/page_1.html?lang=en",
       "article_records_exposed": null,
       "search_text": "urmia university ir asia general including nature conservation geographical distribution fa en cc by nc"
-    },
-    {
-      "id": "31e421e379234c8194cc54cf7cda04d8",
-      "title": "Muṭāli’āt-i tarjumah",
-      "publisher_name": "Hussein Mollanazar",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Translating and interpreting"
-      ],
-      "subject_display": "Translating and interpreting",
-      "languages": [
-        "FA",
-        "EN"
-      ],
-      "language_display": "FA, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "72000000 IRR",
-      "apc_max_eur": null,
-      "apc_max_usd": 72.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOR"
-      ],
-      "preservation_services": [
-        "Noormags"
-      ],
-      "created_date": "2025-06-22T20:15:50Z",
-      "created_year": 2025,
-      "created_month": "2025-06",
-      "last_updated": "2026-09-17T10:43:07Z",
-      "website": "https://journal.translationstudies.ir/",
-      "author_guidelines_url": "https://journal.translationstudies.ir/ts/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "mutali at i tarjumah hussein mollanazar ir asia translating and interpreting fa en cc by nc"
     },
     {
       "id": "3d0eccad388249dabc3d6b965aaa4dcf",
@@ -933845,52 +933893,6 @@
       "author_guidelines_url": "https://journal.isi-padangpanjang.ac.id/index.php/Ekspresi/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "ekspresi seni jurnal ilmu pengetahuan dan karya seni institut seni indonesia padangpanjang id asia arts in general id cc by nc"
-    },
-    {
-      "id": "dc2912a31364436d8c80160685afa6b8",
-      "title": "Brazilian Journal of Motor Behavior",
-      "publisher_name": "Brazilian Society of Motor Behavior - SOCIBRACOM",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Medical physics. Medical radiology. Nuclear medicine",
-        "Other systems of medicine",
-        "General works"
-      ],
-      "subject_display": "Medical physics. Medical radiology. Nuclear medicine · Other systems of medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2025-09-24T08:38:58Z",
-      "created_year": 2025,
-      "created_month": "2025-09",
-      "last_updated": "2026-09-17T10:39:40Z",
-      "website": "https://socibracom.com/bjmb/index.php/bjmb/index",
-      "author_guidelines_url": "https://socibracom.com/bjmb/index.php/bjmb/about/submissions#journaldescription",
-      "article_records_exposed": null,
-      "search_text": "brazilian journal of motor behavior brazilian society of motor behavior socibracom br south america medical physics medical radiology nuclear medicine other systems of medicine general works en cc by nc nd"
     },
     {
       "id": "26fca22527ce4d97a11af4863fa3521d",

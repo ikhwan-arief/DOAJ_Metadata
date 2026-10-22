@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T18:57:27.223579+00:00",
+  "generated_at": "2026-10-22T23:47:02.461050+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23667,
-  "article_total": 13832527,
+  "article_total": 13833182,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13832527,
+      "value": 13833182,
       "detail": "Global DOAJ article total"
     },
     {
@@ -879,11 +879,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15243
+          "value": 15244
         },
         {
           "name": "No",
-          "value": 8424
+          "value": 8423
         }
       ]
     },
@@ -969,7 +969,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19947
+          "value": 19948
         },
         {
           "name": "ES",
@@ -977,7 +977,7 @@
         },
         {
           "name": "PT",
-          "value": 2307
+          "value": 2308
         },
         {
           "name": "FR",
@@ -1015,7 +1015,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1170
+          "value": 1169
         },
         {
           "name": "Social Sciences",
@@ -2374,7 +2374,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-22T18:57:25.809861+00:00",
+    "fetched_at": "2026-10-22T23:47:00.960160+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
