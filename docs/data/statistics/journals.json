@@ -1,8 +1,303 @@
 {
-  "generated_at": "2026-10-23T08:04:18.141691+00:00",
+  "generated_at": "2026-10-23T13:55:56.877147+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23667,
+  "item_count": 23669,
   "items": [
+    {
+      "id": "89ccda6268014716b8c4b6a4604ee188",
+      "title": "Logi",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Transportation engineering"
+      ],
+      "subject_display": "Transportation engineering",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "150 EUR",
+      "apc_max_eur": 150.0,
+      "apc_max_usd": 168.08,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2024-04-02T13:46:11Z",
+      "created_year": 2024,
+      "created_month": "2024-04",
+      "last_updated": "2026-10-23T13:23:27Z",
+      "website": "https://reference-global.com/journal/LOGI",
+      "author_guidelines_url": "https://reference-global.com/journal/LOGI?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "logi sciendo pl europe transportation engineering en cc by nc nd"
+    },
+    {
+      "id": "d41f0864b387402aa79c50199d32b7fc",
+      "title": "Journal of Horticultural Research",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Plant culture"
+      ],
+      "subject_display": "Plant culture",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2015-09-27T09:07:57Z",
+      "created_year": 2015,
+      "created_month": "2015-09",
+      "last_updated": "2026-10-23T12:17:23Z",
+      "website": "https://reference-global.com/journal/JOHR",
+      "author_guidelines_url": "https://reference-global.com/journal/JOHR?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of horticultural research sciendo pl europe plant culture en cc by"
+    },
+    {
+      "id": "86af393800d04de2bb9aed6ba7b12bf8",
+      "title": "Journal of Ethnology and Folkloristics",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Ethnology. Social and cultural anthropology"
+      ],
+      "subject_display": "Ethnology. Social and cultural anthropology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2025-01-29T15:18:17Z",
+      "created_year": 2025,
+      "created_month": "2025-01",
+      "last_updated": "2026-10-23T12:10:18Z",
+      "website": "https://reference-global.com/journal/JEF",
+      "author_guidelines_url": "https://reference-global.com/journal/JEF?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of ethnology and folkloristics sciendo pl europe ethnology social and cultural anthropology en cc by nc nd"
+    },
+    {
+      "id": "81864e5ac7ec4070b9330a0e0d99ddf0",
+      "title": "Reliability: Theory & Applications",
+      "publisher_name": "Gnedenko Forum",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Mathematics",
+        "Applied mathematics. Quantitative methods"
+      ],
+      "subject_display": "Mathematics · Applied mathematics. Quantitative methods",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-10-23T12:09:42Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-23T12:09:42Z",
+      "website": "https://gnedenko.net/index.php/RTA",
+      "author_guidelines_url": "https://gnedenko.net/index.php/RTA/AuthorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "reliability theory applications gnedenko forum us north america mathematics applied mathematics quantitative methods en cc by nc"
+    },
+    {
+      "id": "995fb854c97346bfa594f1e9f7f5f97b",
+      "title": "Geomorphica",
+      "publisher_name": "Penn State University Libraries",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Geology",
+        "Geography (General)"
+      ],
+      "subject_display": "Geology · Geography (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Triple Anonymous Peer Review"
+      ],
+      "peer_review_display": "Triple Anonymous Peer Review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-23T11:50:40Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-23T11:50:40Z",
+      "website": "https://journals.psu.edu/geomorphica/index",
+      "author_guidelines_url": "https://journals.psu.edu/geomorphica/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "geomorphica penn state university libraries us north america geology geography general en cc by"
+    },
+    {
+      "id": "f329ffa26d2944508fe08893b66becd5",
+      "title": "International Journal of Islamic Economics and Governance",
+      "publisher_name": "Minhaj University Lahore",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Finance",
+        "Economics as a science"
+      ],
+      "subject_display": "Finance · Economics as a science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-02-19T10:42:30Z",
+      "created_year": 2026,
+      "created_month": "2026-02",
+      "last_updated": "2026-10-23T08:47:57Z",
+      "website": "https://ojs.mul.edu.pk/index.php/IJIEG/index",
+      "author_guidelines_url": "https://ojs.mul.edu.pk/index.php/IJIEG/Instructions",
+      "article_records_exposed": null,
+      "search_text": "international journal of islamic economics and governance minhaj university lahore pk asia finance economics as a science en cc by nc"
+    },
+    {
+      "id": "aa58c7fb77584744af4c21e154a89098",
+      "title": "Applied Computer Systems",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Computer software"
+      ],
+      "subject_display": "Computer software",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2015-05-07T19:48:59Z",
+      "created_year": 2015,
+      "created_month": "2015-05",
+      "last_updated": "2026-10-23T08:21:04Z",
+      "website": "https://reference-global.com/journal/ACSS",
+      "author_guidelines_url": "https://reference-global.com/journal/ACSS?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "applied computer systems sciendo pl europe computer software en cc by"
+    },
     {
       "id": "9769b37165124c48984693a02e0e3bd9",
       "title": "Annals of the West University of Timisoara: Mathematics and Computer Science",
@@ -51723,48 +52018,6 @@
       "search_text": "indian journal of plastic surgery thieme medical and scientific publishers pvt ltd in asia surgery en cc by"
     },
     {
-      "id": "86af393800d04de2bb9aed6ba7b12bf8",
-      "title": "Journal of Ethnology and Folkloristics",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Ethnology. Social and cultural anthropology"
-      ],
-      "subject_display": "Ethnology. Social and cultural anthropology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2025-01-29T15:18:17Z",
-      "created_year": 2025,
-      "created_month": "2025-01",
-      "last_updated": "2026-09-17T10:55:25Z",
-      "website": "https://reference-global.com/journal/JEF",
-      "author_guidelines_url": "https://reference-global.com/journal/JEF?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of ethnology and folkloristics sciendo pl europe ethnology social and cultural anthropology en cc by nc nd"
-    },
-    {
       "id": "55c4009c557740eea788e30d27396a22",
       "title": "HoST",
       "publisher_name": "Sciendo",
@@ -99729,48 +99982,6 @@
       "search_text": "annals of west university of timisoara physics sciendo pl europe physics en cc by nc nd"
     },
     {
-      "id": "aa58c7fb77584744af4c21e154a89098",
-      "title": "Applied Computer Systems",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Computer software"
-      ],
-      "subject_display": "Computer software",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2015-05-07T19:48:59Z",
-      "created_year": 2015,
-      "created_month": "2015-05",
-      "last_updated": "2026-09-17T10:54:43Z",
-      "website": "https://reference-global.com/journal/ACSS",
-      "author_guidelines_url": "https://reference-global.com/journal/ACSS?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "applied computer systems sciendo pl europe computer software en cc by"
-    },
-    {
       "id": "ab4977ceee0840e0aa88270a221172d6",
       "title": "Fizička Kultura",
       "publisher_name": "University of Belgrade, Faculty of Sport and Physical Education",
@@ -116888,48 +117099,6 @@
       "author_guidelines_url": "https://www.cambridge.org/core/journals/political-science-research-and-methods/information/author-instructions/preparing-your-materials",
       "article_records_exposed": null,
       "search_text": "political science research and methods cambridge university press gb europe political science general political theory en cc by cc by sa cc by nd cc by nc cc by nc sa cc by nc nd"
-    },
-    {
-      "id": "89ccda6268014716b8c4b6a4604ee188",
-      "title": "Logi",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Transportation engineering"
-      ],
-      "subject_display": "Transportation engineering",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "150 EUR",
-      "apc_max_eur": 150.0,
-      "apc_max_usd": 168.08,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2024-04-02T13:46:11Z",
-      "created_year": 2024,
-      "created_month": "2024-04",
-      "last_updated": "2026-09-17T10:54:30Z",
-      "website": "https://reference-global.com/journal/LOGI",
-      "author_guidelines_url": "https://reference-global.com/journal/LOGI?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "logi sciendo pl europe transportation engineering en cc by nc nd"
     },
     {
       "id": "8e5d16b707304f4c89a11f9130c4c4f3",
@@ -184479,48 +184648,6 @@
       "author_guidelines_url": "https://reference-global.com/journal/NGOE?tab=submission-guidelines",
       "article_records_exposed": null,
       "search_text": "nase gospodarstvo sciendo pl europe business en cc by nc nd"
-    },
-    {
-      "id": "d41f0864b387402aa79c50199d32b7fc",
-      "title": "Journal of Horticultural Research",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Plant culture"
-      ],
-      "subject_display": "Plant culture",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2015-09-27T09:07:57Z",
-      "created_year": 2015,
-      "created_month": "2015-09",
-      "last_updated": "2026-09-17T10:53:36Z",
-      "website": "https://reference-global.com/journal/JOHR",
-      "author_guidelines_url": "https://reference-global.com/journal/JOHR?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of horticultural research sciendo pl europe plant culture en cc by"
     },
     {
       "id": "1b97b1f964ee482ca066479d49628b5a",
@@ -524850,49 +524977,6 @@
       "author_guidelines_url": "https://revistas.javeriana.edu.co/index.php/MAGIS/about/submissions",
       "article_records_exposed": null,
       "search_text": "magis revista internacional de investigacion en educacion pontificia universidad javeriana co south america education education general es pt fr cc by"
-    },
-    {
-      "id": "f329ffa26d2944508fe08893b66becd5",
-      "title": "International Journal of Islamic Economics and Governance",
-      "publisher_name": "Minhaj University Lahore",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Finance",
-        "Economics as a science"
-      ],
-      "subject_display": "Finance · Economics as a science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2026-02-19T10:42:30Z",
-      "created_year": 2026,
-      "created_month": "2026-02",
-      "last_updated": "2026-09-17T10:48:05Z",
-      "website": "https://ojs.mul.edu.pk/index.php/IJIEG/index",
-      "author_guidelines_url": "https://ojs.mul.edu.pk/index.php/IJIEG/Instructions",
-      "article_records_exposed": null,
-      "search_text": "international journal of islamic economics and governance minhaj university lahore pk asia finance economics as a science en cc by nc"
     },
     {
       "id": "1de6dea9676047c7ab0372481b421b4e",

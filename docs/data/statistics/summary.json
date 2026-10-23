@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T08:04:18.141691+00:00",
+  "generated_at": "2026-10-23T13:55:56.877147+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23667,
-  "article_total": 13838999,
+  "journal_total": 23669,
+  "article_total": 13840365,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23667
+      "value": 23669
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13838999,
+      "value": 13840365,
       "detail": "Global DOAJ article total"
     },
     {
@@ -742,6 +742,7 @@
       "Single anonymous peer review",
       "Single blinded peer review",
       "Single-Blind",
+      "Triple Anonymous Peer Review",
       "Triple-Anonymous Peer Review",
       "Triple-anonymous peer review",
       "Unspecified peer review",
@@ -865,7 +866,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14778
+          "value": 14780
         },
         {
           "name": "Yes",
@@ -879,11 +880,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15244
+          "value": 15245
         },
         {
           "name": "No",
-          "value": 8423
+          "value": 8424
         }
       ]
     },
@@ -905,7 +906,7 @@
         },
         {
           "name": "US",
-          "value": 1354
+          "value": 1356
         },
         {
           "name": "IR",
@@ -951,7 +952,7 @@
         },
         {
           "name": "North America",
-          "value": 2095
+          "value": 2097
         },
         {
           "name": "Africa",
@@ -969,7 +970,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19948
+          "value": 19950
         },
         {
           "name": "ES",
@@ -1061,7 +1062,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12302
+          "value": 12303
         },
         {
           "name": "CC BY-NC-ND",
@@ -1069,7 +1070,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5182
+          "value": 5183
         },
         {
           "name": "CC BY-NC-SA",
@@ -1107,7 +1108,7 @@
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6498
+          "value": 6499
         },
         {
           "name": "Unspecified peer review",
@@ -1129,7 +1130,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20223
+          "value": 20225
         },
         {
           "name": "Handles",
@@ -1167,7 +1168,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1888
+          "value": 1889
         },
         {
           "name": "PMC",
@@ -1797,7 +1798,7 @@
             200,
             171,
             245,
-            125
+            127
           ]
         }
       ]
@@ -1820,7 +1821,7 @@
         },
         {
           "name": "US",
-          "value": 1354
+          "value": 1356
         },
         {
           "name": "IR",
@@ -2374,7 +2375,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-23T08:04:16.853644+00:00",
+    "fetched_at": "2026-10-23T13:55:55.716231+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
