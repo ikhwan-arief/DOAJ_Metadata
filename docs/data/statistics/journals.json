@@ -1,8 +1,133 @@
 {
-  "generated_at": "2026-10-23T18:48:28.006110+00:00",
+  "generated_at": "2026-10-23T23:39:24.475348+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23668,
   "items": [
+    {
+      "id": "59e05b2d5d544cc8a5fe668521bfa5b4",
+      "title": "Dilemas: Revista de Estudos de Conflito e Controle Social",
+      "publisher_name": "Universidade Federal do Rio de Janeiro",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Social history and conditions. Social problems. Social reform",
+        "Sociology (General)"
+      ],
+      "subject_display": "Social history and conditions. Social problems. Social reform · Sociology (General)",
+      "languages": [
+        "PT",
+        "ES"
+      ],
+      "language_display": "PT, ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2017-08-16T20:19:55Z",
+      "created_year": 2017,
+      "created_month": "2017-08",
+      "last_updated": "2026-10-23T20:30:02Z",
+      "website": "https://revistas.ufrj.br/index.php/dilemas/index",
+      "author_guidelines_url": "https://revistas.ufrj.br/index.php/dilemas/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "dilemas revista de estudos de conflito e controle social universidade federal do rio de janeiro br south america social history and conditions social problems social reform sociology general pt es cc by"
+    },
+    {
+      "id": "3e31d03f488949d2b85216df121dfcbe",
+      "title": "Годишник на Софийския университет \"Св. Климент Охридски\". Исторически факултет",
+      "publisher_name": "Sofia University Press \"St. Kliment Ohridski\"",
+      "country": "BG",
+      "continent": "Europe",
+      "subjects": [
+        "History (General) and history of Europe"
+      ],
+      "subject_display": "History (General) and history of Europe",
+      "languages": [
+        "BG",
+        "EN"
+      ],
+      "language_display": "BG, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-05-21T10:07:29Z",
+      "created_year": 2025,
+      "created_month": "2025-05",
+      "last_updated": "2026-10-23T19:54:40Z",
+      "website": "https://annual.uni-sofia.bg/index.php/hist/index",
+      "author_guidelines_url": "https://annual.uni-sofia.bg/index.php/hist/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "sofia university press st kliment ohridski bg europe history general and history of europe bg en cc by"
+    },
+    {
+      "id": "bc4361ab68094878af5f42716a5c1d19",
+      "title": "Физика волновых процессов и радиотехнические системы",
+      "publisher_name": "Povolzhskiy State University of Telecommunications & Informatics",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Physics",
+        "Electronics"
+      ],
+      "subject_display": "Physics · Electronics",
+      "languages": [
+        "EN",
+        "RU"
+      ],
+      "language_display": "EN, RU",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2023-12-21T16:38:07Z",
+      "created_year": 2023,
+      "created_month": "2023-12",
+      "last_updated": "2026-10-23T18:57:06Z",
+      "website": "https://journals.ssau.ru/pwp/",
+      "author_guidelines_url": "https://journals.ssau.ru/pwp/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "povolzhskiy state university of telecommunications informatics ru europe physics electronics en ru cc by"
+    },
     {
       "id": "997850921d544e76bceab124c0a2068d",
       "title": "African Journal of Health and Medical Sciences",
@@ -8593,47 +8718,6 @@
       "author_guidelines_url": "https://www.ovid.com/jnls/sbvj/pages/instructions-for-authors",
       "article_records_exposed": null,
       "search_text": "sbv journal of basic clinical and applied health science wolters kluwer medknow publications in asia medicine en cc by nc nd"
-    },
-    {
-      "id": "3e31d03f488949d2b85216df121dfcbe",
-      "title": "Годишник на Софийския университет \"Св. Климент Охридски\". Исторически факултет",
-      "publisher_name": "Sofia University Press \"St. Kliment Ohridski\"",
-      "country": "BG",
-      "continent": "Europe",
-      "subjects": [
-        "History (General) and history of Europe"
-      ],
-      "subject_display": "History (General) and history of Europe",
-      "languages": [
-        "BG",
-        "EN"
-      ],
-      "language_display": "BG, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-05-21T10:07:29Z",
-      "created_year": 2025,
-      "created_month": "2025-05",
-      "last_updated": "2026-10-19T15:07:00Z",
-      "website": "https://annual.uni-sofia.bg/index.php/hist/index",
-      "author_guidelines_url": "https://annual.uni-sofia.bg/index.php/hist/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "sofia university press st kliment ohridski bg europe history general and history of europe bg en cc by"
     },
     {
       "id": "04574611bc874e52866cf096c45c3a53",
@@ -43153,46 +43237,6 @@
       "author_guidelines_url": "https://www.sciencedirect.com/journal/asian-transport-studies/publish/guide-for-authors#guide-for-authors-3-peer-review",
       "article_records_exposed": null,
       "search_text": "asian transport studies elsevier nl europe transportation engineering transportation and communications en cc by cc by nc nd"
-    },
-    {
-      "id": "59e05b2d5d544cc8a5fe668521bfa5b4",
-      "title": "Dilemas: Revista de Estudos de Conflito e Controle Social",
-      "publisher_name": "Universidade Federal do Rio de Janeiro",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Social history and conditions. Social problems. Social reform",
-        "Sociology (General)"
-      ],
-      "subject_display": "Social history and conditions. Social problems. Social reform · Sociology (General)",
-      "languages": [
-        "PT",
-        "ES"
-      ],
-      "language_display": "PT, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2017-08-16T20:19:55Z",
-      "created_year": 2017,
-      "created_month": "2017-08",
-      "last_updated": "2026-09-17T10:55:35Z",
-      "website": "https://revistas.ufrj.br/index.php/dilemas/index",
-      "author_guidelines_url": "https://revistas.ufrj.br/index.php/dilemas/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "dilemas revista de estudos de conflito e controle social universidade federal do rio de janeiro br south america social history and conditions social problems social reform sociology general pt es cc by"
     },
     {
       "id": "ce1ea4c5719a4e9d90501deb6b980503",
@@ -991505,50 +991549,6 @@
       "author_guidelines_url": "https://article.iacpa.ir/journal/authors.note?lang=en",
       "article_records_exposed": null,
       "search_text": "publications of the iranian association of certified public accountants iacpa ir asia accounting bookkeeping fa cc by"
-    },
-    {
-      "id": "bc4361ab68094878af5f42716a5c1d19",
-      "title": "Физика волновых процессов и радиотехнические системы",
-      "publisher_name": "Povolzhskiy State University of Telecommunications & Informatics",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "Physics",
-        "Electronics"
-      ],
-      "subject_display": "Physics · Electronics",
-      "languages": [
-        "EN",
-        "RU"
-      ],
-      "language_display": "EN, RU",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2023-12-21T16:38:07Z",
-      "created_year": 2023,
-      "created_month": "2023-12",
-      "last_updated": "2026-09-17T10:38:32Z",
-      "website": "https://journals.ssau.ru/pwp/",
-      "author_guidelines_url": "https://journals.ssau.ru/pwp/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "povolzhskiy state university of telecommunications informatics ru europe physics electronics en ru cc by"
     },
     {
       "id": "8f553d0da9a14b429acc734538bf3f03",
