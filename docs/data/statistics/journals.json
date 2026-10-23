@@ -1,8 +1,137 @@
 {
-  "generated_at": "2026-10-23T02:24:02.589452+00:00",
+  "generated_at": "2026-10-23T08:04:18.141691+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23667,
   "items": [
+    {
+      "id": "9769b37165124c48984693a02e0e3bd9",
+      "title": "Annals of the West University of Timisoara: Mathematics and Computer Science",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Mathematics"
+      ],
+      "subject_display": "Mathematics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2014-12-14T11:08:59Z",
+      "created_year": 2014,
+      "created_month": "2014-12",
+      "last_updated": "2026-10-23T08:02:05Z",
+      "website": "https://reference-global.com/journal/AWUTM",
+      "author_guidelines_url": "https://reference-global.com/journal/AWUTM?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "annals of the west university of timisoara mathematics and computer science sciendo pl europe mathematics en cc by nc nd"
+    },
+    {
+      "id": "608068bce78f4963b8fb754f5fe23232",
+      "title": "Analele Stiintifice ale Universitatii Ovidius Constanta: Seria Matematica",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Mathematics"
+      ],
+      "subject_display": "Mathematics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2008-10-07T13:53:42Z",
+      "created_year": 2008,
+      "created_month": "2008-10",
+      "last_updated": "2026-10-23T07:49:07Z",
+      "website": "https://reference-global.com/journal/AUOM",
+      "author_guidelines_url": "https://reference-global.com/journal/AUOM?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "analele stiintifice ale universitatii ovidius constanta seria matematica sciendo pl europe mathematics en cc by nc nd"
+    },
+    {
+      "id": "b5389760e6624cb5b6685a33c5f70535",
+      "title": "Journal of Primary Education",
+      "publisher_name": "Universitas Islam Negeri Fatmawati Sukarno Bengkulu",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Social sciences (General)",
+        "Education"
+      ],
+      "subject_display": "Social sciences (General) · Education",
+      "languages": [
+        "EN",
+        "ID"
+      ],
+      "language_display": "EN, ID",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2026-06-16T01:02:17Z",
+      "created_year": 2026,
+      "created_month": "2026-06",
+      "last_updated": "2026-10-23T03:58:03Z",
+      "website": "https://ejournal.uinfasbengkulu.ac.id/index.php/jpe/index",
+      "author_guidelines_url": "https://ejournal.uinfasbengkulu.ac.id/index.php/jpe/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of primary education universitas islam negeri fatmawati sukarno bengkulu id asia social sciences general education en id cc by"
+    },
     {
       "id": "8a8e945453054c0a92d1c39e279638af",
       "title": "Revista de Epidemiologia e Saúde Pública",
@@ -56326,48 +56455,6 @@
       "author_guidelines_url": "https://reference-global.com/journal/BJMG?tab=submission-guidelines",
       "article_records_exposed": null,
       "search_text": "balkan journal of medical genetics sciendo pl europe genetics en cc by nc nd"
-    },
-    {
-      "id": "608068bce78f4963b8fb754f5fe23232",
-      "title": "Analele Stiintifice ale Universitatii Ovidius Constanta: Seria Matematica",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Mathematics"
-      ],
-      "subject_display": "Mathematics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2008-10-07T13:53:42Z",
-      "created_year": 2008,
-      "created_month": "2008-10",
-      "last_updated": "2026-09-17T10:55:22Z",
-      "website": "https://reference-global.com/journal/AUOM",
-      "author_guidelines_url": "https://reference-global.com/journal/AUOM?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "analele stiintifice ale universitatii ovidius constanta seria matematica sciendo pl europe mathematics en cc by nc nd"
     },
     {
       "id": "015e27509004467ba08a7d0181a43fae",
@@ -117574,48 +117661,6 @@
       "author_guidelines_url": "https://environmentalmicrobiome.biomedcentral.com/submission-guidelines",
       "article_records_exposed": null,
       "search_text": "standards in genomic sciences bmc gb europe genetics en cc by cc by nc nd"
-    },
-    {
-      "id": "9769b37165124c48984693a02e0e3bd9",
-      "title": "Annals of the West University of Timisoara: Mathematics and Computer Science",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Mathematics"
-      ],
-      "subject_display": "Mathematics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2014-12-14T11:08:59Z",
-      "created_year": 2014,
-      "created_month": "2014-12",
-      "last_updated": "2026-09-17T10:54:30Z",
-      "website": "https://reference-global.com/journal/AWUTM",
-      "author_guidelines_url": "https://reference-global.com/journal/AWUTM?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "annals of the west university of timisoara mathematics and computer science sciendo pl europe mathematics en cc by nc nd"
     },
     {
       "id": "5d7ce02b44184423b0bd10ed7d804532",
@@ -590786,51 +590831,6 @@
       "author_guidelines_url": "https://mlcjournal.ru/rules-for-authors-mlc-ru.html",
       "article_records_exposed": null,
       "search_text": "autonomous non profit organisation centre for the development of energy law and modern legal science named after v a musin ru europe law in general comparative and uniform law jurisprudence en ru cc by nc nd"
-    },
-    {
-      "id": "b5389760e6624cb5b6685a33c5f70535",
-      "title": "Journal of Primary Education",
-      "publisher_name": "Universitas Islam Negeri Fatmawati Sukarno Bengkulu",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Social sciences (General)",
-        "Education"
-      ],
-      "subject_display": "Social sciences (General) · Education",
-      "languages": [
-        "EN",
-        "ID"
-      ],
-      "language_display": "EN, ID",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2026-06-16T01:02:17Z",
-      "created_year": 2026,
-      "created_month": "2026-06",
-      "last_updated": "2026-09-17T10:46:37Z",
-      "website": "https://ejournal.uinfasbengkulu.ac.id/index.php/jpe/index",
-      "author_guidelines_url": "https://ejournal.uinfasbengkulu.ac.id/index.php/jpe/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of primary education universitas islam negeri fatmawati sukarno bengkulu id asia social sciences general education en id cc by"
     },
     {
       "id": "9b0839ed0d2a40a4a3a7ebc387ad78b5",
