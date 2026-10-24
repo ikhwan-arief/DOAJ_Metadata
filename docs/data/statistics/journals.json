@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-10-24T17:43:57.541830+00:00",
+  "generated_at": "2026-10-24T22:48:00.101304+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23669,
   "items": [
+    {
+      "id": "338e7f879c344e8197d91ba04ff097a5",
+      "title": "مجلة جامعة الزيتونة",
+      "publisher_name": "Azzaytuna University",
+      "country": "LY",
+      "continent": "Africa",
+      "subjects": [
+        "Law",
+        "Social Sciences"
+      ],
+      "subject_display": "Law · Social Sciences",
+      "languages": [
+        "EN",
+        "AR"
+      ],
+      "language_display": "EN, AR",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2025-11-28T09:08:41Z",
+      "created_year": 2025,
+      "created_month": "2025-11",
+      "last_updated": "2026-10-24T21:26:34Z",
+      "website": "https://azzujournal.com/index.php/azujournal",
+      "author_guidelines_url": "https://azzujournal.com/index.php/azujournal/AuthorGuideline",
+      "article_records_exposed": null,
+      "search_text": "azzaytuna university ly africa law social sciences en ar cc by"
+    },
     {
       "id": "66a9857800004508b3bdf0347cfa37af",
       "title": "Journal of Management Theory and Practices Research",
@@ -684221,46 +684261,6 @@
       "author_guidelines_url": "https://journal.binus.ac.id/index.php/jggag/about/submissions#authorguidelines",
       "article_records_exposed": null,
       "search_text": "journal of games game art and gamification bina nusantara university id asia technology en cc by"
-    },
-    {
-      "id": "338e7f879c344e8197d91ba04ff097a5",
-      "title": "مجلة جامعة الزيتونة",
-      "publisher_name": "Azzaytuna University",
-      "country": "LY",
-      "continent": "Africa",
-      "subjects": [
-        "Law",
-        "Social Sciences"
-      ],
-      "subject_display": "Law · Social Sciences",
-      "languages": [
-        "EN",
-        "AR"
-      ],
-      "language_display": "EN, AR",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2025-11-28T09:08:41Z",
-      "created_year": 2025,
-      "created_month": "2025-11",
-      "last_updated": "2026-09-17T10:44:43Z",
-      "website": "https://azzujournal.com/index.php/azujournal",
-      "author_guidelines_url": "https://azzujournal.com/index.php/azujournal/AuthorGuideline",
-      "article_records_exposed": null,
-      "search_text": "azzaytuna university ly africa law social sciences en ar cc by"
     },
     {
       "id": "4dc5b205f78c4e3b8674143d0e990ba4",
