@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-10-25T17:58:33.637149+00:00",
+  "generated_at": "2026-10-25T20:14:55.011900+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23671,
   "items": [
+    {
+      "id": "2d9983d184624bb4be62f3444bd605b9",
+      "title": "پژوهش‌های کارآفرینی",
+      "publisher_name": "Ilam University",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Business"
+      ],
+      "subject_display": "Business",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "PURL"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-11-15T14:38:26Z",
+      "created_year": 2024,
+      "created_month": "2024-11",
+      "last_updated": "2026-10-25T19:22:45Z",
+      "website": "https://jer.ilam.ac.ir/?lang=en",
+      "author_guidelines_url": "https://jer.ilam.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "ilam university ir asia business fa cc by nc"
+    },
     {
       "id": "ad42235336804a6a94d7671ba14a1f00",
       "title": "Sefer Yuḥasin",
@@ -41,7 +82,7 @@
       "created_date": "2020-02-04T14:32:31Z",
       "created_year": 2020,
       "created_month": "2020-02",
-      "last_updated": "2026-10-25T17:39:24Z",
+      "last_updated": "2026-10-25T19:10:48Z",
       "website": "http://www.serena.unina.it/index.php/sefer",
       "author_guidelines_url": "http://www.serena.unina.it/index.php/sefer/about/submissions",
       "article_records_exposed": null,
@@ -827767,47 +827808,6 @@
       "author_guidelines_url": "https://ojisnu.isnuponorogo.org/index.php/besari/guidelines",
       "article_records_exposed": null,
       "search_text": "besari pc ikatan sarjana nahdlatul ulama ponorogo id asia social sciences id en cc by sa"
-    },
-    {
-      "id": "2d9983d184624bb4be62f3444bd605b9",
-      "title": "پژوهش‌های کارآفرینی",
-      "publisher_name": "Ilam University",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Business"
-      ],
-      "subject_display": "Business",
-      "languages": [
-        "FA"
-      ],
-      "language_display": "FA",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "PURL"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-11-15T14:38:26Z",
-      "created_year": 2024,
-      "created_month": "2024-11",
-      "last_updated": "2026-09-17T10:41:50Z",
-      "website": "https://jer.ilam.ac.ir/?lang=en",
-      "author_guidelines_url": "https://jer.ilam.ac.ir/journal/authors.note?lang=en",
-      "article_records_exposed": null,
-      "search_text": "ilam university ir asia business fa cc by nc"
     },
     {
       "id": "64e8b30a2b504d78aa4b92f92f0f0d84",
