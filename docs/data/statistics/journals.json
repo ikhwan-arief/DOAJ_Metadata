@@ -1,8 +1,353 @@
 {
-  "generated_at": "2026-10-26T15:36:45.071317+00:00",
+  "generated_at": "2026-10-26T22:02:59.089573+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23670,
+  "item_count": 23669,
   "items": [
+    {
+      "id": "9414ad3d4bf24ebda98e9bff6d637c86",
+      "title": "Latin American Journal of Solids and Structures",
+      "publisher_name": "Marcílio Alves",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Mechanics of engineering. Applied mechanics",
+        "Descriptive and experimental mechanics"
+      ],
+      "subject_display": "Mechanics of engineering. Applied mechanics · Descriptive and experimental mechanics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1200 EUR",
+      "apc_max_eur": 1200.0,
+      "apc_max_usd": 1342.56,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2005-10-11T09:53:26Z",
+      "created_year": 2005,
+      "created_month": "2005-10",
+      "last_updated": "2026-10-26T20:34:54Z",
+      "website": "http://www.lajss.org/",
+      "author_guidelines_url": "https://www.lajss.org/index.php/LAJSS/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "latin american journal of solids and structures marcilio alves br south america mechanics of engineering applied mechanics descriptive and experimental mechanics en cc by"
+    },
+    {
+      "id": "0bd7be55efae43449f6282fe9b91ff68",
+      "title": "Реабилитология",
+      "publisher_name": "IRBIS LLC",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Physiology",
+        "Medicine"
+      ],
+      "subject_display": "Physiology · Medicine",
+      "languages": [
+        "EN",
+        "RU"
+      ],
+      "language_display": "EN, RU",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-19T11:45:10Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-26T18:17:54Z",
+      "website": "https://www.rehabilitology.com/",
+      "author_guidelines_url": "https://www.rehabilitology.com/jour/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "irbis llc ru europe physiology medicine en ru cc by nc sa"
+    },
+    {
+      "id": "74889ae7c52440ed84057e3d1502dc2c",
+      "title": "Transactions of the Association of European Schools of Planning",
+      "publisher_name": "AESOP Association of the European Schools of Planning",
+      "country": "BE",
+      "continent": "Europe",
+      "subjects": [
+        "City planning",
+        "Regional planning",
+        "Communities. Classes. Races",
+        "Economic growth, development, planning"
+      ],
+      "subject_display": "City planning · Regional planning",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2022-02-16T12:15:17Z",
+      "created_year": 2022,
+      "created_month": "2022-02",
+      "last_updated": "2026-10-26T18:02:18Z",
+      "website": "https://transactions-journal.aesop-planning.eu/",
+      "author_guidelines_url": "https://transactions-journal.aesop-planning.eu/index.php/TrAESOP/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "transactions of the association of european schools of planning aesop association of the european schools of planning be europe city planning regional planning communities classes races economic growth development planning en cc by"
+    },
+    {
+      "id": "500d158fc2264f8a88d2bf1f3d2f18aa",
+      "title": "RGUHS Journal of Allied Health Sciences",
+      "publisher_name": "Rajiv Gandhi University of Health Sciences",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2024-08-17T17:12:11Z",
+      "created_year": 2024,
+      "created_month": "2024-08",
+      "last_updated": "2026-10-26T17:44:44Z",
+      "website": "https://journalgrid.com/journals/rjahs/home",
+      "author_guidelines_url": "https://journalgrid.com/journals/rjahs/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "rguhs journal of allied health sciences rajiv gandhi university of health sciences in asia medicine general en cc by nc"
+    },
+    {
+      "id": "5e6ae50315ef4abc847b15e6f954b361",
+      "title": "Terrestrial, Atmospheric and Oceanic Sciences",
+      "publisher_name": "Springer",
+      "country": "SG",
+      "continent": "Asia",
+      "subjects": [
+        "Geology",
+        "Geophysics. Cosmic physics"
+      ],
+      "subject_display": "Geology · Geophysics. Cosmic physics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1890 EUR / 2190 USD / 1490 GBP",
+      "apc_max_eur": 1957.44,
+      "apc_max_usd": 2190.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2016-03-17T20:16:42Z",
+      "created_year": 2016,
+      "created_month": "2016-03",
+      "last_updated": "2026-10-26T17:18:51Z",
+      "website": "https://www.springer.com/journal/44195",
+      "author_guidelines_url": "https://www.springer.com/journal/44195/submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "terrestrial atmospheric and oceanic sciences springer sg asia geology geophysics cosmic physics en cc by"
+    },
+    {
+      "id": "ad42235336804a6a94d7671ba14a1f00",
+      "title": "Sefer Yuḥasin",
+      "publisher_name": "UniorPress",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "History (General) and history of Europe",
+        "Judaism"
+      ],
+      "subject_display": "History (General) and history of Europe · Judaism",
+      "languages": [
+        "ES",
+        "IT",
+        "FR",
+        "EN"
+      ],
+      "language_display": "ES, IT, FR, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2020-02-04T14:32:31Z",
+      "created_year": 2020,
+      "created_month": "2020-02",
+      "last_updated": "2026-10-26T16:45:29Z",
+      "website": "http://www.serena.unina.it/index.php/sefer",
+      "author_guidelines_url": "http://www.serena.unina.it/index.php/sefer/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "sefer yuhasin uniorpress it europe history general and history of europe judaism es it fr en cc by"
+    },
+    {
+      "id": "01c3bb0515e44ba18e8fbe9a2c1c08e9",
+      "title": "Linguarum Universe",
+      "publisher_name": "Academic Research and Culture Association",
+      "country": "BG",
+      "continent": "Europe",
+      "subjects": [
+        "Philology. Linguistics"
+      ],
+      "subject_display": "Philology. Linguistics",
+      "languages": [
+        "BG",
+        "EN",
+        "FR",
+        "DE",
+        "SK"
+      ],
+      "language_display": "BG, EN, FR, DE, SK",
+      "license_types": [
+        "CC BY-ND"
+      ],
+      "license_display": "CC BY-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-02-21T13:10:21Z",
+      "created_year": 2025,
+      "created_month": "2025-02",
+      "last_updated": "2026-10-26T16:26:05Z",
+      "website": "https://linguarumuniverse.weebly.com/home.html",
+      "author_guidelines_url": "https://linguarumuniverse.weebly.com/authors.html",
+      "article_records_exposed": null,
+      "search_text": "linguarum universe academic research and culture association bg europe philology linguistics bg en fr de sk cc by nd"
+    },
+    {
+      "id": "1d9d382774544a8a99af9b881c43309f",
+      "title": "TalTech Journal of European Studies",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Political science",
+        "International relations"
+      ],
+      "subject_display": "Political science · International relations",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2022-03-11T12:11:24Z",
+      "created_year": 2022,
+      "created_month": "2022-03",
+      "last_updated": "2026-10-26T15:52:34Z",
+      "website": "https://reference-global.com/journal/BJES",
+      "author_guidelines_url": "https://reference-global.com/journal/BJES?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "taltech journal of european studies sciendo pl europe political science international relations en cc by nc nd"
+    },
     {
       "id": "015e27509004467ba08a7d0181a43fae",
       "title": "Arhiv za Higijenu Rada i Toksikologiju",
@@ -171,50 +516,6 @@
       "search_text": "bulletin of applied transgender studies northwestern university libraries us north america the family marriage woman en cc by nc nd"
     },
     {
-      "id": "01c3bb0515e44ba18e8fbe9a2c1c08e9",
-      "title": "Linguarum Universe",
-      "publisher_name": "Academic Research and Culture Association",
-      "country": "BG",
-      "continent": "Europe",
-      "subjects": [
-        "Philology. Linguistics"
-      ],
-      "subject_display": "Philology. Linguistics",
-      "languages": [
-        "BG",
-        "EN",
-        "FR",
-        "DE",
-        "SK"
-      ],
-      "language_display": "BG, EN, FR, DE, SK",
-      "license_types": [
-        "CC BY-ND"
-      ],
-      "license_display": "CC BY-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-02-21T13:10:21Z",
-      "created_year": 2025,
-      "created_month": "2025-02",
-      "last_updated": "2026-10-26T14:25:36Z",
-      "website": "https://linguarumuniverse.weebly.com/home.html",
-      "author_guidelines_url": "https://linguarumuniverse.weebly.com/authors.html",
-      "article_records_exposed": null,
-      "search_text": "linguarum universe academic research and culture association bg europe philology linguistics bg en fr de sk cc by nd"
-    },
-    {
       "id": "591829dd252040ada40615bd6f844be6",
       "title": "Odgojno-Obrazovne Teme",
       "publisher_name": "Faculty of Teacher Education University of Rijeka",
@@ -256,50 +557,6 @@
       "author_guidelines_url": "https://eiufri.uniri.hr/index.php/ei/about/submissions",
       "article_records_exposed": null,
       "search_text": "odgojno obrazovne teme faculty of teacher education university of rijeka hr europe education general hr en cc by sa"
-    },
-    {
-      "id": "ad42235336804a6a94d7671ba14a1f00",
-      "title": "Sefer Yuḥasin",
-      "publisher_name": "UniorPress",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "History (General) and history of Europe",
-        "Judaism"
-      ],
-      "subject_display": "History (General) and history of Europe · Judaism",
-      "languages": [
-        "EN",
-        "FR",
-        "IT",
-        "ES"
-      ],
-      "language_display": "EN, FR, IT, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2020-02-04T14:32:31Z",
-      "created_year": 2020,
-      "created_month": "2020-02",
-      "last_updated": "2026-10-26T14:20:08Z",
-      "website": "http://www.serena.unina.it/index.php/sefer",
-      "author_guidelines_url": "http://www.serena.unina.it/index.php/sefer/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "sefer yuhasin uniorpress it europe history general and history of europe judaism en fr it es cc by"
     },
     {
       "id": "805d97abba2444dea6dc90501ca5cfe9",
@@ -3539,50 +3796,6 @@
       "search_text": "publishing company world of science llc ru europe fine arts ru cc by"
     },
     {
-      "id": "5e6ae50315ef4abc847b15e6f954b361",
-      "title": "Terrestrial, Atmospheric and Oceanic Sciences",
-      "publisher_name": "Springer",
-      "country": "SG",
-      "continent": "Asia",
-      "subjects": [
-        "Geology",
-        "Geophysics. Cosmic physics"
-      ],
-      "subject_display": "Geology · Geophysics. Cosmic physics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1490 GBP / 2190 USD / 1890 EUR",
-      "apc_max_eur": 1957.44,
-      "apc_max_usd": 2190.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "Portico"
-      ],
-      "created_date": "2016-03-17T20:16:42Z",
-      "created_year": 2016,
-      "created_month": "2016-03",
-      "last_updated": "2026-10-22T17:25:48Z",
-      "website": "https://www.springer.com/journal/44195",
-      "author_guidelines_url": "https://www.springer.com/journal/44195/submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "terrestrial atmospheric and oceanic sciences springer sg asia geology geophysics cosmic physics en cc by"
-    },
-    {
       "id": "a911a6d8d0b14e969ed07e34f8800450",
       "title": "Tradition & Discovery",
       "publisher_name": "The Polanyi Society",
@@ -6025,47 +6238,6 @@
       "author_guidelines_url": "https://www.annalidistomatologia.eu/ads/instructions-for-authors",
       "article_records_exposed": null,
       "search_text": "annali di stomatologia publymed it europe dentistry en cc by nc nd"
-    },
-    {
-      "id": "0bd7be55efae43449f6282fe9b91ff68",
-      "title": "Реабилитология",
-      "publisher_name": "IRBIS Publishing House",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "Physiology",
-        "Medicine"
-      ],
-      "subject_display": "Physiology · Medicine",
-      "languages": [
-        "RU"
-      ],
-      "language_display": "RU",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-10-19T11:45:10Z",
-      "created_year": 2026,
-      "created_month": "2026-10",
-      "last_updated": "2026-10-21T10:49:18Z",
-      "website": "https://www.rehabilitology.com/",
-      "author_guidelines_url": "https://www.rehabilitology.com/jour/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "irbis publishing house ru europe physiology medicine ru cc by nc sa"
     },
     {
       "id": "d94b20973d9446da832d10d50e62fba7",
@@ -14351,49 +14523,6 @@
       "search_text": "tokyo women s medical university journal society of tokyo women s medical university jp asia medicine en cc by"
     },
     {
-      "id": "1a3810608cf44d0c9f51e0e097fc00d3",
-      "title": "Edupedia: Jurnal Studi Pendidikan dan Pedagogi Islam",
-      "publisher_name": "Fakultas Tarbiyah Universitas Ibrahimy",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Special aspects of education"
-      ],
-      "subject_display": "Special aspects of education",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "750000 IDR",
-      "apc_max_eur": 36.91,
-      "apc_max_usd": 41.29,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS"
-      ],
-      "created_date": "2026-08-02T14:48:33Z",
-      "created_year": 2026,
-      "created_month": "2026-08",
-      "last_updated": "2026-10-16T00:18:30Z",
-      "website": "https://journal.ibrahimy.ac.id/index.php/edupedia",
-      "author_guidelines_url": "https://journal.ibrahimy.ac.id/index.php/edupedia/Author-Guidelines",
-      "article_records_exposed": null,
-      "search_text": "edupedia jurnal studi pendidikan dan pedagogi islam fakultas tarbiyah universitas ibrahimy id asia special aspects of education id en cc by sa"
-    },
-    {
       "id": "b20dbad6a72f4ae0bd3753a57deb4b6b",
       "title": "Brno Studies in English",
       "publisher_name": "Masaryk University",
@@ -17943,48 +18072,6 @@
       "author_guidelines_url": "https://asjournals.lib.cas.cz/knihyadejiny/pro-autory/citacni-pravidla?lang=en",
       "article_records_exposed": null,
       "search_text": "knihy a dejiny library of the czech academy of sciences cz europe bibliography library science information resources history general and history of europe sk de en cs cc by nc sa"
-    },
-    {
-      "id": "500d158fc2264f8a88d2bf1f3d2f18aa",
-      "title": "RGUHS Journal of Allied Health Sciences",
-      "publisher_name": "Rajiv Gandhi University of Health Sciences",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2024-08-17T17:12:11Z",
-      "created_year": 2024,
-      "created_month": "2024-08",
-      "last_updated": "2026-10-12T16:46:55Z",
-      "website": "https://journalgrid.com/journals/rjahs/home",
-      "author_guidelines_url": "https://journalgrid.com/journals/rjahs/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "rguhs journal of allied health sciences rajiv gandhi university of health sciences in asia medicine general en cc by nc"
     },
     {
       "id": "cf019e24b2fc462d9157fe45a0a9dfda",
@@ -61971,47 +62058,6 @@
       "author_guidelines_url": "https://revistas.uniandes.edu.co/for-authors/histcrit/editorial-policy",
       "article_records_exposed": null,
       "search_text": "historia critica universidad de los andes co south america history general and history of europe history general es en pt cc by nc nd"
-    },
-    {
-      "id": "9414ad3d4bf24ebda98e9bff6d637c86",
-      "title": "Latin American Journal of Solids and Structures",
-      "publisher_name": "Marcílio Alves",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Mechanics of engineering. Applied mechanics",
-        "Descriptive and experimental mechanics"
-      ],
-      "subject_display": "Mechanics of engineering. Applied mechanics · Descriptive and experimental mechanics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1000 EUR",
-      "apc_max_eur": 1000.0,
-      "apc_max_usd": 1118.8,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [
-        "CLOCKSS"
-      ],
-      "created_date": "2005-10-11T09:53:26Z",
-      "created_year": 2005,
-      "created_month": "2005-10",
-      "last_updated": "2026-09-17T10:55:19Z",
-      "website": "http://www.lajss.org/",
-      "author_guidelines_url": "https://www.lajss.org/index.php/LAJSS/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "latin american journal of solids and structures marcilio alves br south america mechanics of engineering applied mechanics descriptive and experimental mechanics en cc by"
     },
     {
       "id": "86ec6ee93a8c4f91825977e545c78405",
@@ -575853,49 +575899,6 @@
       "search_text": "nim marketing intelligence review sciendo pl europe marketing distribution of products en cc by nc"
     },
     {
-      "id": "1d9d382774544a8a99af9b881c43309f",
-      "title": "TalTech Journal of European Studies",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Political science",
-        "International relations"
-      ],
-      "subject_display": "Political science · International relations",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2022-03-11T12:11:24Z",
-      "created_year": 2022,
-      "created_month": "2022-03",
-      "last_updated": "2026-09-17T10:46:58Z",
-      "website": "https://reference-global.com/journal/BJES",
-      "author_guidelines_url": "https://reference-global.com/journal/BJES?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "taltech journal of european studies sciendo pl europe political science international relations en cc by nc nd"
-    },
-    {
       "id": "3c2c20de1c324f249356c1de4fac6e2d",
       "title": "Organization, Technology and Management in Construction: An International Journal",
       "publisher_name": "Sciendo",
@@ -657105,51 +657108,6 @@
       "author_guidelines_url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=kmco20",
       "article_records_exposed": null,
       "search_text": "molecular cellular oncology taylor francis group gb europe neoplasms tumors oncology including cancer and carcinogens en cc by cc by nc"
-    },
-    {
-      "id": "74889ae7c52440ed84057e3d1502dc2c",
-      "title": "Transactions of the Association of European Schools of Planning",
-      "publisher_name": "AESOP Association of the European Schools of Planning",
-      "country": "BE",
-      "continent": "Europe",
-      "subjects": [
-        "City planning",
-        "Regional planning",
-        "Communities. Classes. Races",
-        "Economic growth, development, planning"
-      ],
-      "subject_display": "City planning · Regional planning",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2022-02-16T12:15:17Z",
-      "created_year": 2022,
-      "created_month": "2022-02",
-      "last_updated": "2026-09-17T10:45:17Z",
-      "website": "https://transactions-journal.aesop-planning.eu/",
-      "author_guidelines_url": "https://transactions-journal.aesop-planning.eu/index.php/TrAESOP/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "transactions of the association of european schools of planning aesop association of the european schools of planning be europe city planning regional planning communities classes races economic growth development planning en cc by"
     },
     {
       "id": "0c1e0bd807af497fbd445083bd48a014",

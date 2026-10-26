@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26T15:36:45.071317+00:00",
+  "generated_at": "2026-10-26T22:02:59.089573+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23670,
-  "article_total": 13868628,
+  "journal_total": 23669,
+  "article_total": 13869982,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23670
+      "value": 23669
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13868628,
+      "value": 13869982,
       "detail": "Global DOAJ article total"
     },
     {
@@ -871,7 +871,7 @@
         },
         {
           "name": "Yes",
-          "value": 8889
+          "value": 8888
         }
       ]
     },
@@ -881,7 +881,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15250
+          "value": 15249
         },
         {
           "name": "No",
@@ -895,7 +895,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2730
+          "value": 2729
         },
         {
           "name": "GB",
@@ -945,7 +945,7 @@
         },
         {
           "name": "Asia",
-          "value": 6948
+          "value": 6947
         },
         {
           "name": "South America",
@@ -987,7 +987,7 @@
         },
         {
           "name": "ID",
-          "value": 1800
+          "value": 1799
         },
         {
           "name": "RU",
@@ -1045,7 +1045,7 @@
         },
         {
           "name": "Special aspects of education",
-          "value": 572
+          "value": 571
         },
         {
           "name": "Business",
@@ -1079,7 +1079,7 @@
         },
         {
           "name": "CC BY-SA",
-          "value": 2056
+          "value": 2055
         },
         {
           "name": "CC BY-ND",
@@ -1105,7 +1105,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15453
+          "value": 15452
         },
         {
           "name": "Single anonymous peer review",
@@ -1131,7 +1131,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20229
+          "value": 20228
         },
         {
           "name": "Handles",
@@ -1165,7 +1165,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2069
+          "value": 2068
         },
         {
           "name": "PKP PN",
@@ -1797,7 +1797,7 @@
             189,
             186,
             200,
-            171,
+            170,
             245,
             135
           ]
@@ -1810,7 +1810,7 @@
       "items": [
         {
           "name": "ID",
-          "value": 2730
+          "value": 2729
         },
         {
           "name": "GB",
@@ -2380,7 +2380,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-26T15:36:43.665389+00:00",
+    "fetched_at": "2026-10-26T22:02:57.908588+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
