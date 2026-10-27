@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T02:46:23.449983+00:00",
+  "generated_at": "2026-10-27T08:29:02.079771+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23669,
-  "article_total": 13871132,
+  "article_total": 13872404,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13871132,
+      "value": 13872404,
       "detail": "Global DOAJ article total"
     },
     {
@@ -927,7 +927,7 @@
         },
         {
           "name": "TR",
-          "value": 721
+          "value": 720
         },
         {
           "name": "RU",
@@ -1017,7 +1017,7 @@
       "items": [
         {
           "name": "Medicine",
-          "value": 1169
+          "value": 1170
         },
         {
           "name": "Social Sciences",
@@ -1067,11 +1067,11 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5255
+          "value": 5254
         },
         {
           "name": "CC BY-NC",
-          "value": 5183
+          "value": 5184
         },
         {
           "name": "CC BY-NC-SA",
@@ -1157,7 +1157,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4805
+          "value": 4806
         },
         {
           "name": "Portico",
@@ -1165,7 +1165,7 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2068
+          "value": 2069
         },
         {
           "name": "PKP PN",
@@ -1724,7 +1724,7 @@
             171,
             207,
             177,
-            187,
+            186,
             140,
             168,
             192,
@@ -1799,7 +1799,7 @@
             200,
             170,
             245,
-            135
+            136
           ]
         }
       ]
@@ -1842,7 +1842,7 @@
         },
         {
           "name": "TR",
-          "value": 721
+          "value": 720
         },
         {
           "name": "RU",
@@ -1862,7 +1862,7 @@
         },
         {
           "name": "NL",
-          "value": 516
+          "value": 517
         },
         {
           "name": "CO",
@@ -1874,7 +1874,7 @@
         },
         {
           "name": "IN",
-          "value": 455
+          "value": 456
         },
         {
           "name": "AR",
@@ -1962,7 +1962,7 @@
         },
         {
           "name": "BG",
-          "value": 109
+          "value": 108
         },
         {
           "name": "EC",
@@ -2041,11 +2041,11 @@
           "value": 42
         },
         {
-          "name": "BD",
+          "name": "KZ",
           "value": 37
         },
         {
-          "name": "KZ",
+          "name": "BD",
           "value": 37
         },
         {
@@ -2380,7 +2380,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-27T02:46:22.369137+00:00",
+    "fetched_at": "2026-10-27T08:29:00.865917+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24

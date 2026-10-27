@@ -1,8 +1,598 @@
 {
-  "generated_at": "2026-10-27T02:46:23.449983+00:00",
+  "generated_at": "2026-10-27T08:29:02.079771+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23669,
   "items": [
+    {
+      "id": "4a2dc30655e84cdda1775c1799daba30",
+      "title": "Health and Population: Perspectives and Issues",
+      "publisher_name": "National Institute of Health and Family Welfare",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "www.hppi.in"
+      ],
+      "created_date": "2026-10-16T09:35:11Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-27T08:12:44Z",
+      "website": "https://www.hppi.in",
+      "author_guidelines_url": "https://www.hppi.in/journal/HPPI/page/author_instructions",
+      "article_records_exposed": null,
+      "search_text": "health and population perspectives and issues national institute of health and family welfare in asia medicine en cc by nc"
+    },
+    {
+      "id": "bd2856a221a54ba4847234933baf7be2",
+      "title": "Journal of Central Asian Studies",
+      "publisher_name": "Kazakhstan Institute for Strategic Studies under the President of the Republic of Kazakhstan",
+      "country": "KZ",
+      "continent": "Asia",
+      "subjects": [
+        "International relations",
+        "Social Sciences"
+      ],
+      "subject_display": "International relations · Social Sciences",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2025-06-05T13:25:32Z",
+      "created_year": 2025,
+      "created_month": "2025-06",
+      "last_updated": "2026-10-27T08:09:24Z",
+      "website": "https://jcas-journal.com/index.php/jcas/index",
+      "author_guidelines_url": "https://jcas-journal.com/index.php/jcas/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of central asian studies kazakhstan institute for strategic studies under the president of the republic of kazakhstan kz asia international relations social sciences en cc by"
+    },
+    {
+      "id": "4494a6e3ae0640fc8bec76ed36e0a989",
+      "title": "International Journal for Court Administration",
+      "publisher_name": "International Association for Court Administration",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Law in general. Comparative and uniform law. Jurisprudence"
+      ],
+      "subject_display": "Law in general. Comparative and uniform law. Jurisprudence",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS"
+      ],
+      "created_date": "2010-11-03T14:43:34Z",
+      "created_year": 2010,
+      "created_month": "2010-11",
+      "last_updated": "2026-10-27T08:04:25Z",
+      "website": "https://www.iacajournal.org",
+      "author_guidelines_url": "https://www.iacajournal.org/about/submissions/",
+      "article_records_exposed": null,
+      "search_text": "international journal for court administration international association for court administration us north america law in general comparative and uniform law jurisprudence en cc by"
+    },
+    {
+      "id": "923adf4b74c54824ba22ccdcb0e7edb4",
+      "title": "Математика, інформатика, фізика: наука та освіта",
+      "publisher_name": "Vinnytsia Mykhailo Kotsiubynskyi State Pedagogical University",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Theory and practice of education",
+        "Information theory",
+        "Mathematics",
+        "Astronomy",
+        "Physics"
+      ],
+      "subject_display": "Theory and practice of education · Information theory",
+      "languages": [
+        "UK",
+        "EN"
+      ],
+      "language_display": "UK, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2024-12-30T16:02:20Z",
+      "created_year": 2024,
+      "created_month": "2024-12",
+      "last_updated": "2026-10-27T07:59:02Z",
+      "website": "https://intranet.vspu.edu.ua/miph",
+      "author_guidelines_url": "https://intranet.vspu.edu.ua/miph/index.php/journal/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "vinnytsia mykhailo kotsiubynskyi state pedagogical university ua europe theory and practice of education information theory mathematics astronomy physics uk en cc by"
+    },
+    {
+      "id": "f1ae0b8b6ac94db4ab050b3e38c1a76d",
+      "title": "Sultan Qaboos University Journal for Science",
+      "publisher_name": "Sultan Qaboos University",
+      "country": "OM",
+      "continent": "Asia",
+      "subjects": [
+        "Science (General)"
+      ],
+      "subject_display": "Science (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-11-26T16:09:47Z",
+      "created_year": 2017,
+      "created_month": "2017-11",
+      "last_updated": "2026-10-27T07:49:09Z",
+      "website": "https://journals.squ.edu.om/index.php/squjs/index",
+      "author_guidelines_url": "https://journals.squ.edu.om/index.php/squjs/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "sultan qaboos university journal for science sultan qaboos university om asia science general en cc by"
+    },
+    {
+      "id": "b5955360535f4851bf2eaf2a3885d3da",
+      "title": "Journal of Unschooling and Alternative Learning",
+      "publisher_name": "Nipissing University",
+      "country": "CA",
+      "continent": "North America",
+      "subjects": [
+        "Special aspects of education",
+        "Theory and practice of education"
+      ],
+      "subject_display": "Special aspects of education · Theory and practice of education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2008-10-10T15:51:58Z",
+      "created_year": 2008,
+      "created_month": "2008-10",
+      "last_updated": "2026-10-27T07:41:54Z",
+      "website": "http://jual.nipissingu.ca",
+      "author_guidelines_url": "http://jual.nipissingu.ca/submissions/",
+      "article_records_exposed": null,
+      "search_text": "journal of unschooling and alternative learning nipissing university ca north america special aspects of education theory and practice of education en cc by nc nd"
+    },
+    {
+      "id": "fbe7510438484f2fbc5c8b96640b154e",
+      "title": "Journal of Infant, Child and Adolescent Health",
+      "publisher_name": "Emriye Hilal Yayan",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Pediatrics"
+      ],
+      "subject_display": "Pediatrics",
+      "languages": [
+        "TR",
+        "EN"
+      ],
+      "language_display": "TR, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-03-11T16:29:18Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-27T07:37:35Z",
+      "website": "https://jicah.com",
+      "author_guidelines_url": "https://jicah.com/index.php/pub/writingrules",
+      "article_records_exposed": null,
+      "search_text": "journal of infant child and adolescent health emriye hilal yayan tr asia pediatrics tr en cc by nc"
+    },
+    {
+      "id": "fbacaae641984597acb65da514055ba9",
+      "title": "Süleyman Demirel Üniversitesi İnsan ve Toplum Bilimleri Dergisi",
+      "publisher_name": "Süleyman Demirel Üniversitesi",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Social sciences (General)"
+      ],
+      "subject_display": "Social sciences (General)",
+      "languages": [
+        "EN",
+        "TR"
+      ],
+      "language_display": "EN, TR",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2026-03-16T09:48:39Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-10-27T07:36:06Z",
+      "website": "https://dergipark.org.tr/en/pub/suitder",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/suitder/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "suleyman demirel universitesi insan ve toplum bilimleri dergisi suleyman demirel universitesi tr asia social sciences general en tr cc by nc"
+    },
+    {
+      "id": "c67811ea4ab6497694b8028836dab53b",
+      "title": "MAB",
+      "publisher_name": "Amsterdam University Press",
+      "country": "NL",
+      "continent": "Europe",
+      "subjects": [
+        "Business",
+        "Business mathematics. Commercial arithmetic. Including tables, etc."
+      ],
+      "subject_display": "Business · Business mathematics. Commercial arithmetic. Including tables, etc.",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "Portico"
+      ],
+      "created_date": "2020-04-30T10:46:09Z",
+      "created_year": 2020,
+      "created_month": "2020-04",
+      "last_updated": "2026-10-27T07:34:02Z",
+      "website": "https://mab-online.nl/",
+      "author_guidelines_url": "https://mab-online.nl/about#AuthorsGuidelines",
+      "article_records_exposed": null,
+      "search_text": "mab amsterdam university press nl europe business business mathematics commercial arithmetic including tables etc en cc by nc nd"
+    },
+    {
+      "id": "273b9e36e62f449b9db689dc8109ad07",
+      "title": "Revista de la Escuela de Ciencias de la Educación",
+      "publisher_name": "Laborde Editor",
+      "country": "AR",
+      "continent": "South America",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "ES"
+      ],
+      "language_display": "ES",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2020-05-11T18:52:40Z",
+      "created_year": 2020,
+      "created_month": "2020-05",
+      "last_updated": "2026-10-27T07:32:06Z",
+      "website": "https://revistacseducacion.unr.edu.ar/index.php/educacion",
+      "author_guidelines_url": "https://revistacseducacion.unr.edu.ar/index.php/educacion/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "revista de la escuela de ciencias de la educacion laborde editor ar south america education es cc by sa"
+    },
+    {
+      "id": "14887b32ce4949d996b8dbaf8a080ed3",
+      "title": "Nonlinear Theory and Its Applications, IEICE",
+      "publisher_name": "The Institute of Electronics, Information and Communication Engineers  (IEICE)",
+      "country": "JP",
+      "continent": "Asia",
+      "subjects": [
+        "Electrical engineering. Electronics. Nuclear engineering"
+      ],
+      "subject_display": "Electrical engineering. Electronics. Nuclear engineering",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "68095 JPY",
+      "apc_max_eur": 386.58,
+      "apc_max_usd": 432.5,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2024-08-23T11:20:46Z",
+      "created_year": 2024,
+      "created_month": "2024-08",
+      "last_updated": "2026-10-27T07:32:00Z",
+      "website": "https://www.ieice.org/nolta/",
+      "author_guidelines_url": "https://www.ieice.org/nolta/journal/author.html",
+      "article_records_exposed": null,
+      "search_text": "nonlinear theory and its applications ieice the institute of electronics information and communication engineers ieice jp asia electrical engineering electronics nuclear engineering en cc by nc nd"
+    },
+    {
+      "id": "872a9206285449c69d636b4f46bf1be1",
+      "title": "Indian Journal of Arthroplasty",
+      "publisher_name": "Jaypee Brothers Medical Publisher",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-27T07:11:21Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-27T07:11:21Z",
+      "website": "https://www.ijoa.net/journalDetails/IJOA",
+      "author_guidelines_url": "https://www.ijoa.net/journal/IJOA/page/author_instructions",
+      "article_records_exposed": null,
+      "search_text": "indian journal of arthroplasty jaypee brothers medical publisher in asia medicine en cc by nc"
+    },
+    {
+      "id": "1e2eb357794746298680d296236893c4",
+      "title": "Al-tijary",
+      "publisher_name": "UIN Sultan Aji Muhammad Idris Samarinda",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Islam",
+        "Economics as a science"
+      ],
+      "subject_display": "Islam · Economics as a science",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "400000 IDR",
+      "apc_max_eur": 19.69,
+      "apc_max_usd": 22.02,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-01-03T13:13:31Z",
+      "created_year": 2017,
+      "created_month": "2017-01",
+      "last_updated": "2026-10-27T06:13:12Z",
+      "website": "https://journal.uinsi.ac.id/index.php/altijary/index",
+      "author_guidelines_url": "https://journal.uinsi.ac.id/index.php/altijary/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "al tijary uin sultan aji muhammad idris samarinda id asia islam economics as a science id en cc by"
+    },
+    {
+      "id": "2418f65b601947e4a1ab52aca67d064e",
+      "title": "Journal of Science, Engineering and Technology",
+      "publisher_name": "Kathmandu University",
+      "country": "NP",
+      "continent": "Asia",
+      "subjects": [
+        "Science",
+        "Technology (General)"
+      ],
+      "subject_display": "Science · Technology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-09-30T15:07:35Z",
+      "created_year": 2025,
+      "created_month": "2025-09",
+      "last_updated": "2026-10-27T05:03:48Z",
+      "website": "https://journals.ku.edu.np/kuset/about",
+      "author_guidelines_url": "https://journals.ku.edu.np/kuset/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of science engineering and technology kathmandu university np asia science technology general en cc by sa"
+    },
     {
       "id": "c63e96b2c81b4527bce10a07e4eaa52c",
       "title": "Journal of Clinical Question",
@@ -5071,48 +5661,6 @@
       "search_text": "child education journal universitas nahdlatul ulama surabaya id asia education city population including children in cities immigration en cc by sa"
     },
     {
-      "id": "1e2eb357794746298680d296236893c4",
-      "title": "Al-tijary",
-      "publisher_name": "UIN Sultan Aji Muhammad Idris Samarinda",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Islam",
-        "Economics as a science"
-      ],
-      "subject_display": "Islam · Economics as a science",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "400000 IDR",
-      "apc_max_eur": 19.69,
-      "apc_max_usd": 22.02,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-01-03T13:13:31Z",
-      "created_year": 2017,
-      "created_month": "2017-01",
-      "last_updated": "2026-10-22T03:00:03Z",
-      "website": "https://journal.uinsi.ac.id/index.php/altijary/index",
-      "author_guidelines_url": "https://journal.uinsi.ac.id/index.php/altijary/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "al tijary uin sultan aji muhammad idris samarinda id asia islam economics as a science id en cc by"
-    },
-    {
       "id": "a8370e3370774d428a742853c8f09dc2",
       "title": "International Journal of Islamic Business and Economics (IJIBEC)",
       "publisher_name": "Faculty of Islamic Economics and Business - Universitas Islam Negeri K.H. Abdurrahman Wahid Pekalongan",
@@ -7979,47 +8527,6 @@
       "search_text": "przeglad archeologiczny institute of archaeology and ethnology polish academy of sciences pl europe archaeology pl en de cc by"
     },
     {
-      "id": "bd2856a221a54ba4847234933baf7be2",
-      "title": "Journal of Central Asian Studies",
-      "publisher_name": "Kazakhstan Institute for Strategic Studies under the President of the Republic of Kazakhstan",
-      "country": "KZ",
-      "continent": "Asia",
-      "subjects": [
-        "International relations",
-        "Social Sciences"
-      ],
-      "subject_display": "International relations · Social Sciences",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-06-05T13:25:32Z",
-      "created_year": 2025,
-      "created_month": "2025-06",
-      "last_updated": "2026-10-20T10:00:40Z",
-      "website": "https://jcas-journal.com/index.php/jcas/index",
-      "author_guidelines_url": "https://jcas-journal.com/index.php/jcas/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of central asian studies kazakhstan institute for strategic studies under the president of the republic of kazakhstan kz asia international relations social sciences en cc by"
-    },
-    {
       "id": "790cedc3c5e44d6bbd957a92f43f3969",
       "title": "Tahkik İslami İlimler Araştırma ve Neşir Dergisi",
       "publisher_name": "Hacıveyiszade İlim ve Kültür Vakfı",
@@ -10662,51 +11169,6 @@
       "author_guidelines_url": "https://journals.ceapublishing.hu/index.php/live/guideforauthors",
       "article_records_exposed": null,
       "search_text": "law identity and values central european academic publishing hu europe law of europe comparative law international uniform law en cc by nc nd"
-    },
-    {
-      "id": "923adf4b74c54824ba22ccdcb0e7edb4",
-      "title": "Математика, інформатика, фізика: наука та освіта",
-      "publisher_name": "Vinnytsia Mykhailo Kotsiubynskyi State Pedagogical University",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Theory and practice of education",
-        "Information theory",
-        "Mathematics",
-        "Astronomy",
-        "Physics"
-      ],
-      "subject_display": "Theory and practice of education · Information theory",
-      "languages": [
-        "EN",
-        "UK"
-      ],
-      "language_display": "EN, UK",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-12-30T16:02:20Z",
-      "created_year": 2024,
-      "created_month": "2024-12",
-      "last_updated": "2026-10-19T15:39:54Z",
-      "website": "https://intranet.vspu.edu.ua/miph",
-      "author_guidelines_url": "https://intranet.vspu.edu.ua/miph/index.php/journal/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "vinnytsia mykhailo kotsiubynskyi state pedagogical university ua europe theory and practice of education information theory mathematics astronomy physics en uk cc by"
     },
     {
       "id": "9f76033436484c5190d96b99e1b632b4",
@@ -14400,48 +14862,6 @@
       "author_guidelines_url": "https://cimc.knu.ua/author_guidelines",
       "article_records_exposed": null,
       "search_text": "taras shevchenko national university of kyiv ua europe communication mass media en uk cc by"
-    },
-    {
-      "id": "4a2dc30655e84cdda1775c1799daba30",
-      "title": "Health and Population: Perspectives and Issues",
-      "publisher_name": "National Institute of Health and Family Welfare",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "www.hppi.in"
-      ],
-      "created_date": "2026-10-16T09:35:11Z",
-      "created_year": 2026,
-      "created_month": "2026-10",
-      "last_updated": "2026-10-16T09:35:11Z",
-      "website": "https://www.hppi.in",
-      "author_guidelines_url": "https://www.hppi.in/journal/HPPI/page/author_instructions",
-      "article_records_exposed": null,
-      "search_text": "health and population perspectives and issues national institute of health and family welfare in asia medicine en cc by nc"
     },
     {
       "id": "a9d3753e44ae472f9c929f82c15f8331",
@@ -27229,48 +27649,6 @@
       "search_text": "advances in rehabilitation science and practice sage publishing gb europe internal medicine en cc by cc by nc"
     },
     {
-      "id": "a499dd3b20c5431aa67c5f73c538d9c5",
-      "title": "Türk Fen ve Sağlık Dergisi",
-      "publisher_name": "ÜMİT MUHAMMET KOÇYİĞİT",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Science",
-        "Science (General)"
-      ],
-      "subject_display": "Science · Science (General)",
-      "languages": [
-        "EN",
-        "TR"
-      ],
-      "language_display": "EN, TR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2020-07-23T09:40:18Z",
-      "created_year": 2020,
-      "created_month": "2020-07",
-      "last_updated": "2026-09-29T10:12:16Z",
-      "website": "http://dergipark.org.tr/en/pub/tfsd",
-      "author_guidelines_url": "http://dergipark.org.tr/en/pub/tfsd/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "turk fen ve sagl k dergisi umit muhammet kocyigit tr asia science science general en tr cc by nc nd"
-    },
-    {
       "id": "987c4a37d113440f9b2c7e4778a7c01c",
       "title": "Gazeta de Antropología",
       "publisher_name": "Asociación Granadina de Antropología",
@@ -28957,47 +29335,6 @@
       "author_guidelines_url": "http://gwse.iheg.org.cn/news/GuideforAuthors.htm",
       "article_records_exposed": null,
       "search_text": "journal of groundwater science and engineering groundwater science and engineering limited cn asia ecology engineering geology rock mechanics soil mechanics underground construction en cc by nc nd"
-    },
-    {
-      "id": "fbe7510438484f2fbc5c8b96640b154e",
-      "title": "Journal of Infant, Child and Adolescent Health",
-      "publisher_name": "Emriye Hilal Yayan",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Pediatrics"
-      ],
-      "subject_display": "Pediatrics",
-      "languages": [
-        "EN",
-        "TR"
-      ],
-      "language_display": "EN, TR",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-03-11T16:29:18Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-09-28T11:46:50Z",
-      "website": "https://jicah.com/index",
-      "author_guidelines_url": "https://jicah.com/writingrules",
-      "article_records_exposed": null,
-      "search_text": "journal of infant child and adolescent health emriye hilal yayan tr asia pediatrics en tr cc by nc"
     },
     {
       "id": "cb2b938f90ea4bb0b5bf148d0fe86fa1",
@@ -36551,49 +36888,6 @@
       "author_guidelines_url": "https://revistas.cultura.gob.pe/index.php/memorias/envios",
       "article_records_exposed": null,
       "search_text": "memoria s lugar de la memoria la tolerancia y la inclusion social pe south america latin america spanish america social sciences general social pathology social and public welfare criminology es cc by nc sa"
-    },
-    {
-      "id": "fbacaae641984597acb65da514055ba9",
-      "title": "Süleyman Demirel Üniversitesi İnsan ve Toplum Bilimleri Dergisi",
-      "publisher_name": "Süleyman Demirel University",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Social sciences (General)"
-      ],
-      "subject_display": "Social sciences (General)",
-      "languages": [
-        "TR",
-        "EN"
-      ],
-      "language_display": "TR, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS"
-      ],
-      "created_date": "2026-03-16T09:48:39Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-09-21T19:18:46Z",
-      "website": "https://dergipark.org.tr/en/pub/suitder",
-      "author_guidelines_url": "https://dergipark.org.tr/en/pub/suitder/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "suleyman demirel universitesi insan ve toplum bilimleri dergisi suleyman demirel university tr asia social sciences general tr en cc by nc"
     },
     {
       "id": "3886dd2529df473f83c08981dcd116e4",
@@ -56517,45 +56811,6 @@
       "author_guidelines_url": "http://scied.cz/index.php/scied/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "scientia in educatione karolinum press cz europe education cs en sk cc by"
-    },
-    {
-      "id": "b5955360535f4851bf2eaf2a3885d3da",
-      "title": "Journal of Unschooling and Alternative Learning",
-      "publisher_name": "Nipissing University",
-      "country": "CA",
-      "continent": "North America",
-      "subjects": [
-        "Special aspects of education",
-        "Theory and practice of education"
-      ],
-      "subject_display": "Special aspects of education · Theory and practice of education",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2008-10-10T15:51:58Z",
-      "created_year": 2008,
-      "created_month": "2008-10",
-      "last_updated": "2026-09-17T10:55:24Z",
-      "website": "http://jual.nipissingu.ca",
-      "author_guidelines_url": "http://jual.nipissingu.ca/submissions/",
-      "article_records_exposed": null,
-      "search_text": "journal of unschooling and alternative learning nipissing university ca north america special aspects of education theory and practice of education en cc by nc nd"
     },
     {
       "id": "945992d839a64483be56013a7686ce8a",
@@ -153525,51 +153780,6 @@
       "search_text": "experimental and molecular medicine nature publishing group gb europe medicine biochemistry en cc by"
     },
     {
-      "id": "c67811ea4ab6497694b8028836dab53b",
-      "title": "MAB",
-      "publisher_name": "Pensoft",
-      "country": "BG",
-      "continent": "Europe",
-      "subjects": [
-        "Business",
-        "Business mathematics. Commercial arithmetic. Including tables, etc."
-      ],
-      "subject_display": "Business · Business mathematics. Commercial arithmetic. Including tables, etc.",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "Portico"
-      ],
-      "created_date": "2020-04-30T10:46:09Z",
-      "created_year": 2020,
-      "created_month": "2020-04",
-      "last_updated": "2026-09-17T10:54:01Z",
-      "website": "https://mab-online.nl/",
-      "author_guidelines_url": "https://mab-online.nl/about#AuthorsGuidelines",
-      "article_records_exposed": null,
-      "search_text": "mab pensoft bg europe business business mathematics commercial arithmetic including tables etc en cc by nc nd"
-    },
-    {
       "id": "9f2d7b86039844ae96db28987799d029",
       "title": "Genus",
       "publisher_name": "SpringerOpen",
@@ -162105,46 +162315,6 @@
       "author_guidelines_url": "https://aapm.onlinelibrary.wiley.com/hub/journal/15269914/about/author-guidelines",
       "article_records_exposed": null,
       "search_text": "journal of applied clinical medical physics wiley us north america medical physics medical radiology nuclear medicine en cc by"
-    },
-    {
-      "id": "f1ae0b8b6ac94db4ab050b3e38c1a76d",
-      "title": "Sultan Qaboos University Journal for Science",
-      "publisher_name": "Sultan Qaboos University",
-      "country": "OM",
-      "continent": "Asia",
-      "subjects": [
-        "Science (General)"
-      ],
-      "subject_display": "Science (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-11-26T16:09:47Z",
-      "created_year": 2017,
-      "created_month": "2017-11",
-      "last_updated": "2026-09-17T10:53:54Z",
-      "website": "https://journals.squ.edu.om/index.php/squjs/index",
-      "author_guidelines_url": "https://journals.squ.edu.om/index.php/squjs/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "sultan qaboos university journal for science sultan qaboos university om asia science general en cc by"
     },
     {
       "id": "572146f27b6742deb75034cd5311d96a",
@@ -229426,49 +229596,6 @@
       "author_guidelines_url": "https://scholarlycommons.gbmc.org/jchimp/author_instructions.html",
       "article_records_exposed": null,
       "search_text": "journal of community hospital internal medicine perspectives greater baltimore medical center us north america internal medicine en cc by nc"
-    },
-    {
-      "id": "4494a6e3ae0640fc8bec76ed36e0a989",
-      "title": "International Journal for Court Administration",
-      "publisher_name": "International Association for Court Administration",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Law in general. Comparative and uniform law. Jurisprudence"
-      ],
-      "subject_display": "Law in general. Comparative and uniform law. Jurisprudence",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS"
-      ],
-      "created_date": "2010-11-03T14:43:34Z",
-      "created_year": 2010,
-      "created_month": "2010-11",
-      "last_updated": "2026-09-17T10:52:55Z",
-      "website": "https://www.iacajournal.org",
-      "author_guidelines_url": "https://www.iacajournal.org/about/submissions/",
-      "article_records_exposed": null,
-      "search_text": "international journal for court administration international association for court administration us north america law in general comparative and uniform law jurisprudence en cc by"
     },
     {
       "id": "f0271793e1ac4462b636d37823ebc44e",
@@ -480138,44 +480265,6 @@
       "search_text": "desarrollo gerencial universidad simon bolivar co south america commerce business finance es cc by"
     },
     {
-      "id": "273b9e36e62f449b9db689dc8109ad07",
-      "title": "Revista de la Escuela de Ciencias de la Educación",
-      "publisher_name": "Laborde Editor",
-      "country": "AR",
-      "continent": "South America",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2020-05-11T18:52:40Z",
-      "created_year": 2020,
-      "created_month": "2020-05",
-      "last_updated": "2026-09-17T10:48:52Z",
-      "website": "https://revistacseducacion.unr.edu.ar/index.php/educacion",
-      "author_guidelines_url": "https://revistacseducacion.unr.edu.ar/index.php/educacion/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "revista de la escuela de ciencias de la educacion laborde editor ar south america education es cc by sa"
-    },
-    {
       "id": "2e926aa93d394301b3a0b12912a2fe81",
       "title": "Sociologija",
       "publisher_name": "Sociological Scientific Society of Serbia",
@@ -696088,48 +696177,6 @@
       "search_text": "amrita journal of medicine wolters kluwer medknow publications in asia medicine en cc by nc sa"
     },
     {
-      "id": "14887b32ce4949d996b8dbaf8a080ed3",
-      "title": "Nonlinear Theory and Its Applications, IEICE",
-      "publisher_name": "The Institute of Electronics, Information and Communication Engineers  (IEICE)",
-      "country": "JP",
-      "continent": "Asia",
-      "subjects": [
-        "Electrical engineering. Electronics. Nuclear engineering"
-      ],
-      "subject_display": "Electrical engineering. Electronics. Nuclear engineering",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "68095 JPY",
-      "apc_max_eur": 386.58,
-      "apc_max_usd": 432.5,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2024-08-23T11:20:46Z",
-      "created_year": 2024,
-      "created_month": "2024-08",
-      "last_updated": "2026-09-17T10:44:29Z",
-      "website": "https://www.ieice.org/nolta/",
-      "author_guidelines_url": "https://www.ieice.org/nolta/journal/author.html",
-      "article_records_exposed": null,
-      "search_text": "nonlinear theory and its applications ieice the institute of electronics information and communication engineers ieice jp asia electrical engineering electronics nuclear engineering en cc by nc nd"
-    },
-    {
       "id": "2c096b4abde94c1e89ccbfed347b8803",
       "title": "Journal of Library Outreach & Engagement",
       "publisher_name": "Illinois Open Publishing Network",
@@ -801914,49 +801961,6 @@
       "author_guidelines_url": "https://ikj.ff.sum.ba/wp-content/themes/IKJ/Instructions_for_Authors_en.php",
       "article_records_exposed": null,
       "search_text": "identiteti kulture jezici faculty of humanities and social sciences mostar ba europe language and literature social sciences hr en cc by nc"
-    },
-    {
-      "id": "2418f65b601947e4a1ab52aca67d064e",
-      "title": "Journal of Science, Engineering and Technology",
-      "publisher_name": "Kathmandu University",
-      "country": "NP",
-      "continent": "Asia",
-      "subjects": [
-        "Science",
-        "Technology (General)"
-      ],
-      "subject_display": "Science · Technology (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-09-30T15:07:35Z",
-      "created_year": 2025,
-      "created_month": "2025-09",
-      "last_updated": "2026-09-17T10:42:20Z",
-      "website": "https://journals.ku.edu.np/kuset/about",
-      "author_guidelines_url": "https://journals.ku.edu.np/kuset/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of science engineering and technology kathmandu university np asia science technology general en cc by sa"
     },
     {
       "id": "fe2a9be66b004eabb93decc103ad1968",
