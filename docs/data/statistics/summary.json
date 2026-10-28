@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T17:36:09.154642+00:00",
+  "generated_at": "2026-10-28T21:59:40.828275+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23672,
-  "article_total": 13877398,
+  "article_total": 13877763,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13877398,
+      "value": 13877763,
       "detail": "Global DOAJ article total"
     },
     {
@@ -284,6 +284,7 @@
       "Dairy processing. Dairy products",
       "Dairying",
       "Dancing",
+      "Danish literature",
       "Decorative arts",
       "Demography. Population. Vital events",
       "Dentistry",
@@ -677,6 +678,7 @@
       "Surgery",
       "Surveying",
       "Surveys (General)",
+      "Swedish literature",
       "Systems engineering",
       "Systems of building construction. Including fireproof construction, concrete construction",
       "Technical hydraulics",
@@ -881,11 +883,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15252
+          "value": 15253
         },
         {
           "name": "No",
-          "value": 8420
+          "value": 8419
         }
       ]
     },
@@ -903,7 +905,7 @@
         },
         {
           "name": "BR",
-          "value": 1389
+          "value": 1388
         },
         {
           "name": "US",
@@ -919,7 +921,7 @@
         },
         {
           "name": "PL",
-          "value": 1019
+          "value": 1020
         },
         {
           "name": "CH",
@@ -941,7 +943,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10646
+          "value": 10647
         },
         {
           "name": "Asia",
@@ -949,7 +951,7 @@
         },
         {
           "name": "South America",
-          "value": 2858
+          "value": 2857
         },
         {
           "name": "North America",
@@ -975,11 +977,11 @@
         },
         {
           "name": "ES",
-          "value": 4143
+          "value": 4142
         },
         {
           "name": "PT",
-          "value": 2304
+          "value": 2303
         },
         {
           "name": "FR",
@@ -999,7 +1001,7 @@
         },
         {
           "name": "DE",
-          "value": 915
+          "value": 916
         },
         {
           "name": "FA",
@@ -1121,7 +1123,7 @@
         },
         {
           "name": "Open peer review",
-          "value": 419
+          "value": 418
         }
       ]
     },
@@ -1630,7 +1632,7 @@
             20,
             33,
             23,
-            46,
+            45,
             24,
             28,
             31,
@@ -1799,7 +1801,7 @@
             200,
             170,
             245,
-            143
+            144
           ]
         }
       ]
@@ -1818,7 +1820,7 @@
         },
         {
           "name": "BR",
-          "value": 1389
+          "value": 1388
         },
         {
           "name": "US",
@@ -1834,7 +1836,7 @@
         },
         {
           "name": "PL",
-          "value": 1019
+          "value": 1020
         },
         {
           "name": "CH",
@@ -2380,7 +2382,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-28T17:36:07.635750+00:00",
+    "fetched_at": "2026-10-28T21:59:39.646460+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24

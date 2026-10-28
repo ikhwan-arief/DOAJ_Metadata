@@ -1,8 +1,95 @@
 {
-  "generated_at": "2026-10-28T17:36:09.154642+00:00",
+  "generated_at": "2026-10-28T21:59:40.828275+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23672,
   "items": [
+    {
+      "id": "9fe60d7b0aa24f729964bec5f90f2b5e",
+      "title": "Folia Scandinavica Posnaniensia",
+      "publisher_name": "Adam Mickiewicz University in Poznań",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Danish literature",
+        "Norwegian literature",
+        "Swedish literature"
+      ],
+      "subject_display": "Danish literature · Norwegian literature",
+      "languages": [
+        "DE",
+        "NO",
+        "SV",
+        "DA",
+        "EN"
+      ],
+      "language_display": "DE, NO, SV, DA, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-28T18:00:49Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-28T18:00:49Z",
+      "website": "https://fsp.web.amu.edu.pl/",
+      "author_guidelines_url": "https://fsp.web.amu.edu.pl/guidelines-for-authors/",
+      "article_records_exposed": null,
+      "search_text": "folia scandinavica posnaniensia adam mickiewicz university in poznan pl europe danish literature norwegian literature swedish literature de no sv da en cc by"
+    },
+    {
+      "id": "22de6c369c574dd384c268bd3f457dc2",
+      "title": "Colloquium Humanarum",
+      "publisher_name": "Universidade do Oeste Paulista",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Education",
+        "Education (General)"
+      ],
+      "subject_display": "Education · Education (General)",
+      "languages": [
+        "PT"
+      ],
+      "language_display": "PT",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "Rede Cariniana"
+      ],
+      "created_date": "2019-07-18T01:24:13Z",
+      "created_year": 2019,
+      "created_month": "2019-07",
+      "last_updated": "2026-10-28T17:52:11Z",
+      "website": "http://journal.unoeste.br/index.php/ch",
+      "author_guidelines_url": "http://journal.unoeste.br/index.php/ch/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "colloquium humanarum universidade do oeste paulista br south america education education general pt cc by nc nd"
+    },
     {
       "id": "7051913b8c0c44b19917349694714cf6",
       "title": "Educação em Foco",
@@ -62970,53 +63057,6 @@
       "author_guidelines_url": "http://journals.sfu.ca/jd/index.php/jd/about/submissions#onlineSubmissions",
       "article_records_exposed": null,
       "search_text": "journal for deradicalization daniel koehler de europe political science political science general de fr en cc by nc nd"
-    },
-    {
-      "id": "35a7572c5dcb416c9766b7ec617216d8",
-      "title": "AtoZ: Novas Práticas em Informação e Conhecimento",
-      "publisher_name": "Universidade Federal do Paraná",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Management information systems",
-        "Information technology",
-        "Bibliography. Library science. Information resources"
-      ],
-      "subject_display": "Management information systems · Information technology",
-      "languages": [
-        "ES",
-        "PT",
-        "EN"
-      ],
-      "language_display": "ES, PT, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review",
-        "Open peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review, Open peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Cariniana Network"
-      ],
-      "created_date": "2012-05-07T13:52:09Z",
-      "created_year": 2012,
-      "created_month": "2012-05",
-      "last_updated": "2026-09-17T10:55:20Z",
-      "website": "http://www.revistas.ufpr.br/atoz",
-      "author_guidelines_url": "http://revistas.ufpr.br/atoz/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "atoz novas praticas em informacao e conhecimento universidade federal do parana br south america management information systems information technology bibliography library science information resources es pt en cc by"
     },
     {
       "id": "65c86ba519884ec7affd76cc703f7e51",
@@ -590896,47 +590936,6 @@
       "author_guidelines_url": "https://ojs.ehu.eus/index.php/ASJU/gidalerroak",
       "article_records_exposed": null,
       "search_text": "anuario del seminario de filologia vasca julio de urquijo upv ehu press es europe philology linguistics es fr en eu cc by nc nd"
-    },
-    {
-      "id": "22de6c369c574dd384c268bd3f457dc2",
-      "title": "Colloquium Humanarum",
-      "publisher_name": "Universidade do Oeste Paulista",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Education",
-        "Education (General)"
-      ],
-      "subject_display": "Education · Education (General)",
-      "languages": [
-        "PT"
-      ],
-      "language_display": "PT",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [
-        "Rede Cariniana"
-      ],
-      "created_date": "2019-07-18T01:24:13Z",
-      "created_year": 2019,
-      "created_month": "2019-07",
-      "last_updated": "2026-09-17T10:46:40Z",
-      "website": "http://journal.unoeste.br/index.php/ch",
-      "author_guidelines_url": "http://journal.unoeste.br/index.php/ch/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "colloquium humanarum universidade do oeste paulista br south america education education general pt cc by nc nd"
     },
     {
       "id": "7bf271f37c8d420185a288eeb3503664",
