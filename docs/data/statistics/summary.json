@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T09:07:33.721289+00:00",
+  "generated_at": "2026-10-28T17:36:09.154642+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23673,
-  "article_total": 13876166,
+  "journal_total": 23672,
+  "article_total": 13877398,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23673
+      "value": 23672
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13876166,
+      "value": 13877398,
       "detail": "Global DOAJ article total"
     },
     {
@@ -871,7 +871,7 @@
         },
         {
           "name": "Yes",
-          "value": 8888
+          "value": 8887
         }
       ]
     },
@@ -885,7 +885,7 @@
         },
         {
           "name": "No",
-          "value": 8421
+          "value": 8420
         }
       ]
     },
@@ -941,7 +941,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10647
+          "value": 10646
         },
         {
           "name": "Asia",
@@ -991,7 +991,7 @@
         },
         {
           "name": "RU",
-          "value": 951
+          "value": 950
         },
         {
           "name": "IT",
@@ -1063,7 +1063,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12307
+          "value": 12306
         },
         {
           "name": "CC BY-NC-ND",
@@ -1113,7 +1113,7 @@
         },
         {
           "name": "Unspecified peer review",
-          "value": 1777
+          "value": 1776
         },
         {
           "name": "Editorial review",
@@ -1169,7 +1169,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1891
+          "value": 1892
         },
         {
           "name": "PMC",
@@ -1721,7 +1721,7 @@
             144,
             90,
             180,
-            171,
+            170,
             207,
             177,
             186,
@@ -1858,7 +1858,7 @@
         },
         {
           "name": "UA",
-          "value": 546
+          "value": 545
         },
         {
           "name": "NL",
@@ -2380,7 +2380,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-28T09:07:32.317912+00:00",
+    "fetched_at": "2026-10-28T17:36:07.635750+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
