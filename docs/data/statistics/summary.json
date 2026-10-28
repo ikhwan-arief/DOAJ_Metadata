@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T00:09:13.815668+00:00",
+  "generated_at": "2026-10-28T09:07:33.721289+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23672,
-  "article_total": 13872461,
+  "journal_total": 23673,
+  "article_total": 13876166,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23672
+      "value": 23673
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13872461,
+      "value": 13876166,
       "detail": "Global DOAJ article total"
     },
     {
@@ -867,7 +867,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14784
+          "value": 14785
         },
         {
           "name": "Yes",
@@ -881,7 +881,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15251
+          "value": 15252
         },
         {
           "name": "No",
@@ -949,7 +949,7 @@
         },
         {
           "name": "South America",
-          "value": 2857
+          "value": 2858
         },
         {
           "name": "North America",
@@ -975,7 +975,7 @@
         },
         {
           "name": "ES",
-          "value": 4142
+          "value": 4143
         },
         {
           "name": "PT",
@@ -1075,7 +1075,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2195
+          "value": 2196
         },
         {
           "name": "CC BY-SA",
@@ -1105,7 +1105,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15455
+          "value": 15456
         },
         {
           "name": "Single anonymous peer review",
@@ -1131,7 +1131,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20232
+          "value": 20233
         },
         {
           "name": "Handles",
@@ -1799,7 +1799,7 @@
             200,
             170,
             245,
-            142
+            143
           ]
         }
       ]
@@ -1878,7 +1878,7 @@
         },
         {
           "name": "AR",
-          "value": 419
+          "value": 420
         },
         {
           "name": "FR",
@@ -2380,7 +2380,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-28T00:09:12.320688+00:00",
+    "fetched_at": "2026-10-28T09:07:32.317912+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
