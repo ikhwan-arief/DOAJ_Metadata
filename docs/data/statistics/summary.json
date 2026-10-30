@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T22:10:41.059599+00:00",
+  "generated_at": "2026-10-30T17:25:29.311515+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23674,
-  "article_total": 13882846,
+  "journal_total": 23670,
+  "article_total": 13885701,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23674
+      "value": 23670
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13882846,
+      "value": 13885701,
       "detail": "Global DOAJ article total"
     },
     {
@@ -873,7 +873,7 @@
         },
         {
           "name": "Yes",
-          "value": 8886
+          "value": 8882
         }
       ]
     },
@@ -883,11 +883,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15253
+          "value": 15251
         },
         {
           "name": "No",
-          "value": 8421
+          "value": 8419
         }
       ]
     },
@@ -909,7 +909,7 @@
         },
         {
           "name": "US",
-          "value": 1356
+          "value": 1355
         },
         {
           "name": "IR",
@@ -943,7 +943,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10646
+          "value": 10645
         },
         {
           "name": "Asia",
@@ -955,7 +955,7 @@
         },
         {
           "name": "North America",
-          "value": 2098
+          "value": 2097
         },
         {
           "name": "Africa",
@@ -963,7 +963,7 @@
         },
         {
           "name": "Oceania",
-          "value": 190
+          "value": 188
         }
       ]
     },
@@ -973,15 +973,15 @@
       "items": [
         {
           "name": "EN",
-          "value": 19960
+          "value": 19956
         },
         {
           "name": "ES",
-          "value": 4143
+          "value": 4142
         },
         {
           "name": "PT",
-          "value": 2304
+          "value": 2303
         },
         {
           "name": "FR",
@@ -997,7 +997,7 @@
         },
         {
           "name": "IT",
-          "value": 922
+          "value": 921
         },
         {
           "name": "DE",
@@ -1065,15 +1065,15 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12305
+          "value": 12301
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5256
+          "value": 5255
         },
         {
           "name": "CC BY-NC",
-          "value": 5187
+          "value": 5186
         },
         {
           "name": "CC BY-NC-SA",
@@ -1107,11 +1107,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15459
+          "value": 15457
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6497
+          "value": 6496
         },
         {
           "name": "Unspecified peer review",
@@ -1119,7 +1119,7 @@
         },
         {
           "name": "Editorial review",
-          "value": 480
+          "value": 481
         },
         {
           "name": "Open peer review",
@@ -1133,7 +1133,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 20236
+          "value": 20233
         },
         {
           "name": "Handles",
@@ -1141,7 +1141,7 @@
         },
         {
           "name": "ARK",
-          "value": 65
+          "value": 66
         },
         {
           "name": "URN",
@@ -1159,11 +1159,11 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4806
+          "value": 4802
         },
         {
           "name": "Portico",
-          "value": 4672
+          "value": 4669
         },
         {
           "name": "LOCKSS",
@@ -1171,7 +1171,7 @@
         },
         {
           "name": "PKP PN",
-          "value": 1893
+          "value": 1894
         },
         {
           "name": "PMC",
@@ -1189,7 +1189,7 @@
         },
         {
           "name": "Wiley",
-          "value": 487
+          "value": 483
         },
         {
           "name": "MDPI AG",
@@ -1726,13 +1726,13 @@
             170,
             207,
             177,
-            186,
+            185,
             140,
             168,
             192,
             161,
             75,
-            175,
+            174,
             186,
             216,
             162,
@@ -1760,14 +1760,14 @@
             113,
             193,
             138,
-            147,
+            146,
             164,
             184,
             143,
             143,
             150,
             148,
-            123,
+            124,
             109,
             162,
             143,
@@ -1787,7 +1787,7 @@
             163,
             170,
             173,
-            190,
+            189,
             256,
             149,
             198,
@@ -1798,7 +1798,7 @@
             196,
             189,
             186,
-            200,
+            199,
             170,
             245,
             148
@@ -1824,7 +1824,7 @@
         },
         {
           "name": "US",
-          "value": 1356
+          "value": 1355
         },
         {
           "name": "IR",
@@ -1856,7 +1856,7 @@
         },
         {
           "name": "IT",
-          "value": 550
+          "value": 549
         },
         {
           "name": "UA",
@@ -1940,7 +1940,7 @@
         },
         {
           "name": "AU",
-          "value": 163
+          "value": 161
         },
         {
           "name": "PE",
@@ -2382,7 +2382,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-10-29T22:10:39.955500+00:00",
+    "fetched_at": "2026-10-30T17:25:27.876693+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
