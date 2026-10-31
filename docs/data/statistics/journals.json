@@ -1,8 +1,629 @@
 {
-  "generated_at": "2026-10-31T03:05:23.211844+00:00",
+  "generated_at": "2026-10-31T16:28:56.430742+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23168,
+  "item_count": 23171,
   "items": [
+    {
+      "id": "c22e23352e6c42d8b83451c6abf4c885",
+      "title": "Synergies Afrique des Grands Lacs",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature",
+        "African languages and literature"
+      ],
+      "subject_display": "Language and Literature · African languages and literature",
+      "languages": [
+        "EN",
+        "FR"
+      ],
+      "language_display": "EN, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2012-03-22T15:32:13Z",
+      "created_year": 2012,
+      "created_month": "2012-03",
+      "last_updated": "2026-10-31T16:15:29Z",
+      "website": "http://gerflint.fr/afrique-des-grands-lacs",
+      "author_guidelines_url": "http://gerflint.fr/afrique-des-grands-lacs/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies afrique des grands lacs groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature african languages and literature en fr cc by nc nd"
+    },
+    {
+      "id": "5fd83a98a1f040e481ba3bd026a510e5",
+      "title": "Synergies Algerie",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FR",
+        "AR"
+      ],
+      "language_display": "FR, AR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-28T12:50:15Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T16:04:20Z",
+      "website": "http://gerflint.fr/synergies-algerie",
+      "author_guidelines_url": "http://gerflint.fr/synergies-algerie/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies algerie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr ar cc by nc nd"
+    },
+    {
+      "id": "6641e4e5c1754d93b52baf0e6694c618",
+      "title": "Synergies Mexique",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Romanic languages"
+      ],
+      "subject_display": "Romanic languages",
+      "languages": [
+        "FR",
+        "ES"
+      ],
+      "language_display": "FR, ES",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2014-10-12T19:19:08Z",
+      "created_year": 2014,
+      "created_month": "2014-10",
+      "last_updated": "2026-10-31T15:51:33Z",
+      "website": "http://gerflint.fr/synergies-mexique",
+      "author_guidelines_url": "http://gerflint.fr/synergies-mexique/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies mexique groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe romanic languages fr es cc by nc nd"
+    },
+    {
+      "id": "801d824500a6490e8b0e0fa250176511",
+      "title": "Synergies Turquie",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "TR",
+        "FR",
+        "EN"
+      ],
+      "language_display": "TR, FR, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-28T12:57:27Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T15:39:44Z",
+      "website": "http://gerflint.fr/synergies-turquie",
+      "author_guidelines_url": "http://gerflint.fr/synergies-turquie/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies turquie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature tr fr en cc by nc nd"
+    },
+    {
+      "id": "ac42dd752dfb47e6836ad73400a8621c",
+      "title": "Synergies Pays Germanophones",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "DE",
+        "FR"
+      ],
+      "language_display": "DE, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2017-01-29T18:46:38Z",
+      "created_year": 2017,
+      "created_month": "2017-01",
+      "last_updated": "2026-10-31T15:18:40Z",
+      "website": "http://gerflint.fr/synergies-pays-germanophones",
+      "author_guidelines_url": "http://gerflint.fr/synergies-pays-germanophones/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies pays germanophones groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature de fr cc by nc nd"
+    },
+    {
+      "id": "077dec02bfc44e2ba88b04cf8d20801f",
+      "title": "Synergies Italie",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature",
+        "French literature - Italian literature - Spanish literature - Portuguese literature"
+      ],
+      "subject_display": "Language and Literature · French literature - Italian literature - Spanish literature - Portuguese literature",
+      "languages": [
+        "EN",
+        "FR",
+        "IT"
+      ],
+      "language_display": "EN, FR, IT",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-18T10:08:03Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T15:06:37Z",
+      "website": "http://gerflint.fr/synergies-italie",
+      "author_guidelines_url": "http://gerflint.fr/synergies-italie/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies italie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature french literature italian literature spanish literature portuguese literature en fr it cc by nc nd"
+    },
+    {
+      "id": "62eb7104aed2402389560bc1a3f40fba",
+      "title": "Synergies Espagne",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature",
+        "Romanic languages"
+      ],
+      "subject_display": "Language and Literature · Romanic languages",
+      "languages": [
+        "ES",
+        "FR"
+      ],
+      "language_display": "ES, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-03-15T13:32:59Z",
+      "created_year": 2011,
+      "created_month": "2011-03",
+      "last_updated": "2026-10-31T14:54:15Z",
+      "website": "https://gerflint.fr/synergies-espagne",
+      "author_guidelines_url": "http://gerflint.fr/synergies-espagne/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies espagne groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature romanic languages es fr cc by nc nd"
+    },
+    {
+      "id": "0bbfa9896c464307b45fb5992082887d",
+      "title": "Synergies Europe",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FR"
+      ],
+      "language_display": "FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-21T16:36:27Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T14:52:23Z",
+      "website": "http://gerflint.fr/synergies-europe",
+      "author_guidelines_url": "http://gerflint.fr/synergies-europe/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies europe groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
+    },
+    {
+      "id": "3158807029c640c489750d0b01418e9c",
+      "title": "Synergies Argentine",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "ES",
+        "FR"
+      ],
+      "language_display": "ES, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2012-11-30T14:00:27Z",
+      "created_year": 2012,
+      "created_month": "2012-11",
+      "last_updated": "2026-10-31T14:51:23Z",
+      "website": "http://gerflint.fr/argentine",
+      "author_guidelines_url": "http://gerflint.fr/argentine/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies argentine groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature es fr cc by nc nd"
+    },
+    {
+      "id": "4643ffc639f64292a6cf48775278910a",
+      "title": "Synergies Chine",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FR"
+      ],
+      "language_display": "FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-28T12:43:30Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T14:49:38Z",
+      "website": "http://gerflint.fr/synergies-chine",
+      "author_guidelines_url": "http://gerflint.fr/synergies-chine/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies chine groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
+    },
+    {
+      "id": "6999ad87dab149da9a3ed3883523fff1",
+      "title": "Politikon",
+      "publisher_name": "International Association for Political Science Students (IAPSS)",
+      "country": "CA",
+      "continent": "North America",
+      "subjects": [
+        "Political science"
+      ],
+      "subject_display": "Political science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-01-20T11:05:20Z",
+      "created_year": 2021,
+      "created_month": "2021-01",
+      "last_updated": "2026-10-31T12:20:59Z",
+      "website": "http://politikon.iapss.org/index.php/politikon",
+      "author_guidelines_url": "https://politikon.iapss.org/index.php/politikon/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "politikon international association for political science students iapss ca north america political science en cc by nc"
+    },
+    {
+      "id": "470bc3c7cc564827b77589a812e9b266",
+      "title": "Civil Engineering Sciences",
+      "publisher_name": "American Association for the Advancement of Science (AAAS)",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Editorial review",
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS",
+        "Portico"
+      ],
+      "created_date": "2026-10-31T10:24:21Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T10:24:21Z",
+      "website": "https://spj.science.org/journal/cesci",
+      "author_guidelines_url": "https://spj.science.org/page/cesci/for-authors",
+      "article_records_exposed": null,
+      "search_text": "civil engineering sciences american association for the advancement of science aaas us north america engineering general civil engineering general en cc by"
+    },
+    {
+      "id": "fc9285d9ba1b42bdb523595d20f5307a",
+      "title": "International Journal of Wireless and Ad Hoc Communication",
+      "publisher_name": "American Scientific Publishing Group (ASPG)",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Technology"
+      ],
+      "subject_display": "Technology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review",
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review, Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-31T10:20:52Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T10:20:52Z",
+      "website": "https://www.americaspg.com/journal/20",
+      "author_guidelines_url": "https://www.americaspg.com/page/Author%20Guidelines?journal=20",
+      "article_records_exposed": null,
+      "search_text": "international journal of wireless and ad hoc communication american scientific publishing group aspg us north america technology en cc by"
+    },
+    {
+      "id": "1de138f58e0947f29355921a85521a48",
+      "title": "Mathematical Sciences",
+      "publisher_name": "OICC Press",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Mathematics"
+      ],
+      "subject_display": "Mathematics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1490 GBP",
+      "apc_max_eur": 1786.96,
+      "apc_max_usd": 1996.45,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "Portico"
+      ],
+      "created_date": "2026-10-31T10:14:13Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T10:14:13Z",
+      "website": "https://oiccpress.com/ms/index",
+      "author_guidelines_url": "https://oiccpress.com/ms/guide-for-authors",
+      "article_records_exposed": null,
+      "search_text": "mathematical sciences oicc press gb europe mathematics en cc by"
+    },
+    {
+      "id": "15ed05f84c2541819704ef3062c725f2",
+      "title": "International Journal of African Studies",
+      "publisher_name": "AveronOpen",
+      "country": "ZA",
+      "continent": "Africa",
+      "subjects": [
+        "Social Sciences"
+      ],
+      "subject_display": "Social Sciences",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1250 USD",
+      "apc_max_eur": 1118.86,
+      "apc_max_usd": 1250.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-31T09:19:36Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T09:19:36Z",
+      "website": "https://www.averonopen.com/journals/ijafrs/about-the-journal",
+      "author_guidelines_url": "https://www.averonopen.com/ijafrs/guidelines-to-authors",
+      "article_records_exposed": null,
+      "search_text": "international journal of african studies averonopen za africa social sciences en cc by"
+    },
     {
       "id": "018200c5999c42aaa5462c852ca7ddb5",
       "title": "Revista Seminario Mayor de Medellín",
@@ -82984,46 +83605,6 @@
       "author_guidelines_url": "https://www.sciencedirect.com/journal/science-of-remote-sensing/publish/guide-for-authors",
       "article_records_exposed": null,
       "search_text": "science of remote sensing elsevier nl europe physical geography science en cc by cc by nc cc by nc nd"
-    },
-    {
-      "id": "6999ad87dab149da9a3ed3883523fff1",
-      "title": "Politikon",
-      "publisher_name": "International Association for Political Science Students (IAPSS)",
-      "country": "CA",
-      "continent": "North America",
-      "subjects": [
-        "Political science"
-      ],
-      "subject_display": "Political science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-01-20T11:05:20Z",
-      "created_year": 2021,
-      "created_month": "2021-01",
-      "last_updated": "2026-09-17T10:54:58Z",
-      "website": "http://politikon.iapss.org/index.php/politikon",
-      "author_guidelines_url": "https://politikon.iapss.org/index.php/politikon/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "politikon international association for political science students iapss ca north america political science en cc by nc"
     },
     {
       "id": "f32108ec73a64c6da1fa892990ebc5db",
@@ -208936,90 +209517,6 @@
       "author_guidelines_url": "https://deturope.eu/artkey/inf-990000-0400_Authors.php",
       "article_records_exposed": null,
       "search_text": "deturope university of south bohemia cz europe recreation leisure urban groups the city urban sociology cs en hu sr cc by"
-    },
-    {
-      "id": "c22e23352e6c42d8b83451c6abf4c885",
-      "title": "Synergies Afrique des Grands Lacs",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature",
-        "African languages and literature"
-      ],
-      "subject_display": "Language and Literature · African languages and literature",
-      "languages": [
-        "EN",
-        "FR"
-      ],
-      "language_display": "EN, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2012-03-22T15:32:13Z",
-      "created_year": 2012,
-      "created_month": "2012-03",
-      "last_updated": "2026-09-17T10:53:12Z",
-      "website": "http://gerflint.fr/afrique-des-grands-lacs",
-      "author_guidelines_url": "http://gerflint.fr/afrique-des-grands-lacs/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies afrique des grands lacs groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature african languages and literature en fr cc by nc nd"
-    },
-    {
-      "id": "62eb7104aed2402389560bc1a3f40fba",
-      "title": "Synergies Espagne",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature",
-        "Romanic languages"
-      ],
-      "subject_display": "Language and Literature · Romanic languages",
-      "languages": [
-        "ES",
-        "FR"
-      ],
-      "language_display": "ES, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-03-15T13:32:59Z",
-      "created_year": 2011,
-      "created_month": "2011-03",
-      "last_updated": "2026-09-17T10:53:12Z",
-      "website": "https://gerflint.fr/synergies-espagne",
-      "author_guidelines_url": "http://gerflint.fr/synergies-espagne/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies espagne groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature romanic languages es fr cc by nc nd"
     },
     {
       "id": "6f026cd673f34efda19dae9c379ee952",
@@ -481889,47 +482386,6 @@
       "search_text": "canadian journal of gastroenterology and hepatology wiley gb europe diseases of the digestive system gastroenterology en cc by"
     },
     {
-      "id": "3158807029c640c489750d0b01418e9c",
-      "title": "Synergies Argentine",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "ES",
-        "FR"
-      ],
-      "language_display": "ES, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2012-11-30T14:00:27Z",
-      "created_year": 2012,
-      "created_month": "2012-11",
-      "last_updated": "2026-09-17T10:48:43Z",
-      "website": "http://gerflint.fr/argentine",
-      "author_guidelines_url": "http://gerflint.fr/argentine/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies argentine groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature es fr cc by nc nd"
-    },
-    {
       "id": "14aa4fa05c66431e8033169cb0482918",
       "title": "Case Reports in Orthopedics",
       "publisher_name": "Wiley",
@@ -529265,46 +529721,6 @@
       "search_text": "ilmu kelautan diponegoro university association of indonesian coastal management experts id asia oceanography biology general en cc by sa"
     },
     {
-      "id": "afc69c648908469d95a996123949a9af",
-      "title": "Southwest Respiratory and Critical Care Chronicles",
-      "publisher_name": "Southwest Respiratory and Critical Care Chronicles",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Diseases of the respiratory system"
-      ],
-      "subject_display": "Diseases of the respiratory system",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-08-04T13:22:38Z",
-      "created_year": 2017,
-      "created_month": "2017-08",
-      "last_updated": "2026-09-17T10:47:51Z",
-      "website": "https://pulmonarychronicles.com/index.php/pulmonarychronicles/index",
-      "author_guidelines_url": "https://pulmonarychronicles.com/index.php/pulmonarychronicles/information/authors",
-      "article_records_exposed": null,
-      "search_text": "southwest respiratory and critical care chronicles southwest respiratory and critical care chronicles us north america diseases of the respiratory system en cc by sa"
-    },
-    {
       "id": "0ccae5add5b943ea81248cb8cd417846",
       "title": "Revista de Ciências Humanas",
       "publisher_name": "Universidade Federal de Santa Catarina (UFSC)",
@@ -537486,46 +537902,6 @@
       "search_text": "mukaddime mardin artuklu university tr asia philosophy psychology religion practical theology doctrinal theology tr ku en ar cc by nc"
     },
     {
-      "id": "4643ffc639f64292a6cf48775278910a",
-      "title": "Synergies Chine",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "FR"
-      ],
-      "language_display": "FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-28T12:43:30Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:47:39Z",
-      "website": "http://gerflint.fr/synergies-chine",
-      "author_guidelines_url": "http://gerflint.fr/synergies-chine/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies chine groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
-    },
-    {
       "id": "b122809686b047b5b5b61c91da19d0f1",
       "title": "Synergies Chili",
       "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
@@ -538070,45 +538446,6 @@
       "search_text": "italian journal of sociology of education padova university press it europe social sciences en publisher s own license"
     },
     {
-      "id": "ac42dd752dfb47e6836ad73400a8621c",
-      "title": "Synergies Pays Germanophones",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "DE",
-        "FR"
-      ],
-      "language_display": "DE, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2017-01-29T18:46:38Z",
-      "created_year": 2017,
-      "created_month": "2017-01",
-      "last_updated": "2026-09-17T10:47:38Z",
-      "website": "http://gerflint.fr/synergies-pays-germanophones",
-      "author_guidelines_url": "http://gerflint.fr/synergies-pays-germanophones/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies pays germanophones groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature de fr cc by nc nd"
-    },
-    {
       "id": "69a587ff0aaf4e8387ab3b5b6d99a634",
       "title": "Hong Kong Physiotherapy Journal",
       "publisher_name": "World Scientific Publishing",
@@ -538147,47 +538484,6 @@
       "author_guidelines_url": "https://www.worldscientific.com/page/hkpj/submission-guidelines",
       "article_records_exposed": null,
       "search_text": "hong kong physiotherapy journal world scientific publishing sg asia therapeutics pharmacology en cc by nc nd"
-    },
-    {
-      "id": "6641e4e5c1754d93b52baf0e6694c618",
-      "title": "Synergies Mexique",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Romanic languages"
-      ],
-      "subject_display": "Romanic languages",
-      "languages": [
-        "FR",
-        "ES"
-      ],
-      "language_display": "FR, ES",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2014-10-12T19:19:08Z",
-      "created_year": 2014,
-      "created_month": "2014-10",
-      "last_updated": "2026-09-17T10:47:38Z",
-      "website": "http://gerflint.fr/synergies-mexique",
-      "author_guidelines_url": "http://gerflint.fr/synergies-mexique/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies mexique groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe romanic languages fr es cc by nc nd"
     },
     {
       "id": "21ed9a1fa8054dcc9eb29808f600334d",
@@ -737232,47 +737528,6 @@
       "search_text": "dimension empresarial editorial uniautonoma co south america business en pt es cc by nc nd"
     },
     {
-      "id": "5fd83a98a1f040e481ba3bd026a510e5",
-      "title": "Synergies Algerie",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "FR",
-        "AR"
-      ],
-      "language_display": "FR, AR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-28T12:50:15Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:43:31Z",
-      "website": "http://gerflint.fr/synergies-algerie",
-      "author_guidelines_url": "http://gerflint.fr/synergies-algerie/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies algerie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr ar cc by nc nd"
-    },
-    {
       "id": "660cce678a754987b0fdc0715c7ec961",
       "title": "Revista de Paz y Conflictos",
       "publisher_name": "Universidad de Granada",
@@ -739504,48 +739759,6 @@
       "author_guidelines_url": "https://revistas.usil.edu.pe/index.php/pyr/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "propositos y representaciones universidad san ignacio de loyola pe south america philosophy psychology religion psychology es en cc by nc nd"
-    },
-    {
-      "id": "801d824500a6490e8b0e0fa250176511",
-      "title": "Synergies Turquie",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "TR",
-        "FR",
-        "EN"
-      ],
-      "language_display": "TR, FR, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-28T12:57:27Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:43:26Z",
-      "website": "http://gerflint.fr/synergies-turquie",
-      "author_guidelines_url": "http://gerflint.fr/synergies-turquie/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies turquie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature tr fr en cc by nc nd"
     },
     {
       "id": "f73ca8a5f8fa414a8d0fb918707fe590",
@@ -756111,89 +756324,6 @@
       "author_guidelines_url": "https://dankogeorgiev.com/ojs/index.php/quanta/about/submissions",
       "article_records_exposed": null,
       "search_text": "quanta quanta bg europe science en cc by"
-    },
-    {
-      "id": "0bbfa9896c464307b45fb5992082887d",
-      "title": "Synergies Europe",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "FR"
-      ],
-      "language_display": "FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-21T16:36:27Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:43:04Z",
-      "website": "http://gerflint.fr/synergies-europe",
-      "author_guidelines_url": "http://gerflint.fr/synergies-europe/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies europe groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
-    },
-    {
-      "id": "077dec02bfc44e2ba88b04cf8d20801f",
-      "title": "Synergies Italie",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature",
-        "French literature - Italian literature - Spanish literature - Portuguese literature"
-      ],
-      "subject_display": "Language and Literature · French literature - Italian literature - Spanish literature - Portuguese literature",
-      "languages": [
-        "EN",
-        "FR",
-        "IT"
-      ],
-      "language_display": "EN, FR, IT",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-18T10:08:03Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:43:04Z",
-      "website": "http://gerflint.fr/synergies-italie",
-      "author_guidelines_url": "http://gerflint.fr/synergies-italie/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies italie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature french literature italian literature spanish literature portuguese literature en fr it cc by nc nd"
     },
     {
       "id": "41b2a30f5808418098adfca448171199",
