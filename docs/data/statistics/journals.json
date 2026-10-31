@@ -1,8 +1,342 @@
 {
-  "generated_at": "2026-10-31T16:28:56.430742+00:00",
+  "generated_at": "2026-10-31T20:47:02.165425+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23171,
+  "item_count": 23174,
   "items": [
+    {
+      "id": "ea98af3bfe8e4e64a66b2b65a97b52e8",
+      "title": "World Journal of Experimental Biosciences",
+      "publisher_name": "Unicorn Scientific Publishing",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Biology (General)"
+      ],
+      "subject_display": "Biology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive",
+        "PKP PN"
+      ],
+      "created_date": "2026-10-31T20:44:05Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T20:44:05Z",
+      "website": "https://journals.uniscipub.com/index.php/Wjebs/index",
+      "author_guidelines_url": "https://journals.uniscipub.com/index.php/Wjebs/2",
+      "article_records_exposed": null,
+      "search_text": "world journal of experimental biosciences unicorn scientific publishing us north america biology general en cc by"
+    },
+    {
+      "id": "828e8289c2dc4ed5b716fe2c196447a9",
+      "title": "حکمرانی منابع طبیعی",
+      "publisher_name": "University of Tehran",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Environmental sciences",
+        "Political science (General)"
+      ],
+      "subject_display": "Environmental sciences · Political science (General)",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "5000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 5.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-31T19:17:20Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T19:17:20Z",
+      "website": "https://jnrg.ut.ac.ir/?lang=en",
+      "author_guidelines_url": "https://jnrg.ut.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "university of tehran ir asia environmental sciences political science general fa cc by nc"
+    },
+    {
+      "id": "7c6967509e454f50a3a04d1af4a8a58f",
+      "title": "مدیریت جامع حوزه‌های آبخیز",
+      "publisher_name": "Ilam University",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Environmental sciences"
+      ],
+      "subject_display": "Environmental sciences",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-31T19:14:07Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T19:14:07Z",
+      "website": "https://iwm.ilam.ac.ir/?lang=fa",
+      "author_guidelines_url": "https://iwm.ilam.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "ilam university ir asia environmental sciences fa cc by"
+    },
+    {
+      "id": "60cffe14ac424fe9a3dfa772fb62136c",
+      "title": "Circus: Arts, Life & Sciences",
+      "publisher_name": "Michigan Publishing",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "The performing arts. Show business",
+        "Visual arts"
+      ],
+      "subject_display": "The performing arts. Show business · Visual arts",
+      "languages": [
+        "FR",
+        "EN"
+      ],
+      "language_display": "FR, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Editorial review",
+        "Single anonymous peer review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Editorial review, Single anonymous peer review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-12-07T10:12:35Z",
+      "created_year": 2023,
+      "created_month": "2023-12",
+      "last_updated": "2026-10-31T19:03:15Z",
+      "website": "https://journals.publishing.umich.edu/circus/",
+      "author_guidelines_url": "https://journals.publishing.umich.edu/circus/submissions/",
+      "article_records_exposed": null,
+      "search_text": "circus arts life sciences michigan publishing us north america the performing arts show business visual arts fr en cc by nc nd"
+    },
+    {
+      "id": "8e0660f12f7e413eafde26982b409922",
+      "title": "Journal of Biomedical Practitioners",
+      "publisher_name": "Università degli Studi di Torino",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Medicine",
+        "Therapeutics. Pharmacology"
+      ],
+      "subject_display": "Medicine · Therapeutics. Pharmacology",
+      "languages": [
+        "EN",
+        "IT"
+      ],
+      "language_display": "EN, IT",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2018-05-21T13:45:47Z",
+      "created_year": 2018,
+      "created_month": "2018-05",
+      "last_updated": "2026-10-31T18:19:38Z",
+      "website": "http://www.ojs.unito.it/index.php/jbp/index",
+      "author_guidelines_url": "http://www.ojs.unito.it/index.php/jbp/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of biomedical practitioners universita degli studi di torino it europe medicine therapeutics pharmacology en it cc by sa"
+    },
+    {
+      "id": "0a307bab673d43e6a9e76dc8c35b5589",
+      "title": "Synergies France",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FR"
+      ],
+      "language_display": "FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-11-01T13:11:06Z",
+      "created_year": 2011,
+      "created_month": "2011-11",
+      "last_updated": "2026-10-31T16:50:23Z",
+      "website": "http://gerflint.fr/synergies-france",
+      "author_guidelines_url": "http://gerflint.fr/synergies-france/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies france groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
+    },
+    {
+      "id": "38289815cd4c42e4b8e2bb6f351b91f0",
+      "title": "Synergies Roumanie",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature",
+        "Social sciences (General)"
+      ],
+      "subject_display": "Language and Literature · Social sciences (General)",
+      "languages": [
+        "FR"
+      ],
+      "language_display": "FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-07-26T09:52:07Z",
+      "created_year": 2011,
+      "created_month": "2011-07",
+      "last_updated": "2026-10-31T16:40:18Z",
+      "website": "https://gerflint.fr/synergies-roumanie",
+      "author_guidelines_url": "https://gerflint.fr/synergies-roumanie/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies roumanie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature social sciences general fr cc by nc nd"
+    },
+    {
+      "id": "b122809686b047b5b5b61c91da19d0f1",
+      "title": "Synergies Chili",
+      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
+      "country": "FR",
+      "continent": "Europe",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FR",
+        "ES"
+      ],
+      "language_display": "FR, ES",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2011-09-22T13:08:09Z",
+      "created_year": 2011,
+      "created_month": "2011-09",
+      "last_updated": "2026-10-31T16:29:17Z",
+      "website": "http://gerflint.fr/synergies-chili",
+      "author_guidelines_url": "http://gerflint.fr/synergies-chili/consignes-aux-auteurs",
+      "article_records_exposed": null,
+      "search_text": "synergies chili groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr es cc by nc nd"
+    },
     {
       "id": "c22e23352e6c42d8b83451c6abf4c885",
       "title": "Synergies Afrique des Grands Lacs",
@@ -1342,50 +1676,6 @@
       "author_guidelines_url": "https://are-journal.com/are/about/submissions",
       "article_records_exposed": null,
       "search_text": "agricultural and resource economics institute of eastern european research and consulting ua europe agriculture general business en pl uk cc by"
-    },
-    {
-      "id": "60cffe14ac424fe9a3dfa772fb62136c",
-      "title": "Circus: Arts, Life & Sciences",
-      "publisher_name": "Michigan Publishing",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "The performing arts. Show business",
-        "Visual arts"
-      ],
-      "subject_display": "The performing arts. Show business · Visual arts",
-      "languages": [
-        "EN",
-        "FR"
-      ],
-      "language_display": "EN, FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Editorial review",
-        "Single anonymous peer review",
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Editorial review, Single anonymous peer review, Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-12-07T10:12:35Z",
-      "created_year": 2023,
-      "created_month": "2023-12",
-      "last_updated": "2026-10-30T09:33:44Z",
-      "website": "https://journals.publishing.umich.edu/circus/",
-      "author_guidelines_url": "https://journals.publishing.umich.edu/circus/submissions/",
-      "article_records_exposed": null,
-      "search_text": "circus arts life sciences michigan publishing us north america the performing arts show business visual arts en fr cc by nc nd"
     },
     {
       "id": "869e1b6eda7e4a7384528e8145cb78f7",
@@ -367289,48 +367579,6 @@
       "search_text": "chinese journal of mechanical engineering keai communications co ltd cn asia ocean engineering mechanical engineering and machinery en cc by cc by nc nd"
     },
     {
-      "id": "8e0660f12f7e413eafde26982b409922",
-      "title": "Journal of Biomedical Practitioners",
-      "publisher_name": "Università degli Studi di Torino",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Medicine",
-        "Therapeutics. Pharmacology"
-      ],
-      "subject_display": "Medicine · Therapeutics. Pharmacology",
-      "languages": [
-        "EN",
-        "IT"
-      ],
-      "language_display": "EN, IT",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2018-05-21T13:45:47Z",
-      "created_year": 2018,
-      "created_month": "2018-05",
-      "last_updated": "2026-09-17T10:50:45Z",
-      "website": "http://www.ojs.unito.it/index.php/jbp/index",
-      "author_guidelines_url": "http://www.ojs.unito.it/index.php/jbp/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of biomedical practitioners universita degli studi di torino it europe medicine therapeutics pharmacology en it cc by sa"
-    },
-    {
       "id": "e30d4d43490343eda22bceed3ef61847",
       "title": "Enfermería: Cuidados Humanizados",
       "publisher_name": "Universidad Católica del Uruguay",
@@ -537902,47 +538150,6 @@
       "search_text": "mukaddime mardin artuklu university tr asia philosophy psychology religion practical theology doctrinal theology tr ku en ar cc by nc"
     },
     {
-      "id": "b122809686b047b5b5b61c91da19d0f1",
-      "title": "Synergies Chili",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "FR",
-        "ES"
-      ],
-      "language_display": "FR, ES",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-09-22T13:08:09Z",
-      "created_year": 2011,
-      "created_month": "2011-09",
-      "last_updated": "2026-09-17T10:47:39Z",
-      "website": "http://gerflint.fr/synergies-chili",
-      "author_guidelines_url": "http://gerflint.fr/synergies-chili/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies chili groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr es cc by nc nd"
-    },
-    {
       "id": "4bdbab3b4dea484fbcf0535c084e32c6",
       "title": "Food & Nutrition Research",
       "publisher_name": "Swedish Nutrition Foundation",
@@ -566309,46 +566516,6 @@
       "author_guidelines_url": "http://www.mdpi.com/journal/agriculture/instructions",
       "article_records_exposed": null,
       "search_text": "agriculture mdpi ag ch europe agriculture general en cc by"
-    },
-    {
-      "id": "0a307bab673d43e6a9e76dc8c35b5589",
-      "title": "Synergies France",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature"
-      ],
-      "subject_display": "Language and Literature",
-      "languages": [
-        "FR"
-      ],
-      "language_display": "FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-11-01T13:11:06Z",
-      "created_year": 2011,
-      "created_month": "2011-11",
-      "last_updated": "2026-09-17T10:46:58Z",
-      "website": "http://gerflint.fr/synergies-france",
-      "author_guidelines_url": "http://gerflint.fr/synergies-france/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies france groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature fr cc by nc nd"
     },
     {
       "id": "fbd41456ffdd41a79aac315cd1667f17",
@@ -845936,47 +846103,6 @@
       "author_guidelines_url": "http://www.uhu.es/publicaciones/ojs/index.php/et/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "enlightening tourism a pathmaking journal university of huelva es europe geography anthropology recreation geography general en cc by nc"
-    },
-    {
-      "id": "38289815cd4c42e4b8e2bb6f351b91f0",
-      "title": "Synergies Roumanie",
-      "publisher_name": "Groupe d’Etudes et de Recherches pour le Français Langue Internationale (GERFLINT)",
-      "country": "FR",
-      "continent": "Europe",
-      "subjects": [
-        "Language and Literature",
-        "Social sciences (General)"
-      ],
-      "subject_display": "Language and Literature · Social sciences (General)",
-      "languages": [
-        "FR"
-      ],
-      "language_display": "FR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2011-07-26T09:52:07Z",
-      "created_year": 2011,
-      "created_month": "2011-07",
-      "last_updated": "2026-09-17T10:41:09Z",
-      "website": "https://gerflint.fr/synergies-roumanie",
-      "author_guidelines_url": "https://gerflint.fr/synergies-roumanie/consignes-aux-auteurs",
-      "article_records_exposed": null,
-      "search_text": "synergies roumanie groupe d etudes et de recherches pour le francais langue internationale gerflint fr europe language and literature social sciences general fr cc by nc nd"
     },
     {
       "id": "e45cbddc2ceb4e6b8ec1dca613e0fde2",
