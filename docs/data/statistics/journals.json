@@ -1,8 +1,129 @@
 {
-  "generated_at": "2026-10-31T20:47:02.165425+00:00",
+  "generated_at": "2026-10-31T23:53:01.092340+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23174,
+  "item_count": 23177,
   "items": [
+    {
+      "id": "d7314fe453d644789d11d8b67a46c69c",
+      "title": "پژوهشنامه ادب غنایی",
+      "publisher_name": "University of Sistan and Baluchestan",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Language and Literature"
+      ],
+      "subject_display": "Language and Literature",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "6000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 6.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-31T21:29:51Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T21:29:51Z",
+      "website": "https://jllr.usb.ac.ir/?lang=en",
+      "author_guidelines_url": "https://jllr.usb.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "university of sistan and baluchestan ir asia language and literature fa cc by nc"
+    },
+    {
+      "id": "0874c192772d440d8a48d52d5c1b51bf",
+      "title": "Journal of Fine Arts: Architecture & Urban Planning",
+      "publisher_name": "University of Tehran Press",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Aesthetics of cities. City planning and beautifying",
+        "Social sciences (General)"
+      ],
+      "subject_display": "Aesthetics of cities. City planning and beautifying · Social sciences (General)",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-31T20:51:45Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T20:51:45Z",
+      "website": "https://jfaup.ut.ac.ir/?lang=en",
+      "author_guidelines_url": "https://jfaup.ut.ac.ir/p_instructions-authors?lang=en",
+      "article_records_exposed": null,
+      "search_text": "journal of fine arts architecture urban planning university of tehran press ir asia aesthetics of cities city planning and beautifying social sciences general fa cc by nc"
+    },
+    {
+      "id": "20275fd1ee1a43369ac811e9adc3aa10",
+      "title": "آموزش و اخلاق در پرستاری",
+      "publisher_name": "Jahrom University of Medical Sciences",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Nursing"
+      ],
+      "subject_display": "Nursing",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-10-31T20:49:08Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-10-31T20:49:08Z",
+      "website": "https://ethic.jums.ac.ir/?lang=en",
+      "author_guidelines_url": "https://ethic.jums.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "jahrom university of medical sciences ir asia nursing fa cc by nc"
+    },
     {
       "id": "ea98af3bfe8e4e64a66b2b65a97b52e8",
       "title": "World Journal of Experimental Biosciences",
