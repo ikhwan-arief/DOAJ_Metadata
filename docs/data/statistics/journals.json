@@ -1,8 +1,92 @@
 {
-  "generated_at": "2026-11-01T17:23:29.822766+00:00",
+  "generated_at": "2026-11-01T21:28:44.065993+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23177,
+  "item_count": 23178,
   "items": [
+    {
+      "id": "9fb71ebbc206453ab4881755d7c1439b",
+      "title": "Pólusok Folyóirat",
+      "publisher_name": "University of Pécs",
+      "country": "HU",
+      "continent": "Europe",
+      "subjects": [
+        "Political science"
+      ],
+      "subject_display": "Political science",
+      "languages": [
+        "HU",
+        "EN"
+      ],
+      "language_display": "HU, EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-10-30T17:32:11Z",
+      "created_year": 2025,
+      "created_month": "2025-10",
+      "last_updated": "2026-11-01T19:39:00Z",
+      "website": "https://journals.lib.pte.hu/index.php/polusok",
+      "author_guidelines_url": "https://journals.lib.pte.hu/index.php/polusok/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "polusok folyoirat university of pecs hu europe political science hu en cc by nc sa"
+    },
+    {
+      "id": "7a4a26d60bd74e239f2ae0a509d30264",
+      "title": "Интеллектуальный транспорт",
+      "publisher_name": "JSC \"Research and Design Institute for Informatization, Automation and Communication in Railway Transport\"",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Transportation engineering"
+      ],
+      "subject_display": "Transportation engineering",
+      "languages": [
+        "EN",
+        "RU"
+      ],
+      "language_display": "EN, RU",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Russian State Library (RSL)"
+      ],
+      "created_date": "2026-11-01T18:47:20Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-01T18:47:20Z",
+      "website": "https://www.intelligent-transport.ru/en",
+      "author_guidelines_url": "https://www.intelligent-transport.ru/jour/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "jsc research and design institute for informatization automation and communication in railway transport ru europe transportation engineering en ru cc by"
+    },
     {
       "id": "f5becc8dd76449ccbb1f19409c19ed69",
       "title": "Primary: Jurnal Pendidikan Guru Sekolah Dasar",
@@ -38,7 +122,7 @@
       "created_date": "2022-06-06T11:38:49Z",
       "created_year": 2022,
       "created_month": "2022-06",
-      "last_updated": "2026-11-01T16:51:20Z",
+      "last_updated": "2026-11-01T18:11:41Z",
       "website": "https://primary.ejournal.unri.ac.id/index.php/JPFKIP",
       "author_guidelines_url": "https://primary.ejournal.unri.ac.id/index.php/JPFKIP/authors-guidelines",
       "article_records_exposed": null,
@@ -189500,47 +189584,6 @@
       "author_guidelines_url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=kepo20",
       "article_records_exposed": null,
       "search_text": "epigenetics reports taylor francis group gb europe biology general medicine en cc by cc by nc"
-    },
-    {
-      "id": "9fb71ebbc206453ab4881755d7c1439b",
-      "title": "Pólusok Folyóirat",
-      "publisher_name": "University of Pécs",
-      "country": "HU",
-      "continent": "Europe",
-      "subjects": [
-        "Political science"
-      ],
-      "subject_display": "Political science",
-      "languages": [
-        "HU",
-        "EN"
-      ],
-      "language_display": "HU, EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-10-30T17:32:11Z",
-      "created_year": 2025,
-      "created_month": "2025-10",
-      "last_updated": "2026-09-17T10:53:32Z",
-      "website": "https://journals.lib.pte.hu/index.php/polusok",
-      "author_guidelines_url": "https://journals.lib.pte.hu/index.php/polusok/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "polusok folyoirat university of pecs hu europe political science hu en cc by nc sa"
     },
     {
       "id": "d8296f4ed8d04bb9a86d4a442e6d3d51",
