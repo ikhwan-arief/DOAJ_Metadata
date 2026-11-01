@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-11-01T03:00:49.453216+00:00",
+  "generated_at": "2026-11-01T10:05:25.089157+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23177,
   "items": [
+    {
+      "id": "efce7e14d71344c8a488d85359c0b6c5",
+      "title": "Radioengineering",
+      "publisher_name": "Spolecnost pro radioelektronicke inzenyrstvi / Society for Radioelectronic Engineering",
+      "country": "CZ",
+      "continent": "Europe",
+      "subjects": [
+        "Electrical engineering. Electronics. Nuclear engineering"
+      ],
+      "subject_display": "Electrical engineering. Electronics. Nuclear engineering",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "10000 CZK / 400 EUR",
+      "apc_max_eur": 410.63,
+      "apc_max_usd": 458.75,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2008-03-12T08:32:11Z",
+      "created_year": 2008,
+      "created_month": "2008-03",
+      "last_updated": "2026-11-01T07:05:07Z",
+      "website": "https://www.radioeng.cz",
+      "author_guidelines_url": "https://www.radioeng.cz/info/10-guidelines-for-authors.htm",
+      "article_records_exposed": null,
+      "search_text": "radioengineering spolecnost pro radioelektronicke inzenyrstvi society for radioelectronic engineering cz europe electrical engineering electronics nuclear engineering en cc by"
+    },
     {
       "id": "d7314fe453d644789d11d8b67a46c69c",
       "title": "پژوهشنامه ادب غنایی",
@@ -47660,46 +47700,6 @@
       "author_guidelines_url": "https://revistas.unc.edu.ar/index.php/agris/about/submissions",
       "article_records_exposed": null,
       "search_text": "agriscientia facultad de ciencias agropecuarias universidad nacional de cordoba ar south america agriculture es en cc by sa"
-    },
-    {
-      "id": "efce7e14d71344c8a488d85359c0b6c5",
-      "title": "Radioengineering",
-      "publisher_name": "Spolecnost pro radioelektronicke inzenyrstvi / Society for Radioelectronic Engineering",
-      "country": "CZ",
-      "continent": "Europe",
-      "subjects": [
-        "Electrical engineering. Electronics. Nuclear engineering"
-      ],
-      "subject_display": "Electrical engineering. Electronics. Nuclear engineering",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "10000 CZK / 400 EUR",
-      "apc_max_eur": 410.63,
-      "apc_max_usd": 458.75,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2008-03-12T08:32:11Z",
-      "created_year": 2008,
-      "created_month": "2008-03",
-      "last_updated": "2026-09-17T10:55:36Z",
-      "website": "https://www.radioeng.cz",
-      "author_guidelines_url": "https://www.radioeng.cz/info/10-guidelines-for-authors.htm",
-      "article_records_exposed": null,
-      "search_text": "radioengineering spolecnost pro radioelektronicke inzenyrstvi society for radioelectronic engineering cz europe electrical engineering electronics nuclear engineering en cc by"
     },
     {
       "id": "26a43797cdc148be8caca99dd2bd7bc8",
