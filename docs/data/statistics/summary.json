@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T03:09:58.799449+00:00",
+  "generated_at": "2026-11-02T14:05:11.852935+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23178,
-  "article_total": 13904146,
+  "article_total": 13907761,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13904146,
+      "value": 13907761,
       "detail": "Global DOAJ article total"
     },
     {
@@ -869,11 +869,11 @@
       "items": [
         {
           "name": "No",
-          "value": 14490
+          "value": 14491
         },
         {
           "name": "Yes",
-          "value": 8688
+          "value": 8687
         }
       ]
     },
@@ -929,7 +929,7 @@
         },
         {
           "name": "TR",
-          "value": 713
+          "value": 714
         },
         {
           "name": "RU",
@@ -1065,7 +1065,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12016
+          "value": 12015
         },
         {
           "name": "CC BY-NC-ND",
@@ -1073,7 +1073,7 @@
         },
         {
           "name": "CC BY-NC",
-          "value": 5084
+          "value": 5085
         },
         {
           "name": "CC BY-NC-SA",
@@ -1133,7 +1133,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19865
+          "value": 19866
         },
         {
           "name": "Handles",
@@ -1159,7 +1159,7 @@
       "items": [
         {
           "name": "CLOCKSS",
-          "value": 4691
+          "value": 4690
         },
         {
           "name": "Portico",
@@ -1167,11 +1167,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2018
+          "value": 2017
         },
         {
           "name": "PKP PN",
-          "value": 1864
+          "value": 1863
         },
         {
           "name": "PMC",
@@ -1797,13 +1797,13 @@
             161,
             171,
             196,
-            189,
+            188,
             186,
             199,
             170,
             245,
             159,
-            1
+            2
           ]
         }
       ]
@@ -1846,7 +1846,7 @@
         },
         {
           "name": "TR",
-          "value": 713
+          "value": 714
         },
         {
           "name": "RU",
@@ -1905,12 +1905,12 @@
           "value": 231
         },
         {
-          "name": "PK",
+          "name": "RS",
           "value": 204
         },
         {
-          "name": "RS",
-          "value": 204
+          "name": "PK",
+          "value": 203
         },
         {
           "name": "IQ",
@@ -2384,7 +2384,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-02T03:09:57.491191+00:00",
+    "fetched_at": "2026-11-02T14:05:10.410601+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24

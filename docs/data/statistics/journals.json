@@ -1,8 +1,438 @@
 {
-  "generated_at": "2026-11-02T03:09:58.799449+00:00",
+  "generated_at": "2026-11-02T14:05:11.852935+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23178,
   "items": [
+    {
+      "id": "afd6dcd5a3a549559c86fbe62242beba",
+      "title": "Освітній дискурс",
+      "publisher_name": "\"Scientific Information Agency \"Science-technologies-information\" LLC",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "UK"
+      ],
+      "language_display": "UK",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "500 UAH",
+      "apc_max_eur": 9.85,
+      "apc_max_usd": 11.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-07-25T17:52:47Z",
+      "created_year": 2019,
+      "created_month": "2019-07",
+      "last_updated": "2026-11-02T13:44:14Z",
+      "website": "http://ukr.journal-discourse.com/index.php/ed_2017",
+      "author_guidelines_url": "http://ukr.journal-discourse.com/index.php/ed_2017/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "scientific information agency science technologies information llc ua europe education uk cc by"
+    },
+    {
+      "id": "283cb3afda6f4fdba6d6fcb19c2343d7",
+      "title": "Studia Romanica Posnaniensia",
+      "publisher_name": "Adam Mickiewicz University",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Romanic languages",
+        "Philology. Linguistics"
+      ],
+      "subject_display": "Romanic languages · Philology. Linguistics",
+      "languages": [
+        "CA",
+        "FR",
+        "IT",
+        "PT",
+        "RO",
+        "ES"
+      ],
+      "language_display": "CA, FR, IT, PT, RO, ES",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2016-09-13T10:00:37Z",
+      "created_year": 2016,
+      "created_month": "2016-09",
+      "last_updated": "2026-11-02T12:04:40Z",
+      "website": "http://pressto.amu.edu.pl/index.php/srp/index",
+      "author_guidelines_url": "http://pressto.amu.edu.pl/index.php/srp/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "studia romanica posnaniensia adam mickiewicz university pl europe romanic languages philology linguistics ca fr it pt ro es cc by nc sa"
+    },
+    {
+      "id": "b48dcbd05e454ee0a04f0e8f61104541",
+      "title": "Sosyal Çalışma Dergisi",
+      "publisher_name": "İstanbul Sabahattin Zaim Üniversitesi",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Social pathology. Social and public welfare. Criminology"
+      ],
+      "subject_display": "Social pathology. Social and public welfare. Criminology",
+      "languages": [
+        "TR",
+        "EN"
+      ],
+      "language_display": "TR, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-02T11:59:39Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-02T11:59:39Z",
+      "website": "https://dergipark.org.tr/en/pub/scd",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/scd/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "sosyal cal sma dergisi istanbul sabahattin zaim universitesi tr asia social pathology social and public welfare criminology tr en cc by nc"
+    },
+    {
+      "id": "72e971d25a04497c89110f6ff7898c92",
+      "title": "Cybernetics and Information Technologies",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Cybernetics"
+      ],
+      "subject_display": "Cybernetics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "360 EUR",
+      "apc_max_eur": 360.0,
+      "apc_max_usd": 402.19,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2012-10-15T18:10:43Z",
+      "created_year": 2012,
+      "created_month": "2012-10",
+      "last_updated": "2026-11-02T10:02:27Z",
+      "website": "https://reference-global.com/journal/CAIT",
+      "author_guidelines_url": "https://reference-global.com/journal/CAIT?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "cybernetics and information technologies sciendo pl europe cybernetics en cc by nc nd"
+    },
+    {
+      "id": "6f2520339d7346f18e06bd73b95e3ff2",
+      "title": "Biomedical Human Kinetics",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Sports medicine",
+        "Physiology"
+      ],
+      "subject_display": "Sports medicine · Physiology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "800 EUR",
+      "apc_max_eur": 800.0,
+      "apc_max_usd": 893.76,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2011-06-30T13:51:23Z",
+      "created_year": 2011,
+      "created_month": "2011-06",
+      "last_updated": "2026-11-02T09:35:17Z",
+      "website": "https://reference-global.com/journal/BHK",
+      "author_guidelines_url": "https://reference-global.com/journal/BHK?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "biomedical human kinetics sciendo pl europe sports medicine physiology en cc by nc nd"
+    },
+    {
+      "id": "02cee15e1e6a48a79f9414f9793c5fbf",
+      "title": "ALTEX: Alternatives to Animal Experimentation",
+      "publisher_name": "ALTEX Edition",
+      "country": "CH",
+      "continent": "Europe",
+      "subjects": [
+        "Medical philosophy. Medical ethics"
+      ],
+      "subject_display": "Medical philosophy. Medical ethics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "2500 EUR",
+      "apc_max_eur": 2500.0,
+      "apc_max_usd": 2793.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review",
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review, Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2013-06-11T14:41:50Z",
+      "created_year": 2013,
+      "created_month": "2013-06",
+      "last_updated": "2026-11-02T09:30:40Z",
+      "website": "https://www.altex.org",
+      "author_guidelines_url": "https://www.altex.org/index.php/altex/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "altex alternatives to animal experimentation altex edition ch europe medical philosophy medical ethics en cc by"
+    },
+    {
+      "id": "225d4b64f0bb43fd80807441b4acf42c",
+      "title": "Białostockie Studia Prawnicze",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Law"
+      ],
+      "subject_display": "Law",
+      "languages": [
+        "PL",
+        "EN"
+      ],
+      "language_display": "PL, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2022-05-20T08:10:43Z",
+      "created_year": 2022,
+      "created_month": "2022-05",
+      "last_updated": "2026-11-02T09:11:19Z",
+      "website": "https://reference-global.com/journal/BSP",
+      "author_guidelines_url": "https://reference-global.com/journal/BSP?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "bia ostockie studia prawnicze sciendo pl europe law pl en cc by nc nd"
+    },
+    {
+      "id": "8fae6aae5bf64b3695c71c38032ad2ae",
+      "title": "Dera Natung Government College Research Journal",
+      "publisher_name": "Dera Natung Government College",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Social Sciences",
+        "Biology (General)",
+        "Physics"
+      ],
+      "subject_display": "Social Sciences · Biology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2025-05-27T14:07:36Z",
+      "created_year": 2025,
+      "created_month": "2025-05",
+      "last_updated": "2026-11-02T07:23:48Z",
+      "website": "https://dngc.ac.in/journals/index.php/dngcrj/index",
+      "author_guidelines_url": "https://dngc.ac.in/journals/index.php/dngcrj/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "dera natung government college research journal dera natung government college in asia social sciences biology general physics en cc by"
+    },
+    {
+      "id": "74bba6ded63f481c88099b6d55d57658",
+      "title": "Слобожанський науковий вісник. Серія: Природничі науки",
+      "publisher_name": "Publishing House \"Helvetica\"",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Biology (General)"
+      ],
+      "subject_display": "Biology (General)",
+      "languages": [
+        "UK",
+        "EN",
+        "DE",
+        "PL",
+        "ES"
+      ],
+      "language_display": "UK, EN, DE, PL, ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1400 UAH",
+      "apc_max_eur": 27.58,
+      "apc_max_usd": 30.81,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Journal's website"
+      ],
+      "created_date": "2026-04-08T11:15:30Z",
+      "created_year": 2026,
+      "created_month": "2026-04",
+      "last_updated": "2026-11-02T07:18:55Z",
+      "website": "https://journals.spu.sumy.ua/index.php/natural/home",
+      "author_guidelines_url": "https://journals.spu.sumy.ua/index.php/natural/conditions",
+      "article_records_exposed": null,
+      "search_text": "publishing house helvetica ua europe biology general uk en de pl es cc by"
+    },
+    {
+      "id": "734a8c32ddb94b9f8e5df74ac1f35814",
+      "title": "Al ' Adalah",
+      "publisher_name": "LP2M UIN Kiai Haji Achmad Siddiq Jember",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Islam"
+      ],
+      "subject_display": "Islam",
+      "languages": [
+        "ID",
+        "EN",
+        "AR"
+      ],
+      "language_display": "ID, EN, AR",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2022-09-30T23:07:16Z",
+      "created_year": 2022,
+      "created_month": "2022-09",
+      "last_updated": "2026-11-02T04:05:48Z",
+      "website": "http://aladalah.uinkhas.ac.id/index.php/aladalah/about",
+      "author_guidelines_url": "http://aladalah.uinkhas.ac.id/index.php/aladalah/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "al adalah lp2m uin kiai haji achmad siddiq jember id asia islam id en ar cc by nc"
+    },
     {
       "id": "e0f1d7c0c9eb4c50b37028f4b8c98cc5",
       "title": "Scandinavian Journal of Work and Organizational Psychology",
@@ -1579,52 +2009,6 @@
       "search_text": "revista medica de minas gerais associacao medica de minas gerais br south america medicine general en pt cc by"
     },
     {
-      "id": "74bba6ded63f481c88099b6d55d57658",
-      "title": "Слобожанський науковий вісник. Серія: Природничі науки",
-      "publisher_name": "Publishing House \"Helvetica\"",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Biology (General)"
-      ],
-      "subject_display": "Biology (General)",
-      "languages": [
-        "ES",
-        "PL",
-        "DE",
-        "EN",
-        "UK"
-      ],
-      "language_display": "ES, PL, DE, EN, UK",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1400 UAH",
-      "apc_max_eur": 27.58,
-      "apc_max_usd": 30.81,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Journal's website"
-      ],
-      "created_date": "2026-04-08T11:15:30Z",
-      "created_year": 2026,
-      "created_month": "2026-04",
-      "last_updated": "2026-10-30T14:14:22Z",
-      "website": "https://journals.spu.sumy.ua/index.php/natural/home",
-      "author_guidelines_url": "https://journals.spu.sumy.ua/index.php/natural/conditions",
-      "article_records_exposed": null,
-      "search_text": "publishing house helvetica ua europe biology general es pl de en uk cc by"
-    },
-    {
       "id": "f4e9f6f56aa7460481ac052a9a056080",
       "title": "Слобожанські мистецькі студії",
       "publisher_name": "Publishing House \"Helvetica\"",
@@ -2213,50 +2597,6 @@
       "author_guidelines_url": "https://vuzbiochemi.elpub.ru/jour/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "irkutsk national research technical university ru europe chemistry biochemistry ru en cc by"
-    },
-    {
-      "id": "8fae6aae5bf64b3695c71c38032ad2ae",
-      "title": "Dera Natung Government College Research Journal",
-      "publisher_name": "Dera Natung Government College",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Social Sciences",
-        "Biology (General)",
-        "Physics"
-      ],
-      "subject_display": "Social Sciences · Biology (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2025-05-27T14:07:36Z",
-      "created_year": 2025,
-      "created_month": "2025-05",
-      "last_updated": "2026-10-30T03:12:16Z",
-      "website": "https://dngc.ac.in/journals/index.php/dngcrj/index",
-      "author_guidelines_url": "https://dngc.ac.in/journals/index.php/dngcrj/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "dera natung government college research journal dera natung government college in asia social sciences biology general physics en cc by"
     },
     {
       "id": "daae811f67444844adce87cb714076da",
@@ -12575,49 +12915,6 @@
       "search_text": "international journal of vocational education studies osnabruck university de europe education en cc by"
     },
     {
-      "id": "02cee15e1e6a48a79f9414f9793c5fbf",
-      "title": "ALTEX: Alternatives to Animal Experimentation",
-      "publisher_name": "ALTEX Edition",
-      "country": "CH",
-      "continent": "Europe",
-      "subjects": [
-        "Medical philosophy. Medical ethics"
-      ],
-      "subject_display": "Medical philosophy. Medical ethics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "2500 EUR",
-      "apc_max_eur": 2500.0,
-      "apc_max_usd": 2793.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review",
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review, Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS"
-      ],
-      "created_date": "2013-06-11T14:41:50Z",
-      "created_year": 2013,
-      "created_month": "2013-06",
-      "last_updated": "2026-10-20T13:44:14Z",
-      "website": "https://www.altex.org",
-      "author_guidelines_url": "https://www.altex.org/index.php/altex/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "altex alternatives to animal experimentation altex edition ch europe medical philosophy medical ethics en cc by"
-    },
-    {
       "id": "6494901e0a8e49bda80df238ab9ce0b2",
       "title": "Wrocławski Przegląd Teologiczny",
       "publisher_name": "Papieski Wydział Teologiczny we Wrocławiu",
@@ -22305,46 +22602,6 @@
       "search_text": "etnografias contemporaneas centro de estudios en antropologia cea escuela idaes ar south america anthropology ethnology social and cultural anthropology pt es cc by nc sa"
     },
     {
-      "id": "afd6dcd5a3a549559c86fbe62242beba",
-      "title": "Освітній дискурс",
-      "publisher_name": "\"Scientific Information Agency \"Science-technologies-information\" LLC",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "UK"
-      ],
-      "language_display": "UK",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "500 UAH",
-      "apc_max_eur": 9.85,
-      "apc_max_usd": 11.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-07-25T17:52:47Z",
-      "created_year": 2019,
-      "created_month": "2019-07",
-      "last_updated": "2026-10-13T10:56:14Z",
-      "website": "http://ukr.journal-discourse.com/index.php/ed_2017",
-      "author_guidelines_url": "http://ukr.journal-discourse.com/index.php/ed_2017/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "scientific information agency science technologies information llc ua europe education uk cc by"
-    },
-    {
       "id": "d346bb1f4e2a451c9e67cf4de3663110",
       "title": "Journal of Mechanics of Continua and Mathematical Sciences",
       "publisher_name": "Institute of Mechanics of Continua and Mathematical Sciences",
@@ -30651,48 +30908,6 @@
       "author_guidelines_url": "https://mediaenviron.org/for-authors",
       "article_records_exposed": null,
       "search_text": "media environment university of california press us north america environmental sciences communication mass media en cc by"
-    },
-    {
-      "id": "b59a7fe752994a8ab60d26634a8d4c1b",
-      "title": "Worldwide Journal of Physics",
-      "publisher_name": "THE LUMINARY LEARNING INSTITUTE (SMC-PRIVATE) LIMITED",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Physics"
-      ],
-      "subject_display": "Physics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "10000 PKR",
-      "apc_max_eur": 32.38,
-      "apc_max_usd": 36.14,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2026-05-26T10:16:18Z",
-      "created_year": 2026,
-      "created_month": "2026-05",
-      "last_updated": "2026-09-30T11:08:47Z",
-      "website": "https://wwjop.com/index.php/Journal/index",
-      "author_guidelines_url": "https://wwjop.com/index.php/Journal/information/authors",
-      "article_records_exposed": null,
-      "search_text": "worldwide journal of physics the luminary learning institute smc private limited pk asia physics en cc by"
     },
     {
       "id": "eef6f7c2e918486684054ab9d3fa71e1",
@@ -104090,49 +104305,6 @@
       "author_guidelines_url": "https://reference-global.com/journal/AGRI?tab=submission-guidelines",
       "article_records_exposed": null,
       "search_text": "agriculture sciendo pl europe agriculture en cc by nc nd"
-    },
-    {
-      "id": "6f2520339d7346f18e06bd73b95e3ff2",
-      "title": "Biomedical Human Kinetics",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Sports medicine",
-        "Physiology"
-      ],
-      "subject_display": "Sports medicine · Physiology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "800 EUR",
-      "apc_max_eur": 800.0,
-      "apc_max_usd": 893.76,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2011-06-30T13:51:23Z",
-      "created_year": 2011,
-      "created_month": "2011-06",
-      "last_updated": "2026-09-17T10:54:43Z",
-      "website": "https://reference-global.com/journal/BHK",
-      "author_guidelines_url": "https://reference-global.com/journal/BHK?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "biomedical human kinetics sciendo pl europe sports medicine physiology en cc by nc nd"
     },
     {
       "id": "d787d11d6f514bfb9199b48a738e32b4",
@@ -188473,49 +188645,6 @@
       "search_text": "mazahibuna jurnal perbandingan mazhab universitas islam negeri alauddin makassar id asia islamic law id en cc by"
     },
     {
-      "id": "225d4b64f0bb43fd80807441b4acf42c",
-      "title": "Białostockie Studia Prawnicze",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Law"
-      ],
-      "subject_display": "Law",
-      "languages": [
-        "PL",
-        "EN"
-      ],
-      "language_display": "PL, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2022-05-20T08:10:43Z",
-      "created_year": 2022,
-      "created_month": "2022-05",
-      "last_updated": "2026-09-17T10:53:33Z",
-      "website": "https://reference-global.com/journal/BSP",
-      "author_guidelines_url": "https://reference-global.com/journal/BSP?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "bia ostockie studia prawnicze sciendo pl europe law pl en cc by nc nd"
-    },
-    {
       "id": "73a4e85d8b8a4ee3a37596a27d1413f9",
       "title": "Frontiers in Bioscience-Landmark",
       "publisher_name": "IMR Press",
@@ -189158,48 +189287,6 @@
       "author_guidelines_url": "http://www.jistap.org/journal/journalintro.do?journalSeq=J000043&introMenuId=0103",
       "article_records_exposed": null,
       "search_text": "journal of information science theory and practice korea institute of science and technology information kr asia bibliography library science information resources en cc by"
-    },
-    {
-      "id": "72e971d25a04497c89110f6ff7898c92",
-      "title": "Cybernetics and Information Technologies",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Cybernetics"
-      ],
-      "subject_display": "Cybernetics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "360 EUR",
-      "apc_max_eur": 360.0,
-      "apc_max_usd": 402.19,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2012-10-15T18:10:43Z",
-      "created_year": 2012,
-      "created_month": "2012-10",
-      "last_updated": "2026-09-17T10:53:33Z",
-      "website": "https://reference-global.com/journal/CAIT",
-      "author_guidelines_url": "https://reference-global.com/journal/CAIT?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "cybernetics and information technologies sciendo pl europe cybernetics en cc by nc nd"
     },
     {
       "id": "39fdcdaf4b1a4f22b82fc05101ee3c60",
@@ -452318,48 +452405,6 @@
       "author_guidelines_url": "https://www.springer.com/journal/40519/submission-guidelines",
       "article_records_exposed": null,
       "search_text": "eating and weight disorders springer ch europe nutritional diseases deficiency diseases en cc by cc by nc nd"
-    },
-    {
-      "id": "734a8c32ddb94b9f8e5df74ac1f35814",
-      "title": "Al ' Adalah",
-      "publisher_name": "LP2M UIN Kiai Haji Achmad Siddiq Jember",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Islam"
-      ],
-      "subject_display": "Islam",
-      "languages": [
-        "ID",
-        "EN",
-        "AR"
-      ],
-      "language_display": "ID, EN, AR",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2022-09-30T23:07:16Z",
-      "created_year": 2022,
-      "created_month": "2022-09",
-      "last_updated": "2026-09-17T10:49:15Z",
-      "website": "http://aladalah.uinkhas.ac.id/index.php/aladalah/about",
-      "author_guidelines_url": "http://aladalah.uinkhas.ac.id/index.php/aladalah/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "al adalah lp2m uin kiai haji achmad siddiq jember id asia islam id en ar cc by nc"
     },
     {
       "id": "85a86dceb7a24137aec3e2b0c35f5f5f",
@@ -973536,52 +973581,6 @@
       "author_guidelines_url": "http://www.revistacta.ufscar.br/index.php/revistacta/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "journal science technology environment federal university of sao carlos ufscar br south america agriculture agriculture general environmental sciences pt en cc by"
-    },
-    {
-      "id": "283cb3afda6f4fdba6d6fcb19c2343d7",
-      "title": "Studia Romanica Posnaniensia",
-      "publisher_name": "Adam Mickiewicz University",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Romanic languages",
-        "Philology. Linguistics"
-      ],
-      "subject_display": "Romanic languages · Philology. Linguistics",
-      "languages": [
-        "CA",
-        "FR",
-        "IT",
-        "PT",
-        "RO",
-        "ES"
-      ],
-      "language_display": "CA, FR, IT, PT, RO, ES",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2016-09-13T10:00:37Z",
-      "created_year": 2016,
-      "created_month": "2016-09",
-      "last_updated": "2026-09-17T10:38:28Z",
-      "website": "http://pressto.amu.edu.pl/index.php/srp/index",
-      "author_guidelines_url": "http://pressto.amu.edu.pl/index.php/srp/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "studia romanica posnaniensia adam mickiewicz university pl europe romanic languages philology linguistics ca fr it pt ro es cc by nc sa"
     },
     {
       "id": "2bd0f0d3e2b54d2f991082ef3be2aab0",
