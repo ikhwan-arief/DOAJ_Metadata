@@ -1,8 +1,257 @@
 {
-  "generated_at": "2026-11-07T00:30:25.850950+00:00",
+  "generated_at": "2026-11-07T17:08:59.454774+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23217,
   "items": [
+    {
+      "id": "0c17abd1ded344239afb51f130a4423b",
+      "title": "Studi di Estetica",
+      "publisher_name": "Mimesis Edizioni",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Aesthetics",
+        "Philosophy (General)"
+      ],
+      "subject_display": "Aesthetics · Philosophy (General)",
+      "languages": [
+        "EN",
+        "FR",
+        "DE",
+        "IT",
+        "ES"
+      ],
+      "language_display": "EN, FR, DE, IT, ES",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-02-12T10:53:32Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-11-07T16:46:52Z",
+      "website": "http://mimesisedizioni.it/journals/index.php/studi-di-estetica/index",
+      "author_guidelines_url": "http://mimesisedizioni.it/journals/index.php/studi-di-estetica/pages/view/callforpapers",
+      "article_records_exposed": null,
+      "search_text": "studi di estetica mimesis edizioni it europe aesthetics philosophy general en fr de it es cc by"
+    },
+    {
+      "id": "b70b5a37cb5d42fdb82da5a20be8dcbe",
+      "title": "Interdisciplinary Political Studies",
+      "publisher_name": "Università del Salento",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Political science"
+      ],
+      "subject_display": "Political science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-02-12T16:26:32Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-11-07T16:37:05Z",
+      "website": "http://siba-ese.unisalento.it/index.php/idps",
+      "author_guidelines_url": "http://siba-ese.unisalento.it/index.php/idps/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "interdisciplinary political studies universita del salento it europe political science en cc by nc nd"
+    },
+    {
+      "id": "62baa9c4fe344a31881fa45f61e8dc52",
+      "title": "Revista Prática Docente",
+      "publisher_name": "Instituto Federal de Mato Grosso",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Education",
+        "Theory and practice of education"
+      ],
+      "subject_display": "Education · Theory and practice of education",
+      "languages": [
+        "PT",
+        "EN",
+        "ES"
+      ],
+      "language_display": "PT, EN, ES",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-10-16T09:49:26Z",
+      "created_year": 2017,
+      "created_month": "2017-10",
+      "last_updated": "2026-11-07T14:00:23Z",
+      "website": "http://periodicos.cfs.ifmt.edu.br/periodicos/index.php/rpd",
+      "author_guidelines_url": "http://periodicos.cfs.ifmt.edu.br/periodicos/index.php/rpd/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista pratica docente instituto federal de mato grosso br south america education theory and practice of education pt en es cc by nc"
+    },
+    {
+      "id": "1cf15864159d4f22a373448fd84947aa",
+      "title": "Boletín Criminológico",
+      "publisher_name": "Instituto de Criminología de Málaga",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Social pathology. Social and public welfare. Criminology"
+      ],
+      "subject_display": "Social pathology. Social and public welfare. Criminology",
+      "languages": [
+        "ES"
+      ],
+      "language_display": "ES",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2016-11-09T19:28:47Z",
+      "created_year": 2016,
+      "created_month": "2016-11",
+      "last_updated": "2026-11-07T11:52:41Z",
+      "website": "https://revistas.uma.es/index.php/boletin-criminologico",
+      "author_guidelines_url": "https://revistas.uma.es/index.php/boletin-criminologico/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "boletin criminologico instituto de criminologia de malaga es europe social pathology social and public welfare criminology es cc by nc sa"
+    },
+    {
+      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
+      "title": "Облік і фінанси",
+      "publisher_name": "Institute of Accounting and Finance",
+      "country": "UA",
+      "continent": "Europe",
+      "subjects": [
+        "Finance"
+      ],
+      "subject_display": "Finance",
+      "languages": [
+        "UK",
+        "EN"
+      ],
+      "language_display": "UK, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "1800 UAH / 50 USD",
+      "apc_max_eur": 44.78,
+      "apc_max_usd": 50.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-03-24T08:28:07Z",
+      "created_year": 2026,
+      "created_month": "2026-03",
+      "last_updated": "2026-11-07T08:29:26Z",
+      "website": "https://afj.org.ua/en/",
+      "author_guidelines_url": "https://afj.org.ua/en/instructions",
+      "article_records_exposed": null,
+      "search_text": "institute of accounting and finance ua europe finance uk en cc by nc"
+    },
+    {
+      "id": "7b60c5156fb84f73919afb2133a46936",
+      "title": "ILN Journal: Indian Literary Narratives",
+      "publisher_name": "Annie Gracia I",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "English literature"
+      ],
+      "subject_display": "English literature",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "2500 INR",
+      "apc_max_eur": 23.84,
+      "apc_max_usd": 26.62,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Journal's website"
+      ],
+      "created_date": "2026-04-30T18:50:29Z",
+      "created_year": 2026,
+      "created_month": "2026-04",
+      "last_updated": "2026-11-07T05:55:30Z",
+      "website": "https://ilnjournal.com",
+      "author_guidelines_url": "https://online.ilnjournal.com/index.php/iln/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "iln journal indian literary narratives annie gracia i in asia english literature en cc by"
+    },
     {
       "id": "1d9d382774544a8a99af9b881c43309f",
       "title": "TalTech Journal of European Studies",
@@ -982,44 +1231,6 @@
       "search_text": "revista medicina academica centro medico de mar del plata ar south america public aspects of medicine es cc by"
     },
     {
-      "id": "1cf15864159d4f22a373448fd84947aa",
-      "title": "Boletín Criminológico",
-      "publisher_name": "Instituto de Criminología de Málaga",
-      "country": "ES",
-      "continent": "Europe",
-      "subjects": [
-        "Social pathology. Social and public welfare. Criminology"
-      ],
-      "subject_display": "Social pathology. Social and public welfare. Criminology",
-      "languages": [
-        "ES"
-      ],
-      "language_display": "ES",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2016-11-09T19:28:47Z",
-      "created_year": 2016,
-      "created_month": "2016-11",
-      "last_updated": "2026-11-06T08:45:09Z",
-      "website": "https://revistas.uma.es/index.php/boletin-criminologico",
-      "author_guidelines_url": "https://revistas.uma.es/index.php/boletin-criminologico/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "boletin criminologico instituto de criminologia de malaga es europe social pathology social and public welfare criminology es cc by nc sa"
-    },
-    {
       "id": "05e9a8aeff1a4c72bc81cec78614e3ce",
       "title": "Dansk Universitetspaedagogisk Tidsskrift",
       "publisher_name": "Dansk Universitetspædagogisk Netværk",
@@ -1119,8 +1330,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "250000 KZT",
-      "apc_max_eur": 494.25,
-      "apc_max_usd": 554.75,
+      "apc_max_eur": 499.0,
+      "apc_max_usd": 555.75,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -18166,7 +18377,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "40000 NGN",
-      "apc_max_eur": 26.68,
+      "apc_max_eur": 26.88,
       "apc_max_usd": 29.68,
       "author_retains": true,
       "peer_review_types": [
@@ -22894,7 +23105,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XAF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -27471,47 +27682,6 @@
       "search_text": "focus university of pecs department of english literatures and cultures hu europe language and literature en cc by"
     },
     {
-      "id": "204e9e920ef94f01aa57ef1db0d07bb3",
-      "title": "Облік і фінанси",
-      "publisher_name": "Institute of Accounting and Finance",
-      "country": "UA",
-      "continent": "Europe",
-      "subjects": [
-        "Finance"
-      ],
-      "subject_display": "Finance",
-      "languages": [
-        "UK",
-        "EN"
-      ],
-      "language_display": "UK, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "1800 UAH / 50 USD",
-      "apc_max_eur": 44.78,
-      "apc_max_usd": 50.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-03-24T08:28:07Z",
-      "created_year": 2026,
-      "created_month": "2026-03",
-      "last_updated": "2026-10-15T19:14:35Z",
-      "website": "https://afj.org.ua/en/",
-      "author_guidelines_url": "https://afj.org.ua/en/instructions",
-      "article_records_exposed": null,
-      "search_text": "institute of accounting and finance ua europe finance uk en cc by nc"
-    },
-    {
       "id": "36b2c1b945e649ccb06a64e2f155f799",
       "title": "Diségno",
       "publisher_name": "UID",
@@ -29183,7 +29353,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "60000 NGN",
-      "apc_max_eur": 40.02,
+      "apc_max_eur": 40.32,
       "apc_max_usd": 44.52,
       "author_retains": true,
       "peer_review_types": [
@@ -40375,8 +40545,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.62,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 119.76,
+      "apc_max_usd": 133.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -41729,8 +41899,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "30000 KZT",
-      "apc_max_eur": 59.31,
-      "apc_max_usd": 66.57,
+      "apc_max_eur": 59.88,
+      "apc_max_usd": 66.69,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -45496,8 +45666,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "230000 KZT",
-      "apc_max_eur": 454.71,
-      "apc_max_usd": 510.37,
+      "apc_max_eur": 459.08,
+      "apc_max_usd": 511.29,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -70025,8 +70195,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "12000 RSD",
-      "apc_max_eur": 102.06,
-      "apc_max_usd": 114.66,
+      "apc_max_eur": 102.05,
+      "apc_max_usd": 113.95,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -74833,8 +75003,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "65000 KZT",
-      "apc_max_eur": 128.5,
-      "apc_max_usd": 144.24,
+      "apc_max_eur": 129.74,
+      "apc_max_usd": 144.5,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -75080,7 +75250,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "85000 NGN",
-      "apc_max_eur": 56.69,
+      "apc_max_eur": 57.12,
       "apc_max_usd": 63.07,
       "author_retains": true,
       "peer_review_types": [
@@ -101344,8 +101514,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.62,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 119.76,
+      "apc_max_usd": 133.38,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -103403,8 +103573,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.62,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 119.76,
+      "apc_max_usd": 133.38,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -107566,8 +107736,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "70000 KZT",
-      "apc_max_eur": 138.39,
-      "apc_max_usd": 155.33,
+      "apc_max_eur": 139.72,
+      "apc_max_usd": 155.61,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -129331,7 +129501,7 @@
       "apc_has": true,
       "apc_native_display": "71000 XOF",
       "apc_max_eur": 108.2,
-      "apc_max_usd": 121.55,
+      "apc_max_usd": 120.77,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -130023,8 +130193,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "64000 KZT",
-      "apc_max_eur": 126.53,
-      "apc_max_usd": 142.02,
+      "apc_max_eur": 127.74,
+      "apc_max_usd": 142.27,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -145754,7 +145924,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -177710,7 +177880,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "45000 NGN",
-      "apc_max_eur": 30.01,
+      "apc_max_eur": 30.24,
       "apc_max_usd": 33.39,
       "author_retains": true,
       "peer_review_types": [
@@ -180564,8 +180734,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 KZT",
-      "apc_max_eur": 9.88,
-      "apc_max_usd": 11.1,
+      "apc_max_eur": 9.98,
+      "apc_max_usd": 11.12,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -194258,7 +194428,7 @@
       "apc_has": true,
       "apc_native_display": "141000 RSD / 1200 EUR",
       "apc_max_eur": 1200.0,
-      "apc_max_usd": 1347.25,
+      "apc_max_usd": 1339.8,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -212407,8 +212577,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 98.85,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 99.8,
+      "apc_max_usd": 111.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -217026,8 +217196,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "10000 RSD",
-      "apc_max_eur": 85.05,
-      "apc_max_usd": 95.55,
+      "apc_max_eur": 85.04,
+      "apc_max_usd": 94.96,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -234374,8 +234544,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "504000 MNT",
-      "apc_max_eur": 125.5,
-      "apc_max_usd": 140.62,
+      "apc_max_eur": 126.0,
+      "apc_max_usd": 140.11,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -257792,48 +257962,6 @@
       "author_guidelines_url": "https://stthtr.com/home/instructions-for-authors",
       "article_records_exposed": null,
       "search_text": "studia theologica transsylvaniensia l harmattan konyvkiado hu europe doctrinal theology practical theology en hu cc by"
-    },
-    {
-      "id": "7b60c5156fb84f73919afb2133a46936",
-      "title": "ILN Journal: Indian Literary Narratives",
-      "publisher_name": "Annie Gracia I",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "English literature"
-      ],
-      "subject_display": "English literature",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "2500 INR",
-      "apc_max_eur": 23.84,
-      "apc_max_usd": 26.62,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Journal's website"
-      ],
-      "created_date": "2026-04-30T18:50:29Z",
-      "created_year": 2026,
-      "created_month": "2026-04",
-      "last_updated": "2026-09-17T10:52:29Z",
-      "website": "https://ilnjournal.com",
-      "author_guidelines_url": "https://online.ilnjournal.com/index.php/iln/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "iln journal indian literary narratives annie gracia i in asia english literature en cc by"
     },
     {
       "id": "80a32029d9e94b1983e68a6d44d05beb",
@@ -322010,7 +322138,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30000 NGN",
-      "apc_max_eur": 20.01,
+      "apc_max_eur": 20.16,
       "apc_max_usd": 22.26,
       "author_retains": true,
       "peer_review_types": [
@@ -333276,7 +333404,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -335076,7 +335204,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "25000 NGN",
-      "apc_max_eur": 16.67,
+      "apc_max_eur": 16.8,
       "apc_max_usd": 18.55,
       "author_retains": true,
       "peer_review_types": [
@@ -355522,7 +355650,7 @@
       "apc_has": true,
       "apc_native_display": "100000 XOF",
       "apc_max_eur": 152.4,
-      "apc_max_usd": 171.2,
+      "apc_max_usd": 170.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -357305,8 +357433,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.62,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 119.76,
+      "apc_max_usd": 133.38,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -413752,7 +413880,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -442517,8 +442645,8 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "550 GHS / 40 USD",
-      "apc_max_eur": 41.84,
-      "apc_max_usd": 47.02,
+      "apc_max_eur": 42.05,
+      "apc_max_usd": 46.98,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -462339,8 +462467,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 98.85,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 99.8,
+      "apc_max_usd": 111.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -465884,8 +466012,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "50000 KZT",
-      "apc_max_eur": 98.85,
-      "apc_max_usd": 110.95,
+      "apc_max_eur": 99.8,
+      "apc_max_usd": 111.15,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -468214,7 +468342,7 @@
       "apc_has": true,
       "apc_native_display": "120000 XAF",
       "apc_max_eur": 182.88,
-      "apc_max_usd": 205.44,
+      "apc_max_usd": 204.12,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -469664,7 +469792,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -470712,7 +470840,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -479981,8 +480109,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "850000 CLP",
-      "apc_max_eur": 782.85,
-      "apc_max_usd": 879.75,
+      "apc_max_eur": 779.45,
+      "apc_max_usd": 872.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -486305,49 +486433,6 @@
       "author_guidelines_url": "https://www.vmsta.org/journal/VMSTA/information/instructions-for-authors",
       "article_records_exposed": null,
       "search_text": "modern stochastics theory and applications vtex lt europe applied mathematics quantitative methods mathematics en cc by"
-    },
-    {
-      "id": "62baa9c4fe344a31881fa45f61e8dc52",
-      "title": "Revista Prática Docente",
-      "publisher_name": "Instituto Federal de Mato Grosso",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Education",
-        "Theory and practice of education"
-      ],
-      "subject_display": "Education · Theory and practice of education",
-      "languages": [
-        "PT",
-        "EN",
-        "ES"
-      ],
-      "language_display": "PT, EN, ES",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-10-16T09:49:26Z",
-      "created_year": 2017,
-      "created_month": "2017-10",
-      "last_updated": "2026-09-17T10:48:43Z",
-      "website": "http://periodicos.cfs.ifmt.edu.br/periodicos/index.php/rpd",
-      "author_guidelines_url": "http://periodicos.cfs.ifmt.edu.br/periodicos/index.php/rpd/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista pratica docente instituto federal de mato grosso br south america education theory and practice of education pt en es cc by nc"
     },
     {
       "id": "12cd1a8e09dc4311a0d364c469a2ec08",
@@ -549358,7 +549443,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
+      "apc_max_eur": 1.0,
       "apc_max_usd": 1.11,
       "author_retains": false,
       "peer_review_types": [
@@ -551920,7 +552005,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
+      "apc_max_eur": 1.0,
       "apc_max_usd": 1.11,
       "author_retains": false,
       "peer_review_types": [
@@ -568942,7 +569027,7 @@
       "apc_has": true,
       "apc_native_display": "350 EUR / 700 BAM",
       "apc_max_eur": 357.9,
-      "apc_max_usd": 401.92,
+      "apc_max_usd": 399.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -582282,8 +582367,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "25000 RSD",
-      "apc_max_eur": 212.62,
-      "apc_max_usd": 238.87,
+      "apc_max_eur": 212.6,
+      "apc_max_usd": 237.4,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -588772,51 +588857,6 @@
       "search_text": "journal of curriculum indonesia himpunan pengembang kurikulum indonesia wilayah jawa tengah id asia education en id cc by"
     },
     {
-      "id": "0c17abd1ded344239afb51f130a4423b",
-      "title": "Studi di Estetica",
-      "publisher_name": "Mimesis Edizioni",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Aesthetics",
-        "Philosophy (General)"
-      ],
-      "subject_display": "Aesthetics · Philosophy (General)",
-      "languages": [
-        "EN",
-        "FR",
-        "DE",
-        "IT",
-        "ES"
-      ],
-      "language_display": "EN, FR, DE, IT, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-02-12T10:53:32Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-09-17T10:46:33Z",
-      "website": "http://mimesisedizioni.it/journals/index.php/studi-di-estetica/index",
-      "author_guidelines_url": "http://mimesisedizioni.it/journals/index.php/studi-di-estetica/pages/view/callforpapers",
-      "article_records_exposed": null,
-      "search_text": "studi di estetica mimesis edizioni it europe aesthetics philosophy general en fr de it es cc by"
-    },
-    {
       "id": "edf961fbadd94dd0aebc4fc171f86aa8",
       "title": "International Journal of Food Properties",
       "publisher_name": "Taylor & Francis Group",
@@ -589249,8 +589289,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "60000 KZT",
-      "apc_max_eur": 118.62,
-      "apc_max_usd": 133.14,
+      "apc_max_eur": 119.76,
+      "apc_max_usd": 133.38,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -593991,8 +594031,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "5000 KZT",
-      "apc_max_eur": 9.88,
-      "apc_max_usd": 11.1,
+      "apc_max_eur": 9.98,
+      "apc_max_usd": 11.12,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -610673,7 +610713,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "40000 NGN",
-      "apc_max_eur": 26.68,
+      "apc_max_eur": 26.88,
       "apc_max_usd": 29.68,
       "author_retains": true,
       "peer_review_types": [
@@ -630135,7 +630175,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -668502,8 +668542,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "3000 TWD",
-      "apc_max_eur": 81.03,
-      "apc_max_usd": 90.77,
+      "apc_max_eur": 81.99,
+      "apc_max_usd": 91.25,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -676503,7 +676543,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -692537,7 +692577,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -722530,46 +722570,6 @@
       "search_text": "applied system innovation mdpi ag ch europe technology applied mathematics quantitative methods en cc by"
     },
     {
-      "id": "b70b5a37cb5d42fdb82da5a20be8dcbe",
-      "title": "Interdisciplinary Political Studies",
-      "publisher_name": "Università del Salento",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Political science"
-      ],
-      "subject_display": "Political science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-02-12T16:26:32Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-09-17T10:43:51Z",
-      "website": "http://siba-ese.unisalento.it/index.php/idps",
-      "author_guidelines_url": "http://siba-ese.unisalento.it/index.php/idps/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "interdisciplinary political studies universita del salento it europe political science en cc by nc nd"
-    },
-    {
       "id": "571ba8cd73fc4ba5a79248ccd6f71a85",
       "title": "Portuguese Review of Mental Health Nursing",
       "publisher_name": "Sociedade Portuguesa de Enfermagem de Saúde Mental",
@@ -740370,7 +740370,7 @@
       "apc_has": true,
       "apc_native_display": "30000 XOF",
       "apc_max_eur": 45.72,
-      "apc_max_usd": 51.36,
+      "apc_max_usd": 51.03,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -781735,8 +781735,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.54,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.92,
+      "apc_max_usd": 44.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -787421,8 +787421,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "6500 KZT",
-      "apc_max_eur": 12.85,
-      "apc_max_usd": 14.42,
+      "apc_max_eur": 12.97,
+      "apc_max_usd": 14.45,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -788724,7 +788724,7 @@
       "apc_has": true,
       "apc_native_display": "30000 XOF",
       "apc_max_eur": 45.72,
-      "apc_max_usd": 51.36,
+      "apc_max_usd": 51.03,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -828452,7 +828452,7 @@
       "license_display": "CC BY-NC-SA",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -875849,7 +875849,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": true,
       "peer_review_types": [
@@ -889059,7 +889059,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "20000 NGN",
-      "apc_max_eur": 13.34,
+      "apc_max_eur": 13.44,
       "apc_max_usd": 14.84,
       "author_retains": false,
       "peer_review_types": [
@@ -913270,7 +913270,7 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "35000 NGN",
-      "apc_max_eur": 23.34,
+      "apc_max_eur": 23.52,
       "apc_max_usd": 25.97,
       "author_retains": false,
       "peer_review_types": [
@@ -923998,8 +923998,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.54,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.92,
+      "apc_max_usd": 44.46,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -927029,7 +927029,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30000 NGN",
-      "apc_max_eur": 20.01,
+      "apc_max_eur": 20.16,
       "apc_max_usd": 22.26,
       "author_retains": false,
       "peer_review_types": [
@@ -928113,7 +928113,7 @@
       "apc_has": true,
       "apc_native_display": "40000 XOF",
       "apc_max_eur": 60.96,
-      "apc_max_usd": 68.48,
+      "apc_max_usd": 68.04,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -935172,7 +935172,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
+      "apc_max_eur": 1.0,
       "apc_max_usd": 1.11,
       "author_retains": false,
       "peer_review_types": [
@@ -935217,7 +935217,7 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "500 KZT",
-      "apc_max_eur": 0.99,
+      "apc_max_eur": 1.0,
       "apc_max_usd": 1.11,
       "author_retains": false,
       "peer_review_types": [
@@ -955540,7 +955540,7 @@
       "apc_has": true,
       "apc_native_display": "50000 XOF",
       "apc_max_eur": 76.2,
-      "apc_max_usd": 85.6,
+      "apc_max_usd": 85.05,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -964672,8 +964672,8 @@
       "license_display": "CC BY-NC",
       "apc_has": true,
       "apc_native_display": "20000 KZT",
-      "apc_max_eur": 39.54,
-      "apc_max_usd": 44.38,
+      "apc_max_eur": 39.92,
+      "apc_max_usd": 44.46,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -972071,7 +972071,7 @@
       "license_display": "CC BY-SA",
       "apc_has": true,
       "apc_native_display": "25000 NGN",
-      "apc_max_eur": 16.67,
+      "apc_max_eur": 16.8,
       "apc_max_usd": 18.55,
       "author_retains": true,
       "peer_review_types": [
@@ -975486,7 +975486,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "50000 NGN",
-      "apc_max_eur": 33.35,
+      "apc_max_eur": 33.6,
       "apc_max_usd": 37.1,
       "author_retains": true,
       "peer_review_types": [
