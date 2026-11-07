@@ -1,8 +1,174 @@
 {
-  "generated_at": "2026-11-07T17:08:59.454774+00:00",
+  "generated_at": "2026-11-07T21:12:32.665999+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23217,
   "items": [
+    {
+      "id": "27de016d18d84a72af09dd0ae55de951",
+      "title": "Natural History Sciences",
+      "publisher_name": "PAGEPress Publications",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Botany",
+        "Geology"
+      ],
+      "subject_display": "Botany · Geology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2019-02-15T15:31:08Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-11-07T18:34:34Z",
+      "website": "https://sisn.pagepress.org/index.php/nhs/index",
+      "author_guidelines_url": "https://sisn.pagepress.org/index.php/nhs/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "natural history sciences pagepress publications it europe botany geology en cc by nc"
+    },
+    {
+      "id": "76dd7a6e760749358dfc775bed67116f",
+      "title": "Legal Bulletin",
+      "publisher_name": "LLC «MIAS Expert»",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Law"
+      ],
+      "subject_display": "Law",
+      "languages": [
+        "RU",
+        "EN"
+      ],
+      "language_display": "RU, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "12000 RUB",
+      "apc_max_eur": 131.05,
+      "apc_max_usd": 146.89,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-03-31T10:08:35Z",
+      "created_year": 2025,
+      "created_month": "2025-03",
+      "last_updated": "2026-11-07T18:01:53Z",
+      "website": "https://en.legalbulletin.ru",
+      "author_guidelines_url": "https://en.legalbulletin.ru/author-guidelines/rules-requirements/",
+      "article_records_exposed": null,
+      "search_text": "legal bulletin llc mias expert ru europe law ru en cc by"
+    },
+    {
+      "id": "7aa6c815ca984e5aa9cdbe8f0db5fc65",
+      "title": "International Journal of Advanced Design and Manufacturing Technology",
+      "publisher_name": "Islamic Azad University-Isfahan (Khorasgan) Branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Technology"
+      ],
+      "subject_display": "Technology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-08-21T14:28:34Z",
+      "created_year": 2023,
+      "created_month": "2023-08",
+      "last_updated": "2026-11-07T17:32:11Z",
+      "website": "https://admt.isfahan.iau.ir/",
+      "author_guidelines_url": "https://admt.isfahan.iau.ir/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "international journal of advanced design and manufacturing technology islamic azad university isfahan khorasgan branch ir asia technology en cc by"
+    },
+    {
+      "id": "0a27d6efe9f84b9794646dfe5f5a65a5",
+      "title": "E-Motion",
+      "publisher_name": "Servicio de Publicaciones de la Universidad de Huelva",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Special aspects of education"
+      ],
+      "subject_display": "Special aspects of education",
+      "languages": [
+        "PT",
+        "EN",
+        "ES"
+      ],
+      "language_display": "PT, EN, ES",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-07-14T18:46:52Z",
+      "created_year": 2021,
+      "created_month": "2021-07",
+      "last_updated": "2026-11-07T17:08:48Z",
+      "website": "http://uhu.es/publicaciones/ojs/index.php/e-moti-on",
+      "author_guidelines_url": "http://uhu.es/publicaciones/ojs/index.php/e-moti-on/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "e motion servicio de publicaciones de la universidad de huelva es europe special aspects of education pt en es cc by nc sa"
+    },
     {
       "id": "0c17abd1ded344239afb51f130a4423b",
       "title": "Studi di Estetica",
@@ -23411,47 +23577,6 @@
       "search_text": "dynamics of rural society journal department of sociology state university of gorontalo id asia societies secret benevolent etc sociology general id en cc by nc"
     },
     {
-      "id": "76dd7a6e760749358dfc775bed67116f",
-      "title": "Legal Bulletin",
-      "publisher_name": "LLC «MIAS Expert»",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "Law"
-      ],
-      "subject_display": "Law",
-      "languages": [
-        "EN",
-        "RU"
-      ],
-      "language_display": "EN, RU",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "10000 RUB",
-      "apc_max_eur": 109.21,
-      "apc_max_usd": 122.41,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-03-31T10:08:35Z",
-      "created_year": 2025,
-      "created_month": "2025-03",
-      "last_updated": "2026-10-19T16:50:55Z",
-      "website": "https://en.legalbulletin.ru",
-      "author_guidelines_url": "https://en.legalbulletin.ru/author-guidelines/rules-requirements/",
-      "article_records_exposed": null,
-      "search_text": "legal bulletin llc mias expert ru europe law en ru cc by"
-    },
-    {
       "id": "43762e7ff12a430ba3a1c4c0fe174c55",
       "title": "Revista Colombiana de Tecnologías de Avanzada",
       "publisher_name": "Universidad de Pamplona",
@@ -26806,46 +26931,6 @@
       "author_guidelines_url": "https://kurortologi.ru/index.php/kurort/en/manuscript-preparation-guidelines",
       "article_records_exposed": null,
       "search_text": "practical medicine publishing house ru europe sports medicine en ru cc by nc sa"
-    },
-    {
-      "id": "7aa6c815ca984e5aa9cdbe8f0db5fc65",
-      "title": "International Journal of Advanced Design and Manufacturing Technology",
-      "publisher_name": "Islamic Azad University-Isfahan (Khorasgan) Branch",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Technology"
-      ],
-      "subject_display": "Technology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-08-21T14:28:34Z",
-      "created_year": 2023,
-      "created_month": "2023-08",
-      "last_updated": "2026-10-16T15:57:54Z",
-      "website": "https://admt.isfahan.iau.ir/",
-      "author_guidelines_url": "https://admt.isfahan.iau.ir/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "international journal of advanced design and manufacturing technology islamic azad university isfahan khorasgan branch ir asia technology en cc by"
     },
     {
       "id": "65c31019b3cc497c96e8d0a0f5faca67",
@@ -127484,47 +127569,6 @@
       "author_guidelines_url": "https://journals.sagepub.com/author-instructions/tav",
       "article_records_exposed": null,
       "search_text": "therapeutic advances in vaccines and immunotherapy sage publishing gb europe therapeutics pharmacology immunologic diseases allergy en cc by cc by nc"
-    },
-    {
-      "id": "27de016d18d84a72af09dd0ae55de951",
-      "title": "Natural History Sciences",
-      "publisher_name": "PAGEPress Publications",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Botany",
-        "Geology"
-      ],
-      "subject_display": "Botany · Geology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-02-15T15:31:08Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-09-17T10:54:29Z",
-      "website": "https://sisn.pagepress.org/index.php/nhs/index",
-      "author_guidelines_url": "https://sisn.pagepress.org/index.php/nhs/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "natural history sciences pagepress publications it europe botany geology en cc by nc"
     },
     {
       "id": "0172a38967194633a60c0b2fdca581f5",
@@ -926386,48 +926430,6 @@
       "author_guidelines_url": "https://journals.ed.ac.uk/airea/about/submissions",
       "article_records_exposed": null,
       "search_text": "airea university of edinburgh gb europe fine arts en cc by"
-    },
-    {
-      "id": "0a27d6efe9f84b9794646dfe5f5a65a5",
-      "title": "E-Motion",
-      "publisher_name": "Servicio de Publicaciones de la Universidad de Huelva",
-      "country": "ES",
-      "continent": "Europe",
-      "subjects": [
-        "Special aspects of education"
-      ],
-      "subject_display": "Special aspects of education",
-      "languages": [
-        "ES",
-        "EN",
-        "PT"
-      ],
-      "language_display": "ES, EN, PT",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-07-14T18:46:52Z",
-      "created_year": 2021,
-      "created_month": "2021-07",
-      "last_updated": "2026-09-17T10:39:31Z",
-      "website": "http://uhu.es/publicaciones/ojs/index.php/e-moti-on",
-      "author_guidelines_url": "http://uhu.es/publicaciones/ojs/index.php/e-moti-on/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "e motion servicio de publicaciones de la universidad de huelva es europe special aspects of education es en pt cc by nc sa"
     },
     {
       "id": "14126dd92d464bcfa11ca8abc66750c2",

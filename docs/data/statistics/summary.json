@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T17:08:59.454774+00:00",
+  "generated_at": "2026-11-07T21:12:32.665999+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23217,
-  "article_total": 13938292,
+  "article_total": 13938751,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13938292,
+      "value": 13938751,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1107,11 +1107,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15224
+          "value": 15225
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6347
+          "value": 6346
         },
         {
           "name": "Unspecified peer review",
@@ -1163,7 +1163,7 @@
         },
         {
           "name": "Portico",
-          "value": 4541
+          "value": 4542
         },
         {
           "name": "LOCKSS",
@@ -2384,7 +2384,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-07T17:08:58.060290+00:00",
+    "fetched_at": "2026-11-07T21:12:31.591719+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
