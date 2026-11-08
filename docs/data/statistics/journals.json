@@ -1,8 +1,91 @@
 {
-  "generated_at": "2026-11-08T03:07:22.275883+00:00",
+  "generated_at": "2026-11-08T12:23:35.503325+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23217,
   "items": [
+    {
+      "id": "734a8c32ddb94b9f8e5df74ac1f35814",
+      "title": "Al ' Adalah",
+      "publisher_name": "LP2M UIN Kiai Haji Achmad Siddiq Jember",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Islam"
+      ],
+      "subject_display": "Islam",
+      "languages": [
+        "ID",
+        "EN",
+        "AR"
+      ],
+      "language_display": "ID, EN, AR",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2022-09-30T23:07:16Z",
+      "created_year": 2022,
+      "created_month": "2022-09",
+      "last_updated": "2026-11-08T09:39:22Z",
+      "website": "http://aladalah.uinkhas.ac.id/index.php/aladalah/about",
+      "author_guidelines_url": "http://aladalah.uinkhas.ac.id/index.php/aladalah/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "al adalah lp2m uin kiai haji achmad siddiq jember id asia islam id en ar cc by nc"
+    },
+    {
+      "id": "f061e557799e4d3380d07bd8a6d791b0",
+      "title": "Jurnal Ceteris Paribus",
+      "publisher_name": "Universitas Andalas",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Philology. Linguistics",
+        "History (General) and history of Europe"
+      ],
+      "subject_display": "Philology. Linguistics · History (General) and history of Europe",
+      "languages": [
+        "ID"
+      ],
+      "language_display": "ID",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": true,
+      "apc_native_display": "250000 IDR",
+      "apc_max_eur": 12.37,
+      "apc_max_usd": 13.81,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-06-14T13:51:13Z",
+      "created_year": 2023,
+      "created_month": "2023-06",
+      "last_updated": "2026-11-08T05:13:54Z",
+      "website": "http://jcp.fib.unand.ac.id/index.php/jcepe",
+      "author_guidelines_url": "http://jcp.fib.unand.ac.id/index.php/jcepe/guideauthors",
+      "article_records_exposed": null,
+      "search_text": "jurnal ceteris paribus universitas andalas id asia philology linguistics history general and history of europe id cc by nc sa"
+    },
     {
       "id": "27de016d18d84a72af09dd0ae55de951",
       "title": "Natural History Sciences",
@@ -9150,48 +9233,6 @@
       "author_guidelines_url": "https://journals.spu.sumy.ua/index.php/natural/conditions",
       "article_records_exposed": null,
       "search_text": "publishing house helvetica ua europe biology general uk en de pl es cc by"
-    },
-    {
-      "id": "734a8c32ddb94b9f8e5df74ac1f35814",
-      "title": "Al ' Adalah",
-      "publisher_name": "LP2M UIN Kiai Haji Achmad Siddiq Jember",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Islam"
-      ],
-      "subject_display": "Islam",
-      "languages": [
-        "ID",
-        "EN",
-        "AR"
-      ],
-      "language_display": "ID, EN, AR",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2022-09-30T23:07:16Z",
-      "created_year": 2022,
-      "created_month": "2022-09",
-      "last_updated": "2026-11-02T04:05:48Z",
-      "website": "http://aladalah.uinkhas.ac.id/index.php/aladalah/about",
-      "author_guidelines_url": "http://aladalah.uinkhas.ac.id/index.php/aladalah/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "al adalah lp2m uin kiai haji achmad siddiq jember id asia islam id en ar cc by nc"
     },
     {
       "id": "e0f1d7c0c9eb4c50b37028f4b8c98cc5",
@@ -826639,47 +826680,6 @@
       "author_guidelines_url": "https://revista.aps.pt/en/submission-guidelines/",
       "article_records_exposed": null,
       "search_text": "sociologia on line associacao portuguesa de sociologia pt europe sociology general pt en fr es cc by"
-    },
-    {
-      "id": "f061e557799e4d3380d07bd8a6d791b0",
-      "title": "Jurnal Ceteris Paribus",
-      "publisher_name": "Universitas Andalas",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Philology. Linguistics",
-        "History (General) and history of Europe"
-      ],
-      "subject_display": "Philology. Linguistics · History (General) and history of Europe",
-      "languages": [
-        "ID"
-      ],
-      "language_display": "ID",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": true,
-      "apc_native_display": "250000 IDR",
-      "apc_max_eur": 12.37,
-      "apc_max_usd": 13.81,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-06-14T13:51:13Z",
-      "created_year": 2023,
-      "created_month": "2023-06",
-      "last_updated": "2026-09-17T10:41:36Z",
-      "website": "http://jcp.fib.unand.ac.id/index.php/jcepe",
-      "author_guidelines_url": "http://jcp.fib.unand.ac.id/index.php/jcepe/guideauthors",
-      "article_records_exposed": null,
-      "search_text": "jurnal ceteris paribus universitas andalas id asia philology linguistics history general and history of europe id cc by nc sa"
     },
     {
       "id": "4ee10a3de49c40b6b213b2ea9c73f3cb",
