@@ -1,8 +1,128 @@
 {
-  "generated_at": "2026-11-08T12:23:35.503325+00:00",
+  "generated_at": "2026-11-08T19:15:27.166282+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23217,
   "items": [
+    {
+      "id": "53f06b94908748e58fcd22cc936a0605",
+      "title": "Quaderni di Scienze Politiche",
+      "publisher_name": "EDUCatt",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Law",
+        "Law in general. Comparative and uniform law. Jurisprudence"
+      ],
+      "subject_display": "Law · Law in general. Comparative and uniform law. Jurisprudence",
+      "languages": [
+        "IT"
+      ],
+      "language_display": "IT",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2018-07-30T10:02:51Z",
+      "created_year": 2018,
+      "created_month": "2018-07",
+      "last_updated": "2026-11-08T18:28:07Z",
+      "website": "http://www.qdsp.it/",
+      "author_guidelines_url": "http://www.qdsp.it/indiciistruzioni-per-gli-autori/",
+      "article_records_exposed": null,
+      "search_text": "quaderni di scienze politiche educatt it europe law law in general comparative and uniform law jurisprudence it cc by sa"
+    },
+    {
+      "id": "ad8434b2af6449328c1701004ae3db2d",
+      "title": "Revista de la Facultad de Medicina",
+      "publisher_name": "Universidad Francisco Marroquín, Facultad de Medicina",
+      "country": "GT",
+      "continent": "North America",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2024-07-19T06:27:33Z",
+      "created_year": 2024,
+      "created_month": "2024-07",
+      "last_updated": "2026-11-08T13:30:49Z",
+      "website": "https://revista-medicina.ufm.edu/index.php/revista/index",
+      "author_guidelines_url": "https://revista-medicina.ufm.edu/index.php/revista/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista de la facultad de medicina universidad francisco marroquin facultad de medicina gt north america medicine general es en cc by nc sa"
+    },
+    {
+      "id": "455792ab0d0f466d95096bd7b90726fc",
+      "title": "Journal of Optimization in Industrial Engineering",
+      "publisher_name": "Islamic Azad University, Qazvin Branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Industrial engineering. Management engineering"
+      ],
+      "subject_display": "Industrial engineering. Management engineering",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "3500000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 3.5,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2015-11-26T11:59:20Z",
+      "created_year": 2015,
+      "created_month": "2015-11",
+      "last_updated": "2026-11-08T13:28:03Z",
+      "website": "http://www.qjie.ir",
+      "author_guidelines_url": "http://www.qjie.ir/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "journal of optimization in industrial engineering islamic azad university qazvin branch ir asia industrial engineering management engineering en cc by nc"
+    },
     {
       "id": "734a8c32ddb94b9f8e5df74ac1f35814",
       "title": "Al ' Adalah",
@@ -222871,49 +222991,6 @@
       "author_guidelines_url": "https://fogyatekossagtudomany.elte.hu/en/a-szerzoknek/",
       "article_records_exposed": null,
       "search_text": "fogyatekossag es tarsadalom eotvos lorand university barczi gusztav faculty of special needs education hu europe special aspects of education hu en cc by nc sa"
-    },
-    {
-      "id": "ad8434b2af6449328c1701004ae3db2d",
-      "title": "Revista de la Facultad de Medicina",
-      "publisher_name": "Universidad Francisco Marroquín, Facultad de Medicina",
-      "country": "GT",
-      "continent": "North America",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "ES",
-        "EN"
-      ],
-      "language_display": "ES, EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2024-07-19T06:27:33Z",
-      "created_year": 2024,
-      "created_month": "2024-07",
-      "last_updated": "2026-09-17T10:53:05Z",
-      "website": "https://revista-medicina.ufm.edu/index.php/revista/index",
-      "author_guidelines_url": "https://revista-medicina.ufm.edu/index.php/revista/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista de la facultad de medicina universidad francisco marroquin facultad de medicina gt north america medicine general es en cc by nc sa"
     },
     {
       "id": "9d06fc005afe46dda646ee9ec18d3264",
@@ -504381,45 +504458,6 @@
       "search_text": "soca jurnal sosial ekonomi pertanian prodi agribisnis fakultas pertanian universitas udayana id asia agriculture id cc by"
     },
     {
-      "id": "53f06b94908748e58fcd22cc936a0605",
-      "title": "Quaderni di Scienze Politiche",
-      "publisher_name": "EDUCatt",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Law",
-        "Law in general. Comparative and uniform law. Jurisprudence"
-      ],
-      "subject_display": "Law · Law in general. Comparative and uniform law. Jurisprudence",
-      "languages": [
-        "IT"
-      ],
-      "language_display": "IT",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-07-30T10:02:51Z",
-      "created_year": 2018,
-      "created_month": "2018-07",
-      "last_updated": "2026-09-17T10:48:26Z",
-      "website": "http://www.qdsp.it/",
-      "author_guidelines_url": "http://www.qdsp.it/indiciistruzioni-per-gli-autori/",
-      "article_records_exposed": null,
-      "search_text": "quaderni di scienze politiche educatt it europe law law in general comparative and uniform law jurisprudence it cc by sa"
-    },
-    {
       "id": "016c96353f3742618ae692f54e6cde57",
       "title": "Periodica Polytechnica: Mechanical Engineering",
       "publisher_name": "Budapest University of Technology",
@@ -769098,44 +769136,6 @@
       "author_guidelines_url": "https://revistas.unifacs.br/index.php/rde/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "rde revista de desenvolvimento economico universidade salvador unifacs br south america economic history and conditions regional economics space in economics economics as a science pt cc by"
-    },
-    {
-      "id": "455792ab0d0f466d95096bd7b90726fc",
-      "title": "Journal of Optimization in Industrial Engineering",
-      "publisher_name": "Islamic Azad University, Qazvin Branch",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Industrial engineering. Management engineering"
-      ],
-      "subject_display": "Industrial engineering. Management engineering",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "3500000 IRR",
-      "apc_max_eur": null,
-      "apc_max_usd": 3.5,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2015-11-26T11:59:20Z",
-      "created_year": 2015,
-      "created_month": "2015-11",
-      "last_updated": "2026-09-17T10:42:46Z",
-      "website": "http://www.qjie.ir",
-      "author_guidelines_url": "http://www.qjie.ir/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "journal of optimization in industrial engineering islamic azad university qazvin branch ir asia industrial engineering management engineering en cc by nc"
     },
     {
       "id": "1a0fb87931fc4ccab7e0e59a1c8680ab",

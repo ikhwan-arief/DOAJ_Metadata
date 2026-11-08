@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T12:23:35.503325+00:00",
+  "generated_at": "2026-11-08T19:15:27.166282+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23217,
-  "article_total": 13942866,
+  "article_total": 13946180,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13942866,
+      "value": 13946180,
       "detail": "Global DOAJ article total"
     },
     {
@@ -1107,11 +1107,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15225
+          "value": 15226
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6346
+          "value": 6345
         },
         {
           "name": "Unspecified peer review",
@@ -2225,6 +2225,10 @@
           "value": 6
         },
         {
+          "name": "GT",
+          "value": 5
+        },
+        {
           "name": "PR",
           "value": 5
         },
@@ -2242,10 +2246,6 @@
         },
         {
           "name": "PS",
-          "value": 5
-        },
-        {
-          "name": "GT",
           "value": 5
         },
         {
@@ -2384,7 +2384,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-08T12:23:34.080305+00:00",
+    "fetched_at": "2026-11-08T19:15:25.831624+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
