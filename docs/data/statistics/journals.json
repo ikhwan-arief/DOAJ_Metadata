@@ -1,8 +1,716 @@
 {
-  "generated_at": "2026-11-10T05:03:31.630327+00:00",
+  "generated_at": "2026-11-10T13:56:19.705009+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23219,
+  "item_count": 23221,
   "items": [
+    {
+      "id": "0ffbf270877d425f8750b11e4bfa9ace",
+      "title": "IOASD Journal of Business and Management Studies",
+      "publisher_name": "IOASD PUBLISHER",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Finance",
+        "Commerce"
+      ],
+      "subject_display": "Finance · Commerce",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "10000 INR / 200 USD",
+      "apc_max_eur": 178.68,
+      "apc_max_usd": 200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive",
+        "PKP PN"
+      ],
+      "created_date": "2026-09-24T05:47:13Z",
+      "created_year": 2026,
+      "created_month": "2026-09",
+      "last_updated": "2026-11-10T12:32:38Z",
+      "website": "https://ioasdpublisher.com/ioasdjbms",
+      "author_guidelines_url": "https://ioasdpublisher.com/ioasdjbms/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "ioasd journal of business and management studies ioasd publisher in asia finance commerce en cc by nc"
+    },
+    {
+      "id": "fc0e102f62414ba19e85e9e3fce2ca3b",
+      "title": "Dhaxalreeb",
+      "publisher_name": "Pluto Journals",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "Geography. Anthropology. Recreation",
+        "Ethnology. Social and cultural anthropology",
+        "History of Africa"
+      ],
+      "subject_display": "Geography. Anthropology. Recreation · Ethnology. Social and cultural anthropology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2026-07-14T07:55:41Z",
+      "created_year": 2026,
+      "created_month": "2026-07",
+      "last_updated": "2026-11-10T12:10:47Z",
+      "website": "https://www.plutojournals.com/dhaxalreeb/",
+      "author_guidelines_url": "https://www.plutojournals.com/wp-content/uploads/Dhaxalreeb-Guidelines-for-Authors-Submissions.pdf",
+      "article_records_exposed": null,
+      "search_text": "dhaxalreeb pluto journals gb europe geography anthropology recreation ethnology social and cultural anthropology history of africa en cc by"
+    },
+    {
+      "id": "ebbac4ffb86943a9ab9807d9dba5247d",
+      "title": "Lingue Culture Mediazioni",
+      "publisher_name": "LED - Edizioni Universitarie di Lettere Economia Diritto",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Anthropology",
+        "Language. Linguistic theory. Comparative grammar"
+      ],
+      "subject_display": "Anthropology · Language. Linguistic theory. Comparative grammar",
+      "languages": [
+        "ES",
+        "IT",
+        "FR",
+        "EN"
+      ],
+      "language_display": "ES, IT, FR, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2018-08-24T13:53:22Z",
+      "created_year": 2018,
+      "created_month": "2018-08",
+      "last_updated": "2026-11-10T11:22:26Z",
+      "website": "http://www.ledonline.it/index.php/LCM-Journal",
+      "author_guidelines_url": "http://www.ledonline.it/index.php/LCM-Journal/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "lingue culture mediazioni led edizioni universitarie di lettere economia diritto it europe anthropology language linguistic theory comparative grammar es it fr en cc by nc nd"
+    },
+    {
+      "id": "1569ce36f52b449f85aa056cebf0293d",
+      "title": "Bartın University Journal of Faculty of Education",
+      "publisher_name": "Bartın Üniversitesi (Bartin University)",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-10T11:05:10Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-10T11:05:10Z",
+      "website": "https://dergipark.org.tr/en/pub/buefad",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/buefad/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "bart n university journal of faculty of education bart n universitesi bartin university tr asia education en cc by nc"
+    },
+    {
+      "id": "12e8c46009f44bbabc0254857413737d",
+      "title": "Journal of Early Childhood Education Research",
+      "publisher_name": "Early Childhood Education Association Finland",
+      "country": "FI",
+      "continent": "Europe",
+      "subjects": [
+        "Education (General)",
+        "Special aspects of education"
+      ],
+      "subject_display": "Education (General) · Special aspects of education",
+      "languages": [
+        "FI",
+        "EN"
+      ],
+      "language_display": "FI, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2021-05-28T13:10:22Z",
+      "created_year": 2021,
+      "created_month": "2021-05",
+      "last_updated": "2026-11-10T10:50:29Z",
+      "website": "https://journal.fi/jecer/index",
+      "author_guidelines_url": "https://journal.fi/jecer/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of early childhood education research early childhood education association finland fi europe education general special aspects of education fi en cc by nc"
+    },
+    {
+      "id": "64c58e8a79074e2fb9f1153e55cfbfa5",
+      "title": "Infectious Diseases and Clinical Microbiology",
+      "publisher_name": "DOC Design and Informatics Co. Ltd.",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Immunologic diseases. Allergy"
+      ],
+      "subject_display": "Immunologic diseases. Allergy",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-10T10:36:46Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-10T10:36:46Z",
+      "website": "https://www.idcmjournal.org/",
+      "author_guidelines_url": "https://www.idcmjournal.org/instructions-to-authors",
+      "article_records_exposed": null,
+      "search_text": "infectious diseases and clinical microbiology doc design and informatics co ltd tr asia immunologic diseases allergy en cc by nc"
+    },
+    {
+      "id": "60dbc87b2b3845f6948785bdba854520",
+      "title": "Scandinavian Journal of Child and Adolescent Psychiatry and Psychology",
+      "publisher_name": "Sciendo",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Psychiatry",
+        "Psychology"
+      ],
+      "subject_display": "Psychiatry · Psychology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "600 EUR",
+      "apc_max_eur": 600.0,
+      "apc_max_usd": 671.58,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2017-06-30T10:16:46Z",
+      "created_year": 2017,
+      "created_month": "2017-06",
+      "last_updated": "2026-11-10T10:35:04Z",
+      "website": "https://reference-global.com/journal/SJCAPP",
+      "author_guidelines_url": "https://reference-global.com/journal/SJCAPP?tab=submission-guidelines",
+      "article_records_exposed": null,
+      "search_text": "scandinavian journal of child and adolescent psychiatry and psychology sciendo pl europe psychiatry psychology en cc by nc nd"
+    },
+    {
+      "id": "0696e077e6d04b868052f097bef8bdd0",
+      "title": "Euchembioj Reviews",
+      "publisher_name": "Nuray Çatal",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Chemistry"
+      ],
+      "subject_display": "Chemistry",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS"
+      ],
+      "created_date": "2025-12-17T08:38:09Z",
+      "created_year": 2025,
+      "created_month": "2025-12",
+      "last_updated": "2026-11-10T09:58:50Z",
+      "website": "https://euchembiojreviews.com/index.php/pub",
+      "author_guidelines_url": "https://euchembiojreviews.com/index.php/pub/authorguideline",
+      "article_records_exposed": null,
+      "search_text": "euchembioj reviews nuray catal tr asia chemistry en cc by nc"
+    },
+    {
+      "id": "52a38a8b3a9f4c2eac0632e20e3bd9e7",
+      "title": "Ege Mimarlık",
+      "publisher_name": "TMMOB Mimarlar Odası İzmir Şubesi",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Architecture"
+      ],
+      "subject_display": "Architecture",
+      "languages": [
+        "TR"
+      ],
+      "language_display": "TR",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2025-12-22T11:00:34Z",
+      "created_year": 2025,
+      "created_month": "2025-12",
+      "last_updated": "2026-11-10T09:58:17Z",
+      "website": "https://egemimarlik.org/",
+      "author_guidelines_url": "https://egemimarlik.org/yazar-rehberi",
+      "article_records_exposed": null,
+      "search_text": "ege mimarl k tmmob mimarlar odas izmir subesi tr asia architecture tr cc by nc"
+    },
+    {
+      "id": "753614ffbfa54a4dbf2569d6b53e827d",
+      "title": "Edinost in Dialog",
+      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "History and principles of religions",
+        "Practical Theology",
+        "Religion (General)"
+      ],
+      "subject_display": "History and principles of religions · Practical Theology",
+      "languages": [
+        "HR",
+        "SL",
+        "IT",
+        "DE",
+        "EN"
+      ],
+      "language_display": "HR, SL, IT, DE, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Open peer review"
+      ],
+      "peer_review_display": "Open peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-05-19T14:11:33Z",
+      "created_year": 2021,
+      "created_month": "2021-05",
+      "last_updated": "2026-11-10T09:20:56Z",
+      "website": "https://www.teof.uni-lj.si/publications/unity-and-dialogue",
+      "author_guidelines_url": "https://www.teof.uni-lj.si/uploads/LAK_ED_Instructions%20for%20Contributors_FIN_dec%202018.pdf",
+      "article_records_exposed": null,
+      "search_text": "edinost in dialog university of ljubljana press zalozba univerze v ljubljani si europe history and principles of religions practical theology religion general hr sl it de en cc by"
+    },
+    {
+      "id": "c52c39884f474a6bb93294f7528dd0ab",
+      "title": "Revista Científica de la UCSA",
+      "publisher_name": "Universidad del Cono Sur de las Américas",
+      "country": "PY",
+      "continent": "South America",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)",
+        "Social sciences (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General) · Social sciences (General)",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "LOCKSS"
+      ],
+      "created_date": "2018-09-29T16:52:28Z",
+      "created_year": 2018,
+      "created_month": "2018-09",
+      "last_updated": "2026-11-10T09:06:27Z",
+      "website": "https://revista.ucsa-ct.edu.py/ojs/index.php/ucsa",
+      "author_guidelines_url": "https://revista.ucsa-ct.edu.py/ojs/index.php/ucsa/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista cientifica de la ucsa universidad del cono sur de las americas py south america engineering general civil engineering general social sciences general es en cc by"
+    },
+    {
+      "id": "9303dbc8648949d8b31eba63008b5b2e",
+      "title": "Kragujevac Journal of Science",
+      "publisher_name": "University of Kragujevac, Faculty of Science",
+      "country": "RS",
+      "continent": "Europe",
+      "subjects": [
+        "Science"
+      ],
+      "subject_display": "Science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-06-15T09:51:07Z",
+      "created_year": 2017,
+      "created_month": "2017-06",
+      "last_updated": "2026-11-10T08:51:58Z",
+      "website": "https://scindeks.ceon.rs/journalDetails.aspx?issn=1450-9636&lang=en",
+      "author_guidelines_url": "https://scindeks-clanci.ceon.rs/data/uputstva/1450-9636ue.pdf",
+      "article_records_exposed": null,
+      "search_text": "kragujevac journal of science university of kragujevac faculty of science rs europe science en cc by"
+    },
+    {
+      "id": "0c90d540287e46bfabc489eb799f1028",
+      "title": "Etnosfera",
+      "publisher_name": "Editura Academiei Române",
+      "country": "RO",
+      "continent": "Europe",
+      "subjects": [
+        "Sociology (General)",
+        "Anthropology"
+      ],
+      "subject_display": "Sociology (General) · Anthropology",
+      "languages": [
+        "RO",
+        "EN"
+      ],
+      "language_display": "RO, EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-07-28T13:20:18Z",
+      "created_year": 2026,
+      "created_month": "2026-07",
+      "last_updated": "2026-11-10T08:33:14Z",
+      "website": "https://www.etnosfera.ro/",
+      "author_guidelines_url": "https://www.etnosfera.ro/author-guidelines-3/",
+      "article_records_exposed": null,
+      "search_text": "etnosfera editura academiei romane ro europe sociology general anthropology ro en cc by nc sa"
+    },
+    {
+      "id": "0f2753ce30ae4e4b8235eef5db8e4555",
+      "title": "Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries",
+      "publisher_name": "Çanakkale Onsekiz Mart University",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Aquaculture. Fisheries. Angling"
+      ],
+      "subject_display": "Aquaculture. Fisheries. Angling",
+      "languages": [
+        "TR",
+        "EN"
+      ],
+      "language_display": "TR, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-02-25T08:39:25Z",
+      "created_year": 2021,
+      "created_month": "2021-02",
+      "last_updated": "2026-11-10T08:11:16Z",
+      "website": "https://dergipark.org.tr/en/pub/jmsf",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/jmsf/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "canakkale onsekiz mart university journal of marine sciences and fisheries canakkale onsekiz mart university tr asia aquaculture fisheries angling tr en cc by"
+    },
+    {
+      "id": "8473e0551613469896a2679a231b0c5b",
+      "title": "Center for Educational Policy Studies Journal",
+      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "Education (General)"
+      ],
+      "subject_display": "Education (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2012-11-15T09:16:23Z",
+      "created_year": 2012,
+      "created_month": "2012-11",
+      "last_updated": "2026-11-10T07:59:12Z",
+      "website": "http://www.cepsj.si",
+      "author_guidelines_url": "https://www.cepsj.si/index.php/cepsj/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "center for educational policy studies journal university of ljubljana press zalozba univerze v ljubljani si europe education general en cc by"
+    },
+    {
+      "id": "7d6ab4e03e4a49cd8395fc4bbc51cbee",
+      "title": "Diálogo de la Lengua",
+      "publisher_name": "Universitat Jaume I",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "Philology. Linguistics"
+      ],
+      "subject_display": "Philology. Linguistics",
+      "languages": [
+        "ES"
+      ],
+      "language_display": "ES",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-10T07:16:37Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-10T07:16:37Z",
+      "website": "https://www.e-revistes.uji.es/index.php/dleng/index",
+      "author_guidelines_url": "https://www.e-revistes.uji.es/index.php/dleng/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "dialogo de la lengua universitat jaume i es europe philology linguistics es cc by sa"
+    },
+    {
+      "id": "93b36e22f58c494bac730312556f9a92",
+      "title": "Journal of Maritime Policy Science",
+      "publisher_name": "Universitas Maritim Raja Ali Haji",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Social Sciences"
+      ],
+      "subject_display": "Social Sciences",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": true,
+      "apc_native_display": "350000 IDR",
+      "apc_max_eur": 17.3,
+      "apc_max_usd": 19.36,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2025-11-02T23:41:33Z",
+      "created_year": 2025,
+      "created_month": "2025-11",
+      "last_updated": "2026-11-10T05:22:03Z",
+      "website": "https://ojs.umrah.ac.id/index.php/jmps",
+      "author_guidelines_url": "https://ojs.umrah.ac.id/index.php/jmps/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of maritime policy science universitas maritim raja ali haji id asia social sciences en cc by sa"
+    },
     {
       "id": "54e16eaf1db2419896ec1e5938805a94",
       "title": "Inscriptions",
@@ -259,52 +967,6 @@
       "author_guidelines_url": "https://revistas.uned.es/index.php/HDP/about/submissions",
       "article_records_exposed": null,
       "search_text": "historia del presente universidad nacional de educacion a distancia uned es europe history general and history of europe es cc by nc"
-    },
-    {
-      "id": "ebbac4ffb86943a9ab9807d9dba5247d",
-      "title": "Lingue Culture Mediazioni",
-      "publisher_name": "LED - Edizioni Universitarie di Lettere Economia Diritto",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Anthropology",
-        "Language. Linguistic theory. Comparative grammar"
-      ],
-      "subject_display": "Anthropology · Language. Linguistic theory. Comparative grammar",
-      "languages": [
-        "EN",
-        "FR",
-        "IT",
-        "ES"
-      ],
-      "language_display": "EN, FR, IT, ES",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2018-08-24T13:53:22Z",
-      "created_year": 2018,
-      "created_month": "2018-08",
-      "last_updated": "2026-11-09T12:12:41Z",
-      "website": "http://www.ledonline.it/index.php/LCM-Journal",
-      "author_guidelines_url": "http://www.ledonline.it/index.php/LCM-Journal/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "lingue culture mediazioni led edizioni universitarie di lettere economia diritto it europe anthropology language linguistic theory comparative grammar en fr it es cc by nc nd"
     },
     {
       "id": "be6af2812b404d77ac124124e52ca592",
@@ -5792,90 +6454,6 @@
       "author_guidelines_url": "https://journals.uni-lj.si/scriptamanent/about/submissions",
       "article_records_exposed": null,
       "search_text": "scripta manent university of ljubljana press zalozba univerze v ljubljani si europe special aspects of education en it de fr cc by sa"
-    },
-    {
-      "id": "8473e0551613469896a2679a231b0c5b",
-      "title": "Center for Educational Policy Studies Journal",
-      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
-      "country": "SI",
-      "continent": "Europe",
-      "subjects": [
-        "Education (General)"
-      ],
-      "subject_display": "Education (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2012-11-15T09:16:23Z",
-      "created_year": 2012,
-      "created_month": "2012-11",
-      "last_updated": "2026-11-03T19:29:27Z",
-      "website": "http://www.cepsj.si",
-      "author_guidelines_url": "https://www.cepsj.si/index.php/cepsj/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "center for educational policy studies journal university of ljubljana press zalozba univerze v ljubljani si europe education general en cc by"
-    },
-    {
-      "id": "753614ffbfa54a4dbf2569d6b53e827d",
-      "title": "Edinost in Dialog",
-      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
-      "country": "SI",
-      "continent": "Europe",
-      "subjects": [
-        "History and principles of religions",
-        "Practical Theology",
-        "Religion (General)"
-      ],
-      "subject_display": "History and principles of religions · Practical Theology",
-      "languages": [
-        "HR",
-        "SL",
-        "IT",
-        "DE",
-        "EN"
-      ],
-      "language_display": "HR, SL, IT, DE, EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Open peer review"
-      ],
-      "peer_review_display": "Open peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-05-19T14:11:33Z",
-      "created_year": 2021,
-      "created_month": "2021-05",
-      "last_updated": "2026-11-03T19:28:19Z",
-      "website": "https://www.teof.uni-lj.si/publications/unity-and-dialogue",
-      "author_guidelines_url": "https://www.teof.uni-lj.si/uploads/LAK_ED_Instructions%20for%20Contributors_FIN_dec%202018.pdf",
-      "article_records_exposed": null,
-      "search_text": "edinost in dialog university of ljubljana press zalozba univerze v ljubljani si europe history and principles of religions practical theology religion general hr sl it de en cc by"
     },
     {
       "id": "1e09515935ee45539812442b48806620",
@@ -24777,46 +25355,6 @@
       "search_text": "access to justice in eastern europe vd dakor ua europe law of europe en cc by"
     },
     {
-      "id": "0696e077e6d04b868052f097bef8bdd0",
-      "title": "Euchembioj Reviews",
-      "publisher_name": "Nuray Çatal",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Chemistry"
-      ],
-      "subject_display": "Chemistry",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-12-17T08:38:09Z",
-      "created_year": 2025,
-      "created_month": "2025-12",
-      "last_updated": "2026-10-19T17:06:14Z",
-      "website": "https://euchembiojreviews.com/index.php/pub",
-      "author_guidelines_url": "https://euchembiojreviews.com/index.php/pub/authorguideline",
-      "article_records_exposed": null,
-      "search_text": "euchembioj reviews nuray catal tr asia chemistry en cc by nc"
-    },
-    {
       "id": "5b692c3fb4ac450bad6c1be98551d43d",
       "title": "Microbial Cell",
       "publisher_name": "Shared Science Publishers OG",
@@ -25604,46 +26142,6 @@
       "author_guidelines_url": "https://publications.aap.org/pediatricsopenscience/pages/author-instructions",
       "article_records_exposed": null,
       "search_text": "pediatrics open science american academy of pediatrics us north america pediatrics en cc by cc by nc nd"
-    },
-    {
-      "id": "93b36e22f58c494bac730312556f9a92",
-      "title": "Journal of Maritime Policy Science",
-      "publisher_name": "Universitas Maritim Raja Ali Haji",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Social Sciences"
-      ],
-      "subject_display": "Social Sciences",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "350000 IDR",
-      "apc_max_eur": 17.3,
-      "apc_max_usd": 19.36,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2025-11-02T23:41:33Z",
-      "created_year": 2025,
-      "created_month": "2025-11",
-      "last_updated": "2026-10-19T15:22:56Z",
-      "website": "https://ojs.umrah.ac.id/index.php/jmps",
-      "author_guidelines_url": "https://ojs.umrah.ac.id/index.php/jmps/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of maritime policy science universitas maritim raja ali haji id asia social sciences en cc by sa"
     },
     {
       "id": "68fa494a492743c78b4066cfc26dfa7e",
@@ -26488,44 +26986,6 @@
       "author_guidelines_url": "https://revistas.unc.edu.ar/index.php/heterocronias/about/submissions",
       "article_records_exposed": null,
       "search_text": "heterocronias universidad nacional de cordoba unc ar south america psychology es cc by nc"
-    },
-    {
-      "id": "52a38a8b3a9f4c2eac0632e20e3bd9e7",
-      "title": "Ege Mimarlık",
-      "publisher_name": "TMMOB Mimarlar Odası İzmir Şubesi",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Architecture"
-      ],
-      "subject_display": "Architecture",
-      "languages": [
-        "TR"
-      ],
-      "language_display": "TR",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2025-12-22T11:00:34Z",
-      "created_year": 2025,
-      "created_month": "2025-12",
-      "last_updated": "2026-10-19T13:44:31Z",
-      "website": "https://egemimarlik.org/",
-      "author_guidelines_url": "https://egemimarlik.org/yazar-rehberi",
-      "article_records_exposed": null,
-      "search_text": "ege mimarl k tmmob mimarlar odas izmir subesi tr asia architecture tr cc by nc"
     },
     {
       "id": "b4e397d5f9be4001acdcf3efe354fd33",
@@ -29248,47 +29708,6 @@
       "author_guidelines_url": "https://revistascientificas.us.es/index.php/Communiars/about/submissions",
       "article_records_exposed": null,
       "search_text": "communiars university of seville es europe education general visual arts drawing design illustration pt es en cc by nc sa"
-    },
-    {
-      "id": "7228c192d34241b2837dccfe3d5aad09",
-      "title": "Pamukkale Üniversitesi İşletme Araştırmaları Dergisi",
-      "publisher_name": "Pamukkale University",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Business"
-      ],
-      "subject_display": "Business",
-      "languages": [
-        "EN",
-        "TR"
-      ],
-      "language_display": "EN, TR",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-07-15T11:45:15Z",
-      "created_year": 2023,
-      "created_month": "2023-07",
-      "last_updated": "2026-10-15T13:37:27Z",
-      "website": "https://dergipark.org.tr/en/pub/piar",
-      "author_guidelines_url": "https://dergipark.org.tr/en/pub/piar/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "pamukkale universitesi isletme arast rmalar dergisi pamukkale university tr asia business en tr cc by nc nd"
     },
     {
       "id": "b39882f81c6e48e2a51009fe080b74b1",
@@ -32568,47 +32987,6 @@
       "author_guidelines_url": "http://journals.aesop-planning.eu/submissions-for-authors/",
       "article_records_exposed": null,
       "search_text": "planext aesop association of the european schools of planning be europe sociology general social sciences general en cc by"
-    },
-    {
-      "id": "0f2753ce30ae4e4b8235eef5db8e4555",
-      "title": "Çanakkale Onsekiz Mart University Journal of Marine Sciences and Fisheries",
-      "publisher_name": "Çanakkale Onsekiz Mart University",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Aquaculture. Fisheries. Angling"
-      ],
-      "subject_display": "Aquaculture. Fisheries. Angling",
-      "languages": [
-        "EN",
-        "TR"
-      ],
-      "language_display": "EN, TR",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-02-25T08:39:25Z",
-      "created_year": 2021,
-      "created_month": "2021-02",
-      "last_updated": "2026-10-12T10:06:37Z",
-      "website": "https://dergipark.org.tr/en/pub/jmsf",
-      "author_guidelines_url": "https://dergipark.org.tr/en/pub/jmsf/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "canakkale onsekiz mart university journal of marine sciences and fisheries canakkale onsekiz mart university tr asia aquaculture fisheries angling en tr cc by"
     },
     {
       "id": "277d97f566184ab19122dcc8a7079f3a",
@@ -36605,50 +36983,6 @@
       "author_guidelines_url": "https://jurnal.ut.ac.id/index.php/jciee/authorguidelines",
       "article_records_exposed": null,
       "search_text": "journal of contemporary issues in elementary education lppm universitas terbuka id asia education general id cc by sa"
-    },
-    {
-      "id": "0ffbf270877d425f8750b11e4bfa9ace",
-      "title": "IOASD Journal of Business and Management Studies",
-      "publisher_name": "IOASD PUBLISHER",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Finance",
-        "Commerce"
-      ],
-      "subject_display": "Finance · Commerce",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "10000 INR / 200 USD",
-      "apc_max_eur": 178.68,
-      "apc_max_usd": 200.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Internet Archive",
-        "PKP PN"
-      ],
-      "created_date": "2026-09-24T05:47:13Z",
-      "created_year": 2026,
-      "created_month": "2026-09",
-      "last_updated": "2026-10-01T18:36:48Z",
-      "website": "https://ioasdpublisher.com/ioasdjbms",
-      "author_guidelines_url": "https://ioasdpublisher.com/ioasdjbms/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "ioasd journal of business and management studies ioasd publisher in asia finance commerce en cc by nc"
     },
     {
       "id": "cab92cac07b3444db00caa89129e19ec",
@@ -72473,50 +72807,6 @@
       "search_text": "revista do colegio brasileiro de cirurgioes colegio brasileiro de cirurgioes br south america surgery en pt cc by"
     },
     {
-      "id": "fc0e102f62414ba19e85e9e3fce2ca3b",
-      "title": "Dhaxalreeb",
-      "publisher_name": "Pluto Journals",
-      "country": "GB",
-      "continent": "Europe",
-      "subjects": [
-        "Geography. Anthropology. Recreation",
-        "Ethnology. Social and cultural anthropology",
-        "History of Africa"
-      ],
-      "subject_display": "Geography. Anthropology. Recreation · Ethnology. Social and cultural anthropology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2026-07-14T07:55:41Z",
-      "created_year": 2026,
-      "created_month": "2026-07",
-      "last_updated": "2026-09-17T10:55:19Z",
-      "website": "https://www.plutojournals.com/dhaxalreeb/",
-      "author_guidelines_url": "https://www.plutojournals.com/wp-content/uploads/Dhaxalreeb-Guidelines-for-Authors-Submissions.pdf",
-      "article_records_exposed": null,
-      "search_text": "dhaxalreeb pluto journals gb europe geography anthropology recreation ethnology social and cultural anthropology history of africa en cc by"
-    },
-    {
       "id": "b6a2e5c622bc4b688453f7ddd1c70480",
       "title": "Teaching Social Studies in the Peach State",
       "publisher_name": "Georgia Southern University",
@@ -91038,48 +91328,6 @@
       "author_guidelines_url": "https://rtsa.ro/tras/index.php/tras/pages/view/forauthors",
       "article_records_exposed": null,
       "search_text": "transylvanian review of administrative sciences babes bolyai university cluj napoca ro europe political institutions and public administration general en cc by"
-    },
-    {
-      "id": "0c90d540287e46bfabc489eb799f1028",
-      "title": "Etnosfera",
-      "publisher_name": "Editura Academiei Române",
-      "country": "RO",
-      "continent": "Europe",
-      "subjects": [
-        "Sociology (General)",
-        "Anthropology"
-      ],
-      "subject_display": "Sociology (General) · Anthropology",
-      "languages": [
-        "RO",
-        "EN"
-      ],
-      "language_display": "RO, EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-07-28T13:20:18Z",
-      "created_year": 2026,
-      "created_month": "2026-07",
-      "last_updated": "2026-09-17T10:54:58Z",
-      "website": "https://www.etnosfera.ro/",
-      "author_guidelines_url": "https://www.etnosfera.ro/author-guidelines-3/",
-      "article_records_exposed": null,
-      "search_text": "etnosfera editura academiei romane ro europe sociology general anthropology ro en cc by nc sa"
     },
     {
       "id": "a1c8d6a4909c4a4ba34920eee59b6a27",
@@ -111059,46 +111307,6 @@
       "search_text": "acta stomatologica naissi medicinski fakultet i klinika za stomatologiju nis rs europe dentistry en sr cc by sa"
     },
     {
-      "id": "9303dbc8648949d8b31eba63008b5b2e",
-      "title": "Kragujevac Journal of Science",
-      "publisher_name": "University of Kragujevac, Faculty of Science",
-      "country": "RS",
-      "continent": "Europe",
-      "subjects": [
-        "Science"
-      ],
-      "subject_display": "Science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2017-06-15T09:51:07Z",
-      "created_year": 2017,
-      "created_month": "2017-06",
-      "last_updated": "2026-09-17T10:54:43Z",
-      "website": "https://scindeks.ceon.rs/journalDetails.aspx?issn=1450-9636&lang=en",
-      "author_guidelines_url": "https://scindeks-clanci.ceon.rs/data/uputstva/1450-9636ue.pdf",
-      "article_records_exposed": null,
-      "search_text": "kragujevac journal of science university of kragujevac faculty of science rs europe science en cc by"
-    },
-    {
       "id": "2bb4929aab8b4b38929e45f6d15d002f",
       "title": "Annals of West University of Timisoara: Physics",
       "publisher_name": "Sciendo",
@@ -115615,50 +115823,6 @@
       "author_guidelines_url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-energy/",
       "article_records_exposed": null,
       "search_text": "jphys energy iop publishing gb europe production of electric energy or power powerplants central stations renewable energy sources en cc by"
-    },
-    {
-      "id": "c52c39884f474a6bb93294f7528dd0ab",
-      "title": "Revista Científica de la UCSA",
-      "publisher_name": "Universidad del Cono Sur de las Américas",
-      "country": "PY",
-      "continent": "South America",
-      "subjects": [
-        "Engineering (General). Civil engineering (General)",
-        "Social sciences (General)"
-      ],
-      "subject_display": "Engineering (General). Civil engineering (General) · Social sciences (General)",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "LOCKSS"
-      ],
-      "created_date": "2018-09-29T16:52:28Z",
-      "created_year": 2018,
-      "created_month": "2018-09",
-      "last_updated": "2026-09-17T10:54:40Z",
-      "website": "https://revista.ucsa-ct.edu.py/ojs/index.php/ucsa",
-      "author_guidelines_url": "https://revista.ucsa-ct.edu.py/ojs/index.php/ucsa/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista cientifica de la ucsa universidad del cono sur de las americas py south america engineering general civil engineering general social sciences general en es cc by"
     },
     {
       "id": "97af2cb3329945a88329937b042f9fef",
@@ -193618,49 +193782,6 @@
       "author_guidelines_url": "https://revistas.rediech.org/index.php/ie_rie_rediech/caracteristicas-contribuciones",
       "article_records_exposed": null,
       "search_text": "ie revista de investigacion educativa de la rediech red de investigadores educativos chihuahua ac mx north america theory and practice of education es en pt cc by nc"
-    },
-    {
-      "id": "60dbc87b2b3845f6948785bdba854520",
-      "title": "Scandinavian Journal of Child and Adolescent Psychiatry and Psychology",
-      "publisher_name": "Sciendo",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Psychiatry",
-        "Psychology"
-      ],
-      "subject_display": "Psychiatry · Psychology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "600 EUR",
-      "apc_max_eur": 600.0,
-      "apc_max_usd": 671.58,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2017-06-30T10:16:46Z",
-      "created_year": 2017,
-      "created_month": "2017-06",
-      "last_updated": "2026-09-17T10:53:34Z",
-      "website": "https://reference-global.com/journal/SJCAPP",
-      "author_guidelines_url": "https://reference-global.com/journal/SJCAPP?tab=submission-guidelines",
-      "article_records_exposed": null,
-      "search_text": "scandinavian journal of child and adolescent psychiatry and psychology sciendo pl europe psychiatry psychology en cc by nc nd"
     },
     {
       "id": "5728cc7ea2f74f2dbe5590097c07f78f",
@@ -561784,46 +561905,6 @@
       "author_guidelines_url": "https://ateroskleroz.elpub.ru/jour/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "siberian branch of russian academy of sciences research institute of internal and preventive medicine branch of the institute of cytology and genetics ru europe diseases of the blood and blood forming organs diseases of the circulatory cardiovascular system ru cc by"
-    },
-    {
-      "id": "12e8c46009f44bbabc0254857413737d",
-      "title": "Journal of Early Childhood Education Research",
-      "publisher_name": "Early Childhood Education Association Finland",
-      "country": "FI",
-      "continent": "Europe",
-      "subjects": [
-        "Education (General)",
-        "Special aspects of education"
-      ],
-      "subject_display": "Education (General) · Special aspects of education",
-      "languages": [
-        "FI",
-        "EN"
-      ],
-      "language_display": "FI, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2021-05-28T13:10:22Z",
-      "created_year": 2021,
-      "created_month": "2021-05",
-      "last_updated": "2026-09-17T10:47:12Z",
-      "website": "https://journal.fi/jecer/index",
-      "author_guidelines_url": "https://journal.fi/jecer/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of early childhood education research early childhood education association finland fi europe education general special aspects of education fi en cc by nc"
     },
     {
       "id": "c1d85264ad6744a4be7bdad134bf0891",
