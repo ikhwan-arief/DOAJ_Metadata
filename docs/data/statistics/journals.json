@@ -1,8 +1,269 @@
 {
-  "generated_at": "2026-11-11T03:37:25.367615+00:00",
+  "generated_at": "2026-11-11T13:09:26.855805+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23223,
+  "item_count": 23224,
   "items": [
+    {
+      "id": "60d7181204594533b87342dbee28003c",
+      "title": "Selçuk Turizm ve Bilişim Araştırmaları Dergisi",
+      "publisher_name": "Selcuk University Press",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Hospitality industry. Hotels, clubs, restaurants, etc. Food service"
+      ],
+      "subject_display": "Hospitality industry. Hotels, clubs, restaurants, etc. Food service",
+      "languages": [
+        "TR",
+        "EN"
+      ],
+      "language_display": "TR, EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "https://izlik.org"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-11T10:26:15Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-11T10:26:15Z",
+      "website": "https://dergipark.org.tr/en/pub/stbad",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/stbad/page/21215",
+      "article_records_exposed": null,
+      "search_text": "selcuk turizm ve bilisim arast rmalar dergisi selcuk university press tr asia hospitality industry hotels clubs restaurants etc food service tr en cc by nc"
+    },
+    {
+      "id": "207ae3cc276743459a190087c5035003",
+      "title": "Qualitative Research in Educational Sciences",
+      "publisher_name": "Islamic Azad university, Sari branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1500000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 1.5,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive",
+        "The journal is indexed and archived in national databases such as Magiran.com, Noormags.ir and Ensani.ir and international database J-Gate."
+      ],
+      "created_date": "2025-11-17T14:40:59Z",
+      "created_year": 2025,
+      "created_month": "2025-11",
+      "last_updated": "2026-11-11T10:25:17Z",
+      "website": "https://sanad.iau.ir/en/Journal/qres",
+      "author_guidelines_url": "https://sanad.iau.ir/en/Journal/qres/Page/Help",
+      "article_records_exposed": null,
+      "search_text": "qualitative research in educational sciences islamic azad university sari branch ir asia education fa cc by"
+    },
+    {
+      "id": "12e8c46009f44bbabc0254857413737d",
+      "title": "Journal of Early Childhood Education Research",
+      "publisher_name": "Early Childhood Education Association Finland",
+      "country": "FI",
+      "continent": "Europe",
+      "subjects": [
+        "Education (General)",
+        "Special aspects of education"
+      ],
+      "subject_display": "Education (General) · Special aspects of education",
+      "languages": [
+        "EN",
+        "FI"
+      ],
+      "language_display": "EN, FI",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-05-28T13:10:22Z",
+      "created_year": 2021,
+      "created_month": "2021-05",
+      "last_updated": "2026-11-11T09:44:10Z",
+      "website": "https://journal.fi/jecer/index",
+      "author_guidelines_url": "https://journal.fi/jecer/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of early childhood education research early childhood education association finland fi europe education general special aspects of education en fi cc by nc"
+    },
+    {
+      "id": "47b4b02cc2fe4ded8304a9455792d230",
+      "title": "Mémoires du livre / Studies in Book Culture",
+      "publisher_name": "Groupe de recherches et d'études sur le livre au Québec",
+      "country": "CA",
+      "continent": "North America",
+      "subjects": [
+        "Fine Arts"
+      ],
+      "subject_display": "Fine Arts",
+      "languages": [
+        "EN",
+        "FR"
+      ],
+      "language_display": "EN, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2016-11-07T10:10:43Z",
+      "created_year": 2016,
+      "created_month": "2016-11",
+      "last_updated": "2026-11-11T08:38:26Z",
+      "website": "http://memoires.erudit.org/?lang=en",
+      "author_guidelines_url": "https://www.erudit.org/fr/revues/memoires/#journal-info-about",
+      "article_records_exposed": null,
+      "search_text": "memoires du livre studies in book culture groupe de recherches et d etudes sur le livre au quebec ca north america fine arts en fr cc by nc nd"
+    },
+    {
+      "id": "1abe496c9eab435e843c4f4834cef83a",
+      "title": "Quaderns de Recerca en Urbanisme",
+      "publisher_name": "Universitat Politècnica de Catalunya",
+      "country": "ES",
+      "continent": "Europe",
+      "subjects": [
+        "City planning",
+        "Architecture",
+        "Urbanization. City and country"
+      ],
+      "subject_display": "City planning · Architecture",
+      "languages": [
+        "CA",
+        "ES",
+        "EN",
+        "PT",
+        "FR"
+      ],
+      "language_display": "CA, ES, EN, PT, FR",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "Handles"
+      ],
+      "preservation_services": [
+        "UPCommons (Repositori UPC)"
+      ],
+      "created_date": "2026-11-11T07:47:56Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-11T07:47:56Z",
+      "website": "https://revistes.upc.edu/index.php/QRU/index",
+      "author_guidelines_url": "https://revistes.upc.edu/index.php/QRU/information/authors",
+      "article_records_exposed": null,
+      "search_text": "quaderns de recerca en urbanisme universitat politecnica de catalunya es europe city planning architecture urbanization city and country ca es en pt fr cc by nc nd"
+    },
+    {
+      "id": "0ffbf270877d425f8750b11e4bfa9ace",
+      "title": "IOASD Journal of Business and Management Studies",
+      "publisher_name": "IOASD PUBLISHER",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Finance",
+        "Commerce"
+      ],
+      "subject_display": "Finance · Commerce",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "200 USD / 10000 INR",
+      "apc_max_eur": 178.35,
+      "apc_max_usd": 200.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive",
+        "PKP PN"
+      ],
+      "created_date": "2026-09-24T05:47:13Z",
+      "created_year": 2026,
+      "created_month": "2026-09",
+      "last_updated": "2026-11-11T06:24:59Z",
+      "website": "https://ioasdpublisher.com/ioasdjbms",
+      "author_guidelines_url": "https://ioasdpublisher.com/ioasdjbms/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "ioasd journal of business and management studies ioasd publisher in asia finance commerce en cc by nc"
+    },
     {
       "id": "c52c39884f474a6bb93294f7528dd0ab",
       "title": "Revista Científica de la UCSA",
@@ -464,50 +725,6 @@
       "search_text": "folia toruniensia the provincial public library the copernicus library in torun and nicolaus copernicus university in torun pl europe bibliography library science information resources en pl cc by nd"
     },
     {
-      "id": "0ffbf270877d425f8750b11e4bfa9ace",
-      "title": "IOASD Journal of Business and Management Studies",
-      "publisher_name": "IOASD PUBLISHER",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Finance",
-        "Commerce"
-      ],
-      "subject_display": "Finance · Commerce",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "10000 INR / 200 USD",
-      "apc_max_eur": 178.35,
-      "apc_max_usd": 200.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Internet Archive",
-        "PKP PN"
-      ],
-      "created_date": "2026-09-24T05:47:13Z",
-      "created_year": 2026,
-      "created_month": "2026-09",
-      "last_updated": "2026-11-10T12:32:38Z",
-      "website": "https://ioasdpublisher.com/ioasdjbms",
-      "author_guidelines_url": "https://ioasdpublisher.com/ioasdjbms/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "ioasd journal of business and management studies ioasd publisher in asia finance commerce en cc by nc"
-    },
-    {
       "id": "fc0e102f62414ba19e85e9e3fce2ca3b",
       "title": "Dhaxalreeb",
       "publisher_name": "Pluto Journals",
@@ -636,46 +853,6 @@
       "author_guidelines_url": "https://dergipark.org.tr/en/pub/buefad/writing-rules",
       "article_records_exposed": null,
       "search_text": "bart n university journal of faculty of education bart n universitesi bartin university tr asia education en cc by nc"
-    },
-    {
-      "id": "12e8c46009f44bbabc0254857413737d",
-      "title": "Journal of Early Childhood Education Research",
-      "publisher_name": "Early Childhood Education Association Finland",
-      "country": "FI",
-      "continent": "Europe",
-      "subjects": [
-        "Education (General)",
-        "Special aspects of education"
-      ],
-      "subject_display": "Education (General) · Special aspects of education",
-      "languages": [
-        "FI",
-        "EN"
-      ],
-      "language_display": "FI, EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2021-05-28T13:10:22Z",
-      "created_year": 2021,
-      "created_month": "2021-05",
-      "last_updated": "2026-11-10T10:50:29Z",
-      "website": "https://journal.fi/jecer/index",
-      "author_guidelines_url": "https://journal.fi/jecer/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of early childhood education research early childhood education association finland fi europe education general special aspects of education fi en cc by nc"
     },
     {
       "id": "64c58e8a79074e2fb9f1153e55cfbfa5",
@@ -146336,47 +146513,6 @@
       "search_text": "journal of stratigraphy and sedimentology researches university of isfahan ir asia stratigraphy fa en cc by nc nd"
     },
     {
-      "id": "652fb8023ab34982983e2204eac47864",
-      "title": "Neurosignals",
-      "publisher_name": "Cell Physiol Biochem Press GmbH & Co KG",
-      "country": "DE",
-      "continent": "Europe",
-      "subjects": [
-        "Neurology. Diseases of the nervous system",
-        "Neurophysiology and neuropsychology"
-      ],
-      "subject_display": "Neurology. Diseases of the nervous system · Neurophysiology and neuropsychology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "1500 EUR",
-      "apc_max_eur": 1500.0,
-      "apc_max_usd": 1682.1,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2006-08-16T16:32:13Z",
-      "created_year": 2006,
-      "created_month": "2006-08",
-      "last_updated": "2026-09-17T10:54:15Z",
-      "website": "https://www.neuro-signals.com/",
-      "author_guidelines_url": "https://www.neuro-signals.com/Submission/",
-      "article_records_exposed": null,
-      "search_text": "neurosignals cell physiol biochem press gmbh co kg de europe neurology diseases of the nervous system neurophysiology and neuropsychology en cc by nc nd"
-    },
-    {
       "id": "c86dfc1554d84eefac8790f5520974f4",
       "title": "Jurnal Hama dan Penyakit Tumbuhan Tropika",
       "publisher_name": "Universitas Lampung",
@@ -166075,47 +166211,6 @@
       "author_guidelines_url": "https://emlc-journal.org/about/submissions",
       "article_records_exposed": null,
       "search_text": "early modern low countries stichting early modern low countries nl europe history of low countries benelux countries en cc by cc by nc"
-    },
-    {
-      "id": "47b4b02cc2fe4ded8304a9455792d230",
-      "title": "Mémoires du livre / Studies in Book Culture",
-      "publisher_name": "Groupe de recherches et d'études sur le livre au Québec",
-      "country": "CA",
-      "continent": "North America",
-      "subjects": [
-        "Fine Arts"
-      ],
-      "subject_display": "Fine Arts",
-      "languages": [
-        "FR",
-        "EN"
-      ],
-      "language_display": "FR, EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2016-11-07T10:10:43Z",
-      "created_year": 2016,
-      "created_month": "2016-11",
-      "last_updated": "2026-09-17T10:53:56Z",
-      "website": "http://memoires.erudit.org/?lang=en",
-      "author_guidelines_url": "https://www.erudit.org/fr/revues/memoires/#journal-info-about",
-      "article_records_exposed": null,
-      "search_text": "memoires du livre studies in book culture groupe de recherches et d etudes sur le livre au quebec ca north america fine arts fr en cc by nc nd"
     },
     {
       "id": "a9e06fe8325e4523b425f7e0fd146a91",
@@ -189488,49 +189583,6 @@
       "author_guidelines_url": "https://lisaniyatstudies.com/lisaniyat/yazim-ve-yayin-ilkeleri",
       "article_records_exposed": null,
       "search_text": "lisaniyat studies hidayet samuk tr asia philology linguistics en tr cc by nc nd"
-    },
-    {
-      "id": "207ae3cc276743459a190087c5035003",
-      "title": "Qualitative Research in Educational Sciences",
-      "publisher_name": "Islamic Azad university, Sari branch",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "FA"
-      ],
-      "language_display": "FA",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1500000 IRR",
-      "apc_max_eur": null,
-      "apc_max_usd": 1.5,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Internet Archive",
-        "The journal is indexed and archived in national databases such as Magiran.com, Noormags.ir and Ensani.ir and international database J-Gate."
-      ],
-      "created_date": "2025-11-17T14:40:59Z",
-      "created_year": 2025,
-      "created_month": "2025-11",
-      "last_updated": "2026-09-17T10:53:38Z",
-      "website": "https://sanad.iau.ir/en/Journal/qres",
-      "author_guidelines_url": "https://sanad.iau.ir/en/Journal/qres/Page/Help",
-      "article_records_exposed": null,
-      "search_text": "qualitative research in educational sciences islamic azad university sari branch ir asia education fa cc by"
     },
     {
       "id": "6d4e7485800e48c9b8dbe4c2955de1af",
