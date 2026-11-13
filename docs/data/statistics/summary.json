@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T03:58:09.066155+00:00",
+  "generated_at": "2026-11-13T21:05:19.410306+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23230,
-  "article_total": 13958084,
+  "journal_total": 23232,
+  "article_total": 13968330,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23230
+      "value": 23232
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13958084,
+      "value": 13968330,
       "detail": "Global DOAJ article total"
     },
     {
@@ -869,7 +869,7 @@
       "items": [
         {
           "name": "No",
-          "value": 14524
+          "value": 14526
         },
         {
           "name": "Yes",
@@ -883,11 +883,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15044
+          "value": 15047
         },
         {
           "name": "No",
-          "value": 8186
+          "value": 8185
         }
       ]
     },
@@ -943,7 +943,7 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10360
+          "value": 10361
         },
         {
           "name": "Asia",
@@ -951,7 +951,7 @@
         },
         {
           "name": "South America",
-          "value": 2799
+          "value": 2800
         },
         {
           "name": "North America",
@@ -973,19 +973,19 @@
       "items": [
         {
           "name": "EN",
-          "value": 19570
+          "value": 19574
         },
         {
           "name": "ES",
-          "value": 4054
+          "value": 4055
         },
         {
           "name": "PT",
-          "value": 2256
+          "value": 2257
         },
         {
           "name": "FR",
-          "value": 1918
+          "value": 1919
         },
         {
           "name": "ID",
@@ -997,7 +997,7 @@
         },
         {
           "name": "DE",
-          "value": 905
+          "value": 906
         },
         {
           "name": "IT",
@@ -1031,7 +1031,7 @@
         },
         {
           "name": "Social sciences (General)",
-          "value": 697
+          "value": 698
         },
         {
           "name": "Education (General)",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5133
+          "value": 5134
         },
         {
           "name": "CC BY-NC",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "CC BY-NC-SA",
-          "value": 2164
+          "value": 2165
         },
         {
           "name": "CC BY-SA",
@@ -1107,11 +1107,11 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15244
+          "value": 15246
         },
         {
           "name": "Single anonymous peer review",
-          "value": 6345
+          "value": 6346
         },
         {
           "name": "Unspecified peer review",
@@ -1167,11 +1167,11 @@
         },
         {
           "name": "LOCKSS",
-          "value": 2021
+          "value": 2022
         },
         {
           "name": "PKP PN",
-          "value": 1870
+          "value": 1873
         },
         {
           "name": "PMC",
@@ -1715,7 +1715,7 @@
             166,
             177,
             144,
-            124,
+            125,
             93,
             109,
             109,
@@ -1803,7 +1803,7 @@
             170,
             245,
             159,
-            66
+            67
           ]
         }
       ]
@@ -2022,11 +2022,11 @@
         },
         {
           "name": "BA",
-          "value": 52
+          "value": 53
         },
         {
           "name": "VE",
-          "value": 51
+          "value": 52
         },
         {
           "name": "MA",
@@ -2384,7 +2384,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-13T03:58:07.717967+00:00",
+    "fetched_at": "2026-11-13T21:05:18.267557+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
