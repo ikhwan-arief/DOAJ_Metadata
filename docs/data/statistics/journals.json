@@ -1,8 +1,287 @@
 {
-  "generated_at": "2026-11-15T10:07:01.426195+00:00",
+  "generated_at": "2026-11-15T18:09:09.038510+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23232,
   "items": [
+    {
+      "id": "b70b5a37cb5d42fdb82da5a20be8dcbe",
+      "title": "Interdisciplinary Political Studies",
+      "publisher_name": "Università del Salento",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Political science"
+      ],
+      "subject_display": "Political science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-02-12T16:26:32Z",
+      "created_year": 2019,
+      "created_month": "2019-02",
+      "last_updated": "2026-11-15T17:53:14Z",
+      "website": "http://siba-ese.unisalento.it/index.php/idps",
+      "author_guidelines_url": "http://siba-ese.unisalento.it/index.php/idps/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "interdisciplinary political studies universita del salento it europe political science en cc by nc nd"
+    },
+    {
+      "id": "53f06b94908748e58fcd22cc936a0605",
+      "title": "Quaderni di Scienze Politiche",
+      "publisher_name": "EDUCatt",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Law",
+        "Law in general. Comparative and uniform law. Jurisprudence"
+      ],
+      "subject_display": "Law · Law in general. Comparative and uniform law. Jurisprudence",
+      "languages": [
+        "IT"
+      ],
+      "language_display": "IT",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2018-07-30T10:02:51Z",
+      "created_year": 2018,
+      "created_month": "2018-07",
+      "last_updated": "2026-11-15T17:40:23Z",
+      "website": "http://www.qdsp.it/",
+      "author_guidelines_url": "http://www.qdsp.it/indiciistruzioni-per-gli-autori/",
+      "article_records_exposed": null,
+      "search_text": "quaderni di scienze politiche educatt it europe law law in general comparative and uniform law jurisprudence it cc by sa"
+    },
+    {
+      "id": "7fb9ee2299c84c3fb1d82f7c40dd61d7",
+      "title": "International Journal of Body, Mind and Culture",
+      "publisher_name": "Vesnu Publications",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2015-12-21T12:08:43Z",
+      "created_year": 2015,
+      "created_month": "2015-12",
+      "last_updated": "2026-11-15T17:12:26Z",
+      "website": "http://ijbmc.org",
+      "author_guidelines_url": "http://ijbmc.org/index.php/ijbmc/information/authors",
+      "article_records_exposed": null,
+      "search_text": "international journal of body mind and culture vesnu publications ir asia medicine general en cc by nc"
+    },
+    {
+      "id": "e0404161aa32478695967787df9d6b8c",
+      "title": "Trends in Economics, Finance and Management Journal",
+      "publisher_name": "Balkan University Press",
+      "country": "MK",
+      "continent": "Europe",
+      "subjects": [
+        "Economics as a science",
+        "Finance"
+      ],
+      "subject_display": "Economics as a science · Finance",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-04-13T23:34:56Z",
+      "created_year": 2026,
+      "created_month": "2026-04",
+      "last_updated": "2026-11-15T15:53:25Z",
+      "website": "https://tefmj.ibupress.com/",
+      "author_guidelines_url": "https://tefmj.ibupress.com/p/instructions-for-authors",
+      "article_records_exposed": null,
+      "search_text": "trends in economics finance and management journal balkan university press mk europe economics as a science finance en cc by nc nd"
+    },
+    {
+      "id": "7ecb8ed5127b469b9c4abcf026dec0d8",
+      "title": "Journal of Law and Politics",
+      "publisher_name": "Balkan University Press",
+      "country": "MK",
+      "continent": "Europe",
+      "subjects": [
+        "Law"
+      ],
+      "subject_display": "Law",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-05-11T22:58:41Z",
+      "created_year": 2026,
+      "created_month": "2026-05",
+      "last_updated": "2026-11-15T15:53:07Z",
+      "website": "https://jlp.ibupress.com/",
+      "author_guidelines_url": "https://jlp.ibupress.com/p/instructions-for-authors",
+      "article_records_exposed": null,
+      "search_text": "journal of law and politics balkan university press mk europe law en cc by nc nd"
+    },
+    {
+      "id": "de623a97881640cbb2dc405b9365e392",
+      "title": "Стратегические решения и риск-менеджмент",
+      "publisher_name": "Real Economics Publishing House",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Risk in industry. Risk management"
+      ],
+      "subject_display": "Risk in industry. Risk management",
+      "languages": [
+        "RU"
+      ],
+      "language_display": "RU",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2018-07-27T10:39:22Z",
+      "created_year": 2018,
+      "created_month": "2018-07",
+      "last_updated": "2026-11-15T15:18:20Z",
+      "website": "http://www.jsdrm.ru",
+      "author_guidelines_url": "http://www.jsdrm.ru/jour/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "real economics publishing house ru europe risk in industry risk management ru cc by"
+    },
+    {
+      "id": "56761785d61945b18a6523f7ae4f4175",
+      "title": "Journal of Integrated Elementary Education",
+      "publisher_name": "Faculty of Tarbiyah and Teacher Training, Universitas Islam Negeri Walisongo Semarang",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Education"
+      ],
+      "subject_display": "Education",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-12-23T16:14:31Z",
+      "created_year": 2021,
+      "created_month": "2021-12",
+      "last_updated": "2026-11-15T14:13:36Z",
+      "website": "https://journal.walisongo.ac.id/index.php/jieed/index",
+      "author_guidelines_url": "https://journal.walisongo.ac.id/index.php/jieed/author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "journal of integrated elementary education faculty of tarbiyah and teacher training universitas islam negeri walisongo semarang id asia education id en cc by sa"
+    },
     {
       "id": "14fce68c39e24148ac56e9fca27ba4de",
       "title": "Eurasian Journal of Physics and Functional Materials",
@@ -3294,45 +3573,6 @@
       "search_text": "inscriptions tankebanen forlag no europe arts in general philosophy psychology religion en cc by"
     },
     {
-      "id": "53f06b94908748e58fcd22cc936a0605",
-      "title": "Quaderni di Scienze Politiche",
-      "publisher_name": "EDUCatt",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Law",
-        "Law in general. Comparative and uniform law. Jurisprudence"
-      ],
-      "subject_display": "Law · Law in general. Comparative and uniform law. Jurisprudence",
-      "languages": [
-        "IT"
-      ],
-      "language_display": "IT",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-07-30T10:02:51Z",
-      "created_year": 2018,
-      "created_month": "2018-07",
-      "last_updated": "2026-11-09T18:15:36Z",
-      "website": "http://www.qdsp.it/",
-      "author_guidelines_url": "http://www.qdsp.it/indiciistruzioni-per-gli-autori/",
-      "article_records_exposed": null,
-      "search_text": "quaderni di scienze politiche educatt it europe law law in general comparative and uniform law jurisprudence it cc by sa"
-    },
-    {
       "id": "c7a1d00e65244b10adcda8e0f118d1d4",
       "title": "Michael",
       "publisher_name": "The Norwegian Medical Society (Det Norske Medicinske Selskab)",
@@ -4938,46 +5178,6 @@
       "author_guidelines_url": "http://uhu.es/publicaciones/ojs/index.php/e-moti-on/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "e motion servicio de publicaciones de la universidad de huelva es europe special aspects of education pt en es cc by nc sa"
-    },
-    {
-      "id": "b70b5a37cb5d42fdb82da5a20be8dcbe",
-      "title": "Interdisciplinary Political Studies",
-      "publisher_name": "Università del Salento",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Political science"
-      ],
-      "subject_display": "Political science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-02-12T16:26:32Z",
-      "created_year": 2019,
-      "created_month": "2019-02",
-      "last_updated": "2026-11-07T16:37:05Z",
-      "website": "http://siba-ese.unisalento.it/index.php/idps",
-      "author_guidelines_url": "http://siba-ese.unisalento.it/index.php/idps/about/submissions#authorGuidelines",
-      "article_records_exposed": null,
-      "search_text": "interdisciplinary political studies universita del salento it europe political science en cc by nc nd"
     },
     {
       "id": "62baa9c4fe344a31881fa45f61e8dc52",
@@ -22152,47 +22352,6 @@
       "search_text": "electronic journal of differential equations texas state university us north america mathematics en cc by"
     },
     {
-      "id": "56761785d61945b18a6523f7ae4f4175",
-      "title": "Journal of Integrated Elementary Education",
-      "publisher_name": "Faculty of Tarbiyah and Teacher Training, Universitas Islam Negeri Walisongo Semarang",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Education"
-      ],
-      "subject_display": "Education",
-      "languages": [
-        "ID",
-        "EN"
-      ],
-      "language_display": "ID, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-12-23T16:14:31Z",
-      "created_year": 2021,
-      "created_month": "2021-12",
-      "last_updated": "2026-10-22T16:44:45Z",
-      "website": "https://journal.walisongo.ac.id/index.php/jieed/index",
-      "author_guidelines_url": "https://journal.walisongo.ac.id/index.php/jieed/author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "journal of integrated elementary education faculty of tarbiyah and teacher training universitas islam negeri walisongo semarang id asia education id en cc by sa"
-    },
-    {
       "id": "5ce5606c8a134fef92c576a9efdc5830",
       "title": "Semina: Ciências Agrárias",
       "publisher_name": "Universidade Estadual de Londrina",
@@ -24795,44 +24954,6 @@
       "author_guidelines_url": "https://journal.mediadigitalpublikasi.com/index.php/apollo/ag",
       "article_records_exposed": null,
       "search_text": "apollo media digital publikasi indonesia id asia business en cc by sa"
-    },
-    {
-      "id": "7fb9ee2299c84c3fb1d82f7c40dd61d7",
-      "title": "International Journal of Body, Mind and Culture",
-      "publisher_name": "Vesnu Publications",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Unspecified peer review"
-      ],
-      "peer_review_display": "Unspecified peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2015-12-21T12:08:43Z",
-      "created_year": 2015,
-      "created_month": "2015-12",
-      "last_updated": "2026-10-20T19:54:27Z",
-      "website": "http://ijbmc.org",
-      "author_guidelines_url": "http://ijbmc.org/index.php/ijbmc/information/authors",
-      "article_records_exposed": null,
-      "search_text": "international journal of body mind and culture vesnu publications ir asia medicine general en cc by nc"
     },
     {
       "id": "2440c8e082c9497c8b78790d1ffaf78a",
@@ -415441,46 +415562,6 @@
       "search_text": "revista da sociedade brasileira de medicina tropical sociedade brasileira de medicina tropical sbmt br south america arctic medicine tropical medicine en cc by"
     },
     {
-      "id": "7ecb8ed5127b469b9c4abcf026dec0d8",
-      "title": "Journal of Law and Politics",
-      "publisher_name": "Balkan University Press",
-      "country": "MK",
-      "continent": "Europe",
-      "subjects": [
-        "Law"
-      ],
-      "subject_display": "Law",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-05-11T22:58:41Z",
-      "created_year": 2026,
-      "created_month": "2026-05",
-      "last_updated": "2026-09-17T10:49:57Z",
-      "website": "https://jlp.ibupress.com/",
-      "author_guidelines_url": "https://jlp.ibupress.com/p/instructions-for-authors",
-      "article_records_exposed": null,
-      "search_text": "journal of law and politics balkan university press mk europe law en cc by nc nd"
-    },
-    {
       "id": "231a15ca65634695ad2fad0ee2933a69",
       "title": "Turystyka - Zarządzanie, Administracja, Prawo",
       "publisher_name": "Ministry of Sport and Tourism",
@@ -469899,46 +469980,6 @@
       "search_text": "or og tunga arni magnusson institute for icelandic studies is europe dictionaries and other general reference works north germanic scandinavian is en cc by nc sa"
     },
     {
-      "id": "de623a97881640cbb2dc405b9365e392",
-      "title": "Стратегические решения и риск-менеджмент",
-      "publisher_name": "Real Economics Publishing House",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "Risk in industry. Risk management"
-      ],
-      "subject_display": "Risk in industry. Risk management",
-      "languages": [
-        "RU"
-      ],
-      "language_display": "RU",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2018-07-27T10:39:22Z",
-      "created_year": 2018,
-      "created_month": "2018-07",
-      "last_updated": "2026-09-17T10:49:01Z",
-      "website": "http://www.jsdrm.ru",
-      "author_guidelines_url": "http://www.jsdrm.ru/jour/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "real economics publishing house ru europe risk in industry risk management ru cc by"
-    },
-    {
       "id": "d27c419fdfad4dbbb544ba0c67994fc0",
       "title": "International Journal of Networked and Distributed Computing (IJNDC)",
       "publisher_name": "Springer",
@@ -502293,47 +502334,6 @@
       "author_guidelines_url": "https://www.cardiacsurgery.com.ua/index.php/CSIC/publication",
       "article_records_exposed": null,
       "search_text": "tov chetverta khvylia ua europe diseases of the circulatory cardiovascular system en uk cc by nc sa"
-    },
-    {
-      "id": "e0404161aa32478695967787df9d6b8c",
-      "title": "Trends in Economics, Finance and Management Journal",
-      "publisher_name": "Balkan University Press",
-      "country": "MK",
-      "continent": "Europe",
-      "subjects": [
-        "Economics as a science",
-        "Finance"
-      ],
-      "subject_display": "Economics as a science · Finance",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2026-04-13T23:34:56Z",
-      "created_year": 2026,
-      "created_month": "2026-04",
-      "last_updated": "2026-09-17T10:48:29Z",
-      "website": "https://tefmj.ibupress.com/",
-      "author_guidelines_url": "https://tefmj.ibupress.com/p/instructions-for-authors",
-      "article_records_exposed": null,
-      "search_text": "trends in economics finance and management journal balkan university press mk europe economics as a science finance en cc by nc nd"
     },
     {
       "id": "d871e7cc351c42aa9099a7973f34019b",
