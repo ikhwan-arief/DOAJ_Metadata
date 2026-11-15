@@ -1,8 +1,214 @@
 {
-  "generated_at": "2026-11-14T12:42:17.997599+00:00",
+  "generated_at": "2026-11-15T00:31:19.955234+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23232,
   "items": [
+    {
+      "id": "8194d92d9efd4e409af05df59a81c9eb",
+      "title": "Engineering Perspective",
+      "publisher_name": "Hamit Solmaz",
+      "country": "TR",
+      "continent": "Asia",
+      "subjects": [
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Engineering (General). Civil engineering (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "450 USD",
+      "apc_max_eur": 407.16,
+      "apc_max_usd": 450.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-10-08T09:27:57Z",
+      "created_year": 2024,
+      "created_month": "2024-10",
+      "last_updated": "2026-11-14T19:41:56Z",
+      "website": "https://sciperspective.com/",
+      "author_guidelines_url": "https://dergipark.org.tr/en/pub/engineeringperspective/writing-rules",
+      "article_records_exposed": null,
+      "search_text": "engineering perspective hamit solmaz tr asia engineering general civil engineering general en cc by"
+    },
+    {
+      "id": "0dd688bb5ec44c1f96f59198c0409891",
+      "title": "NSC Nursing",
+      "publisher_name": "OPI Napoli",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Medicine",
+        "Nursing"
+      ],
+      "subject_display": "Medicine · Nursing",
+      "languages": [
+        "IT",
+        "EN"
+      ],
+      "language_display": "IT, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-11-20T13:16:36Z",
+      "created_year": 2019,
+      "created_month": "2019-11",
+      "last_updated": "2026-11-14T18:32:40Z",
+      "website": "https://www.opinapoli.it/nsc-nursing-eng/",
+      "author_guidelines_url": "https://www.opinapoli.it/nsc-nursing-eng/submission-guidelines/",
+      "article_records_exposed": null,
+      "search_text": "nsc nursing opi napoli it europe medicine nursing it en cc by nc nd"
+    },
+    {
+      "id": "9d00e857b9c4433782833c8e2ad7d17b",
+      "title": "Culture e Studi del Sociale",
+      "publisher_name": "University of Salerno",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Sociology (General)"
+      ],
+      "subject_display": "Sociology (General)",
+      "languages": [
+        "IT",
+        "EN"
+      ],
+      "language_display": "IT, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2018-05-21T14:36:23Z",
+      "created_year": 2018,
+      "created_month": "2018-05",
+      "last_updated": "2026-11-14T18:26:42Z",
+      "website": "http://www.cussoc.it/index.php/journal",
+      "author_guidelines_url": "http://www.cussoc.it/index.php/journal/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "culture e studi del sociale university of salerno it europe sociology general it en cc by nc nd"
+    },
+    {
+      "id": "6935812b797140fc90fde4d961c418e6",
+      "title": "Slavica TerGestina",
+      "publisher_name": "University of Trieste, University of Ljubljana, University of Konstanz",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Oriental languages and literatures"
+      ],
+      "subject_display": "Oriental languages and literatures",
+      "languages": [
+        "SL",
+        "SR",
+        "RU",
+        "PL",
+        "IT",
+        "EN"
+      ],
+      "language_display": "SL, SR, RU, PL, IT, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "Handles"
+      ],
+      "preservation_services": [],
+      "created_date": "2018-08-24T13:56:56Z",
+      "created_year": 2018,
+      "created_month": "2018-08",
+      "last_updated": "2026-11-14T17:55:39Z",
+      "website": "https://slavica-ter.org/",
+      "author_guidelines_url": "https://slavica-ter.org/article-submissions",
+      "article_records_exposed": null,
+      "search_text": "slavica tergestina university of trieste university of ljubljana university of konstanz it europe oriental languages and literatures sl sr ru pl it en cc by"
+    },
+    {
+      "id": "20f5bd5e88bd4166aae49dfd90c23b5f",
+      "title": "Peace Human Rights Governance",
+      "publisher_name": "Padova University Press",
+      "country": "IT",
+      "continent": "Europe",
+      "subjects": [
+        "Sociology (General)"
+      ],
+      "subject_display": "Sociology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-07-05T12:38:27Z",
+      "created_year": 2019,
+      "created_month": "2019-07",
+      "last_updated": "2026-11-14T16:18:01Z",
+      "website": "http://phrg.padovauniversitypress.it/",
+      "author_guidelines_url": "https://phrg.padovauniversitypress.it/manuscript-submission",
+      "article_records_exposed": null,
+      "search_text": "peace human rights governance padova university press it europe sociology general en cc by nc sa"
+    },
     {
       "id": "0ffbf270877d425f8750b11e4bfa9ace",
       "title": "IOASD Journal of Business and Management Studies",
@@ -46,46 +252,6 @@
       "author_guidelines_url": "https://ioasdpublisher.com/ioasdjbms/author-guidelines",
       "article_records_exposed": null,
       "search_text": "ioasd journal of business and management studies ioasd publisher in asia finance commerce en cc by nc"
-    },
-    {
-      "id": "20f5bd5e88bd4166aae49dfd90c23b5f",
-      "title": "Peace Human Rights Governance",
-      "publisher_name": "Padova University Press",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Sociology (General)"
-      ],
-      "subject_display": "Sociology (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-07-05T12:38:27Z",
-      "created_year": 2019,
-      "created_month": "2019-07",
-      "last_updated": "2026-11-13T18:57:12Z",
-      "website": "http://phrg.padovauniversitypress.it/",
-      "author_guidelines_url": "https://phrg.padovauniversitypress.it/manuscript-submission",
-      "article_records_exposed": null,
-      "search_text": "peace human rights governance padova university press it europe sociology general en cc by nc sa"
     },
     {
       "id": "ebee3498cff24bb382173b684f1b24dc",
@@ -1621,48 +1787,6 @@
       "author_guidelines_url": "https://www.sciencedirect.com/journal/integrative-medicine-research/publish/guide-for-authors",
       "article_records_exposed": null,
       "search_text": "integrative medicine research elsevier nl europe miscellaneous systems and treatments en cc by nc nd"
-    },
-    {
-      "id": "0dd688bb5ec44c1f96f59198c0409891",
-      "title": "NSC Nursing",
-      "publisher_name": "OPI Napoli",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Medicine",
-        "Nursing"
-      ],
-      "subject_display": "Medicine · Nursing",
-      "languages": [
-        "EN",
-        "IT"
-      ],
-      "language_display": "EN, IT",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-11-20T13:16:36Z",
-      "created_year": 2019,
-      "created_month": "2019-11",
-      "last_updated": "2026-11-11T18:35:09Z",
-      "website": "https://www.opinapoli.it/nsc-nursing-eng/",
-      "author_guidelines_url": "https://www.opinapoli.it/nsc-nursing-eng/submission-guidelines/",
-      "article_records_exposed": null,
-      "search_text": "nsc nursing opi napoli it europe medicine nursing en it cc by nc nd"
     },
     {
       "id": "08c247a24cab4fdfb582febfc03ad5ad",
@@ -73424,7 +73548,7 @@
       "apc_has": true,
       "apc_native_display": "12000 RSD",
       "apc_max_eur": 102.02,
-      "apc_max_usd": 112.66,
+      "apc_max_usd": 112.68,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -91464,46 +91588,6 @@
       "author_guidelines_url": "https://cpts.com.ua/index.php/cpts/about/submissions",
       "article_records_exposed": null,
       "search_text": "chuiko institute of surface chemistry of nas of ukraine ua europe chemistry physics uk en cc by"
-    },
-    {
-      "id": "8194d92d9efd4e409af05df59a81c9eb",
-      "title": "Engineering Perspective",
-      "publisher_name": "Hamit Solmaz",
-      "country": "TR",
-      "continent": "Asia",
-      "subjects": [
-        "Engineering (General). Civil engineering (General)"
-      ],
-      "subject_display": "Engineering (General). Civil engineering (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "450 USD",
-      "apc_max_eur": 407.16,
-      "apc_max_usd": 450.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-10-08T09:27:57Z",
-      "created_year": 2024,
-      "created_month": "2024-10",
-      "last_updated": "2026-09-17T10:55:00Z",
-      "website": "https://sciperspective.com/",
-      "author_guidelines_url": "https://dergipark.org.tr/en/pub/engineeringperspective/writing-rules",
-      "article_records_exposed": null,
-      "search_text": "engineering perspective hamit solmaz tr asia engineering general civil engineering general en cc by"
     },
     {
       "id": "5eaad7318d9e4ef5b56fd5ee51ce02db",
@@ -219037,7 +219121,7 @@
       "apc_has": true,
       "apc_native_display": "10000 RSD",
       "apc_max_eur": 85.02,
-      "apc_max_usd": 93.88,
+      "apc_max_usd": 93.9,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -253350,7 +253434,7 @@
       "apc_has": true,
       "apc_native_display": "1500 NPR",
       "apc_max_eur": 9.01,
-      "apc_max_usd": 9.94,
+      "apc_max_usd": 9.95,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -382242,7 +382326,7 @@
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -540880,7 +540964,7 @@
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -583666,7 +583750,7 @@
       "apc_has": true,
       "apc_native_display": "25000 RSD",
       "apc_max_eur": 212.55,
-      "apc_max_usd": 234.7,
+      "apc_max_usd": 234.75,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -669675,8 +669759,8 @@
       "license_display": "CC BY-NC-ND",
       "apc_has": true,
       "apc_native_display": "3000 TWD",
-      "apc_max_eur": 82.52,
-      "apc_max_usd": 91.12,
+      "apc_max_eur": 82.44,
+      "apc_max_usd": 91.1,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -686806,7 +686890,7 @@
       "apc_has": true,
       "apc_native_display": "50000 SYP",
       "apc_max_eur": 370.4,
-      "apc_max_usd": 410.1,
+      "apc_max_usd": 410.0,
       "author_retains": true,
       "peer_review_types": [
         "Unspecified peer review"
@@ -700010,7 +700094,7 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "5000 NPR",
-      "apc_max_eur": 30.05,
+      "apc_max_eur": 30.04,
       "apc_max_usd": 33.15,
       "author_retains": true,
       "peer_review_types": [
@@ -739055,45 +739139,6 @@
       "search_text": "getsempena english education journal english education department id asia education auxiliary sciences of history en cc by nc"
     },
     {
-      "id": "9d00e857b9c4433782833c8e2ad7d17b",
-      "title": "Culture e Studi del Sociale",
-      "publisher_name": "University of Salerno",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Sociology (General)"
-      ],
-      "subject_display": "Sociology (General)",
-      "languages": [
-        "EN",
-        "IT"
-      ],
-      "language_display": "EN, IT",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-05-21T14:36:23Z",
-      "created_year": 2018,
-      "created_month": "2018-05",
-      "last_updated": "2026-09-17T10:43:34Z",
-      "website": "http://www.cussoc.it/index.php/journal",
-      "author_guidelines_url": "http://www.cussoc.it/index.php/journal/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "culture e studi del sociale university of salerno it europe sociology general en it cc by nc nd"
-    },
-    {
       "id": "c487ce843c2e4b31a0604e77502bc291",
       "title": "Naukovij Vìsnik Nacìonalʹnogo Unìversitetu Bìoresursìv ì Prirodokoristuvannâ Ukraïni. Serìâ: Ekonomìka, Agrarnij Menedžment ta Bìznes",
       "publisher_name": "National University of Life and Environmental Sciences of Ukraine",
@@ -755555,7 +755600,7 @@
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Single anonymous peer review"
@@ -778922,7 +778967,7 @@
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -839059,51 +839104,6 @@
       "author_guidelines_url": "http://www.jcrpe.org/instruction-to-authors",
       "article_records_exposed": null,
       "search_text": "jcrpe pediatric endocrinology and diabetes society tr asia pediatrics diseases of the endocrine glands clinical endocrinology en cc by nc nd"
-    },
-    {
-      "id": "6935812b797140fc90fde4d961c418e6",
-      "title": "Slavica TerGestina",
-      "publisher_name": "University of Trieste, University of Ljubljana, University of Konstanz",
-      "country": "IT",
-      "continent": "Europe",
-      "subjects": [
-        "Oriental languages and literatures"
-      ],
-      "subject_display": "Oriental languages and literatures",
-      "languages": [
-        "EN",
-        "IT",
-        "PL",
-        "RU",
-        "SR",
-        "SL"
-      ],
-      "language_display": "EN, IT, PL, RU, SR, SL",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "Handles"
-      ],
-      "preservation_services": [],
-      "created_date": "2018-08-24T13:56:56Z",
-      "created_year": 2018,
-      "created_month": "2018-08",
-      "last_updated": "2026-09-17T10:41:24Z",
-      "website": "https://slavica-ter.org/",
-      "author_guidelines_url": "https://slavica-ter.org/article-submissions",
-      "article_records_exposed": null,
-      "search_text": "slavica tergestina university of trieste university of ljubljana university of konstanz it europe oriental languages and literatures en it pl ru sr sl cc by"
     },
     {
       "id": "80ec3cd3c00b4b9ca684ff4d44709c07",
@@ -947960,7 +947960,7 @@
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -972304,7 +972304,7 @@
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -972344,7 +972344,7 @@
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -972383,7 +972383,7 @@
       "apc_has": true,
       "apc_native_display": "200 USD / 60000 SYP",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -972422,7 +972422,7 @@
       "apc_has": true,
       "apc_native_display": "60000 SYP / 200 USD",
       "apc_max_eur": 444.48,
-      "apc_max_usd": 492.12,
+      "apc_max_usd": 492.0,
       "author_retains": false,
       "peer_review_types": [
         "Double anonymous peer review"
