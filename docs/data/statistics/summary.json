@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T21:24:55.080044+00:00",
+  "generated_at": "2026-11-17T06:02:35.865084+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
-  "journal_total": 23244,
-  "article_total": 13979844,
+  "journal_total": 23245,
+  "article_total": 13981508,
   "kpis": [
     {
       "label": "Journals",
-      "value": 23244
+      "value": 23245
     },
     {
       "label": "Countries",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13979844,
+      "value": 13981508,
       "detail": "Global DOAJ article total"
     },
     {
@@ -873,7 +873,7 @@
         },
         {
           "name": "Yes",
-          "value": 8710
+          "value": 8711
         }
       ]
     },
@@ -883,7 +883,7 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15055
+          "value": 15056
         },
         {
           "name": "No",
@@ -947,7 +947,7 @@
         },
         {
           "name": "Asia",
-          "value": 6902
+          "value": 6903
         },
         {
           "name": "South America",
@@ -973,7 +973,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19584
+          "value": 19585
         },
         {
           "name": "ES",
@@ -1065,7 +1065,7 @@
       "items": [
         {
           "name": "CC BY",
-          "value": 12045
+          "value": 12046
         },
         {
           "name": "CC BY-NC-ND",
@@ -1107,7 +1107,7 @@
       "items": [
         {
           "name": "Double anonymous peer review",
-          "value": 15256
+          "value": 15257
         },
         {
           "name": "Single anonymous peer review",
@@ -1133,7 +1133,7 @@
       "items": [
         {
           "name": "DOI",
-          "value": 19935
+          "value": 19936
         },
         {
           "name": "Handles",
@@ -1803,7 +1803,7 @@
             170,
             245,
             159,
-            80
+            81
           ]
         }
       ]
@@ -1914,7 +1914,7 @@
         },
         {
           "name": "IQ",
-          "value": 192
+          "value": 193
         },
         {
           "name": "CL",
@@ -2384,7 +2384,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-16T21:24:53.879996+00:00",
+    "fetched_at": "2026-11-17T06:02:34.595066+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
