@@ -1,8 +1,636 @@
 {
-  "generated_at": "2026-11-17T15:05:43.309224+00:00",
+  "generated_at": "2026-11-18T00:10:26.743032+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23249,
+  "item_count": 23251,
   "items": [
+    {
+      "id": "32afb6e2fd7b4c7189d3c40ffe1a1a92",
+      "title": "Revista UIS Ingenierías",
+      "publisher_name": "Universidad Industrial de Santander",
+      "country": "CO",
+      "continent": "South America",
+      "subjects": [
+        "Technology",
+        "Engineering (General). Civil engineering (General)"
+      ],
+      "subject_display": "Technology · Engineering (General). Civil engineering (General)",
+      "languages": [
+        "EN",
+        "ES"
+      ],
+      "language_display": "EN, ES",
+      "license_types": [
+        "CC BY-ND"
+      ],
+      "license_display": "CC BY-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2018-03-03T13:21:02Z",
+      "created_year": 2018,
+      "created_month": "2018-03",
+      "last_updated": "2026-11-17T21:10:24Z",
+      "website": "http://revistas.uis.edu.co/index.php/revistauisingenierias/index",
+      "author_guidelines_url": "http://revistas.uis.edu.co/index.php/revistauisingenierias/information/authors",
+      "article_records_exposed": null,
+      "search_text": "revista uis ingenierias universidad industrial de santander co south america technology engineering general civil engineering general en es cc by nd"
+    },
+    {
+      "id": "b2ccb5c7020a4ca0b6df29c4ab35b6a7",
+      "title": "Journal of Applied Sciences and Environmental Management",
+      "publisher_name": "Joint Coordination Centre of the World Bank assisted National Agricultural Research Programme (NARP)",
+      "country": "NG",
+      "continent": "Africa",
+      "subjects": [
+        "Science"
+      ],
+      "subject_display": "Science",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "100 USD / 30000 NGN",
+      "apc_max_eur": 91.0,
+      "apc_max_usd": 100.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-03-24T17:56:22Z",
+      "created_year": 2024,
+      "created_month": "2024-03",
+      "last_updated": "2026-11-17T19:44:03Z",
+      "website": "https://www.ajol.info/index.php/jasem",
+      "author_guidelines_url": "https://www.ajol.info/index.php/jasem/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "journal of applied sciences and environmental management joint coordination centre of the world bank assisted national agricultural research programme narp ng africa science en cc by"
+    },
+    {
+      "id": "913c51a78aef432cba78e030812ab964",
+      "title": "مجلة الأوراس لعلوم الرياضة",
+      "publisher_name": "Laboratory of Technological Sciences for Educational Sports Activities (LSTASE), Batna2 University",
+      "country": "DZ",
+      "continent": "Africa",
+      "subjects": [
+        "Sports"
+      ],
+      "subject_display": "Sports",
+      "languages": [
+        "FR",
+        "EN",
+        "AR"
+      ],
+      "language_display": "FR, EN, AR",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2026-11-17T19:35:37Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-17T19:39:20Z",
+      "website": "https://ojs.univ-batna2.dz/index.php/ajss/en/index",
+      "author_guidelines_url": "https://ojs.univ-batna2.dz/index.php/ajss/en/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "laboratory of technological sciences for educational sports activities lstase batna2 university dz africa sports fr en ar cc by"
+    },
+    {
+      "id": "73387ac22095467b95503710274b2af5",
+      "title": "Limina",
+      "publisher_name": "Karl Franzens-Universität Graz",
+      "country": "AT",
+      "continent": "Europe",
+      "subjects": [
+        "Practical Theology",
+        "Doctrinal Theology"
+      ],
+      "subject_display": "Practical Theology · Doctrinal Theology",
+      "languages": [
+        "DE"
+      ],
+      "language_display": "DE",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI",
+        "URN"
+      ],
+      "preservation_services": [
+        "The Austrian Library Network and Service LTD"
+      ],
+      "created_date": "2019-06-11T11:29:53Z",
+      "created_year": 2019,
+      "created_month": "2019-06",
+      "last_updated": "2026-11-17T18:57:53Z",
+      "website": "http://unipub.uni-graz.at/limina",
+      "author_guidelines_url": "http://unipub.uni-graz.at/limina/wiki/wiki3287125",
+      "article_records_exposed": null,
+      "search_text": "limina karl franzens universitat graz at europe practical theology doctrinal theology de cc by"
+    },
+    {
+      "id": "697db9548aa44e66b997e833ffb20b4f",
+      "title": "Berkala Arkeologi",
+      "publisher_name": "Balai Arkeologi Yogyakarta",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Archaeology"
+      ],
+      "subject_display": "Archaeology",
+      "languages": [
+        "ID",
+        "EN"
+      ],
+      "language_display": "ID, EN",
+      "license_types": [
+        "CC BY-NC-SA"
+      ],
+      "license_display": "CC BY-NC-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2020-08-21T15:03:26Z",
+      "created_year": 2020,
+      "created_month": "2020-08",
+      "last_updated": "2026-11-17T18:37:37Z",
+      "website": "https://berkalaarkeologi.kemdikbud.go.id/index.php/berkalaarkeologi/index",
+      "author_guidelines_url": "https://berkalaarkeologi.kemdikbud.go.id/index.php/berkalaarkeologi/guidelines",
+      "article_records_exposed": null,
+      "search_text": "berkala arkeologi balai arkeologi yogyakarta id asia archaeology id en cc by nc sa"
+    },
+    {
+      "id": "91637647159d460b83dcd0c6ceebae28",
+      "title": "Revista Políticas Públicas & Cidades",
+      "publisher_name": "Revista Políticas Públicas & Cidades",
+      "country": "BR",
+      "continent": "South America",
+      "subjects": [
+        "Aesthetics of cities. City planning and beautifying"
+      ],
+      "subject_display": "Aesthetics of cities. City planning and beautifying",
+      "languages": [
+        "PT"
+      ],
+      "language_display": "PT",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": true,
+      "apc_native_display": "100 BRL",
+      "apc_max_eur": 15.74,
+      "apc_max_usd": 17.29,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [],
+      "preservation_services": [],
+      "created_date": "2016-01-28T16:56:44Z",
+      "created_year": 2016,
+      "created_month": "2016-01",
+      "last_updated": "2026-11-17T18:36:37Z",
+      "website": "https://journalppc.com/RPPC",
+      "author_guidelines_url": "https://journalppc.com/RPPC/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista politicas publicas cidades revista politicas publicas cidades br south america aesthetics of cities city planning and beautifying pt cc by nc nd"
+    },
+    {
+      "id": "4d45f7d7227a4ceb8a563751fe530407",
+      "title": "BAU Journal: Science and Technology",
+      "publisher_name": "Beirut Arab University",
+      "country": "LB",
+      "continent": "Asia",
+      "subjects": [
+        "Science (General)"
+      ],
+      "subject_display": "Science (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-17T17:19:57Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-17T17:19:57Z",
+      "website": "https://digitalcommons.bau.edu.lb/stjournal/",
+      "author_guidelines_url": "https://digitalcommons.bau.edu.lb/stjournal/policies.html",
+      "article_records_exposed": null,
+      "search_text": "bau journal science and technology beirut arab university lb asia science general en cc by nc nd"
+    },
+    {
+      "id": "b39882f81c6e48e2a51009fe080b74b1",
+      "title": "The Journal of Oromo Studies",
+      "publisher_name": "Oromo Studies Association",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "History of Africa",
+        "Anthropology",
+        "Language and Literature"
+      ],
+      "subject_display": "History of Africa · Anthropology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-10-15T12:48:47Z",
+      "created_year": 2026,
+      "created_month": "2026-10",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://jros.scholasticahq.com/",
+      "author_guidelines_url": "https://jros.scholasticahq.com/for-authors",
+      "article_records_exposed": null,
+      "search_text": "the journal of oromo studies oromo studies association us north america history of africa anthropology language and literature en cc by"
+    },
+    {
+      "id": "a436f11580474699a66a4e7f5868db59",
+      "title": "Methodist DeBakey Cardiovascular Journal",
+      "publisher_name": "Houston Methodist DeBakey Heart & Vascular Center",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Specialties of internal medicine"
+      ],
+      "subject_display": "Specialties of internal medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN",
+        "PMC"
+      ],
+      "created_date": "2025-06-05T15:57:57Z",
+      "created_year": 2025,
+      "created_month": "2025-06",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://journal.houstonmethodist.org/",
+      "author_guidelines_url": "https://journal.houstonmethodist.org/about/submissions#author-guidelines",
+      "article_records_exposed": null,
+      "search_text": "methodist debakey cardiovascular journal houston methodist debakey heart vascular center us north america specialties of internal medicine en cc by nc"
+    },
+    {
+      "id": "5a64431b11fc45e0aa1f483506e851a0",
+      "title": "Slovenian Veterinary Research",
+      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "Veterinary medicine"
+      ],
+      "subject_display": "Veterinary medicine",
+      "languages": [
+        "SL",
+        "EN"
+      ],
+      "language_display": "SL, EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-04-03T12:00:56Z",
+      "created_year": 2024,
+      "created_month": "2024-04",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://journals.uni-lj.si/slovetres/",
+      "author_guidelines_url": "https://journals.uni-lj.si/slovetres/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "slovenian veterinary research university of ljubljana press zalozba univerze v ljubljani si europe veterinary medicine sl en cc by sa"
+    },
+    {
+      "id": "c90a61f657d54ce78917b580af78a938",
+      "title": "Journal of Open Humanities Data",
+      "publisher_name": "Ubiquity Press",
+      "country": "GB",
+      "continent": "Europe",
+      "subjects": [
+        "History of scholarship and learning. The humanities",
+        "Language and Literature"
+      ],
+      "subject_display": "History of scholarship and learning. The humanities · Language and Literature",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "1070 GBP",
+      "apc_max_eur": 1284.43,
+      "apc_max_usd": 1411.44,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2020-10-27T07:18:43Z",
+      "created_year": 2020,
+      "created_month": "2020-10",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://openhumanitiesdata.metajnl.com/",
+      "author_guidelines_url": "https://openhumanitiesdata.metajnl.com/about/submissions/",
+      "article_records_exposed": null,
+      "search_text": "journal of open humanities data ubiquity press gb europe history of scholarship and learning the humanities language and literature en cc by"
+    },
+    {
+      "id": "2e44e578b52940c78a198bc23dba7ea5",
+      "title": "Les",
+      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "Forestry"
+      ],
+      "subject_display": "Forestry",
+      "languages": [
+        "SL",
+        "EN"
+      ],
+      "language_display": "SL, EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2019-09-22T13:56:34Z",
+      "created_year": 2019,
+      "created_month": "2019-09",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://journals.uni-lj.si/les-wood/",
+      "author_guidelines_url": "https://journals.uni-lj.si/les-wood/information/authors",
+      "article_records_exposed": null,
+      "search_text": "les university of ljubljana press zalozba univerze v ljubljani si europe forestry sl en cc by sa"
+    },
+    {
+      "id": "088dcbd183d24dc698f3c118338a988e",
+      "title": "Journal of Scientific Innovation in Medicine",
+      "publisher_name": "Levy Library Press",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Medicine (General)"
+      ],
+      "subject_display": "Medicine (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "CLOCKSS",
+        "LOCKSS",
+        "PKP PN"
+      ],
+      "created_date": "2019-09-04T16:07:56Z",
+      "created_year": 2019,
+      "created_month": "2019-09",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://journalofscientificinnovationinmedicine.org",
+      "author_guidelines_url": "https://journalofscientificinnovationinmedicine.org/about/submissions/",
+      "article_records_exposed": null,
+      "search_text": "journal of scientific innovation in medicine levy library press us north america medicine general en cc by"
+    },
+    {
+      "id": "4352e9b1601a415187b610cd1ee99274",
+      "title": "Acta Agriculturae Slovenica",
+      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
+      "country": "SI",
+      "continent": "Europe",
+      "subjects": [
+        "Agriculture"
+      ],
+      "subject_display": "Agriculture",
+      "languages": [
+        "EN",
+        "SL"
+      ],
+      "language_display": "EN, SL",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2005-05-11T13:22:23Z",
+      "created_year": 2005,
+      "created_month": "2005-05",
+      "last_updated": "2026-11-17T16:43:18Z",
+      "website": "https://journals.uni-lj.si/aas/",
+      "author_guidelines_url": "https://journals.uni-lj.si/aas/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "acta agriculturae slovenica university of ljubljana press zalozba univerze v ljubljani si europe agriculture en sl cc by"
+    },
+    {
+      "id": "ce1f1f7863414c5d8dab3598dca446d8",
+      "title": "Przegląd Europejski",
+      "publisher_name": "Wydawnictwa Uniwersytetu Warszawskiego",
+      "country": "PL",
+      "continent": "Europe",
+      "subjects": [
+        "Political science",
+        "Social Sciences"
+      ],
+      "subject_display": "Political science · Social Sciences",
+      "languages": [
+        "PL",
+        "EN",
+        "RU",
+        "DE"
+      ],
+      "language_display": "PL, EN, RU, DE",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-09-27T13:44:14Z",
+      "created_year": 2021,
+      "created_month": "2021-09",
+      "last_updated": "2026-11-17T16:41:13Z",
+      "website": "https://przegladeuropejski.com.pl/",
+      "author_guidelines_url": "https://przegladeuropejski.com.pl/resources/html/cms/DEPOSITSMANUSCRIPT",
+      "article_records_exposed": null,
+      "search_text": "przeglad europejski wydawnictwa uniwersytetu warszawskiego pl europe political science social sciences pl en ru de cc by"
+    },
     {
       "id": "919276e86a6c48a5a795cc24e3283ff8",
       "title": "Клінічна стоматологія",
@@ -8283,44 +8911,6 @@
       "search_text": "okor gondolat kiado hu europe ancient history hu cc by nc"
     },
     {
-      "id": "91637647159d460b83dcd0c6ceebae28",
-      "title": "Revista Políticas Públicas & Cidades",
-      "publisher_name": "Revista Políticas Públicas & Cidades",
-      "country": "BR",
-      "continent": "South America",
-      "subjects": [
-        "Aesthetics of cities. City planning and beautifying"
-      ],
-      "subject_display": "Aesthetics of cities. City planning and beautifying",
-      "languages": [
-        "PT"
-      ],
-      "language_display": "PT",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": true,
-      "apc_native_display": "100 BRL",
-      "apc_max_eur": 15.74,
-      "apc_max_usd": 17.29,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2016-01-28T16:56:44Z",
-      "created_year": 2016,
-      "created_month": "2016-01",
-      "last_updated": "2026-11-06T17:41:46Z",
-      "website": "https://journalppc.com/RPPC",
-      "author_guidelines_url": "https://journalppc.com/RPPC/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "revista politicas publicas cidades revista politicas publicas cidades br south america aesthetics of cities city planning and beautifying pt cc by nc nd"
-    },
-    {
       "id": "8dffa3ce2e3b4567830a752c45d33ab5",
       "title": "Rona Teknik Pertanian",
       "publisher_name": "Syiah Kuala University",
@@ -11363,47 +11953,6 @@
       "search_text": "dela university of ljubljana press zalozba univerze v ljubljani si europe geography general en sl cc by sa"
     },
     {
-      "id": "5a64431b11fc45e0aa1f483506e851a0",
-      "title": "Slovenian Veterinary Research",
-      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
-      "country": "SI",
-      "continent": "Europe",
-      "subjects": [
-        "Veterinary medicine"
-      ],
-      "subject_display": "Veterinary medicine",
-      "languages": [
-        "SL",
-        "EN"
-      ],
-      "language_display": "SL, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-04-03T12:00:56Z",
-      "created_year": 2024,
-      "created_month": "2024-04",
-      "last_updated": "2026-11-03T19:37:01Z",
-      "website": "https://journals.uni-lj.si/slovetres/",
-      "author_guidelines_url": "https://journals.uni-lj.si/slovetres/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "slovenian veterinary research university of ljubljana press zalozba univerze v ljubljani si europe veterinary medicine sl en cc by sa"
-    },
-    {
       "id": "358fea3fa1b84872b1632cfb8ed79bc5",
       "title": "Acta Ecclesiastica Sloveniae",
       "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
@@ -11444,47 +11993,6 @@
       "author_guidelines_url": "https://journals.uni-lj.si/AES/about/submissions",
       "article_records_exposed": null,
       "search_text": "acta ecclesiastica sloveniae university of ljubljana press zalozba univerze v ljubljani si europe philosophy psychology religion de en sl cc by sa"
-    },
-    {
-      "id": "2e44e578b52940c78a198bc23dba7ea5",
-      "title": "Les",
-      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
-      "country": "SI",
-      "continent": "Europe",
-      "subjects": [
-        "Forestry"
-      ],
-      "subject_display": "Forestry",
-      "languages": [
-        "SL",
-        "EN"
-      ],
-      "language_display": "SL, EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2019-09-22T13:56:34Z",
-      "created_year": 2019,
-      "created_month": "2019-09",
-      "last_updated": "2026-11-03T19:35:10Z",
-      "website": "https://journals.uni-lj.si/les-wood/",
-      "author_guidelines_url": "https://journals.uni-lj.si/les-wood/information/authors",
-      "article_records_exposed": null,
-      "search_text": "les university of ljubljana press zalozba univerze v ljubljani si europe forestry sl en cc by sa"
     },
     {
       "id": "2c695b65db304775b5d80dd7c3c179d3",
@@ -11913,49 +12421,6 @@
       "author_guidelines_url": "https://journals.uni-lj.si/NaturaSloveniae/about/submissions",
       "article_records_exposed": null,
       "search_text": "natura sloveniae university of ljubljana press zalozba univerze v ljubljani si europe ecology sl en cc by"
-    },
-    {
-      "id": "4352e9b1601a415187b610cd1ee99274",
-      "title": "Acta Agriculturae Slovenica",
-      "publisher_name": "University of Ljubljana Press (Založba Univerze v Ljubljani)",
-      "country": "SI",
-      "continent": "Europe",
-      "subjects": [
-        "Agriculture"
-      ],
-      "subject_display": "Agriculture",
-      "languages": [
-        "EN",
-        "SL"
-      ],
-      "language_display": "EN, SL",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "PKP PN"
-      ],
-      "created_date": "2005-05-11T13:22:23Z",
-      "created_year": 2005,
-      "created_month": "2005-05",
-      "last_updated": "2026-11-03T19:15:28Z",
-      "website": "https://journals.uni-lj.si/aas/",
-      "author_guidelines_url": "https://journals.uni-lj.si/aas/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "acta agriculturae slovenica university of ljubljana press zalozba univerze v ljubljani si europe agriculture en sl cc by"
     },
     {
       "id": "908f5b69864f4900adef688dadec8155",
@@ -12434,50 +12899,6 @@
       "author_guidelines_url": "https://www.nomos.de/zeitschriften/scm/#autorenhinweise",
       "article_records_exposed": null,
       "search_text": "studies in communication media nomos verlagsgesellschaft mbh co kg de europe communication mass media de en cc by"
-    },
-    {
-      "id": "73387ac22095467b95503710274b2af5",
-      "title": "Limina",
-      "publisher_name": "Karl Franzens-Universität Graz",
-      "country": "AT",
-      "continent": "Europe",
-      "subjects": [
-        "Practical Theology",
-        "Doctrinal Theology"
-      ],
-      "subject_display": "Practical Theology · Doctrinal Theology",
-      "languages": [
-        "DE"
-      ],
-      "language_display": "DE",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI",
-        "URN"
-      ],
-      "preservation_services": [
-        "The Austrian Library Network and Service LTD"
-      ],
-      "created_date": "2019-06-11T11:29:53Z",
-      "created_year": 2019,
-      "created_month": "2019-06",
-      "last_updated": "2026-11-03T14:37:50Z",
-      "website": "http://unipub.uni-graz.at/limina",
-      "author_guidelines_url": "http://unipub.uni-graz.at/limina/wiki/wiki3287125",
-      "article_records_exposed": null,
-      "search_text": "limina karl franzens universitat graz at europe practical theology doctrinal theology de cc by"
     },
     {
       "id": "7f505b7cf98b445dbb8f9fec793e523b",
@@ -34500,48 +34921,6 @@
       "search_text": "communiars university of seville es europe education general visual arts drawing design illustration pt es en cc by nc sa"
     },
     {
-      "id": "b39882f81c6e48e2a51009fe080b74b1",
-      "title": "The Journal of Oromo Studies",
-      "publisher_name": "Oromo Studies Association",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "History of Africa",
-        "Anthropology",
-        "Language and Literature"
-      ],
-      "subject_display": "History of Africa · Anthropology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Peer review"
-      ],
-      "peer_review_display": "Peer review",
-      "pid_schemes": [],
-      "preservation_services": [
-        "Internet Archive"
-      ],
-      "created_date": "2026-10-15T12:48:47Z",
-      "created_year": 2026,
-      "created_month": "2026-10",
-      "last_updated": "2026-10-15T12:48:47Z",
-      "website": "https://jros.scholasticahq.com/",
-      "author_guidelines_url": "https://jros.scholasticahq.com/for-authors",
-      "article_records_exposed": null,
-      "search_text": "the journal of oromo studies oromo studies association us north america history of africa anthropology language and literature en cc by"
-    },
-    {
       "id": "211bce60933f45ea805cf4bed0ab36fc",
       "title": "Acta Scientiarum: Animal Sciences",
       "publisher_name": "Editora da Universidade Estadual de Maringá (Eduem)",
@@ -42482,95 +42861,6 @@
       "search_text": "arena journal of architectural research ubiquity press gb europe architecture en cc by"
     },
     {
-      "id": "088dcbd183d24dc698f3c118338a988e",
-      "title": "Journal of Scientific Innovation in Medicine",
-      "publisher_name": "Levy Library Press",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Medicine (General)"
-      ],
-      "subject_display": "Medicine (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2019-09-04T16:07:56Z",
-      "created_year": 2019,
-      "created_month": "2019-09",
-      "last_updated": "2026-10-01T15:23:49Z",
-      "website": "https://journalofscientificinnovationinmedicine.org",
-      "author_guidelines_url": "https://journalofscientificinnovationinmedicine.org/about/submissions/",
-      "article_records_exposed": null,
-      "search_text": "journal of scientific innovation in medicine levy library press us north america medicine general en cc by"
-    },
-    {
-      "id": "c90a61f657d54ce78917b580af78a938",
-      "title": "Journal of Open Humanities Data",
-      "publisher_name": "Ubiquity Press",
-      "country": "GB",
-      "continent": "Europe",
-      "subjects": [
-        "History of scholarship and learning. The humanities",
-        "Language and Literature"
-      ],
-      "subject_display": "History of scholarship and learning. The humanities · Language and Literature",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "1070 GBP",
-      "apc_max_eur": 1284.43,
-      "apc_max_usd": 1411.44,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN"
-      ],
-      "created_date": "2020-10-27T07:18:43Z",
-      "created_year": 2020,
-      "created_month": "2020-10",
-      "last_updated": "2026-10-01T15:23:48Z",
-      "website": "https://openhumanitiesdata.metajnl.com/",
-      "author_guidelines_url": "https://openhumanitiesdata.metajnl.com/about/submissions/",
-      "article_records_exposed": null,
-      "search_text": "journal of open humanities data ubiquity press gb europe history of scholarship and learning the humanities language and literature en cc by"
-    },
-    {
       "id": "7d44625e006d43ff91d064d641028c7c",
       "title": "Anglo Saxonica",
       "publisher_name": "Ubiquity Press",
@@ -42749,51 +43039,6 @@
       "author_guidelines_url": "https://current-journal.com/about/submissions#author-guidelines",
       "article_records_exposed": null,
       "search_text": "current the journal of marine education ubiquity press gb europe naval science oceanography en cc by"
-    },
-    {
-      "id": "a436f11580474699a66a4e7f5868db59",
-      "title": "Methodist DeBakey Cardiovascular Journal",
-      "publisher_name": "Houston Methodist DeBakey Heart & Vascular Center",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Specialties of internal medicine"
-      ],
-      "subject_display": "Specialties of internal medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Anonymous peer review"
-      ],
-      "peer_review_display": "Anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "CLOCKSS",
-        "LOCKSS",
-        "PKP PN",
-        "PMC"
-      ],
-      "created_date": "2025-06-05T15:57:57Z",
-      "created_year": 2025,
-      "created_month": "2025-06",
-      "last_updated": "2026-10-01T15:23:45Z",
-      "website": "https://journal.houstonmethodist.org/",
-      "author_guidelines_url": "https://journal.houstonmethodist.org/about/submissions#author-guidelines",
-      "article_records_exposed": null,
-      "search_text": "methodist debakey cardiovascular journal houston methodist debakey heart vascular center us north america specialties of internal medicine en cc by nc"
     },
     {
       "id": "ecd45642bee54e3bba1425c9102a65c0",
@@ -365027,46 +365272,6 @@
       "search_text": "university of qom ir asia islamic law fa cc by nc"
     },
     {
-      "id": "b2ccb5c7020a4ca0b6df29c4ab35b6a7",
-      "title": "Journal of Applied Sciences and Environmental Management",
-      "publisher_name": "Joint Coordination Centre of the World Bank assisted National Agricultural Research Programme (NARP)",
-      "country": "NG",
-      "continent": "Africa",
-      "subjects": [
-        "Science"
-      ],
-      "subject_display": "Science",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "100 USD / 30000 NGN",
-      "apc_max_eur": 91.0,
-      "apc_max_usd": 100.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-03-24T17:56:22Z",
-      "created_year": 2024,
-      "created_month": "2024-03",
-      "last_updated": "2026-09-17T10:50:55Z",
-      "website": "https://www.ajol.info/index.php/jasem",
-      "author_guidelines_url": "https://www.ajol.info/index.php/jasem/about/submissions",
-      "article_records_exposed": null,
-      "search_text": "journal of applied sciences and environmental management joint coordination centre of the world bank assisted national agricultural research programme narp ng africa science en cc by"
-    },
-    {
       "id": "920168a67c934d7bb70ac765a5679c2e",
       "title": "Ecclesial Futures",
       "publisher_name": "Radboud University Press",
@@ -378172,47 +378377,6 @@
       "search_text": "revista de educacao fisica brazilian army br south america sports en pt cc by"
     },
     {
-      "id": "697db9548aa44e66b997e833ffb20b4f",
-      "title": "Berkala Arkeologi",
-      "publisher_name": "Balai Arkeologi Yogyakarta",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Archaeology"
-      ],
-      "subject_display": "Archaeology",
-      "languages": [
-        "EN",
-        "ID"
-      ],
-      "language_display": "EN, ID",
-      "license_types": [
-        "CC BY-NC-SA"
-      ],
-      "license_display": "CC BY-NC-SA",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2020-08-21T15:03:26Z",
-      "created_year": 2020,
-      "created_month": "2020-08",
-      "last_updated": "2026-09-17T10:50:42Z",
-      "website": "https://berkalaarkeologi.kemdikbud.go.id/index.php/berkalaarkeologi/index",
-      "author_guidelines_url": "https://berkalaarkeologi.kemdikbud.go.id/index.php/berkalaarkeologi/guidelines",
-      "article_records_exposed": null,
-      "search_text": "berkala arkeologi balai arkeologi yogyakarta id asia archaeology en id cc by nc sa"
-    },
-    {
       "id": "c592a35903144bdbb9f689f2ca426a74",
       "title": "Política y Gobernanza",
       "publisher_name": "Universidad de Granada",
@@ -386195,8 +386359,8 @@
       "license_display": "CC BY",
       "apc_has": true,
       "apc_native_display": "30 USD / 300 LYD",
-      "apc_max_eur": 42.26,
-      "apc_max_usd": 46.54,
+      "apc_max_eur": 42.2,
+      "apc_max_usd": 46.45,
       "author_retains": true,
       "peer_review_types": [
         "Double anonymous peer review"
@@ -552047,50 +552211,6 @@
       "author_guidelines_url": "https://jll.uoch.edu.pk/index.php/jll/for-authors",
       "article_records_exposed": null,
       "search_text": "university of chitral journal of linguistics and literature department of english university of chitral pk asia english literature language linguistic theory comparative grammar en cc by"
-    },
-    {
-      "id": "ce1f1f7863414c5d8dab3598dca446d8",
-      "title": "Przegląd Europejski",
-      "publisher_name": "Wydawnictwa Uniwersytetu Warszawskiego",
-      "country": "PL",
-      "continent": "Europe",
-      "subjects": [
-        "Political science",
-        "Social Sciences"
-      ],
-      "subject_display": "Political science · Social Sciences",
-      "languages": [
-        "PL",
-        "EN",
-        "RU",
-        "DE"
-      ],
-      "language_display": "PL, EN, RU, DE",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-09-27T13:44:14Z",
-      "created_year": 2021,
-      "created_month": "2021-09",
-      "last_updated": "2026-09-17T10:47:29Z",
-      "website": "https://przegladeuropejski.com.pl/",
-      "author_guidelines_url": "https://przegladeuropejski.com.pl/resources/html/cms/DEPOSITSMANUSCRIPT",
-      "article_records_exposed": null,
-      "search_text": "przeglad europejski wydawnictwa uniwersytetu warszawskiego pl europe political science social sciences pl en ru de cc by"
     },
     {
       "id": "6d23fb4770ec403a9c7ca6bcc0063ce5",
@@ -874167,46 +874287,6 @@
       "author_guidelines_url": "http://sjku.muk.ac.ir/page/21/Submission-Instruction",
       "article_records_exposed": null,
       "search_text": "kurdistan university of medical sciences ir asia medicine medicine general fa cc by nc"
-    },
-    {
-      "id": "32afb6e2fd7b4c7189d3c40ffe1a1a92",
-      "title": "Revista UIS Ingenierías",
-      "publisher_name": "Universidad Industrial de Santander",
-      "country": "CO",
-      "continent": "South America",
-      "subjects": [
-        "Technology",
-        "Engineering (General). Civil engineering (General)"
-      ],
-      "subject_display": "Technology · Engineering (General). Civil engineering (General)",
-      "languages": [
-        "EN",
-        "ES"
-      ],
-      "language_display": "EN, ES",
-      "license_types": [
-        "CC BY-ND"
-      ],
-      "license_display": "CC BY-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2018-03-03T13:21:02Z",
-      "created_year": 2018,
-      "created_month": "2018-03",
-      "last_updated": "2026-09-17T10:40:39Z",
-      "website": "http://revistas.uis.edu.co/index.php/revistauisingenierias/index",
-      "author_guidelines_url": "http://revistas.uis.edu.co/index.php/revistauisingenierias/information/authors",
-      "article_records_exposed": null,
-      "search_text": "revista uis ingenierias universidad industrial de santander co south america technology engineering general civil engineering general en es cc by nd"
     },
     {
       "id": "c95342e260e644dfb3c20d556d3e15c0",
