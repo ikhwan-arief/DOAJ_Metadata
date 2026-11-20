@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T10:43:10.611263+00:00",
+  "generated_at": "2026-11-20T19:23:07.772200+00:00",
   "source_scope": "doaj_api_statistics",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "refresh_interval_hours": 3,
   "journal_total": 23265,
-  "article_total": 13996537,
+  "article_total": 13997849,
   "kpis": [
     {
       "label": "Journals",
@@ -16,7 +16,7 @@
     },
     {
       "label": "Article records",
-      "value": 13996537,
+      "value": 13997849,
       "detail": "Global DOAJ article total"
     },
     {
@@ -881,11 +881,11 @@
       "items": [
         {
           "name": "Yes",
-          "value": 15071
+          "value": 15070
         },
         {
           "name": "No",
-          "value": 8194
+          "value": 8195
         }
       ]
     },
@@ -899,7 +899,7 @@
         },
         {
           "name": "GB",
-          "value": 2275
+          "value": 2274
         },
         {
           "name": "BR",
@@ -911,7 +911,7 @@
         },
         {
           "name": "IR",
-          "value": 1106
+          "value": 1107
         },
         {
           "name": "ES",
@@ -941,11 +941,11 @@
       "items": [
         {
           "name": "Europe",
-          "value": 10370
+          "value": 10369
         },
         {
           "name": "Asia",
-          "value": 6913
+          "value": 6914
         },
         {
           "name": "South America",
@@ -971,7 +971,7 @@
       "items": [
         {
           "name": "EN",
-          "value": 19601
+          "value": 19600
         },
         {
           "name": "ES",
@@ -1003,7 +1003,7 @@
         },
         {
           "name": "FA",
-          "value": 672
+          "value": 673
         },
         {
           "name": "AR",
@@ -1041,11 +1041,11 @@
         },
         {
           "name": "Medicine (General)",
-          "value": 613
+          "value": 614
         },
         {
           "name": "Special aspects of education",
-          "value": 565
+          "value": 564
         },
         {
           "name": "Business",
@@ -1067,11 +1067,11 @@
         },
         {
           "name": "CC BY-NC-ND",
-          "value": 5138
+          "value": 5137
         },
         {
           "name": "CC BY-NC",
-          "value": 5105
+          "value": 5106
         },
         {
           "name": "CC BY-NC-SA",
@@ -1705,7 +1705,7 @@
             150,
             103,
             116,
-            103,
+            102,
             91,
             102,
             190,
@@ -1801,7 +1801,7 @@
             170,
             245,
             159,
-            101
+            102
           ]
         }
       ]
@@ -1816,7 +1816,7 @@
         },
         {
           "name": "GB",
-          "value": 2275
+          "value": 2274
         },
         {
           "name": "BR",
@@ -1828,7 +1828,7 @@
         },
         {
           "name": "IR",
-          "value": 1106
+          "value": 1107
         },
         {
           "name": "ES",
@@ -2382,7 +2382,7 @@
     }
   },
   "fx": {
-    "fetched_at": "2026-11-20T10:43:09.386931+00:00",
+    "fetched_at": "2026-11-20T19:23:06.578991+00:00",
     "providers": {
       "open.er-api.com": 29,
       "Frankfurter API": 24
