@@ -1,8 +1,301 @@
 {
-  "generated_at": "2026-11-20T19:23:07.772200+00:00",
+  "generated_at": "2026-11-21T10:25:50.950941+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23265,
+  "item_count": 23267,
   "items": [
+    {
+      "id": "3671232cfdec480fa03e20cc3e14a2ac",
+      "title": "Revista de Política Económica y Desarrollo Sostenible",
+      "publisher_name": "Centro Internacional de Política Económica para el Desarrollo Sostenible (CINPE)",
+      "country": "CR",
+      "continent": "North America",
+      "subjects": [
+        "Economics as a science"
+      ],
+      "subject_display": "Economics as a science",
+      "languages": [
+        "ES",
+        "EN"
+      ],
+      "language_display": "ES, EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "PKP PN"
+      ],
+      "created_date": "2026-11-20T22:04:36Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-20T22:04:36Z",
+      "website": "https://www.revistas.una.ac.cr/index.php/politicaeconomica/",
+      "author_guidelines_url": "https://www.revistas.una.ac.cr/index.php/politicaeconomica/about/submissions",
+      "article_records_exposed": null,
+      "search_text": "revista de politica economica y desarrollo sostenible centro internacional de politica economica para el desarrollo sostenible cinpe cr north america economics as a science es en cc by nc nd"
+    },
+    {
+      "id": "826a1b161368467cad3ac619002f4459",
+      "title": "International Journal of Home Economics, Hospitality and Allied Research",
+      "publisher_name": "Department of Home Economics & Hospitality Management Education, University of Nigeria, P.M.B. 410001, Nsukka, Nigeria.",
+      "country": "NG",
+      "continent": "Africa",
+      "subjects": [
+        "Home economics"
+      ],
+      "subject_display": "Home economics",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "60000 NGN",
+      "apc_max_eur": 40.56,
+      "apc_max_usd": 44.34,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2022-11-13T20:06:16Z",
+      "created_year": 2022,
+      "created_month": "2022-11",
+      "last_updated": "2026-11-20T20:17:35Z",
+      "website": "https://www.ijhhr.org/index.php/home/index",
+      "author_guidelines_url": "https://www.ijhhr.org/index.php/home/Guidelines",
+      "article_records_exposed": null,
+      "search_text": "international journal of home economics hospitality and allied research department of home economics hospitality management education university of nigeria p m b 410001 nsukka nigeria ng africa home economics en cc by"
+    },
+    {
+      "id": "08423a75130941acb6edd297d3035a35",
+      "title": "Journal of Bioresource Management",
+      "publisher_name": "Wright State University",
+      "country": "US",
+      "continent": "North America",
+      "subjects": [
+        "Environmental sciences",
+        "Ecology"
+      ],
+      "subject_display": "Environmental sciences · Ecology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2017-03-27T13:12:58Z",
+      "created_year": 2017,
+      "created_month": "2017-03",
+      "last_updated": "2026-11-20T20:16:08Z",
+      "website": "https://corescholar.libraries.wright.edu/jbm/",
+      "author_guidelines_url": "https://corescholar.libraries.wright.edu/jbm/about.html",
+      "article_records_exposed": null,
+      "search_text": "journal of bioresource management wright state university us north america environmental sciences ecology en cc by"
+    },
+    {
+      "id": "586d5aeb83b54b3b8e8f7423f29935d6",
+      "title": "Al-Azhar International Medical Journal",
+      "publisher_name": "Al-Azhar University, Faculty of Medicine",
+      "country": "EG",
+      "continent": "Africa",
+      "subjects": [
+        "Medicine"
+      ],
+      "subject_display": "Medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-SA"
+      ],
+      "license_display": "CC BY-SA",
+      "apc_has": true,
+      "apc_native_display": "2500 EGP",
+      "apc_max_eur": 42.32,
+      "apc_max_usd": 46.46,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-12-20T08:06:12Z",
+      "created_year": 2023,
+      "created_month": "2023-12",
+      "last_updated": "2026-11-20T20:13:08Z",
+      "website": "https://aimj.journals.ekb.eg/",
+      "author_guidelines_url": "https://aimj.journals.ekb.eg/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "al azhar international medical journal al azhar university faculty of medicine eg africa medicine en cc by sa"
+    },
+    {
+      "id": "e5c07b9c02ba4f619a4d3b0486eeda0a",
+      "title": "iRASD Journal of Energy & Environment",
+      "publisher_name": "International Research Alliance for Sustainable Development - iRASD",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Energy industries. Energy policy. Fuel trade",
+        "Energy conservation",
+        "Renewable energy sources",
+        "Environmental engineering"
+      ],
+      "subject_display": "Energy industries. Energy policy. Fuel trade · Energy conservation",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "646 USD / 40000 PKR",
+      "apc_max_eur": 587.81,
+      "apc_max_usd": 646.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2022-06-02T06:59:34Z",
+      "created_year": 2022,
+      "created_month": "2022-06",
+      "last_updated": "2026-11-20T20:11:56Z",
+      "website": "https://journals.internationalrasd.org/index.php/jee/index",
+      "author_guidelines_url": "https://journals.internationalrasd.org/index.php/jee/guidlinesforauthors",
+      "article_records_exposed": null,
+      "search_text": "irasd journal of energy environment international research alliance for sustainable development irasd pk asia energy industries energy policy fuel trade energy conservation renewable energy sources environmental engineering en cc by nc"
+    },
+    {
+      "id": "76dc10fc6a7f4917b33137d8a0a5df78",
+      "title": "Edukasi Islami: Jurnal Pendidikan Islam",
+      "publisher_name": "Al Hidayah Press",
+      "country": "ID",
+      "continent": "Asia",
+      "subjects": [
+        "Theory and practice of education",
+        "Islam"
+      ],
+      "subject_display": "Theory and practice of education · Islam",
+      "languages": [
+        "ID",
+        "EN",
+        "AR"
+      ],
+      "language_display": "ID, EN, AR",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "3000000 IDR",
+      "apc_max_eur": 149.47,
+      "apc_max_usd": 164.27,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2018-02-11T17:41:57Z",
+      "created_year": 2018,
+      "created_month": "2018-02",
+      "last_updated": "2026-11-20T20:02:15Z",
+      "website": "http://jurnal.staialhidayahbogor.ac.id/index.php/ei",
+      "author_guidelines_url": "https://jurnal.staialhidayahbogor.ac.id/index.php/ei/authorguidelines",
+      "article_records_exposed": null,
+      "search_text": "edukasi islami jurnal pendidikan islam al hidayah press id asia theory and practice of education islam id en ar cc by"
+    },
+    {
+      "id": "2829aa283056461bb4866d46616964c2",
+      "title": "قرآن و علو م اجتماعی",
+      "publisher_name": "University of Holy Quran Sciences and Education",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Religion (General)",
+        "Social Sciences"
+      ],
+      "subject_display": "Religion (General) · Social Sciences",
+      "languages": [
+        "FA"
+      ],
+      "language_display": "FA",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "15000000 IRR",
+      "apc_max_eur": null,
+      "apc_max_usd": 15.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-20T19:50:42Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-20T19:50:42Z",
+      "website": "https://arq.quran.ac.ir/?lang=en",
+      "author_guidelines_url": "https://arq.quran.ac.ir/journal/authors.note?lang=en",
+      "article_records_exposed": null,
+      "search_text": "university of holy quran sciences and education ir asia religion general social sciences fa cc by nc"
+    },
     {
       "id": "f3e5d268874b4c9180f0028e7542d582",
       "title": "طب سنتی اسلام و ایران",
@@ -927,49 +1220,6 @@
       "author_guidelines_url": "https://periodicos.ufersa.edu.br/index.php/rejur/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "revista juridica da ufersa universidade federal rural do semi arido br south america law in general comparative and uniform law jurisprudence pt cc by"
-    },
-    {
-      "id": "76dc10fc6a7f4917b33137d8a0a5df78",
-      "title": "Edukasi Islami: Jurnal Pendidikan Islam",
-      "publisher_name": "Al Hidayah Press",
-      "country": "ID",
-      "continent": "Asia",
-      "subjects": [
-        "Theory and practice of education",
-        "Islam"
-      ],
-      "subject_display": "Theory and practice of education · Islam",
-      "languages": [
-        "AR",
-        "EN",
-        "ID"
-      ],
-      "language_display": "AR, EN, ID",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "3000000 IDR",
-      "apc_max_eur": 149.47,
-      "apc_max_usd": 164.27,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2018-02-11T17:41:57Z",
-      "created_year": 2018,
-      "created_month": "2018-02",
-      "last_updated": "2026-11-19T21:17:04Z",
-      "website": "http://jurnal.staialhidayahbogor.ac.id/index.php/ei",
-      "author_guidelines_url": "https://jurnal.staialhidayahbogor.ac.id/index.php/ei/authorguidelines",
-      "article_records_exposed": null,
-      "search_text": "edukasi islami jurnal pendidikan islam al hidayah press id asia theory and practice of education islam ar en id cc by"
     },
     {
       "id": "4fbe1b69533a49dda39cba675cbfd1fd",
@@ -52544,46 +52794,6 @@
       "search_text": "fuentes humanisticas universidad autonoma metropolitana unidad azcapotzalco division de ciencias sociales y humanidades mx north america history of scholarship and learning the humanities es cc by nc sa"
     },
     {
-      "id": "826a1b161368467cad3ac619002f4459",
-      "title": "International Journal of Home Economics, Hospitality and Allied Research",
-      "publisher_name": "Department of Home Economics & Hospitality Management Education, University of Nigeria, P.M.B. 410001, Nsukka, Nigeria.",
-      "country": "NG",
-      "continent": "Africa",
-      "subjects": [
-        "Home economics"
-      ],
-      "subject_display": "Home economics",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "60000 NGN",
-      "apc_max_eur": 40.56,
-      "apc_max_usd": 44.34,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2022-11-13T20:06:16Z",
-      "created_year": 2022,
-      "created_month": "2022-11",
-      "last_updated": "2026-10-14T12:23:54Z",
-      "website": "https://www.ijhhr.org/",
-      "author_guidelines_url": "https://www.ijhhr.org/instructions-for-authors/",
-      "article_records_exposed": null,
-      "search_text": "international journal of home economics hospitality and allied research department of home economics hospitality management education university of nigeria p m b 410001 nsukka nigeria ng africa home economics en cc by"
-    },
-    {
       "id": "52875aece09942cb90d92c285f3dc0b9",
       "title": "Cardiac Research",
       "publisher_name": "Wolters Kluwer Health - Lippincott Williams Wilkins",
@@ -54502,45 +54712,6 @@
       "search_text": "exlibris universidad de buenos aires ar south america literature general french literature italian literature spanish literature portuguese literature es cc by nc sa"
     },
     {
-      "id": "08423a75130941acb6edd297d3035a35",
-      "title": "Journal of Bioresource Management",
-      "publisher_name": "Wright State University",
-      "country": "US",
-      "continent": "North America",
-      "subjects": [
-        "Environmental sciences",
-        "Ecology"
-      ],
-      "subject_display": "Environmental sciences · Ecology",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [],
-      "preservation_services": [],
-      "created_date": "2017-03-27T13:12:58Z",
-      "created_year": 2017,
-      "created_month": "2017-03",
-      "last_updated": "2026-10-12T06:07:43Z",
-      "website": "https://corescholar.libraries.wright.edu/jbm/",
-      "author_guidelines_url": "https://corescholar.libraries.wright.edu/jbm/about.html",
-      "article_records_exposed": null,
-      "search_text": "journal of bioresource management wright state university us north america environmental sciences ecology en cc by"
-    },
-    {
       "id": "19aec045440d4f2f9d5b81e57a0c07f4",
       "title": "El-Tsaqafah",
       "publisher_name": "State Islamic University of Mataram (UIN) Mataram",
@@ -54706,46 +54877,6 @@
       "author_guidelines_url": "https://revista.sobecc.org.br/sobecc/about/submissions#authorGuidelines",
       "article_records_exposed": null,
       "search_text": "revista sobecc zeppelini publishers br south america nursing surgery pt cc by"
-    },
-    {
-      "id": "586d5aeb83b54b3b8e8f7423f29935d6",
-      "title": "Al-Azhar International Medical Journal",
-      "publisher_name": "Al-Azhar University, Faculty of Medicine",
-      "country": "EG",
-      "continent": "Africa",
-      "subjects": [
-        "Medicine"
-      ],
-      "subject_display": "Medicine",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-SA"
-      ],
-      "license_display": "CC BY-SA",
-      "apc_has": true,
-      "apc_native_display": "2500 EGP",
-      "apc_max_eur": 42.32,
-      "apc_max_usd": 46.46,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-12-20T08:06:12Z",
-      "created_year": 2023,
-      "created_month": "2023-12",
-      "last_updated": "2026-10-11T06:31:40Z",
-      "website": "https://aimj.researchcommons.org/",
-      "author_guidelines_url": "https://aimj.researchcommons.org/journal/author_guidelines.html",
-      "article_records_exposed": null,
-      "search_text": "al azhar international medical journal al azhar university faculty of medicine eg africa medicine en cc by sa"
     },
     {
       "id": "95ce4debd3b7488697ac1bb87b9ab569",
@@ -57650,51 +57781,6 @@
       "author_guidelines_url": "https://periodicos.unicap.br/dpc/about/submissions",
       "article_records_exposed": null,
       "search_text": "direito processo e cidadania universidade catolica de pernambuco unicap br south america law in general comparative and uniform law jurisprudence pt en it fr es cc by"
-    },
-    {
-      "id": "e5c07b9c02ba4f619a4d3b0486eeda0a",
-      "title": "iRASD Journal of Energy & Environment",
-      "publisher_name": "International Research Alliance for Sustainable Development - iRASD",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Energy industries. Energy policy. Fuel trade",
-        "Energy conservation",
-        "Renewable energy sources",
-        "Environmental engineering"
-      ],
-      "subject_display": "Energy industries. Energy policy. Fuel trade · Energy conservation",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "40000 PKR / 300 USD",
-      "apc_max_eur": 272.98,
-      "apc_max_usd": 300.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2022-06-02T06:59:34Z",
-      "created_year": 2022,
-      "created_month": "2022-06",
-      "last_updated": "2026-10-03T10:37:07Z",
-      "website": "https://journals.internationalrasd.org/index.php/jee/index",
-      "author_guidelines_url": "https://journals.internationalrasd.org/index.php/jee/guidlinesforauthors",
-      "article_records_exposed": null,
-      "search_text": "irasd journal of energy environment international research alliance for sustainable development irasd pk asia energy industries energy policy fuel trade energy conservation renewable energy sources environmental engineering en cc by nc"
     },
     {
       "id": "dfbb092e654341de839f664bfcc7c4ae",
