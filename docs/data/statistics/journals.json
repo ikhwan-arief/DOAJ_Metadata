@@ -1,8 +1,175 @@
 {
-  "generated_at": "2026-11-22T10:29:56.846696+00:00",
+  "generated_at": "2026-11-22T18:49:20.869838+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
-  "item_count": 23270,
+  "item_count": 23273,
   "items": [
+    {
+      "id": "65d14ef9e1b2497c992f4423e18d7cb7",
+      "title": "The BRICS Health Journal",
+      "publisher_name": "Sechenov University",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Public aspects of medicine"
+      ],
+      "subject_display": "Public aspects of medicine",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-22T18:35:33Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-22T18:35:33Z",
+      "website": "https://www.bricshealthjournal.com/jour",
+      "author_guidelines_url": "https://www.bricshealthjournal.com/jour/about/submissions#authorGuidelines",
+      "article_records_exposed": null,
+      "search_text": "the brics health journal sechenov university ru europe public aspects of medicine en cc by"
+    },
+    {
+      "id": "90cfa0bada3648fe8337936f0fd25913",
+      "title": "Magistra Vitae",
+      "publisher_name": "Publishing House of Chelyabinsk State University.",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "Archaeology",
+        "History (General)"
+      ],
+      "subject_display": "Archaeology · History (General)",
+      "languages": [
+        "RU",
+        "EN"
+      ],
+      "language_display": "RU, EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2026-11-22T16:00:11Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-22T16:00:11Z",
+      "website": "https://magistravitaejournal.ru/en/.html",
+      "author_guidelines_url": "https://magistravitaejournal.ru/en/authors.html",
+      "article_records_exposed": null,
+      "search_text": "magistra vitae publishing house of chelyabinsk state university ru europe archaeology history general ru en cc by"
+    },
+    {
+      "id": "223f202533df4b9299a0a8afca306c5d",
+      "title": "Крымское историческое обозрение",
+      "publisher_name": "Tatarstan Academy of Sciences, Marjani Institute of History , Russian Federation",
+      "country": "RU",
+      "continent": "Europe",
+      "subjects": [
+        "History of Eastern Europe"
+      ],
+      "subject_display": "History of Eastern Europe",
+      "languages": [
+        "EN",
+        "TT",
+        "TR",
+        "RU"
+      ],
+      "language_display": "EN, TT, TR, RU",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2021-04-06T16:44:26Z",
+      "created_year": 2021,
+      "created_month": "2021-04",
+      "last_updated": "2026-11-22T14:13:44Z",
+      "website": "https://crimeanreview.ru",
+      "author_guidelines_url": "https://crimeanreview.ru/en/rules-of-publication/",
+      "article_records_exposed": null,
+      "search_text": "tatarstan academy of sciences marjani institute of history russian federation ru europe history of eastern europe en tt tr ru cc by"
+    },
+    {
+      "id": "38a343bd6f5f46469c7d14dfadfe5307",
+      "title": "Advances in Skin Wound and Tissue Repair",
+      "publisher_name": "Yara Institute",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Dermatology"
+      ],
+      "subject_display": "Dermatology",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "100 USD / 10000000 IRR",
+      "apc_max_eur": 90.99,
+      "apc_max_usd": 100.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Unspecified peer review"
+      ],
+      "peer_review_display": "Unspecified peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Internet Archive"
+      ],
+      "created_date": "2026-11-22T10:59:45Z",
+      "created_year": 2026,
+      "created_month": "2026-11",
+      "last_updated": "2026-11-22T10:59:45Z",
+      "website": "https://icml.ir",
+      "author_guidelines_url": "https://icml.ir/page/19/For-Authors",
+      "article_records_exposed": null,
+      "search_text": "advances in skin wound and tissue repair yara institute ir asia dermatology en cc by nc"
+    },
     {
       "id": "c044c077b1c147d9bf8ede270acda9bc",
       "title": "Hawassa University Journal of Law",
@@ -820430,49 +820597,6 @@
       "author_guidelines_url": "https://jobrc.org/index.php/jobrc/Author_Guidelines",
       "article_records_exposed": null,
       "search_text": "al nahrain university biotechnology research center iq asia biotechnology biology general en cc by"
-    },
-    {
-      "id": "223f202533df4b9299a0a8afca306c5d",
-      "title": "Крымское историческое обозрение",
-      "publisher_name": "Tatarstan Academy of Sciences, Marjani Institute of History , Russian Federation",
-      "country": "RU",
-      "continent": "Europe",
-      "subjects": [
-        "History of Eastern Europe"
-      ],
-      "subject_display": "History of Eastern Europe",
-      "languages": [
-        "EN",
-        "TT",
-        "TR",
-        "RU"
-      ],
-      "language_display": "EN, TT, TR, RU",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2021-04-06T16:44:26Z",
-      "created_year": 2021,
-      "created_month": "2021-04",
-      "last_updated": "2026-09-17T10:41:49Z",
-      "website": "https://crimeanreview.ru",
-      "author_guidelines_url": "https://crimeanreview.ru/en/rules-of-publication/",
-      "article_records_exposed": null,
-      "search_text": "tatarstan academy of sciences marjani institute of history russian federation ru europe history of eastern europe en tt tr ru cc by"
     },
     {
       "id": "2de034a4b6984a9aaf9dae26836f85ae",
