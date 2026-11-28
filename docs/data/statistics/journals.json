@@ -1,8 +1,173 @@
 {
-  "generated_at": "2026-11-28T00:49:57.016664+00:00",
+  "generated_at": "2026-11-28T19:17:15.023716+00:00",
   "query": "created_date:[1900-01-01 TO 2100-12-31]",
   "item_count": 23332,
   "items": [
+    {
+      "id": "7f25f32f7de24e85a43707cc0150b378",
+      "title": "Indian Journal of Experimental Biology",
+      "publisher_name": "CSIR-NIScPR",
+      "country": "IN",
+      "continent": "Asia",
+      "subjects": [
+        "Biology (General)"
+      ],
+      "subject_display": "Biology (General)",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC-ND"
+      ],
+      "license_display": "CC BY-NC-ND",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": false,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "Handles"
+      ],
+      "preservation_services": [],
+      "created_date": "2020-11-05T08:28:34Z",
+      "created_year": 2020,
+      "created_month": "2020-11",
+      "last_updated": "2026-11-28T18:39:23Z",
+      "website": "http://op.niscpr.res.in/index.php/IJEB",
+      "author_guidelines_url": "http://op.niscpr.res.in/index.php/IJEB/about/submissions#onlineSubmissions",
+      "article_records_exposed": null,
+      "search_text": "indian journal of experimental biology csir niscpr in asia biology general en cc by nc nd"
+    },
+    {
+      "id": "4a4a91f946e040b4b2ef713cb425f3c3",
+      "title": "Helwan International Journal for Nursing Research and Practice",
+      "publisher_name": "Helwan University, Faculty of Nursing",
+      "country": "EG",
+      "continent": "Africa",
+      "subjects": [
+        "Nursing"
+      ],
+      "subject_display": "Nursing",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": true,
+      "apc_native_display": "2500 EGP",
+      "apc_max_eur": 41.62,
+      "apc_max_usd": 45.6,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2024-08-27T11:34:03Z",
+      "created_year": 2024,
+      "created_month": "2024-08",
+      "last_updated": "2026-11-28T18:29:18Z",
+      "website": "https://hijnrp.journals.ekb.eg/",
+      "author_guidelines_url": "https://hijnrp.journals.ekb.eg/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "helwan international journal for nursing research and practice helwan university faculty of nursing eg africa nursing en cc by"
+    },
+    {
+      "id": "ec6fb797ae114c90aa96541ab3a950e5",
+      "title": "Transactions on Fuzzy Sets and Systems",
+      "publisher_name": "Islamic Azad University, Bandar Abbas Branch",
+      "country": "IR",
+      "continent": "Asia",
+      "subjects": [
+        "Applied mathematics. Quantitative methods"
+      ],
+      "subject_display": "Applied mathematics. Quantitative methods",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY"
+      ],
+      "license_display": "CC BY",
+      "apc_has": false,
+      "apc_native_display": "",
+      "apc_max_eur": null,
+      "apc_max_usd": null,
+      "author_retains": true,
+      "peer_review_types": [
+        "Single anonymous peer review"
+      ],
+      "peer_review_display": "Single anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [],
+      "created_date": "2023-05-07T07:15:59Z",
+      "created_year": 2023,
+      "created_month": "2023-05",
+      "last_updated": "2026-11-28T18:24:44Z",
+      "website": "https://tfss.journals.iau.ir/",
+      "author_guidelines_url": "https://tfss.journals.iau.ir/journal/authors.note",
+      "article_records_exposed": null,
+      "search_text": "transactions on fuzzy sets and systems islamic azad university bandar abbas branch ir asia applied mathematics quantitative methods en cc by"
+    },
+    {
+      "id": "e5c07b9c02ba4f619a4d3b0486eeda0a",
+      "title": "iRASD Journal of Energy & Environment",
+      "publisher_name": "International Research Alliance for Sustainable Development - iRASD",
+      "country": "PK",
+      "continent": "Asia",
+      "subjects": [
+        "Energy industries. Energy policy. Fuel trade",
+        "Energy conservation",
+        "Renewable energy sources",
+        "Environmental engineering"
+      ],
+      "subject_display": "Energy industries. Energy policy. Fuel trade · Energy conservation",
+      "languages": [
+        "EN"
+      ],
+      "language_display": "EN",
+      "license_types": [
+        "CC BY-NC"
+      ],
+      "license_display": "CC BY-NC",
+      "apc_has": true,
+      "apc_native_display": "646 USD / 40000 PKR",
+      "apc_max_eur": 589.58,
+      "apc_max_usd": 646.0,
+      "author_retains": true,
+      "peer_review_types": [
+        "Double anonymous peer review"
+      ],
+      "peer_review_display": "Double anonymous peer review",
+      "pid_schemes": [
+        "DOI"
+      ],
+      "preservation_services": [
+        "Portico"
+      ],
+      "created_date": "2022-06-02T06:59:34Z",
+      "created_year": 2022,
+      "created_month": "2022-06",
+      "last_updated": "2026-11-28T07:31:28Z",
+      "website": "https://journals.internationalrasd.org/index.php/jee/index",
+      "author_guidelines_url": "https://journals.internationalrasd.org/index.php/jee/guidlinesforauthors",
+      "article_records_exposed": null,
+      "search_text": "irasd journal of energy environment international research alliance for sustainable development irasd pk asia energy industries energy policy fuel trade energy conservation renewable energy sources environmental engineering en cc by nc"
+    },
     {
       "id": "9d3689b960924ea593fa687bb02f784d",
       "title": "Korpus 21",
@@ -8082,51 +8247,6 @@
       "author_guidelines_url": "https://aimj.journals.ekb.eg/journal/authors.note",
       "article_records_exposed": null,
       "search_text": "al azhar international medical journal al azhar university faculty of medicine eg africa medicine en cc by sa"
-    },
-    {
-      "id": "e5c07b9c02ba4f619a4d3b0486eeda0a",
-      "title": "iRASD Journal of Energy & Environment",
-      "publisher_name": "International Research Alliance for Sustainable Development - iRASD",
-      "country": "PK",
-      "continent": "Asia",
-      "subjects": [
-        "Energy industries. Energy policy. Fuel trade",
-        "Energy conservation",
-        "Renewable energy sources",
-        "Environmental engineering"
-      ],
-      "subject_display": "Energy industries. Energy policy. Fuel trade · Energy conservation",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC"
-      ],
-      "license_display": "CC BY-NC",
-      "apc_has": true,
-      "apc_native_display": "646 USD / 40000 PKR",
-      "apc_max_eur": 589.58,
-      "apc_max_usd": 646.0,
-      "author_retains": true,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [
-        "Portico"
-      ],
-      "created_date": "2022-06-02T06:59:34Z",
-      "created_year": 2022,
-      "created_month": "2022-06",
-      "last_updated": "2026-11-20T20:11:56Z",
-      "website": "https://journals.internationalrasd.org/index.php/jee/index",
-      "author_guidelines_url": "https://journals.internationalrasd.org/index.php/jee/guidlinesforauthors",
-      "article_records_exposed": null,
-      "search_text": "irasd journal of energy environment international research alliance for sustainable development irasd pk asia energy industries energy policy fuel trade energy conservation renewable energy sources environmental engineering en cc by nc"
     },
     {
       "id": "2829aa283056461bb4866d46616964c2",
@@ -317920,46 +318040,6 @@
       "author_guidelines_url": "http://amazoniaperuana.caaap.org.pe/index.php/amazoniaperuana/NA",
       "article_records_exposed": null,
       "search_text": "amazonia peruana centro amazonico de antropologia y aplicacion practicca pe south america anthropology es cc by"
-    },
-    {
-      "id": "ec6fb797ae114c90aa96541ab3a950e5",
-      "title": "Transactions on Fuzzy Sets and Systems",
-      "publisher_name": "Islamic Azad University, Bandar Abbas Branch",
-      "country": "IR",
-      "continent": "Asia",
-      "subjects": [
-        "Applied mathematics. Quantitative methods"
-      ],
-      "subject_display": "Applied mathematics. Quantitative methods",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2023-05-07T07:15:59Z",
-      "created_year": 2023,
-      "created_month": "2023-05",
-      "last_updated": "2026-09-17T10:51:53Z",
-      "website": "https://tfss.journals.iau.ir/",
-      "author_guidelines_url": "https://tfss.journals.iau.ir/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "transactions on fuzzy sets and systems islamic azad university bandar abbas branch ir asia applied mathematics quantitative methods en cc by"
     },
     {
       "id": "4d40cd72a6e84fb6afaa490b8ffbc512",
@@ -859393,46 +859473,6 @@
       "search_text": "analele universitatii dunarea de jos din galati fascicula xix istorie dunarea de jos university of galati ro europe history general and history of europe en ro de fr es cc by nc"
     },
     {
-      "id": "4a4a91f946e040b4b2ef713cb425f3c3",
-      "title": "Helwan International Journal for Nursing Research and Practice",
-      "publisher_name": "Helwan University, Faculty of Nursing",
-      "country": "EG",
-      "continent": "Africa",
-      "subjects": [
-        "Nursing"
-      ],
-      "subject_display": "Nursing",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY"
-      ],
-      "license_display": "CC BY",
-      "apc_has": true,
-      "apc_native_display": "2500 EGP",
-      "apc_max_eur": 41.62,
-      "apc_max_usd": 45.6,
-      "author_retains": true,
-      "peer_review_types": [
-        "Single anonymous peer review"
-      ],
-      "peer_review_display": "Single anonymous peer review",
-      "pid_schemes": [
-        "DOI"
-      ],
-      "preservation_services": [],
-      "created_date": "2024-08-27T11:34:03Z",
-      "created_year": 2024,
-      "created_month": "2024-08",
-      "last_updated": "2026-09-17T10:41:03Z",
-      "website": "https://hijnrp.journals.ekb.eg/",
-      "author_guidelines_url": "https://hijnrp.journals.ekb.eg/journal/authors.note",
-      "article_records_exposed": null,
-      "search_text": "helwan international journal for nursing research and practice helwan university faculty of nursing eg africa nursing en cc by"
-    },
-    {
       "id": "ef4bd5daf2104abca4bc27759f621ab0",
       "title": "河南理工大学学报. 自然科学版",
       "publisher_name": "Academic Publishing Center of HPU",
@@ -969887,46 +969927,6 @@
       "author_guidelines_url": "https://bulletin-law.kaznu.kz/index.php/journal/information/authors",
       "article_records_exposed": null,
       "search_text": "al farabi kazakh national university kz asia law in general comparative and uniform law jurisprudence en ru kk cc by nc"
-    },
-    {
-      "id": "7f25f32f7de24e85a43707cc0150b378",
-      "title": "Indian Journal of Experimental Biology",
-      "publisher_name": "CSIR-NIScPR",
-      "country": "IN",
-      "continent": "Asia",
-      "subjects": [
-        "Biology (General)"
-      ],
-      "subject_display": "Biology (General)",
-      "languages": [
-        "EN"
-      ],
-      "language_display": "EN",
-      "license_types": [
-        "CC BY-NC-ND"
-      ],
-      "license_display": "CC BY-NC-ND",
-      "apc_has": false,
-      "apc_native_display": "",
-      "apc_max_eur": null,
-      "apc_max_usd": null,
-      "author_retains": false,
-      "peer_review_types": [
-        "Double anonymous peer review"
-      ],
-      "peer_review_display": "Double anonymous peer review",
-      "pid_schemes": [
-        "Handles"
-      ],
-      "preservation_services": [],
-      "created_date": "2020-11-05T08:28:34Z",
-      "created_year": 2020,
-      "created_month": "2020-11",
-      "last_updated": "2026-09-17T10:38:42Z",
-      "website": "http://op.niscpr.res.in/index.php/IJEB",
-      "author_guidelines_url": "http://op.niscpr.res.in/index.php/IJEB/about/submissions#onlineSubmissions",
-      "article_records_exposed": null,
-      "search_text": "indian journal of experimental biology csir niscpr in asia biology general en cc by nc nd"
     },
     {
       "id": "7579c92c31614fe3817ed29558f1b38c",
